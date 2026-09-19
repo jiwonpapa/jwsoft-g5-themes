@@ -1,0 +1,14 @@
+.DS_Store
+.idea/
+.vscode/
+.runtime/
+node_modules/
+vendor/
+dist/
+build/
+*.zip
+*.log
+.env
+.env.*
+!.env.example
+
