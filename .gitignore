@@ -41,5 +41,6 @@ harness/runtime/*/.admin.env
 output/playwright/
 output/qa/
 output/blender/
+output/mobile-menu-before/
 __pycache__/
 *.pyc
