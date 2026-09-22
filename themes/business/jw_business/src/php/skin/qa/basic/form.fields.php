@@ -1,4 +1,12 @@
 <?php
+/**
+ * Theme: JW-Business 1.0
+ * File: skin/qa/basic/form.fields.php
+ * Role: GnuBoard5 공개 화면 스킨
+ * Author: JW SOFT
+ * Copyright: Copyright (c) JW SOFT. All rights reserved.
+ * License: JW SOFT Commercial License; see LICENSE.txt
+ */
 if (!defined('_GNUBOARD_')) exit;
 $jw_qa_values = $jw_qa_answer_form ? array() : ($write ?? array());
 $jw_qa_upload_limit = number_format((int)$qaconfig['qa_upload_size'] / 1048576, 1).' MB';

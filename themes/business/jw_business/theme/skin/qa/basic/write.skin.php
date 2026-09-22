@@ -1,5 +1,14 @@
 <?php
+/**
+ * Theme: JW-Business 1.0
+ * File: skin/qa/basic/write.skin.php
+ * Role: GnuBoard5 공개 화면 스킨
+ * Original: GnuBoard5 Basic 3.0.0 by SIR
+ * Modified by: JW SOFT
+ * Copyright: Copyright (c) SIR and JW SOFT contributors
+ * License: LGPL-2.1-only; see LICENSES/gnuboard5-LGPL-2.1.txt
+ */
 if (!defined('_GNUBOARD_')) exit;
 $jw_qa_answer_form = false;
-include __DIR__.'/form.fields.php';
+include G5_THEME_PATH.'/skin/qa/basic/form.fields.php';
 ?>

@@ -1,4 +1,13 @@
 <?php
+/**
+ * Theme: JW-Business 1.0
+ * File: theme.config.php
+ * Role: GnuBoard5 테마 실행 파일
+ * Original: GnuBoard5 Basic 3.0.0 by SIR
+ * Modified by: JW SOFT
+ * Copyright: Copyright (c) SIR and JW SOFT contributors
+ * License: LGPL-2.1-only; see LICENSES/gnuboard5-LGPL-2.1.txt
+ */
 if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
 
 // 테마가 지원하는 장치 설정 pc, mobile

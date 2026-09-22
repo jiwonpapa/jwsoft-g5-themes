@@ -1,4 +1,13 @@
-<?php if (!defined('_GNUBOARD_')) exit; ?>
+<?php
+/**
+ * Theme: JW-Business 1.0
+ * File: skin/member/basic/register_result.skin.php
+ * Role: GnuBoard5 공개 화면 스킨
+ * Original: GnuBoard5 Basic 3.0.0 by SIR
+ * Modified by: JW SOFT
+ * Copyright: Copyright (c) SIR and JW SOFT contributors
+ * License: LGPL-2.1-only; see LICENSES/gnuboard5-LGPL-2.1.txt
+ */ if (!defined('_GNUBOARD_')) exit; ?>
 <section class="jw-register jw-register--complete">
     <?php $jw_register_step = 3; include G5_THEME_PATH.'/skin/member/basic/steps.php'; ?>
     <header class="jw-register__header"><p class="jw-success-mark" aria-hidden="true">✓</p><h2>회원가입이 완료되었습니다</h2><p><?php echo get_text($mb['mb_name']); ?>님, 환영합니다.</p></header>

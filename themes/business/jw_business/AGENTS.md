@@ -7,7 +7,7 @@
 - 상품명 `JW-Business 1.0`, slug `jw_business`, 개발 버전 `1.0.0-dev.1`.
 - 기업·전문 서비스용 G5 커뮤니티 테마입니다. 영카트·빌더·에디터·업로더는 제외합니다.
 - 2026-09-21 공식 베이직 전체 반입과 build·구매자 개발 하네스를 구축했습니다. 기존 공통 헤더·메뉴·푸터·메인 source는 실제 화면에서 레거시 G5 CSS·DOM·JavaScript 결합 문제가 확인되어 구현 기준선에서 제외했습니다.
-- 공통 기반은 `docs/plans/JW-BUSINESS-LEGACY-MODERNIZATION-PLAN.md`를 따릅니다. 2026-09-22 사용자 지시에 따라 잔여 기능 검증과 일반페이지 개선을 분리하여 진행합니다. 일반페이지는 Enfold 연구 적용 보고서의 순서대로 페이지 단위 구현·시야 검증을 하며, 전체 기능 완료로 확대 보고하지 않습니다.
+- 공통 기반은 `docs/plans/JW-BUSINESS-LEGACY-MODERNIZATION-PLAN.md`를 따릅니다. 잔여 기능 검증과 일반페이지 개선은 분리합니다. 2026-09-22 사용자 지시에 따라 페이지마다 승인을 묻지 않고 메뉴별로 하위 레이아웃 전체를 묶어 구현·시야 검증·커밋·푸시합니다. 진행 상태는 `docs/plans/JW-BUSINESS-MENU-BATCHES.md`에 기록하며, 전체 기능 완료로 확대 보고하지 않습니다.
 - 출시 범위는 루트 `docs/plans/JW-BUSINESS-1.0-IMPLEMENTATION-SCOPE.md`를 따릅니다.
 
 ## 먼저 읽기
@@ -25,6 +25,18 @@
 - G5 코어와 DB schema는 수정하지 않습니다. `theme/basic` 스킨 문자열을 테마 경로라고 오인해 일괄 변경하지 않습니다.
 - 쇼핑몰 174개 파일은 반입 증거로 보존하며 출시 payload에서는 제외합니다. 커뮤니티 PC·모바일 경로는 모두 개편·검증합니다.
 - `.runtime/gnuboard5` 원본을 수정하지 않습니다. Ubuntu 배포·시험은 별도 명시 지시에 따릅니다.
+
+## PHP 구조 계약
+
+- 실제 홈은 `src/php/index.php` 하나이며, 선택용 홈은 완성형 `index_1.php`~`index_5.php`로 둡니다.
+- 홈 변경 안내는 선택한 `index_N.php`를 `index.php`로 복사하는 방식만 사용합니다.
+- 일반 페이지는 웹루트 `pages/`의 완성형 PHP 파일입니다. `common.php`, 제목, 테마 head, 전체 본문, 테마 tail을 파일 안에 직접 둡니다.
+- 테마 내부 `pages/`, `partials/`, `sections/`, `blocks/`와 page dispatcher, 동적 화면 include를 만들지 않습니다.
+- 복사용 블록은 런타임 밖에서 관리하고 페이지로 복사한 위치에 원본과 독립 수정임을 주석으로 남깁니다.
+- 공용 include는 `docs/STRUCTURE-CONTRACT.md`의 명시 목록에 있는 메뉴와 실제 다중 소비 스킨 조각만 허용합니다.
+- 공개 메뉴의 원본은 G5 관리자 메뉴 DB `get_menu_db()`입니다. 별도 navigation catalog를 만들지 않습니다.
+- JW 작성·수정 PHP에는 파일 역할, 작성자 또는 원저작자, 저작권, 라이선스 헤더를 둡니다.
+- 구조 변경 후 `bun run structure:check`를 먼저 실행합니다.
 
 ## 디자인·코딩
 

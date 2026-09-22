@@ -1,4 +1,13 @@
 <?php
+/**
+ * Theme: JW-Business 1.0
+ * File: head.sub.php
+ * Role: GnuBoard5 테마 실행 파일
+ * Original: GnuBoard5 Basic 3.0.0 by SIR
+ * Modified by: JW SOFT
+ * Copyright: Copyright (c) SIR and JW SOFT contributors
+ * License: LGPL-2.1-only; see LICENSES/gnuboard5-LGPL-2.1.txt
+ */
 if (!defined('_GNUBOARD_')) exit;
 
 $g5_debug['php']['begin_time'] = $begin_time = get_microtime();

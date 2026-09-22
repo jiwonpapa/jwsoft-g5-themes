@@ -1,4 +1,12 @@
 <?php
+/**
+ * Theme: JW-Business 1.0
+ * File: lib/jw-business.lib.php
+ * Role: 테마 설정과 순수 공용 함수
+ * Author: JW SOFT
+ * Copyright: Copyright (c) JW SOFT. All rights reserved.
+ * License: JW SOFT Commercial License; see LICENSE.txt
+ */
 if (!defined('_GNUBOARD_')) exit;
 
 if (!function_exists('jw_business_settings')) {
@@ -47,127 +55,11 @@ if (!function_exists('jw_business_settings')) {
     }
 }
 
-if (!function_exists('jw_business_page_catalog')) {
-    function jw_business_page_catalog()
-    {
-        static $catalog;
-        if (isset($catalog)) return $catalog;
-
-        $path = G5_THEME_PATH.'/pages/catalog.json';
-        $decoded = is_file($path) ? json_decode((string) file_get_contents($path), true) : null;
-        $catalog = is_array($decoded) && isset($decoded['pageTypes']) && is_array($decoded['pageTypes'])
-            ? $decoded
-            : array('schemaVersion' => 1, 'pageTypes' => array());
-
-        return $catalog;
-    }
-}
-
 if (!function_exists('jw_business_page_url')) {
     function jw_business_page_url($page_id)
     {
         $page_id = preg_replace('/[^a-z0-9-]/', '', strtolower((string) $page_id));
         return G5_URL.'/pages/'.$page_id.'.php';
-    }
-}
-
-if (!function_exists('jw_business_page_find')) {
-    function jw_business_page_find($page_id)
-    {
-        if (!preg_match('/^([a-z][a-z0-9-]*)-([1-5])$/', (string) $page_id, $matches)) return null;
-
-        foreach (jw_business_page_catalog()['pageTypes'] as $page_type) {
-            if (($page_type['id'] ?? '') !== $matches[1]) continue;
-
-            $variant = (int) $matches[2];
-            $layouts = isset($page_type['layouts']) && is_array($page_type['layouts']) ? $page_type['layouts'] : array();
-            if (!isset($layouts[$variant - 1])) return null;
-
-            return array_merge($page_type, array(
-                'pageId' => $page_id,
-                'variant' => $variant,
-                'layout' => $layouts[$variant - 1],
-                'url' => jw_business_page_url($page_id),
-            ));
-        }
-
-        return null;
-    }
-}
-
-if (!function_exists('jw_business_page_menu_group')) {
-    function jw_business_page_menu_group($category)
-    {
-        $groups = array();
-        foreach (jw_business_page_catalog()['pageTypes'] as $page_type) {
-            if (($page_type['category'] ?? '') !== $category) continue;
-
-            $variants = array();
-            foreach ((array) ($page_type['layouts'] ?? array()) as $index => $layout) {
-                $page_id = $page_type['id'].'-'.($index + 1);
-                $variants[] = array(
-                    'me_name' => '#'.($index + 1).' '.$layout,
-                    'me_link' => jw_business_page_url($page_id),
-                    'me_target' => 'self',
-                    'sub' => array(),
-                );
-            }
-
-            if (!$variants) continue;
-            $groups[] = array(
-                'me_name' => $page_type['title'],
-                'me_link' => $variants[0]['me_link'],
-                'me_target' => 'self',
-                'sub' => $variants,
-            );
-        }
-
-        return $groups;
-    }
-}
-
-if (!function_exists('jw_business_navigation')) {
-    function jw_business_navigation()
-    {
-        static $navigation;
-        if (isset($navigation)) return $navigation;
-
-        $custom_path = G5_THEME_PATH.'/custom/navigation.php';
-        if (is_file($custom_path)) {
-            $custom = include $custom_path;
-            if (is_array($custom)) {
-                $navigation = $custom;
-                return $navigation;
-            }
-        }
-
-        $home = jw_business_page_menu_group('home');
-        $company = jw_business_page_menu_group('company');
-        $business = jw_business_page_menu_group('business');
-        $recruit = jw_business_page_menu_group('recruit');
-        $support = array_merge(
-            jw_business_page_menu_group('support'),
-            jw_business_page_menu_group('contact'),
-            array(
-                array('me_name' => '공지사항', 'me_link' => get_pretty_url('notice'), 'me_target' => 'self', 'sub' => array()),
-                array('me_name' => 'FAQ', 'me_link' => G5_BBS_URL.'/faq.php', 'me_target' => 'self', 'sub' => array()),
-                array('me_name' => '1:1 문의', 'me_link' => G5_BBS_URL.'/qalist.php', 'me_target' => 'self', 'sub' => array()),
-            )
-        );
-
-        $navigation = array(
-            $home[0] ?? array('me_name' => '메인', 'me_link' => G5_URL, 'me_target' => 'self', 'sub' => array()),
-            array('me_name' => '회사소개', 'me_link' => $company[0]['me_link'] ?? G5_URL, 'me_target' => 'self', 'sub' => $company),
-            array('me_name' => '사업분야', 'me_link' => $business[0]['me_link'] ?? G5_URL, 'me_target' => 'self', 'sub' => $business),
-            array('me_name' => '프로젝트', 'me_link' => get_pretty_url('gallery'), 'me_target' => 'self', 'sub' => array(
-                array('me_name' => '프로젝트 갤러리', 'me_link' => get_pretty_url('gallery'), 'me_target' => 'self', 'sub' => array()),
-                array('me_name' => '자유게시판', 'me_link' => get_pretty_url('free'), 'me_target' => 'self', 'sub' => array()),
-            )),
-            array('me_name' => '인재채용', 'me_link' => $recruit[0]['me_link'] ?? G5_URL, 'me_target' => 'self', 'sub' => $recruit),
-            array('me_name' => '고객지원', 'me_link' => $support[0]['me_link'] ?? G5_BBS_URL.'/faq.php', 'me_target' => 'self', 'sub' => $support),
-        );
-
-        return $navigation;
     }
 }
 

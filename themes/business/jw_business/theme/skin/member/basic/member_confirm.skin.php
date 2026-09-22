@@ -1,4 +1,13 @@
-<?php if (!defined('_GNUBOARD_')) exit; ?>
+<?php
+/**
+ * Theme: JW-Business 1.0
+ * File: skin/member/basic/member_confirm.skin.php
+ * Role: GnuBoard5 공개 화면 스킨
+ * Original: GnuBoard5 Basic 3.0.0 by SIR
+ * Modified by: JW SOFT
+ * Copyright: Copyright (c) SIR and JW SOFT contributors
+ * License: LGPL-2.1-only; see LICENSES/gnuboard5-LGPL-2.1.txt
+ */ if (!defined('_GNUBOARD_')) exit; ?>
 <main class="jw-auth" id="jw-main">
     <div class="jw-auth__top"><a class="jw-brand" href="<?php echo G5_URL; ?>"><span class="jw-brand__mark" aria-hidden="true">JW</span><span class="jw-brand__name"><?php echo get_text($config['cf_title']); ?></span></a><button type="button" class="jw-icon-button" data-jw-theme-toggle aria-label="다크 모드로 전환" aria-pressed="false"><i data-lucide="moon"></i></button></div>
     <section class="jw-auth-card" aria-labelledby="jw-confirm-title">

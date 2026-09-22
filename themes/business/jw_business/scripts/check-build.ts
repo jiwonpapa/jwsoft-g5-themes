@@ -47,9 +47,10 @@ async function main(): Promise<void> {
   }
   assert(!fileSet.has("screenshot.png"), "inherited basic screenshot must not enter the payload");
   assert(!files.some((path) => path.endsWith(".map") || path.includes("node_modules")), "development file entered the payload");
-  assert(pageFiles.length === 76, `expected 75 page routes and one catalog, found ${pageFiles.length}`);
+  assert(pageFiles.length === 71, `expected 70 standalone page routes and one catalog, found ${pageFiles.length}`);
   assert(pageFiles.includes("index.php"), "page catalog route is missing");
-  assert(pageFiles.filter((path) => path !== "index.php").every((path) => /^[a-z][a-z0-9-]*-[1-5]\.php$/.test(path)), "invalid generated page route name");
+  assert(pageFiles.filter((path) => path !== "index.php").every((path) => /^[a-z][a-z0-9-]*-[1-5]\.php$/.test(path)), "invalid standalone page route name");
+  assert(!pageFiles.some((path) => /^home-[1-5]\.php$/.test(path)), "home variants must stay in the theme root");
 
   const cssPath = join(payloadRoot, "css/jw-business.min.css");
   const jsPath = join(payloadRoot, "js/jw-business.min.js");

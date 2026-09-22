@@ -1,4 +1,13 @@
 <?php
+/**
+ * Theme: JW-Business 1.0
+ * File: skin/new/basic/new.skin.php
+ * Role: GnuBoard5 공개 화면 스킨
+ * Original: GnuBoard5 Basic 3.0.0 by SIR
+ * Modified by: JW SOFT
+ * Copyright: Copyright (c) SIR and JW SOFT contributors
+ * License: LGPL-2.1-only; see LICENSES/gnuboard5-LGPL-2.1.txt
+ */
 if (!defined('_GNUBOARD_')) exit;
 include_once G5_THEME_PATH.'/lib/jw-community.lib.php';
 $jw_group_select = preg_replace('/<label\b[^>]*>.*?<\/label>/is', '', $group_select);

@@ -1,4 +1,5 @@
 const steps = [
+  ["bun", "run", "themes/business/jw_business/scripts/check-structure.ts"],
   ["bun", "run", "tools/verify-impeccable.ts"],
   ["bun", "run", "packages/theme-contracts/src/cli.ts", "check"],
   ["bun", "test", "packages/theme-contracts/tests"],

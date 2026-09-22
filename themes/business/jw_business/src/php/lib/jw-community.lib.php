@@ -1,4 +1,12 @@
 <?php
+/**
+ * Theme: JW-Business 1.0
+ * File: lib/jw-community.lib.php
+ * Role: 테마 설정과 순수 공용 함수
+ * Author: JW SOFT
+ * Copyright: Copyright (c) JW SOFT. All rights reserved.
+ * License: JW SOFT Commercial License; see LICENSE.txt
+ */
 if (!defined('_GNUBOARD_')) exit;
 
 // Keep the core's permission-filtered links; replace its inline-script sideview shell.

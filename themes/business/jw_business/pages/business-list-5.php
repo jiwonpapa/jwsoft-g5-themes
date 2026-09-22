@@ -1,4 +1,36 @@
 <?php
+/**
+ * Theme: JW-Business 1.0
+ * File: pages/business-list-5.php
+ * Role: 사업분야 · 목적별 업무 완성형 일반 페이지
+ * Author: JW SOFT
+ * Copyright: Copyright (c) JW SOFT. All rights reserved.
+ * License: JW SOFT Commercial License; see LICENSE.txt
+ */
 include_once dirname(__DIR__).'/common.php';
-$jw_page_id = 'business-list-5';
-include G5_THEME_PATH.'/pages/page.php';
+$g5['title'] = '사업분야 · 목적별 업무';
+$jw_description = '방향을 정하는 업무와 경험을 만드는 업무를 구분해 필요한 서비스를 찾아보세요.';
+$g5['document_meta'] = array(
+    'description' => $jw_description,
+    'canonical' => G5_URL.'/pages/business-list-5.php',
+    'open_graph' => array('type' => 'website', 'title' => $g5['title'], 'description' => $jw_description, 'url' => G5_URL.'/pages/business-list-5.php'),
+);
+$jw_full_width_page = true;
+include_once G5_THEME_PATH.'/head.php';
+?>
+<?php
+$jw_link = static function ($id) { return jw_business_escape(jw_business_page_url($id)); };
+$jw_company = jw_business_settings()['company'];
+?>
+<article class="jwc jwb" data-jw-page-id="business-list-5">
+    <nav class="jwc-trail jwc-wrap" aria-label="현재 위치"><a href="<?php echo G5_URL; ?>">홈</a><span aria-hidden="true">/</span><span aria-current="page"><?php echo jw_business_escape($g5['title']); ?></span></nav>
+    <!-- JW BLOCK COPY START: legacy src/php/pages/business-list-5.php; 이 페이지 안에서만 수정합니다. -->
+<header class="jwc-cinema-title jwc-wrap"><h1>지금 필요한 변화는<br>어디에 있나요?</h1><p>방향을 정하는 일과<br>경험을 만드는 일로 나누어 살펴봅니다.</p></header>
+<nav class="jwc-wrap jwb-group-nav" aria-label="업무 묶음 바로가기"><a href="#business-direction">방향과 계획<i data-lucide="arrow-down" aria-hidden="true"></i></a><a href="#business-experience">정보와 공간<i data-lucide="arrow-down" aria-hidden="true"></i></a></nav>
+<section class="jwc-section jwc-wrap jwb-group" id="business-direction"><header><h2>방향과 계획</h2><p>어떤 과제부터 시작할지,<br>어디까지 진행할지 정합니다.</p><div class="jwc-photo jwc-photo--team" role="img" aria-label="자료를 함께 검토하는 동료"></div></header><div class="jwb-group-items"><article><h3>비즈니스 컨설팅</h3><p>현황과 요구사항을 정리하고, 목표에 맞춰 실행할 일의 우선순위를 세웁니다.</p><dl class="jwb-inline-facts"><div><dt>이런 상황에</dt><dd>요구사항은 많지만 시작할 과제가 불명확할 때</dd></div><div><dt>함께 정리</dt><dd>주요 과제 · 우선순위 · 실행 범위</dd></div></dl><a class="jwc-link" href="<?php echo $jw_link('business-detail-1'); ?>">컨설팅 소개<i data-lucide="arrow-up-right" aria-hidden="true"></i></a></article><article><h3>협업 과정과 산출물</h3><p>각 단계에서 무엇을 함께 확인하고 어떤 자료를 남기는지 먼저 살펴보세요.</p><a class="jwc-link" href="<?php echo $jw_link('business-detail-5'); ?>">과정과 산출물 보기<i data-lucide="arrow-up-right" aria-hidden="true"></i></a></article></div></section>
+<section class="jwc-soft" id="business-experience"><div class="jwc-section jwc-wrap jwb-group"><header><h2>정보와 공간</h2><p>온라인에서 찾는 정보와<br>현장에서 만나는 경험을 연결합니다.</p><div class="jwc-photo jwc-photo--workspace" role="img" aria-label="창가와 테이블이 있는 업무 공간"></div></header><div class="jwb-group-items"><article><h3>디지털 서비스</h3><p>메뉴와 콘텐츠, 화면과 문의 경로를 방문자의 이용 목적에 맞춰 정리합니다.</p><a class="jwc-link" href="<?php echo $jw_link('business-detail-2'); ?>">디지털 업무 범위<i data-lucide="arrow-up-right" aria-hidden="true"></i></a></article><article><h3>공간 경험</h3><p>방문 동선과 영역별 사용 목적, 안내 방식을 살펴 공간의 쓰임을 구체화합니다.</p><a class="jwc-link" href="<?php echo $jw_link('business-detail-3'); ?>">공간 업무 범위<i data-lucide="arrow-up-right" aria-hidden="true"></i></a></article></div></div></section>
+<section class="jwc-section jwc-wrap jwc-question"><h2>분야를 정하지 않아도 괜찮습니다.</h2><p>현재 상황과 바꾸고 싶은 점을 알려 주세요.<br>필요한 업무와 협업 범위를 함께 확인합니다.</p><a class="jw-control jw-control--primary" href="<?php echo $jw_link('contact-1'); ?>">문의 안내<i data-lucide="arrow-right" aria-hidden="true"></i></a></section>
+    <!-- JW BLOCK COPY END -->
+    <aside class="jwc-demo jwc-wrap"><p>테마 시연용 사업 안내입니다. 실제 제공 범위와 연락처는 운영자의 정보로 설정합니다.</p></aside>
+</article>
+<?php include_once G5_THEME_PATH.'/tail.php'; ?>

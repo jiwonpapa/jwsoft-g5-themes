@@ -7,7 +7,6 @@ const sourceRoot = join(themeRoot, "src/php");
 const buildRoot = join(themeRoot, "build/vite");
 const payloadRoot = join(themeRoot, "theme");
 const pagesRoot = join(themeRoot, "pages");
-const pageCatalogPath = join(sourceRoot, "pages/catalog.json");
 const inventoryPath = join(themeRoot, "docs/BASIC-INVENTORY.json");
 const assetManifestPath = join(themeRoot, "ASSET-MANIFEST.json");
 const staticExtensions = new Set(["css", "gif", "ico", "jpeg", "jpg", "js", "png", "svg", "webp", "woff", "woff2"]);
@@ -48,35 +47,17 @@ async function copyFile(source: string, destination: string): Promise<void> {
   await cp(source, destination);
 }
 
-async function buildPageRoutes(): Promise<number> {
-  const catalog = JSON.parse(await readFile(pageCatalogPath, "utf8")) as {
-    pageTypes: Array<{ id: string; layouts: string[] }>;
-  };
-  await rm(pagesRoot, { recursive: true, force: true });
-  await mkdir(pagesRoot, { recursive: true });
-
-  const routeIds: string[] = [];
-  for (const pageType of catalog.pageTypes) {
-    if (!/^[a-z][a-z0-9-]*$/.test(pageType.id)) throw new Error(`invalid page type id: ${pageType.id}`);
-    if (!Array.isArray(pageType.layouts) || pageType.layouts.length !== 5) {
-      throw new Error(`page type must define five layouts: ${pageType.id}`);
-    }
-
-    for (let index = 0; index < pageType.layouts.length; index += 1) {
-      const pageId = `${pageType.id}-${index + 1}`;
-      routeIds.push(pageId);
-      await writeFile(
-        join(pagesRoot, `${pageId}.php`),
-        `<?php\ninclude_once dirname(__DIR__).'/common.php';\n$jw_page_id = '${pageId}';\ninclude G5_THEME_PATH.'/pages/page.php';\n`,
-      );
-    }
+async function countStandalonePages(): Promise<number> {
+  const pageFiles = (await walkFiles(pagesRoot))
+    .map((path) => portablePath(relative(pagesRoot, path)))
+    .filter((path) => path.endsWith(".php"));
+  if (pageFiles.length !== 71 || !pageFiles.includes("index.php")) {
+    throw new Error(`expected 70 standalone pages and one catalog, found ${pageFiles.length}`);
   }
-
-  await writeFile(
-    join(pagesRoot, "index.php"),
-    "<?php\ninclude_once dirname(__DIR__).'/common.php';\ninclude G5_THEME_PATH.'/pages/catalog-index.php';\n",
-  );
-  return routeIds.length;
+  if (pageFiles.some((path) => /^home-[1-5]\.php$/.test(path))) {
+    throw new Error("home variants belong in theme index_1.php through index_5.php");
+  }
+  return pageFiles.length - 1;
 }
 
 async function main(): Promise<void> {
@@ -98,7 +79,7 @@ async function main(): Promise<void> {
 
   await rm(payloadRoot, { recursive: true, force: true });
   await mkdir(payloadRoot, { recursive: true });
-  const pageRouteCount = await buildPageRoutes();
+  const pageRouteCount = await countStandalonePages();
 
   for (const source of await walkFiles(sourceRoot)) {
     const path = portablePath(relative(sourceRoot, source));

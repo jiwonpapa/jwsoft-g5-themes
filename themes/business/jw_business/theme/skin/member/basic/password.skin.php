@@ -1,4 +1,13 @@
-<?php if (!defined('_GNUBOARD_')) exit; ?>
+<?php
+/**
+ * Theme: JW-Business 1.0
+ * File: skin/member/basic/password.skin.php
+ * Role: GnuBoard5 공개 화면 스킨
+ * Original: GnuBoard5 Basic 3.0.0 by SIR
+ * Modified by: JW SOFT
+ * Copyright: Copyright (c) SIR and JW SOFT contributors
+ * License: LGPL-2.1-only; see LICENSES/gnuboard5-LGPL-2.1.txt
+ */ if (!defined('_GNUBOARD_')) exit; ?>
 <main class="jw-auth" id="jw-main"><section class="jw-auth-card"><header class="jw-register__header"><h2><?php echo get_text($g5['title']); ?></h2><p>글 작성 시 입력한 비밀번호를 확인해 주세요.</p></header>
 <form name="fboardpassword" class="jw-auth-form" action="<?php echo $action; ?>" method="post">
     <input type="hidden" name="w" value="<?php echo $w ?>">

@@ -18,8 +18,8 @@ FINISH: PC/모바일 5종 직접 스크린샷 확인, 슬라이더·스크롤 �
 
 ## 구현 및 편집 위치
 
-- 본문: `src/php/pages/company-overview/1.php` ~ `5.php`. 번호별로 독립 구성하며 기존 `/pages/company-overview-N.php` 경로를 유지합니다.
-- 공통 출력: `src/php/pages/company-overview.php`. 페이지별 설명 메타, 헤더·푸터, 디자인 비교 링크를 출력합니다.
+- 본문: 웹루트 `pages/company-overview-1.php` ~ `5.php`. 각 파일이 메타, 헤더, 전체 본문, 푸터를 가진 독립 페이지입니다.
+- 공통 page renderer나 테마 내부 페이지 조각을 호출하지 않습니다. 기존 블록을 복사한 위치에는 `JW BLOCK COPY` 주석을 남기며 각 파일에서 독립적으로 수정합니다.
 - 스타일: `src/styles/company-overview.css`. `.jwc` 아래로 한정합니다.
 - 동작: `src/scripts/company-overview.ts`. 슬라이더가 있는 페이지와 패럴랙스가 있는 페이지에서만 초기화합니다.
 - 슬라이더: Embla Carousel 8.6.0, MIT. https://github.com/davidjerleke/embla-carousel/tree/v8.6.0

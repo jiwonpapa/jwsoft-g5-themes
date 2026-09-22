@@ -1,4 +1,13 @@
 <?php
+/**
+ * Theme: JW-Business 1.0
+ * File: skin/faq/basic/list.skin.php
+ * Role: GnuBoard5 공개 화면 스킨
+ * Original: GnuBoard5 Basic 3.0.0 by SIR
+ * Modified by: JW SOFT
+ * Copyright: Copyright (c) SIR and JW SOFT contributors
+ * License: LGPL-2.1-only; see LICENSES/gnuboard5-LGPL-2.1.txt
+ */
 if (!defined('_GNUBOARD_')) exit;
 $jw_faq_html_prefix = G5_IS_MOBILE ? 'fm_mobile_' : 'fm_';
 ?>

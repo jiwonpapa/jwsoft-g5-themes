@@ -1,4 +1,13 @@
 <?php
+/**
+ * Theme: JW-Business 1.0
+ * File: skin/qa/basic/view.skin.php
+ * Role: GnuBoard5 공개 화면 스킨
+ * Original: GnuBoard5 Basic 3.0.0 by SIR
+ * Modified by: JW SOFT
+ * Copyright: Copyright (c) SIR and JW SOFT contributors
+ * License: LGPL-2.1-only; see LICENSES/gnuboard5-LGPL-2.1.txt
+ */
 if (!defined('_GNUBOARD_')) exit;
 include_once G5_LIB_PATH.'/thumbnail.lib.php';
 ?>
@@ -6,7 +15,7 @@ include_once G5_LIB_PATH.'/thumbnail.lib.php';
     <header class="jw-inquiry-heading"><p class="jw-support-meta"><?php echo $view['category']; ?> · <?php echo $view['qa_status'] ? '답변 완료' : '답변 대기'; ?></p><h2><?php echo $view['subject']; ?></h2><p class="jw-support-meta"><?php echo $view['name']; ?> · <?php echo $view['datetime']; ?></p>
         <?php if ($view['email'] || $view['hp']) { ?><p class="jw-support-meta"><?php echo $view['email']; ?> <?php echo $view['hp']; ?></p><?php } ?>
     </header>
-    <div class="jw-support-content jw-inquiry-content"><?php echo get_view_thumbnail($view['content'], $qaconfig['qa_image_width']); ?><?php $jw_qa_record=$view; include __DIR__.'/attachments.php'; ?></div>
+    <div class="jw-support-content jw-inquiry-content"><?php echo get_view_thumbnail($view['content'], $qaconfig['qa_image_width']); ?><?php $jw_qa_record=$view; include G5_THEME_PATH.'/skin/qa/basic/attachments.php'; ?></div>
     <div class="jw-support-actions">
         <a class="jw-control" href="<?php echo htmlspecialchars($list_href, ENT_QUOTES, 'UTF-8', false); ?>">목록으로</a>
         <?php if ($update_href) { ?><a class="jw-control" href="<?php echo htmlspecialchars($update_href, ENT_QUOTES, 'UTF-8', false); ?>">문의 수정</a><?php } ?>

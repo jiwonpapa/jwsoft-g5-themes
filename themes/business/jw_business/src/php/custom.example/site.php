@@ -1,4 +1,12 @@
 <?php
+/**
+ * Theme: JW-Business 1.0
+ * File: custom.example/site.php
+ * Role: GnuBoard5 테마 실행 파일
+ * Author: JW SOFT
+ * Copyright: Copyright (c) JW SOFT. All rights reserved.
+ * License: JW SOFT Commercial License; see LICENSE.txt
+ */
 if (!defined('_GNUBOARD_')) exit;
 
 return array(

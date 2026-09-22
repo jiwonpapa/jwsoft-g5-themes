@@ -1,4 +1,12 @@
 <?php
+/**
+ * Theme: JW-Business 1.0
+ * File: skin/member/basic/certification.php
+ * Role: GnuBoard5 공개 화면 스킨
+ * Author: JW SOFT
+ * Copyright: Copyright (c) JW SOFT. All rights reserved.
+ * License: JW SOFT Commercial License; see LICENSE.txt
+ */
 if (!defined('_GNUBOARD_')) exit;
 $jw_cert_buttons = array();
 

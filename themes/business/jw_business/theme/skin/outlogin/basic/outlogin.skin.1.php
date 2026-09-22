@@ -1,4 +1,13 @@
-<?php if (!defined('_GNUBOARD_')) exit; ?>
+<?php
+/**
+ * Theme: JW-Business 1.0
+ * File: skin/outlogin/basic/outlogin.skin.1.php
+ * Role: GnuBoard5 공개 화면 스킨
+ * Original: GnuBoard5 Basic 3.0.0 by SIR
+ * Modified by: JW SOFT
+ * Copyright: Copyright (c) SIR and JW SOFT contributors
+ * License: LGPL-2.1-only; see LICENSES/gnuboard5-LGPL-2.1.txt
+ */ if (!defined('_GNUBOARD_')) exit; ?>
 <section class="jw-widget" aria-label="회원 로그인"><h2>로그인</h2>
 <form name="foutlogin" class="jw-auth-form" action="<?php echo $outlogin_action_url; ?>" method="post">
 <input type="hidden" name="url" value="<?php echo $outlogin_url; ?>">
