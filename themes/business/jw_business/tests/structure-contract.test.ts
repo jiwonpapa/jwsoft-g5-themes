@@ -104,6 +104,22 @@ describe("JW-Business structure contract", () => {
     expect(codes).toContain("VIEW_INCLUDE_FORBIDDEN");
   });
 
+  test("allows only the exact G5 bootstrap for direct alternative-home previews", async () => {
+    const root = await fixture();
+    await writeFile(join(root, "src/php/index_2.php"), home("index_2.php").replace(
+      "if (!defined('_GNUBOARD_')) exit;",
+      "if (!defined('_GNUBOARD_')) { include_once dirname(__DIR__, 2).'/common.php'; }",
+    ));
+    expect(await collectStructureViolations(root)).toEqual([]);
+
+    await writeFile(join(root, "src/php/index_2.php"), home("index_2.php").replace(
+      "if (!defined('_GNUBOARD_')) exit;",
+      "include_once dirname(__DIR__, 2).'/body.php';",
+    ));
+    const codes = (await collectStructureViolations(root)).map((violation) => violation.code);
+    expect(codes).toContain("LOCAL_VIEW_INCLUDE_FORBIDDEN");
+  });
+
   test("rejects wrapper pages that delegate their body to a theme dispatcher", async () => {
     const root = await fixture();
     await writeFile(

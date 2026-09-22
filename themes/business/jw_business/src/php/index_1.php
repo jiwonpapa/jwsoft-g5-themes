@@ -8,7 +8,10 @@
  * License: JW SOFT Commercial License; see LICENSE.txt
  */
 if (!defined('_INDEX_')) define('_INDEX_', true);
-if (!defined('_GNUBOARD_')) exit;
+// 선택용 파일의 직접 미리보기에서도 G5 기본 초기화만 수행합니다.
+if (!defined('_GNUBOARD_')) {
+    include_once dirname(__DIR__, 2).'/common.php';
+}
 
 if (G5_COMMUNITY_USE === false) {
     define('G5_IS_COMMUNITY_PAGE', true);

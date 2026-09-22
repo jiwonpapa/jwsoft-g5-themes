@@ -140,7 +140,8 @@ function checkRuntimeIncludes(path: string, source: string, violations: Structur
       });
     }
 
-    const isRootBootstrap = /dirname\(__DIR__\)\s*\.\s*['\"]\/common\.php['\"]/.test(expression);
+    const isRootBootstrap = /dirname\(__DIR__\)\s*\.\s*['\"]\/common\.php['\"]/.test(expression)
+      || (HOME_VARIANTS.includes(path) && expression === "dirname(__DIR__, 2).'/common.php'");
     if (expression.includes("__DIR__") && !expression.includes(".skin.php") && !isRootBootstrap) {
       violations.push({
         code: "LOCAL_VIEW_INCLUDE_FORBIDDEN",

@@ -9,6 +9,7 @@
 - 각 파일은 `_INDEX_` 선언, `head.php` 호출, 전체 홈 본문, `tail.php` 호출을 직접 포함합니다.
 - 홈을 바꿀 때는 기존 `index.php`를 백업하고 선택한 `index_N.php`를 `index.php`로 복사합니다.
 - 홈 본문을 `partials/`, `sections/`, renderer 함수나 동적 include로 분리하지 않습니다.
+- 선택용 `index_N.php`의 직접 미리보기에는 `dirname(__DIR__, 2).'/common.php'`의 G5 초기화만 허용합니다. 사이트 기본 홈 선택은 파일 복사로만 변경합니다.
 
 ## 2. 일반 페이지
 

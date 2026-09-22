@@ -2,49 +2,89 @@
 /**
  * Theme: JW-Business 1.0
  * File: index_3.php
- * Role: 메인 홈 3번 완성 페이지
+ * Role: 사례와 결과물 중심의 메인 3번 독립 페이지
  * Author: JW SOFT
- * Copyright: Copyright (c) JW SOFT. All rights reserved.
+ * Copyright: Copyright (c) 2026 JW SOFT. All rights reserved.
  * License: JW SOFT Commercial License; see LICENSE.txt
  */
-if (!defined('_INDEX_')) define('_INDEX_', true);
-if (!defined('_GNUBOARD_')) exit;
-
-if (G5_COMMUNITY_USE === false) {
-    define('G5_IS_COMMUNITY_PAGE', true);
-    include_once G5_THEME_SHOP_PATH.'/index.php';
-    return;
+// 선택용 파일의 직접 미리보기에서도 G5 기본 초기화만 수행합니다.
+if (!defined('_GNUBOARD_')) {
+    include_once dirname(__DIR__, 2).'/common.php';
 }
-
+if (!defined('_INDEX_')) {
+    define('_INDEX_', true);
+}
 $g5['title'] = $config['cf_title'];
 include_once G5_THEME_PATH.'/head.php';
-
-$jw_settings = jw_business_settings();
-$jw_home = $jw_settings['home'];
-$jw_services = isset($jw_home['services']) ? (array) $jw_home['services'] : array();
-$jw_news_board = isset($jw_home['news_board']) ? preg_replace('/[^a-zA-Z0-9_]/', '', $jw_home['news_board']) : 'notice';
+$jw_company = jw_business_settings()['company'];
 ?>
-<!-- JW BLOCK COPY: 루트 출시 구현 범위의 home 3번 구성; 이 파일에 복사된 독립 본문입니다. -->
-<div class="jw-home jw-home--3">
-    <section class="jw-hero" aria-labelledby="jw-home-3-title">
-        <div class="jw-hero__media" role="img" aria-label="현대적인 기업 업무 공간"></div>
-        <div class="jw-hero__overlay"></div>
-        <div class="jw-shell jw-hero__content">
-            <p class="jw-hero__meta">Home 3 · 프로젝트 중심</p>
-            <h2 id="jw-home-3-title"><?php echo nl2br(jw_business_escape($jw_home['title'])); ?></h2>
-            <p class="jw-hero__summary">대표 프로젝트와 결과를 중심으로 읽는 구성</p>
-            <div class="jw-hero__actions"><a class="tw:d-btn tw:d-btn-primary jw-button jw-button--primary" href="<?php echo jw_business_escape(jw_business_page_url('business-list-1')); ?>">사업 분야 보기<i data-lucide="arrow-right"></i></a></div>
+<article class="jwh jwh--projects" data-jw-home="3">
+    <header class="jwh-project-heading jwh-wrap">
+        <h1>생각을 넘어,<br>경험으로 남기는 일.</h1>
+        <div>
+            <p class="jwh-lead">공간과 서비스, 팀의 일하는 방식까지.<br>과제에서 결과물로 이어지는 과정을 소개합니다.</p>
+            <a class="jwh-link" href="#home-projects">프로젝트 살펴보기 <i data-lucide="arrow-down" aria-hidden="true"></i>
+            </a>
+        </div>
+    </header>
+    <section id="home-projects" class="jwh-wrap" aria-labelledby="home-featured-title">
+        <a class="jwh-featured-case" href="<?php echo jw_business_escape(jw_business_page_url('business-detail-4')); ?>">
+            <div class="jwh-photo jwh-photo--workspace" role="img" aria-label="자연광과 협업 테이블이 있는 업무 공간의 시연 이미지">
+            </div>
+            <div class="jwh-case-caption">
+                <div>
+                    <h2 id="home-featured-title">일과 사람이 만나는 업무 공간</h2>
+                    <p>공간 기획 · 이용 흐름 · 운영 시나리오</p>
+                </div>
+                <span>사례 보기 <i data-lucide="arrow-up-right" aria-hidden="true"></i></span>
+            </div>
+        </a>
+        <p class="jwh-demo-note">이 페이지의 모든 프로젝트는 테마 활용을 보여주는 시연 사례이며 실제 고객·수행 실적을 뜻하지 않습니다.</p>
+        <div class="jwh-case-pair">
+            <a class="jwh-case" href="<?php echo jw_business_escape(jw_business_page_url('business-detail-1')); ?>">
+                <div class="jwh-photo jwh-photo--team" role="img" aria-label="함께 문서와 기획안을 검토하는 업무 장면">
+                </div>
+                <h3>팀의 질문을 하나의 실행안으로</h3>
+                <p>비즈니스 컨설팅 · 워크숍·의사결정 자료</p>
+                <span class="jwh-link">기획 과정 보기 <i data-lucide="arrow-up-right" aria-hidden="true"></i></span>
+            </a>
+            <a class="jwh-case jwh-case--offset" href="<?php echo jw_business_escape(jw_business_page_url('business-detail-3')); ?>">
+                <div class="jwh-photo jwh-photo--campus" role="img" aria-label="방문자의 이동과 휴식 공간이 연결된 업무 시설">
+                </div>
+                <h3>첫 방문부터 이어지는 브랜드 경험</h3>
+                <p>공간·브랜드 · 동선과 안내 접점</p>
+                <span class="jwh-link">공간 기획 보기 <i data-lucide="arrow-up-right" aria-hidden="true"></i></span>
+            </a>
         </div>
     </section>
-    <!-- JW BLOCK COPY START: blocks/home/service-map-01.php; 이 홈에 복사된 독립본입니다. -->
-    <section class="jw-home-section jw-service-map" aria-labelledby="jw-home-3-services">
-        <div class="jw-shell">
-            <header class="jw-home-heading jw-home-heading--split"><h2 id="jw-home-3-services">필요한 전문성을<br>한 흐름으로 연결합니다.</h2><p><?php echo jw_business_escape($jw_home['summary']); ?></p></header>
-            <ul class="jw-service-map__list"><?php foreach ($jw_services as $service) { ?><li><a href="<?php echo jw_business_escape($service['url']); ?>"><strong><?php echo jw_business_escape($service['title']); ?></strong><span><?php echo jw_business_escape($service['summary']); ?></span><i data-lucide="arrow-up-right"></i></a></li><?php } ?></ul>
+    <section class="jwh-section jwh-soft" aria-labelledby="home-project-method">
+        <div class="jwh-wrap jwh-project-method">
+            <h2 id="home-project-method">결과를 설명하는<br>세 가지 질문.</h2>
+            <dl>
+                <div>
+                    <dt>무엇을 해결했는가</dt>
+                    <dd>멋진 사진만으로는 알 수 없는 시작점입니다. 현장의 불편과 바꾸고 싶은 상황을 기록합니다.</dd>
+                </div>
+                <div>
+                    <dt>어떻게 판단했는가</dt>
+                    <dd>대안과 선택의 이유를 정리합니다. 결과를 이해하고 다음 작업에서도 활용할 수 있게 합니다.</dd>
+                </div>
+                <div>
+                    <dt>무엇을 남겼는가</dt>
+                    <dd>화면, 공간 구성안, 운영 문서처럼 담당자가 실제로 사용할 수 있는 결과물을 남깁니다.</dd>
+                </div>
+            </dl>
         </div>
     </section>
-    <!-- JW BLOCK COPY END -->
-    <section class="jw-home-section jw-process" aria-labelledby="jw-home-3-process"><div class="jw-shell"><header class="jw-home-heading jw-home-heading--split"><h2 id="jw-home-3-process">함께 일하는 방식</h2><p>이해, 설계, 실행의 세 단계로 프로젝트를 진행합니다.</p></header><ol class="jw-process__list"><li><span>01</span><strong>이해</strong><p>현재 상황과 목표를 확인합니다.</p></li><li><span>02</span><strong>설계</strong><p>필요한 경험과 결과를 구체화합니다.</p></li><li><span>03</span><strong>실행</strong><p>운영에 필요한 기준을 남깁니다.</p></li></ol></div></section>
-    <section class="jw-home-section jw-home-close" aria-label="문의"><div class="jw-shell jw-home-close__grid"><aside class="jw-contact"><div><p>새로운 프로젝트를 준비하고 계신가요?</p><h2>함께 이야기해<br>볼까요?</h2></div><a class="tw:d-btn tw:d-btn-primary jw-button jw-button--primary" href="<?php echo G5_BBS_URL; ?>/qalist.php">문의하기<i data-lucide="arrow-right"></i></a></aside></div></section>
-</div>
+    <section class="jwh-section jwh-wrap jwh-project-invitation">
+        <h2>비슷한 과제를<br>준비하고 계신가요?</h2>
+        <div>
+            <p>사업 단계와 고민을 알려주시면 필요한 분야부터 함께 살펴봅니다. 준비된 자료가 있다면 문의에 함께 남겨주세요.</p>
+            <a class="jw-control jw-control--primary" href="<?php echo jw_business_escape(jw_business_page_url('contact-1')); ?>">상담 방법 확인 <i data-lucide="arrow-right" aria-hidden="true"></i>
+            </a>
+            <a class="jwh-link" href="<?php echo jw_business_escape(jw_business_page_url('business-list-3')); ?>">전체 사업 분야 <i data-lucide="arrow-right" aria-hidden="true"></i>
+            </a>
+        </div>
+    </section>
+</article>
 <?php include_once G5_THEME_PATH.'/tail.php'; ?>
