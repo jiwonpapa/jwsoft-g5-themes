@@ -51,7 +51,8 @@
 - 첫 상품 `JW-Business 1.0` 제작 착수(2026-09-21): 공식 basic 전체를 `themes/business/jw_business/src/php`에 반입하고 표시명·개발 버전을 변경
 - JW-Business의 Bun/Vite·Tailwind CSS·daisyUI build와 로컬 Pretendard·Lucide 자산 연결 완료. 기존 공통 화면·메인 source는 레거시 G5 CSS·DOM·JavaScript 위에 겹쳐 실제 화면 품질 기준을 충족하지 못해 구현 기준선에서 제외
 - 메인용 생성 이미지 3개를 WebP로 최적화하고 프롬프트·출처·checksum을 기록. 외부 사진 다운로드 없음
-- 작업 중인 개발 payload 388개를 `g5themes.test`에 적용. 공개 head·공통 shell·기본 게시판 목록/본문/댓글/쓰기·로그인·회원가입 약관/정보입력을 새 DOM과 하나의 ESM으로 교체하고 PC·모바일·라이트/다크 실제 화면을 확인. 개발환경 반영이며 판매 ZIP 설치 시험과 출시 완료 증거는 아님
+- 작업 중인 개발 payload 422개를 `g5themes.test`에 적용. 공개 head·공통 shell·기본 게시판 목록/본문/댓글/쓰기·로그인·회원가입 약관/정보입력을 새 DOM과 하나의 ESM으로 교체하고 PC·모바일·라이트/다크 실제 화면을 확인. 개발환경 반영이며 판매 ZIP 설치 시험과 출시 완료 증거는 아님
+- 메인 #1을 서로 다른 역할의 7개 섹션으로 재구성하고 루트와 `/pages/home-1.php`가 같은 전용 화면을 사용하도록 연결. 첫 메뉴 `메인`에 #1~#5를 노출하며 #2~#5는 차후 별도 방향으로 제작할 파사드 상태. PC·모바일·라이트/다크와 Astra 재검증 통과
 - 공개 영역 레거시 감사와 현대화 실행 계획 작성. 새 화면 양산을 중단하고 route 계약표 → `head.sub.php`/자산 → token/공통 DOM → 네이티브 메뉴 → G5 adapter 순으로 재구축
 - 설치 ZIP과 분리할 구매자 개발 키트 표준 수립. Bun 설치 후 `bun run setup`으로 고정 의존성·build·검사를 일괄 수행하고, 구매자용 AI 헌법·기계 판독 계약·doctor 하네스를 JW-Business에 구현
 - 출시 구현 범위 확정: 75개 페이지 레이아웃, 게시판 6개·최신글 8개 표현형, G5 커뮤니티 전체, 재사용 섹션·온라인 매뉴얼. 시각 방향은 승인 전

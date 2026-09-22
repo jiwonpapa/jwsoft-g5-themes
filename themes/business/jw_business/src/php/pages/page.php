@@ -23,6 +23,11 @@ if ($jw_page['id'] === 'company-overview') {
     return;
 }
 
+if ($jw_page['id'] === 'home' && is_file(G5_THEME_PATH.'/partials/home/'.(int)$jw_page['variant'].'.php')) {
+    include G5_THEME_PATH.'/pages/home.php';
+    return;
+}
+
 if (((int)$jw_page['variant'] === 1 && in_array($jw_page['id'], array('business-list', 'business-detail', 'contact'), true))
     || (in_array((int)$jw_page['variant'], array(2, 3, 4, 5), true) && in_array($jw_page['id'], array('business-list', 'business-detail'), true))) {
     include G5_THEME_PATH.'/pages/business-route.php';

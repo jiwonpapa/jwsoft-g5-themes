@@ -46,5 +46,20 @@ describe("general page catalog", () => {
     expect(header).toContain("jw_business_navigation()");
     expect(library).toContain("custom/navigation.php");
     expect(library).toContain("jw_business_page_menu_group");
+    expect(library).toContain("jw_business_page_menu_group('home')");
+    expect(library.indexOf("$home[0]")).toBeLessThan(library.indexOf("'me_name' => '회사소개'"));
+  });
+
+  test("routes the finished first home through its dedicated partial", async () => {
+    const [router, homePage, rootHome] = await Promise.all([
+      readFile(join(themeRoot, "src/php/pages/page.php"), "utf8"),
+      readFile(join(themeRoot, "src/php/pages/home.php"), "utf8"),
+      readFile(join(themeRoot, "src/php/partials/home.php"), "utf8"),
+    ]);
+
+    expect(router).toContain("$jw_page['id'] === 'home'");
+    expect(homePage).toContain("'/partials/home/'");
+    expect(homePage).toContain("$jw_full_width_page = true");
+    expect(rootHome).toContain("'/partials/home/1.php'");
   });
 });

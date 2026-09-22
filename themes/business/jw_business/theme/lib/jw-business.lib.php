@@ -100,7 +100,7 @@ if (!function_exists('jw_business_page_menu_group')) {
     {
         $groups = array();
         foreach (jw_business_page_catalog()['pageTypes'] as $page_type) {
-            if (($page_type['category'] ?? '') !== $category || ($page_type['id'] ?? '') === 'home') continue;
+            if (($page_type['category'] ?? '') !== $category) continue;
 
             $variants = array();
             foreach ((array) ($page_type['layouts'] ?? array()) as $index => $layout) {
@@ -141,6 +141,7 @@ if (!function_exists('jw_business_navigation')) {
             }
         }
 
+        $home = jw_business_page_menu_group('home');
         $company = jw_business_page_menu_group('company');
         $business = jw_business_page_menu_group('business');
         $recruit = jw_business_page_menu_group('recruit');
@@ -155,6 +156,7 @@ if (!function_exists('jw_business_navigation')) {
         );
 
         $navigation = array(
+            $home[0] ?? array('me_name' => '메인', 'me_link' => G5_URL, 'me_target' => 'self', 'sub' => array()),
             array('me_name' => '회사소개', 'me_link' => $company[0]['me_link'] ?? G5_URL, 'me_target' => 'self', 'sub' => $company),
             array('me_name' => '사업분야', 'me_link' => $business[0]['me_link'] ?? G5_URL, 'me_target' => 'self', 'sub' => $business),
             array('me_name' => '프로젝트', 'me_link' => get_pretty_url('gallery'), 'me_target' => 'self', 'sub' => array(

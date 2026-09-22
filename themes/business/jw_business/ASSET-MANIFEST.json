@@ -78,7 +78,7 @@
     {
       "id": "build-css-jw-business-min-css-c16fb848",
       "path": "theme/css/jw-business.min.css",
-      "sha256": "2c2262931f187ec02e79e33c043da026565ef54a1ae795cf54ec20cd2ebe3607",
+      "sha256": "9e9cde3a1f3c095a070e1410f428062d9638ef1b74b34058e2827bdb2f7bfe2f",
       "provenance": "generated",
       "generatedBy": "Vite 8.3.0",
       "author": "JW SOFT and bundled library authors",

@@ -5,6 +5,18 @@ if (!defined('_GNUBOARD_')) exit;
 // G5 관리자 메뉴 DB와 무관하며, 테마 업데이트 ZIP은 custom/navigation.php를 덮어쓰지 않습니다.
 return array(
     array(
+        'me_name' => '메인',
+        'me_link' => G5_URL.'/pages/home-1.php',
+        'me_target' => 'self',
+        'sub' => array(
+            array('me_name' => '#1 기업 종합', 'me_link' => G5_URL.'/pages/home-1.php', 'me_target' => 'self', 'sub' => array()),
+            array('me_name' => '#2 주요 사업 중심', 'me_link' => G5_URL.'/pages/home-2.php', 'me_target' => 'self', 'sub' => array()),
+            array('me_name' => '#3 프로젝트 중심', 'me_link' => G5_URL.'/pages/home-3.php', 'me_target' => 'self', 'sub' => array()),
+            array('me_name' => '#4 서비스·과정 중심', 'me_link' => G5_URL.'/pages/home-4.php', 'me_target' => 'self', 'sub' => array()),
+            array('me_name' => '#5 한 페이지 소개', 'me_link' => G5_URL.'/pages/home-5.php', 'me_target' => 'self', 'sub' => array()),
+        ),
+    ),
+    array(
         'me_name' => '회사소개',
         'me_link' => G5_URL.'/pages/company-overview-1.php',
         'me_target' => 'self',
