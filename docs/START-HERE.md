@@ -6,6 +6,8 @@
 
 ## 현재 상태
 
+- **사용자 지시로 작업 중단(2026-09-22).** 전체 메뉴의 기존 분류 구조를 PC·모바일 모두 복구했습니다. 회사소개 새 페이지는 반영하지 않았으며 재개 지시를 기다립니다. [메뉴 복구·중단 상태](reports/JW-BUSINESS-MENU-RESTORE-2026-09-22.md)
+
 - 메인 2~5 메뉴 묶음 구현·개발 사이트 반영 완료. 독립 PHP 4종, 파일 복사 홈 전환, PC·모바일/라이트·다크 32조합, 회원 HTTP 8경로 검증. 다음은 회사소개 전체 묶음입니다. [메인 결과](reports/JW-BUSINESS-HOME-BATCH-2026-09-22.md)
 
 - 2026-09-22 현재 우선 작업: 독립 PHP 구조 개편 후 미완성 페이지를 **메뉴별 묶음**으로 구현·검증·자동 커밋·푸시합니다. 아래 과거 기록의 partial/recipe/navigation catalog 방식은 폐기되었습니다. 최신 구조는 테마 `docs/STRUCTURE-CONTRACT.md`, 진행 상태는 [메뉴별 구현 목표](plans/JW-BUSINESS-MENU-BATCHES.md)를 따릅니다.

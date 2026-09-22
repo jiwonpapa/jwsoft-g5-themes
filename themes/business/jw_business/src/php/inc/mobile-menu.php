@@ -37,10 +37,25 @@ $jw_mobile_groups = array_values(array_filter((array) get_menu_db(1, true)));
                 ?>
                 <section id="jw-menu-section-<?php echo $index; ?>" data-jw-menu-section="<?php echo $index; ?>" aria-labelledby="jw-menu-heading-<?php echo $index; ?>"<?php echo $index !== 0 ? ' hidden' : ''; ?>>
                     <h2 id="jw-menu-heading-<?php echo $index; ?>"><?php echo jw_business_escape($row['me_name']); ?></h2>
+                    <?php if (!in_array($row['me_link'], array_column($children, 'me_link'), true)) { ?>
                     <a class="jw-mobile-menu__destination" href="<?php echo jw_business_escape($row['me_link']); ?>" target="<?php echo ($row['me_target'] ?? '') === 'blank' ? '_blank' : '_self'; ?>"><?php echo jw_business_escape($row['me_name']); ?> 안내<i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+                    <?php } ?>
                     <ul class="jw-mobile-menu__groups">
-                        <?php foreach ($children as $row2) { ?>
+                        <?php foreach (jw_business_menu_groups($children) as $group) { ?>
+                        <?php if (count($group['items']) > 1) { ?>
+                        <li>
+                            <details data-jw-menu-group>
+                                <summary><?php echo jw_business_escape($group['title']); ?><i data-lucide="chevron-down" aria-hidden="true"></i></summary>
+                                <ul class="jw-mobile-menu__links">
+                                    <?php foreach ($group['items'] as $row2) { ?>
+                                    <li><a href="<?php echo jw_business_escape($row2['me_link']); ?>" target="<?php echo ($row2['me_target'] ?? '') === 'blank' ? '_blank' : '_self'; ?>"><?php echo jw_business_escape($row2['display_name'] ?? $row2['me_name']); ?></a></li>
+                                    <?php } ?>
+                                </ul>
+                            </details>
+                        </li>
+                        <?php } else { $row2 = $group['items'][0]; ?>
                         <li><a class="jw-mobile-menu__destination" href="<?php echo jw_business_escape($row2['me_link']); ?>" target="<?php echo ($row2['me_target'] ?? '') === 'blank' ? '_blank' : '_self'; ?>"><?php echo jw_business_escape($row2['me_name']); ?><i data-lucide="arrow-up-right" aria-hidden="true"></i></a></li>
+                        <?php } ?>
                         <?php } ?>
                     </ul>
                 </section>

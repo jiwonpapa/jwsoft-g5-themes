@@ -9,6 +9,47 @@
  */
 if (!defined('_GNUBOARD_')) exit;
 
+if (!function_exists('jw_business_menu_groups')) {
+    /**
+     * 같은 독립 페이지의 연속된 디자인 선택 메뉴만 화면에서 묶습니다.
+     * DB의 이름·URL·순서·노출 권한은 바꾸지 않으며 일반 메뉴는 그대로 둡니다.
+     */
+    function jw_business_menu_groups($children)
+    {
+        $groups = array();
+        $site = parse_url(G5_URL);
+        $site_path = rtrim($site['path'] ?? '', '/');
+
+        foreach (array_filter((array) $children) as $item) {
+            $url = parse_url($item['me_link'] ?? '');
+            $path = is_array($url) ? ($url['path'] ?? '') : '';
+            $same_site = is_array($url)
+                && (!isset($url['host']) || strcasecmp($url['host'], $site['host'] ?? '') === 0)
+                && (!isset($url['port']) || $url['port'] === ($site['port'] ?? null));
+            $title = trim((string) ($item['me_name'] ?? ''));
+            $stem = '';
+            if ($same_site && empty($url['query']) && empty($url['fragment'])
+                && preg_match('~^'.preg_quote($site_path, '~').'/pages/([a-z][a-z0-9-]*)-([1-5])\.php$~', $path, $match)
+                && preg_match('/^(.+?)\s+#?'.$match[2].'(?:\s+·\s+(.+))?$/u', $title, $name)) {
+                $stem = $match[1].'|'.$name[1];
+                $title = $name[1];
+                if (!empty($name[2])) {
+                    $item['display_name'] = '#'.$match[2].' '.$name[2];
+                }
+            }
+
+            $last = count($groups) - 1;
+            if ($stem !== '' && $last >= 0 && $groups[$last]['key'] === $stem) {
+                $groups[$last]['items'][] = $item;
+            } else {
+                $groups[] = array('key' => $stem, 'title' => $title, 'items' => array($item));
+            }
+        }
+
+        return $groups;
+    }
+}
+
 if (!function_exists('jw_business_settings')) {
     function jw_business_settings()
     {

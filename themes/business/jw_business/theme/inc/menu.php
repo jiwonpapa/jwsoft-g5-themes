@@ -18,6 +18,8 @@ $menu_datas = get_menu_db(0, true);
             if (empty($row)) continue;
             $target = isset($row['me_target']) && $row['me_target'] === 'blank' ? '_blank' : '_self';
             $children = isset($row['sub']) ? array_filter((array) $row['sub']) : array();
+            $groups = jw_business_menu_groups($children);
+            $has_groups = count($groups) < count($children);
         ?>
         <li class="jw-nav__item<?php echo $children ? ' has-children' : ''; ?>">
             <a class="jw-nav__link" href="<?php echo jw_business_escape($row['me_link']); ?>" target="<?php echo $target; ?>">
@@ -25,11 +27,20 @@ $menu_datas = get_menu_db(0, true);
                 <?php if ($children) { ?><i data-lucide="chevron-down"></i><?php } ?>
             </a>
             <?php if ($children) { ?>
-            <ul class="jw-nav__submenu">
-                <?php foreach ($children as $row2) {
-                    $target2 = isset($row2['me_target']) && $row2['me_target'] === 'blank' ? '_blank' : '_self';
-                ?>
-                <li><a href="<?php echo jw_business_escape($row2['me_link']); ?>" target="<?php echo $target2; ?>"><?php echo jw_business_escape($row2['me_name']); ?></a></li>
+            <ul class="jw-nav__submenu<?php echo $has_groups ? ' jw-nav__mega' : (count($children) > 8 ? ' jw-nav__wide' : ''); ?>"<?php if ($has_groups) { ?> style="--jw-menu-columns: <?php echo min(7, count($groups)); ?>"<?php } ?>>
+                <?php foreach ($groups as $group) { ?>
+                <?php if (count($group['items']) > 1) { ?>
+                <li class="jw-nav__group">
+                    <span class="jw-nav__group-title"><?php echo jw_business_escape($group['title']); ?></span>
+                    <ul class="jw-nav__variants">
+                        <?php foreach ($group['items'] as $row2) { ?>
+                        <li><a href="<?php echo jw_business_escape($row2['me_link']); ?>" target="<?php echo ($row2['me_target'] ?? '') === 'blank' ? '_blank' : '_self'; ?>"><?php echo jw_business_escape($row2['display_name'] ?? $row2['me_name']); ?></a></li>
+                        <?php } ?>
+                    </ul>
+                </li>
+                <?php } else { $row2 = $group['items'][0]; ?>
+                <li><a href="<?php echo jw_business_escape($row2['me_link']); ?>" target="<?php echo ($row2['me_target'] ?? '') === 'blank' ? '_blank' : '_self'; ?>"><?php echo jw_business_escape($row2['me_name']); ?></a></li>
+                <?php } ?>
                 <?php } ?>
             </ul>
             <?php } ?>
