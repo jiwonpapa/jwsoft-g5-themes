@@ -1,0 +1,8 @@
+#!/bin/sh
+set -eu
+
+repo_root=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
+export DO_NOT_TRACK=1
+export IMPECCABLE_NO_TELEMETRY=1
+
+exec "$repo_root/.agents/skills/impeccable/scripts/impeccable" "$@"

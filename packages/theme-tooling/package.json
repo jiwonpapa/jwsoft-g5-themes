@@ -1,0 +1,14 @@
+{
+  "name": "@jwsoft/theme-tooling",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@jwsoft/theme-contracts": "workspace:*",
+    "@jwsoft/theme-tokens": "workspace:*",
+    "fflate": "catalog:"
+  },
+  "scripts": {
+    "test": "bun test tests"
+  }
+}

@@ -11,4 +11,35 @@ build/
 .env
 .env.*
 !.env.example
+harness/runtime/*/site/
+harness/runtime/*/tls/
+harness/runtime/*/.admin.env
 
+# impeccable-ignore-start
+# Impeccable의 공유 설정은 추적하고 실행 중 생성물만 제외합니다.
+.impeccable/config.local.json
+.impeccable/hook.cache.json
+.impeccable/hook.pending.json
+.impeccable/*.png
+.impeccable/review/
+.impeccable/questions/
+.impeccable/live/server.json
+.impeccable/live/sessions/
+.impeccable/live/previews/
+.impeccable/live/annotations/
+.impeccable/live/cache/
+.impeccable/live/manual-edit-apply-transaction.json
+.impeccable/live/manual-edit-events.jsonl
+.impeccable/live/manual-edit-evidence/
+.impeccable/live/pending-manual-edits.json
+.impeccable/live/deferred-svelte-component-accepts.json
+.impeccable/live/*.png
+# impeccable-ignore-end
+
+# Local browser captures and disposable verification output
+.playwright-cli/
+output/playwright/
+output/qa/
+output/blender/
+__pycache__/
+*.pyc

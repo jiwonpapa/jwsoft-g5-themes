@@ -1,0 +1,11 @@
+scenario_type,sales_or_installs,gross_krw,platform_fee_krw,seller_receipt_krw,buyer_per_site_krw,seller_per_site_krw,note
+sales,10,2900000,580000,2320000,,,SIR fee modeled at 20 percent
+sales,20,5800000,1160000,4640000,,,SIR fee modeled at 20 percent
+sales,50,14500000,2900000,11600000,,,SIR fee modeled at 20 percent
+sales,100,29000000,5800000,23200000,,,SIR fee modeled at 20 percent
+install,1,,,,290000,232000,One buyer uses one site
+install,3,,,,96667,77333,One buyer uses three sites
+install,5,,,,58000,46400,One buyer uses five sites
+install,10,,,,29000,23200,One buyer uses ten sites
+install,20,,,,14500,11600,One buyer uses twenty sites
+

@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/shared-candidates.schema.json",
+  "schemaVersion": 1,
+  "candidates": [
+    {
+      "id": "sticky-header",
+      "responsibility": "스크롤 방향에 따라 헤더 표시 상태를 전환합니다.",
+      "themePath": "themes/fixture/minimal/src/scripts/sticky-header.ts",
+      "expectedConsumers": [
+        "minimal"
+      ],
+      "gnuboardAssumptions": [],
+      "differences": [],
+      "status": "candidate"
+    }
+  ]
+}

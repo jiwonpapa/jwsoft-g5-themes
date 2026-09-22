@@ -1,0 +1,157 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.jwsoft.dev/g5-theme/release-manifest.schema.json",
+  "title": "JW SOFT theme release manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "generated",
+    "generatedAt",
+    "theme",
+    "version",
+    "sourceCommit",
+    "gnuboard",
+    "toolchain",
+    "lockfileSha256",
+    "commonPackages",
+    "artifacts",
+    "gates"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "schemaVersion": {
+      "const": 1
+    },
+    "generated": {
+      "const": true
+    },
+    "generatedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "theme": {
+      "$ref": "common.schema.json#/$defs/themeSlug"
+    },
+    "version": {
+      "$ref": "common.schema.json#/$defs/semver"
+    },
+    "sourceCommit": {
+      "$ref": "common.schema.json#/$defs/gitCommit"
+    },
+    "gnuboard": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "version",
+        "commit"
+      ],
+      "properties": {
+        "version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "commit": {
+          "$ref": "common.schema.json#/$defs/gitCommit"
+        }
+      }
+    },
+    "toolchain": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "bun",
+        "runtime"
+      ],
+      "properties": {
+        "bun": {
+          "$ref": "common.schema.json#/$defs/semver"
+        },
+        "runtime": {
+          "enum": [
+            "bun",
+            "node24"
+          ]
+        }
+      }
+    },
+    "lockfileSha256": {
+      "$ref": "common.schema.json#/$defs/sha256"
+    },
+    "commonPackages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "version"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "pattern": "^@jwsoft/[a-z0-9-]+$"
+          },
+          "version": {
+            "$ref": "common.schema.json#/$defs/semver"
+          }
+        }
+      }
+    },
+    "artifacts": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "path",
+          "sha256",
+          "bytes"
+        ],
+        "properties": {
+          "path": {
+            "$ref": "common.schema.json#/$defs/relativePath"
+          },
+          "sha256": {
+            "$ref": "common.schema.json#/$defs/sha256"
+          },
+          "bytes": {
+            "type": "integer",
+            "minimum": 1
+          }
+        }
+      }
+    },
+    "gates": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "result",
+          "evidence"
+        ],
+        "properties": {
+          "id": {
+            "$ref": "common.schema.json#/$defs/slug"
+          },
+          "result": {
+            "const": "pass"
+          },
+          "evidence": {
+            "$ref": "common.schema.json#/$defs/relativePath"
+          }
+        }
+      }
+    },
+    "manualVersionUrl": {
+      "type": "string",
+      "format": "uri"
+    }
+  }
+}

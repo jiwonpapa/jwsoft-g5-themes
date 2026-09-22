@@ -1,0 +1,57 @@
+{
+  "$schema": "../../../schemas/theme-manifest.schema.json",
+  "schemaVersion": 1,
+  "slug": "minimal",
+  "name": "Minimal Fixture",
+  "version": "0.1.0",
+  "category": "fixture",
+  "support": {
+    "gnuboard5": ">=5.6.391 <5.7.0",
+    "php": [
+      "8.3",
+      "8.4",
+      "8.5"
+    ],
+    "youngcart": "excluded"
+  },
+  "entries": {
+    "php": [
+      "src/php/head.php"
+    ],
+    "css": [
+      "src/styles/theme.css"
+    ],
+    "js": [
+      "src/scripts/theme.ts"
+    ]
+  },
+  "surfaces": [
+    "home",
+    "board-list"
+  ],
+  "modules": [],
+  "workspacePackages": [
+    "@jwsoft/theme-contracts"
+  ],
+  "externalLibraries": [],
+  "manifests": {
+    "assets": "ASSET-MANIFEST.json",
+    "designReference": "DESIGN-REFERENCE.json",
+    "release": "RELEASE-MANIFEST.json"
+  },
+  "build": {
+    "sourceDir": "src",
+    "payloadDir": "theme",
+    "zipAllowlist": [
+      "theme/**",
+      "ASSET-MANIFEST.json",
+      "LICENSE.txt",
+      "LICENSES/**",
+      "THIRD_PARTY_NOTICES.md"
+    ]
+  },
+  "manual": {
+    "path": "docs/manual",
+    "versioned": true
+  }
+}

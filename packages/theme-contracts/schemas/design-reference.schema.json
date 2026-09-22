@@ -1,0 +1,171 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.jwsoft.dev/g5-theme/design-reference.schema.json",
+  "title": "JW SOFT theme design reference",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "theme",
+    "provider",
+    "frames",
+    "status"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "schemaVersion": {
+      "const": 1
+    },
+    "theme": {
+      "$ref": "common.schema.json#/$defs/themeSlug"
+    },
+    "provider": {
+      "enum": [
+        "figma",
+        "local"
+      ]
+    },
+    "fileUrl": {
+      "type": "string",
+      "format": "uri"
+    },
+    "previewPath": {
+      "$ref": "common.schema.json#/$defs/relativePath"
+    },
+    "frames": {
+      "type": "object",
+      "propertyNames": {
+        "$ref": "common.schema.json#/$defs/slug"
+      },
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "approved",
+        "superseded"
+      ]
+    },
+    "approvedAt": {
+      "type": "string",
+      "format": "date"
+    },
+    "tokenSourceSha256": {
+      "$ref": "common.schema.json#/$defs/sha256"
+    },
+    "previewSha256": {
+      "$ref": "common.schema.json#/$defs/sha256"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "approved"
+          }
+        },
+        "required": [
+          "status"
+        ]
+      },
+      "then": {
+        "properties": {
+          "approvedAt": {
+            "type": "string",
+            "format": "date"
+          },
+          "tokenSourceSha256": {
+            "$ref": "common.schema.json#/$defs/sha256"
+          },
+          "previewSha256": {
+            "$ref": "common.schema.json#/$defs/sha256"
+          }
+        },
+        "required": [
+          "approvedAt",
+          "tokenSourceSha256",
+          "previewSha256"
+        ]
+      }
+    },
+    {
+      "if": {
+        "allOf": [
+          {
+            "properties": {
+              "status": {
+                "const": "approved"
+              }
+            },
+            "required": [
+              "status"
+            ]
+          },
+          {
+            "properties": {
+              "provider": {
+                "const": "figma"
+              }
+            },
+            "required": [
+              "provider"
+            ]
+          }
+        ]
+      },
+      "then": {
+        "properties": {
+          "fileUrl": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        "required": [
+          "fileUrl"
+        ]
+      }
+    },
+    {
+      "if": {
+        "allOf": [
+          {
+            "properties": {
+              "status": {
+                "const": "approved"
+              }
+            },
+            "required": [
+              "status"
+            ]
+          },
+          {
+            "properties": {
+              "provider": {
+                "const": "local"
+              }
+            },
+            "required": [
+              "provider"
+            ]
+          }
+        ]
+      },
+      "then": {
+        "properties": {
+          "previewPath": {
+            "$ref": "common.schema.json#/$defs/relativePath"
+          }
+        },
+        "required": [
+          "previewPath"
+        ]
+      }
+    }
+  ]
+}

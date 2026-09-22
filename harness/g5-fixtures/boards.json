@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "marker": "jw-business-fixture-v1",
+  "anchorDatetime": "2026-09-21 09:00:00",
+  "pagination": {
+    "rowsPerPage": 15,
+    "linksPerBlock": 10,
+    "requiredPages": 21,
+    "postsPerBoard": 301
+  },
+  "skinSettings": {
+    "config": {
+      "cf_member_skin": "theme/basic",
+      "cf_mobile_member_skin": "theme/basic",
+      "cf_new_skin": "theme/basic",
+      "cf_mobile_new_skin": "theme/basic",
+      "cf_search_skin": "theme/basic",
+      "cf_mobile_search_skin": "theme/basic",
+      "cf_connect_skin": "theme/basic",
+      "cf_mobile_connect_skin": "theme/basic",
+      "cf_faq_skin": "theme/basic",
+      "cf_mobile_faq_skin": "theme/basic"
+    },
+    "qa": {
+      "qa_skin": "theme/basic",
+      "qa_mobile_skin": "theme/basic"
+    },
+    "content": {
+      "co_skin": "theme/basic",
+      "co_mobile_skin": "theme/basic"
+    }
+  },
+  "profiles": {
+    "shell": ["notice", "free", "gallery", "qa"],
+    "full": ["notice", "free", "gallery", "qa", "portfolio", "news", "resources", "video"]
+  },
+  "boards": [
+    {
+      "id": "notice",
+      "subject": "공지사항",
+      "skin": "theme/basic",
+      "template": "free",
+      "categories": ["공지", "점검", "업데이트"],
+      "imagePosts": 0,
+      "commentsOnPosts": 2,
+      "noticePosts": 3
+    },
+    {
+      "id": "free",
+      "subject": "자유게시판",
+      "skin": "theme/basic",
+      "template": "free",
+      "categories": ["일반", "질문", "정보"],
+      "imagePosts": 0,
+      "commentsOnPosts": 4,
+      "noticePosts": 2
+    },
+    {
+      "id": "gallery",
+      "subject": "갤러리",
+      "skin": "theme/gallery",
+      "template": "gallery",
+      "categories": ["공간", "제품", "현장"],
+      "imagePosts": 24,
+      "commentsOnPosts": 3,
+      "noticePosts": 0
+    },
+    {
+      "id": "qa",
+      "subject": "질문답변",
+      "skin": "theme/basic",
+      "template": "free",
+      "categories": ["제품", "서비스", "기타"],
+      "imagePosts": 0,
+      "commentsOnPosts": 4,
+      "noticePosts": 1
+    },
+    {
+      "id": "portfolio",
+      "subject": "프로젝트",
+      "skin": "theme/portfolio",
+      "template": "gallery",
+      "categories": ["기획", "설계", "구축"],
+      "imagePosts": 24,
+      "commentsOnPosts": 2,
+      "noticePosts": 0
+    },
+    {
+      "id": "news",
+      "subject": "뉴스룸",
+      "skin": "theme/webzine",
+      "template": "free",
+      "categories": ["기업소식", "보도자료", "인사이트"],
+      "imagePosts": 24,
+      "commentsOnPosts": 2,
+      "noticePosts": 2
+    },
+    {
+      "id": "resources",
+      "subject": "자료실",
+      "skin": "theme/download",
+      "template": "free",
+      "categories": ["카탈로그", "기술자료", "서식"],
+      "imagePosts": 0,
+      "commentsOnPosts": 2,
+      "noticePosts": 1
+    },
+    {
+      "id": "video",
+      "subject": "영상자료",
+      "skin": "theme/video",
+      "template": "gallery",
+      "categories": ["기업소개", "프로젝트", "인터뷰"],
+      "imagePosts": 24,
+      "commentsOnPosts": 2,
+      "noticePosts": 0
+    }
+  ]
+}

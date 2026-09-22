@@ -1,0 +1,137 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.jwsoft.dev/g5-theme/asset-manifest.schema.json",
+  "title": "JW SOFT theme asset manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "theme",
+    "assets"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "schemaVersion": {
+      "const": 1
+    },
+    "theme": {
+      "$ref": "common.schema.json#/$defs/themeSlug"
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "path",
+          "sha256",
+          "provenance",
+          "acquiredAt",
+          "licenseExpression",
+          "usageScope",
+          "salePackage"
+        ],
+        "properties": {
+          "id": {
+            "$ref": "common.schema.json#/$defs/slug"
+          },
+          "path": {
+            "$ref": "common.schema.json#/$defs/relativePath"
+          },
+          "sha256": {
+            "$ref": "common.schema.json#/$defs/sha256"
+          },
+          "provenance": {
+            "enum": [
+              "original",
+              "derived",
+              "generated"
+            ]
+          },
+          "sourceUrl": {
+            "type": "string",
+            "format": "uri"
+          },
+          "author": {
+            "type": "string",
+            "minLength": 1
+          },
+          "acquiredAt": {
+            "type": "string",
+            "format": "date"
+          },
+          "licenseExpression": {
+            "type": "string",
+            "minLength": 1
+          },
+          "derivedFrom": {
+            "$ref": "common.schema.json#/$defs/slug"
+          },
+          "generatedBy": {
+            "type": "string",
+            "minLength": 1
+          },
+          "usageScope": {
+            "enum": [
+              "theme",
+              "common"
+            ]
+          },
+          "salePackage": {
+            "type": "boolean"
+          }
+        },
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "provenance": {
+                  "const": "derived"
+                }
+              },
+              "required": [
+                "provenance"
+              ]
+            },
+            "then": {
+              "properties": {
+                "derivedFrom": {
+                  "$ref": "common.schema.json#/$defs/slug"
+                }
+              },
+              "required": [
+                "derivedFrom"
+              ]
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "provenance": {
+                  "const": "generated"
+                }
+              },
+              "required": [
+                "provenance"
+              ]
+            },
+            "then": {
+              "properties": {
+                "generatedBy": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "generatedBy"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

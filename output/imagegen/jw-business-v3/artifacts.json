@@ -1,0 +1,49 @@
+{
+  "date": "2026-09-21",
+  "tool": "built-in image_gen",
+  "status": "unapproved raster mockups",
+  "theme": "JW-Business 1.0",
+  "mode": "desktop light",
+  "images": [
+    {
+      "file": "01-home-light.png",
+      "width": 806,
+      "height": 1952,
+      "bytes": 1804247,
+      "sha256": "bb04bca2018938961dd7790662f983a0bd3e1a5e69ce5edba5850d8d66a4eccd",
+      "generated_original": "exec-bab89a34-4b07-4321-97eb-e5e374d6c853.png"
+    },
+    {
+      "file": "02-board-list-light.png",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 1038229,
+      "sha256": "bde1a6959f15796534768c38c2e1e7fa882c470077574df68ca43fd464c8fa7f",
+      "generated_original": "exec-36659d6e-7ae2-44d6-8ee0-208f73446f8d.png"
+    },
+    {
+      "file": "03-board-view-light.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1468239,
+      "sha256": "83d2165c9577e4997e4827c8655c78385bcf801a4133496b31a5b8655cc474f9",
+      "generated_original": "exec-db1f49eb-2815-48ac-ac84-cf8dd156298e.png"
+    },
+    {
+      "file": "04-board-write-light.png",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 905498,
+      "sha256": "bf4279d6f1e0dd980ff87a7e2703e1005e3e60bbb1e1af219e006ffc6b69a207",
+      "generated_original": "exec-e2776664-adc7-4ea3-8b27-b86f193c7bfc.png"
+    },
+    {
+      "file": "05-register-light-r2.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1483077,
+      "sha256": "6a6438db127cacfb93186d7d7ab69df994d3bb77a8645e1a9b76c0747480af3f",
+      "generated_original": "exec-849ca50d-06a7-4ffc-a675-9568ce76c577.png"
+    }
+  ]
+}

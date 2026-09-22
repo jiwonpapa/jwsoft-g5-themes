@@ -1,0 +1,89 @@
+{
+  "date": "2026-09-21",
+  "tool": "built-in image_gen",
+  "theme": "JW-Business 1.0",
+  "mode": "desktop light raster concepts",
+  "status": "initial main rejected; revised main unapproved; functional pages on hold",
+  "images": [
+    {
+      "file": "01-home-light.png",
+      "width": 793,
+      "height": 1983,
+      "bytes": 1779929,
+      "sha256": "d2fb45efe6c9d747443db6754a1e83570b1ed9af8e460bc92a3ab3dfd2d7c46e",
+      "generated_original": "exec-6f22b7ef-987f-48ed-b065-d86732f0db02.png",
+      "prompt": "01-home-light.prompt.txt",
+      "status": "rejected by user"
+    },
+    {
+      "file": "02-board-list-light.png",
+      "width": 1138,
+      "height": 1382,
+      "bytes": 1040566,
+      "sha256": "13aff80f296acef833170aa1e247e1ad59b0d03d0d024c6a448f1a3098d66ad0",
+      "generated_original": "exec-f6fc5114-6e5f-4f3c-a790-af1384944a02.png",
+      "prompt": "02-board-list-light.prompt.txt",
+      "status": "on hold"
+    },
+    {
+      "file": "03-board-view-light.png",
+      "width": 1015,
+      "height": 1549,
+      "bytes": 1342413,
+      "sha256": "4002681c64e1f4e3b05cd08b2dd6fb2c22bbdcdf0dba51aa24c387c94657873e",
+      "generated_original": "exec-d20bba5e-f258-4ae4-ab54-129ec30d1855.png",
+      "prompt": "03-board-view-light.prompt.txt",
+      "status": "on hold"
+    },
+    {
+      "file": "04-board-write-light.png",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 909263,
+      "sha256": "314ab7c351242bfbe7739d5d50bc0ed4cc3c81eb264956b0a4096b4f265d90cb",
+      "generated_original": "exec-9f1b1b36-1ac5-4121-9970-88f0c2c181af.png",
+      "prompt": "04-board-write-light.prompt.txt",
+      "status": "on hold"
+    },
+    {
+      "file": "05-register-light.png",
+      "width": 1065,
+      "height": 1477,
+      "bytes": 944195,
+      "sha256": "8a5b2166bf1134db09630c00e7840fc16087bb703924aca0ee953cec31fe57c1",
+      "generated_original": "exec-473d2370-cbbf-49d8-868f-019e337c63c6.png",
+      "prompt": "05-register-light.prompt.txt",
+      "status": "on hold"
+    },
+    {
+      "file": "01-home-upper-r1.png",
+      "width": 946,
+      "height": 1663,
+      "bytes": 2111761,
+      "sha256": "f49ac5c5dc3008bde7ecf18e828d6bc5533e72a765118481dbbac52536390617",
+      "generated_original": "exec-ee3b971c-2ff6-4f1b-b988-f741435219b7.png",
+      "prompt": "01-home-upper-r1.prompt.txt",
+      "status": "unapproved revised main segment"
+    },
+    {
+      "file": "01-home-middle-r1.png",
+      "width": 1003,
+      "height": 1568,
+      "bytes": 1417762,
+      "sha256": "206ed7fd8face1913ad4d0a0bd7960cd58f434998b7fd803c703ecedb0469905",
+      "generated_original": "exec-1efd99e2-d748-4acd-a8da-831e19812cb3.png",
+      "prompt": "01-home-middle-r1.prompt.txt",
+      "status": "unapproved revised main segment"
+    },
+    {
+      "file": "01-home-lower-r1.png",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 1021187,
+      "sha256": "97321cf01f19e508f0051c4cce5decb06292f606abc9b4ee6565f18acfc3ea0c",
+      "generated_original": "exec-fba44c51-96ef-4cbb-8bd2-5802544400a0.png",
+      "prompt": "01-home-lower-r1.prompt.txt",
+      "status": "unapproved revised main segment"
+    }
+  ]
+}

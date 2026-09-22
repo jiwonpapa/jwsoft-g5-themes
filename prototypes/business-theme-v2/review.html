@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="ko" data-theme="corporate">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>기업 테마 · 2차 초안 이미지</title>
+<link rel="icon" href="data:,"><link rel="stylesheet" href="./vendor/corporate.css">
+<style>
+@font-face{font-family:Pretendard;src:url('./assets/PretendardVariable.woff2') format('woff2');font-weight:100 900}
+*{box-sizing:border-box}body{margin:0;font-family:Pretendard,sans-serif;color:var(--color-base-content);background:var(--color-base-200)}header{position:sticky;top:0;padding:18px 25px;background:var(--color-base-100);border-bottom:1px solid var(--color-base-300);z-index:2}h1{font-size:19px;margin:0 0 6px}p{font-size:12px;margin:0;color:var(--color-secondary)}nav{display:flex;gap:7px;margin-top:15px;flex-wrap:wrap}button,select,a{font:inherit;font-size:13px}button,select{padding:8px 13px;background:var(--color-base-100);border:1px solid var(--color-base-300);border-radius:var(--radius-field);cursor:pointer}button.active{background:var(--color-primary);color:var(--color-primary-content);border-color:var(--color-primary)}.tools{margin-left:auto;display:flex;gap:9px;align-items:center}.tools a{color:var(--color-primary);padding:8px}main{padding:24px;display:flex;justify-content:center}#shot{display:block;width:100%;max-width:1440px;height:auto;border:1px solid var(--color-base-300)}#shot.mobile{width:390px;max-width:100%}#status{font-size:11px;margin-top:10px}@media(max-width:700px){header{padding:15px}main{padding:15px}.tools{margin-left:0}}
+</style>
+</head><body>
+<header><h1>기업 테마 · 2차 초안 이미지</h1><p>가칭 JW NEXUS · 섹션 조합형 기업 테마 · 실제 G5 구현 전 시안</p>
+<nav aria-label="시안 화면"><button data-page="home" class="active">01 메인</button><button data-page="list">02 게시판 목록</button><button data-page="view">03 본문·댓글 3개</button><button data-page="write">04 글쓰기</button><button data-page="register">05 회원가입</button><div class="tools"><select id="mode" aria-label="이미지 유형"><option value="light">PC · 라이트</option><option value="dark">PC · 다크</option><option value="mobile">모바일 · 라이트</option></select><a id="full" target="_blank" rel="noopener">원본 이미지 ↗</a></div></nav><p id="status"></p></header>
+<main><img id="shot" alt="기업 테마 메인 2차 초안"></main>
+<script>
+let selected='home';const names={home:'메인',list:'게시판 목록',view:'게시판 내용과 댓글',write:'글쓰기',register:'회원가입'};const numbers={home:'01',list:'02',view:'03',write:'04',register:'05'};
+function update(){let mode=document.querySelector('#mode').value;const hasDark=['home','list'].includes(selected);document.querySelector('option[value=dark]').disabled=!hasDark;if(mode==='dark'&&!hasDark){mode='light';document.querySelector('#mode').value=mode}const file=mode==='light'?numbers[selected]+'-'+selected+'.png':selected+'-'+mode+'.png';document.querySelector('#shot').src='./previews/'+file;document.querySelector('#shot').alt=names[selected]+' · '+mode;document.querySelector('#shot').classList.toggle('mobile',mode==='mobile');document.querySelector('#full').href='./previews/'+file;document.querySelector('#status').textContent=(mode==='mobile'?'390px 모바일':mode==='dark'?'1440px · daisyUI business':'1440px · daisyUI corporate')+' · 전체 길이 이미지 · 사진·수치·기업 정보는 시안용';document.querySelectorAll('[data-page]').forEach(b=>b.classList.toggle('active',b.dataset.page===selected))}
+document.querySelectorAll('[data-page]').forEach(b=>b.addEventListener('click',()=>{selected=b.dataset.page;update();window.scrollTo(0,0)}));document.querySelector('#mode').addEventListener('change',update);update();
+</script></body></html>

@@ -1,0 +1,38 @@
+{
+  "$schema": "../../schemas/theme-tokens.schema.json",
+  "$description": "Valid theme token fixture",
+  "$extensions": {
+    "dev.jwsoft.g5-theme": {
+      "tailwind": {
+        "--color-surface": "{color.surface}",
+        "--color-text": "{color.text}",
+        "--color-brand": "{color.brand}",
+        "--radius-box": "{radius.box}"
+      }
+    }
+  },
+  "color": {
+    "$type": "color",
+    "surface": { "$value": "#ffffff" },
+    "surface-muted": { "$value": "#f5f7fa" },
+    "text": { "$value": "#18202a" },
+    "text-muted": { "$value": "#5d6978" },
+    "brand": { "$value": "#1463ff" },
+    "brand-contrast": { "$value": "#ffffff" },
+    "accent": { "$value": "#00a884" },
+    "border": { "$value": "#d8dee8" },
+    "focus": { "$value": "#005fcc" },
+    "success": { "$value": "#087f5b" },
+    "warning": { "$value": "#a65f00" },
+    "danger": { "$value": "#c92a2a" }
+  },
+  "radius": {
+    "$type": "dimension",
+    "box": {
+      "$value": {
+        "value": 16,
+        "unit": "px"
+      }
+    }
+  }
+}

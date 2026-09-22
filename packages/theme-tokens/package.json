@@ -1,0 +1,13 @@
+{
+  "name": "@jwsoft/theme-tokens",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@jwsoft/theme-contracts": "workspace:*",
+    "style-dictionary": "catalog:"
+  },
+  "scripts": {
+    "test": "bun test tests"
+  }
+}

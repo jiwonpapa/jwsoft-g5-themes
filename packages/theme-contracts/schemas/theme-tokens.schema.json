@@ -1,0 +1,177 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.jwsoft.dev/g5-theme/theme-tokens.schema.json",
+  "title": "JW SOFT G5 theme design tokens",
+  "type": "object",
+  "additionalProperties": {
+    "$ref": "#/$defs/node"
+  },
+  "required": [
+    "$extensions",
+    "color"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "$description": {
+      "type": "string"
+    },
+    "$extensions": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": [
+        "dev.jwsoft.g5-theme"
+      ],
+      "properties": {
+        "dev.jwsoft.g5-theme": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "tailwind"
+          ],
+          "properties": {
+            "tailwind": {
+              "type": "object",
+              "minProperties": 1,
+              "propertyNames": {
+                "pattern": "^--(color|font|text|spacing|radius|shadow)-[a-z0-9-]+$"
+              },
+              "additionalProperties": {
+                "type": "string",
+                "pattern": "^\\{[a-zA-Z0-9._-]+\\}$"
+              }
+            }
+          }
+        }
+      }
+    },
+    "color": {
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "#/$defs/node"
+      },
+      "required": [
+        "$type",
+        "surface",
+        "surface-muted",
+        "text",
+        "text-muted",
+        "brand",
+        "brand-contrast",
+        "accent",
+        "border",
+        "focus",
+        "success",
+        "warning",
+        "danger"
+      ],
+      "properties": {
+        "$type": {
+          "const": "color"
+        },
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "type": "object"
+        },
+        "surface": {
+          "$ref": "#/$defs/token"
+        },
+        "surface-muted": {
+          "$ref": "#/$defs/token"
+        },
+        "text": {
+          "$ref": "#/$defs/token"
+        },
+        "text-muted": {
+          "$ref": "#/$defs/token"
+        },
+        "brand": {
+          "$ref": "#/$defs/token"
+        },
+        "brand-contrast": {
+          "$ref": "#/$defs/token"
+        },
+        "accent": {
+          "$ref": "#/$defs/token"
+        },
+        "border": {
+          "$ref": "#/$defs/token"
+        },
+        "focus": {
+          "$ref": "#/$defs/token"
+        },
+        "success": {
+          "$ref": "#/$defs/token"
+        },
+        "warning": {
+          "$ref": "#/$defs/token"
+        },
+        "danger": {
+          "$ref": "#/$defs/token"
+        }
+      }
+    }
+  },
+  "$defs": {
+    "token": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "$value"
+      ],
+      "properties": {
+        "$value": {},
+        "$type": {
+          "type": "string"
+        },
+        "$description": {
+          "type": "string"
+        },
+        "$deprecated": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "$extensions": {
+          "type": "object"
+        }
+      }
+    },
+    "group": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "$ref": "#/$defs/node"
+      },
+      "properties": {
+        "$type": {
+          "type": "string"
+        },
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "type": "object"
+        }
+      }
+    },
+    "node": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/token"
+        },
+        {
+          "$ref": "#/$defs/group"
+        }
+      ]
+    }
+  }
+}

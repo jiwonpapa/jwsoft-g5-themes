@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "product": {
+    "slug": "jw_business",
+    "version": "1.0.0-dev.1"
+  },
+  "toolchain": {
+    "bun": "1.4.2",
+    "serverIncluded": false
+  },
+  "commands": {
+    "setup": "setup",
+    "doctor": "doctor",
+    "build": "build",
+    "check": "check",
+    "hashPayload": "hash:payload"
+  },
+  "paths": {
+    "required": [
+      "package.json",
+      "bun.lock",
+      "bunfig.toml",
+      "packages/theme-contracts/package.json",
+      "packages/theme-tokens/package.json",
+      "themes/business/jw_business/package.json",
+      "themes/business/jw_business/theme.manifest.json",
+      "themes/business/jw_business/tokens/theme.tokens.json",
+      "themes/business/jw_business/src",
+      "themes/business/jw_business/scripts"
+    ],
+    "editable": [
+      "themes/business/jw_business/src/**",
+      "themes/business/jw_business/tokens/theme.tokens.json"
+    ],
+    "generated": [
+      "themes/business/jw_business/generated/**",
+      "themes/business/jw_business/build/**",
+      "themes/business/jw_business/theme/**",
+      "themes/business/jw_business/ASSET-MANIFEST.json"
+    ],
+    "forbidden": [
+      ".runtime/**",
+      "node_modules/**",
+      "그누보드5 코어 파일",
+      "고객 사이트 data 디렉터리",
+      "비밀값과 운영 서버 접속 정보"
+    ]
+  },
+  "ai": {
+    "readOrder": [
+      "AGENTS.md",
+      "themes/business/jw_business/PRODUCT.md",
+      "themes/business/jw_business/delivery/developer-kit/DEVELOPMENT-CONTRACT.json",
+      "themes/business/jw_business/docs/manual/LOCAL-DEVELOPMENT.md"
+    ],
+    "requiredEvidence": [
+      "수정 전 git status 또는 원본 백업 상태",
+      "수정한 source diff",
+      "bun run check 결과",
+      "실제 G5 화면 검사를 했다면 환경과 화면 목록",
+      "실행하지 않은 검사와 남은 위험"
+    ]
+  },
+  "support": {
+    "included": [
+      "배포된 개발 키트의 setup·doctor·build 명령 자체 오류",
+      "고정 lockfile과 제공 source의 누락",
+      "문서와 원본 개발 키트의 불일치"
+    ],
+    "excluded": [
+      "Bun 설치와 운영체제 복구 대행",
+      "구매자 또는 AI가 수정한 코드의 디버깅",
+      "웹서버·PHP·DB·도메인·SSL 구축",
+      "외부 패키지 추가로 발생한 충돌"
+    ]
+  }
+}

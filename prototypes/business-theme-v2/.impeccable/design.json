@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-20T12:23:59.876112+00:00",
+  "title": "Design System: JW NEXUS · 기업 테마 2차 시안",
+  "extensions": {
+    "typographyMeta": {
+      "display": {
+        "displayName": "메인 제목",
+        "purpose": "PC 62px, 1100px 이하 53px, 800px 이하 40px."
+      },
+      "headline": {
+        "displayName": "섹션 제목",
+        "purpose": "PC 38px, 1100px 이하 32px, 800px 이하 29px."
+      }
+    },
+    "shadows": [
+      {
+        "name": "hero-text",
+        "value": "0 2px 30px color-mix(in oklch,var(--color-neutral) 15%,transparent)",
+        "purpose": "text-shadow; 박스 그림자가 아닙니다."
+      }
+    ],
+    "motion": [
+      {
+        "name": "anchor-scroll",
+        "value": "smooth",
+        "purpose": "html scroll-behavior. prefers-reduced-motion: reduce에서는 auto. README의 다른 모션은 미구현 제안."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact-desktop",
+        "value": "1100px"
+      },
+      {
+        "name": "mobile",
+        "value": "800px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "primary 버튼",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "현재 기본 상태와 포커스. 별도 hover/active 효과 없음.",
+      "html": "<button class=\"ds-btn-primary\">자세히 보기</button>",
+      "css": ".ds-btn-primary{min-height:46px;padding:11px 20px;display:inline-flex;align-items:center;justify-content:center;gap:20px;border:1px solid transparent;border-radius:var(--radius-field);font-family:Pretendard,sans-serif;font-size:14px;font-weight:650;white-space:nowrap;line-height:1.4;cursor:pointer;background:var(--color-primary);color:var(--color-primary-content);}.ds-btn-primary:focus-visible{outline:3px solid var(--color-primary);outline-offset:3px}"
+    },
+    {
+      "name": "outline 버튼",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "현재 기본 상태와 포커스. 별도 hover/active 효과 없음.",
+      "html": "<button class=\"ds-btn-outline\">자세히 보기</button>",
+      "css": ".ds-btn-outline{min-height:46px;padding:11px 20px;display:inline-flex;align-items:center;justify-content:center;gap:20px;border:1px solid transparent;border-radius:var(--radius-field);font-family:Pretendard,sans-serif;font-size:14px;font-weight:650;white-space:nowrap;line-height:1.4;cursor:pointer;border-color:var(--color-base-300);background:var(--color-base-100);color:var(--color-base-content);}.ds-btn-outline:focus-visible{outline:3px solid var(--color-primary);outline-offset:3px}"
+    },
+    {
+      "name": "white 버튼",
+      "kind": "button",
+      "description": "현재 기본 상태와 포커스. 별도 hover/active 효과 없음. business는 primary-content 배경과 base-100 글자를 사용합니다.",
+      "html": "<button class=\"ds-btn-white\">자세히 보기</button>",
+      "css": ".ds-btn-white{min-height:46px;padding:11px 20px;display:inline-flex;align-items:center;justify-content:center;gap:20px;border:1px solid transparent;border-radius:var(--radius-field);font-family:Pretendard,sans-serif;font-size:14px;font-weight:650;white-space:nowrap;line-height:1.4;cursor:pointer;background:var(--color-neutral-content);color:var(--color-neutral);}.ds-btn-white:focus-visible{outline:3px solid var(--color-primary);outline-offset:3px}"
+    },
+    {
+      "name": "quiet 버튼",
+      "kind": "button",
+      "description": "현재 기본 상태와 포커스. 별도 hover/active 효과 없음.",
+      "html": "<button class=\"ds-btn-quiet\">자세히 보기</button>",
+      "css": ".ds-btn-quiet{min-height:46px;padding:11px 20px;display:inline-flex;align-items:center;justify-content:center;gap:20px;border:1px solid transparent;border-radius:var(--radius-field);font-family:Pretendard,sans-serif;font-size:14px;font-weight:650;white-space:nowrap;line-height:1.4;cursor:pointer;background:transparent;color:var(--color-base-content);padding-inline:10px;}.ds-btn-quiet:focus-visible{outline:3px solid var(--color-primary);outline-offset:3px}"
+    },
+    {
+      "name": "입력",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "글쓰기와 회원가입의 공유 필드.",
+      "html": "<input class=\"ds-input\" aria-label=\"제목\" placeholder=\"제목을 입력하세요\">",
+      "css": ".ds-input{width:100%;min-height:47px;border:1px solid var(--color-base-300);background:var(--color-base-100);color:var(--color-base-content);border-radius:var(--radius-field);padding:11px 13px;font-family:Pretendard,sans-serif;font-size:13px}.ds-input::placeholder{color:color-mix(in oklch,var(--color-base-content) 43%,transparent)}.ds-input:focus-visible{outline:3px solid var(--color-primary);outline-offset:3px}"
+    },
+    {
+      "name": "주 메뉴",
+      "kind": "nav",
+      "description": "PC 선택 메뉴의 3px 하단 표시.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"주 메뉴\"><a href=\"#\">사업영역</a><a class=\"ds-selected\" href=\"#\" aria-current=\"page\">소식·자료</a></nav>",
+      "css": ".ds-nav{height:90px;display:flex;gap:36px;align-items:center;background:var(--color-base-100);color:var(--color-base-content);font-family:Pretendard,sans-serif}.ds-nav a{height:100%;display:flex;align-items:center;position:relative;font-size:15px;font-weight:650;text-decoration:none;color:inherit}.ds-nav .ds-selected{color:var(--color-primary)}.ds-nav .ds-selected:after{content:\"\";position:absolute;height:3px;background:var(--color-primary);bottom:0;left:0;right:0}.ds-nav a:focus-visible{outline:3px solid var(--color-primary);outline-offset:3px}"
+    },
+    {
+      "name": "분류 태그",
+      "kind": "chip",
+      "description": "현재 콘텐츠 분류 표시.",
+      "html": "<span class=\"ds-tag\">프로젝트</span>",
+      "css": ".ds-tag{display:inline-flex;align-items:center;min-height:26px;padding:3px 9px;border-radius:var(--radius-selector);font-family:Pretendard,sans-serif;font-size:12px;font-weight:650;background:color-mix(in oklch,var(--color-primary) 9%,var(--color-base-100));color:var(--color-primary)}"
+    },
+    {
+      "name": "가입 폼 면",
+      "kind": "card",
+      "description": "기능 화면의 절제된 표면.",
+      "html": "<section class=\"ds-form-card\"><h2>계정 정보</h2><p>필수 정보를 입력해 주세요.</p></section>",
+      "css": ".ds-form-card{background:var(--color-base-100);color:var(--color-base-content);padding:37px 40px 32px;border:1px solid color-mix(in oklch,var(--color-base-300) 50%,transparent);border-radius:var(--radius-box);font-family:Pretendard,sans-serif}.ds-form-card h2{font-size:21px;font-weight:700;line-height:1.3;letter-spacing:-.05em}.ds-form-card p{font-size:13px;line-height:1.65}"
+    },
+    {
+      "name": "아이콘 버튼",
+      "kind": "button",
+      "description": "공유 hover 배경과 포커스.",
+      "html": "<button class=\"ds-icon-btn\" aria-label=\"다음\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" aria-hidden=\"true\"><path d=\"M5 12h14m-7-7 7 7-7 7\"/></svg></button>",
+      "css": ".ds-icon-btn{width:42px;height:42px;display:inline-flex;align-items:center;justify-content:center;border:0;border-radius:var(--radius-field);background:transparent;color:var(--color-base-content);cursor:pointer}.ds-icon-btn svg{width:21px;height:21px;stroke-linecap:round;stroke-linejoin:round}.ds-icon-btn:hover{background:var(--color-base-200)}.ds-icon-btn:focus-visible{outline:3px solid var(--color-primary);outline-offset:3px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "현장과 기술을 연결하는 기업",
+    "overview": "사진을 중심으로 기업의 사업과 프로젝트를 보여주고, 기능 화면은 읽기와 입력에 집중합니다. 서로 다른 밀도의 섹션을 쌓되 헤더·푸터·버튼·입력·아이콘 체계는 다섯 화면에 공유합니다.\n\n이 문서는 PNG 렌더링 원본의 현재 값을 기록합니다. JW NEXUS는 가칭이며 회사·실적·주소·프로젝트·게시물·댓글은 가상, 사진은 AI 생성입니다. 최종 상품명·업종·디자인 승인이나 G5 구현 승인을 의미하지 않습니다.",
+    "keyCharacteristics": [
+      "큰 사진, 비대칭 사업 영역, 높이가 다른 프로젝트 배치",
+      "짙은 실적 띠와 밝은 정보 영역의 교대",
+      "공통 헤더·푸터·Lucide 아이콘과 일관된 입력 언어"
+    ],
+    "rules": [],
+    "dos": [
+      "Do 활성 daisyUI 테마의 semantic color와 공유 컴포넌트를 사용합니다.",
+      "Do 가칭·가상 데이터·AI 이미지 표시와 시안 검증 경계를 유지합니다.",
+      "Do 다섯 대표 화면의 사진 비율·한국어 줄바꿈·PC/모바일 구성을 함께 검토합니다."
+    ],
+    "donts": [
+      "Don't 이 문서를 최종 디자인 승인이나 G5 구현 지시로 취급하지 않습니다.",
+      "Don't 별도 HEX 팔레트나 구현되지 않은 모션·기능 상태를 추가하지 않습니다.",
+      "Don't 이미지 검토를 전체 접근성·G5 기능·배포 완료의 증거로 사용하지 않습니다."
+    ]
+  }
+}

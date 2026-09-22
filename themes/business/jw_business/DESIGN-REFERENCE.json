@@ -1,0 +1,10 @@
+{
+  "$schema": "../../../packages/theme-contracts/schemas/design-reference.schema.json",
+  "schemaVersion": 1,
+  "theme": "jw_business",
+  "provider": "local",
+  "frames": {
+    "home-light": "output/imagegen/jw-business-v6/01-home-light.png (repository root; starting reference, not final approval)"
+  },
+  "status": "draft"
+}

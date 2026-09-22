@@ -1,0 +1,39 @@
+{
+  "$schema": "../../../schemas/release-manifest.schema.json",
+  "schemaVersion": 1,
+  "generated": true,
+  "generatedAt": "2026-09-20T00:00:00Z",
+  "theme": "minimal",
+  "version": "0.1.0",
+  "sourceCommit": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "gnuboard": {
+    "version": "5.6.391",
+    "commit": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+  },
+  "toolchain": {
+    "bun": "1.4.2",
+    "runtime": "bun"
+  },
+  "lockfileSha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+  "commonPackages": [
+    {
+      "name": "@jwsoft/theme-contracts",
+      "version": "0.1.0"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "dist/minimal-0.1.0.zip",
+      "sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+      "bytes": 1024
+    }
+  ],
+  "gates": [
+    {
+      "id": "contract-check",
+      "result": "pass",
+      "evidence": "artifacts/contracts.json"
+    }
+  ],
+  "manualVersionUrl": "https://manual.example.com/minimal/0.1.0/"
+}

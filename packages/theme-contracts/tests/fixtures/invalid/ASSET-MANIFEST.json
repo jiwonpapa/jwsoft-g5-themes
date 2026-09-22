@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "theme": "minimal",
+  "assets": [
+    {
+      "id": "unlicensed-photo",
+      "path": "src/assets/photo.webp",
+      "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "provenance": "original",
+      "acquiredAt": "2026-09-20",
+      "usageScope": "theme",
+      "salePackage": true
+    }
+  ]
+}

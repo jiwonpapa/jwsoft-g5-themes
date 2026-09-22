@@ -1,0 +1,3692 @@
+{
+  "recordedAt": "2026-09-21",
+  "repository": "https://github.com/gnuboard/gnuboard5",
+  "tag": "v5.6.391",
+  "commit": "148d748c2d3fe60a536966164d1d7dbbe6f9c477",
+  "upstreamPath": "theme/basic",
+  "sourceDir": "src/php",
+  "fileCount": 460,
+  "youngcart": "Source preserved for baseline completeness; excluded from product support and future payload.",
+  "files": [
+    {
+      "path": "_common.php",
+      "area": "shared-shell-assets",
+      "upstreamSha256": "57a92a8daf4c6ba16262d51ffb10eb52c7bb387870c7df2745e114d515209a09",
+      "importedSha256": "57a92a8daf4c6ba16262d51ffb10eb52c7bb387870c7df2745e114d515209a09",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "css/default.css",
+      "area": "shared-shell-assets",
+      "upstreamSha256": "c245e2d69cda2d81242ecc62d51aa505507a9afb7fd4fd9de745420607410861",
+      "importedSha256": "c245e2d69cda2d81242ecc62d51aa505507a9afb7fd4fd9de745420607410861",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "css/default_shop.css",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "4bfebb21dbacfb5fa6b5d37e49206fd81dddec99c5db1e7ae2fef78b0cb9df1b",
+      "importedSha256": "4bfebb21dbacfb5fa6b5d37e49206fd81dddec99c5db1e7ae2fef78b0cb9df1b",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "css/mobile.css",
+      "area": "shared-shell-assets",
+      "upstreamSha256": "4b75a5ed4dcb125a325f3088f49f46b6b2d9cc003646671c257a9c19a2611c1e",
+      "importedSha256": "4b75a5ed4dcb125a325f3088f49f46b6b2d9cc003646671c257a9c19a2611c1e",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "css/mobile_shop.css",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "d0182bb1180de6552b728e0ea4dc0b19ecddc86304a5dc066b8f4e93b33eaddf",
+      "importedSha256": "d0182bb1180de6552b728e0ea4dc0b19ecddc86304a5dc066b8f4e93b33eaddf",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "group.php",
+      "area": "shared-shell-assets",
+      "upstreamSha256": "286503cf26693128639dd1bbd0aaeaf7ead8a2d052b5f5f232a812dbe8bba106",
+      "importedSha256": "286503cf26693128639dd1bbd0aaeaf7ead8a2d052b5f5f232a812dbe8bba106",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "head.php",
+      "area": "shared-shell-assets",
+      "upstreamSha256": "b5e6dd90863ff4f91201681c964510157ca44717c0ef05fe927565b2fa4c3172",
+      "importedSha256": "b5e6dd90863ff4f91201681c964510157ca44717c0ef05fe927565b2fa4c3172",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "head.sub.php",
+      "area": "shared-shell-assets",
+      "upstreamSha256": "1bf0e9f8e97949b2176c854bae7562cd594a98f53c52da514c23bf522bc96d53",
+      "importedSha256": "1bf0e9f8e97949b2176c854bae7562cd594a98f53c52da514c23bf522bc96d53",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "img/btn_end.gif",
+      "area": "shared-shell-assets",
+      "upstreamSha256": "095f56b84c5b039b9fbae750a93bc4d6aa48470a679222f3d0f7936f33c6cc69",
+      "importedSha256": "095f56b84c5b039b9fbae750a93bc4d6aa48470a679222f3d0f7936f33c6cc69",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "img/btn_first.gif",
+      "area": "shared-shell-assets",
+      "upstreamSha256": "c2ecfc94fde0e319c5535749c07b641e5691d293fde6e75295c7644962b93fa2",
+      "importedSha256": "c2ecfc94fde0e319c5535749c07b641e5691d293fde6e75295c7644962b93fa2",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "img/btn_idx_left.png",
+      "area": "shared-shell-assets",
+      "upstreamSha256": "7328df83f22757106c5ef47adfa7b542004c7f9de5c648fb24a7e1436c5b9f67",
+      "importedSha256": "7328df83f22757106c5ef47adfa7b542004c7f9de5c648fb24a7e1436c5b9f67",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "img/btn_idx_right.png",
+      "area": "shared-shell-assets",
+      "upstreamSha256": "0b3dd4c0f912b2fbe71822793dc6104dc0da0d313bd3cf1ab296cd3b278b3db9",
+      "importedSha256": "0b3dd4c0f912b2fbe71822793dc6104dc0da0d313bd3cf1ab296cd3b278b3db9",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "img/btn_next.gif",
+      "area": "shared-shell-assets",
+      "upstreamSha256": "a7e0a80ed7f7ad02877dd4fd9c214b6d6b247560ba5ae58ee554a76c18a85e80",
+      "importedSha256": "a7e0a80ed7f7ad02877dd4fd9c214b6d6b247560ba5ae58ee554a76c18a85e80",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "img/btn_next.png",
+      "area": "shared-shell-assets",
+      "upstreamSha256": "c0d17446f87437250feec79a0aba15fa029384ae2510ca92bd2efa68010a42f3",
+      "importedSha256": "c0d17446f87437250feec79a0aba15fa029384ae2510ca92bd2efa68010a42f3",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "img/btn_prev.gif",
+      "area": "shared-shell-assets",
+      "upstreamSha256": "b78934d88f78fb03258d2412f1cdca1441c6e5709ac096a3acbec1192e47efce",
+      "importedSha256": "b78934d88f78fb03258d2412f1cdca1441c6e5709ac096a3acbec1192e47efce",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "img/btn_prev.png",
+      "area": "shared-shell-assets",
+      "upstreamSha256": "25c75db36b88b3efb5d10f31e630ad5cb784bdfded6f22ae88889f59f1dd9191",
+      "importedSha256": "25c75db36b88b3efb5d10f31e630ad5cb784bdfded6f22ae88889f59f1dd9191",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "img/bullet.gif",
+      "area": "shared-shell-assets",
+      "upstreamSha256": "9c2b31d6f677eae0de3dbb519e7436509f8ab113acab5c797157a8d8f021abcc",
+      "importedSha256": "9c2b31d6f677eae0de3dbb519e7436509f8ab113acab5c797157a8d8f021abcc",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "img/chk.png",
+      "area": "shared-shell-assets",
+      "upstreamSha256": "6916a8b9f6eaaea1fbf753f98bf4530fab8c72cb09e5889f1bca421f93907e15",
+      "importedSha256": "6916a8b9f6eaaea1fbf753f98bf4530fab8c72cb09e5889f1bca421f93907e15",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "img/close_btn.gif",
+      "area": "shared-shell-assets",
+      "upstreamSha256": "d51e3e2431b43901701e70ba3c92f4492c5fe18715a405ff89352e25bea0f14a",
+      "importedSha256": "d51e3e2431b43901701e70ba3c92f4492c5fe18715a405ff89352e25bea0f14a",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "img/gnb_bg.gif",
+      "area": "shared-shell-assets",
+      "upstreamSha256": "aeb7590c32ea26863632315a6f5505ca924d16ab31a46fd08e490553b9878129",
+      "importedSha256": "aeb7590c32ea26863632315a6f5505ca924d16ab31a46fd08e490553b9878129",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "img/gnb_bg00.gif",
+      "area": "shared-shell-assets",
+      "upstreamSha256": "2545dd517d93fab4e0b161cb938e11316d6df044cf47b87644e139133f0b7b56",
+      "importedSha256": "2545dd517d93fab4e0b161cb938e11316d6df044cf47b87644e139133f0b7b56",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "img/gnb_bg2.gif",
+      "area": "shared-shell-assets",
+      "upstreamSha256": "94fac43c3b9f1773440376cb1f2e9ab1a87a4af07dab703d4bd1a9170bedfc48",
+      "importedSha256": "94fac43c3b9f1773440376cb1f2e9ab1a87a4af07dab703d4bd1a9170bedfc48",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "img/mobile/btn_close.png",
+      "area": "shared-shell-assets",
+      "upstreamSha256": "bee4e255882655df73581b127c03492b22e970099615875ced319884920f77f8",
+      "importedSha256": "bee4e255882655df73581b127c03492b22e970099615875ced319884920f77f8",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "img/mobile/gnb_bg.png",
+      "area": "shared-shell-assets",
+      "upstreamSha256": "dedefbd3abc0d029aa8c371d7f954af2ddcacbea265391004abedf224c6c0825",
+      "importedSha256": "dedefbd3abc0d029aa8c371d7f954af2ddcacbea265391004abedf224c6c0825",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "img/mobile/gnb_bg2.png",
+      "area": "shared-shell-assets",
+      "upstreamSha256": "feec35c2286a67b4cce6ef45f35be8d16fb681b63d3af83c204f4ceb01c01a17",
+      "importedSha256": "feec35c2286a67b4cce6ef45f35be8d16fb681b63d3af83c204f4ceb01c01a17",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "img/more-btn.gif",
+      "area": "shared-shell-assets",
+      "upstreamSha256": "9412ff300017699e6458e0c5abe90fc622d14f147558cd255382d67f7849f0cb",
+      "importedSha256": "9412ff300017699e6458e0c5abe90fc622d14f147558cd255382d67f7849f0cb",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "img/no_profile.gif",
+      "area": "shared-shell-assets",
+      "upstreamSha256": "90263fe4a422ec397a6f9c8a64f8ff731bbe02a0c83d2e740d3d0b9271147dae",
+      "importedSha256": "90263fe4a422ec397a6f9c8a64f8ff731bbe02a0c83d2e740d3d0b9271147dae",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "img/require.png",
+      "area": "shared-shell-assets",
+      "upstreamSha256": "ecca28ad16cd2edfd30fc15789f4cda71cfd3eb63d6773c6b6437c65742a56fe",
+      "importedSha256": "ecca28ad16cd2edfd30fc15789f4cda71cfd3eb63d6773c6b6437c65742a56fe",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "img/wrest.gif",
+      "area": "shared-shell-assets",
+      "upstreamSha256": "2370a62cd745cb6c44971faadd55b14df496729cb54d3985c07489cc3e40d4de",
+      "importedSha256": "2370a62cd745cb6c44971faadd55b14df496729cb54d3985c07489cc3e40d4de",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "index.php",
+      "area": "shared-shell-assets",
+      "upstreamSha256": "a80cdcf7ad0cbe00077c2731ad9a91c36f3bcee1dd49f20292c837f23e4a2ee3",
+      "importedSha256": "a80cdcf7ad0cbe00077c2731ad9a91c36f3bcee1dd49f20292c837f23e4a2ee3",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "js/theme.shop.list.js",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "fbdedf84852fd4cb9c91d21e45dbeb0dda1d644c5c34f6e13245fa12885befa2",
+      "importedSha256": "fbdedf84852fd4cb9c91d21e45dbeb0dda1d644c5c34f6e13245fa12885befa2",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/_common.php",
+      "area": "mobile-shell",
+      "upstreamSha256": "ea479bbab76c412a09c15f5ae2d440bcbe03d59feacf20a00a6020088493f0bc",
+      "importedSha256": "ea479bbab76c412a09c15f5ae2d440bcbe03d59feacf20a00a6020088493f0bc",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/group.php",
+      "area": "mobile-shell",
+      "upstreamSha256": "380fff18a54f3d4ca4e0c29d13eb00b6f63667cb06e045325d52a75d59f9f9b8",
+      "importedSha256": "380fff18a54f3d4ca4e0c29d13eb00b6f63667cb06e045325d52a75d59f9f9b8",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/head.php",
+      "area": "mobile-shell",
+      "upstreamSha256": "8150040d98e12e34b94e1c5b888d9a7a73258dfeecafc3255d6f099d768e10a2",
+      "importedSha256": "8150040d98e12e34b94e1c5b888d9a7a73258dfeecafc3255d6f099d768e10a2",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/index.php",
+      "area": "mobile-shell",
+      "upstreamSha256": "d8c4536c7e99f5163f0b41c747a916118c697e30eba49954ce54c9cf8d6944a5",
+      "importedSha256": "d8c4536c7e99f5163f0b41c747a916118c697e30eba49954ce54c9cf8d6944a5",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/shop/_common.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "c19afb921442c69261369d7f7d3272e633ebe26c09d57c3d4ae8e8ddd614b5b4",
+      "importedSha256": "c19afb921442c69261369d7f7d3272e633ebe26c09d57c3d4ae8e8ddd614b5b4",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/shop/category.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "0a94bdab0a870ced735d2d50d8f21fc85d5b486560607dcf8ef77b2319ce96bf",
+      "importedSha256": "0a94bdab0a870ced735d2d50d8f21fc85d5b486560607dcf8ef77b2319ce96bf",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/shop/index.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "adf16c8c1da571a1ece8e0c05b3e12707f0d262714017fec5c896cfab4e97af0",
+      "importedSha256": "adf16c8c1da571a1ece8e0c05b3e12707f0d262714017fec5c896cfab4e97af0",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/shop/shop.head.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "2f9888b9a1e20d7704b6a4bb686e2dcb63dedffbe0ce9fc1ab0d7ee8086bf942",
+      "importedSha256": "2f9888b9a1e20d7704b6a4bb686e2dcb63dedffbe0ce9fc1ab0d7ee8086bf942",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/shop/shop.tail.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "95a553280ca64b1d728316cf2617003edaecf9d7f704ddde796d515e69cd6406",
+      "importedSha256": "95a553280ca64b1d728316cf2617003edaecf9d7f704ddde796d515e69cd6406",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/board/basic/img/btn_next2.gif",
+      "area": "mobile-board",
+      "upstreamSha256": "c6f87a25ead84b5cedb1bf7c7ec32ebd9f51eb534f48ab6f6503f47d1b1fe13f",
+      "importedSha256": "c6f87a25ead84b5cedb1bf7c7ec32ebd9f51eb534f48ab6f6503f47d1b1fe13f",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/board/basic/img/btn_prev2.gif",
+      "area": "mobile-board",
+      "upstreamSha256": "e3644e0ba74731cd224df8627cfff0dd1fdde8f901266a56402a8cc53d31bf5b",
+      "importedSha256": "e3644e0ba74731cd224df8627cfff0dd1fdde8f901266a56402a8cc53d31bf5b",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/board/basic/img/chk.png",
+      "area": "mobile-board",
+      "upstreamSha256": "6916a8b9f6eaaea1fbf753f98bf4530fab8c72cb09e5889f1bca421f93907e15",
+      "importedSha256": "6916a8b9f6eaaea1fbf753f98bf4530fab8c72cb09e5889f1bca421f93907e15",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/board/basic/img/cmt_btn.png",
+      "area": "mobile-board",
+      "upstreamSha256": "209199656281dd71ffe701e6b6f67c8d4969444b40a648160f7be79bbf41bd2e",
+      "importedSha256": "209199656281dd71ffe701e6b6f67c8d4969444b40a648160f7be79bbf41bd2e",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/board/basic/img/icon_bad.png",
+      "area": "mobile-board",
+      "upstreamSha256": "11cd1a601dfc3a36211ff0cc549516714869787a1bd7b24ef2128326125d6fb8",
+      "importedSha256": "11cd1a601dfc3a36211ff0cc549516714869787a1bd7b24ef2128326125d6fb8",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/board/basic/img/icon_comment.png",
+      "area": "mobile-board",
+      "upstreamSha256": "f880e3279775673af0facb22c8b35c0fee72d3a2012fe9b3994cb742acd01a85",
+      "importedSha256": "f880e3279775673af0facb22c8b35c0fee72d3a2012fe9b3994cb742acd01a85",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/board/basic/img/icon_file.gif",
+      "area": "mobile-board",
+      "upstreamSha256": "b900a350d91bc7c2b32e3668ad73ae7b516575e34d54c5970665e41fcb973163",
+      "importedSha256": "b900a350d91bc7c2b32e3668ad73ae7b516575e34d54c5970665e41fcb973163",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/board/basic/img/icon_good.png",
+      "area": "mobile-board",
+      "upstreamSha256": "c75d12ebcf6bbc6a31c70c5ef0c35a4d95aa2934ed92fd6dedfa8f64ac3c8e1c",
+      "importedSha256": "c75d12ebcf6bbc6a31c70c5ef0c35a4d95aa2934ed92fd6dedfa8f64ac3c8e1c",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/board/basic/img/icon_hot.gif",
+      "area": "mobile-board",
+      "upstreamSha256": "88ab388cba88e178bfc68296543e577aabea98e891dd023a0c19b67837795489",
+      "importedSha256": "88ab388cba88e178bfc68296543e577aabea98e891dd023a0c19b67837795489",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/board/basic/img/icon_img.gif",
+      "area": "mobile-board",
+      "upstreamSha256": "b1630f11b8d374a6926450feb24af1e885e519dd9ef76ab10bbbe82ee0935bf7",
+      "importedSha256": "b1630f11b8d374a6926450feb24af1e885e519dd9ef76ab10bbbe82ee0935bf7",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/board/basic/img/icon_link.gif",
+      "area": "mobile-board",
+      "upstreamSha256": "f9b6ccf35912cf9cf7a0f763da97ec9b6a061f802e9537e728525b8a1e6a447d",
+      "importedSha256": "f9b6ccf35912cf9cf7a0f763da97ec9b6a061f802e9537e728525b8a1e6a447d",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/board/basic/img/icon_lock.png",
+      "area": "mobile-board",
+      "upstreamSha256": "8b9863c9b2c8da908e5e055273eb9d8b156eb5e0ce832a099aa889fa05abf9da",
+      "importedSha256": "8b9863c9b2c8da908e5e055273eb9d8b156eb5e0ce832a099aa889fa05abf9da",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/board/basic/img/icon_mobile.gif",
+      "area": "mobile-board",
+      "upstreamSha256": "5a5ae3fc895985e21eada75e80683945001b4d07c8fce16845e55e3a8954b179",
+      "importedSha256": "5a5ae3fc895985e21eada75e80683945001b4d07c8fce16845e55e3a8954b179",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/board/basic/img/icon_movie.gif",
+      "area": "mobile-board",
+      "upstreamSha256": "c6e1307d36b98f3e9e572dcc2c2797c08b90dad321dacbab997c520c12eb2796",
+      "importedSha256": "c6e1307d36b98f3e9e572dcc2c2797c08b90dad321dacbab997c520c12eb2796",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/board/basic/img/icon_new.gif",
+      "area": "mobile-board",
+      "upstreamSha256": "c7f9436b5b9b86d007dcffa161d5d99dc21d9788e881ce443d572181b1de6918",
+      "importedSha256": "c7f9436b5b9b86d007dcffa161d5d99dc21d9788e881ce443d572181b1de6918",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/board/basic/img/icon_reply.gif",
+      "area": "mobile-board",
+      "upstreamSha256": "0233c2ed39230a35216b55861d7d5500320c0db99eba687cb2bd6883c7f081a1",
+      "importedSha256": "0233c2ed39230a35216b55861d7d5500320c0db99eba687cb2bd6883c7f081a1",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/board/basic/img/icon_secret.gif",
+      "area": "mobile-board",
+      "upstreamSha256": "8a06181f584d61218d959913eeac4ec383c87d85a66532e595ff31e61db3a831",
+      "importedSha256": "8a06181f584d61218d959913eeac4ec383c87d85a66532e595ff31e61db3a831",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/board/basic/img/icon_sound.gif",
+      "area": "mobile-board",
+      "upstreamSha256": "afb2f68f1ab9e8c09d2872da5dd6f6c19cc87b1a210f9b1dea13cbf8965cbd63",
+      "importedSha256": "afb2f68f1ab9e8c09d2872da5dd6f6c19cc87b1a210f9b1dea13cbf8965cbd63",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/board/basic/img/icon_view.png",
+      "area": "mobile-board",
+      "upstreamSha256": "c2f9f7c0890ec2c8cfaf43f2d5aa570bfa23aefcafbb9aa5120a03a78be6605d",
+      "importedSha256": "c2f9f7c0890ec2c8cfaf43f2d5aa570bfa23aefcafbb9aa5120a03a78be6605d",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/board/basic/img/require.png",
+      "area": "mobile-board",
+      "upstreamSha256": "ecca28ad16cd2edfd30fc15789f4cda71cfd3eb63d6773c6b6437c65742a56fe",
+      "importedSha256": "ecca28ad16cd2edfd30fc15789f4cda71cfd3eb63d6773c6b6437c65742a56fe",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/board/basic/img/sch_btn.png",
+      "area": "mobile-board",
+      "upstreamSha256": "bdc816ba2be68a5a6498315ae68f20fdc370c349fa556764bfb002f43da057f1",
+      "importedSha256": "bdc816ba2be68a5a6498315ae68f20fdc370c349fa556764bfb002f43da057f1",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/board/basic/list.skin.php",
+      "area": "mobile-board",
+      "upstreamSha256": "64ab9d7e14b780b30c4880131352ff9a762f57958a5feb1017f0decdc6f24f7a",
+      "importedSha256": "64ab9d7e14b780b30c4880131352ff9a762f57958a5feb1017f0decdc6f24f7a",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/board/basic/style.css",
+      "area": "mobile-board",
+      "upstreamSha256": "309395bbd0b10156857b42405ef37661f50eca1d251491aed5705f91e2dbf071",
+      "importedSha256": "309395bbd0b10156857b42405ef37661f50eca1d251491aed5705f91e2dbf071",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/board/basic/view.skin.php",
+      "area": "mobile-board",
+      "upstreamSha256": "ceb89b4ee35c3d209ddd53c7037ea8ff326251d14add4f9cdd50c461a37f9544",
+      "importedSha256": "ceb89b4ee35c3d209ddd53c7037ea8ff326251d14add4f9cdd50c461a37f9544",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/board/basic/view_comment.skin.php",
+      "area": "mobile-board",
+      "upstreamSha256": "8ece6780dc1e30d6bfa38b88246ca40d1ab7a3a95106dabb8e485a5114a04b24",
+      "importedSha256": "8ece6780dc1e30d6bfa38b88246ca40d1ab7a3a95106dabb8e485a5114a04b24",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/board/basic/write.skin.php",
+      "area": "mobile-board",
+      "upstreamSha256": "65f6876d37a1cde59f55dbf13cf9d990ef86162f1ed7a4409d33eec249450f34",
+      "importedSha256": "65f6876d37a1cde59f55dbf13cf9d990ef86162f1ed7a4409d33eec249450f34",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/board/gallery/img/chk.png",
+      "area": "mobile-board",
+      "upstreamSha256": "6916a8b9f6eaaea1fbf753f98bf4530fab8c72cb09e5889f1bca421f93907e15",
+      "importedSha256": "6916a8b9f6eaaea1fbf753f98bf4530fab8c72cb09e5889f1bca421f93907e15",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/board/gallery/img/cmt_btn.png",
+      "area": "mobile-board",
+      "upstreamSha256": "209199656281dd71ffe701e6b6f67c8d4969444b40a648160f7be79bbf41bd2e",
+      "importedSha256": "209199656281dd71ffe701e6b6f67c8d4969444b40a648160f7be79bbf41bd2e",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/board/gallery/img/icon_file.gif",
+      "area": "mobile-board",
+      "upstreamSha256": "26f80728f2749899cc4dfa484a4536a8a927ca127c70c37ec6c4ec9753a74b80",
+      "importedSha256": "26f80728f2749899cc4dfa484a4536a8a927ca127c70c37ec6c4ec9753a74b80",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/board/gallery/img/icon_hot.gif",
+      "area": "mobile-board",
+      "upstreamSha256": "06bb916b8eb4e762762fac3963fca0e9e8e7f116047a074b0af996635049105c",
+      "importedSha256": "06bb916b8eb4e762762fac3963fca0e9e8e7f116047a074b0af996635049105c",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/board/gallery/img/icon_img.gif",
+      "area": "mobile-board",
+      "upstreamSha256": "b1630f11b8d374a6926450feb24af1e885e519dd9ef76ab10bbbe82ee0935bf7",
+      "importedSha256": "b1630f11b8d374a6926450feb24af1e885e519dd9ef76ab10bbbe82ee0935bf7",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/board/gallery/img/icon_link.gif",
+      "area": "mobile-board",
+      "upstreamSha256": "c93f9f8d0e99e64c2da940326bfb8652d4f384e541573818912da5127903973c",
+      "importedSha256": "c93f9f8d0e99e64c2da940326bfb8652d4f384e541573818912da5127903973c",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/board/gallery/img/icon_mobile.gif",
+      "area": "mobile-board",
+      "upstreamSha256": "5a5ae3fc895985e21eada75e80683945001b4d07c8fce16845e55e3a8954b179",
+      "importedSha256": "5a5ae3fc895985e21eada75e80683945001b4d07c8fce16845e55e3a8954b179",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/board/gallery/img/icon_movie.gif",
+      "area": "mobile-board",
+      "upstreamSha256": "c6e1307d36b98f3e9e572dcc2c2797c08b90dad321dacbab997c520c12eb2796",
+      "importedSha256": "c6e1307d36b98f3e9e572dcc2c2797c08b90dad321dacbab997c520c12eb2796",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/board/gallery/img/icon_new.gif",
+      "area": "mobile-board",
+      "upstreamSha256": "c7f9436b5b9b86d007dcffa161d5d99dc21d9788e881ce443d572181b1de6918",
+      "importedSha256": "c7f9436b5b9b86d007dcffa161d5d99dc21d9788e881ce443d572181b1de6918",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/board/gallery/img/icon_reply.gif",
+      "area": "mobile-board",
+      "upstreamSha256": "a94a081920154ed9b29285b597eca4abd711a9027fd799f0865f751427401b73",
+      "importedSha256": "a94a081920154ed9b29285b597eca4abd711a9027fd799f0865f751427401b73",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/board/gallery/img/icon_secret.gif",
+      "area": "mobile-board",
+      "upstreamSha256": "1fe10ffc2886b4e91856f95699ee0680dde80e94aa32a54c8216000f311aee50",
+      "importedSha256": "1fe10ffc2886b4e91856f95699ee0680dde80e94aa32a54c8216000f311aee50",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/board/gallery/img/icon_sound.gif",
+      "area": "mobile-board",
+      "upstreamSha256": "afb2f68f1ab9e8c09d2872da5dd6f6c19cc87b1a210f9b1dea13cbf8965cbd63",
+      "importedSha256": "afb2f68f1ab9e8c09d2872da5dd6f6c19cc87b1a210f9b1dea13cbf8965cbd63",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/board/gallery/list.skin.php",
+      "area": "mobile-board",
+      "upstreamSha256": "1f1473ea6f71b424030b1ce14ce24b6f2748237ca835027b3e89f3b7d62f766f",
+      "importedSha256": "1f1473ea6f71b424030b1ce14ce24b6f2748237ca835027b3e89f3b7d62f766f",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/board/gallery/style.css",
+      "area": "mobile-board",
+      "upstreamSha256": "a434fe99736fd2036f1b77375fadbf04aa48181ccfbadc4c5cccbd00dc752457",
+      "importedSha256": "a434fe99736fd2036f1b77375fadbf04aa48181ccfbadc4c5cccbd00dc752457",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/board/gallery/view.skin.php",
+      "area": "mobile-board",
+      "upstreamSha256": "17ce72a1650879c1a7eeb0222b1ee55f83619b4f6af5e7a9fb48da1d6c42d1dd",
+      "importedSha256": "17ce72a1650879c1a7eeb0222b1ee55f83619b4f6af5e7a9fb48da1d6c42d1dd",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/board/gallery/view_comment.skin.php",
+      "area": "mobile-board",
+      "upstreamSha256": "da1a1c1fe79ac4f8b3a637dd833de13a0365c2f23d4ecff95c15744cc60820b5",
+      "importedSha256": "da1a1c1fe79ac4f8b3a637dd833de13a0365c2f23d4ecff95c15744cc60820b5",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/board/gallery/write.skin.php",
+      "area": "mobile-board",
+      "upstreamSha256": "65f6876d37a1cde59f55dbf13cf9d990ef86162f1ed7a4409d33eec249450f34",
+      "importedSha256": "65f6876d37a1cde59f55dbf13cf9d990ef86162f1ed7a4409d33eec249450f34",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/connect/basic/connect.skin.php",
+      "area": "mobile-connect",
+      "upstreamSha256": "df283651a3c6fca4600d703cd6de525da5d696bcba39d42310615237db2d309a",
+      "importedSha256": "df283651a3c6fca4600d703cd6de525da5d696bcba39d42310615237db2d309a",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/connect/basic/current_connect.skin.php",
+      "area": "mobile-connect",
+      "upstreamSha256": "dfded87deb43271ef61698f47992516c18358d12149f9301e481145e36ccbfc0",
+      "importedSha256": "dfded87deb43271ef61698f47992516c18358d12149f9301e481145e36ccbfc0",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/connect/basic/style.css",
+      "area": "mobile-connect",
+      "upstreamSha256": "b6fa171acf0ca41601a24ad14a48e8ee0d2697a25f464571462c495d51c3ef44",
+      "importedSha256": "b6fa171acf0ca41601a24ad14a48e8ee0d2697a25f464571462c495d51c3ef44",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/content/basic/content.skin.php",
+      "area": "mobile-content",
+      "upstreamSha256": "964dda87f22221bd73167f17387b89cdd3d406cb75a622677ddba1327590be0b",
+      "importedSha256": "964dda87f22221bd73167f17387b89cdd3d406cb75a622677ddba1327590be0b",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/content/basic/style.css",
+      "area": "mobile-content",
+      "upstreamSha256": "7d142ac09d9fc6403ec556c56393fd4a48f6c3d160cfc4af030545d74928c4d5",
+      "importedSha256": "7d142ac09d9fc6403ec556c56393fd4a48f6c3d160cfc4af030545d74928c4d5",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/faq/basic/list.skin.php",
+      "area": "mobile-faq",
+      "upstreamSha256": "a58e771f045eef7070b77cabc011eb64434a599010165dba376e6d46db668ac8",
+      "importedSha256": "a58e771f045eef7070b77cabc011eb64434a599010165dba376e6d46db668ac8",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/faq/basic/style.css",
+      "area": "mobile-faq",
+      "upstreamSha256": "9e8abf53bb7458678ff16c1817de6f56ba01bc7174eed054326e730bf608c777",
+      "importedSha256": "9e8abf53bb7458678ff16c1817de6f56ba01bc7174eed054326e730bf608c777",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/latest/basic/img/icon_comment.png",
+      "area": "mobile-latest",
+      "upstreamSha256": "f880e3279775673af0facb22c8b35c0fee72d3a2012fe9b3994cb742acd01a85",
+      "importedSha256": "f880e3279775673af0facb22c8b35c0fee72d3a2012fe9b3994cb742acd01a85",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/latest/basic/img/icon_file.gif",
+      "area": "mobile-latest",
+      "upstreamSha256": "b900a350d91bc7c2b32e3668ad73ae7b516575e34d54c5970665e41fcb973163",
+      "importedSha256": "b900a350d91bc7c2b32e3668ad73ae7b516575e34d54c5970665e41fcb973163",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/latest/basic/img/icon_hot.gif",
+      "area": "mobile-latest",
+      "upstreamSha256": "88ab388cba88e178bfc68296543e577aabea98e891dd023a0c19b67837795489",
+      "importedSha256": "88ab388cba88e178bfc68296543e577aabea98e891dd023a0c19b67837795489",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/latest/basic/img/icon_img.gif",
+      "area": "mobile-latest",
+      "upstreamSha256": "11d426d70e85850b5d251f72c741c74653e337d5680322a00ba30713dd4218d5",
+      "importedSha256": "11d426d70e85850b5d251f72c741c74653e337d5680322a00ba30713dd4218d5",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/latest/basic/img/icon_link.gif",
+      "area": "mobile-latest",
+      "upstreamSha256": "f9b6ccf35912cf9cf7a0f763da97ec9b6a061f802e9537e728525b8a1e6a447d",
+      "importedSha256": "f9b6ccf35912cf9cf7a0f763da97ec9b6a061f802e9537e728525b8a1e6a447d",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/latest/basic/img/icon_mobile.gif",
+      "area": "mobile-latest",
+      "upstreamSha256": "fca71ff9bd00e92e52c5dd10856934261fcf67b3ca64ddfab1ae7ce88daec4d2",
+      "importedSha256": "fca71ff9bd00e92e52c5dd10856934261fcf67b3ca64ddfab1ae7ce88daec4d2",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/latest/basic/img/icon_more.gif",
+      "area": "mobile-latest",
+      "upstreamSha256": "f47b2a395645ed6dbe840fb544c53462a7ae5fd43500561a3e0fe5bb817d4768",
+      "importedSha256": "f47b2a395645ed6dbe840fb544c53462a7ae5fd43500561a3e0fe5bb817d4768",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/latest/basic/img/icon_movie.gif",
+      "area": "mobile-latest",
+      "upstreamSha256": "c6e1307d36b98f3e9e572dcc2c2797c08b90dad321dacbab997c520c12eb2796",
+      "importedSha256": "c6e1307d36b98f3e9e572dcc2c2797c08b90dad321dacbab997c520c12eb2796",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/latest/basic/img/icon_new.gif",
+      "area": "mobile-latest",
+      "upstreamSha256": "c7f9436b5b9b86d007dcffa161d5d99dc21d9788e881ce443d572181b1de6918",
+      "importedSha256": "c7f9436b5b9b86d007dcffa161d5d99dc21d9788e881ce443d572181b1de6918",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/latest/basic/img/icon_reply.gif",
+      "area": "mobile-latest",
+      "upstreamSha256": "0233c2ed39230a35216b55861d7d5500320c0db99eba687cb2bd6883c7f081a1",
+      "importedSha256": "0233c2ed39230a35216b55861d7d5500320c0db99eba687cb2bd6883c7f081a1",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/latest/basic/img/icon_secret.gif",
+      "area": "mobile-latest",
+      "upstreamSha256": "8a06181f584d61218d959913eeac4ec383c87d85a66532e595ff31e61db3a831",
+      "importedSha256": "8a06181f584d61218d959913eeac4ec383c87d85a66532e595ff31e61db3a831",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/latest/basic/img/icon_sound.gif",
+      "area": "mobile-latest",
+      "upstreamSha256": "afb2f68f1ab9e8c09d2872da5dd6f6c19cc87b1a210f9b1dea13cbf8965cbd63",
+      "importedSha256": "afb2f68f1ab9e8c09d2872da5dd6f6c19cc87b1a210f9b1dea13cbf8965cbd63",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/latest/basic/latest.carousel.js",
+      "area": "mobile-latest",
+      "upstreamSha256": "078642746eceeb465ec603c8080a2c20ec224f5a8ffb1e2389f8428149b2f9ac",
+      "importedSha256": "078642746eceeb465ec603c8080a2c20ec224f5a8ffb1e2389f8428149b2f9ac",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/latest/basic/latest.skin.php",
+      "area": "mobile-latest",
+      "upstreamSha256": "c92c1bdffdc7abfee83762540539cd91643b892e1a3f75be3d1fbf0dd69c4db8",
+      "importedSha256": "c92c1bdffdc7abfee83762540539cd91643b892e1a3f75be3d1fbf0dd69c4db8",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/latest/basic/style.css",
+      "area": "mobile-latest",
+      "upstreamSha256": "879b7ad043a48035f5c89dc2922943df0aa8312b7683afb9bac694b9b041ca69",
+      "importedSha256": "879b7ad043a48035f5c89dc2922943df0aa8312b7683afb9bac694b9b041ca69",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/latest/comment/img/icon_file.gif",
+      "area": "mobile-latest",
+      "upstreamSha256": "b900a350d91bc7c2b32e3668ad73ae7b516575e34d54c5970665e41fcb973163",
+      "importedSha256": "b900a350d91bc7c2b32e3668ad73ae7b516575e34d54c5970665e41fcb973163",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/latest/comment/img/icon_hot.gif",
+      "area": "mobile-latest",
+      "upstreamSha256": "183fafa410a431831cf3044e9ba04581d2b3a855a4da7554fa4559aec2cb6b85",
+      "importedSha256": "183fafa410a431831cf3044e9ba04581d2b3a855a4da7554fa4559aec2cb6b85",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/latest/comment/img/icon_img.gif",
+      "area": "mobile-latest",
+      "upstreamSha256": "11d426d70e85850b5d251f72c741c74653e337d5680322a00ba30713dd4218d5",
+      "importedSha256": "11d426d70e85850b5d251f72c741c74653e337d5680322a00ba30713dd4218d5",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/latest/comment/img/icon_link.gif",
+      "area": "mobile-latest",
+      "upstreamSha256": "f9b6ccf35912cf9cf7a0f763da97ec9b6a061f802e9537e728525b8a1e6a447d",
+      "importedSha256": "f9b6ccf35912cf9cf7a0f763da97ec9b6a061f802e9537e728525b8a1e6a447d",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/latest/comment/img/icon_lock.png",
+      "area": "mobile-latest",
+      "upstreamSha256": "8b9863c9b2c8da908e5e055273eb9d8b156eb5e0ce832a099aa889fa05abf9da",
+      "importedSha256": "8b9863c9b2c8da908e5e055273eb9d8b156eb5e0ce832a099aa889fa05abf9da",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/latest/comment/img/icon_mobile.gif",
+      "area": "mobile-latest",
+      "upstreamSha256": "fca71ff9bd00e92e52c5dd10856934261fcf67b3ca64ddfab1ae7ce88daec4d2",
+      "importedSha256": "fca71ff9bd00e92e52c5dd10856934261fcf67b3ca64ddfab1ae7ce88daec4d2",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/latest/comment/img/icon_more.gif",
+      "area": "mobile-latest",
+      "upstreamSha256": "f47b2a395645ed6dbe840fb544c53462a7ae5fd43500561a3e0fe5bb817d4768",
+      "importedSha256": "f47b2a395645ed6dbe840fb544c53462a7ae5fd43500561a3e0fe5bb817d4768",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/latest/comment/img/icon_movie.gif",
+      "area": "mobile-latest",
+      "upstreamSha256": "c6e1307d36b98f3e9e572dcc2c2797c08b90dad321dacbab997c520c12eb2796",
+      "importedSha256": "c6e1307d36b98f3e9e572dcc2c2797c08b90dad321dacbab997c520c12eb2796",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/latest/comment/img/icon_new.gif",
+      "area": "mobile-latest",
+      "upstreamSha256": "c7f9436b5b9b86d007dcffa161d5d99dc21d9788e881ce443d572181b1de6918",
+      "importedSha256": "c7f9436b5b9b86d007dcffa161d5d99dc21d9788e881ce443d572181b1de6918",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/latest/comment/img/icon_reply.gif",
+      "area": "mobile-latest",
+      "upstreamSha256": "a94a081920154ed9b29285b597eca4abd711a9027fd799f0865f751427401b73",
+      "importedSha256": "a94a081920154ed9b29285b597eca4abd711a9027fd799f0865f751427401b73",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/latest/comment/img/icon_secret.gif",
+      "area": "mobile-latest",
+      "upstreamSha256": "8a06181f584d61218d959913eeac4ec383c87d85a66532e595ff31e61db3a831",
+      "importedSha256": "8a06181f584d61218d959913eeac4ec383c87d85a66532e595ff31e61db3a831",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/latest/comment/img/icon_sound.gif",
+      "area": "mobile-latest",
+      "upstreamSha256": "afb2f68f1ab9e8c09d2872da5dd6f6c19cc87b1a210f9b1dea13cbf8965cbd63",
+      "importedSha256": "afb2f68f1ab9e8c09d2872da5dd6f6c19cc87b1a210f9b1dea13cbf8965cbd63",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/latest/comment/img/icon_view.png",
+      "area": "mobile-latest",
+      "upstreamSha256": "ea9e1fbc8c0ba75eab9774272916c6777a01faed65cba81f461ce2f923ec304c",
+      "importedSha256": "ea9e1fbc8c0ba75eab9774272916c6777a01faed65cba81f461ce2f923ec304c",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/latest/comment/img/more-btn.gif",
+      "area": "mobile-latest",
+      "upstreamSha256": "9412ff300017699e6458e0c5abe90fc622d14f147558cd255382d67f7849f0cb",
+      "importedSha256": "9412ff300017699e6458e0c5abe90fc622d14f147558cd255382d67f7849f0cb",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/latest/comment/img/more_bg.gif",
+      "area": "mobile-latest",
+      "upstreamSha256": "548505928a27162a9ac899bc24ae7e464a2ae23fc2769a1be44f6fb34cb9eaff",
+      "importedSha256": "548505928a27162a9ac899bc24ae7e464a2ae23fc2769a1be44f6fb34cb9eaff",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/latest/comment/latest.skin.php",
+      "area": "mobile-latest",
+      "upstreamSha256": "23b955aa2cb4cea837db4fbb3477b8885904f1f156e595b2115064d05a1275a9",
+      "importedSha256": "23b955aa2cb4cea837db4fbb3477b8885904f1f156e595b2115064d05a1275a9",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/latest/comment/style.css",
+      "area": "mobile-latest",
+      "upstreamSha256": "8241be180b086a4607506a64f2e0192a10670769fd4f4e46301376ebe067ca82",
+      "importedSha256": "8241be180b086a4607506a64f2e0192a10670769fd4f4e46301376ebe067ca82",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/latest/notice/latest.skin.php",
+      "area": "mobile-latest",
+      "upstreamSha256": "98a7183616c5beec33970b93bd0af4e4f8fba50e3bf6ad62daa36ea13d2e99a6",
+      "importedSha256": "98a7183616c5beec33970b93bd0af4e4f8fba50e3bf6ad62daa36ea13d2e99a6",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/latest/notice/style.css",
+      "area": "mobile-latest",
+      "upstreamSha256": "b4899175c90d0db715a3ac8a1d4526d11125cd6404877ee450459a6956e01f9e",
+      "importedSha256": "b4899175c90d0db715a3ac8a1d4526d11125cd6404877ee450459a6956e01f9e",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/latest/shop_basic/latest.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "550d764a8fcebd2613b6c3ffef7596ef66b0be846c52ab9336c7eb2b1f0b43d7",
+      "importedSha256": "550d764a8fcebd2613b6c3ffef7596ef66b0be846c52ab9336c7eb2b1f0b43d7",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/latest/shop_basic/style.css",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "993987568d6255c2edb95350aa0a799001fa132c61f6c1826fe6797760d979f3",
+      "importedSha256": "993987568d6255c2edb95350aa0a799001fa132c61f6c1826fe6797760d979f3",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/member/basic/consent_modal.inc.php",
+      "area": "mobile-member",
+      "upstreamSha256": "8d4a426d1249e2289e9fb36288a69248d0a4ca1983fdf7c463c442fd95b2d8bf",
+      "importedSha256": "8d4a426d1249e2289e9fb36288a69248d0a4ca1983fdf7c463c442fd95b2d8bf",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/member/basic/formmail.skin.php",
+      "area": "mobile-member",
+      "upstreamSha256": "cfe972ccf6d98298730141768c71450288e6611944098b2ce527c30f535a0014",
+      "importedSha256": "cfe972ccf6d98298730141768c71450288e6611944098b2ce527c30f535a0014",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/member/basic/img/btn_del.gif",
+      "area": "mobile-member",
+      "upstreamSha256": "868a8e6f84d16e016bf37f55c9da0a5e619845d25c19985fb678a31e13711251",
+      "importedSha256": "868a8e6f84d16e016bf37f55c9da0a5e619845d25c19985fb678a31e13711251",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/member/basic/img/chk.png",
+      "area": "mobile-member",
+      "upstreamSha256": "6916a8b9f6eaaea1fbf753f98bf4530fab8c72cb09e5889f1bca421f93907e15",
+      "importedSha256": "6916a8b9f6eaaea1fbf753f98bf4530fab8c72cb09e5889f1bca421f93907e15",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/member/basic/img/icon_file.gif",
+      "area": "mobile-member",
+      "upstreamSha256": "b900a350d91bc7c2b32e3668ad73ae7b516575e34d54c5970665e41fcb973163",
+      "importedSha256": "b900a350d91bc7c2b32e3668ad73ae7b516575e34d54c5970665e41fcb973163",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/member/basic/img/zip_ico_up.gif",
+      "area": "mobile-member",
+      "upstreamSha256": "dd65aaf617ab887ffc93c427fe6913075ed6ee8f5faab0614d699d3cadfdd6d4",
+      "importedSha256": "dd65aaf617ab887ffc93c427fe6913075ed6ee8f5faab0614d699d3cadfdd6d4",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/member/basic/login.skin.php",
+      "area": "mobile-member",
+      "upstreamSha256": "581841b8eecb607f22318777e2312fe268c6b119f5d66eb9ff1e9a737b92a704",
+      "importedSha256": "581841b8eecb607f22318777e2312fe268c6b119f5d66eb9ff1e9a737b92a704",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/member/basic/login_check.skin.php",
+      "area": "mobile-member",
+      "upstreamSha256": "98d37ca5e820dffacbafac2722510bdedd6788ba8d1de9189ee627fa9abae006",
+      "importedSha256": "98d37ca5e820dffacbafac2722510bdedd6788ba8d1de9189ee627fa9abae006",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/member/basic/member_cert_refresh.skin.php",
+      "area": "mobile-member",
+      "upstreamSha256": "8e9e7c75dcb071ac81b06ada369babbe38947853f4de4082974ff10e8c744ba8",
+      "importedSha256": "8e9e7c75dcb071ac81b06ada369babbe38947853f4de4082974ff10e8c744ba8",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/member/basic/member_confirm.skin.php",
+      "area": "mobile-member",
+      "upstreamSha256": "8baccbbc12daf12a3a9d756069ba26a2c5eb40a27e9f90a21fc90914d1df9775",
+      "importedSha256": "8baccbbc12daf12a3a9d756069ba26a2c5eb40a27e9f90a21fc90914d1df9775",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/member/basic/memo.skin.php",
+      "area": "mobile-member",
+      "upstreamSha256": "299918657900477671dad7ebe232177b9c48a200db9a741da57a0d7835506728",
+      "importedSha256": "299918657900477671dad7ebe232177b9c48a200db9a741da57a0d7835506728",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/member/basic/memo_form.skin.php",
+      "area": "mobile-member",
+      "upstreamSha256": "91cf097376fbd1bfa5a8156088579a39380ed61b64d7b8fbc38460b2af6f6009",
+      "importedSha256": "91cf097376fbd1bfa5a8156088579a39380ed61b64d7b8fbc38460b2af6f6009",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/member/basic/memo_view.skin.php",
+      "area": "mobile-member",
+      "upstreamSha256": "781977687437fd9d0a858f4008d479f25048167137676b34c93b33bd06ad33d2",
+      "importedSha256": "781977687437fd9d0a858f4008d479f25048167137676b34c93b33bd06ad33d2",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/member/basic/password.skin.php",
+      "area": "mobile-member",
+      "upstreamSha256": "2bd6fdc73e69ac0d22ef7a62f220f9d8a2c68f015dbfbd946dd25bddc732a8ca",
+      "importedSha256": "2bd6fdc73e69ac0d22ef7a62f220f9d8a2c68f015dbfbd946dd25bddc732a8ca",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/member/basic/password_lost.skin.php",
+      "area": "mobile-member",
+      "upstreamSha256": "1570ecef577217fa6ffe496f3e5e28c9aa2d72279d9e592bf3f969dc839a110a",
+      "importedSha256": "1570ecef577217fa6ffe496f3e5e28c9aa2d72279d9e592bf3f969dc839a110a",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/member/basic/password_reset.skin.php",
+      "area": "mobile-member",
+      "upstreamSha256": "1847724f04a7b766d18c22963a17d0000b2bc72fa1c86e30a30786effc061a09",
+      "importedSha256": "1847724f04a7b766d18c22963a17d0000b2bc72fa1c86e30a30786effc061a09",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/member/basic/point.skin.php",
+      "area": "mobile-member",
+      "upstreamSha256": "1da8b891a4e43ca92f5e91397a4e44068b174ab4c75e81fbf4bd68d0de62f7c3",
+      "importedSha256": "1da8b891a4e43ca92f5e91397a4e44068b174ab4c75e81fbf4bd68d0de62f7c3",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/member/basic/profile.skin.php",
+      "area": "mobile-member",
+      "upstreamSha256": "729a03a4c31d2a9b781eaf8e0549813b6817e7dc69201d374b5c1190f0cf6a44",
+      "importedSha256": "729a03a4c31d2a9b781eaf8e0549813b6817e7dc69201d374b5c1190f0cf6a44",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/member/basic/register.skin.php",
+      "area": "mobile-member",
+      "upstreamSha256": "312f5c086b9c4a1d270dc644c28320eeb830cf2dc52decb2358dd5c31ae8604d",
+      "importedSha256": "312f5c086b9c4a1d270dc644c28320eeb830cf2dc52decb2358dd5c31ae8604d",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/member/basic/register_form.skin.php",
+      "area": "mobile-member",
+      "upstreamSha256": "8a73c332c2d84445f65ed10ab8a487751fb67c401eb7f0d8b5bfde6a5e9e1934",
+      "importedSha256": "8a73c332c2d84445f65ed10ab8a487751fb67c401eb7f0d8b5bfde6a5e9e1934",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/member/basic/register_form_update.tail.skin.php",
+      "area": "mobile-member",
+      "upstreamSha256": "70594ce4f996e2e0d9f1fff8c95cef1b40c1bb5d38340cd37264963432642854",
+      "importedSha256": "70594ce4f996e2e0d9f1fff8c95cef1b40c1bb5d38340cd37264963432642854",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/member/basic/register_result.skin.php",
+      "area": "mobile-member",
+      "upstreamSha256": "087c971e56edf9aa4b0d7e5ab23a37216b41397b2a6903879588fbcf030a7508",
+      "importedSha256": "087c971e56edf9aa4b0d7e5ab23a37216b41397b2a6903879588fbcf030a7508",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/member/basic/scrap.skin.php",
+      "area": "mobile-member",
+      "upstreamSha256": "2b99ea920eefed5478c59b3e7d8d1736516fec62be3af6a437bfab7766df03d6",
+      "importedSha256": "2b99ea920eefed5478c59b3e7d8d1736516fec62be3af6a437bfab7766df03d6",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/member/basic/scrap_popin.skin.php",
+      "area": "mobile-member",
+      "upstreamSha256": "cdcb2730c59beb806b041ec8bedc38859b8e24746bdd580a6e6717f7ede983c5",
+      "importedSha256": "cdcb2730c59beb806b041ec8bedc38859b8e24746bdd580a6e6717f7ede983c5",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/member/basic/style.css",
+      "area": "mobile-member",
+      "upstreamSha256": "d98d7a801295d325dd87527872c79e4115ecba8be288a46dce5e02b4bd94763e",
+      "importedSha256": "d98d7a801295d325dd87527872c79e4115ecba8be288a46dce5e02b4bd94763e",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/new/basic/new.skin.php",
+      "area": "mobile-new",
+      "upstreamSha256": "5783202a19367251f9e68fbf1afc4bb2d295ef8bcfaea0fc8e1e1af16e683515",
+      "importedSha256": "5783202a19367251f9e68fbf1afc4bb2d295ef8bcfaea0fc8e1e1af16e683515",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/new/basic/style.css",
+      "area": "mobile-new",
+      "upstreamSha256": "bd263e40a32909e84e5a01b490b3a8281b13992d1e82aaa547a6edca7f454669",
+      "importedSha256": "bd263e40a32909e84e5a01b490b3a8281b13992d1e82aaa547a6edca7f454669",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/outlogin/basic/img/icon_edit.png",
+      "area": "mobile-outlogin",
+      "upstreamSha256": "f214173a1c930f31b93f494b2ee6827cd4b86f48aaefed61a4aff4ec6500cf40",
+      "importedSha256": "f214173a1c930f31b93f494b2ee6827cd4b86f48aaefed61a4aff4ec6500cf40",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/outlogin/basic/img/icon_memo.png",
+      "area": "mobile-outlogin",
+      "upstreamSha256": "07942522d61453d1ace3d673a10ddbbda7038e812c78ff9c199dd8ad228cb42f",
+      "importedSha256": "07942522d61453d1ace3d673a10ddbbda7038e812c78ff9c199dd8ad228cb42f",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/outlogin/basic/img/icon_point.png",
+      "area": "mobile-outlogin",
+      "upstreamSha256": "4b5227c5033fe10fafc6275d5381d60612e9247321486b6b0a124af7cf33f7ca",
+      "importedSha256": "4b5227c5033fe10fafc6275d5381d60612e9247321486b6b0a124af7cf33f7ca",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/outlogin/basic/img/icon_scrap.png",
+      "area": "mobile-outlogin",
+      "upstreamSha256": "68ae1b484d75a71f62f8fedb4f3e5180d8c64bc17a3e3e3d95e63e8d3ae83bce",
+      "importedSha256": "68ae1b484d75a71f62f8fedb4f3e5180d8c64bc17a3e3e3d95e63e8d3ae83bce",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/outlogin/basic/outlogin.skin.1.php",
+      "area": "mobile-outlogin",
+      "upstreamSha256": "7d7c003c79ed2e5cbd6d968e02910b3f781960183a5b8e6a8a21804365fe5df7",
+      "importedSha256": "7d7c003c79ed2e5cbd6d968e02910b3f781960183a5b8e6a8a21804365fe5df7",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/outlogin/basic/outlogin.skin.2.php",
+      "area": "mobile-outlogin",
+      "upstreamSha256": "bf2573bc5c0f90290260092f6aae1b7fb07d2daf6d66ef3178e30e69575d45d1",
+      "importedSha256": "bf2573bc5c0f90290260092f6aae1b7fb07d2daf6d66ef3178e30e69575d45d1",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/outlogin/basic/style.css",
+      "area": "mobile-outlogin",
+      "upstreamSha256": "6c1814f0247ae6ab318d59e1ddbaddb94e04990ae9bff16d7d3069c6b8414e51",
+      "importedSha256": "6c1814f0247ae6ab318d59e1ddbaddb94e04990ae9bff16d7d3069c6b8414e51",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/outlogin/shop_basic/outlogin.skin.1.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "09b2629d685657c07cb50812c63a759117de5191f059db56971195f87335e57a",
+      "importedSha256": "09b2629d685657c07cb50812c63a759117de5191f059db56971195f87335e57a",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/outlogin/shop_basic/outlogin.skin.2.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "8a82d82ff775bf874fc12f2a3afc08f7d2dece2be7f3caecedf64d31d8de8117",
+      "importedSha256": "8a82d82ff775bf874fc12f2a3afc08f7d2dece2be7f3caecedf64d31d8de8117",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/outlogin/shop_basic/style.css",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "dae4b32013580308c4ecb73de7d9ddb4104a9bebb7b0c5bad29ffe76856461df",
+      "importedSha256": "dae4b32013580308c4ecb73de7d9ddb4104a9bebb7b0c5bad29ffe76856461df",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/poll/basic/poll.skin.php",
+      "area": "mobile-poll",
+      "upstreamSha256": "81aca2dd2e5927323f009bffbae2335fa05c9037f69431a46ab1bc1135b78193",
+      "importedSha256": "81aca2dd2e5927323f009bffbae2335fa05c9037f69431a46ab1bc1135b78193",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/poll/basic/poll_result.skin.php",
+      "area": "mobile-poll",
+      "upstreamSha256": "cd919c3c950059ef29c1b4ff6026aab818511dc2ab0cd9484b85cdc5e76ea45f",
+      "importedSha256": "cd919c3c950059ef29c1b4ff6026aab818511dc2ab0cd9484b85cdc5e76ea45f",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/poll/basic/style.css",
+      "area": "mobile-poll",
+      "upstreamSha256": "c3888ae8f4ed1f1da8ef2c96d1270c18153dbe4132c4cb8cfb34a592c30a19e7",
+      "importedSha256": "c3888ae8f4ed1f1da8ef2c96d1270c18153dbe4132c4cb8cfb34a592c30a19e7",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/popular/basic/popular.skin.php",
+      "area": "mobile-popular",
+      "upstreamSha256": "db7ad4d34c46051d1a1a8587736f33e95180dfaa12d84ccc50685ded498765b1",
+      "importedSha256": "db7ad4d34c46051d1a1a8587736f33e95180dfaa12d84ccc50685ded498765b1",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/popular/basic/style.css",
+      "area": "mobile-popular",
+      "upstreamSha256": "afd8a48b2689fea7986e3cfd36815cda831e131d45a89ea835e87ccfa9fa7dea",
+      "importedSha256": "afd8a48b2689fea7986e3cfd36815cda831e131d45a89ea835e87ccfa9fa7dea",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/qa/basic/img/btn_close.gif",
+      "area": "mobile-qa",
+      "upstreamSha256": "a72e65bf35f3c15ab3432cb3ed0a955989307245b965ecfbd042910f991e7432",
+      "importedSha256": "a72e65bf35f3c15ab3432cb3ed0a955989307245b965ecfbd042910f991e7432",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/qa/basic/img/chk.png",
+      "area": "mobile-qa",
+      "upstreamSha256": "6916a8b9f6eaaea1fbf753f98bf4530fab8c72cb09e5889f1bca421f93907e15",
+      "importedSha256": "6916a8b9f6eaaea1fbf753f98bf4530fab8c72cb09e5889f1bca421f93907e15",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/qa/basic/img/icon_answer.gif",
+      "area": "mobile-qa",
+      "upstreamSha256": "a94a081920154ed9b29285b597eca4abd711a9027fd799f0865f751427401b73",
+      "importedSha256": "a94a081920154ed9b29285b597eca4abd711a9027fd799f0865f751427401b73",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/qa/basic/img/icon_file.gif",
+      "area": "mobile-qa",
+      "upstreamSha256": "26f80728f2749899cc4dfa484a4536a8a927ca127c70c37ec6c4ec9753a74b80",
+      "importedSha256": "26f80728f2749899cc4dfa484a4536a8a927ca127c70c37ec6c4ec9753a74b80",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/qa/basic/img/icon_hot.gif",
+      "area": "mobile-qa",
+      "upstreamSha256": "06bb916b8eb4e762762fac3963fca0e9e8e7f116047a074b0af996635049105c",
+      "importedSha256": "06bb916b8eb4e762762fac3963fca0e9e8e7f116047a074b0af996635049105c",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/qa/basic/img/icon_img.gif",
+      "area": "mobile-qa",
+      "upstreamSha256": "b1630f11b8d374a6926450feb24af1e885e519dd9ef76ab10bbbe82ee0935bf7",
+      "importedSha256": "b1630f11b8d374a6926450feb24af1e885e519dd9ef76ab10bbbe82ee0935bf7",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/qa/basic/img/icon_link.gif",
+      "area": "mobile-qa",
+      "upstreamSha256": "c93f9f8d0e99e64c2da940326bfb8652d4f384e541573818912da5127903973c",
+      "importedSha256": "c93f9f8d0e99e64c2da940326bfb8652d4f384e541573818912da5127903973c",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/qa/basic/img/icon_mobile.gif",
+      "area": "mobile-qa",
+      "upstreamSha256": "5a5ae3fc895985e21eada75e80683945001b4d07c8fce16845e55e3a8954b179",
+      "importedSha256": "5a5ae3fc895985e21eada75e80683945001b4d07c8fce16845e55e3a8954b179",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/qa/basic/img/icon_movie.gif",
+      "area": "mobile-qa",
+      "upstreamSha256": "c6e1307d36b98f3e9e572dcc2c2797c08b90dad321dacbab997c520c12eb2796",
+      "importedSha256": "c6e1307d36b98f3e9e572dcc2c2797c08b90dad321dacbab997c520c12eb2796",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/qa/basic/img/icon_new.gif",
+      "area": "mobile-qa",
+      "upstreamSha256": "c7f9436b5b9b86d007dcffa161d5d99dc21d9788e881ce443d572181b1de6918",
+      "importedSha256": "c7f9436b5b9b86d007dcffa161d5d99dc21d9788e881ce443d572181b1de6918",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/qa/basic/img/icon_secret.gif",
+      "area": "mobile-qa",
+      "upstreamSha256": "1fe10ffc2886b4e91856f95699ee0680dde80e94aa32a54c8216000f311aee50",
+      "importedSha256": "1fe10ffc2886b4e91856f95699ee0680dde80e94aa32a54c8216000f311aee50",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/qa/basic/img/icon_sound.gif",
+      "area": "mobile-qa",
+      "upstreamSha256": "afb2f68f1ab9e8c09d2872da5dd6f6c19cc87b1a210f9b1dea13cbf8965cbd63",
+      "importedSha256": "afb2f68f1ab9e8c09d2872da5dd6f6c19cc87b1a210f9b1dea13cbf8965cbd63",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/qa/basic/list.skin.php",
+      "area": "mobile-qa",
+      "upstreamSha256": "2763dd28189f1dc22b43bd6031043a08d792c0b9bd422dc918c474dc9a2b388e",
+      "importedSha256": "2763dd28189f1dc22b43bd6031043a08d792c0b9bd422dc918c474dc9a2b388e",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/qa/basic/style.css",
+      "area": "mobile-qa",
+      "upstreamSha256": "8fafdb9fdf9622b2c14b207dceb2938b8a9ee25d16250d127b0cab6699aad35d",
+      "importedSha256": "8fafdb9fdf9622b2c14b207dceb2938b8a9ee25d16250d127b0cab6699aad35d",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/qa/basic/view.answer.skin.php",
+      "area": "mobile-qa",
+      "upstreamSha256": "9f64b410683786f43844364d14095151d3fac57ef6fc202df19323d89dd40330",
+      "importedSha256": "9f64b410683786f43844364d14095151d3fac57ef6fc202df19323d89dd40330",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/qa/basic/view.answerform.skin.php",
+      "area": "mobile-qa",
+      "upstreamSha256": "2a3cd362cbb826e824d64f1b7239f1d19995974a7d92f222e4169f14f114ba88",
+      "importedSha256": "2a3cd362cbb826e824d64f1b7239f1d19995974a7d92f222e4169f14f114ba88",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/qa/basic/view.skin.php",
+      "area": "mobile-qa",
+      "upstreamSha256": "8ffa863ca353af902e787fb4c5ca76dd6bbf3ca5e1f370643136d3f8a420f254",
+      "importedSha256": "8ffa863ca353af902e787fb4c5ca76dd6bbf3ca5e1f370643136d3f8a420f254",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/qa/basic/write.skin.php",
+      "area": "mobile-qa",
+      "upstreamSha256": "b8ab4ed2f1244e1e1b50fbb3eb5c885d7ef3fe91fac28e14d19d03d6a1710295",
+      "importedSha256": "b8ab4ed2f1244e1e1b50fbb3eb5c885d7ef3fe91fac28e14d19d03d6a1710295",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/search/basic/search.skin.php",
+      "area": "mobile-search",
+      "upstreamSha256": "ef369ba471fbd2d7b9bde98784ec105c791dd8909c30a072d93b67f772cd952f",
+      "importedSha256": "ef369ba471fbd2d7b9bde98784ec105c791dd8909c30a072d93b67f772cd952f",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/search/basic/style.css",
+      "area": "mobile-search",
+      "upstreamSha256": "62f090f2e8e0b46ae12295c3a312f6fc38ddf7fce28adaf4f8d578346fa8d9db",
+      "importedSha256": "62f090f2e8e0b46ae12295c3a312f6fc38ddf7fce28adaf4f8d578346fa8d9db",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/boxbanner.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "f058db3a6198e59e692614d339ab8787fcb6eb7f101ede3ed8d0b2033b580111",
+      "importedSha256": "f058db3a6198e59e692614d339ab8787fcb6eb7f101ede3ed8d0b2033b580111",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/boxtodayview.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "a20c852d9da8e45feb2035a5a026f7a734657d11d1ab59c2812e9b9f64b0020c",
+      "importedSha256": "a20c852d9da8e45feb2035a5a026f7a734657d11d1ab59c2812e9b9f64b0020c",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/couponzone.10.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "cd83fade122c5806cfe4e16e13819a6b5f1e5b5667ea4e565645b90c7e5c0533",
+      "importedSha256": "cd83fade122c5806cfe4e16e13819a6b5f1e5b5667ea4e565645b90c7e5c0533",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/img/arr_down01.gif",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "19814088b806355475ae900c253ba3383b1c70d38ab162b509a3a60d3a6a660e",
+      "importedSha256": "19814088b806355475ae900c253ba3383b1c70d38ab162b509a3a60d3a6a660e",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/img/arr_up01.gif",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "d49fa8f3ea533283176774fc031c0d9711d643f76051840be82d1a63bd58d5a6",
+      "importedSha256": "d49fa8f3ea533283176774fc031c0d9711d643f76051840be82d1a63bd58d5a6",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/img/best_btn.gif",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "c893d929d162cf968eccf7741c19552fcf5055099b6bb3798579c8fd7437e76d",
+      "importedSha256": "c893d929d162cf968eccf7741c19552fcf5055099b6bb3798579c8fd7437e76d",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/img/btn_next.gif",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "a7e0a80ed7f7ad02877dd4fd9c214b6d6b247560ba5ae58ee554a76c18a85e80",
+      "importedSha256": "a7e0a80ed7f7ad02877dd4fd9c214b6d6b247560ba5ae58ee554a76c18a85e80",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/img/btn_next.png",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "6f788542997f6ddd5e37df131b7968c77f5d898bcb31eaca1b06bfe6342df6a6",
+      "importedSha256": "6f788542997f6ddd5e37df131b7968c77f5d898bcb31eaca1b06bfe6342df6a6",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/img/btn_prev.gif",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "b78934d88f78fb03258d2412f1cdca1441c6e5709ac096a3acbec1192e47efce",
+      "importedSha256": "b78934d88f78fb03258d2412f1cdca1441c6e5709ac096a3acbec1192e47efce",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/img/btn_prev.png",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "0eca110252527501b6983b581b951c9b4901f45e976d0bb3cb78516ebba5b999",
+      "importedSha256": "0eca110252527501b6983b581b951c9b4901f45e976d0bb3cb78516ebba5b999",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/img/del_btn.gif",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "87233f7580cca1d01fe67484e6647ebef7942715829269547ffddb00b7d895c3",
+      "importedSha256": "87233f7580cca1d01fe67484e6647ebef7942715829269547ffddb00b7d895c3",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/img/facebook.png",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "7e0c9c86469b31b03f9c1e7c670413ab66d86fdde3e7a7866ff08ca916850b07",
+      "importedSha256": "7e0c9c86469b31b03f9c1e7c670413ab66d86fdde3e7a7866ff08ca916850b07",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/img/gplus.png",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "adf92796531356db0c1b0cd3977c77301b4cb0b51a20a489898f78c06823e36e",
+      "importedSha256": "adf92796531356db0c1b0cd3977c77301b4cb0b51a20a489898f78c06823e36e",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/img/icon_best.gif",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "a4e6a90d0d55e6ae656cd22ba49882f6fa3251c247d806e79c63bbef8b76dff1",
+      "importedSha256": "a4e6a90d0d55e6ae656cd22ba49882f6fa3251c247d806e79c63bbef8b76dff1",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/img/icon_cp.gif",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "a5af38b35f269727493dc21c31fc227be90adef0dd18861ecf62d3880dc8562a",
+      "importedSha256": "a5af38b35f269727493dc21c31fc227be90adef0dd18861ecf62d3880dc8562a",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/img/icon_discount.gif",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "83c325ea24696e31ead687e51f14d05ceeed45d535de29714e9a6faf1816ef76",
+      "importedSha256": "83c325ea24696e31ead687e51f14d05ceeed45d535de29714e9a6faf1816ef76",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/img/icon_hit.gif",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "b7adf520293e246f39868f1d34187ec5b97e7c96a2768a2f0f733fdce591dc5e",
+      "importedSha256": "b7adf520293e246f39868f1d34187ec5b97e7c96a2768a2f0f733fdce591dc5e",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/img/icon_new.gif",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "5f2f81519dba36505ed3cd879e8814772d2ff7edec1f0c29bf93af494d15be96",
+      "importedSha256": "5f2f81519dba36505ed3cd879e8814772d2ff7edec1f0c29bf93af494d15be96",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/img/icon_rec.gif",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "465c38014492915cbb1a2f1dea036c79bec7f5ab08fe66b48e865c845005603c",
+      "importedSha256": "465c38014492915cbb1a2f1dea036c79bec7f5ab08fe66b48e865c845005603c",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/img/icon_secret.gif",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "1fe10ffc2886b4e91856f95699ee0680dde80e94aa32a54c8216000f311aee50",
+      "importedSha256": "1fe10ffc2886b4e91856f95699ee0680dde80e94aa32a54c8216000f311aee50",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/img/icon_soldout.gif",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "616369e2aa13d38494a6438cfa16f2e70f729defeec64eea8176800e00a21ae9",
+      "importedSha256": "616369e2aa13d38494a6438cfa16f2e70f729defeec64eea8176800e00a21ae9",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/img/item_bg.gif",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "f373d2a564573f3bb199dd6d0aeb5aeea0ac2a8cde019104d5c20d07212db199",
+      "importedSha256": "f373d2a564573f3bb199dd6d0aeb5aeea0ac2a8cde019104d5c20d07212db199",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/img/item_btn.png",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "376466371f1b72fdc51e7bde524f7688a2fee421785a5b5360f3a496a3652015",
+      "importedSha256": "376466371f1b72fdc51e7bde524f7688a2fee421785a5b5360f3a496a3652015",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/img/loading.gif",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "c8b4adfc51e6ac516633b8a142657dc58daad07e14da50909dc5181dab9d572a",
+      "importedSha256": "c8b4adfc51e6ac516633b8a142657dc58daad07e14da50909dc5181dab9d572a",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/img/mainlist_btn.gif",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "e56594e12a76cc8c11976fa1df61a5bd736a34d8af36001ab266209f434cfca7",
+      "importedSha256": "e56594e12a76cc8c11976fa1df61a5bd736a34d8af36001ab266209f434cfca7",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/img/personal.jpg",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "29db4948b9def1dde3d09b5623ee3d6215da3685c4c017b10e61de6bdc5450c9",
+      "importedSha256": "29db4948b9def1dde3d09b5623ee3d6215da3685c4c017b10e61de6bdc5450c9",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/img/prd_icon.png",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "0d9ee152578d6be6ab87db5580ade55bcf140269155062d9c84c54c84b197fe1",
+      "importedSha256": "0d9ee152578d6be6ab87db5580ade55bcf140269155062d9c84c54c84b197fe1",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/img/sbmn_bg.gif",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "fb13302d50ad1d5a6a0f8890e3cfc405b72e6767220bd889dc8d6bac5ac4d953",
+      "importedSha256": "fb13302d50ad1d5a6a0f8890e3cfc405b72e6767220bd889dc8d6bac5ac4d953",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/img/sct_bg_toright.gif",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "6e3d0b0891936c6197e729ea7e1b1baf434207f81032dd3e4336b77577c0b89b",
+      "importedSha256": "6e3d0b0891936c6197e729ea7e1b1baf434207f81032dd3e4336b77577c0b89b",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/img/sns_fb.png",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "aac9c83d665220290f4bbd57e163f476c4b2e907644cae48768ac63144da0ad0",
+      "importedSha256": "aac9c83d665220290f4bbd57e163f476c4b2e907644cae48768ac63144da0ad0",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/img/sns_fb_s.png",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "2b43acb1c0c902bd9fe23b69f6deb107805339a3d10cdf4109ef43709a8ca2ff",
+      "importedSha256": "2b43acb1c0c902bd9fe23b69f6deb107805339a3d10cdf4109ef43709a8ca2ff",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/img/sns_goo.png",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "856dfb1e1e620efd62c721a19461d86738906e5ca02bc62356e852f74b22d8b0",
+      "importedSha256": "856dfb1e1e620efd62c721a19461d86738906e5ca02bc62356e852f74b22d8b0",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/img/sns_goo_s.png",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "bd75388d441d9d1712783864d1e517e63df3666ef9f5df4be5987df7e6a2a5b8",
+      "importedSha256": "bd75388d441d9d1712783864d1e517e63df3666ef9f5df4be5987df7e6a2a5b8",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/img/sns_kakao.png",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "1aa766e984df951159a056465362c3df5a43148f520b448f3e465e2bd252c377",
+      "importedSha256": "1aa766e984df951159a056465362c3df5a43148f520b448f3e465e2bd252c377",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/img/sns_kakao_s.png",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "2eeed5b9620e78a288215503abb0971c25969b221dcac3aafd1bebf23a4bc2b0",
+      "importedSha256": "2eeed5b9620e78a288215503abb0971c25969b221dcac3aafd1bebf23a4bc2b0",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/img/sns_twt.png",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "fe90a85ab3306cdcc3c59af664872c445ec97e87ecc27734be73898e831368d7",
+      "importedSha256": "fe90a85ab3306cdcc3c59af664872c445ec97e87ecc27734be73898e831368d7",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/img/sns_twt_s.png",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "f905df30741463aa3ecf435cbd680990e725e2e4782643ee6c3eef48d3f9e075",
+      "importedSha256": "f905df30741463aa3ecf435cbd680990e725e2e4782643ee6c3eef48d3f9e075",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/img/twitter.png",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "bff9e92ee19c7e30baa0e2808fe393466e386b64da09ae069aa60837ff6b0b8e",
+      "importedSha256": "bff9e92ee19c7e30baa0e2808fe393466e386b64da09ae069aa60837ff6b0b8e",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/img/use_reply.png",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "0c6d34539de7ce808bd05aaa16dc4ee4ad90891f5c5d85d5eb634e972289bae3",
+      "importedSha256": "0c6d34539de7ce808bd05aaa16dc4ee4ad90891f5c5d85d5eb634e972289bae3",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/item.form.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "af6aea0bca5e0fd6d6efc9cff94bba98efd6d00cc3c3558c70d8f5cd9a1e5fb5",
+      "importedSha256": "af6aea0bca5e0fd6d6efc9cff94bba98efd6d00cc3c3558c70d8f5cd9a1e5fb5",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/iteminfo.change.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "59ab258cecc10aacacb54b5058aaca08e93bb8b6032363f262b594e4050ffa1a",
+      "importedSha256": "59ab258cecc10aacacb54b5058aaca08e93bb8b6032363f262b594e4050ffa1a",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/iteminfo.delivery.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "fee2b34fa20a88eea823111e8efb1dd206a8ec3b181b0942f5ad20e600892864",
+      "importedSha256": "fee2b34fa20a88eea823111e8efb1dd206a8ec3b181b0942f5ad20e600892864",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/iteminfo.info.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "eb2757d1d6bd5a092fe18bf44b414e72c5a87e2e54739efc9d6e9072b7dc8f89",
+      "importedSha256": "eb2757d1d6bd5a092fe18bf44b414e72c5a87e2e54739efc9d6e9072b7dc8f89",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/iteminfo.itemqa.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "c81ad9e605f40aab0ef22cca2933f891d5d650b0323a2624a35faeeff3101a34",
+      "importedSha256": "c81ad9e605f40aab0ef22cca2933f891d5d650b0323a2624a35faeeff3101a34",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/iteminfo.itemuse.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "b3902be877543852b02a7b334700cd3f210b8ddc8129ffbb16d6ebd6cc03fbf7",
+      "importedSha256": "b3902be877543852b02a7b334700cd3f210b8ddc8129ffbb16d6ebd6cc03fbf7",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/iteminfo.relation.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "66b4c543650a2bca58b4d102e771e75bdf3117bfd5080b9483a43aa23e4e04d2",
+      "importedSha256": "66b4c543650a2bca58b4d102e771e75bdf3117bfd5080b9483a43aa23e4e04d2",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/itemqa.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "9f1dc3df6fe785ce263813392efe8e5bd73795f03634a7169c03a8c3f33e1868",
+      "importedSha256": "9f1dc3df6fe785ce263813392efe8e5bd73795f03634a7169c03a8c3f33e1868",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/itemqaform.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "cc32263057892c90b2c4324bd37b249d0156af5feac523bd2a89c4bd18749dac",
+      "importedSha256": "cc32263057892c90b2c4324bd37b249d0156af5feac523bd2a89c4bd18749dac",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/itemqalist.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "0c2532b0578310060d4158c03913ecd5c108a117ef37071a542b539fa798e6d7",
+      "importedSha256": "0c2532b0578310060d4158c03913ecd5c108a117ef37071a542b539fa798e6d7",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/itemuse.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "dfab8e872218322d9a168e2caaa97344b764a74e39ed8e82e0ac649720128835",
+      "importedSha256": "dfab8e872218322d9a168e2caaa97344b764a74e39ed8e82e0ac649720128835",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/itemuseform.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "c0bd59aadb6aa8ad76a5fd118853700f9033b69ec3ed35e9f19bfe26dadeb451",
+      "importedSha256": "c0bd59aadb6aa8ad76a5fd118853700f9033b69ec3ed35e9f19bfe26dadeb451",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/itemuselist.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "c170a1df8130b7fa03e0e793d7a4ef14bd9a84a16d45292a3a2f1c93512fbd75",
+      "importedSha256": "c170a1df8130b7fa03e0e793d7a4ef14bd9a84a16d45292a3a2f1c93512fbd75",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/largeimage.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "7b8cfa85c9cb2998b9f0f84e8bc6fd8d6837284d4cf3ed6ea94e12a730b56d9a",
+      "importedSha256": "7b8cfa85c9cb2998b9f0f84e8bc6fd8d6837284d4cf3ed6ea94e12a730b56d9a",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/list.10.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "32f182b37c254f5e82b4d70eda982cdbbd63a09399eb396e978cce10ee51dfe5",
+      "importedSha256": "32f182b37c254f5e82b4d70eda982cdbbd63a09399eb396e978cce10ee51dfe5",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/list.best.10.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "7479b02ece9b7d043576b43c9c6ead01076f30f2ff9943c59f20f38b073b9689",
+      "importedSha256": "7479b02ece9b7d043576b43c9c6ead01076f30f2ff9943c59f20f38b073b9689",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/list.sort.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "46663d6a696439c90eaf5c287d276c3a3c09d098f47dbe56d03874c2de2d0ab5",
+      "importedSha256": "46663d6a696439c90eaf5c287d276c3a3c09d098f47dbe56d03874c2de2d0ab5",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/list.sub.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "24e88af20ef38ef2c63e94a01fe2aa3dfe276e33a15f466d5672960fad1e0730",
+      "importedSha256": "24e88af20ef38ef2c63e94a01fe2aa3dfe276e33a15f466d5672960fad1e0730",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/listcategory.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "93b74e602776fe85b646aff7979a1f59727b5418fffd3c03645244730694b975",
+      "importedSha256": "93b74e602776fe85b646aff7979a1f59727b5418fffd3c03645244730694b975",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/main.10.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "ecde216c79f51b00bc73af3ac6bcab2a63952fe95cf291741e4329acea3d6961",
+      "importedSha256": "ecde216c79f51b00bc73af3ac6bcab2a63952fe95cf291741e4329acea3d6961",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/main.20.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "24d9f6f80090db2015cf854dac49de706c6775ad36938660172fab7d18ed32d2",
+      "importedSha256": "24d9f6f80090db2015cf854dac49de706c6775ad36938660172fab7d18ed32d2",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/main.30.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "8b1b50161df72ef2e3b3c62c4ac0eda8c9bc35ccc60d339fea753744fe6ce789",
+      "importedSha256": "8b1b50161df72ef2e3b3c62c4ac0eda8c9bc35ccc60d339fea753744fe6ce789",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/main.event.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "3bdeb1a9d7a69eef0ea2df2876c3c2514905a532a1042af47a557c1b4da40548",
+      "importedSha256": "3bdeb1a9d7a69eef0ea2df2876c3c2514905a532a1042af47a557c1b4da40548",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/mainbanner.10.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "9b8099c60803d571989b78ca48177d103fc773886c71ae3f357dab112cb2e802",
+      "importedSha256": "9b8099c60803d571989b78ca48177d103fc773886c71ae3f357dab112cb2e802",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/navigation.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "8802170ce2d11b805845d9cd2b46a3e447214c9d23533e67da5d2d3b6226716f",
+      "importedSha256": "8802170ce2d11b805845d9cd2b46a3e447214c9d23533e67da5d2d3b6226716f",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/personalpay.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "bb178bfa05f8194fd87c3ec8d697494491025f537f220064061821a38a089339",
+      "importedSha256": "bb178bfa05f8194fd87c3ec8d697494491025f537f220064061821a38a089339",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/relation.10.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "3a271bd029a6cbfbbcef15fe0de9a2daca232917df4ba1e0ca95ce3c9e9222f8",
+      "importedSha256": "3a271bd029a6cbfbbcef15fe0de9a2daca232917df4ba1e0ca95ce3c9e9222f8",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/search.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "30fdd2fb535a5e466505be73c72a1badc109f40d8754bfac6bd066465b41c376",
+      "importedSha256": "30fdd2fb535a5e466505be73c72a1badc109f40d8754bfac6bd066465b41c376",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/shop/basic/style.css",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "009ff2209ee7d8f7a4fa0d2675cb0ff99b018061907f00ad5e735f55a9059327",
+      "importedSha256": "009ff2209ee7d8f7a4fa0d2675cb0ff99b018061907f00ad5e735f55a9059327",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/visit/basic/style.css",
+      "area": "mobile-visit",
+      "upstreamSha256": "95bf7d0d45a44fa5e2b67ada591ef2f0c2351c05820d9a051c634c321cd88e32",
+      "importedSha256": "95bf7d0d45a44fa5e2b67ada591ef2f0c2351c05820d9a051c634c321cd88e32",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/skin/visit/basic/visit.skin.php",
+      "area": "mobile-visit",
+      "upstreamSha256": "476bf8ac86f7285871780ce6fac6b8208656bec21dc1f69629604857e9fec05e",
+      "importedSha256": "476bf8ac86f7285871780ce6fac6b8208656bec21dc1f69629604857e9fec05e",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "mobile/tail.php",
+      "area": "mobile-shell",
+      "upstreamSha256": "eee1d712c83288a8afba5a76dd9a56664521f8154c5939240db4808681d53902",
+      "importedSha256": "eee1d712c83288a8afba5a76dd9a56664521f8154c5939240db4808681d53902",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "readme.txt",
+      "area": "shared-shell-assets",
+      "upstreamSha256": "f25dcee523cf6bd91967c00574b748afef20f89b1502e58f1def494c4e2eb516",
+      "importedSha256": "48c94aade811d0139dd0d01f166bf95fdec3f75ddf6dcb23a2790b50eb6c676c",
+      "status": "renamed-metadata",
+      "uiReview": "pending"
+    },
+    {
+      "path": "screenshot.png",
+      "area": "shared-shell-assets",
+      "upstreamSha256": "31de838c85b6fdbd1a0afc4fb1cca7621bd0282c3d0f034e5f5badc33624ccf9",
+      "importedSha256": "31de838c85b6fdbd1a0afc4fb1cca7621bd0282c3d0f034e5f5badc33624ccf9",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "shop/_common.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "b8ab47992d6933f7bb28a4f6305b19160eb37236b5d64ff17913be4d677def24",
+      "importedSha256": "b8ab47992d6933f7bb28a4f6305b19160eb37236b5d64ff17913be4d677def24",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "shop/ajax.action.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "8ebc5f70bd1506b4b4e5d270b2a5b322f927bcc5bfc657357b5f9941dc924391",
+      "importedSha256": "8ebc5f70bd1506b4b4e5d270b2a5b322f927bcc5bfc657357b5f9941dc924391",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "shop/category.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "2f2749e61c6edbc11305cece27129779f5ae9f47464fb7da9c54dc5845442e2f",
+      "importedSha256": "2f2749e61c6edbc11305cece27129779f5ae9f47464fb7da9c54dc5845442e2f",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "shop/index.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "4fb1c0be96d64dc634231551f2f336fd27c7ce95c2a909c3f0dedd7a468a5855",
+      "importedSha256": "4fb1c0be96d64dc634231551f2f336fd27c7ce95c2a909c3f0dedd7a468a5855",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "shop/mypage.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "1d5f5d510a91b90dd5c31b630158d52438049d322e8eb8ebf9b43dfa7876bac0",
+      "importedSha256": "1d5f5d510a91b90dd5c31b630158d52438049d322e8eb8ebf9b43dfa7876bac0",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "shop/orderinquiryview.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "ab7b2193194782da70739e3037fb19edda1de8b183cd202ed49aa1db43acf4e6",
+      "importedSha256": "ab7b2193194782da70739e3037fb19edda1de8b183cd202ed49aa1db43acf4e6",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "shop/shop.head.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "9fae18674ef37c5e34a7fdb4e67c5be57c445b84814f4bff4f2c67710d66424f",
+      "importedSha256": "9fae18674ef37c5e34a7fdb4e67c5be57c445b84814f4bff4f2c67710d66424f",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "shop/shop.tail.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "a9d565e30bd4b5a477a4e8a4dfbe662c2416c1d1d6962ee6a0f5a1c47bef4d87",
+      "importedSha256": "a9d565e30bd4b5a477a4e8a4dfbe662c2416c1d1d6962ee6a0f5a1c47bef4d87",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/board/basic/img/btn_cmt.png",
+      "area": "pc-board",
+      "upstreamSha256": "33e2301436f519dfbce3588d761acbe64d17c3b8e31e17f2ee111feb906671c3",
+      "importedSha256": "33e2301436f519dfbce3588d761acbe64d17c3b8e31e17f2ee111feb906671c3",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/board/basic/img/chk.png",
+      "area": "pc-board",
+      "upstreamSha256": "6916a8b9f6eaaea1fbf753f98bf4530fab8c72cb09e5889f1bca421f93907e15",
+      "importedSha256": "6916a8b9f6eaaea1fbf753f98bf4530fab8c72cb09e5889f1bca421f93907e15",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/board/basic/img/close_btn.png",
+      "area": "pc-board",
+      "upstreamSha256": "1ff3981dc7ff90c894d28f6a0ca7607e0f6dad5375843101f126b2ac66f119e4",
+      "importedSha256": "1ff3981dc7ff90c894d28f6a0ca7607e0f6dad5375843101f126b2ac66f119e4",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/board/basic/img/icon_lock.png",
+      "area": "pc-board",
+      "upstreamSha256": "8b9863c9b2c8da908e5e055273eb9d8b156eb5e0ce832a099aa889fa05abf9da",
+      "importedSha256": "8b9863c9b2c8da908e5e055273eb9d8b156eb5e0ce832a099aa889fa05abf9da",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/board/basic/img/icon_mobile.gif",
+      "area": "pc-board",
+      "upstreamSha256": "fca71ff9bd00e92e52c5dd10856934261fcf67b3ca64ddfab1ae7ce88daec4d2",
+      "importedSha256": "fca71ff9bd00e92e52c5dd10856934261fcf67b3ca64ddfab1ae7ce88daec4d2",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/board/basic/img/icon_reply.gif",
+      "area": "pc-board",
+      "upstreamSha256": "0233c2ed39230a35216b55861d7d5500320c0db99eba687cb2bd6883c7f081a1",
+      "importedSha256": "0233c2ed39230a35216b55861d7d5500320c0db99eba687cb2bd6883c7f081a1",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/board/basic/img/icon_secret.gif",
+      "area": "pc-board",
+      "upstreamSha256": "8a06181f584d61218d959913eeac4ec383c87d85a66532e595ff31e61db3a831",
+      "importedSha256": "8a06181f584d61218d959913eeac4ec383c87d85a66532e595ff31e61db3a831",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/board/basic/list.skin.php",
+      "area": "pc-board",
+      "upstreamSha256": "78cf172846f3bc2aeebb066403180bc9ccfbdbf672473fcf8a0c2ce7580d3e94",
+      "importedSha256": "78cf172846f3bc2aeebb066403180bc9ccfbdbf672473fcf8a0c2ce7580d3e94",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/board/basic/style.css",
+      "area": "pc-board",
+      "upstreamSha256": "896c09afa8aeed7e4eb9e4f1ad28cf66bda304286e5868260c3a55e37ef7e6f7",
+      "importedSha256": "896c09afa8aeed7e4eb9e4f1ad28cf66bda304286e5868260c3a55e37ef7e6f7",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/board/basic/view.skin.php",
+      "area": "pc-board",
+      "upstreamSha256": "c2cac5b398cb414d726c175e6b8c28f4d96297b4e3a047bfbea72fb46b4222ff",
+      "importedSha256": "c2cac5b398cb414d726c175e6b8c28f4d96297b4e3a047bfbea72fb46b4222ff",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/board/basic/view_comment.skin.php",
+      "area": "pc-board",
+      "upstreamSha256": "0b673092d3e714cc6cc687ebb745a7e4329203457e30073a62d66068e4d03192",
+      "importedSha256": "0b673092d3e714cc6cc687ebb745a7e4329203457e30073a62d66068e4d03192",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/board/basic/write.skin.php",
+      "area": "pc-board",
+      "upstreamSha256": "ba96627de02a4b32ef9b72b318e1593cc81917203a7af4097a42f88de5730ccd",
+      "importedSha256": "ba96627de02a4b32ef9b72b318e1593cc81917203a7af4097a42f88de5730ccd",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/board/gallery/img/btn_cmt.png",
+      "area": "pc-board",
+      "upstreamSha256": "33e2301436f519dfbce3588d761acbe64d17c3b8e31e17f2ee111feb906671c3",
+      "importedSha256": "33e2301436f519dfbce3588d761acbe64d17c3b8e31e17f2ee111feb906671c3",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/board/gallery/img/chk.png",
+      "area": "pc-board",
+      "upstreamSha256": "6916a8b9f6eaaea1fbf753f98bf4530fab8c72cb09e5889f1bca421f93907e15",
+      "importedSha256": "6916a8b9f6eaaea1fbf753f98bf4530fab8c72cb09e5889f1bca421f93907e15",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/board/gallery/img/close_btn.png",
+      "area": "pc-board",
+      "upstreamSha256": "1ff3981dc7ff90c894d28f6a0ca7607e0f6dad5375843101f126b2ac66f119e4",
+      "importedSha256": "1ff3981dc7ff90c894d28f6a0ca7607e0f6dad5375843101f126b2ac66f119e4",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/board/gallery/img/icon_lock.png",
+      "area": "pc-board",
+      "upstreamSha256": "8b9863c9b2c8da908e5e055273eb9d8b156eb5e0ce832a099aa889fa05abf9da",
+      "importedSha256": "8b9863c9b2c8da908e5e055273eb9d8b156eb5e0ce832a099aa889fa05abf9da",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/board/gallery/img/icon_mobile.gif",
+      "area": "pc-board",
+      "upstreamSha256": "5a5ae3fc895985e21eada75e80683945001b4d07c8fce16845e55e3a8954b179",
+      "importedSha256": "5a5ae3fc895985e21eada75e80683945001b4d07c8fce16845e55e3a8954b179",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/board/gallery/img/icon_reply.gif",
+      "area": "pc-board",
+      "upstreamSha256": "0233c2ed39230a35216b55861d7d5500320c0db99eba687cb2bd6883c7f081a1",
+      "importedSha256": "0233c2ed39230a35216b55861d7d5500320c0db99eba687cb2bd6883c7f081a1",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/board/gallery/img/icon_secret.gif",
+      "area": "pc-board",
+      "upstreamSha256": "8a06181f584d61218d959913eeac4ec383c87d85a66532e595ff31e61db3a831",
+      "importedSha256": "8a06181f584d61218d959913eeac4ec383c87d85a66532e595ff31e61db3a831",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/board/gallery/list.skin.php",
+      "area": "pc-board",
+      "upstreamSha256": "9acfd1a685a206ebf492ceebdf7cf4839b93082b627d06fbf8e4a5afdb4bbe17",
+      "importedSha256": "9acfd1a685a206ebf492ceebdf7cf4839b93082b627d06fbf8e4a5afdb4bbe17",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/board/gallery/style.css",
+      "area": "pc-board",
+      "upstreamSha256": "7453c5da1029ff3c94df7df453e618f52dc1c5cb390ed64a6efcdbbcea4c752f",
+      "importedSha256": "7453c5da1029ff3c94df7df453e618f52dc1c5cb390ed64a6efcdbbcea4c752f",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/board/gallery/view.skin.php",
+      "area": "pc-board",
+      "upstreamSha256": "22290859a4f17dc242c2c7285a459f9f788c45a892eaa2edc49ae4332044e070",
+      "importedSha256": "22290859a4f17dc242c2c7285a459f9f788c45a892eaa2edc49ae4332044e070",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/board/gallery/view_comment.skin.php",
+      "area": "pc-board",
+      "upstreamSha256": "21e3e0b0c94d84cd84a4a935d86e9358df381441632bbb02c80c1b47348d6bd2",
+      "importedSha256": "21e3e0b0c94d84cd84a4a935d86e9358df381441632bbb02c80c1b47348d6bd2",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/board/gallery/write.skin.php",
+      "area": "pc-board",
+      "upstreamSha256": "c54d9231da4f04c26cfa5e55a96e55d41674a7e6a44a93ea79a2477ddb27dded",
+      "importedSha256": "c54d9231da4f04c26cfa5e55a96e55d41674a7e6a44a93ea79a2477ddb27dded",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/connect/basic/connect.skin.php",
+      "area": "pc-connect",
+      "upstreamSha256": "0b52742dd11c6ddde651ef5f6ba0a630f10bfcd1dbf917c1b5226262ff960f28",
+      "importedSha256": "0b52742dd11c6ddde651ef5f6ba0a630f10bfcd1dbf917c1b5226262ff960f28",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/connect/basic/current_connect.skin.php",
+      "area": "pc-connect",
+      "upstreamSha256": "3dd2e1582cb96b514eec565f24edde3772c922eddffa7487a9af02bebd674138",
+      "importedSha256": "3dd2e1582cb96b514eec565f24edde3772c922eddffa7487a9af02bebd674138",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/connect/basic/style.css",
+      "area": "pc-connect",
+      "upstreamSha256": "ad6013dbbdd565d83be91085e3d876966872e25008e05d36a4f775b0ea4d0dc4",
+      "importedSha256": "ad6013dbbdd565d83be91085e3d876966872e25008e05d36a4f775b0ea4d0dc4",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/content/basic/content.skin.php",
+      "area": "pc-content",
+      "upstreamSha256": "508ceab999177f0ab05028f3c10ff5e435f0905b80ebe6351d64f1d75a3f7ad4",
+      "importedSha256": "508ceab999177f0ab05028f3c10ff5e435f0905b80ebe6351d64f1d75a3f7ad4",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/content/basic/style.css",
+      "area": "pc-content",
+      "upstreamSha256": "a39a1adc9a667199242a16518fd02fabb58c631bccc1e7e199b74c42d8f83774",
+      "importedSha256": "a39a1adc9a667199242a16518fd02fabb58c631bccc1e7e199b74c42d8f83774",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/faq/basic/list.skin.php",
+      "area": "pc-faq",
+      "upstreamSha256": "a01fa1a841ec83e35434362a45abec652f8f10b2199adbfee88bc85052136eab",
+      "importedSha256": "a01fa1a841ec83e35434362a45abec652f8f10b2199adbfee88bc85052136eab",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/faq/basic/style.css",
+      "area": "pc-faq",
+      "upstreamSha256": "694175ab1fe55212d523f8d7081bc6f019e10407a80b5f8a6fdea74833c2d32f",
+      "importedSha256": "694175ab1fe55212d523f8d7081bc6f019e10407a80b5f8a6fdea74833c2d32f",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/latest/basic/img/icon_file.gif",
+      "area": "pc-latest",
+      "upstreamSha256": "b900a350d91bc7c2b32e3668ad73ae7b516575e34d54c5970665e41fcb973163",
+      "importedSha256": "b900a350d91bc7c2b32e3668ad73ae7b516575e34d54c5970665e41fcb973163",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/latest/basic/img/icon_hot.gif",
+      "area": "pc-latest",
+      "upstreamSha256": "183fafa410a431831cf3044e9ba04581d2b3a855a4da7554fa4559aec2cb6b85",
+      "importedSha256": "183fafa410a431831cf3044e9ba04581d2b3a855a4da7554fa4559aec2cb6b85",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/latest/basic/img/icon_img.gif",
+      "area": "pc-latest",
+      "upstreamSha256": "11d426d70e85850b5d251f72c741c74653e337d5680322a00ba30713dd4218d5",
+      "importedSha256": "11d426d70e85850b5d251f72c741c74653e337d5680322a00ba30713dd4218d5",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/latest/basic/img/icon_link.gif",
+      "area": "pc-latest",
+      "upstreamSha256": "f9b6ccf35912cf9cf7a0f763da97ec9b6a061f802e9537e728525b8a1e6a447d",
+      "importedSha256": "f9b6ccf35912cf9cf7a0f763da97ec9b6a061f802e9537e728525b8a1e6a447d",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/latest/basic/img/icon_lock.png",
+      "area": "pc-latest",
+      "upstreamSha256": "8b9863c9b2c8da908e5e055273eb9d8b156eb5e0ce832a099aa889fa05abf9da",
+      "importedSha256": "8b9863c9b2c8da908e5e055273eb9d8b156eb5e0ce832a099aa889fa05abf9da",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/latest/basic/img/icon_mobile.gif",
+      "area": "pc-latest",
+      "upstreamSha256": "fca71ff9bd00e92e52c5dd10856934261fcf67b3ca64ddfab1ae7ce88daec4d2",
+      "importedSha256": "fca71ff9bd00e92e52c5dd10856934261fcf67b3ca64ddfab1ae7ce88daec4d2",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/latest/basic/img/icon_more.gif",
+      "area": "pc-latest",
+      "upstreamSha256": "f47b2a395645ed6dbe840fb544c53462a7ae5fd43500561a3e0fe5bb817d4768",
+      "importedSha256": "f47b2a395645ed6dbe840fb544c53462a7ae5fd43500561a3e0fe5bb817d4768",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/latest/basic/img/icon_movie.gif",
+      "area": "pc-latest",
+      "upstreamSha256": "c6e1307d36b98f3e9e572dcc2c2797c08b90dad321dacbab997c520c12eb2796",
+      "importedSha256": "c6e1307d36b98f3e9e572dcc2c2797c08b90dad321dacbab997c520c12eb2796",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/latest/basic/img/icon_new.gif",
+      "area": "pc-latest",
+      "upstreamSha256": "c7f9436b5b9b86d007dcffa161d5d99dc21d9788e881ce443d572181b1de6918",
+      "importedSha256": "c7f9436b5b9b86d007dcffa161d5d99dc21d9788e881ce443d572181b1de6918",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/latest/basic/img/icon_reply.gif",
+      "area": "pc-latest",
+      "upstreamSha256": "a94a081920154ed9b29285b597eca4abd711a9027fd799f0865f751427401b73",
+      "importedSha256": "a94a081920154ed9b29285b597eca4abd711a9027fd799f0865f751427401b73",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/latest/basic/img/icon_secret.gif",
+      "area": "pc-latest",
+      "upstreamSha256": "8a06181f584d61218d959913eeac4ec383c87d85a66532e595ff31e61db3a831",
+      "importedSha256": "8a06181f584d61218d959913eeac4ec383c87d85a66532e595ff31e61db3a831",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/latest/basic/img/icon_sound.gif",
+      "area": "pc-latest",
+      "upstreamSha256": "afb2f68f1ab9e8c09d2872da5dd6f6c19cc87b1a210f9b1dea13cbf8965cbd63",
+      "importedSha256": "afb2f68f1ab9e8c09d2872da5dd6f6c19cc87b1a210f9b1dea13cbf8965cbd63",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/latest/basic/img/icon_view.png",
+      "area": "pc-latest",
+      "upstreamSha256": "ea9e1fbc8c0ba75eab9774272916c6777a01faed65cba81f461ce2f923ec304c",
+      "importedSha256": "ea9e1fbc8c0ba75eab9774272916c6777a01faed65cba81f461ce2f923ec304c",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/latest/basic/img/more-btn.gif",
+      "area": "pc-latest",
+      "upstreamSha256": "9412ff300017699e6458e0c5abe90fc622d14f147558cd255382d67f7849f0cb",
+      "importedSha256": "9412ff300017699e6458e0c5abe90fc622d14f147558cd255382d67f7849f0cb",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/latest/basic/img/more_bg.gif",
+      "area": "pc-latest",
+      "upstreamSha256": "548505928a27162a9ac899bc24ae7e464a2ae23fc2769a1be44f6fb34cb9eaff",
+      "importedSha256": "548505928a27162a9ac899bc24ae7e464a2ae23fc2769a1be44f6fb34cb9eaff",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/latest/basic/latest.skin.php",
+      "area": "pc-latest",
+      "upstreamSha256": "e63a1f2c877d6bd691404f4b31a6a299a8c52496c739da24afb64f74bd95a493",
+      "importedSha256": "e63a1f2c877d6bd691404f4b31a6a299a8c52496c739da24afb64f74bd95a493",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/latest/basic/style.css",
+      "area": "pc-latest",
+      "upstreamSha256": "482df6bdbf18b930a8384760446c666bf0ae7fc82cf36d999a202611913aaa0e",
+      "importedSha256": "482df6bdbf18b930a8384760446c666bf0ae7fc82cf36d999a202611913aaa0e",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/latest/notice/latest.skin.php",
+      "area": "pc-latest",
+      "upstreamSha256": "98a7183616c5beec33970b93bd0af4e4f8fba50e3bf6ad62daa36ea13d2e99a6",
+      "importedSha256": "98a7183616c5beec33970b93bd0af4e4f8fba50e3bf6ad62daa36ea13d2e99a6",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/latest/notice/style.css",
+      "area": "pc-latest",
+      "upstreamSha256": "fdc39b88935c97694c5e266319c847d8e890b5961b624d0dba3757b59c472a44",
+      "importedSha256": "fdc39b88935c97694c5e266319c847d8e890b5961b624d0dba3757b59c472a44",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/latest/pic_basic/latest.skin.php",
+      "area": "pc-latest",
+      "upstreamSha256": "9d0405aee3048249b60a205bbfec13b351fa74d294b8253602bc7f19c5b0e019",
+      "importedSha256": "9d0405aee3048249b60a205bbfec13b351fa74d294b8253602bc7f19c5b0e019",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/latest/pic_basic/style.css",
+      "area": "pc-latest",
+      "upstreamSha256": "126bda6ef245334e99801ca2917029161d875f456ec77d9c5428e7a87bb9d0ba",
+      "importedSha256": "126bda6ef245334e99801ca2917029161d875f456ec77d9c5428e7a87bb9d0ba",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/latest/pic_block/latest.skin.php",
+      "area": "pc-latest",
+      "upstreamSha256": "59cdcd3effaefa0e66d9a7c68552d89ed3416774f5ca7c3244261eb45dd052b4",
+      "importedSha256": "59cdcd3effaefa0e66d9a7c68552d89ed3416774f5ca7c3244261eb45dd052b4",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/latest/pic_block/style.css",
+      "area": "pc-latest",
+      "upstreamSha256": "a45dc777bb4e7780ea0d062c2da7147a056b3baedcfe6da9d935d23f187e846b",
+      "importedSha256": "a45dc777bb4e7780ea0d062c2da7147a056b3baedcfe6da9d935d23f187e846b",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/latest/pic_list/latest.skin.php",
+      "area": "pc-latest",
+      "upstreamSha256": "17040c4021f0e79fc860615101a06ac5ca903069d2c7c463b03d8344c351c635",
+      "importedSha256": "17040c4021f0e79fc860615101a06ac5ca903069d2c7c463b03d8344c351c635",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/latest/pic_list/style.css",
+      "area": "pc-latest",
+      "upstreamSha256": "8833a39b1dd7d90e4b9e006c165bc670ec5e5ec56280e8656a6401b50cd3245a",
+      "importedSha256": "8833a39b1dd7d90e4b9e006c165bc670ec5e5ec56280e8656a6401b50cd3245a",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/latest/shop_basic/img/icon_file.gif",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "26f80728f2749899cc4dfa484a4536a8a927ca127c70c37ec6c4ec9753a74b80",
+      "importedSha256": "26f80728f2749899cc4dfa484a4536a8a927ca127c70c37ec6c4ec9753a74b80",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/latest/shop_basic/img/icon_hot.gif",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "06bb916b8eb4e762762fac3963fca0e9e8e7f116047a074b0af996635049105c",
+      "importedSha256": "06bb916b8eb4e762762fac3963fca0e9e8e7f116047a074b0af996635049105c",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/latest/shop_basic/img/icon_img.gif",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "b1630f11b8d374a6926450feb24af1e885e519dd9ef76ab10bbbe82ee0935bf7",
+      "importedSha256": "b1630f11b8d374a6926450feb24af1e885e519dd9ef76ab10bbbe82ee0935bf7",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/latest/shop_basic/img/icon_link.gif",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "c93f9f8d0e99e64c2da940326bfb8652d4f384e541573818912da5127903973c",
+      "importedSha256": "c93f9f8d0e99e64c2da940326bfb8652d4f384e541573818912da5127903973c",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/latest/shop_basic/img/icon_mobile.gif",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "5a5ae3fc895985e21eada75e80683945001b4d07c8fce16845e55e3a8954b179",
+      "importedSha256": "5a5ae3fc895985e21eada75e80683945001b4d07c8fce16845e55e3a8954b179",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/latest/shop_basic/img/icon_more.gif",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "f47b2a395645ed6dbe840fb544c53462a7ae5fd43500561a3e0fe5bb817d4768",
+      "importedSha256": "f47b2a395645ed6dbe840fb544c53462a7ae5fd43500561a3e0fe5bb817d4768",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/latest/shop_basic/img/icon_movie.gif",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "c6e1307d36b98f3e9e572dcc2c2797c08b90dad321dacbab997c520c12eb2796",
+      "importedSha256": "c6e1307d36b98f3e9e572dcc2c2797c08b90dad321dacbab997c520c12eb2796",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/latest/shop_basic/img/icon_new.gif",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "c7f9436b5b9b86d007dcffa161d5d99dc21d9788e881ce443d572181b1de6918",
+      "importedSha256": "c7f9436b5b9b86d007dcffa161d5d99dc21d9788e881ce443d572181b1de6918",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/latest/shop_basic/img/icon_reply.gif",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "a94a081920154ed9b29285b597eca4abd711a9027fd799f0865f751427401b73",
+      "importedSha256": "a94a081920154ed9b29285b597eca4abd711a9027fd799f0865f751427401b73",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/latest/shop_basic/img/icon_secret.gif",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "1fe10ffc2886b4e91856f95699ee0680dde80e94aa32a54c8216000f311aee50",
+      "importedSha256": "1fe10ffc2886b4e91856f95699ee0680dde80e94aa32a54c8216000f311aee50",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/latest/shop_basic/img/icon_sound.gif",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "afb2f68f1ab9e8c09d2872da5dd6f6c19cc87b1a210f9b1dea13cbf8965cbd63",
+      "importedSha256": "afb2f68f1ab9e8c09d2872da5dd6f6c19cc87b1a210f9b1dea13cbf8965cbd63",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/latest/shop_basic/latest.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "25dd23246823a8a2c2239b56d26cf99c1e63b6ebb8176355cd066434df2a26eb",
+      "importedSha256": "25dd23246823a8a2c2239b56d26cf99c1e63b6ebb8176355cd066434df2a26eb",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/latest/shop_basic/style.css",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "edf1340928e62e95778b2e0924602a26c6d9e23aae5254b1a053a6c626105c8c",
+      "importedSha256": "edf1340928e62e95778b2e0924602a26c6d9e23aae5254b1a053a6c626105c8c",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/member/basic/consent_modal.inc.php",
+      "area": "pc-member",
+      "upstreamSha256": "ce5a1793f42fe3a28b11bc4916482a23ae9abcdf489b34dfeddd9ac25af94a60",
+      "importedSha256": "ce5a1793f42fe3a28b11bc4916482a23ae9abcdf489b34dfeddd9ac25af94a60",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/member/basic/formmail.skin.php",
+      "area": "pc-member",
+      "upstreamSha256": "c24570d55b2ea4c48d9939c6f1fd2790a63aff5087b1ae162c6129b145708b5b",
+      "importedSha256": "c24570d55b2ea4c48d9939c6f1fd2790a63aff5087b1ae162c6129b145708b5b",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/member/basic/img/chk.png",
+      "area": "pc-member",
+      "upstreamSha256": "6916a8b9f6eaaea1fbf753f98bf4530fab8c72cb09e5889f1bca421f93907e15",
+      "importedSha256": "6916a8b9f6eaaea1fbf753f98bf4530fab8c72cb09e5889f1bca421f93907e15",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/member/basic/img/zip_ico_up.gif",
+      "area": "pc-member",
+      "upstreamSha256": "dd65aaf617ab887ffc93c427fe6913075ed6ee8f5faab0614d699d3cadfdd6d4",
+      "importedSha256": "dd65aaf617ab887ffc93c427fe6913075ed6ee8f5faab0614d699d3cadfdd6d4",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/member/basic/login.skin.php",
+      "area": "pc-member",
+      "upstreamSha256": "dd2a13c84c25db0e3a180006c49da0745639becba39c52a215dcfa6273838595",
+      "importedSha256": "dd2a13c84c25db0e3a180006c49da0745639becba39c52a215dcfa6273838595",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/member/basic/login_check.skin.php",
+      "area": "pc-member",
+      "upstreamSha256": "98d37ca5e820dffacbafac2722510bdedd6788ba8d1de9189ee627fa9abae006",
+      "importedSha256": "98d37ca5e820dffacbafac2722510bdedd6788ba8d1de9189ee627fa9abae006",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/member/basic/member_cert_refresh.skin.php",
+      "area": "pc-member",
+      "upstreamSha256": "415bd4ff29d20501a7a83a5d34c084a6b02d6ef59a327012f8372d0917a8cdd2",
+      "importedSha256": "415bd4ff29d20501a7a83a5d34c084a6b02d6ef59a327012f8372d0917a8cdd2",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/member/basic/member_confirm.skin.php",
+      "area": "pc-member",
+      "upstreamSha256": "34d0a856425fc3f16fdbbfc2f6be04ac573b8cb8be882f1e5f986c75c8859b64",
+      "importedSha256": "34d0a856425fc3f16fdbbfc2f6be04ac573b8cb8be882f1e5f986c75c8859b64",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/member/basic/memo.skin.php",
+      "area": "pc-member",
+      "upstreamSha256": "466df69cf602f37078ff7148dc01af2eba7f5c019fcdd431b728f987f289a8d6",
+      "importedSha256": "466df69cf602f37078ff7148dc01af2eba7f5c019fcdd431b728f987f289a8d6",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/member/basic/memo_form.skin.php",
+      "area": "pc-member",
+      "upstreamSha256": "a76fadafdd09512e3498a934b7405e5caa30885311b2bf8031641f52dd4eb852",
+      "importedSha256": "a76fadafdd09512e3498a934b7405e5caa30885311b2bf8031641f52dd4eb852",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/member/basic/memo_view.skin.php",
+      "area": "pc-member",
+      "upstreamSha256": "781977687437fd9d0a858f4008d479f25048167137676b34c93b33bd06ad33d2",
+      "importedSha256": "781977687437fd9d0a858f4008d479f25048167137676b34c93b33bd06ad33d2",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/member/basic/password.skin.php",
+      "area": "pc-member",
+      "upstreamSha256": "e5ea38f35f0488b27169455e53892db5d7c01a38c803df285682145d320ac779",
+      "importedSha256": "e5ea38f35f0488b27169455e53892db5d7c01a38c803df285682145d320ac779",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/member/basic/password_lost.skin.php",
+      "area": "pc-member",
+      "upstreamSha256": "1570ecef577217fa6ffe496f3e5e28c9aa2d72279d9e592bf3f969dc839a110a",
+      "importedSha256": "1570ecef577217fa6ffe496f3e5e28c9aa2d72279d9e592bf3f969dc839a110a",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/member/basic/password_reset.skin.php",
+      "area": "pc-member",
+      "upstreamSha256": "1847724f04a7b766d18c22963a17d0000b2bc72fa1c86e30a30786effc061a09",
+      "importedSha256": "1847724f04a7b766d18c22963a17d0000b2bc72fa1c86e30a30786effc061a09",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/member/basic/point.skin.php",
+      "area": "pc-member",
+      "upstreamSha256": "fd39de02d10049092ee741ad042534c2efe2a8d4611399403e9da8fd8329cbfa",
+      "importedSha256": "fd39de02d10049092ee741ad042534c2efe2a8d4611399403e9da8fd8329cbfa",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/member/basic/profile.skin.php",
+      "area": "pc-member",
+      "upstreamSha256": "7f99ec4be2a8334fdb4a2bcb422664b62f78276c217ad22193e4b39ea41a8f1e",
+      "importedSha256": "7f99ec4be2a8334fdb4a2bcb422664b62f78276c217ad22193e4b39ea41a8f1e",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/member/basic/register.skin.php",
+      "area": "pc-member",
+      "upstreamSha256": "ee61c5f66874aa53c61a43f425c914f4fc75e9fd74b0080a1fa04295c3f26a61",
+      "importedSha256": "ee61c5f66874aa53c61a43f425c914f4fc75e9fd74b0080a1fa04295c3f26a61",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/member/basic/register_form.skin.php",
+      "area": "pc-member",
+      "upstreamSha256": "3149d817dd3f5df6a870baec5e4c083fa42e83a3b90b8b951c023c05973e20d3",
+      "importedSha256": "3149d817dd3f5df6a870baec5e4c083fa42e83a3b90b8b951c023c05973e20d3",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/member/basic/register_form_update.tail.skin.php",
+      "area": "pc-member",
+      "upstreamSha256": "70594ce4f996e2e0d9f1fff8c95cef1b40c1bb5d38340cd37264963432642854",
+      "importedSha256": "70594ce4f996e2e0d9f1fff8c95cef1b40c1bb5d38340cd37264963432642854",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/member/basic/register_result.skin.php",
+      "area": "pc-member",
+      "upstreamSha256": "54e295a4b3a382757091985e6674a95a365b748bf1043071a11a8483fda6aaf4",
+      "importedSha256": "54e295a4b3a382757091985e6674a95a365b748bf1043071a11a8483fda6aaf4",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/member/basic/scrap.skin.php",
+      "area": "pc-member",
+      "upstreamSha256": "b07e0cc973bd8360602b010f5f61bcb49fc23ead6023a0327f4bde484392a392",
+      "importedSha256": "b07e0cc973bd8360602b010f5f61bcb49fc23ead6023a0327f4bde484392a392",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/member/basic/scrap_popin.skin.php",
+      "area": "pc-member",
+      "upstreamSha256": "7201433ddefc9f7f8a20138505e638c2a25bce53a3a4fca4135fb35e84433ca9",
+      "importedSha256": "7201433ddefc9f7f8a20138505e638c2a25bce53a3a4fca4135fb35e84433ca9",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/member/basic/style.css",
+      "area": "pc-member",
+      "upstreamSha256": "6f91493000898d1c71095e5c72afe10dfe25849afed158da07d8897479d2a392",
+      "importedSha256": "6f91493000898d1c71095e5c72afe10dfe25849afed158da07d8897479d2a392",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/new/basic/new.skin.php",
+      "area": "pc-new",
+      "upstreamSha256": "c7f2d5e435882322b4139a232729d796a3abe24741e072dc49726126e7824a21",
+      "importedSha256": "c7f2d5e435882322b4139a232729d796a3abe24741e072dc49726126e7824a21",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/new/basic/style.css",
+      "area": "pc-new",
+      "upstreamSha256": "7c769eea6d73a647ffaad340ca3be24dc065343a3c95503049bb2ea47746d820",
+      "importedSha256": "7c769eea6d73a647ffaad340ca3be24dc065343a3c95503049bb2ea47746d820",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/outlogin/basic/img/chk.png",
+      "area": "pc-outlogin",
+      "upstreamSha256": "6916a8b9f6eaaea1fbf753f98bf4530fab8c72cb09e5889f1bca421f93907e15",
+      "importedSha256": "6916a8b9f6eaaea1fbf753f98bf4530fab8c72cb09e5889f1bca421f93907e15",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/outlogin/basic/img/info_edit.png",
+      "area": "pc-outlogin",
+      "upstreamSha256": "4ba058b4a62a44104270a6a45121b68cf056fcddd701fdd2fa936dd206f6c60b",
+      "importedSha256": "4ba058b4a62a44104270a6a45121b68cf056fcddd701fdd2fa936dd206f6c60b",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/outlogin/basic/outlogin.skin.1.php",
+      "area": "pc-outlogin",
+      "upstreamSha256": "b16e9beec1a4e1f9fb2c5aa4f29cc52d6c5ddb8fb41722e9df01b29d080204eb",
+      "importedSha256": "b16e9beec1a4e1f9fb2c5aa4f29cc52d6c5ddb8fb41722e9df01b29d080204eb",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/outlogin/basic/outlogin.skin.2.php",
+      "area": "pc-outlogin",
+      "upstreamSha256": "4f0cee3ccbcb504249f434c7902f7e48b4c6e3c33b42c82400ff7dd4309f80ec",
+      "importedSha256": "4f0cee3ccbcb504249f434c7902f7e48b4c6e3c33b42c82400ff7dd4309f80ec",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/outlogin/basic/style.css",
+      "area": "pc-outlogin",
+      "upstreamSha256": "de39d8de126fd74b2f18d45264df05a155b1349ab7478b7b71d2cdf0322d64a3",
+      "importedSha256": "de39d8de126fd74b2f18d45264df05a155b1349ab7478b7b71d2cdf0322d64a3",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/outlogin/shop_basic/img/chk.png",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "6916a8b9f6eaaea1fbf753f98bf4530fab8c72cb09e5889f1bca421f93907e15",
+      "importedSha256": "6916a8b9f6eaaea1fbf753f98bf4530fab8c72cb09e5889f1bca421f93907e15",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/outlogin/shop_basic/outlogin.skin.1.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "777a1f9d6f3da3acf93c80cc9a7affd2597f29dccc70f6cc92c841af14b57c52",
+      "importedSha256": "777a1f9d6f3da3acf93c80cc9a7affd2597f29dccc70f6cc92c841af14b57c52",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/outlogin/shop_basic/outlogin.skin.2.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "96b49c8bb3050454705c0cc3e10aaa9f1bf2b47103ac69a5cd02b0ef3b13ae0d",
+      "importedSha256": "96b49c8bb3050454705c0cc3e10aaa9f1bf2b47103ac69a5cd02b0ef3b13ae0d",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/outlogin/shop_basic/style.css",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "89355072904524d94044663311217a6ae76dbb6485289894e14684a2eb27046f",
+      "importedSha256": "89355072904524d94044663311217a6ae76dbb6485289894e14684a2eb27046f",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/outlogin/shop_side/img/chk.png",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "6916a8b9f6eaaea1fbf753f98bf4530fab8c72cb09e5889f1bca421f93907e15",
+      "importedSha256": "6916a8b9f6eaaea1fbf753f98bf4530fab8c72cb09e5889f1bca421f93907e15",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/outlogin/shop_side/outlogin.skin.1.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "3151e7899f280bf1c1f12317ecf7e26ef3e0849ae19d26cb00945638690d16a9",
+      "importedSha256": "3151e7899f280bf1c1f12317ecf7e26ef3e0849ae19d26cb00945638690d16a9",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/outlogin/shop_side/outlogin.skin.2.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "c57e5daf1e37f101d2a4dce477264e3d00a9a34b68252f4c49410cacfe3db18c",
+      "importedSha256": "c57e5daf1e37f101d2a4dce477264e3d00a9a34b68252f4c49410cacfe3db18c",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/outlogin/shop_side/style.css",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "d1905dd1977ed848aba20081050987da45268edb73d5ee27c54160bc20b0eab3",
+      "importedSha256": "d1905dd1977ed848aba20081050987da45268edb73d5ee27c54160bc20b0eab3",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/poll/basic/poll.skin.php",
+      "area": "pc-poll",
+      "upstreamSha256": "28188c10f9f329916bea697194753b988110893bcb611a4dc705c53be8b24b17",
+      "importedSha256": "28188c10f9f329916bea697194753b988110893bcb611a4dc705c53be8b24b17",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/poll/basic/poll_result.skin.php",
+      "area": "pc-poll",
+      "upstreamSha256": "4994f1ed5fce50d1034fca40e55a2bdc1dee2f9838850f8cce4f7321b5e06158",
+      "importedSha256": "4994f1ed5fce50d1034fca40e55a2bdc1dee2f9838850f8cce4f7321b5e06158",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/poll/basic/style.css",
+      "area": "pc-poll",
+      "upstreamSha256": "561468ee4c901811031f232a0b2d00e50092b57e00d730cc0ed674fc208ddffb",
+      "importedSha256": "561468ee4c901811031f232a0b2d00e50092b57e00d730cc0ed674fc208ddffb",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/poll/shop_basic/poll.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "1f78c093112b15e41b47a4bfa84c2e7ea85a4f791955c878eb42b6aef0b5a616",
+      "importedSha256": "1f78c093112b15e41b47a4bfa84c2e7ea85a4f791955c878eb42b6aef0b5a616",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/poll/shop_basic/poll_result.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "1ca1723d51e340731b13743e05f949b93aab9d73f8cc3afd6ad36abe46c61e38",
+      "importedSha256": "1ca1723d51e340731b13743e05f949b93aab9d73f8cc3afd6ad36abe46c61e38",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/poll/shop_basic/style.css",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "8fd184842aa6635261d9886f74083a5ab56d0bedb923d6f44dddbfdd172d784f",
+      "importedSha256": "8fd184842aa6635261d9886f74083a5ab56d0bedb923d6f44dddbfdd172d784f",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/popular/basic/popular.skin.php",
+      "area": "pc-popular",
+      "upstreamSha256": "78106d775993eb605464038359be034f49d06b4c5ed82c69cae4359deab08c37",
+      "importedSha256": "78106d775993eb605464038359be034f49d06b4c5ed82c69cae4359deab08c37",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/popular/basic/style.css",
+      "area": "pc-popular",
+      "upstreamSha256": "033bfa4c78e30e996e5bf2083a847660d9bd06f0d9b4d0e0082f4aad529daff3",
+      "importedSha256": "033bfa4c78e30e996e5bf2083a847660d9bd06f0d9b4d0e0082f4aad529daff3",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/qa/basic/img/btn_close.gif",
+      "area": "pc-qa",
+      "upstreamSha256": "a72e65bf35f3c15ab3432cb3ed0a955989307245b965ecfbd042910f991e7432",
+      "importedSha256": "a72e65bf35f3c15ab3432cb3ed0a955989307245b965ecfbd042910f991e7432",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/qa/basic/img/icon_answer.gif",
+      "area": "pc-qa",
+      "upstreamSha256": "a94a081920154ed9b29285b597eca4abd711a9027fd799f0865f751427401b73",
+      "importedSha256": "a94a081920154ed9b29285b597eca4abd711a9027fd799f0865f751427401b73",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/qa/basic/list.skin.php",
+      "area": "pc-qa",
+      "upstreamSha256": "10cee224b19b7df7267cd9944463c77bd9396c7e158f41122316816c6e336d1e",
+      "importedSha256": "10cee224b19b7df7267cd9944463c77bd9396c7e158f41122316816c6e336d1e",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/qa/basic/style.css",
+      "area": "pc-qa",
+      "upstreamSha256": "7ea28770671e25fc91ffe7cbf386391f71ad3df9f7f5fd47606d04b962166006",
+      "importedSha256": "7ea28770671e25fc91ffe7cbf386391f71ad3df9f7f5fd47606d04b962166006",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/qa/basic/view.answer.skin.php",
+      "area": "pc-qa",
+      "upstreamSha256": "6fcee80bbd3c344d925829676456b74dad32ef57a0c44773f51d14cf1b9ca452",
+      "importedSha256": "6fcee80bbd3c344d925829676456b74dad32ef57a0c44773f51d14cf1b9ca452",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/qa/basic/view.answerform.skin.php",
+      "area": "pc-qa",
+      "upstreamSha256": "d2896ec82469259163a8575c07d9211d703ca81668cd01aee8837f9c60a71b82",
+      "importedSha256": "d2896ec82469259163a8575c07d9211d703ca81668cd01aee8837f9c60a71b82",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/qa/basic/view.skin.php",
+      "area": "pc-qa",
+      "upstreamSha256": "0d85368c24b8a33897f0e0f5bfe48ce4b4b98ea10d136fa7a487c6a94218e5d9",
+      "importedSha256": "0d85368c24b8a33897f0e0f5bfe48ce4b4b98ea10d136fa7a487c6a94218e5d9",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/qa/basic/write.skin.php",
+      "area": "pc-qa",
+      "upstreamSha256": "3fddd97077b4c2a482c2423abda8a30a2f61ab903ab1267ca7008d1478b74e8a",
+      "importedSha256": "3fddd97077b4c2a482c2423abda8a30a2f61ab903ab1267ca7008d1478b74e8a",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/search/basic/search.skin.php",
+      "area": "pc-search",
+      "upstreamSha256": "9c7e10fab7e6d49500927756d0bdeb99cc6c60a2457682c33a48a5aaa97574ed",
+      "importedSha256": "9c7e10fab7e6d49500927756d0bdeb99cc6c60a2457682c33a48a5aaa97574ed",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/search/basic/style.css",
+      "area": "pc-search",
+      "upstreamSha256": "a86ee627d8e1fff90ad2748a0f79bd70207d8d07d4d080a67bac325f5778236f",
+      "importedSha256": "a86ee627d8e1fff90ad2748a0f79bd70207d8d07d4d080a67bac325f5778236f",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/boxbanner.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "6c8ef339203f7148b282df06d3f32fc7c25302a805b597eb551a348ed813af64",
+      "importedSha256": "6c8ef339203f7148b282df06d3f32fc7c25302a805b597eb551a348ed813af64",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/boxcart.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "f9d9f09eaf86e3af82b1e2c003efd550cf147a1e22b9fb8851962ee278fdc7ef",
+      "importedSha256": "f9d9f09eaf86e3af82b1e2c003efd550cf147a1e22b9fb8851962ee278fdc7ef",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/boxcategory.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "f3e0d6f846869d51e811b4994d955bb0aa5641f5894e69e3af1a0fe255bc0776",
+      "importedSha256": "f3e0d6f846869d51e811b4994d955bb0aa5641f5894e69e3af1a0fe255bc0776",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/boxcommunity.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "e9194bbdb810cc24f4c8df1a998d16156842e6460641cf92979afb3b47cfb78e",
+      "importedSha256": "e9194bbdb810cc24f4c8df1a998d16156842e6460641cf92979afb3b47cfb78e",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/boxevent.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "15163bd6fb7ea3645808442c57ff4ec9f34cf69e65edb108ba9cd994218a40fe",
+      "importedSha256": "15163bd6fb7ea3645808442c57ff4ec9f34cf69e65edb108ba9cd994218a40fe",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/boxtodayview.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "e2ebb7b0f45ed5e97ed3f2ff0944bff22388b78df6da5423f990fdd17a834728",
+      "importedSha256": "e2ebb7b0f45ed5e97ed3f2ff0944bff22388b78df6da5423f990fdd17a834728",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/boxwish.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "462f22d10f84346be46b8fce80ec61ba95a30fe1260f36c63ab07750e9d43606",
+      "importedSha256": "462f22d10f84346be46b8fce80ec61ba95a30fe1260f36c63ab07750e9d43606",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/couponzone.10.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "f15e4433e5c0c81c526673f0df469085136a69971b5f33c968f617e97242233c",
+      "importedSha256": "f15e4433e5c0c81c526673f0df469085136a69971b5f33c968f617e97242233c",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/img/btn_next.png",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "c0d17446f87437250feec79a0aba15fa029384ae2510ca92bd2efa68010a42f3",
+      "importedSha256": "c0d17446f87437250feec79a0aba15fa029384ae2510ca92bd2efa68010a42f3",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/img/btn_prev.png",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "25c75db36b88b3efb5d10f31e630ad5cb784bdfded6f22ae88889f59f1dd9191",
+      "importedSha256": "25c75db36b88b3efb5d10f31e630ad5cb784bdfded6f22ae88889f59f1dd9191",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/img/btn_sb_next.png",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "c0d17446f87437250feec79a0aba15fa029384ae2510ca92bd2efa68010a42f3",
+      "importedSha256": "c0d17446f87437250feec79a0aba15fa029384ae2510ca92bd2efa68010a42f3",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/img/btn_sb_prev.png",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "25c75db36b88b3efb5d10f31e630ad5cb784bdfded6f22ae88889f59f1dd9191",
+      "importedSha256": "25c75db36b88b3efb5d10f31e630ad5cb784bdfded6f22ae88889f59f1dd9191",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/img/chk.png",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "6916a8b9f6eaaea1fbf753f98bf4530fab8c72cb09e5889f1bca421f93907e15",
+      "importedSha256": "6916a8b9f6eaaea1fbf753f98bf4530fab8c72cb09e5889f1bca421f93907e15",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/img/facebook.png",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "7e0c9c86469b31b03f9c1e7c670413ab66d86fdde3e7a7866ff08ca916850b07",
+      "importedSha256": "7e0c9c86469b31b03f9c1e7c670413ab66d86fdde3e7a7866ff08ca916850b07",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/img/gnb_bg.png",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "4c4fab16a76aa3ba4f4b7e176b1453896ba20c1025dcb50fd71e71f18a075729",
+      "importedSha256": "4c4fab16a76aa3ba4f4b7e176b1453896ba20c1025dcb50fd71e71f18a075729",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/img/gplus.png",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "adf92796531356db0c1b0cd3977c77301b4cb0b51a20a489898f78c06823e36e",
+      "importedSha256": "adf92796531356db0c1b0cd3977c77301b4cb0b51a20a489898f78c06823e36e",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/img/icon_arw_toleft.gif",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "7a109d47d6327e49d6424fbb4ac3e9bf0441dd4a27a9cfdca16658eca996f94e",
+      "importedSha256": "7a109d47d6327e49d6424fbb4ac3e9bf0441dd4a27a9cfdca16658eca996f94e",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/img/icon_secret.gif",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "1fe10ffc2886b4e91856f95699ee0680dde80e94aa32a54c8216000f311aee50",
+      "importedSha256": "1fe10ffc2886b4e91856f95699ee0680dde80e94aa32a54c8216000f311aee50",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/img/is_button.gif",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "7b5bb2c4d291a5939d402fac245cf4826e977e277bf85e7e9809bdd0569fada0",
+      "importedSha256": "7b5bb2c4d291a5939d402fac245cf4826e977e277bf85e7e9809bdd0569fada0",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/img/personal.jpg",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "a32b80504c834957161deac203530a71afcbf1250ad66a95116d918cd2c24d8a",
+      "importedSha256": "a32b80504c834957161deac203530a71afcbf1250ad66a95116d918cd2c24d8a",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/img/sbn_btn.png",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "0e1f4ef40f37cbae8bb65e7c76ccb8dd40bd9ad29deb627d7a4bb6750a9f5ce4",
+      "importedSha256": "0e1f4ef40f37cbae8bb65e7c76ccb8dd40bd9ad29deb627d7a4bb6750a9f5ce4",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/img/sct_bg_toright.gif",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "769f976811c692387cb197dabd19ad3f5aa182c33c06d9858e02b11cedd9ce5d",
+      "importedSha256": "769f976811c692387cb197dabd19ad3f5aa182c33c06d9858e02b11cedd9ce5d",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/img/select_arrow.png",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "331ca30d14794856f355491342cec48596e038d08dd6fbeec33d0df031b9d958",
+      "importedSha256": "331ca30d14794856f355491342cec48596e038d08dd6fbeec33d0df031b9d958",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/img/select_arrow_left.png",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "d449867f891c9c3106f99441744359bf78f03c3f7ea433d7a91acf308a95078c",
+      "importedSha256": "d449867f891c9c3106f99441744359bf78f03c3f7ea433d7a91acf308a95078c",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/img/select_arrow_next.png",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "0fed1c9705b718cd1b22f319f297c48ed2e61a3d2462f5de14300c2a2de9c19a",
+      "importedSha256": "0fed1c9705b718cd1b22f319f297c48ed2e61a3d2462f5de14300c2a2de9c19a",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/img/select_arrow_prev.png",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "334b40087a89243b73e67ba44ad71f15edbae19ef35ad0a89c3c4938c3814537",
+      "importedSha256": "334b40087a89243b73e67ba44ad71f15edbae19ef35ad0a89c3c4938c3814537",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/img/select_arrow_right.png",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "aadcb350f85bb75a85e47f35156605539f4625db2563b5bb77938ced56c3bb04",
+      "importedSha256": "aadcb350f85bb75a85e47f35156605539f4625db2563b5bb77938ced56c3bb04",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/img/sit_siblings.jpg",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "32cd65a707e9f614bc96a89056b38ccf30ea405d9e8939fb80b5486ef8cc6393",
+      "importedSha256": "32cd65a707e9f614bc96a89056b38ccf30ea405d9e8939fb80b5486ef8cc6393",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/img/twitter.png",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "bff9e92ee19c7e30baa0e2808fe393466e386b64da09ae069aa60837ff6b0b8e",
+      "importedSha256": "bff9e92ee19c7e30baa0e2808fe393466e386b64da09ae069aa60837ff6b0b8e",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/img/use_reply.png",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "0c6d34539de7ce808bd05aaa16dc4ee4ad90891f5c5d85d5eb634e972289bae3",
+      "importedSha256": "0c6d34539de7ce808bd05aaa16dc4ee4ad90891f5c5d85d5eb634e972289bae3",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/item.form.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "8451889eb53eb115409b591e7e7db6d9ac8876895328162dbed3b9c1afe2ae90",
+      "importedSha256": "8451889eb53eb115409b591e7e7db6d9ac8876895328162dbed3b9c1afe2ae90",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/item.info.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "d3424402c94eefdd19203d869fd9ac7b669173c0fc9d75af7e0b878fce60b8d2",
+      "importedSha256": "d3424402c94eefdd19203d869fd9ac7b669173c0fc9d75af7e0b878fce60b8d2",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/itemqa.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "11b9f6bb12a16fc0562d04a4a82fc68d2c2ce633a6101908104e44de1f433551",
+      "importedSha256": "11b9f6bb12a16fc0562d04a4a82fc68d2c2ce633a6101908104e44de1f433551",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/itemqaform.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "b69113d12fb12055da06ccec621275a411df0e4f44b1db1e6f1bf0bc2fba1e8c",
+      "importedSha256": "b69113d12fb12055da06ccec621275a411df0e4f44b1db1e6f1bf0bc2fba1e8c",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/itemqalist.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "440fd3753ba34ed53322fdd962331630a14f644fda60a1e1b7acadf0744143f2",
+      "importedSha256": "440fd3753ba34ed53322fdd962331630a14f644fda60a1e1b7acadf0744143f2",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/itemuse.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "3ab036c00e50f8336424e073825e6eae697891eabad7916be5397edcf97c7b69",
+      "importedSha256": "3ab036c00e50f8336424e073825e6eae697891eabad7916be5397edcf97c7b69",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/itemuseform.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "fa2b36e56c3ac3845975587be2b60a7c6ba44c23ebe302594cc57bc4b4f1b22e",
+      "importedSha256": "fa2b36e56c3ac3845975587be2b60a7c6ba44c23ebe302594cc57bc4b4f1b22e",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/itemuselist.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "b167390beef8e595d002e8b813e8b86a1ca3b78796ff5850b76ffb8604497c9b",
+      "importedSha256": "b167390beef8e595d002e8b813e8b86a1ca3b78796ff5850b76ffb8604497c9b",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/largeimage.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "b684461098402a131e9c204bb164c11176a33a52cdbd244762dfd09995430352",
+      "importedSha256": "b684461098402a131e9c204bb164c11176a33a52cdbd244762dfd09995430352",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/list.10.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "bfc9b2b49f159b68e0f03d5a64b6aed7debaa8098339bf0baa090f7b0275269c",
+      "importedSha256": "bfc9b2b49f159b68e0f03d5a64b6aed7debaa8098339bf0baa090f7b0275269c",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/list.20.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "904eba497a49368d44e3f93331e8657aef9d6881e38197f0a0b4be94c637b4c0",
+      "importedSha256": "904eba497a49368d44e3f93331e8657aef9d6881e38197f0a0b4be94c637b4c0",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/list.30.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "ee6a9a12bb00ddea2bce070e3a420634e2e8710edbd83ef008b42f40645377e2",
+      "importedSha256": "ee6a9a12bb00ddea2bce070e3a420634e2e8710edbd83ef008b42f40645377e2",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/list.40.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "2ea265a5bf6d52bc06c016d496d2ec3b4b3b5938cfc44ee9edae0382d9c9c372",
+      "importedSha256": "2ea265a5bf6d52bc06c016d496d2ec3b4b3b5938cfc44ee9edae0382d9c9c372",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/list.sort.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "caf49ec03e7f2fda9fcd55bf222693a00aa62492b28a30a0ca6ee9b1e0828e65",
+      "importedSha256": "caf49ec03e7f2fda9fcd55bf222693a00aa62492b28a30a0ca6ee9b1e0828e65",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/list.sub.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "0f0ce870c1c9de37fae57c7a9f336c4bb50330ec28817f518a80f914c9bafb35",
+      "importedSha256": "0f0ce870c1c9de37fae57c7a9f336c4bb50330ec28817f518a80f914c9bafb35",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/listcategory.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "70d9240e20d03da676f0146f97badf72cd83b64b05100cd9160219ed9751a6a2",
+      "importedSha256": "70d9240e20d03da676f0146f97badf72cd83b64b05100cd9160219ed9751a6a2",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/listcategory2.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "562e343660c4db9a92e4c1a51ca9b9507a2336a5119ed23093df8ee6028f15ac",
+      "importedSha256": "562e343660c4db9a92e4c1a51ca9b9507a2336a5119ed23093df8ee6028f15ac",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/listcategory3.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "74e505965067872dfd5f79da9a085c3366506919c06447ff1c63e2b91ad8f047",
+      "importedSha256": "74e505965067872dfd5f79da9a085c3366506919c06447ff1c63e2b91ad8f047",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/main.10.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "91ebc45186e6ee1968390b9410d5b37c90dd39da4d304e6480b7fe4253736751",
+      "importedSha256": "91ebc45186e6ee1968390b9410d5b37c90dd39da4d304e6480b7fe4253736751",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/main.20.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "cf862d299115f9221f3b9bf78044cb4e200261da5a4e42f27392092a15863008",
+      "importedSha256": "cf862d299115f9221f3b9bf78044cb4e200261da5a4e42f27392092a15863008",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/main.30.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "aae1a9b200ff405eb7ae6b42c87c5fe5a8a2617e229a25976a17e353bf3e5516",
+      "importedSha256": "aae1a9b200ff405eb7ae6b42c87c5fe5a8a2617e229a25976a17e353bf3e5516",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/main.40.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "203e1d926056dcd255cee35ddc405a9275158a855949e4238be70419e944f585",
+      "importedSha256": "203e1d926056dcd255cee35ddc405a9275158a855949e4238be70419e944f585",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/main.50.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "c068135df4ee2f9a592789cc36e1ad209b7e584b8e06c881e7849c1e6e710549",
+      "importedSha256": "c068135df4ee2f9a592789cc36e1ad209b7e584b8e06c881e7849c1e6e710549",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/mainbanner.10.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "bd378b7edbe6f0e4ec74bedbdc3963eb5c39417745d220f728cd4164ade62f72",
+      "importedSha256": "bd378b7edbe6f0e4ec74bedbdc3963eb5c39417745d220f728cd4164ade62f72",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/navigation.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "e4285e694837d4dcf28fb78cd30777a04828fb3531fd9728ebedb77cd5e9bd51",
+      "importedSha256": "e4285e694837d4dcf28fb78cd30777a04828fb3531fd9728ebedb77cd5e9bd51",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/personalpay.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "0c001645399a572f3e1b99c781cddaae5f02b12ca83ad954b0a671df261879ac",
+      "importedSha256": "0c001645399a572f3e1b99c781cddaae5f02b12ca83ad954b0a671df261879ac",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/relation.10.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "ae62868714aeff47df4f7cfbafd8bd3faec1c2b3ab08c6a5f0918f941b3f5fe7",
+      "importedSha256": "ae62868714aeff47df4f7cfbafd8bd3faec1c2b3ab08c6a5f0918f941b3f5fe7",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/search.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "4abc5bcf7d9fcbc34324786a828f0d393a0d6562eae9cbd84ef8c8311b447bfe",
+      "importedSha256": "4abc5bcf7d9fcbc34324786a828f0d393a0d6562eae9cbd84ef8c8311b447bfe",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/shop/basic/style.css",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "e6574f5272bd1e4fdc8bab0a103e15cdf61e40ab287643732b22eefb985bd579",
+      "importedSha256": "e6574f5272bd1e4fdc8bab0a103e15cdf61e40ab287643732b22eefb985bd579",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/visit/basic/style.css",
+      "area": "pc-visit",
+      "upstreamSha256": "3784b1f95a0a4c27d5b33cf7ab53227ba848989804627deee873e36d8b8c5fb5",
+      "importedSha256": "3784b1f95a0a4c27d5b33cf7ab53227ba848989804627deee873e36d8b8c5fb5",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/visit/basic/visit.skin.php",
+      "area": "pc-visit",
+      "upstreamSha256": "0af3097ff82d5b24a60cf0acbbfdf076fdad70842212254af362f372f761645a",
+      "importedSha256": "0af3097ff82d5b24a60cf0acbbfdf076fdad70842212254af362f372f761645a",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/visit/shop_basic/style.css",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "3784b1f95a0a4c27d5b33cf7ab53227ba848989804627deee873e36d8b8c5fb5",
+      "importedSha256": "3784b1f95a0a4c27d5b33cf7ab53227ba848989804627deee873e36d8b8c5fb5",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "skin/visit/shop_basic/visit.skin.php",
+      "area": "youngcart-reference-only",
+      "upstreamSha256": "0af3097ff82d5b24a60cf0acbbfdf076fdad70842212254af362f372f761645a",
+      "importedSha256": "0af3097ff82d5b24a60cf0acbbfdf076fdad70842212254af362f372f761645a",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "tail.php",
+      "area": "shared-shell-assets",
+      "upstreamSha256": "05bb55dd2b17318dd3546f6089f5bc907e8e1038ad8ab40fc0bd86433f4fec7c",
+      "importedSha256": "05bb55dd2b17318dd3546f6089f5bc907e8e1038ad8ab40fc0bd86433f4fec7c",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "tail.sub.php",
+      "area": "shared-shell-assets",
+      "upstreamSha256": "efca9decf0f4793a0f898b41238a2b5f452b34b4cbf493af4cf0807312a2d6d2",
+      "importedSha256": "efca9decf0f4793a0f898b41238a2b5f452b34b4cbf493af4cf0807312a2d6d2",
+      "status": "inherited",
+      "uiReview": "pending"
+    },
+    {
+      "path": "theme.config.php",
+      "area": "shared-shell-assets",
+      "upstreamSha256": "a7f73df3aed2f4c8c6e65f708e8d1c2e6e96739ccc030d7a9e3b89a59c55ddd7",
+      "importedSha256": "a7f73df3aed2f4c8c6e65f708e8d1c2e6e96739ccc030d7a9e3b89a59c55ddd7",
+      "status": "inherited",
+      "uiReview": "pending"
+    }
+  ]
+}

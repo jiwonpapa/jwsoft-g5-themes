@@ -1,0 +1,13 @@
+{
+  "$extensions": {
+    "dev.jwsoft.g5-theme": {
+      "tailwind": {
+        "brand": "color.brand"
+      }
+    }
+  },
+  "color": {
+    "$type": "color",
+    "surface": { "$value": "#ffffff" }
+  }
+}

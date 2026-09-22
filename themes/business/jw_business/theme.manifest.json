@@ -1,0 +1,74 @@
+{
+  "$schema": "../../../packages/theme-contracts/schemas/theme-manifest.schema.json",
+  "schemaVersion": 1,
+  "slug": "jw_business",
+  "name": "JW-Business 1.0",
+  "version": "1.0.0-dev.1",
+  "category": "business",
+  "support": {
+    "gnuboard5": ">=5.6.391 <5.7.0",
+    "php": [
+      "8.3",
+      "8.4",
+      "8.5"
+    ],
+    "youngcart": "excluded"
+  },
+  "entries": {
+    "php": [
+      "src/php/index.php",
+      "src/php/head.php",
+      "src/php/head.sub.php",
+      "src/php/tail.php",
+      "src/php/tail.sub.php",
+      "src/php/group.php",
+      "src/php/mobile/index.php",
+      "src/php/mobile/head.php",
+      "src/php/mobile/tail.php",
+      "src/php/mobile/group.php"
+    ],
+    "css": [
+      "src/styles/theme.css"
+    ],
+    "js": [
+      "src/scripts/theme.ts"
+    ]
+  },
+  "surfaces": [
+    "home"
+  ],
+  "modules": [],
+  "workspacePackages": [
+    "@jwsoft/theme-tokens"
+  ],
+  "externalLibraries": [
+    "@tailwindcss/vite@4.3.3",
+    "daisyui@5.7.40",
+    "lucide@1.47.0",
+    "pretendard@1.3.9",
+    "tailwindcss@4.3.3",
+    "typescript@7.0.2",
+    "vite@8.3.0"
+  ],
+  "manifests": {
+    "assets": "ASSET-MANIFEST.json",
+    "designReference": "DESIGN-REFERENCE.json",
+    "release": "RELEASE-MANIFEST.json"
+  },
+  "build": {
+    "sourceDir": "src",
+    "payloadDir": "theme",
+    "zipAllowlist": [
+      "theme/**",
+      "pages/**",
+      "ASSET-MANIFEST.json",
+      "LICENSE.txt",
+      "LICENSES/**",
+      "THIRD_PARTY_NOTICES.md"
+    ]
+  },
+  "manual": {
+    "path": "docs/manual",
+    "versioned": true
+  }
+}

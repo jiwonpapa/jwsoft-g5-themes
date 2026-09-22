@@ -1,0 +1,15 @@
+{
+  "$schema": "../../../schemas/design-reference.schema.json",
+  "schemaVersion": 1,
+  "theme": "minimal",
+  "provider": "local",
+  "previewPath": "docs/design/home-approved.png",
+  "frames": {
+    "home-desktop": "docs/design/home-approved.png",
+    "home-mobile": "docs/design/home-mobile-approved.png"
+  },
+  "status": "approved",
+  "approvedAt": "2026-09-20",
+  "tokenSourceSha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+  "previewSha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+}

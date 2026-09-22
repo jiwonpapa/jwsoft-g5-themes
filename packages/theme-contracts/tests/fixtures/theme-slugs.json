@@ -1,0 +1,4 @@
+{
+  "valid": ["sample-office", "jw_business"],
+  "invalid": ["../escape", "jw/business", "jw__business", "JW_business", "jw business"]
+}

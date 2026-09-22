@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "generated": false,
+  "generatedAt": "2026-09-20T00:00:00Z",
+  "theme": "minimal",
+  "version": "0.1.0",
+  "sourceCommit": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "gnuboard": {
+    "version": "5.6.391",
+    "commit": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+  },
+  "toolchain": {
+    "bun": "1.4.2",
+    "runtime": "bun"
+  },
+  "lockfileSha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+  "commonPackages": [],
+  "artifacts": [
+    {
+      "path": "dist/minimal-0.1.0.zip",
+      "sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+      "bytes": 1024
+    }
+  ],
+  "gates": [
+    {
+      "id": "contract-check",
+      "result": "pass",
+      "evidence": "artifacts/contracts.json"
+    }
+  ]
+}

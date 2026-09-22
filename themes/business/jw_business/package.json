@@ -1,0 +1,35 @@
+{
+  "name": "@jwsoft/theme-jw_business",
+  "version": "1.0.0-dev.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "bun run tokens:build && bun run --bun build:assets && bun run build:payload",
+    "build:assets": "vite build",
+    "build:payload": "bun run scripts/build-payload.ts",
+    "check": "bun run tokens:check && bun run typecheck && bun run build && bun run test && bun run check:build",
+    "check:build": "bun run scripts/check-build.ts",
+    "doctor": "bun run scripts/doctor-development.ts",
+    "hash:payload": "bun run scripts/hash-payload.ts",
+    "setup": "bun run scripts/setup-development.ts",
+    "test": "bun test tests",
+    "typecheck": "tsc --noEmit",
+    "tokens:build": "bun run ../../../packages/theme-tokens/src/cli.ts build tokens/theme.tokens.json generated",
+    "tokens:check": "bun run ../../../packages/theme-tokens/src/cli.ts check tokens/theme.tokens.json generated"
+  },
+  "dependencies": {
+    "@jwsoft/theme-tokens": "workspace:*"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.3.3",
+    "@types/bun": "1.4.2",
+    "@types/node": "26.6.1",
+    "daisyui": "5.7.40",
+    "embla-carousel": "8.6.0",
+    "lucide": "1.47.0",
+    "pretendard": "1.3.9",
+    "tailwindcss": "4.3.3",
+    "typescript": "7.0.2",
+    "vite": "8.3.0"
+  }
+}

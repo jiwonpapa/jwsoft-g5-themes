@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "projectRoots": [
+    "themes/*/*"
+  ],
+  "buildPath": "code",
+  "updateCheck": false,
+  "stalenessCheck": true,
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [
+      ".runtime/**",
+      ".agents/**",
+      "node_modules/**",
+      "themes/*/*/theme/**"
+    ],
+    "ignoreValues": [],
+    "designSystem": {
+      "enabled": true
+    },
+    "extensions": [
+      {
+        "ext": ".php",
+        "engine": "html"
+      }
+    ]
+  },
+  "hook": {
+    "enabled": false,
+    "quiet": true,
+    "limits": {
+      "maxFindings": 5,
+      "maxChars": 4000
+    }
+  }
+}

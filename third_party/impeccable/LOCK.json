@@ -1,0 +1,14 @@
+{
+  "name": "Impeccable",
+  "license": "Apache-2.0",
+  "skillVersion": "4.3.1",
+  "skillTag": "skill-v4.3.1",
+  "sourceCommit": "2361d593aaa28496557e690fffa897592c235306",
+  "archiveUrl": "https://github.com/pbakaus/impeccable/releases/download/skill-v4.3.1/universal.zip",
+  "archiveSha256": "1deea4cdfb1608df6d9e08ef359629e7cc866a22ab7c2195a835627b887f190b",
+  "installedSkillSha256": "38c2e839e130008b6da814ab9c16f3fcbbedfdf721a9638eebd31a9e65341a7a",
+  "licenseSha256": "02bb8c3b4e70190e3986c0404ad2fd8d639b4f534252d82379cc1b502b6d1812",
+  "engineVersion": "0.1.5",
+  "installedPath": ".agents/skills/impeccable",
+  "automaticHookInstalled": false
+}

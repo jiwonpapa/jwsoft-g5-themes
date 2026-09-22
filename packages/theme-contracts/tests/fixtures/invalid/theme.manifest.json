@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "slug": "minimal",
+  "name": "Invalid path fixture",
+  "version": "0.1.0",
+  "category": "fixture",
+  "support": {
+    "gnuboard5": ">=5.6.391 <5.7.0",
+    "php": [
+      "8.4"
+    ],
+    "youngcart": "excluded"
+  },
+  "entries": {
+    "php": [
+      "../evil.php"
+    ],
+    "css": [],
+    "js": []
+  },
+  "surfaces": [
+    "home"
+  ],
+  "manifests": {
+    "assets": "ASSET-MANIFEST.json",
+    "designReference": "DESIGN-REFERENCE.json",
+    "release": "RELEASE-MANIFEST.json"
+  },
+  "build": {
+    "sourceDir": "src",
+    "payloadDir": "theme",
+    "zipAllowlist": [
+      "theme/**"
+    ]
+  },
+  "manual": {
+    "path": "docs/manual",
+    "versioned": true
+  }
+}

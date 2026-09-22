@@ -1,0 +1,19 @@
+{
+  "date": "2026-09-21",
+  "tool": "built-in image_gen",
+  "theme": "JW-Business 1.0",
+  "status": "unapproved fifth homepage raster concept",
+  "mode": "desktop light",
+  "scope": "homepage only",
+  "images": [
+    {
+      "file": "01-home-light.png",
+      "width": 841,
+      "height": 1870,
+      "bytes": 1277148,
+      "sha256": "0edb600c8c99c91e4e231688ac52de81ecdbbc8311cb7d212d405f65bc2d1316",
+      "generated_original": "exec-869194c2-f346-4de1-8681-10f2f669532c.png",
+      "prompt": "01-home-light.prompt.txt"
+    }
+  ]
+}

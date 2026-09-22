@@ -1,0 +1,68 @@
+{
+  "$description": "JW-Business: DaisyUI 의미 색상으로 고정한 jw-light/jw-dark 연결. 실제 화면 연결은 UI 구현 단계에서 검증한다.",
+  "$extensions": {
+    "dev.jwsoft.g5-theme": {
+      "tailwind": {
+        "--color-surface": "{color.surface}",
+        "--color-surface-muted": "{color.surface-muted}",
+        "--color-text": "{color.text}",
+        "--color-text-muted": "{color.text-muted}",
+        "--color-brand": "{color.brand}",
+        "--color-brand-contrast": "{color.brand-contrast}",
+        "--color-accent": "{color.accent}",
+        "--color-border": "{color.border}",
+        "--color-focus": "{color.focus}",
+        "--color-success": "{color.success}",
+        "--color-warning": "{color.warning}",
+        "--color-danger": "{color.danger}"
+      }
+    }
+  },
+  "color": {
+    "$type": "color",
+    "surface": {
+      "$value": "var(--color-base-100)"
+    },
+    "surface-muted": {
+      "$value": "var(--color-base-200)"
+    },
+    "text": {
+      "$value": "var(--color-base-content)"
+    },
+    "text-muted": {
+      "$value": "var(--color-base-content)"
+    },
+    "brand": {
+      "$value": "var(--color-primary)"
+    },
+    "brand-contrast": {
+      "$value": "var(--color-primary-content)"
+    },
+    "accent": {
+      "$value": "var(--color-accent)"
+    },
+    "border": {
+      "$value": "var(--color-base-300)"
+    },
+    "focus": {
+      "$value": "var(--color-primary)"
+    },
+    "success": {
+      "$value": "var(--color-success)"
+    },
+    "warning": {
+      "$value": "var(--color-warning)"
+    },
+    "danger": {
+      "$value": "var(--color-error)"
+    }
+  },
+  "$schema": "../../../../packages/theme-contracts/schemas/theme-tokens.schema.json",
+  "control": {
+    "height": {
+      "$type": "dimension",
+      "$value": "48px",
+      "$description": "단일 행 입력·선택·실행 버튼의 공통 높이"
+    }
+  }
+}
