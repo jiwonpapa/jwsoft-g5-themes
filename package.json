@@ -34,6 +34,13 @@
     "fixtures:plan": "bash harness/g5-fixtures/run-ubuntu.sh plan shell",
     "fixtures:apply": "bash harness/g5-fixtures/run-ubuntu.sh apply shell",
     "fixtures:verify": "bash harness/g5-fixtures/run-ubuntu.sh verify shell",
-    "fixtures:reset": "bash harness/g5-fixtures/run-ubuntu.sh reset shell"
+    "fixtures:reset": "bash harness/g5-fixtures/run-ubuntu.sh reset shell",
+    "quality:check": "bun run themes/business/jw_business/scripts/check-quality.ts check",
+    "quality:release": "bun run themes/business/jw_business/scripts/check-quality.ts release",
+    "quality:complete": "bun run themes/business/jw_business/scripts/check-quality.ts complete",
+    "quality:start": "bun run themes/business/jw_business/scripts/check-quality.ts start",
+    "quality:prepare": "bun run themes/business/jw_business/scripts/check-quality.ts prepare",
+    "quality:test": "bun test themes/business/jw_business/tests/quality-gate.test.ts",
+    "quality:compare": "bun run themes/business/jw_business/scripts/check-quality.ts compare"
   }
 }

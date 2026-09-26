@@ -2,11 +2,11 @@
 /**
  * Theme: JW-Business 1.0
  * File: skin/board/gallery/view.skin.php
- * Role: GnuBoard5 공개 화면 스킨
- * Original: GnuBoard5 Basic 3.0.0 by SIR
- * Modified by: JW SOFT
- * Copyright: Copyright (c) SIR and JW SOFT contributors
- * License: LGPL-2.1-only; see LICENSES/gnuboard5-LGPL-2.1.txt
+ * Role: 게시판 본문 화면 (gallery)
+ * Author: JW SOFT
+ * Copyright: Copyright (c) JW SOFT. All rights reserved.
+ * License: JW SOFT Commercial License; see LICENSE.txt
  */
 if (!defined('_GNUBOARD_')) exit;
+
 include G5_THEME_PATH.'/skin/board/basic/view.skin.php';

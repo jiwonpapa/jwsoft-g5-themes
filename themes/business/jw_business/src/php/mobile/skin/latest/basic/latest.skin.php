@@ -1,86 +1,41 @@
 <?php
-if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
-include_once(G5_LIB_PATH.'/thumbnail.lib.php');
+/**
+ * Theme: JW-Business 1.0
+ * File: mobile/skin/latest/basic/latest.skin.php
+ * Role: 최신글 표현형 (basic)
+ * Author: JW SOFT
+ * Copyright: Copyright (c) JW SOFT. All rights reserved.
+ * License: JW SOFT Commercial License; see LICENSE.txt
+ */
+if (!defined('_GNUBOARD_')) exit;
 
-add_javascript('<script src="'.G5_JS_URL.'/owlcarousel/owl.carousel.min.js"></script>', 10);
-add_stylesheet('<link rel="stylesheet" href="'.G5_JS_URL.'/owlcarousel/owl.carousel.min.css">', 10);
+include_once G5_LIB_PATH.'/thumbnail.lib.php';
 
-add_javascript('<script src="'.G5_JS_URL.'/tooltipster/tooltipster.bundle.min.js"></script>', 11);
-add_stylesheet('<link rel="stylesheet" href="'.G5_JS_URL.'/tooltipster/tooltipster.bundle.min.css">', 11);
-add_javascript('<script src="'.$latest_skin_url.'/latest.carousel.js?v2"></script>', 12);
-
-// add_stylesheet('css 구문', 출력순서); 숫자가 작을 수록 먼저 출력됨
-add_stylesheet('<link rel="stylesheet" href="'.$latest_skin_url.'/style.css?v2">', 1);
-$thumb_width = 138;
-$thumb_height = 80;
-$list_count = (is_array($list) && $list) ? count($list) : 0;
-$divisor_count = 4;
-$start_page_num = $list_count ? '1' : '0';
-$is_show_next_prev = ($list_count > 4) ? 1 : 0;
+$jw_latest_list = is_array($list ?? null) ? $list : array();
+$jw_latest_url = get_pretty_url($bo_table);
+$jw_latest_id = 'jw-latest-'.preg_replace('/[^a-z0-9_-]/i', '-', $bo_table).'-basic';
 ?>
-
-<div class="lt owl-carousel-wrap">
-    <a href="<?php echo get_pretty_url($bo_table); ?>" class="lt_title"><strong><?php echo $bo_subject; ?></strong></a>
-    <div class="<?php echo $list_count ? 'latest-sel' : ''; ?>">
-        <ul class="item">
-            <?php
-            for ($i=0; $i<$list_count; $i++) {
-            $thumb = get_list_thumbnail($bo_table, $list[$i]['wr_id'], $thumb_width, $thumb_height, false, true);
-            $img = $thumb['src'] ? $thumb['src'] : '';
-            $img_content = $img ? '<img src="'.$img.'" alt="'.$thumb['alt'].'" >' : '';
-            $wr_href = get_pretty_url($bo_table, $list[$i]['wr_id']);
-
-            $echo_ul = ( $i && (($i % $divisor_count) === 0) ) ? '</ul><ul class="item">'.PHP_EOL : '';
-
-            echo $echo_ul;
-            ?>
-            <li>
-                <?php
-                //echo $list[$i]['icon_reply']." ";
-                
-                if( $img_content ){
-                    echo "<a href=\"".$wr_href."\" class=\"lt_thumb\">".run_replace('thumb_image_tag', $img_content, $thumb)."</a> ";
-                }
-                
-                echo "<a href=\"".$wr_href."\" class=\"lt_tit\">";
-                if ($list[$i]['icon_secret']) echo "<i class=\"fa fa-lock\" aria-hidden=\"true\"></i> ";
-                if ($list[$i]['is_notice'])
-                    echo "<strong>".$list[$i]['subject']."</strong>";
-                else
-                    echo $list[$i]['subject'];
-
-                    // if ($list[$i]['link']['count']) { echo "[{$list[$i]['link']['count']}]"; }
-                    // if ($list[$i]['file']['count']) { echo "<{$list[$i]['file']['count']}>"; }
-
-                if ($list[$i]['icon_new']) echo " <span class=\"new_icon\">N</span>";
-                if ($list[$i]['icon_file']) echo " <i class=\"fa fa-download\" aria-hidden=\"true\"></i>" ;
-                if ($list[$i]['icon_link']) echo " <i class=\"fa fa-link\" aria-hidden=\"true\"></i>" ;
-                if ($list[$i]['icon_hot']) echo " <i class=\"fa fa-heart\" aria-hidden=\"true\"></i>";
-                
-                if ($list[$i]['comment_cnt'])  echo "
-                <span class=\"lt_cmt\"><span class=\"sound_only\">댓글</span>".$list[$i]['comment_cnt']."</span>";
-                echo "</a>";
-                ?>
-               
-                <div class="lt_info">
-                    <?php echo $list[$i]['name'] ?>
-                    <span class="lt_date">
-                        <?php echo $list[$i]['datetime'] ?>
-                    </span>
-                </div>
-            </li>
-            <?php }     //end for ?>
-            <?php if ($list_count == 0) { //게시물이 없을 때 ?>
-            <li class="empty_li">게시물이 없습니다.</li>
-            <?php }     //end if ?>
-        </ul>
-    </div>
-    <?php if ($is_show_next_prev){  // $divisor_count 이상의 값이 있을경우에만 출력 ?>
-	<div class="lt_page">
-		<button class="lt_page_prev"><span class="sound_only">이전페이지</span><i class="fa fa-caret-left" aria-hidden="true"></i></button>
-		<span class="page_print"><b><?php echo $start_page_num; ?></b>/<?php echo $start_page_num; ?></span>
-		<button class="lt_page_next"><span class="sound_only">다음페이지</span><i class="fa fa-caret-right" aria-hidden="true"></i></button>
-	</div>
+<section id="<?php echo jw_business_escape($jw_latest_id); ?>" class="jw-latest jw-latest--basic<?php echo !empty($jw_latest_embedded) ? ' jw-latest--embedded' : ''; ?>"<?php echo empty($jw_latest_embedded) ? ' aria-labelledby="'.jw_business_escape($jw_latest_id).'-title"' : ' aria-label="'.get_text($bo_subject).' 최신글"'; ?>>
+    <?php if (empty($jw_latest_embedded)) { ?>
+    <header class="jw-latest__header">
+        <h2 id="<?php echo jw_business_escape($jw_latest_id); ?>-title"><a href="<?php echo jw_business_escape($jw_latest_url); ?>"><?php echo get_text($bo_subject); ?></a></h2>
+        <a class="jw-latest__more" href="<?php echo jw_business_escape($jw_latest_url); ?>">전체 보기<i data-lucide="arrow-right"></i></a>
+    </header>
     <?php } ?>
-    <a href="<?php echo get_pretty_url($bo_table); ?>" class="lt_more"><span class="sound_only"><?php echo $bo_subject ?></span>전체보기</a>
-</div>
+
+    <?php if (!$jw_latest_list) { ?>
+    <p class="jw-latest__empty">등록된 게시물이 없습니다.</p>
+
+    <?php } else { ?>
+    <ul class="jw-latest-rows">
+        <?php foreach ($jw_latest_list as $item) { ?>
+        <li>
+            <a href="<?php echo jw_business_escape(get_pretty_url($bo_table, $item['wr_id'])); ?>">
+                <span class="jw-latest-rows__subject"><?php if ($item['is_notice']) { ?><em>공지</em><?php } ?><strong><?php echo $item['subject']; ?></strong><?php if ($item['comment_cnt']) { ?><small>댓글 <?php echo (int) $item['wr_comment']; ?></small><?php } ?></span>
+                <time datetime="<?php echo jw_business_escape(substr((string) ($item['wr_datetime'] ?? ''), 0, 10)); ?>"><?php echo jw_business_escape($item['datetime2']); ?></time>
+            </a>
+        </li>
+        <?php } ?>
+    </ul>
+    <?php } ?>
+</section>

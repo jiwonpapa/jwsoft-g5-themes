@@ -7,19 +7,24 @@ export default defineConfig({
   plugins: [tailwindcss()],
   build: {
     assetsInlineLimit: 0,
-    cssCodeSplit: false,
+    cssCodeSplit: true,
     emptyOutDir: true,
     minify: true,
     outDir: "build/vite",
     sourcemap: false,
     target: ["chrome111", "firefox128", "safari16.4"],
     rollupOptions: {
-      input: resolve(import.meta.dirname, "src/scripts/theme.ts"),
+      input: {
+        "jw-business": resolve(import.meta.dirname, "src/scripts/theme.ts"),
+        "home-one": resolve(import.meta.dirname, "src/scripts/home-one-entry.ts"),
+        "onepages": resolve(import.meta.dirname, "src/scripts/onepages-entry.ts"),
+      },
       output: {
-        entryFileNames: "js/jw-business.min.js",
+        entryFileNames: "js/[name].min.js",
+        chunkFileNames: "js/chunks/[name]-[hash].js",
         assetFileNames: (asset) => {
           const name = asset.names[0] ?? "asset";
-          if (name.endsWith(".css")) return "css/jw-business.min.css";
+          if (name.endsWith(".css")) return name.includes("home-one") ? "css/home-one.min.css" : name.includes("onepages") ? "css/onepages.min.css" : "css/jw-business.min.css";
           if (name.endsWith(".woff2")) return "fonts/[name][extname]";
           return "assets/[name]-[hash][extname]";
         }

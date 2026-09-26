@@ -1,5 +1,15 @@
 <?php
+/**
+ * Theme: JW-Business 1.0
+ * File: mobile/skin/member/basic/register_form_update.tail.skin.php
+ * Role: 가입 후 영카트 SMS 설정이 있는 경우에만 기존 전송 처리
+ * Original: GnuBoard5 Basic 3.0.0 by SIR
+ * Modified by: JW SOFT
+ * Copyright: Copyright (c) SIR and JW SOFT contributors
+ * License: LGPL-2.1-only; see LICENSES/gnuboard5-LGPL-2.1.txt
+ */
 if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
+if ($w !== '' || empty($default['de_sms_use1']) || empty($mb_hp)) return;
 
 //----------------------------------------------------------
 // SMS 문자전송 시작

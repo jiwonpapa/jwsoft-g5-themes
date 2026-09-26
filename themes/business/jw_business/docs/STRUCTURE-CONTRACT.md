@@ -5,7 +5,7 @@
 ## 1. 홈 파일
 
 - 실제 홈 진입점은 `theme/jw_business/index.php` 하나입니다.
-- 선택용 홈은 `index_1.php`부터 `index_5.php`까지 각각 완성형 파일로 제공합니다.
+- 선택용 홈은 `index_1.php`부터 `index_4.php`까지 각각 완성형 파일로 제공합니다.
 - 각 파일은 `_INDEX_` 선언, `head.php` 호출, 전체 홈 본문, `tail.php` 호출을 직접 포함합니다.
 - 홈을 바꿀 때는 기존 `index.php`를 백업하고 선택한 `index_N.php`를 `index.php`로 복사합니다.
 - 홈 본문을 `partials/`, `sections/`, renderer 함수나 동적 include로 분리하지 않습니다.
@@ -27,6 +27,8 @@
 | `inc/menu.php` | `head.php`, `mobile/head.php` | PC 공통 메뉴 |
 | `inc/mobile-menu.php` | `head.php`, `mobile/head.php` | 모바일 공통 메뉴 |
 
+게시판 목록과 최신글 마크업은 PC·모바일 각 `skin/board/<종류>/list.skin.php`, `skin/latest/<종류>/latest.skin.php`가 직접 소유합니다. `inc/`에는 메뉴 두 파일 외의 화면 공통 파일을 두지 않습니다. 새 공통 파일은 사용자 승인 전에 허용 목록에 추가하지 않습니다.
+
 G5 스킨에서 실제 두 곳 이상이 함께 사용하는 아래 기능 조각도 호출 위치를 고정하여 허용합니다.
 
 | 파일 | 허용 호출 위치 | 역할 |
@@ -36,7 +38,7 @@ G5 스킨에서 실제 두 곳 이상이 함께 사용하는 아래 기능 조�
 | `skin/qa/basic/attachments.php` | 문의 본문, 답변 본문 스킨 | 문의 첨부 출력 |
 | `skin/qa/basic/form.fields.php` | 문의 작성, 관리자 답변 스킨 | 동일한 문의 폼 |
 
-- 새 공통 include는 먼저 이 표와 구조 검사기의 명시적 허용 목록에 추가합니다.
+- 새 공통 include는 사용자 승인을 받은 뒤 이 표와 구조 검사기의 명시적 허용 목록에 추가합니다.
 - 공통 메뉴의 데이터 원본은 G5 관리자 메뉴 DB의 `get_menu_db()`입니다. 별도 navigation catalog가 이를 대체하지 않습니다.
 - 데이터 원본 변경과 메뉴 화면 평탄화는 별개입니다. PC 다열 분류와 모바일 분류·아코디언을 유지합니다. 테마 시연의 연속 디자인 항목만 순수 함수로 묶으며 DB의 URL·순서·노출 설정을 새 항목으로 대체하거나 되살리지 않습니다. 일반 메뉴는 기본 G5 방식으로 표시합니다.
 - 일반 페이지와 홈 파일은 `head.php`, `tail.php` 외의 테마 화면 파일을 include하지 않습니다.
@@ -84,7 +86,7 @@ bun run structure:check
 이 검사는 다음을 실패 처리합니다.
 
 - `src/php/pages`, `partials`, `sections`, `blocks` 런타임 디렉터리
-- 누락되거나 본문이 없는 `index.php`, `index_1.php`~`index_5.php`
+- 누락되거나 본문이 없는 `index.php`, `index_1.php`~`index_4.php`
 - 공통 dispatcher에 넘기는 `/pages/*.php` wrapper
 - wrapper 페이지를 다시 생성하는 build 코드
 - 허용하지 않은 공통 include 파일 또는 호출 위치

@@ -64,5 +64,22 @@
       "$value": "48px",
       "$description": "단일 행 입력·선택·실행 버튼의 공통 높이"
     }
+  },
+  "motion": {
+    "duration": {
+      "$type": "duration",
+      "feedback": { "$value": "180ms" },
+      "stagger": { "$value": "70ms" },
+      "reveal": { "$value": "420ms" },
+      "focal": { "$value": "620ms" }
+    },
+    "distance": {
+      "$type": "dimension",
+      "reveal": { "$value": "16px" }
+    },
+    "ease": {
+      "$type": "string",
+      "out": { "$value": "cubic-bezier(0.16, 1, 0.3, 1)" }
+    }
   }
 }

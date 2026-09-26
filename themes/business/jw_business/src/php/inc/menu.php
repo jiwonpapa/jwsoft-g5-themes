@@ -14,7 +14,7 @@ $menu_datas = get_menu_db(0, true);
 ?>
 <nav class="jw-nav" aria-label="주 메뉴">
     <ul class="jw-nav__list">
-        <?php foreach ((array) $menu_datas as $row) {
+        <?php foreach ((array) $menu_datas as $jw_menu_index => $row) {
             if (empty($row)) continue;
             $target = isset($row['me_target']) && $row['me_target'] === 'blank' ? '_blank' : '_self';
             $children = isset($row['sub']) ? array_filter((array) $row['sub']) : array();
@@ -27,16 +27,21 @@ $menu_datas = get_menu_db(0, true);
                 <?php if ($children) { ?><i data-lucide="chevron-down"></i><?php } ?>
             </a>
             <?php if ($children) { ?>
-            <ul class="jw-nav__submenu<?php echo $has_groups ? ' jw-nav__mega' : (count($children) > 8 ? ' jw-nav__wide' : ''); ?>"<?php if ($has_groups) { ?> style="--jw-menu-columns: <?php echo min(7, count($groups)); ?>"<?php } ?>>
-                <?php foreach ($groups as $group) { ?>
+            <ul class="jw-nav__submenu<?php echo $has_groups ? ' jw-nav__mega' : (count($children) > 8 ? ' jw-nav__wide' : ''); ?>">
+                <?php if ($has_groups) { ?>
+                <li class="jw-nav__mega-intro"><strong><?php echo jw_business_escape($row['me_name']); ?></strong><span>주제를 고른 뒤 페이지를 살펴보세요.</span></li>
+                <?php } ?>
+                <?php foreach ($groups as $jw_group_index => $group) { ?>
                 <?php if (count($group['items']) > 1) { ?>
                 <li class="jw-nav__group">
-                    <span class="jw-nav__group-title"><?php echo jw_business_escape($group['title']); ?></span>
+                    <details name="jw-nav-group-<?php echo (int) $jw_menu_index; ?>"<?php echo $jw_group_index === 0 ? ' open' : ''; ?>>
+                        <summary class="jw-nav__group-title"><span><?php echo jw_business_escape($group['title']); ?></span><small><?php echo count($group['items']); ?>개 페이지</small><i data-lucide="chevron-down" aria-hidden="true"></i></summary>
                     <ul class="jw-nav__variants">
                         <?php foreach ($group['items'] as $row2) { ?>
                         <li><a href="<?php echo jw_business_escape($row2['me_link']); ?>" target="<?php echo ($row2['me_target'] ?? '') === 'blank' ? '_blank' : '_self'; ?>"><?php echo jw_business_escape($row2['display_name'] ?? $row2['me_name']); ?></a></li>
                         <?php } ?>
                     </ul>
+                    </details>
                 </li>
                 <?php } else { $row2 = $group['items'][0]; ?>
                 <li><a href="<?php echo jw_business_escape($row2['me_link']); ?>" target="<?php echo ($row2['me_target'] ?? '') === 'blank' ? '_blank' : '_self'; ?>"><?php echo jw_business_escape($row2['me_name']); ?></a></li>

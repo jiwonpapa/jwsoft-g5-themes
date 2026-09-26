@@ -23,7 +23,7 @@ if (!defined('_GNUBOARD_')) exit;
         <section class="jw-terms-card" aria-labelledby="jw-terms-service">
             <div class="jw-terms-card__heading">
                 <h3 id="jw-terms-service">회원가입약관 <span>필수</span></h3>
-                <label class="jw-check"><input type="checkbox" name="agree" value="1" data-jw-required-agreement> 동의합니다</label>
+                <label class="jw-check"><input type="checkbox" name="agree" value="1" required aria-label="회원가입약관 동의" data-jw-required-agreement> 동의합니다</label>
             </div>
             <textarea readonly aria-label="회원가입약관 내용"><?php echo get_text($config['cf_stipulation']); ?></textarea>
         </section>
@@ -31,7 +31,7 @@ if (!defined('_GNUBOARD_')) exit;
         <section class="jw-terms-card" aria-labelledby="jw-terms-privacy">
             <div class="jw-terms-card__heading">
                 <h3 id="jw-terms-privacy">개인정보 수집 및 이용 <span>필수</span></h3>
-                <label class="jw-check"><input type="checkbox" name="agree2" value="1" data-jw-required-agreement> 동의합니다</label>
+                <label class="jw-check"><input type="checkbox" name="agree2" value="1" required aria-label="개인정보 수집 및 이용 동의" data-jw-required-agreement> 동의합니다</label>
             </div>
             <div class="jw-terms-table-wrap">
                 <table class="jw-terms-table">

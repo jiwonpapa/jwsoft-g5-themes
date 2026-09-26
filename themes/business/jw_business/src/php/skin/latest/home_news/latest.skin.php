@@ -2,27 +2,41 @@
 /**
  * Theme: JW-Business 1.0
  * File: skin/latest/home_news/latest.skin.php
- * Role: GnuBoard5 공개 화면 스킨
+ * Role: 홈 소식 영역용 텍스트 최신글 어댑터
  * Author: JW SOFT
  * Copyright: Copyright (c) JW SOFT. All rights reserved.
  * License: JW SOFT Commercial License; see LICENSE.txt
  */
 if (!defined('_GNUBOARD_')) exit;
-$list_count = is_array($list) ? count($list) : 0;
+
+include_once G5_LIB_PATH.'/thumbnail.lib.php';
+
+$jw_latest_list = is_array($list ?? null) ? $list : array();
+$jw_latest_url = get_pretty_url($bo_table);
+$jw_latest_id = 'jw-latest-'.preg_replace('/[^a-z0-9_-]/i', '-', $bo_table).'-basic';
+$jw_latest_embedded = true;
 ?>
-<div class="jw-latest-news">
-    <ul>
-        <?php for ($i = 0; $i < $list_count; $i++) {
-            $date_value = isset($list[$i]['wr_datetime']) ? $list[$i]['wr_datetime'] : '';
-            $date_label = $date_value ? date('Y.m.d', strtotime($date_value)) : '';
-        ?>
+<section id="<?php echo jw_business_escape($jw_latest_id); ?>" class="jw-latest jw-latest--basic<?php echo !empty($jw_latest_embedded) ? ' jw-latest--embedded' : ''; ?>"<?php echo empty($jw_latest_embedded) ? ' aria-labelledby="'.jw_business_escape($jw_latest_id).'-title"' : ' aria-label="'.get_text($bo_subject).' 최신글"'; ?>>
+    <?php if (empty($jw_latest_embedded)) { ?>
+    <header class="jw-latest__header">
+        <h2 id="<?php echo jw_business_escape($jw_latest_id); ?>-title"><a href="<?php echo jw_business_escape($jw_latest_url); ?>"><?php echo get_text($bo_subject); ?></a></h2>
+        <a class="jw-latest__more" href="<?php echo jw_business_escape($jw_latest_url); ?>">전체 보기<i data-lucide="arrow-right"></i></a>
+    </header>
+    <?php } ?>
+
+    <?php if (!$jw_latest_list) { ?>
+    <p class="jw-latest__empty">등록된 게시물이 없습니다.</p>
+
+    <?php } else { ?>
+    <ul class="jw-latest-rows">
+        <?php foreach ($jw_latest_list as $item) { ?>
         <li>
-            <a href="<?php echo get_pretty_url($bo_table, $list[$i]['wr_id']); ?>">
-                <span><?php echo $list[$i]['subject']; ?><?php if ($list[$i]['comment_cnt']) { ?><small><span class="sound_only">댓글</span><?php echo $list[$i]['comment_cnt']; ?></small><?php } ?></span>
-                <time datetime="<?php echo jw_business_escape(substr($date_value, 0, 10)); ?>"><?php echo jw_business_escape($date_label); ?></time>
+            <a href="<?php echo jw_business_escape(get_pretty_url($bo_table, $item['wr_id'])); ?>">
+                <span class="jw-latest-rows__subject"><?php if ($item['is_notice']) { ?><em>공지</em><?php } ?><strong><?php echo $item['subject']; ?></strong><?php if ($item['comment_cnt']) { ?><small>댓글 <?php echo (int) $item['wr_comment']; ?></small><?php } ?></span>
+                <time datetime="<?php echo jw_business_escape(substr((string) ($item['wr_datetime'] ?? ''), 0, 10)); ?>"><?php echo jw_business_escape($item['datetime2']); ?></time>
             </a>
         </li>
         <?php } ?>
-        <?php if ($list_count === 0) { ?><li class="jw-latest-news__empty">등록된 소식이 없습니다.</li><?php } ?>
     </ul>
-</div>
+    <?php } ?>
+</section>

@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "photos": [
+    {
+      "path": "src/assets/images/home-hero.webp",
+      "sha256": "202e2c614d70a14607e8b0c1594a80c95cdd3294ec7dcbc72a88d76a6d4bbac0",
+      "origin": "home-hero",
+      "owner": "home-1"
+    },
+    {
+      "path": "src/assets/images/home-project.webp",
+      "sha256": "1420d0db77609fb0cd3397e7140113a4848bbc522f9f8951e3f540c7b2e22a64",
+      "origin": "home-project",
+      "owner": "home-1"
+    },
+    {
+      "path": "src/assets/images/home-collaboration.webp",
+      "sha256": "fd15488505e0d8a5a9dc7f1a372ff0f2680f5c743d793b0ccf5262236507f53e",
+      "origin": "home-collaboration",
+      "owner": "home-1"
+    },
+    {
+      "path": "src/assets/images/home-one/digital.webp",
+      "sha256": "00f5678377c6498725a8f382d88efd1c53ae60a08c7b0ba2662a9a1037887667",
+      "origin": "home-one-digital-20260922",
+      "owner": "home-1"
+    },
+    {
+      "path": "src/assets/images/home-one/technology.webp",
+      "sha256": "e1630c071a94372499e07ca1fe4c20565ff4a136b6b4b2a205d2eccf54c626fd",
+      "origin": "home-one-technology-20260922",
+      "owner": "home-1"
+    },
+    {
+      "path": "src/assets/images/home-one/brand.webp",
+      "sha256": "cc895da1bc69bc79f4d918e24d8886949b6bd309277c93a154c72348f2605aa4",
+      "origin": "home-one-brand-20260922",
+      "owner": "home-1"
+    },
+    {
+      "path": "src/assets/images/home-one/team.webp",
+      "sha256": "a2d3cb0ad9f0ebdd4d3abf09a2cc75a1cfb25328175424ce2b9f446698ff0338",
+      "origin": "home-one-team-20260922",
+      "owner": "home-1"
+    },
+    {
+      "path": "src/assets/images/home2-strategy.webp",
+      "sha256": "b27be2c000da4eee6ee842d34c3627e04fcdb9cb1e9f849514722617defd6f5f",
+      "origin": "home2-strategy-20260922",
+      "owner": "home-2"
+    },
+    {
+      "path": "src/assets/images/home2-decision.webp",
+      "sha256": "6f0fc02bb2447f58ffeeaf47e1cbdb6cc6c274f8f956563055e0fbbbef7ba1eb",
+      "origin": "home2-decision-20260926",
+      "owner": "home-2"
+    },
+    {
+      "path": "src/assets/images/home2-digital.webp",
+      "sha256": "46b6e39aa0e92ea2c0a22e4cd434c78f61cd8b6c07e3a38e2277fcbd0b26aede",
+      "origin": "home2-digital-20260922",
+      "owner": "home-2"
+    },
+    {
+      "path": "src/assets/images/home2-operations.webp",
+      "sha256": "3c815735abd6c40c8512504c47cb1f3c1760cfb35e3defb0536f2b79165e538a",
+      "origin": "home2-operations-20260922",
+      "owner": "home-2"
+    },
+    {
+      "path": "src/assets/home-three/mobility.webp",
+      "sha256": "0ce1847e9469e0930947afd0a4a28132bff13324859305bb67f71dff0e776019",
+      "origin": "home3-mobility-20260926",
+      "owner": "home-3"
+    },
+    {
+      "path": "src/assets/home-three/print.webp",
+      "sha256": "70bda53eceb3680763585cb76a8863c1a94bb1cd862d6d427d9ac3723356c89c",
+      "origin": "home3-print-20260926",
+      "owner": "home-3"
+    },
+    {
+      "path": "src/assets/main-one/strategy.webp",
+      "sha256": "7f300bc6c19d07c66638527b32dbb21bef79fde6fabbf3d607fddc3a36301e1d",
+      "origin": "main-one-concept-strategy-20260923",
+      "owner": "home-1"
+    },
+    {
+      "path": "src/assets/main-one/digital.webp",
+      "sha256": "d3d3bc7e5bcd2f138e4c811ef1b1712ce227ac12dd7efae27971f4e61a195865",
+      "origin": "main-one-concept-digital-20260923",
+      "owner": "home-1"
+    },
+    {
+      "path": "src/assets/main-one/brand.webp",
+      "sha256": "735bd310b078122a9d8eaad6b0cf1bb80c298689a75a7c5f5138d7bc98428bbd",
+      "origin": "main-one-concept-brand-20260923",
+      "owner": "home-1"
+    },
+    {
+      "path": "src/assets/main-one/brand-detail.webp",
+      "sha256": "3ad7720ea90a386add4169a47938d1ad1db834e5203d8fed7b8a214fdbda498b",
+      "origin": "main-one-concept-brand-detail-20260923",
+      "owner": "home-1"
+    },
+    {
+      "path": "src/assets/main-one/industry-ceramics.webp",
+      "sha256": "9f69655ea0693d366a92d5bd75eee0384060c4847a120446a03e3ee7228d5b92",
+      "origin": "main-one-industry-ceramics-20260923",
+      "owner": "home-1"
+    },
+    {
+      "path": "src/assets/main-one/case-food.webp",
+      "sha256": "184cef61c07c4a86eba25ab25319a482c76f1a2225cdc1e73d58a26bf09b2561",
+      "origin": "main-one-case-food-20260923",
+      "owner": "home-1"
+    },
+    {
+      "path": "src/assets/main-one/case-learning.webp",
+      "sha256": "8e6104390e0bfcc254c690536db395e7671665a83ceaadf768d47413a743bdf9",
+      "origin": "main-one-case-learning-20260923",
+      "owner": "home-1"
+    }
+  ]
+}

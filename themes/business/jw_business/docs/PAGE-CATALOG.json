@@ -278,5 +278,10 @@
         "문의 절차"
       ]
     }
+  ],
+  "onepages": [
+    {"id": "onepage-showcase", "title": "제품 쇼케이스", "purpose": "한 제품의 형태와 도입 조건을 이해"},
+    {"id": "onepage-services", "title": "서비스 안내", "purpose": "서비스 범위와 상담 준비를 판단"},
+    {"id": "onepage-projects", "title": "프로젝트 스토리", "purpose": "한 공간의 경험과 설계 의도를 따라가기"}
   ]
 }

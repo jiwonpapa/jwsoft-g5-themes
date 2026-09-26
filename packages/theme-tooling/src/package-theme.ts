@@ -6,6 +6,7 @@ import { unzipSync, zipSync, type Zippable } from "fflate";
 
 import { validateContractFile, validateRepository } from "../../theme-contracts/src/contracts";
 import { checkThemeTokens } from "../../theme-tokens/src/build";
+import { requireProductQuality } from "./product-quality";
 
 interface GateEvidence {
   id: string;
@@ -125,6 +126,18 @@ async function collectAllowlist(themeRoot: string, manifest: ThemeManifest): Pro
   return [...collected.values()].sort((left, right) => left.archivePath.localeCompare(right.archivePath));
 }
 
+function digestPackageFiles(manifestBytes: Uint8Array, files: CollectedFile[]): string {
+  const digest = createHash("sha256").update(manifestBytes).update("\0");
+  for (const file of files) digest.update(file.archivePath).update("\0").update(file.bytes).update("\0");
+  return digest.digest("hex");
+}
+
+export async function packageInputDigest(themeRoot: string): Promise<string> {
+  const manifestBytes = await readFile(join(themeRoot, "theme.manifest.json"));
+  const files = await collectAllowlist(themeRoot, JSON.parse(manifestBytes.toString()) as ThemeManifest);
+  return digestPackageFiles(manifestBytes, files);
+}
+
 async function commonPackages(repoRoot: string, names: string[]): Promise<Array<{ name: string; version: string }>> {
   const packagesDir = join(repoRoot, "packages");
   const packageDirs = await readdir(packagesDir, { withFileTypes: true });
@@ -186,8 +199,10 @@ export async function packageTheme(options: PackageThemeOptions): Promise<{ zipP
   if (repositoryFailures.length) throw new Error(`repository contract failure: ${repositoryFailures[0]?.message}`);
   await checkThemeTokens(join(themeRoot, "tokens/theme.tokens.json"), join(themeRoot, "generated"));
 
-  const manifest = JSON.parse(await readFile(join(themeRoot, "theme.manifest.json"), "utf8")) as ThemeManifest;
+  const manifestBytes = await readFile(join(themeRoot, "theme.manifest.json"));
+  const manifest = JSON.parse(manifestBytes.toString()) as ThemeManifest;
   if (basename(themeRoot) !== manifest.slug) throw new Error("theme directory and manifest slug differ");
+  await requireProductQuality(repoRoot, themeRoot, manifest.slug);
   if (!commitPattern.test(options.sourceCommit)) throw new Error("sourceCommit must be a lowercase 40-character Git commit");
   if (!commitPattern.test(options.gnuboardCommit)) throw new Error("gnuboardCommit must be a lowercase 40-character Git commit");
   if (!/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d{3})?Z$/.test(options.generatedAt) || !Number.isFinite(Date.parse(options.generatedAt))) {
@@ -195,6 +210,10 @@ export async function packageTheme(options: PackageThemeOptions): Promise<{ zipP
   }
   safeManualUrl(options.manualVersionUrl);
   if (!options.gates.length) throw new Error("at least one passed gate evidence is required");
+  const files = await collectAllowlist(themeRoot, manifest);
+  await validateAssets(themeRoot, files);
+  // Bind evidence to the exact in-memory bytes that will enter this ZIP.
+  const currentInputDigest = digestPackageFiles(manifestBytes, files);
   const gateIds = new Set<string>();
   for (const gate of options.gates) {
     if (!slugPattern.test(gate.id) || gateIds.has(gate.id)) throw new Error(`gate id is invalid or duplicated: ${gate.id}`);
@@ -203,11 +222,16 @@ export async function packageTheme(options: PackageThemeOptions): Promise<{ zipP
     const evidence = resolve(repoRoot, gate.evidence);
     assertInside(repoRoot, evidence, `gate evidence ${gate.id}`);
     const details = await lstat(evidence).catch(() => null);
-    if (!details?.isFile()) throw new Error(`gate evidence is missing: ${gate.evidence}`);
+    if (!details?.isFile() || details.isSymbolicLink()) throw new Error(`gate evidence is missing or invalid: ${gate.evidence}`);
+    const record = JSON.parse(await readFile(evidence, "utf8")) as Record<string, unknown>;
+    if (record.schemaVersion !== 1 || record.gateId !== gate.id || record.result !== "pass"
+      || record.sourceCommit !== options.sourceCommit || record.inputDigest !== currentInputDigest
+      || typeof record.checkedAt !== "string" || !Number.isFinite(Date.parse(record.checkedAt))
+      || Date.parse(record.checkedAt) > Date.parse(options.generatedAt)) {
+      throw new Error(`gate evidence is failed, incomplete or stale: ${gate.id}`);
+    }
   }
 
-  const files = await collectAllowlist(themeRoot, manifest);
-  await validateAssets(themeRoot, files);
   const lockfile = await readFile(join(repoRoot, "bun.lock"));
   const resolvedCommonPackages = await commonPackages(repoRoot, manifest.workspacePackages ?? []);
   const buildInfo = {

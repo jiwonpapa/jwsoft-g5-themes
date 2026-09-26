@@ -22,6 +22,22 @@
 
 ## 관리 원칙
 
+## 메인 2 전용 이미지
+
+- `home2-strategy.webp`: 전략 워크숍 장면. [프롬프트](home2-strategy.prompt.txt)
+- `home2-digital.webp`: 디지털 서비스 시제품 검증 장면. [프롬프트](home2-digital.prompt.txt)
+- `home2-operations.webp`: 실제 고객 접점의 운영 개선 장면. [프롬프트](home2-operations.prompt.txt)
+- 생성: 2026-09-22, 내장 OpenAI 이미지 생성 도구. 각 원본 1672×941 PNG를 `cwebp -q 88`로 변환했습니다.
+- 세 이미지는 메인 2 전용이며 기존 건축·회의실 사진을 재사용하지 않습니다.
+
+## `company-leader.webp`
+
+- 용도: 대표 인사말 5종의 인물 사진. 실존 대표가 아닌 AI 생성 시연 인물입니다.
+- 생성: 2026-09-22, 내장 OpenAI image generation 도구. 원본 1536×1024 PNG를 cwebp로 변환했습니다.
+- 프롬프트: [company-leader.prompt.txt](company-leader.prompt.txt). 배포 WebP에도 같은 프롬프트를 메타데이터로 기록합니다.
+
+## 배포 관리 원칙
+
 - 원본 생성 PNG는 판매 ZIP에 넣지 않습니다.
 - 배포본에는 화면에서 실제 사용하는 WebP만 넣습니다.
 - 파일을 교체하면 이 기록과 `ASSET-MANIFEST.json`을 함께 갱신합니다.

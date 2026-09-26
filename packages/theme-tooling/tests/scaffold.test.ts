@@ -6,7 +6,7 @@ import { unzipSync } from "fflate";
 
 import { validateRepository } from "../../theme-contracts/src/contracts";
 import { checkThemeTokens } from "../../theme-tokens/src/build";
-import { packageTheme } from "../src/package-theme";
+import { packageInputDigest, packageTheme } from "../src/package-theme";
 import { scaffoldTheme } from "../src/scaffold";
 
 const repoRoot = join(import.meta.dir, "../../..");
@@ -108,7 +108,8 @@ describe("theme scaffold", () => {
       await writeFile(join(themeRoot, "theme/index.php"), "<?php defined('_GNUBOARD_') || exit;\n");
       await writeFile(join(themeRoot, "LICENSE.txt"), "Sample commercial license fixture.\n");
       await mkdir(join(temporary.root, "artifacts"), { recursive: true });
-      await writeFile(join(temporary.root, "artifacts/contracts.json"), "{\"result\":\"pass\"}\n");
+      const evidence = { schemaVersion: 1, gateId: "contract-check", result: "pass", sourceCommit: "a".repeat(40), inputDigest: await packageInputDigest(themeRoot), checkedAt: "2026-09-20T00:00:00.000Z" };
+      await writeFile(join(temporary.root, "artifacts/contracts.json"), JSON.stringify(evidence));
 
       const options = {
         repoRoot: temporary.root,
@@ -139,6 +140,14 @@ describe("theme scaffold", () => {
       const release = JSON.parse(await readFile(first.releaseManifestPath, "utf8"));
       expect(release.artifacts[0].sha256).toBe(first.sha256);
       expect(await validateRepository(temporary.root)).toEqual([]);
+
+      for (const invalid of [{}, { ...evidence, result: "fail" }, { ...evidence, sourceCommit: "c".repeat(40) }, { ...evidence, inputDigest: "0".repeat(64) }, { ...evidence, checkedAt: "2030-01-01T00:00:00Z" }]) {
+        await writeFile(join(temporary.root, "artifacts/contracts.json"), JSON.stringify(invalid));
+        await expect(packageTheme(options)).rejects.toThrow("gate evidence is failed, incomplete or stale");
+      }
+      await writeFile(join(temporary.root, "artifacts/contracts.json"), JSON.stringify(evidence));
+      await writeFile(join(themeRoot, "theme/index.php"), "<?php echo 'changed after review';\n");
+      await expect(packageTheme(options)).rejects.toThrow("gate evidence is failed, incomplete or stale");
     } finally {
       await rm(temporary.root, { recursive: true, force: true });
     }

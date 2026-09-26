@@ -51,11 +51,12 @@ async function countStandalonePages(): Promise<number> {
   const pageFiles = (await walkFiles(pagesRoot))
     .map((path) => portablePath(relative(pagesRoot, path)))
     .filter((path) => path.endsWith(".php"));
-  if (pageFiles.length !== 71 || !pageFiles.includes("index.php")) {
-    throw new Error(`expected 70 standalone pages and one catalog, found ${pageFiles.length}`);
+  if (pageFiles.length !== 74 || !pageFiles.includes("index.php")
+    || !["showcase", "services", "projects"].every((name) => pageFiles.includes(`onepage-${name}.php`))) {
+    throw new Error(`expected 70 general pages, 3 onepages and one catalog, found ${pageFiles.length}`);
   }
-  if (pageFiles.some((path) => /^home-[1-5]\.php$/.test(path))) {
-    throw new Error("home variants belong in theme index_1.php through index_5.php");
+  if (pageFiles.some((path) => /^home-[1-4]\.php$/.test(path))) {
+    throw new Error("home variants belong in theme index_1.php through index_4.php");
   }
   return pageFiles.length - 1;
 }
@@ -67,6 +68,8 @@ async function main(): Promise<void> {
   if (!(await lstat(buildRoot).catch(() => null))?.isDirectory()) {
     throw new Error("Vite output is missing; run build:assets first");
   }
+  const builtFiles = await walkFiles(buildRoot);
+  const builtAssets = new Set(builtFiles.map((file) => portablePath(relative(buildRoot, file))));
 
   const inventory = JSON.parse(await readFile(inventoryPath, "utf8")) as {
     files: Array<{ path: string; area: string }>;
@@ -85,12 +88,18 @@ async function main(): Promise<void> {
     const path = portablePath(relative(sourceRoot, source));
     if (!excluded.has(path)) await copyFile(source, join(payloadRoot, path));
   }
-  for (const source of await walkFiles(buildRoot)) {
+  for (const source of builtFiles) {
     const path = portablePath(relative(buildRoot, source));
     await copyFile(source, join(payloadRoot, path));
   }
 
   await cp(join(themeRoot, "src/assets/brand"), join(payloadRoot, "assets/brand"), { recursive: true });
+  for (const name of ["strategy", "digital", "brand", "brand-detail", "industry-ceramics", "case-food", "case-learning"]) {
+    await copyFile(join(themeRoot, "src/assets/main-one", `${name}.webp`), join(payloadRoot, "assets/main-one", `${name}.webp`));
+  }
+  await cp(join(themeRoot, "src/assets/home-three"), join(payloadRoot, "assets/home-three"), { recursive: true });
+  await cp(join(themeRoot, "onepages/assets/images"), join(payloadRoot, "onepages/assets/images"), { recursive: true });
+  await cp(join(themeRoot, "onepages/assets/sequence"), join(payloadRoot, "onepages/assets/sequence"), { recursive: true });
 
   const assets = [];
   for (const file of await walkFiles(payloadRoot)) {
@@ -100,8 +109,8 @@ async function main(): Promise<void> {
 
     const bytes = await readFile(file);
     const blenderLogo = path.startsWith("assets/brand/");
-    const generatedImage = path.startsWith("assets/") && /\.(?:avif|jpe?g|png|webp)$/i.test(path);
-    const generated = path === "css/jw-business.min.css" || path === "js/jw-business.min.js" || path.startsWith("fonts/") || generatedImage;
+    const generatedImage = (path.startsWith("assets/") || path.startsWith("onepages/assets/")) && /\.(?:avif|jpe?g|png|webp)$/i.test(path);
+    const generated = builtAssets.has(path) || generatedImage;
     const font = path.startsWith("fonts/");
     assets.push({
       id: assetId(generated ? "build" : "g5", path),
@@ -109,7 +118,7 @@ async function main(): Promise<void> {
       sha256: sha256(bytes),
       provenance: generated ? "generated" : "original",
       ...(generated ? {
-        generatedBy: blenderLogo
+        generatedBy: blenderLogo || path.startsWith("onepages/assets/sequence/")
           ? "Blender 5.2.2 LTS + ImageMagick WebP"
           : font
           ? "Vite 8.3.0 + Pretendard 1.3.9"
@@ -122,7 +131,7 @@ async function main(): Promise<void> {
         : generated
           ? {}
           : { sourceUrl: `https://github.com/gnuboard/gnuboard5/blob/v5.6.391/theme/basic/${path.split("/").map(encodeURIComponent).join("/")}` }),
-      author: blenderLogo
+      author: blenderLogo || path.startsWith("onepages/assets/sequence/")
         ? "JW SOFT; lettering based on Pretendard by Kil Hyung-jin"
         : font
         ? "Kil Hyung-jin"
@@ -134,13 +143,15 @@ async function main(): Promise<void> {
       acquiredAt: "2026-09-21",
       licenseExpression: blenderLogo
         ? "LicenseRef-JWSOFT AND OFL-1.1"
+        : path.startsWith("onepages/assets/sequence/")
+        ? "LicenseRef-JWSOFT"
         : font
         ? "OFL-1.1"
         : generatedImage
           ? "LicenseRef-OpenAI-Generated-Asset AND LicenseRef-JWSOFT"
-          : path === "css/jw-business.min.css"
+          : builtAssets.has(path) && extension === "css"
           ? "MIT AND OFL-1.1 AND LicenseRef-JWSOFT"
-          : path === "js/jw-business.min.js"
+          : builtAssets.has(path) && extension === "js"
             ? "ISC AND MIT AND LicenseRef-JWSOFT"
             : "LGPL-2.1-only",
       usageScope: "theme",

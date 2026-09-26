@@ -1,0 +1,1688 @@
+{
+  "schemaVersion": 1,
+  "pages": [
+    {
+      "id": "home-1",
+      "group": "home",
+      "path": "src/php/index_1.php",
+      "route": "/theme/jw_business/index_1.php",
+      "purpose": "메인 방문자가 주제와 행동, 주요 사업, 선택 근거, 문의 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "서로 다른 레이아웃을 조합한 12섹션 긴 메인 데모",
+      "ready": false,
+      "firstViewport": "전략 판단 지도, 생활 속 디지털 사용, 동일 브랜드 실물을 각각 보여 주는 전용 사진 3장의 히어로. 수동 선택·이전·다음·재생과 제목·설명·구간 이동을 제공한다.",
+      "composition": "히어로 슬라이더 → 대형 아이콘 서비스 목차 → 업종 비대칭 모자이크 → HTML 전략 결정 지도 → 작업 단계 → PC·모바일 화면 시안 → 사진 중심 가상 사례 → 브랜드 실물 → 브랜드 시각 자료판 → 질문 펼침 → G5 최신글 → 문의. 서로 다른 시각 형식의 독립 섹션 12개로 긴 홈 데모를 구성한다.",
+      "imagery": "메인 1 전용 생성 사진 strategy, digital, brand, brand-detail, industry-ceramics, case-food, case-learning 일곱 장. 각각 다른 장면에 사용하며 src/assets/main-one/PROMPTS.md와 품질 원장에 원본·해시·소유 페이지를 기록한다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "메인의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        },
+        {
+          "id": "hero-slider",
+          "description": "서로 다른 장면을 보여 주는 실제 동작 히어로 슬라이더",
+          "selector": "[data-jw-hero-slider]",
+          "min": 1
+        },
+        {
+          "id": "service-icons",
+          "description": "비즈니스 전략·디지털 서비스·브랜드 경험의 제목 위 중앙 큰 아이콘",
+          "selector": ".jwh1-service-icon svg",
+          "min": 3
+        },
+        {
+          "id": "section-range",
+          "description": "삭제해 사용할 수 있는 독립 메인 섹션 12개",
+          "selector": ".jwh1-concept > section",
+          "min": 12
+        },
+        {
+          "id": "industry-mosaic",
+          "description": "사진과 정보 상자의 크기를 달리한 업종 예시",
+          "selector": ".jwh1-industries__grid",
+          "min": 1
+        },
+        {
+          "id": "process-rail",
+          "description": "순서가 읽히는 작업 단계",
+          "selector": ".jwh1-process__rail li",
+          "min": 4
+        },
+        {
+          "id": "case-composition",
+          "description": "대표 사례와 보조 사례의 비대칭 배치",
+          "selector": ".jwh1-showcase__grid article",
+          "min": 3
+        },
+        {
+          "id": "brand-board",
+          "description": "형태·글자·색상 자료판",
+          "selector": ".jwh1-touchpoints__board",
+          "min": 1
+        },
+        {
+          "id": "question-blocks",
+          "description": "독립적으로 펼칠 수 있는 질문 블록",
+          "selector": ".jwh1-questions details",
+          "min": 4
+        }
+      ],
+      "interactions": [
+        "slider-next",
+        "slider-prev",
+        "slider-keyboard",
+        "slider-play-pause",
+        "slider-reduced-motion",
+        "service-hover-turn",
+        "service-keyboard-focus",
+        "scroll-reveal",
+        "scroll-reduced-motion"
+      ]
+    },
+    {
+      "id": "home-2",
+      "group": "home",
+      "path": "src/php/index_2.php",
+      "route": "/theme/jw_business/index_2.php",
+      "purpose": "메인 방문자가 주제와 행동, 주요 사업, 선택 근거, 문의 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "사업별 탐색",
+      "ready": true,
+      "firstViewport": "컨설팅·디지털·운영을 서로 다른 현장 사진과 메시지로 전환하는 3장 히어로 슬라이더. 이전·다음·사업 탭·재생 제어를 제공합니다.",
+      "composition": "질문 기반 사업 탐색 목록 → 실제 HTML로 만든 디지털 결과물 예시 → 질문·검증·운영 흐름 → 문의. 카드 반복 대신 목록, 단일 결과 화면, 연결 흐름으로 읽는 방식을 바꿉니다.",
+      "imagery": "메인 2 전용 생성 원본 3장(strategy, digital, operations). 기존 건축·회의실 사진은 사용하지 않으며 품질 원장에 hash와 소유 페이지를 등록했습니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "메인의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        },
+        {
+          "id": "hero-slider",
+          "description": "세 가지 사업 현장을 독립 사진으로 보여 주는 실제 동작 히어로 슬라이더",
+          "selector": "[data-jw-home2-slider]",
+          "min": 1
+        },
+        {
+          "id": "digital-artifact",
+          "description": "사진이 아닌 코드 기반 디지털 결과물 예시",
+          "selector": "[data-jw-digital-artifact]",
+          "min": 1
+        }
+      ],
+      "interactions": [
+        "slider-next",
+        "slider-prev",
+        "slider-keyboard",
+        "slider-play-pause",
+        "slider-reduced-motion"
+      ]
+    },
+    {
+      "id": "home-3",
+      "group": "home",
+      "path": "src/php/index_3.php",
+      "route": "/theme/jw_business/index_3.php",
+      "purpose": "메인 방문자가 주제와 행동, 주요 사업, 선택 근거, 문의 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "대표 사례 중심",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 대표 사례 중심의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "메인의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "home-4",
+      "group": "home",
+      "path": "src/php/index_4.php",
+      "route": "/theme/jw_business/index_4.php",
+      "purpose": "메인 방문자가 주제와 행동, 주요 사업, 선택 근거, 문의 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "과정과 산출물",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 과정과 산출물의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "메인의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "company-overview-1",
+      "group": "company-overview",
+      "path": "pages/company-overview-1.php",
+      "route": "/pages/company-overview-1.php",
+      "purpose": "기업개요 방문자가 페이지 소개, 기업 소개, 주요 실적, 기업 정보, 문의 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "사진·소개 좌우",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 사진·소개 좌우의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "기업개요의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        },
+        {
+          "id": "purpose-content",
+          "description": "기업의 실제 역할과 기본 정보를 요약한 기업 정보 영역",
+          "selector": ".jwc-profile",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "company-overview-2",
+      "group": "company-overview",
+      "path": "pages/company-overview-2.php",
+      "route": "/pages/company-overview-2.php",
+      "purpose": "기업개요 방문자가 페이지 소개, 기업 소개, 주요 실적, 기업 정보, 문의 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "슬라이더·기업 정보표",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 슬라이더·기업 정보표의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "기업개요의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        },
+        {
+          "id": "purpose-content",
+          "description": "사업별 검토 범위와 결과 자료를 비교하는 실제 표",
+          "selector": "table",
+          "min": 1
+        }
+      ],
+      "interactions": [
+        "slider-next",
+        "slider-prev",
+        "slider-keyboard",
+        "slider-play-pause"
+      ]
+    },
+    {
+      "id": "company-overview-3",
+      "group": "company-overview",
+      "path": "pages/company-overview-3.php",
+      "route": "/pages/company-overview-3.php",
+      "purpose": "기업개요 방문자가 페이지 소개, 기업 소개, 주요 실적, 기업 정보, 문의 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "전면 이미지·스크롤 스토리",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 전면 이미지·스크롤 스토리의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "기업개요의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        },
+        {
+          "id": "purpose-content",
+          "description": "서로 다른 장면과 설명으로 이동하는 현장 이야기 목차",
+          "selector": ".jwc-scene-nav",
+          "min": 1
+        }
+      ],
+      "interactions": [
+        "section-navigation"
+      ]
+    },
+    {
+      "id": "company-overview-4",
+      "group": "company-overview",
+      "path": "pages/company-overview-4.php",
+      "route": "/pages/company-overview-4.php",
+      "purpose": "기업개요 방문자가 페이지 소개, 기업 소개, 주요 실적, 기업 정보, 문의 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "사업·사례 모자이크",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 사업·사례 모자이크의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "기업개요의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        },
+        {
+          "id": "purpose-content",
+          "description": "사례에서 무엇을 바꾸는지 이해할 수 있는 공간 개념도",
+          "selector": ".jwc-zone-map",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "company-overview-5",
+      "group": "company-overview",
+      "path": "pages/company-overview-5.php",
+      "route": "/pages/company-overview-5.php",
+      "purpose": "기업개요 방문자가 페이지 소개, 기업 소개, 주요 실적, 기업 정보, 문의 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "고정 목차·장문 소개",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 고정 목차·장문 소개의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "기업개요의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        },
+        {
+          "id": "purpose-content",
+          "description": "긴 소개문을 목적별로 찾아 읽을 수 있는 고정 목차",
+          "selector": ".jwc-reading-nav",
+          "min": 1
+        }
+      ],
+      "interactions": [
+        "section-navigation"
+      ]
+    },
+    {
+      "id": "company-greeting-1",
+      "group": "company-greeting",
+      "path": "pages/company-greeting-1.php",
+      "route": "/pages/company-greeting-1.php",
+      "purpose": "대표 인사말 방문자가 페이지 소개, 대표 사진, 인사말, 핵심 원칙, 서명 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "대표 사진 좌측",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 대표 사진 좌측의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "대표 인사말의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "company-greeting-2",
+      "group": "company-greeting",
+      "path": "pages/company-greeting-2.php",
+      "route": "/pages/company-greeting-2.php",
+      "purpose": "대표 인사말 방문자가 페이지 소개, 대표 사진, 인사말, 핵심 원칙, 서명 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "사진 상단",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 사진 상단의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "대표 인사말의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "company-greeting-3",
+      "group": "company-greeting",
+      "path": "pages/company-greeting-3.php",
+      "route": "/pages/company-greeting-3.php",
+      "purpose": "대표 인사말 방문자가 페이지 소개, 대표 사진, 인사말, 핵심 원칙, 서명 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "제목·긴 본문 분할",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 제목·긴 본문 분할의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "대표 인사말의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "company-greeting-4",
+      "group": "company-greeting",
+      "path": "pages/company-greeting-4.php",
+      "route": "/pages/company-greeting-4.php",
+      "purpose": "대표 인사말 방문자가 페이지 소개, 대표 사진, 인사말, 핵심 원칙, 서명 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "인용문·서명 중심",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 인용문·서명 중심의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "대표 인사말의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "company-greeting-5",
+      "group": "company-greeting",
+      "path": "pages/company-greeting-5.php",
+      "route": "/pages/company-greeting-5.php",
+      "purpose": "대표 인사말 방문자가 페이지 소개, 대표 사진, 인사말, 핵심 원칙, 서명 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "넓은 사진·본문 분리",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 넓은 사진·본문 분리의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "대표 인사말의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "company-vision-1",
+      "group": "company-vision",
+      "path": "pages/company-vision-1.php",
+      "route": "/pages/company-vision-1.php",
+      "purpose": "비전·가치 방문자가 페이지 소개, 비전 선언, 핵심 가치, 행동 원칙, 성과 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "비전 상단·가치 다열",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 비전 상단·가치 다열의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "비전·가치의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "company-vision-2",
+      "group": "company-vision",
+      "path": "pages/company-vision-2.php",
+      "route": "/pages/company-vision-2.php",
+      "purpose": "비전·가치 방문자가 페이지 소개, 비전 선언, 핵심 가치, 행동 원칙, 성과 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "비전·가치 목록 좌우",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 비전·가치 목록 좌우의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "비전·가치의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "company-vision-3",
+      "group": "company-vision",
+      "path": "pages/company-vision-3.php",
+      "route": "/pages/company-vision-3.php",
+      "purpose": "비전·가치 방문자가 페이지 소개, 비전 선언, 핵심 가치, 행동 원칙, 성과 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "선언·가치 교차",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 선언·가치 교차의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "비전·가치의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "company-vision-4",
+      "group": "company-vision",
+      "path": "pages/company-vision-4.php",
+      "route": "/pages/company-vision-4.php",
+      "purpose": "비전·가치 방문자가 페이지 소개, 비전 선언, 핵심 가치, 행동 원칙, 성과 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "단계별 가치 흐름",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 단계별 가치 흐름의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "비전·가치의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "company-vision-5",
+      "group": "company-vision",
+      "path": "pages/company-vision-5.php",
+      "route": "/pages/company-vision-5.php",
+      "purpose": "비전·가치 방문자가 페이지 소개, 비전 선언, 핵심 가치, 행동 원칙, 성과 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "사진·가치 분할",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 사진·가치 분할의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "비전·가치의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "company-history-1",
+      "group": "company-history",
+      "path": "pages/company-history-1.php",
+      "route": "/pages/company-history-1.php",
+      "purpose": "연혁 방문자가 페이지 소개, 주요 시기, 연혁, 성과, 문의 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "세로 단일축",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 세로 단일축의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "연혁의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "company-history-2",
+      "group": "company-history",
+      "path": "pages/company-history-2.php",
+      "route": "/pages/company-history-2.php",
+      "purpose": "연혁 방문자가 페이지 소개, 주요 시기, 연혁, 성과, 문의 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "중앙축 좌우",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 중앙축 좌우의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "연혁의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "company-history-3",
+      "group": "company-history",
+      "path": "pages/company-history-3.php",
+      "route": "/pages/company-history-3.php",
+      "purpose": "연혁 방문자가 페이지 소개, 주요 시기, 연혁, 성과, 문의 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "연도별 표",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 연도별 표의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "연혁의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "company-history-4",
+      "group": "company-history",
+      "path": "pages/company-history-4.php",
+      "route": "/pages/company-history-4.php",
+      "purpose": "연혁 방문자가 페이지 소개, 주요 시기, 연혁, 성과, 문의 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "시기별 사진·기록",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 시기별 사진·기록의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "연혁의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "company-history-5",
+      "group": "company-history",
+      "path": "pages/company-history-5.php",
+      "route": "/pages/company-history-5.php",
+      "purpose": "연혁 방문자가 페이지 소개, 주요 시기, 연혁, 성과, 문의 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "연도·상세 열 분할",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 연도·상세 열 분할의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "연혁의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "company-organization-1",
+      "group": "company-organization",
+      "path": "pages/company-organization-1.php",
+      "route": "/pages/company-organization-1.php",
+      "purpose": "조직도 방문자가 조직 소개, 조직 구조, 부서 안내, 업무 연락처 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "수직 계층",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 수직 계층의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "조직도의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "company-organization-2",
+      "group": "company-organization",
+      "path": "pages/company-organization-2.php",
+      "route": "/pages/company-organization-2.php",
+      "purpose": "조직도 방문자가 조직 소개, 조직 구조, 부서 안내, 업무 연락처 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "수평 계층",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 수평 계층의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "조직도의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "company-organization-3",
+      "group": "company-organization",
+      "path": "pages/company-organization-3.php",
+      "route": "/pages/company-organization-3.php",
+      "purpose": "조직도 방문자가 조직 소개, 조직 구조, 부서 안내, 업무 연락처 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "들여쓰기 조직 목록",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 들여쓰기 조직 목록의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "조직도의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "company-organization-4",
+      "group": "company-organization",
+      "path": "pages/company-organization-4.php",
+      "route": "/pages/company-organization-4.php",
+      "purpose": "조직도 방문자가 조직 소개, 조직 구조, 부서 안내, 업무 연락처 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "대표·부서 묶음",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 대표·부서 묶음의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "조직도의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "company-organization-5",
+      "group": "company-organization",
+      "path": "pages/company-organization-5.php",
+      "route": "/pages/company-organization-5.php",
+      "purpose": "조직도 방문자가 조직 소개, 조직 구조, 부서 안내, 업무 연락처 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "사업부별 계층 열",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 사업부별 계층 열의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "조직도의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "company-certification-1",
+      "group": "company-certification",
+      "path": "pages/company-certification-1.php",
+      "route": "/pages/company-certification-1.php",
+      "purpose": "인증·수상 방문자가 페이지 소개, 인증·수상, 상세 설명, 고객·파트너, 자료 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "증서 격자",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 증서 격자의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "인증·수상의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "company-certification-2",
+      "group": "company-certification",
+      "path": "pages/company-certification-2.php",
+      "route": "/pages/company-certification-2.php",
+      "purpose": "인증·수상 방문자가 페이지 소개, 인증·수상, 상세 설명, 고객·파트너, 자료 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "증서·설명 목록",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 증서·설명 목록의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "인증·수상의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "company-certification-3",
+      "group": "company-certification",
+      "path": "pages/company-certification-3.php",
+      "route": "/pages/company-certification-3.php",
+      "purpose": "인증·수상 방문자가 페이지 소개, 인증·수상, 상세 설명, 고객·파트너, 자료 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "분야별 구분",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 분야별 구분의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "인증·수상의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "company-certification-4",
+      "group": "company-certification",
+      "path": "pages/company-certification-4.php",
+      "route": "/pages/company-certification-4.php",
+      "purpose": "인증·수상 방문자가 페이지 소개, 인증·수상, 상세 설명, 고객·파트너, 자료 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "큰 증서·상세",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 큰 증서·상세의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "인증·수상의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "company-certification-5",
+      "group": "company-certification",
+      "path": "pages/company-certification-5.php",
+      "route": "/pages/company-certification-5.php",
+      "purpose": "인증·수상 방문자가 페이지 소개, 인증·수상, 상세 설명, 고객·파트너, 자료 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "간결한 인증 목록",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 간결한 인증 목록의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "인증·수상의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "company-location-1",
+      "group": "company-location",
+      "path": "pages/company-location-1.php",
+      "route": "/pages/company-location-1.php",
+      "purpose": "오시는 길 방문자가 위치 안내, 주소·연락처, 교통편, 주차·방문 안내 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "위치 이미지 상단",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 위치 이미지 상단의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "오시는 길의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "company-location-2",
+      "group": "company-location",
+      "path": "pages/company-location-2.php",
+      "route": "/pages/company-location-2.php",
+      "purpose": "오시는 길 방문자가 위치 안내, 주소·연락처, 교통편, 주차·방문 안내 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "위치·주소 좌우",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 위치·주소 좌우의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "오시는 길의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "company-location-3",
+      "group": "company-location",
+      "path": "pages/company-location-3.php",
+      "route": "/pages/company-location-3.php",
+      "purpose": "오시는 길 방문자가 위치 안내, 주소·연락처, 교통편, 주차·방문 안내 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "교통 안내 중심",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 교통 안내 중심의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "오시는 길의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "company-location-4",
+      "group": "company-location",
+      "path": "pages/company-location-4.php",
+      "route": "/pages/company-location-4.php",
+      "purpose": "오시는 길 방문자가 위치 안내, 주소·연락처, 교통편, 주차·방문 안내 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "방문 사진·주차 안내",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 방문 사진·주차 안내의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "오시는 길의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "company-location-5",
+      "group": "company-location",
+      "path": "pages/company-location-5.php",
+      "route": "/pages/company-location-5.php",
+      "purpose": "오시는 길 방문자가 위치 안내, 주소·연락처, 교통편, 주차·방문 안내 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "지점별 위치 목록",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 지점별 위치 목록의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "오시는 길의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "business-list-1",
+      "group": "business-list",
+      "path": "pages/business-list-1.php",
+      "route": "/pages/business-list-1.php",
+      "purpose": "사업 목록 방문자가 페이지 소개, 사업 목록, 핵심 역량, 프로세스, 사례 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "사진 격자",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 사진 격자의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "사업 목록의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "business-list-2",
+      "group": "business-list",
+      "path": "pages/business-list-2.php",
+      "route": "/pages/business-list-2.php",
+      "purpose": "사업 목록 방문자가 페이지 소개, 사업 목록, 핵심 역량, 프로세스, 사례 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "사진·설명 교차",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 사진·설명 교차의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "사업 목록의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "business-list-3",
+      "group": "business-list",
+      "path": "pages/business-list-3.php",
+      "route": "/pages/business-list-3.php",
+      "purpose": "사업 목록 방문자가 페이지 소개, 사업 목록, 핵심 역량, 프로세스, 사례 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "큰 대표 사업·나머지 목록",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 큰 대표 사업·나머지 목록의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "사업 목록의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "business-list-4",
+      "group": "business-list",
+      "path": "pages/business-list-4.php",
+      "route": "/pages/business-list-4.php",
+      "purpose": "사업 목록 방문자가 페이지 소개, 사업 목록, 핵심 역량, 프로세스, 사례 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "번호·사업 설명 목록",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 번호·사업 설명 목록의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "사업 목록의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "business-list-5",
+      "group": "business-list",
+      "path": "pages/business-list-5.php",
+      "route": "/pages/business-list-5.php",
+      "purpose": "사업 목록 방문자가 페이지 소개, 사업 목록, 핵심 역량, 프로세스, 사례 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "분야별 묶음",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 분야별 묶음의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "사업 목록의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "business-detail-1",
+      "group": "business-detail",
+      "path": "pages/business-detail-1.php",
+      "route": "/pages/business-detail-1.php",
+      "purpose": "사업 상세 방문자가 사업 소개, 업무 범위, 특징, 수행 사례, 문의 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "소개·특징·사례 순서",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 소개·특징·사례 순서의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "사업 상세의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "business-detail-2",
+      "group": "business-detail",
+      "path": "pages/business-detail-2.php",
+      "route": "/pages/business-detail-2.php",
+      "purpose": "사업 상세 방문자가 사업 소개, 업무 범위, 특징, 수행 사례, 문의 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "사진·설명 교차",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 사진·설명 교차의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "사업 상세의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        },
+        {
+          "id": "purpose-content",
+          "description": "디지털 사업을 설명하는 실제 화면 설계 또는 디지털 결과물 시각 자료",
+          "selector": "[data-jw-digital-artifact]",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "business-detail-3",
+      "group": "business-detail",
+      "path": "pages/business-detail-3.php",
+      "route": "/pages/business-detail-3.php",
+      "purpose": "사업 상세 방문자가 사업 소개, 업무 범위, 특징, 수행 사례, 문의 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "업무 범위·사양 중심",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 업무 범위·사양 중심의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "사업 상세의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "business-detail-4",
+      "group": "business-detail",
+      "path": "pages/business-detail-4.php",
+      "route": "/pages/business-detail-4.php",
+      "purpose": "사업 상세 방문자가 사업 소개, 업무 범위, 특징, 수행 사례, 문의 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "사례·결과 중심",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 사례·결과 중심의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "사업 상세의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        },
+        {
+          "id": "purpose-content",
+          "description": "디지털 사례의 변화 전후를 보여 주는 실제 화면 결과물",
+          "selector": "[data-jw-digital-artifact]",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "business-detail-5",
+      "group": "business-detail",
+      "path": "pages/business-detail-5.php",
+      "route": "/pages/business-detail-5.php",
+      "purpose": "사업 상세 방문자가 사업 소개, 업무 범위, 특징, 수행 사례, 문의 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "과정·산출물 중심",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 과정·산출물 중심의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "사업 상세의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": [
+        "section-navigation"
+      ]
+    },
+    {
+      "id": "business-process-1",
+      "group": "business-process",
+      "path": "pages/business-process-1.php",
+      "route": "/pages/business-process-1.php",
+      "purpose": "프로세스 방문자가 과정 소개, 단계, 산출물, 관련 사례, 문의 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "가로 단계",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 가로 단계의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "프로세스의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "business-process-2",
+      "group": "business-process",
+      "path": "pages/business-process-2.php",
+      "route": "/pages/business-process-2.php",
+      "purpose": "프로세스 방문자가 과정 소개, 단계, 산출물, 관련 사례, 문의 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "세로 단계",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 세로 단계의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "프로세스의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "business-process-3",
+      "group": "business-process",
+      "path": "pages/business-process-3.php",
+      "route": "/pages/business-process-3.php",
+      "purpose": "프로세스 방문자가 과정 소개, 단계, 산출물, 관련 사례, 문의 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "사진·단계 교차",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 사진·단계 교차의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "프로세스의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "business-process-4",
+      "group": "business-process",
+      "path": "pages/business-process-4.php",
+      "route": "/pages/business-process-4.php",
+      "purpose": "프로세스 방문자가 과정 소개, 단계, 산출물, 관련 사례, 문의 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "단계·산출물 표",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 단계·산출물 표의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "프로세스의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "business-process-5",
+      "group": "business-process",
+      "path": "pages/business-process-5.php",
+      "route": "/pages/business-process-5.php",
+      "purpose": "프로세스 방문자가 과정 소개, 단계, 산출물, 관련 사례, 문의 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "시기별 과정 묶음",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 시기별 과정 묶음의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "프로세스의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "recruit-talent-1",
+      "group": "recruit-talent",
+      "path": "pages/recruit-talent-1.php",
+      "route": "/pages/recruit-talent-1.php",
+      "purpose": "인재상 방문자가 인재상 선언, 핵심 역량, 행동 원칙, 조직 문화, 채용공고 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "선언·역량 다열",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 선언·역량 다열의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "인재상의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "recruit-talent-2",
+      "group": "recruit-talent",
+      "path": "pages/recruit-talent-2.php",
+      "route": "/pages/recruit-talent-2.php",
+      "purpose": "인재상 방문자가 인재상 선언, 핵심 역량, 행동 원칙, 조직 문화, 채용공고 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "사진·가치 교차",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 사진·가치 교차의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "인재상의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "recruit-talent-3",
+      "group": "recruit-talent",
+      "path": "pages/recruit-talent-3.php",
+      "route": "/pages/recruit-talent-3.php",
+      "purpose": "인재상 방문자가 인재상 선언, 핵심 역량, 행동 원칙, 조직 문화, 채용공고 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "행동 원칙 목록",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 행동 원칙 목록의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "인재상의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "recruit-talent-4",
+      "group": "recruit-talent",
+      "path": "pages/recruit-talent-4.php",
+      "route": "/pages/recruit-talent-4.php",
+      "purpose": "인재상 방문자가 인재상 선언, 핵심 역량, 행동 원칙, 조직 문화, 채용공고 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "역량·업무 사례",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 역량·업무 사례의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "인재상의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "recruit-talent-5",
+      "group": "recruit-talent",
+      "path": "pages/recruit-talent-5.php",
+      "route": "/pages/recruit-talent-5.php",
+      "purpose": "인재상 방문자가 인재상 선언, 핵심 역량, 행동 원칙, 조직 문화, 채용공고 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "문화·인재상 좌우",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 문화·인재상 좌우의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "인재상의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "recruit-benefits-1",
+      "group": "recruit-benefits",
+      "path": "pages/recruit-benefits-1.php",
+      "route": "/pages/recruit-benefits-1.php",
+      "purpose": "복리후생 방문자가 제도 소개, 복리후생, 근무 환경, 채용공고 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "항목 격자",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 항목 격자의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "복리후생의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "recruit-benefits-2",
+      "group": "recruit-benefits",
+      "path": "pages/recruit-benefits-2.php",
+      "route": "/pages/recruit-benefits-2.php",
+      "purpose": "복리후생 방문자가 제도 소개, 복리후생, 근무 환경, 채용공고 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "주제별 목록",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 주제별 목록의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "복리후생의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "recruit-benefits-3",
+      "group": "recruit-benefits",
+      "path": "pages/recruit-benefits-3.php",
+      "route": "/pages/recruit-benefits-3.php",
+      "purpose": "복리후생 방문자가 제도 소개, 복리후생, 근무 환경, 채용공고 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "사진·제도 교차",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 사진·제도 교차의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "복리후생의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "recruit-benefits-4",
+      "group": "recruit-benefits",
+      "path": "pages/recruit-benefits-4.php",
+      "route": "/pages/recruit-benefits-4.php",
+      "purpose": "복리후생 방문자가 제도 소개, 복리후생, 근무 환경, 채용공고 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "대표 제도·나머지 목록",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 대표 제도·나머지 목록의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "복리후생의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "recruit-benefits-5",
+      "group": "recruit-benefits",
+      "path": "pages/recruit-benefits-5.php",
+      "route": "/pages/recruit-benefits-5.php",
+      "purpose": "복리후생 방문자가 제도 소개, 복리후생, 근무 환경, 채용공고 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "제도·설명 표",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 제도·설명 표의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "복리후생의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "support-home-1",
+      "group": "support-home",
+      "path": "pages/support-home-1.php",
+      "route": "/pages/support-home-1.php",
+      "purpose": "고객센터 안내 방문자가 지원 안내, 공지, FAQ, 자료, 1:1 문의 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "FAQ·공지·문의 요약",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: FAQ·공지·문의 요약의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "고객센터 안내의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "support-home-2",
+      "group": "support-home",
+      "path": "pages/support-home-2.php",
+      "route": "/pages/support-home-2.php",
+      "purpose": "고객센터 안내 방문자가 지원 안내, 공지, FAQ, 자료, 1:1 문의 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "문의 목적별 안내",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 문의 목적별 안내의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "고객센터 안내의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "support-home-3",
+      "group": "support-home",
+      "path": "pages/support-home-3.php",
+      "route": "/pages/support-home-3.php",
+      "purpose": "고객센터 안내 방문자가 지원 안내, 공지, FAQ, 자료, 1:1 문의 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "자료실 중심",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 자료실 중심의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "고객센터 안내의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "support-home-4",
+      "group": "support-home",
+      "path": "pages/support-home-4.php",
+      "route": "/pages/support-home-4.php",
+      "purpose": "고객센터 안내 방문자가 지원 안내, 공지, FAQ, 자료, 1:1 문의 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "이용 순서 중심",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 이용 순서 중심의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "고객센터 안내의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "support-home-5",
+      "group": "support-home",
+      "path": "pages/support-home-5.php",
+      "route": "/pages/support-home-5.php",
+      "purpose": "고객센터 안내 방문자가 지원 안내, 공지, FAQ, 자료, 1:1 문의 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "지원 채널·운영 안내",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 지원 채널·운영 안내의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "고객센터 안내의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "contact-1",
+      "group": "contact",
+      "path": "pages/contact-1.php",
+      "route": "/pages/contact-1.php",
+      "purpose": "연락처·문의 안내 방문자가 문의 안내, 담당 분야, 연락처, 운영 시간, 문의 절차 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "담당 분야별 연락처",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 담당 분야별 연락처의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "연락처·문의 안내의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "contact-2",
+      "group": "contact",
+      "path": "pages/contact-2.php",
+      "route": "/pages/contact-2.php",
+      "purpose": "연락처·문의 안내 방문자가 문의 안내, 담당 분야, 연락처, 운영 시간, 문의 절차 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "문의 목적별 경로",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 문의 목적별 경로의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "연락처·문의 안내의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "contact-3",
+      "group": "contact",
+      "path": "pages/contact-3.php",
+      "route": "/pages/contact-3.php",
+      "purpose": "연락처·문의 안내 방문자가 문의 안내, 담당 분야, 연락처, 운영 시간, 문의 절차 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "업무 시간·연락처 좌우",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 업무 시간·연락처 좌우의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "연락처·문의 안내의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "contact-4",
+      "group": "contact",
+      "path": "pages/contact-4.php",
+      "route": "/pages/contact-4.php",
+      "purpose": "연락처·문의 안내 방문자가 문의 안내, 담당 분야, 연락처, 운영 시간, 문의 절차 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "부서별 연락처 표",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 부서별 연락처 표의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "연락처·문의 안내의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "id": "contact-5",
+      "group": "contact",
+      "path": "pages/contact-5.php",
+      "route": "/pages/contact-5.php",
+      "purpose": "연락처·문의 안내 방문자가 문의 안내, 담당 분야, 연락처, 운영 시간, 문의 절차 내용을 이해하고 다음 행동을 선택합니다.",
+      "layout": "문의 절차·연락처",
+      "ready": false,
+      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
+      "composition": "설계 필요: 문의 절차·연락처의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
+      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "연락처·문의 안내의 목적을 설명하는 하나의 주제 제목",
+          "selector": "h1",
+          "min": 1
+        }
+      ],
+      "interactions": []
+    }
+  ]
+}

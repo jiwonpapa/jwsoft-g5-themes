@@ -103,6 +103,7 @@
   .jw-theme .jw-account-summary { display:grid; gap:1rem; }
   .jw-theme .jw-account-summary > div { display:grid; grid-template-columns:5rem 1fr; gap:1rem; }
   .jw-theme .jw-account-summary dd { margin:0; overflow-wrap:anywhere; }
+  .jw-theme .jw-register-terms .jw-terms-table :is(th,td) { font-size:.875rem; overflow-wrap:anywhere; }
   .jw-theme .jw-success-mark { font-size:2rem; color:var(--color-success); }
   .jw-theme .jw-form-status { padding:1rem; border:1px solid var(--color-error); border-radius:var(--radius-field); color:var(--color-base-content); background:color-mix(in oklch,var(--color-error) 10%,var(--color-base-100)); line-height:1.6; }
   .jw-theme .jw-control:disabled { opacity:.55; cursor:wait; }
@@ -116,6 +117,7 @@
   .jw-theme :is(.jw-auth-form,.jw-member-form,.jw-write-form,.jw-comment-form) :is(input:not([type=checkbox]):not([type=radio]),textarea,select) { font-size:1rem; }
   @media (max-width:860px) { .jw-theme .jw-gallery { grid-template-columns:repeat(2,minmax(0,1fr)); } }
   @media (max-width:540px) {
+    .jw-theme .jw-register-terms .jw-terms-table :is(th,td) { padding:12px 8px; }
     html.jw-theme .jw-main:has(> :is(.jw-board-list,.jw-board-view,.jw-board-write,.jw-register)) { padding-block:28px 48px; }
     html.jw-theme .jw-main:has(> :is(.jw-board-list,.jw-board-view,.jw-board-write,.jw-register)) > .jw-page-head { margin-bottom:24px; padding-bottom:20px; }
     html.jw-theme .jw-main:has(> :is(.jw-board-list,.jw-board-view,.jw-board-write,.jw-register)) .jw-page-title { font-size:1.75rem; }
@@ -126,4 +128,11 @@
     .jw-theme .jw-register-steps li { gap:.35rem; font-size:.8rem; }
     .jw-theme .jw-comment--depth-3,.jw-theme .jw-comment--depth-4,.jw-theme .jw-comment--depth-5 { margin-left:1.5rem; }
   }
+}
+
+/* The inherited responsive rules are unlayered, so their member overrides must
+   use the same cascade boundary. Keep all three consent columns visible. */
+@media (max-width:720px) {
+  html.jw-theme .jw-register-terms .jw-terms-table { min-width:0; }
+  html.jw-theme .jw-member-form .jw-address__search { grid-template-columns:minmax(0,1fr) auto; }
 }

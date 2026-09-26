@@ -10,6 +10,13 @@
  */
 if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
 
+// The official provider callbacks call opener.$; keep their dependency at this
+// configured extension boundary, outside the default public bundle.
+include_once G5_THEME_PATH.'/lib/member-integrations.php';
+if (jw_member_needs_legacy_bridge($config ?? array(), $_SERVER['SCRIPT_FILENAME'] ?? '', G5_PATH)) {
+    add_javascript('<script src="'.G5_JS_URL.'/jquery-1.12.4.min.js"></script>', -100);
+}
+
 // 테마가 지원하는 장치 설정 pc, mobile
 // 선언하지 않거나 값을 지정하지 않으면 그누보드5의 설정을 따른다.
 // G5_SET_DEVICE 상수 설정 보다 우선 적용됨

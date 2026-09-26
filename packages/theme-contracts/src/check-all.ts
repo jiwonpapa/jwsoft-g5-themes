@@ -5,6 +5,8 @@ const steps = [
   ["bun", "test", "packages/theme-contracts/tests"],
   ["bun", "test", "packages/theme-tokens/tests"],
   ["bun", "test", "packages/theme-tooling/tests"],
+  ["bun", "test", "themes/business/jw_business/tests/quality-gate.test.ts"],
+  ["bun", "run", "themes/business/jw_business/scripts/check-quality.ts", "check"],
 ];
 
 for (const command of steps) {

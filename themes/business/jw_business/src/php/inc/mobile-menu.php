@@ -44,8 +44,8 @@ $jw_mobile_groups = array_values(array_filter((array) get_menu_db(1, true)));
                         <?php foreach (jw_business_menu_groups($children) as $group) { ?>
                         <?php if (count($group['items']) > 1) { ?>
                         <li>
-                            <details data-jw-menu-group>
-                                <summary><?php echo jw_business_escape($group['title']); ?><i data-lucide="chevron-down" aria-hidden="true"></i></summary>
+                            <details name="jw-mobile-group-<?php echo $index; ?>" data-jw-menu-group>
+                                <summary><span><?php echo jw_business_escape($group['title']); ?></span><small><?php echo count($group['items']); ?>개 페이지</small><i data-lucide="chevron-down" aria-hidden="true"></i></summary>
                                 <ul class="jw-mobile-menu__links">
                                     <?php foreach ($group['items'] as $row2) { ?>
                                     <li><a href="<?php echo jw_business_escape($row2['me_link']); ?>" target="<?php echo ($row2['me_target'] ?? '') === 'blank' ? '_blank' : '_self'; ?>"><?php echo jw_business_escape($row2['display_name'] ?? $row2['me_name']); ?></a></li>

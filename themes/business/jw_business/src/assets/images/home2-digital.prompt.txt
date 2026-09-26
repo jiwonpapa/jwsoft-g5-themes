@@ -1,0 +1,10 @@
+Use case: photorealistic-natural
+Asset type: premium Korean corporate website hero slide, 16:9 landscape
+Primary request: documentary editorial photograph of a digital service prototype being tested
+Scene/backdrop: modern product lab, large desktop monitor and laptop showing a polished but fictional analytics and service dashboard with charts and interface panels, no readable words
+Subject: one East Asian service designer and one East Asian software engineer in their 30s observing a test participant using the interface, hands naturally interacting, concrete product work clearly visible
+Style/medium: high-end natural editorial photography, credible technology work, realistic screens and people, not neon cyberpunk and not staged stock
+Composition/framing: wide cinematic frame, people and luminous interface weighted to the right two-thirds, darker quiet negative space at lower-left for Korean copy, strong screen-depth and tactile desk details
+Lighting/mood: soft daylight balanced with cool screen light, precise and calm
+Color palette: charcoal, graphite, muted blue and restrained cyan accents
+Constraints: no readable text, no logos, no watermark, no architecture plans, no construction mood, no floating holograms, no distorted hands, no duplicated monitors

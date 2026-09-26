@@ -7,7 +7,7 @@
     "build": "bun run tokens:build && bun run --bun build:assets && bun run build:payload",
     "build:assets": "vite build",
     "build:payload": "bun run scripts/build-payload.ts",
-    "check": "bun run structure:check && bun run tokens:check && bun run typecheck && bun run build && bun run test && bun run check:build",
+    "check": "bun run structure:check && bun run tokens:check && bun run typecheck && bun run build && bun run test && bun run check:build && bun run quality:check",
     "check:build": "bun run scripts/check-build.ts",
     "doctor": "bun run scripts/doctor-development.ts",
     "hash:payload": "bun run scripts/hash-payload.ts",
@@ -16,7 +16,13 @@
     "test": "bun test tests",
     "typecheck": "tsc --noEmit",
     "tokens:build": "bun run ../../../packages/theme-tokens/src/cli.ts build tokens/theme.tokens.json generated",
-    "tokens:check": "bun run ../../../packages/theme-tokens/src/cli.ts check tokens/theme.tokens.json generated"
+    "tokens:check": "bun run ../../../packages/theme-tokens/src/cli.ts check tokens/theme.tokens.json generated",
+    "quality:check": "bun run scripts/check-quality.ts check",
+    "quality:release": "bun run scripts/check-quality.ts release",
+    "quality:complete": "bun run scripts/check-quality.ts complete",
+    "quality:start": "bun run scripts/check-quality.ts start",
+    "quality:prepare": "bun run scripts/check-quality.ts prepare",
+    "quality:compare": "bun run scripts/check-quality.ts compare"
   },
   "dependencies": {
     "@jwsoft/theme-tokens": "workspace:*"
@@ -25,10 +31,16 @@
     "@tailwindcss/vite": "4.3.3",
     "@types/bun": "1.4.2",
     "@types/node": "26.6.1",
+    "ajv": "catalog:",
+    "cheerio": "1.2.0",
     "daisyui": "5.7.40",
     "embla-carousel": "8.6.0",
+    "embla-carousel-autoplay": "8.6.0",
+    "embla-carousel-fade": "8.6.0",
     "lucide": "1.47.0",
+    "motion": "13.4.0",
     "pretendard": "1.3.9",
+    "sharp": "0.35.4",
     "tailwindcss": "4.3.3",
     "typescript": "7.0.2",
     "vite": "8.3.0"

@@ -1,29 +1,33 @@
-import { initializeMobileMenu } from "./mobile-menu";
+import EmblaCarousel from "embla-carousel";
 import {
   ArrowDown,
-  Building2,
-  Target,
-  Files,
-  Calendar,
-  Compass,
-  Monitor,
   ArrowLeft,
   ArrowRight,
   ArrowUp,
   ArrowUpRight,
+  Building2,
+  Calendar,
   ChevronDown,
-  createIcons,
-  LogOut,
+  Compass,
+  Files,
   Image,
   Lock,
+  LogOut,
   Menu,
   MessageCircle,
+  Monitor,
   Moon,
+  Play,
   Search,
+  ShieldCheck,
   Sun,
+  Target,
   UserRound,
-  X
+  X,
+  createIcons,
 } from "lucide";
+import { initializeMemberRecaptcha } from "./member-captcha";
+import { initializeMobileMenu } from "./mobile-menu";
 
 export const LIGHT_THEME = "jw-light";
 export const DARK_THEME = "jw-dark";
@@ -246,6 +250,63 @@ function initializeBoardLists(): void {
   });
 }
 
+function initializeLatestPatterns(): void {
+  document.querySelectorAll<HTMLElement>("[data-jw-latest-tabs]").forEach((tabs) => {
+    const controls = [...tabs.querySelectorAll<HTMLButtonElement>('[role="tab"]')];
+    const panels = [...tabs.querySelectorAll<HTMLElement>('[role="tabpanel"]')];
+
+    const activate = (target: HTMLButtonElement): void => {
+      controls.forEach((control) => {
+        const selected = control === target;
+        control.setAttribute("aria-selected", String(selected));
+        control.tabIndex = selected ? 0 : -1;
+      });
+      panels.forEach((panel) => {
+        panel.hidden = panel.id !== target.getAttribute("aria-controls");
+      });
+    };
+
+    controls.forEach((control, index) => {
+      control.addEventListener("click", () => activate(control));
+      control.addEventListener("keydown", (event) => {
+        if (event.key !== "ArrowLeft" && event.key !== "ArrowRight") return;
+        event.preventDefault();
+        const direction = event.key === "ArrowRight" ? 1 : -1;
+        const next = controls[(index + direction + controls.length) % controls.length];
+        if (next) {
+          activate(next);
+          next.focus();
+        }
+      });
+    });
+  });
+
+  document.querySelectorAll<HTMLElement>("[data-jw-latest-slider]").forEach((slider) => {
+    const viewport = slider.querySelector<HTMLElement>("[data-jw-slider-viewport]");
+    const previous = slider.querySelector<HTMLButtonElement>("[data-jw-slider-prev]");
+    const next = slider.querySelector<HTMLButtonElement>("[data-jw-slider-next]");
+    const status = slider.querySelector<HTMLElement>("[data-jw-slider-status]");
+    if (!viewport || !previous || !next || !status) return;
+
+    const carousel = EmblaCarousel(viewport, { align: "start", containScroll: "trimSnaps", loop: false });
+    const update = (): void => {
+      previous.disabled = !carousel.canScrollPrev();
+      next.disabled = !carousel.canScrollNext();
+      status.textContent = `${carousel.selectedScrollSnap() + 1} / ${Math.max(1, carousel.scrollSnapList().length)}`;
+    };
+
+    previous.addEventListener("click", () => carousel.scrollPrev());
+    next.addEventListener("click", () => carousel.scrollNext());
+    viewport.addEventListener("keydown", (event) => {
+      if (event.key === "ArrowLeft") carousel.scrollPrev();
+      if (event.key === "ArrowRight") carousel.scrollNext();
+    });
+    carousel.on("select", update);
+    carousel.on("reInit", update);
+    update();
+  });
+}
+
 function initializeLinkActions(): void {
   document.addEventListener("click", async (event) => {
     const element = event.target instanceof Element ? event.target.closest<HTMLElement>("a, button") : null;
@@ -323,23 +384,45 @@ function initializeCaptcha(): void {
         method: "POST",
         credentials: "same-origin",
         cache: "no-store",
+        signal: AbortSignal.timeout(15_000),
       });
+      if (!response.ok) throw new Error("CAPTCHA audio unavailable");
       const value = (await response.text()).trim();
       return value ? value + (value.includes("?") ? "&" : "?") + "t=" + Date.now() : "";
     };
 
     const refresh = async (): Promise<void> => {
-      if (!image || !reload) return;
+      if (!image || !reload || reload.disabled) return;
       reload.disabled = true;
+      captcha.dataset.jwCaptchaReady = "false";
+      if (key) key.value = "";
+      audioUrl = "";
+      if (audioElement) { audioElement.pause(); audioElement.removeAttribute("src"); }
       try {
-        await fetch(captcha.dataset.sessionUrl ?? "", {
+        const response = await fetch(captcha.dataset.sessionUrl ?? "", {
           method: "POST",
           credentials: "same-origin",
           cache: "no-store",
+          signal: AbortSignal.timeout(15_000),
         });
+        if (!response.ok) throw new Error("CAPTCHA session unavailable");
         image.src = (captcha.dataset.imageUrl ?? "") + "?t=" + Date.now();
-        audioUrl = await fetchAudioUrl();
-        if (audioElement) audioElement.src = audioUrl;
+        if (audioElement) {
+          audioUrl = await fetchAudioUrl();
+          audioElement.src = audioUrl;
+        }
+        captcha.dataset.jwCaptchaReady = "true";
+        captcha.querySelector<HTMLElement>("[data-jw-captcha-error]")?.remove();
+      } catch {
+        let error = captcha.querySelector<HTMLElement>("[data-jw-captcha-error]");
+        if (!error) {
+          error = document.createElement("p");
+          error.dataset.jwCaptchaError = "";
+          error.className = "jw-form-status";
+          error.setAttribute("role", "alert");
+          captcha.append(error);
+        }
+        error.textContent = "자동등록방지를 불러오지 못했습니다. 새로고침 버튼으로 다시 시도해 주세요.";
       } finally {
         reload.disabled = false;
       }
@@ -809,14 +892,17 @@ function initializeRegistrationTerms(): void {
     agreements.forEach((agreement) => {
       agreement.checked = all.checked;
     });
+    syncAll();
   });
   agreements.forEach((agreement) => agreement.addEventListener("change", syncAll));
+  syncAll();
+  window.addEventListener("pageshow", syncAll);
 
   form.addEventListener("submit", (event) => {
     const missing = agreements.find((agreement) => !agreement.checked);
     if (!missing) return;
     event.preventDefault();
-    window.alert("회원가입에 필요한 필수 약관에 동의해 주세요.");
+    showFormError(form, "회원가입에 필요한 필수 약관에 동의해 주세요.");
     missing.focus();
   });
 }
@@ -824,6 +910,23 @@ function initializeRegistrationTerms(): void {
 function initializeMemberForm(): void {
   const form = document.querySelector<HTMLFormElement>("[data-jw-member-form]");
   if (!form) return;
+  const checkRecaptcha = initializeMemberRecaptcha(form, (message) => showFormError(form, message));
+  let revision = 0;
+  form.addEventListener("input", (event) => {
+    revision += 1;
+    const field = event.target;
+    if (!(field instanceof HTMLInputElement)) return;
+    field.removeAttribute("aria-invalid");
+    const status = field.closest(".jw-field")?.querySelector<HTMLElement>("[data-jw-field-status]");
+    if (status) { status.textContent = ""; status.classList.remove("jw-field-status--success", "jw-field-status--error"); }
+  });
+  // A back navigation restores disabled controls in some browsers.
+  window.addEventListener("pageshow", () => {
+    delete form.dataset.jwSubmitting;
+    delete form.dataset.jwChecking;
+    form.removeAttribute("aria-busy");
+    form.querySelector<HTMLButtonElement>('button[type="submit"]')?.removeAttribute("disabled");
+  });
 
   const input = (name: string): HTMLInputElement | null => {
     const field = form.elements.namedItem(name);
@@ -843,6 +946,7 @@ function initializeMemberForm(): void {
       body: new URLSearchParams(values),
       credentials: "same-origin",
       headers: { "X-Requested-With": "XMLHttpRequest" },
+      signal: AbortSignal.timeout(15_000),
     });
     if (!response.ok) return "입력값을 확인하지 못했습니다. 잠시 후 다시 시도해 주세요.";
     return (await response.text()).trim();
@@ -867,7 +971,20 @@ function initializeMemberForm(): void {
         return;
       }
       const popup = window.open(url, button.dataset.windowName || "auth_popup", "width=440,height=620,scrollbars=yes,resizable=yes");
+      if (!popup) {
+        showFormError(form, "본인확인 창이 차단되었습니다. 이 사이트의 팝업을 허용한 뒤 다시 시도해 주세요.");
+        return;
+      }
       popup?.focus();
+      const watch = window.setInterval(() => {
+        if (!popup.closed) return;
+        window.clearInterval(watch);
+        const status = form.querySelector<HTMLElement>("[data-jw-cert-status]");
+        if (status && input("cert_no")?.value) status.textContent = "본인확인이 완료되었습니다.";
+        // IPIN does not return a phone number; an optional phone must remain editable.
+        if (input("cert_type")?.value === "ipin") input("mb_hp")?.removeAttribute("readonly");
+      }, 500);
+      window.addEventListener("pagehide", () => window.clearInterval(watch), { once: true });
     });
   });
 
@@ -959,6 +1076,11 @@ function initializeMemberForm(): void {
       passwordRepeat?.focus();
       return;
     }
+    if (form.dataset.addressRequired === "true" && (!input("mb_zip")?.value.trim() || !input("mb_addr1")?.value.trim())) {
+      showFormError(form, "필수 주소가 비어 있습니다. 주소 검색으로 주소를 선택해 주세요.");
+      form.querySelector<HTMLButtonElement>("[data-jw-address-search]")?.focus();
+      return;
+    }
     if (isNew && form.dataset.certRequired === "true" && !input("cert_no")?.value) {
       showFormError(form, "회원가입을 위해 본인확인을 완료해 주세요.");
       form.querySelector<HTMLButtonElement>("[data-jw-certify]")?.focus();
@@ -969,8 +1091,15 @@ function initializeMemberForm(): void {
       recommend.focus();
       return;
     }
+    if (form.querySelector<HTMLElement>("[data-jw-captcha]")?.dataset.jwCaptchaReady === "false") {
+      showFormError(form, "자동등록방지를 새로고침한 뒤 다시 입력해 주세요.");
+      form.querySelector<HTMLButtonElement>("#captcha_reload")?.focus();
+      return;
+    }
+    if (!checkRecaptcha()) return;
 
     form.dataset.jwChecking = "true";
+    const checkedRevision = revision;
     form.setAttribute("aria-busy", "true");
     const submitButton = form.querySelector<HTMLButtonElement>('button[type="submit"]');
     if (submitButton) submitButton.disabled = true;
@@ -979,7 +1108,7 @@ function initializeMemberForm(): void {
     try {
       const checks: Array<{ name: string; field: HTMLInputElement; url: string | undefined; values: Record<string, string> }> = [];
       if (isNew && id) checks.push({ name: "id", field: id, url: form.dataset.idUrl, values: { reg_mb_id: id.value } });
-      if (nickname) checks.push({ name: "nick", field: nickname, url: form.dataset.nickUrl, values: { reg_mb_nick: nickname.value, reg_mb_id: id?.value ?? "" } });
+      if (nickname && nickname.type !== "hidden") checks.push({ name: "nick", field: nickname, url: form.dataset.nickUrl, values: { reg_mb_nick: nickname.value, reg_mb_id: id?.value ?? "" } });
       if (email) checks.push({ name: "email", field: email, url: form.dataset.emailUrl, values: { reg_mb_email: email.value, reg_mb_id: id?.value ?? "" } });
       if (phone?.value) checks.push({ name: "phone", field: phone, url: form.dataset.phoneUrl, values: { reg_mb_hp: phone.value, reg_mb_id: id?.value ?? "" } });
       if (recommend?.value) checks.push({ name: "recommend", field: recommend, url: form.dataset.recommendUrl, values: { reg_mb_recommend: recommend.value } });
@@ -989,6 +1118,7 @@ function initializeMemberForm(): void {
         const message = await checkEndpoint(check.url, check.values);
         if (message) {
           showStatus(check.name, message);
+          check.field.setAttribute("aria-invalid", "true");
           showFormError(form, message);
           check.field.focus();
           return;
@@ -1003,7 +1133,9 @@ function initializeMemberForm(): void {
           body: new URLSearchParams({ captcha_key: captchaKey.value }),
           credentials: "same-origin",
           headers: { "X-Requested-With": "XMLHttpRequest" },
+          signal: AbortSignal.timeout(15_000),
         });
+        if (!captchaResponse.ok) throw new Error("CAPTCHA verification unavailable");
         if ((await captchaResponse.text()).trim() !== "1") {
           showFormError(form, "자동등록방지 문자가 맞지 않습니다. 새로고침 후 다시 입력해 주세요.");
           form.querySelector<HTMLButtonElement>("#captcha_reload")?.click();
@@ -1013,6 +1145,10 @@ function initializeMemberForm(): void {
         }
       }
 
+      if (revision !== checkedRevision) {
+        showFormError(form, "검사 중 입력 내용이 변경되었습니다. 입력을 마친 뒤 다시 제출해 주세요.");
+        return;
+      }
       form.dataset.jwSubmitting = "true";
       form.querySelector<HTMLButtonElement>('button[type="submit"]')?.setAttribute("disabled", "");
       form.submit();
@@ -1032,28 +1168,30 @@ function renderIcons(): void {
     attrs: { "aria-hidden": "true", focusable: "false", "stroke-width": 1.8 },
     icons: {
       ArrowDown,
-  Building2,
-  Target,
-  Files,
-  Calendar,
-  Compass,
-  Monitor,
-  ArrowLeft,
+      ArrowLeft,
       ArrowRight,
       ArrowUp,
       ArrowUpRight,
+      Building2,
+      Calendar,
       ChevronDown,
-      LogOut,
+      Compass,
+      Files,
       Image,
       Lock,
+      LogOut,
       Menu,
       MessageCircle,
+      Monitor,
       Moon,
+      Play,
       Search,
+      ShieldCheck,
       Sun,
+      Target,
       UserRound,
-      X
-    }
+      X,
+    },
   });
 }
 
@@ -1066,6 +1204,7 @@ export function initializeTheme(): void {
     initializeBackToTop();
     initializeReveals();
     initializeBoardLists();
+    initializeLatestPatterns();
     initializeLinkActions();
     initializeCaptcha();
     initializeComments();

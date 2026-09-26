@@ -64,7 +64,7 @@ $restored = array(
     'recruit' => array('인재채용', G5_URL.'/pages/recruit-talent-1.php', array()),
     'support' => array('고객지원', G5_URL.'/pages/support-home-1.php', array()),
 );
-$home_names = array('기업 종합형', '사업 중심형', '프로젝트 중심형', '프로세스 중심형', '원페이지형');
+$home_names = array('기업 종합형', '사업 중심형', '프로젝트 중심형', '프로세스 중심형');
 foreach ($home_names as $index => $name) {
     $restored['home'][2][] = array('#'.($index + 1).' '.$name, G5_THEME_URL.'/index_'.($index + 1).'.php');
 }

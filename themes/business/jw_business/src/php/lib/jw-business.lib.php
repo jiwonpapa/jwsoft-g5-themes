@@ -111,6 +111,54 @@ if (!function_exists('jw_business_escape')) {
     }
 }
 
+if (!function_exists('jw_business_excerpt')) {
+    /**
+     * 게시판 원문에서 목록용 평문 요약을 만듭니다.
+     */
+    function jw_business_excerpt($content, $length = 150)
+    {
+        $text = html_entity_decode(strip_tags((string) $content), ENT_QUOTES | ENT_HTML5, 'UTF-8');
+        $text = trim(preg_replace('/\s+/u', ' ', $text));
+        if ($text === '') return '';
+        return cut_str($text, max(20, (int) $length), '…');
+    }
+}
+
+if (!function_exists('jw_business_video_source')) {
+    /**
+     * 허용된 영상 URL만 식별합니다. iframe HTML을 목록에서 직접 출력하지 않습니다.
+     */
+    function jw_business_video_source($item)
+    {
+        $candidates = array(
+            (string) ($item['wr_link1'] ?? ''),
+            (string) ($item['wr_link2'] ?? ''),
+            (string) ($item['wr_content'] ?? ''),
+        );
+
+        foreach ($candidates as $candidate) {
+            if (preg_match('#(?:youtube(?:-nocookie)?\.com/(?:watch\?[^\s"\']*v=|embed/|shorts/)|youtu\.be/)([a-zA-Z0-9_-]{6,15})#i', $candidate, $match)) {
+                $id = $match[1];
+                return array(
+                    'provider' => 'YouTube',
+                    'url' => 'https://www.youtube.com/watch?v='.$id,
+                    'poster' => 'https://i.ytimg.com/vi/'.$id.'/hqdefault.jpg',
+                );
+            }
+
+            if (preg_match('#https?://(?:www\.)?vimeo\.com/(?:video/)?([0-9]{6,12})#i', $candidate, $match)) {
+                return array(
+                    'provider' => 'Vimeo',
+                    'url' => 'https://vimeo.com/'.$match[1],
+                    'poster' => '',
+                );
+            }
+        }
+
+        return array('provider' => 'Video', 'url' => '', 'poster' => '');
+    }
+}
+
 if (!function_exists('jw_business_render_popup_layer')) {
     function jw_business_render_popup_layer($device)
     {

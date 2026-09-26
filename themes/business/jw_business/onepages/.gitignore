@@ -1,0 +1,3 @@
+# Intermediate Blender renders; retain locally, do not include in the sales payload.
+design/renders/
+design/*.blend1

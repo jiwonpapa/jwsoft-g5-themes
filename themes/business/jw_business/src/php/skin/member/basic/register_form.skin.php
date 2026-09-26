@@ -11,6 +11,8 @@
 if (!defined('_GNUBOARD_')) exit;
 
 $jw_captcha_html = preg_replace('#<script\b[^>]*>.*?</script>#is', '', captcha_html());
+// reCAPTCHA is rendered by the native member controller; G5 still verifies its token.
+$jw_captcha_html = preg_replace('/\sdata-callback="[^"]*"/', '', $jw_captcha_html);
 $jw_cert_page = 'register';
 include G5_THEME_PATH.'/skin/member/basic/certification.php';
 
@@ -43,6 +45,7 @@ $jw_has_extra = $config['cf_use_signature'] || $config['cf_use_profile'] || $jw_
         data-jw-member-form
         data-mode="<?php echo $w; ?>"
         data-cert-required="<?php echo ($config['cf_cert_use'] && $config['cf_cert_req']) ? 'true' : 'false'; ?>"
+        data-address-required="<?php echo ($config['cf_use_addr'] && $config['cf_req_addr']) ? 'true' : 'false'; ?>"
         data-id-url="<?php echo G5_BBS_URL; ?>/ajax.mb_id.php"
         data-nick-url="<?php echo G5_BBS_URL; ?>/ajax.mb_nick.php"
         data-email-url="<?php echo G5_BBS_URL; ?>/ajax.mb_email.php"
@@ -72,7 +75,8 @@ $jw_has_extra = $config['cf_use_signature'] || $config['cf_use_profile'] || $jw_
                 </label>
                 <label class="jw-field" for="reg_mb_password">
                     <span>비밀번호 <?php if ($w === '') { ?><em>필수</em><?php } ?></span>
-                    <input class="jw-input" type="password" name="mb_password" id="reg_mb_password" <?php echo $required; ?> minlength="3" maxlength="20" autocomplete="new-password">
+                    <input class="jw-input" type="password" name="mb_password" id="reg_mb_password" <?php echo $required; ?> minlength="3" maxlength="20" autocomplete="new-password" aria-describedby="jw-help-password">
+                    <small id="jw-help-password"><?php echo $w === '' ? '3~20자로 입력해 주세요.' : '비밀번호를 변경할 때만 입력해 주세요. 비워두면 기존 비밀번호를 유지합니다.'; ?></small>
                 </label>
                 <label class="jw-field" for="reg_mb_password_re">
                     <span>비밀번호 확인 <?php if ($w === '') { ?><em>필수</em><?php } ?></span>
@@ -95,7 +99,7 @@ $jw_has_extra = $config['cf_use_signature'] || $config['cf_use_profile'] || $jw_
                         <button type="button" class="jw-control jw-control--quiet" data-jw-certify data-cert-type="<?php echo $jw_cert_button['type']; ?>" data-cert-url="<?php echo $jw_cert_button['url']; ?>" data-window-name="<?php echo $jw_cert_button['window']; ?>"><?php echo $jw_cert_button['label']; ?></button>
                         <?php } ?>
                     </div>
-                    <?php if ($member['mb_certify']) { ?><small class="jw-field-status jw-field-status--success">본인확인이 완료된 계정입니다.</small><?php } ?>
+                    <small class="jw-field-status jw-field-status--success" data-jw-cert-status role="status"><?php if ($member['mb_certify']) echo '본인확인이 완료된 계정입니다.'; ?></small>
                 </div>
                 <?php } ?>
 
@@ -121,7 +125,7 @@ $jw_has_extra = $config['cf_use_signature'] || $config['cf_use_profile'] || $jw_
                     <span>이메일 <em>필수</em></span>
                     <input type="hidden" name="old_email" value="<?php echo get_text($member['mb_email']); ?>">
                     <input class="jw-input" type="email" name="mb_email" value="<?php echo get_text($member['mb_email'] ?? ''); ?>" id="reg_mb_email" required maxlength="100" autocomplete="email" aria-describedby="jw-status-email">
-                    <?php if ($config['cf_use_email_certify']) { ?><small>주소를 변경하면 새 주소로 발송되는 인증 메일을 확인해야 합니다.</small><?php } ?>
+                    <?php if ($config['cf_use_email_certify']) { ?><small><?php echo $w === '' ? '가입 후 인증 메일을 받을 주소입니다. 이메일 인증을 완료해야 로그인할 수 있습니다.' : '주소를 변경하면 새 주소로 발송되는 인증 메일을 확인해야 합니다.'; ?></small><?php } ?>
                     <span class="jw-field-status" id="jw-status-email" data-jw-field-status="email" aria-live="polite"></span>
                 </label>
 
@@ -203,7 +207,7 @@ $jw_has_extra = $config['cf_use_signature'] || $config['cf_use_profile'] || $jw_
         </section>
 
         <section class="jw-form-section jw-form-section--captcha" aria-labelledby="jw-member-captcha">
-            <div class="jw-form-section__head"><p>✓</p><div><h3 id="jw-member-captcha">자동등록방지</h3><span>화면의 문자를 정확히 입력해 주세요.</span></div></div>
+            <div class="jw-form-section__head"><i data-lucide="shield-check" aria-hidden="true"></i><div><h3 id="jw-member-captcha">자동등록방지</h3><span>아래 안내에 따라 확인해 주세요.</span></div></div>
             <div class="jw-form-section__body"><div class="jw-captcha" data-jw-captcha data-session-url="<?php echo G5_CAPTCHA_URL; ?>/kcaptcha_session.php" data-image-url="<?php echo G5_CAPTCHA_URL; ?>/kcaptcha_image.php" data-audio-url="<?php echo G5_CAPTCHA_URL; ?>/kcaptcha_mp3.php"><?php echo $jw_captcha_html; ?></div></div>
         </section>
 

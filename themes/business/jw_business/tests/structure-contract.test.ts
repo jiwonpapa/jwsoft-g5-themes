@@ -53,6 +53,11 @@ async function fixture(): Promise<string> {
   await writeFile(join(root, "docs/PAGE-CATALOG.json"), JSON.stringify({
     schemaVersion: 2,
     pageTypes: [{ id: "company-overview", layouts: ["1", "2", "3", "4", "5"] }],
+    onepages: [
+      { id: "onepage-showcase" },
+      { id: "onepage-services" },
+      { id: "onepage-projects" },
+    ],
   }));
   await writeFile(join(root, "LICENSE.txt"), "JW SOFT Commercial License\n");
   await writeFile(join(root, "LICENSES/gnuboard5-LGPL-2.1.txt"), "LGPL-2.1\n");
@@ -67,7 +72,7 @@ async function fixture(): Promise<string> {
     "License URI: LICENSE.txt",
   ].join("\n"));
 
-  for (const file of ["index.php", "index_1.php", "index_2.php", "index_3.php", "index_4.php", "index_5.php"]) {
+  for (const file of ["index.php", "index_1.php", "index_2.php", "index_3.php", "index_4.php"]) {
     await writeFile(join(root, "src/php", file), home(file));
   }
   await writeFile(join(root, "src/php/inc/menu.php"), `${header("inc/menu.php", "공통 PC 메뉴")}$menu_datas = get_menu_db(0, true);\n?>\n<nav>메뉴</nav>\n`);
@@ -78,6 +83,9 @@ include G5_THEME_PATH.'/inc/mobile-menu.php';
 `);
   for (let variant = 1; variant <= 5; variant += 1) {
     await writeFile(join(root, `pages/company-overview-${variant}.php`), page(`company-overview-${variant}.php`));
+  }
+  for (const id of ["onepage-showcase", "onepage-services", "onepage-projects"]) {
+    await writeFile(join(root, `pages/${id}.php`), page(`${id}.php`));
   }
   await writeFile(join(root, "pages/index.php"), page("index.php"));
   return root;

@@ -8,7 +8,7 @@ export type StructureViolation = {
   message: string;
 };
 
-const HOME_VARIANTS = [1, 2, 3, 4, 5].map((variant) => `index_${variant}.php`);
+const HOME_VARIANTS = [1, 2, 3, 4].map((variant) => `index_${variant}.php`);
 const FORBIDDEN_RUNTIME_DIRECTORIES = ["blocks", "pages", "partials", "sections"];
 const ALLOWED_SHARED_INCLUDES = new Map<string, Set<string>>([
   ["inc/menu.php", new Set(["head.php", "mobile/head.php"])],
@@ -293,7 +293,7 @@ export async function collectStructureViolations(themeRootInput: string): Promis
   for (const homeFile of ["index.php", ...HOME_VARIANTS]) {
     const file = join(sourceRoot, homeFile);
     if (!(await exists(file))) {
-      violations.push({ code: "HOME_VARIANT_MISSING", path: `src/php/${homeFile}`, message: "index.php와 index_1.php~index_5.php를 각각 완성형으로 제공해야 합니다" });
+      violations.push({ code: "HOME_VARIANT_MISSING", path: `src/php/${homeFile}`, message: "index.php와 index_1.php~index_4.php를 각각 완성형으로 제공해야 합니다" });
       continue;
     }
     checkCompleteHome(`src/php/${homeFile}`, await readFile(file, "utf8"), violations);
@@ -315,8 +315,8 @@ export async function collectStructureViolations(themeRootInput: string): Promis
 
   const catalogPath = join(themeRoot, "docs/PAGE-CATALOG.json");
   const catalog = await readFile(catalogPath, "utf8")
-    .then((source) => JSON.parse(source) as { pageTypes?: Array<{ id?: string; layouts?: string[] }> })
-    .catch(() => ({ pageTypes: [] }));
+    .then((source) => JSON.parse(source) as { pageTypes?: Array<{ id?: string; layouts?: string[] }>; onepages?: Array<{ id?: string }> })
+    .catch(() => ({ pageTypes: [], onepages: [] }));
   const expectedPages = new Set(["index.php"]);
   for (const pageType of catalog.pageTypes ?? []) {
     if (!pageType.id || pageType.id === "home" || !Array.isArray(pageType.layouts) || pageType.layouts.length !== 5) {
@@ -325,6 +325,14 @@ export async function collectStructureViolations(themeRootInput: string): Promis
     }
     for (let variant = 1; variant <= 5; variant += 1) expectedPages.add(`${pageType.id}-${variant}.php`);
   }
+  const requiredOnepages = new Set(["onepage-showcase", "onepage-services", "onepage-projects"]);
+  const catalogedOnepages = (catalog.onepages ?? []).map((page) => page.id);
+  if (catalogedOnepages.length !== requiredOnepages.size
+    || catalogedOnepages.some((id) => !id || !requiredOnepages.has(id))
+    || new Set(catalogedOnepages).size !== requiredOnepages.size) {
+    violations.push({ code: "ONEPAGE_CATALOG_INVALID", path: "docs/PAGE-CATALOG.json", message: "독립 원페이지 3종을 각각 한 번씩 등록해야 합니다" });
+  }
+  for (const id of requiredOnepages) expectedPages.add(`${id}.php`);
   const actualPages = new Set(pageFiles.map((file) => portablePath(relative(pagesRoot, file))));
   for (const expected of expectedPages) {
     if (!actualPages.has(expected)) violations.push({ code: "ROOT_PAGE_CATALOG_MISSING", path: `pages/${expected}`, message: "일반 페이지 카탈로그에 대응하는 완성형 파일이 없습니다" });
