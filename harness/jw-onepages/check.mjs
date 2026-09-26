@@ -4,6 +4,7 @@ import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { execFileSync } from 'node:child_process';
 import { gzipSync } from 'node:zlib';
+import { createHash } from 'node:crypto';
 import assert from 'node:assert/strict';
 const project = resolve(dirname(fileURLToPath(import.meta.url)), '../..');
 const bundle = resolve(project, 'themes/business/jw_business');
@@ -39,11 +40,18 @@ for (const variant of ['showcase', 'services', 'projects']) {
 }
 check('onepage image ownership and package paths', () => {
   const owners = new Map();
+  const hash = file => createHash('sha256').update(readFileSync(file)).digest('hex');
+  const walk = path => readdirSync(path, { withFileTypes: true }).flatMap(item => item.isDirectory() ? walk(resolve(path, item.name)) : [resolve(path, item.name)]);
+  const knownHashes = new Map(walk(resolve(bundle, 'src/assets')).filter(file => file.endsWith('.webp')).map(file => [hash(file), file]));
   for (const variant of ['showcase', 'services', 'projects']) {
     const source = readFileSync(resolve(bundle, `pages/onepage-${variant}.php`), 'utf8');
     for (const [, image] of source.matchAll(/\/images\/([a-z0-9-]+\.webp)/g)) {
       assert(!owners.has(image), `reused onepage image ${image}: ${owners.get(image)} and ${variant}`);
       owners.set(image, variant);
+      const file = resolve(bundle, 'onepages/assets/images', image);
+      const digest = hash(file);
+      assert(!knownHashes.has(digest), `reused source image ${image}: ${knownHashes.get(digest)}`);
+      knownHashes.set(digest, file);
       assert(statSync(resolve(bundle, 'theme/onepages/assets/images', image)).isFile(), `packaged image missing: ${image}`);
     }
   }
