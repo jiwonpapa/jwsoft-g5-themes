@@ -30,7 +30,7 @@ for (const variant of ['showcase', 'services', 'projects']) {
     assert.equal(new Set(ids).size, ids.length, 'duplicate IDs');
     for (const [, id] of html.matchAll(/href="#([^"]+)"/g)) assert(ids.includes(id), `missing ${id}`);
     for (const [, src] of html.matchAll(/(?:src|href)="\/theme\/onepages\/([^"#?]+)"/g)) assert(statSync(resolve(bundle, 'onepages', src)).isFile(), src);
-    for (const [, path] of html.matchAll(/(?:src|href)="\/theme\/((?:css|js)\/onepages\.min\.(?:css|js))"/g)) assert(statSync(resolve(bundle, 'theme', path)).isFile(), path);
+    for (const [, path] of html.matchAll(/(?:src|href)="\/theme\/((?:css|js)\/onepages\.min\.(?:css|js))\?ver=[^\"]+"/g)) assert(statSync(resolve(bundle, 'theme', path)).isFile(), path);
     assert.match(html, /href="\/bbs\/qalist\.php"/);
   });
   check(`${variant}: progressive enhancement`, () => {
@@ -68,15 +68,18 @@ check('36 Blender frames; compressed budget <= 3 MiB', () => {
   console.log(`Sequence ${(bytes / 1024).toFixed(1)} KiB`);
 });
 check('CSS and JS budgets; CSS selectors remain scoped', () => {
-  const css = readFileSync(resolve(bundle, 'onepages/assets/onepages.css'), 'utf8');
-  const js = readFileSync(resolve(bundle, 'onepages/assets/onepages.js'), 'utf8');
+  const css = readFileSync(resolve(bundle, 'src/styles/onepages.css'), 'utf8');
+  const js = readFileSync(resolve(bundle, 'src/scripts/onepages.js'), 'utf8');
   assert(gzipSync(css).length < 12 * 1024);
   assert(gzipSync(js).length < 12 * 1024);
   assert.doesNotMatch(css, /(?:^|\n)(?:body|html|:root|h[1-6]|button|a\s)[{\s]/);
   assert.match(css, /prefers-reduced-motion/);
   assert.match(js, /saveData/);
   assert.match(js, /max-width: 767px/);
-  assert.match(js, /IntersectionObserver/);
+  assert.match(js, /EmblaCarousel/);
+  assert.match(js, /\binView\(/);
+  assert.match(js, /\bscroll\(/);
+  assert.doesNotMatch(js, /addEventListener\(['"]scroll['"]|window\.scrollTo\(/);
   assert.doesNotMatch(js, /window\.[a-zA-Z]+\s*=|document\.body\.style|preventDefault\(\).*wheel/);
   console.log(`CSS ${gzipSync(css).length} bytes gzip; JS ${gzipSync(js).length} bytes gzip`);
 });

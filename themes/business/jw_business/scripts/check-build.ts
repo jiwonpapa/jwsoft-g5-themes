@@ -115,9 +115,14 @@ async function main(): Promise<void> {
   assert(homeCss.includes(".hero__viewport") && homeCss.includes(".jwh1-process__rail"), "Main 1 CSS was not built by Vite");
   assert(!homeCss.includes(".js-motion .reveal"), "obsolete generic reveal CSS remains in Main 1");
   const sharedChunks = files.filter((path) => path.startsWith("js/chunks/") && path.endsWith(".js"));
-  assert(sharedChunks.length === 1, `expected one shared carousel chunk, found ${sharedChunks.length}`);
-  const sharedImport = `./chunks/${sharedChunks[0]?.split("/").pop()}`;
-  assert(js.includes(sharedImport) && homeJs.includes(sharedImport), "Embla is not shared by both entries");
+  const emblaChunk = sharedChunks.find((path) => /^js\/chunks\/embla-carousel\.esm-[\w-]+\.js$/.test(path));
+  const viewportChunk = sharedChunks.find((path) => /^js\/chunks\/viewport-[\w-]+\.js$/.test(path));
+  assert(sharedChunks.length === 2 && emblaChunk && viewportChunk, `expected shared Embla and Motion viewport chunks, found ${sharedChunks.join(", ")}`);
+  const emblaImport = `./chunks/${emblaChunk.split("/").pop()}`;
+  const viewportImport = `./chunks/${viewportChunk.split("/").pop()}`;
+  assert(js.includes(emblaImport) && homeJs.includes(emblaImport), "Embla is not shared by both entries");
+  const onepageJs = await readFile(join(payloadRoot, "js/onepages.min.js"), "utf8");
+  assert(onepageJs.includes(emblaImport) && onepageJs.includes(viewportImport) && homeJs.includes(viewportImport), "onepages and Main 1 do not share the chosen effect stack");
   const [emblaLicense, motionLicense, notices] = await Promise.all([
     readFile(join(themeRoot, "LICENSES/embla-carousel-MIT.txt"), "utf8"),
     readFile(join(themeRoot, "LICENSES/motion-MIT.txt"), "utf8"),
@@ -133,7 +138,8 @@ async function main(): Promise<void> {
   const cssGzip = gzipSync(css).byteLength;
   const jsGzip = gzipSync(js).byteLength;
   const firstPageJsGzip = jsGzip + gzipSync(homeJs).byteLength
-    + gzipSync(await readFile(join(payloadRoot, sharedChunks[0]!))).byteLength;
+    + gzipSync(await readFile(join(payloadRoot, emblaChunk))).byteLength
+    + gzipSync(await readFile(join(payloadRoot, viewportChunk))).byteLength;
   assert(cssGzip <= 90 * 1024, `CSS gzip budget exceeded: ${cssGzip} bytes`);
   assert(jsGzip <= 80 * 1024, `JavaScript gzip budget exceeded: ${jsGzip} bytes`);
   assert(firstPageJsGzip <= 140 * 1024, `Main 1 JavaScript gzip budget exceeded: ${firstPageJsGzip} bytes`);

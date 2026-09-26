@@ -1,4 +1,5 @@
-/* JW SOFT Commercial License. Authored, browser-ready; scoped to standalone onepages. */
+/* JW SOFT Commercial License. Tailwind source, compiled by Vite for standalone onepages. */
+@reference "./theme.css";
 .jwo {
   --jwo-bg: var(--color-base-100, #fff);
   --jwo-soft: var(--color-base-200, #f0f2f4);
@@ -31,12 +32,12 @@
 .jwo button { font: inherit; cursor: pointer; }
 .jwo img { display: block; width: 100%; height: auto; object-fit: cover; }
 .jwo section[id] { scroll-margin-top: calc(var(--jwo-header-offset) + 88px); }
-.jwo-wrap { width: min(1200px, calc(100% - 96px)); margin-inline: auto; }
+.jwo-wrap { @apply tw:mx-auto; width: min(1200px, calc(100% - 96px)); }
 .jwo-section { padding-block: clamp(72px, 9vw, 140px); }
 .jwo-lead { font-size: clamp(1.15rem, 1.8vw, 1.5rem); line-height: 1.65; font-weight: 500; }
 .jwo-caption, .jwo figcaption { font-size: .875rem; color: var(--jwo-muted); line-height: 1.6; }
 .jwo figcaption { margin-top: 14px; }
-.jwo-button, .jwo-link { display: inline-flex; align-items: center; justify-content: center; gap: 12px; min-height: 48px; padding: 12px 24px; font-size: 1rem; font-weight: 600; border: 1px solid transparent; transition: background-color .2s, color .2s, transform .2s; }
+.jwo-button, .jwo-link { @apply tw:inline-flex tw:items-center tw:justify-center; gap: 12px; min-height: 48px; padding: 12px 24px; font-size: 1rem; font-weight: 600; border: 1px solid transparent; transition: background-color .2s, color .2s, transform .2s; }
 .jwo-button { background: var(--jwo-ink); color: var(--jwo-bg) !important; border-radius: 8px; }
 .jwo-button:hover { background: color-mix(in srgb, var(--jwo-ink) 86%, var(--jwo-bg)); transform: translateY(-2px); }
 .jwo-button--subtle { background: transparent; color: inherit !important; border-color: currentColor; }
@@ -158,8 +159,11 @@
 .jwo-project-editorial p { color: var(--jwo-muted); }
 .jwo-project-editorial img { aspect-ratio: 1; }
 .jwo-gallery-section { background: var(--jwo-soft); }
-.jwo-gallery__track { display: flex; gap: 28px; overflow-x: auto; scroll-snap-type: x mandatory; overscroll-behavior-x: contain; scrollbar-width: thin; scrollbar-color: var(--jwo-ink) var(--jwo-soft); padding: 0 max(24px, calc((100% - 1200px) / 2)) 24px; }
-.jwo-gallery__track > figure { flex: 0 0 min(900px, 82vw); min-width: 0; scroll-snap-align: center; }
+.jwo-gallery__viewport { overflow-x: auto; overflow-y: hidden; touch-action: pan-y pinch-zoom; }
+.jwo-gallery__viewport.is-enhanced { overflow: hidden; }
+.jwo-gallery__viewport:focus-visible { outline: 3px solid var(--jwo-accent); outline-offset: -3px; }
+.jwo-gallery__track { @apply tw:flex; gap: 28px; touch-action: pan-y pinch-zoom; }
+.jwo-gallery__track > figure { flex: 0 0 min(900px, 82vw); min-width: 0; }
 .jwo-gallery__track img { aspect-ratio: 1.7; object-fit: cover; }
 .jwo-gallery__track figcaption { display: flex; justify-content: space-between; gap: 24px; color: var(--jwo-muted); }
 .jwo-gallery__track figcaption strong { color: var(--jwo-ink); font-size: 1.125rem; }
@@ -215,7 +219,7 @@
   .jwo-project-story__photo img { height: 420px; }
   .jwo-project-story__copy { display: block; padding-block: 36px; }
   .jwo-project-story__copy p { margin-top: 24px; }
-  .jwo-gallery__track { gap: 16px; padding-inline: 24px; }
+  .jwo-gallery__track { gap: 16px; }
   .jwo-gallery__track > figure { flex-basis: calc(100vw - 48px); }
   .jwo-gallery__track img { aspect-ratio: 1.15; }
   .jwo-gallery__track figcaption { display: block; }
@@ -228,3 +232,80 @@
   .jwo *, .jwo *::before, .jwo *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
 }
 html[data-theme="jw-dark"] .jwo { --jwo-accent: color-mix(in oklab, var(--color-primary) 52%, var(--color-base-content)); }
+
+/* Product: a site diagram carries installation information that another product angle cannot. */
+.jwo-install { min-height: 440px; padding: clamp(24px, 4vw, 48px); background: var(--jwo-soft); color: var(--jwo-ink); }
+.jwo-install__site { @apply tw:flex tw:flex-col; min-height: 325px; padding: clamp(24px, 3vw, 40px); border: 1px solid var(--jwo-line); background: var(--jwo-bg); }
+.jwo-install__site > span { font-size: .85rem; font-weight: 700; color: var(--jwo-muted); }
+.jwo-install__device { @apply tw:flex tw:items-end tw:justify-between; width: min(100%, 290px); min-height: 105px; margin: auto; padding: 18px; border: 2px solid var(--jwo-ink); background: var(--jwo-soft); box-shadow: 12px 12px 0 color-mix(in oklab, var(--jwo-ink) 12%, transparent); }
+.jwo-install__device b { font-size: 1.6rem; letter-spacing: -.03em; }
+.jwo-install__device small { font-size: .7rem; }
+.jwo-install__lines { @apply tw:flex tw:justify-between; gap: 15px; }
+.jwo-install__lines span { display: block; padding-top: 14px; border-top: 1px solid var(--jwo-ink); font-size: .75rem; font-weight: 700; }
+.jwo-install > p { margin-top: 16px; font-size: .7rem; letter-spacing: .1em; }
+
+/* Service: compare scope and outputs in the open, then show the visitor's path. */
+.jwo-service-board { @apply tw:grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-top: 2px solid var(--jwo-ink); }
+.jwo-service-board article { @apply tw:flex tw:flex-col; min-width: 0; padding: 36px clamp(20px, 3vw, 42px) 22px 0; border-right: 1px solid var(--jwo-line); }
+.jwo-service-board article + article { padding-left: clamp(20px, 3vw, 42px); }
+.jwo-service-board article:last-child { border-right: 0; }
+.jwo-service-board article > span { color: var(--jwo-accent); font-size: .85rem; font-weight: 800; }
+.jwo-service-board h3 { max-width: 12ch; margin-top: 40px; font-size: clamp(1.7rem, 2.6vw, 2.5rem); line-height: 1.2; letter-spacing: -.025em; }
+.jwo-service-board article > p { min-height: 5em; margin-top: 24px; color: var(--jwo-muted); }
+.jwo-service-board dl { margin-top: auto; padding-top: 26px; }
+.jwo-service-board dl > div { padding-block: 14px; border-top: 1px solid var(--jwo-line); }
+.jwo-service-board dt { color: var(--jwo-muted); font-size: .8rem; }
+.jwo-service-board dd { margin: 7px 0 0; font-weight: 700; }
+.jwo-service-journey { background: var(--color-neutral); color: var(--color-neutral-content); }
+.jwo-service-journey__heading { @apply tw:flex tw:items-end tw:justify-between; gap: 50px; margin-bottom: 75px; }
+.jwo-service-journey__heading > p { max-width: 36ch; color: color-mix(in oklab, var(--color-neutral-content) 83%, transparent); }
+.jwo-service-journey ol { @apply tw:grid; grid-template-columns: repeat(3, minmax(0, 1fr)); list-style: none; padding: 0; margin: 0; border-top: 1px solid color-mix(in oklab, var(--color-neutral-content) 35%, transparent); }
+.jwo-service-journey li { min-height: 265px; padding: 30px 28px 35px 0; border-right: 1px solid color-mix(in oklab, var(--color-neutral-content) 30%, transparent); }
+.jwo-service-journey li + li { padding-left: 28px; }
+.jwo-service-journey li:last-child { border-right: 0; }
+.jwo-service-journey li span { color: var(--color-primary-content); font-size: .85rem; font-weight: 700; }
+.jwo-service-journey li strong { display: block; margin-top: 42px; font-size: clamp(1.55rem, 2.6vw, 2.5rem); line-height: 1.25; letter-spacing: -.02em; }
+.jwo-service-journey li p { margin-top: 24px; color: color-mix(in oklab, var(--color-neutral-content) 83%, transparent); }
+.jwo-service-proof__intro { @apply tw:flex tw:items-end tw:justify-between; gap: 50px; margin-bottom: 55px; }
+.jwo-service-proof__intro p { max-width: 38ch; color: var(--jwo-muted); }
+.jwo-delivery-sample { @apply tw:grid; grid-template-columns: 1fr 1fr; }
+.jwo-delivery-sample > div { @apply tw:flex tw:flex-col; min-height: 530px; padding: clamp(30px, 5vw, 70px); }
+.jwo-delivery-sample__before { background: var(--jwo-soft); }
+.jwo-delivery-sample__after { background: var(--color-primary); color: var(--color-primary-content); }
+.jwo-delivery-sample span { font-size: .8rem; font-weight: 800; }
+.jwo-delivery-sample strong { margin-top: 50px; font-size: clamp(2.4rem, 4vw, 4rem); line-height: 1.13; letter-spacing: -.03em; }
+.jwo-delivery-sample ul,.jwo-delivery-sample ol { margin-top: auto; padding: 30px 0 0; list-style: none; border-top: 1px solid currentColor; }
+.jwo-delivery-sample li { padding: 12px 0; border-bottom: 1px solid color-mix(in oklab, currentColor 25%, transparent); }
+.jwo-delivery-sample li b { margin-right: 25px; }
+.jwo-service-proof > .jwo-caption { margin-top: 18px; }
+/* Project: a conceptual visitor route interrupts the image sequence. */
+.jwo-project-flow { background: var(--color-neutral); color: var(--color-neutral-content); }
+.jwo-project-flow__grid { @apply tw:grid; grid-template-columns: .85fr 1.15fr; gap: clamp(50px, 9vw, 130px); align-items: start; }
+.jwo-project-flow__grid > div > span { color: color-mix(in oklab, var(--color-neutral-content) 65%, transparent); font-size: .78rem; font-weight: 800; letter-spacing: .13em; }
+.jwo-project-flow h2 { margin: 24px 0 30px; font-size: clamp(2.6rem, 4vw, 4.4rem); }
+.jwo-project-flow__grid > div > p { max-width: 35ch; color: color-mix(in oklab, var(--color-neutral-content) 82%, transparent); }
+.jwo-project-flow ol { position: relative; padding: 0 0 0 38px; margin: 0; list-style: none; border-left: 1px solid color-mix(in oklab, var(--color-neutral-content) 45%, transparent); }
+.jwo-project-flow li { position: relative; display: grid; grid-template-columns: 1fr; gap: 12px; padding: 0 0 68px 0; }
+.jwo-project-flow li:last-child { padding-bottom: 0; }
+.jwo-project-flow li::before { content: ''; position: absolute; left: -45px; top: 7px; width: 13px; height: 13px; border-radius: 50%; background: var(--color-primary); border: 3px solid var(--color-neutral-content); }
+.jwo-project-flow li b { color: color-mix(in oklab, var(--color-neutral-content) 65%, transparent); font-size: .8rem; }
+.jwo-project-flow li strong { font-size: clamp(1.55rem, 2.5vw, 2.5rem); line-height: 1.15; }
+.jwo-project-flow li span { max-width: 36ch; color: color-mix(in oklab, var(--color-neutral-content) 82%, transparent); }
+.jwo-project-flow > .jwo-caption { margin-top: 70px; color: color-mix(in oklab, var(--color-neutral-content) 70%, transparent); }
+@media (max-width: 767px) {
+  .jwo-install { min-height: 0; }
+  .jwo-install__site { min-height: 310px; }
+  .jwo-service-board,.jwo-service-journey ol,.jwo-delivery-sample { grid-template-columns: 1fr; }
+  .jwo-service-board article,.jwo-service-board article + article { min-height: 0; padding: 28px 0; border-right: 0; border-bottom: 1px solid var(--jwo-line); }
+  .jwo-service-board h3 { margin-top: 22px; }
+  .jwo-service-board article > p { min-height: 0; }
+  .jwo-service-board dl { margin-top: 30px; }
+  .jwo-service-journey__heading,.jwo-service-proof__intro { display: block; margin-bottom: 35px; }
+  .jwo-service-journey__heading p,.jwo-service-proof__intro p { margin-top: 24px; }
+  .jwo-service-journey li,.jwo-service-journey li + li { min-height: 0; padding: 26px 0 36px; border-right: 0; border-bottom: 1px solid color-mix(in oklab, var(--color-neutral-content) 30%, transparent); }
+  .jwo-service-journey li strong { margin-top: 24px; }
+  .jwo-delivery-sample > div { min-height: 410px; padding: 32px 25px; }
+  .jwo-delivery-sample strong { margin-top: 30px; }
+  .jwo-project-flow__grid { grid-template-columns: 1fr; gap: 55px; }
+  .jwo-project-flow > .jwo-caption { margin-top: 55px; }
+}

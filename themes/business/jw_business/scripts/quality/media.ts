@@ -35,7 +35,7 @@ export async function inspectSources(root: string, plans: PagePlan[]): Promise<P
     const failures: Failure[] = [];
     const add = (path: string) => {
       const normalized = path.split(/[?#]/)[0]!;
-      if (!normalized.startsWith("src/assets/")) failures.push({ code: "UNRESOLVED_MEDIA", target: plan.id, message: `본문 이미지의 원본 경로를 확인할 수 없습니다: ${path}` });
+      if (!normalized.startsWith("src/assets/") && !(plan.group === "onepage" && normalized.startsWith("onepages/assets/"))) failures.push({ code: "UNRESOLVED_MEDIA", target: plan.id, message: `본문 이미지의 원본 경로를 확인할 수 없습니다: ${path}` });
       else media.add(normalized);
     };
     for (const rule of rules) {
@@ -48,12 +48,17 @@ export async function inspectSources(root: string, plans: PagePlan[]): Promise<P
       }
     }
     for (const match of source.matchAll(/(?:src|srcset|poster)\s*=\s*(["'])([\s\S]*?)\1|url\(\s*['"]?([^'"\s)]+)/g)) {
+      const lastTagStart = source.lastIndexOf("<", match.index);
+      const lastTagEnd = source.lastIndexOf(">", match.index);
+      if (lastTagStart > lastTagEnd && /^<script\b/i.test(source.slice(lastTagStart, lastTagStart + 12))) continue;
       let value = match[2] ?? match[3] ?? "";
-      value = value.replace(/<\?php\s+echo\s+G5_THEME_URL\s*;?\s*\?>/g, "@theme");
+      value = value.replace(/<\?php\s+echo\s+G5_THEME_URL\s*;?\s*\?>/g, "@theme")
+        .replace(/<\?php\s+echo\s+\$jwo_assets\s*;?\s*\?>/g, "@onepage");
       for (const candidate of value.split(",")) {
         const path = candidate.trim().split(/\s+/)[0]!;
         if (!path || (!raster.test(path) && !path.includes("<?"))) continue;
-        if (path.startsWith("@theme/assets/")) add(`src/${path.slice(7)}`);
+        if (path.startsWith("@onepage/")) add(`onepages/assets/${path.slice(9)}`);
+        else if (path.startsWith("@theme/assets/")) add(`src/${path.slice(7)}`);
         else if (path.startsWith("src/assets/")) add(path);
         else if (!path.includes("<?") && !/^(https?:|data:|\/)/.test(path)) add(posix.normalize(posix.join(dirname(plan.path), path)));
         else add(path);

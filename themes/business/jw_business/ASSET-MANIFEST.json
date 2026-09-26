@@ -234,7 +234,7 @@
     {
       "id": "build-css-jw-business-min-css-c16fb848",
       "path": "theme/css/jw-business.min.css",
-      "sha256": "5444efbbc17e1aa6f1b4d3cea96fa2a21e758e09f5fe78ea691060336c06398a",
+      "sha256": "c33e6d91c4be634a5400100810b64aa7bea26500758d91fa758d675e72f4dccf",
       "provenance": "generated",
       "generatedBy": "Vite 8.3.0",
       "author": "JW SOFT and bundled library authors",
@@ -258,7 +258,7 @@
     {
       "id": "build-css-onepages-min-css-99a37b37",
       "path": "theme/css/onepages.min.css",
-      "sha256": "1a1c59e1d13a8e577248083d7e2d16bb7388b5e7141d423e12f36ca6c8132770",
+      "sha256": "bca1efd1c9ceb082008bd7a26ae302b4138af5fe94fc3f2980e09c26fec92f4d",
       "provenance": "generated",
       "generatedBy": "Vite 8.3.0",
       "author": "JW SOFT and bundled library authors",
@@ -1728,9 +1728,21 @@
       "salePackage": true
     },
     {
+      "id": "build-js-chunks-viewport-dwhqkzuu-js-5e13b90b",
+      "path": "theme/js/chunks/viewport-DwHqKZUu.js",
+      "sha256": "0375b153326394bf74b0c9c2084ae5c92ca579e74ad73abf208767ad0fae652c",
+      "provenance": "generated",
+      "generatedBy": "Vite 8.3.0",
+      "author": "JW SOFT and bundled library authors",
+      "acquiredAt": "2026-09-21",
+      "licenseExpression": "ISC AND MIT AND LicenseRef-JWSOFT",
+      "usageScope": "theme",
+      "salePackage": true
+    },
+    {
       "id": "build-js-home-one-min-js-21fa91f1",
       "path": "theme/js/home-one.min.js",
-      "sha256": "fbb4eaa2fb696f4d8fb1f35d434f31862850070b747c3b9dbf686290cf7f447a",
+      "sha256": "91e2b586c1a20ff29d8a4917f952b0bc70660a79563d9765b18ab8ee2f0efe12",
       "provenance": "generated",
       "generatedBy": "Vite 8.3.0",
       "author": "JW SOFT and bundled library authors",
@@ -1754,7 +1766,7 @@
     {
       "id": "build-js-onepages-min-js-fe8b3578",
       "path": "theme/js/onepages.min.js",
-      "sha256": "06833d136573af403de7ddbc0a255647fc303d127a004a76263ae96892b4868a",
+      "sha256": "41249d25cfd2da7eef329e28823e79968e9e4b1b0e7e8ea080d5d686046b98b2",
       "provenance": "generated",
       "generatedBy": "Vite 8.3.0",
       "author": "JW SOFT and bundled library authors",

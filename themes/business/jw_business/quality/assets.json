@@ -120,6 +120,78 @@
       "sha256": "8e6104390e0bfcc254c690536db395e7671665a83ceaadf768d47413a743bdf9",
       "origin": "main-one-case-learning-20260923",
       "owner": "home-1"
+    },
+    {
+      "path": "onepages/assets/images/node-poster.webp",
+      "sha256": "c3cc072a956e9a636bb786eace9fe258a9ab1235c6b84ee4612142835f01027b",
+      "origin": "onepage-showcase-images-node-poster.webp",
+      "owner": "onepage-showcase"
+    },
+    {
+      "path": "onepages/assets/sequence/node-001.webp",
+      "sha256": "a16978a40538282562313d37ca3beaee84b27c37d7ca9350dd01ed511989b126",
+      "origin": "onepage-showcase-sequence-node-001.webp",
+      "owner": "onepage-showcase"
+    },
+    {
+      "path": "onepages/assets/sequence/node-009.webp",
+      "sha256": "196b711d0a0f0691790c621ff290f584317efb0b890e48bc7b17ba2f4c23bba4",
+      "origin": "onepage-showcase-sequence-node-009.webp",
+      "owner": "onepage-showcase"
+    },
+    {
+      "path": "onepages/assets/sequence/node-021.webp",
+      "sha256": "3fdf1dd4f7b1e744306fd8b4e673be48a7ded9e081253e61afdb25f4201c3b08",
+      "origin": "onepage-showcase-sequence-node-021.webp",
+      "owner": "onepage-showcase"
+    },
+    {
+      "path": "onepages/assets/sequence/node-036.webp",
+      "sha256": "d2828ddb80d7240a5c725cf31c66c0686722123e2381bad5175803d9aa234b12",
+      "origin": "onepage-showcase-sequence-node-036.webp",
+      "owner": "onepage-showcase"
+    },
+    {
+      "path": "onepages/assets/images/service-workshop.webp",
+      "sha256": "1caf00f9e2e4f240dcdaf8c9e298547c2393cb71433d9bfb2cbea46907f3a977",
+      "origin": "onepage-services-images-service-workshop.webp",
+      "owner": "onepage-services"
+    },
+    {
+      "path": "onepages/assets/images/courtyard-colonnade.webp",
+      "sha256": "9a67c135220752c65b2d5b68efc6807b863b62afc8ffb356db213eb120fcbd47",
+      "origin": "onepage-projects-images-courtyard-colonnade.webp",
+      "owner": "onepage-projects"
+    },
+    {
+      "path": "onepages/assets/images/courtyard-detail.webp",
+      "sha256": "96e89afe22fb5788d2297b6bddbafa0293a10505216ee08f84b8c4a945644375",
+      "origin": "onepage-projects-images-courtyard-detail.webp",
+      "owner": "onepage-projects"
+    },
+    {
+      "path": "onepages/assets/images/courtyard-interior.webp",
+      "sha256": "33938805ccff031f2701e108785dde7b51d261d08a93472fae5299ddda5fa7dd",
+      "origin": "onepage-projects-images-courtyard-interior.webp",
+      "owner": "onepage-projects"
+    },
+    {
+      "path": "onepages/assets/images/courtyard-lounge.webp",
+      "sha256": "af5a4e634e72beda6e72c7d86ff84c262a643156a2ee2ad20f8ba759def0b4fd",
+      "origin": "onepage-projects-images-courtyard-lounge.webp",
+      "owner": "onepage-projects"
+    },
+    {
+      "path": "onepages/assets/images/courtyard-terrace.webp",
+      "sha256": "565ef87f6aee60272df6daf073501efb0bb5a0b548d63f7cc785914dc2b2d0a3",
+      "origin": "onepage-projects-images-courtyard-terrace.webp",
+      "owner": "onepage-projects"
+    },
+    {
+      "path": "onepages/assets/images/courtyard.webp",
+      "sha256": "3d454a32e7d046ac530204ae1b6752a27be9fd48b5b4fd1752edc88b689e1d07",
+      "origin": "onepage-projects-images-courtyard.webp",
+      "owner": "onepage-projects"
     }
   ]
 }

@@ -19,18 +19,19 @@ async function put(root: string, path: string, value: unknown): Promise<void> {
 async function fixture(): Promise<{ root: string; contract: QualityContract; plans: PagePlan[]; review: Review }> {
   const root = await mkdtemp(join(tmpdir(), "jw-quality-test-")); temporary.push(root);
   const contract = JSON.parse(await readFile(join(realRoot, "quality/contract.json"), "utf8")) as QualityContract;
-  for (const dir of ["src/styles", "src/assets/images", "tokens", "generated", "theme", "scripts/quality", "quality/evidence"]) await mkdir(join(root, dir), { recursive: true });
+  for (const dir of ["src/styles", "src/assets/images", "onepages/assets/images", "tokens", "generated", "theme", "scripts/quality", "quality/evidence"]) await mkdir(join(root, dir), { recursive: true });
   await put(root, "docs/PAGE-CATALOG.json", await readFile(join(realRoot, "docs/PAGE-CATALOG.json")));
   for (const file of ["package.json", "theme.manifest.json", "vite.config.ts", "scripts/check-quality.ts"]) await put(root, file, "{}");
   for (const page of contract.pages) {
-    page.ready = page.group === "home";
+    page.ready = page.group === "home" || page.group === "onepage";
     page.firstViewport = "방문자의 주제와 첫 행동이 실제 화면에 명확하게 표시됩니다.";
     page.composition = "변형마다 서로 다른 콘텐츠 흐름과 시각적 위계가 실제 화면에 표시됩니다.";
     page.imagery = "이 테스트에서는 원본 사진 없는 본문과 별개의 검토 화면 증거를 사용합니다.";
     const count = Number(page.id.at(-1));
     const requiredMarkers = page.id === "home-2"
-        ? "data-jw-home2-slider data-jw-digital-artifact"
+        ? "data-jw-home2-slider data-jw-digital-artifact data-jwh2-decision-matrix data-jwh2-decision-evidence"
         : "";
+    const homeFourProducts = page.id === "home-4" ? '<section data-jwh4-work-product></section>'.repeat(4) : "";
     const mainOneSections = [
       '<section data-jw-hero-slider><h1>Test home-1</h1></section>',
       `<section>${'<span class="jwh1-service-icon"><svg></svg></span>'.repeat(3)}</section>`,
@@ -48,8 +49,10 @@ async function fixture(): Promise<{ root: string; contract: QualityContract; pla
     await put(root, page.path, page.group === "home"
       ? page.id === "home-1"
         ? `<div class="jwh1-concept">${mainOneSections.join("")}</div>`
-        : `<article><header ${requiredMarkers}><h1>Test ${page.id}</h1>${"<p>Distinct fixture structure</p>".repeat(count)}</header></article>`
-      : '<article class="jw-page-facade"><h2>Scaffold</h2></article>');
+        : `<article><header ${requiredMarkers}><h1>Test ${page.id}</h1>${"<p>Distinct fixture structure</p>".repeat(count)}</header>${homeFourProducts}</article>`
+      : page.group === "onepage"
+        ? `<article><section><h1>Test ${page.id}</h1><p>Independent onepage fixture</p></section></article>`
+        : '<article class="jw-page-facade"><h2>Scaffold</h2></article>');
   }
   await put(root, "quality/contract.json", contract);
   await put(root, "quality/assets.json", { schemaVersion: 1, photos: [] });
@@ -97,7 +100,7 @@ describe("mandatory product quality gate", () => {
   test("rejects scope shrinkage and deletion of the hero slider requirement", async () => {
     const { root, contract } = await fixture();
     await put(root, "quality/contract.json", { ...contract, pages: contract.pages.slice(1) });
-    await expect(loadPolicy(root)).rejects.toThrow("메인 4개와 일반 페이지 70개");
+    await expect(loadPolicy(root)).rejects.toThrow("원페이지 3개");
     contract.pages[0]!.interactions = [];
     await put(root, "quality/contract.json", contract);
     await expect(loadPolicy(root)).rejects.toThrow("슬라이더");
@@ -118,7 +121,7 @@ describe("mandatory product quality gate", () => {
   });
   test("invalidates evidence after source, CSS, JS, image, policy and payload changes", async () => {
     const { root, review } = await fixture();
-    for (const path of ["src/styles/changed.css", "src/scripts/changed.ts", "src/assets/images/changed.png", "theme/index.php", "pages/extra.php", "scripts/quality/changed.ts"]) {
+    for (const path of ["src/styles/changed.css", "src/scripts/changed.ts", "src/assets/images/changed.png", "onepages/assets/images/changed.png", "theme/index.php", "pages/extra.php", "scripts/quality/changed.ts"]) {
       await put(root, path, "changed");
       expect(await inputDigest(root)).not.toBe(review.inputDigest);
       await rm(join(root, path));
@@ -190,6 +193,12 @@ describe("mandatory product quality gate", () => {
     expect(sources[0]!.failures.some(item => item.code === "UNRESOLVED_MEDIA")).toBe(true);
     expect((await inspectMedia(root, { schemaVersion: 1, photos: [{ path, origin: "scene", owner: "home-1", sha256: "0".repeat(64) }] }, sources)).some(item => item.code === "PHOTO_CHANGED")).toBe(true);
   });
+  test("versioned script URLs are not images while dynamic image URLs still fail", async () => {
+    const { root, plans } = await fixture();
+    await put(root, plans[0]!.path, '<script type="module" src="<?php echo $js_url; ?>"></script><img src="<?php echo $photo; ?>">');
+    const sources = await inspectSources(root, plans);
+    expect(sources[0]!.failures.filter(item => item.code === "UNRESOLVED_MEDIA")).toHaveLength(1);
+  });
   test("rejects evidence and input symlink escapes", async () => {
     const { root } = await fixture();
     await symlink("/etc/hosts", join(root, "src/escape"));
@@ -198,12 +207,12 @@ describe("mandatory product quality gate", () => {
   test("release cannot pass with remaining scaffold pages", async () => {
     const { root } = await fixture();
     const result = await checkQuality(root, "release");
-    expect(result.pages).toBe(74); expect(result.failures.filter(item => item.code === "SCAFFOLD")).toHaveLength(70);
+    expect(result.pages).toBe(77); expect(result.failures.filter(item => item.code === "SCAFFOLD")).toHaveLength(70);
   });
   test("reclassifying delivered pages as scaffolds cannot remove them from current checks", async () => {
     const { root } = await fixture();
     const result = await checkQuality(root);
-    expect(result.pages).toBe(20);
+    expect(result.pages).toBe(23);
     expect(result.failures.some(item => item.code === "SCAFFOLD" && item.target === "company-overview-1")).toBe(true);
   });
 });

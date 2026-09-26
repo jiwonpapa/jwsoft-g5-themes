@@ -112,6 +112,26 @@ $contact_url = jw_business_page_url('contact-1');
         </div>
     </section>
 
+    <section class="jwh2-matrix" aria-labelledby="jwh2-matrix-title" data-jwh2-decision-matrix>
+        <div class="jwh2-shell">
+            <div class="jwh2-matrix__heading">
+                <h2 id="jwh2-matrix-title">급한 일과 중요한 일을<br>같은 자리에 놓습니다.</h2>
+                <p>가상 서비스 개선 과제입니다. 기대 효과와 실행 부담을 함께 비교하면, 먼저 검증할 일이 보입니다.</p>
+            </div>
+            <div class="jwh2-matrix__body" role="img" aria-label="가상 과제 네 개를 기대 효과와 실행 부담으로 나눈 우선순위 지도">
+                <span class="jwh2-matrix__axis jwh2-matrix__axis--y">기대 효과 ↑</span>
+                <div class="jwh2-matrix__field">
+                    <div class="jwh2-matrix__quadrant"><small>검증 후보</small><strong>서비스 탐색 개선</strong><span>효과는 크고 범위는 좁게</span></div>
+                    <div class="jwh2-matrix__quadrant"><small>장기 과제</small><strong>운영 시스템 교체</strong><span>효과는 크지만 준비가 필요</span></div>
+                    <div class="jwh2-matrix__quadrant"><small>유지 관리</small><strong>안내 문구 정리</strong><span>작게 실행해 불편을 줄이기</span></div>
+                    <div class="jwh2-matrix__quadrant"><small>보류</small><strong>전체 화면 재제작</strong><span>문제 확인 뒤 범위 결정</span></div>
+                </div>
+                <span class="jwh2-matrix__axis jwh2-matrix__axis--x">실행 부담 →</span>
+            </div>
+            <p class="jwh2-matrix__note">시연을 위한 판단 예시이며 실제 고객 프로젝트의 평가가 아닙니다.</p>
+        </div>
+    </section>
+
     <section class="jwh2-result" aria-labelledby="jwh2-result-title">
         <div class="jwh2-shell jwh2-result__grid">
             <div class="jwh2-result__copy">
@@ -145,6 +165,18 @@ $contact_url = jw_business_page_url('contact-1');
                         <div><span>완료 행동</span><strong>상담 요청</strong><b>41%</b></div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="jwh2-evidence" aria-labelledby="jwh2-evidence-title" data-jwh2-decision-evidence>
+        <div class="jwh2-shell">
+            <div class="jwh2-evidence__heading"><h2 id="jwh2-evidence-title">결정마다 남기는<br>확인 가능한 근거.</h2><p>같은 가상 과제에서 우선순위를 정할 때 쓰는 자료 형식입니다. 숫자는 실적이 아닌 작성 예시입니다.</p></div>
+            <div class="jwh2-evidence__table" role="table" aria-label="가상 서비스 개선 과제의 결정 근거">
+                <div role="row" class="jwh2-evidence__labels"><span role="columnheader">살펴볼 신호</span><span role="columnheader">확인 방법</span><span role="columnheader">다음 결정</span></div>
+                <div role="row"><strong role="cell">처음 온 방문자의 질문</strong><span role="cell">문의 내용과 탐색 경로 분류</span><em role="cell">가장 많이 찾는 정보부터 앞에 배치</em></div>
+                <div role="row"><strong role="cell">서비스 선택 전 멈춤</strong><span role="cell">비교에 필요한 조건과 문구 검토</span><em role="cell">설명 순서를 바꾼 시안 검증</em></div>
+                <div role="row"><strong role="cell">상담 준비의 빈칸</strong><span role="cell">반복 질문과 필수 자료 확인</span><em role="cell">문의 전 안내 항목 정의</em></div>
             </div>
         </div>
     </section>

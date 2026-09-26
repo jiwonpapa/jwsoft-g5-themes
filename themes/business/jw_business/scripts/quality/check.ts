@@ -9,14 +9,16 @@ export async function loadPolicy(root: string): Promise<{ contract: QualityContr
   const contract = validate<QualityContract>("contract", JSON.parse(await readFile(await safeFile(root, "quality/contract.json"), "utf8")));
   const assets = validate<AssetRegistry>("assets", JSON.parse(await readFile(await safeFile(root, "quality/assets.json"), "utf8")));
   const catalog = JSON.parse(await readFile(await safeFile(root, "docs/PAGE-CATALOG.json"), "utf8")) as { pageTypes: Array<{ id: string; layouts: string[] }> };
-  const groups = ["home", ...catalog.pageTypes.map(page => page.id)];
-  if (groups.length !== 15 || new Set(groups).size !== 15 || catalog.pageTypes.some(page => page.layouts.length !== 5)) throw new Error("일반 페이지 70개 레이아웃 계약을 줄이거나 중복시킬 수 없습니다.");
-  const expected = groups.flatMap(group => (group === "home" ? [1, 2, 3, 4] : [1, 2, 3, 4, 5]).map(variant => ({
+  const groups = ["home", "onepage", ...catalog.pageTypes.map(page => page.id)];
+  if (groups.length !== 16 || new Set(groups).size !== 16 || catalog.pageTypes.some(page => page.layouts.length !== 5)) throw new Error("메인 4개·원페이지 3개·일반 페이지 70개 계약을 줄이거나 중복시킬 수 없습니다.");
+  const expected = groups.flatMap(group => (group === "onepage" ? [] : group === "home" ? [1, 2, 3, 4] : [1, 2, 3, 4, 5]).map(variant => ({
     id: `${group}-${variant}`, group,
     path: group === "home" ? `src/php/index_${variant}.php` : `pages/${group}-${variant}.php`,
     route: group === "home" ? `/theme/jw_business/index_${variant}.php` : `/pages/${group}-${variant}.php`,
+  }))).concat(["showcase", "services", "projects"].map(variant => ({
+    id: `onepage-${variant}`, group: "onepage", path: `pages/onepage-${variant}.php`, route: `/pages/onepage-${variant}.php`,
   })));
-  if (contract.pages.length !== 74 || new Set(contract.pages.map(page => page.id)).size !== 74) throw new Error("검사 계약에 메인 4개와 일반 페이지 70개가 모두 필요합니다.");
+  if (contract.pages.length !== 77 || new Set(contract.pages.map(page => page.id)).size !== 77) throw new Error("검사 계약에 메인 4개·원페이지 3개·일반 페이지 70개가 모두 필요합니다.");
   for (const entry of expected) {
     const plan = contract.pages.find(page => page.id === entry.id);
     if (!plan || Object.entries(entry).some(([key, value]) => plan[key as keyof PagePlan] !== value)) throw new Error(`검사 대상·경로를 누락하거나 변경할 수 없습니다: ${entry.id}`);
@@ -38,7 +40,7 @@ export async function checkQuality(root: string, scope = "current"): Promise<Qua
   if (!["current", "release", ...groups].includes(scope)) throw new Error(`알 수 없는 검사 범위: ${scope}`);
   // Already delivered pages cannot disappear from the gate by being relabelled as
   // scaffolds. Newly implemented pages automatically join the same mandatory set.
-  const established = new Set(["home", "company-overview", "business-list", "business-detail"].flatMap(group => (group === "home" ? [1, 2, 3, 4] : [1, 2, 3, 4, 5]).map(number => `${group}-${number}`)).concat("contact-1"));
+  const established = new Set(["home", "company-overview", "business-list", "business-detail"].flatMap(group => (group === "home" ? [1, 2, 3, 4] : [1, 2, 3, 4, 5]).map(number => `${group}-${number}`)).concat("contact-1", "onepage-showcase", "onepage-services", "onepage-projects"));
   const selected = scope === "current" ? sources.filter(page => established.has(page.plan.id) || implemented.includes(page))
     : scope === "release" ? sources : sources.filter(page => page.plan.group === scope);
   const digest = await inputDigest(root);

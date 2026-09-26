@@ -1,2 +1,2 @@
-import "../../onepages/assets/onepages.css";
-import "../../onepages/assets/onepages.js";
+import "../styles/onepages.css";
+import "./onepages.js";

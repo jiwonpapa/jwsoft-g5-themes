@@ -89,7 +89,7 @@
       "layout": "사업별 탐색",
       "ready": true,
       "firstViewport": "컨설팅·디지털·운영을 서로 다른 현장 사진과 메시지로 전환하는 3장 히어로 슬라이더. 이전·다음·사업 탭·재생 제어를 제공합니다.",
-      "composition": "질문 기반 사업 탐색 목록 → 실제 HTML로 만든 디지털 결과물 예시 → 질문·검증·운영 흐름 → 문의. 카드 반복 대신 목록, 단일 결과 화면, 연결 흐름으로 읽는 방식을 바꿉니다.",
+      "composition": "질문 기반 사업 탐색 목록 → 우선순위 판단 지도 → 실제 HTML 디지털 결과물 → 신호·검증·결정 근거 표 → 질문·검증·운영 흐름 → 문의. 목록, 사분면, 화면, 행렬, 흐름으로 읽는 방식을 바꿉니다.",
       "imagery": "메인 2 전용 생성 원본 3장(strategy, digital, operations). 기존 건축·회의실 사진은 사용하지 않으며 품질 원장에 hash와 소유 페이지를 등록했습니다.",
       "requirements": [
         {
@@ -108,6 +108,18 @@
           "id": "digital-artifact",
           "description": "사진이 아닌 코드 기반 디지털 결과물 예시",
           "selector": "[data-jw-digital-artifact]",
+          "min": 1
+        },
+        {
+          "id": "decision-matrix",
+          "description": "선택 기준과 우선순위를 비교하는 지도",
+          "selector": "[data-jwh2-decision-matrix]",
+          "min": 1
+        },
+        {
+          "id": "decision-evidence",
+          "description": "신호와 방법, 판단의 연결을 보여 주는 근거 표",
+          "selector": "[data-jwh2-decision-evidence]",
           "min": 1
         }
       ],
@@ -148,18 +160,149 @@
       "purpose": "메인 방문자가 주제와 행동, 주요 사업, 선택 근거, 문의 내용을 이해하고 다음 행동을 선택합니다.",
       "layout": "과정과 산출물",
       "ready": false,
-      "firstViewport": "설계 필요: 제목 교체가 아닌 첫 화면의 정보 순서와 선택 이유를 확정합니다.",
-      "composition": "설계 필요: 과정과 산출물의 실제 자료와 중간·마지막 구성을 형제 변형과 비교해 확정합니다.",
-      "imagery": "준비 필요: 페이지의 목적에 맞는 독립 원본 사진 또는 결과 자료를 확보합니다.",
+      "firstViewport": "가상 서비스 기획 프로젝트를 단계별 결과물 관점에서 소개합니다. 실제 사례가 아님을 밝히고 한 화면의 제목과 선택 이유를 확인합니다.",
+      "composition": "브리프 편집면 → 방향 대안 비교 → 가상 서비스 탐색 프로토타입 → 인계 기준 보드로 각 단계가 다른 표현 방식을 갖습니다. 마지막은 판단과 문의로 닫습니다.",
+      "imagery": "중간 결과물은 외부 사진의 반복 대신 별개 브랜드의 HTML 시안과 정보 구조 도해로 구성합니다.",
       "requirements": [
         {
           "id": "page-heading",
           "description": "메인의 목적을 설명하는 하나의 주제 제목",
           "selector": "h1",
           "min": 1
+        },
+        {
+          "id": "artifact-variants",
+          "description": "서로 다른 형식의 브리프 대안 프로토타입과 인계 장면",
+          "selector": "[data-jwh4-work-product]",
+          "min": 4
         }
       ],
       "interactions": []
+    },
+    {
+      "id": "onepage-showcase",
+      "group": "onepage",
+      "path": "pages/onepage-showcase.php",
+      "route": "/pages/onepage-showcase.php",
+      "ready": false,
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "한 페이지의 제품 소개 제목",
+          "selector": "h1",
+          "min": 1
+        },
+        {
+          "id": "product-sequence",
+          "description": "대표 이미지 대체가 있는 회전 제품 장면",
+          "selector": "[data-jwo-sequence]",
+          "min": 1
+        },
+        {
+          "id": "detail-tabs",
+          "description": "서로 다른 제품 구성 설명 탭",
+          "selector": "[data-jwo-tab]",
+          "min": 3
+        },
+        {
+          "id": "install-diagram",
+          "description": "현장 설치 조건을 설명하는 도해",
+          "selector": "[data-jwo-install-diagram]",
+          "min": 1
+        }
+      ],
+      "purpose": "산업용 제품 콘셉트의 형태, 연결부, 설치 검토 내용을 탐색하고 도입 상담으로 이동합니다.",
+      "layout": "제품 촬영 히어로, 36장 회전 장면, 상세 탭, 현장 설치 도해와 도입 안내",
+      "firstViewport": "NODE 제품 콘셉트의 큰 촬영 이미지와 한 문장 설명, 가상 제품 고지, 상세로 이동하는 링크를 표시합니다.",
+      "composition": "제품 첫 장면에서 독립 회전 연출, 연결부·설치 정보가 다른 상세 탭, 현장 도해, 도입 검토와 문의로 이어집니다.",
+      "imagery": "전용 NODE 포스터와 Blender 36프레임, 포트 확대 장면과 코드 기반 현장 설치 도해를 사용합니다.",
+      "interactions": [
+        "detail-tabs-keyboard",
+        "sequence-scroll",
+        "sequence-reduced-motion"
+      ]
+    },
+    {
+      "id": "onepage-services",
+      "group": "onepage",
+      "path": "pages/onepage-services.php",
+      "route": "/pages/onepage-services.php",
+      "ready": false,
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "서비스형 원페이지의 소개 제목",
+          "selector": "h1",
+          "min": 1
+        },
+        {
+          "id": "service-board",
+          "description": "세 서비스와 결과물을 동시 비교하는 보드",
+          "selector": "[data-jwo-service-board] article",
+          "min": 3
+        },
+        {
+          "id": "customer-journey",
+          "description": "가상의 고객 질문 흐름",
+          "selector": "[data-jwo-customer-journey]",
+          "min": 1
+        },
+        {
+          "id": "delivery-sample",
+          "description": "상담에서 남길 자료 예시",
+          "selector": "[data-jwo-delivery-sample]",
+          "min": 1
+        }
+      ],
+      "purpose": "서비스 범위와 산출물을 비교하고 가상 고객의 상담 준비 흐름을 살펴본 뒤 문의합니다.",
+      "layout": "작업 현장 히어로, 개방형 서비스 범위 보드, 고객 질문 여정, 산출물 표본, 상담 준비",
+      "firstViewport": "고객 여정 자료를 검토하는 단독 사진과 문제 해결 방향, 서비스 범위로 가는 안내를 표시합니다.",
+      "composition": "세 서비스를 닫힌 목록 대신 동시에 비교하고, 가상의 고객 질문이 정보 구조와 상담 준비 자료로 바뀌는 장면을 보여 줍니다.",
+      "imagery": "서비스 전용 workshop 원본 사진 한 장과 HTML로 만든 비교표·청사진·산출물 자료를 사용합니다.",
+      "interactions": []
+    },
+    {
+      "id": "onepage-projects",
+      "group": "onepage",
+      "path": "pages/onepage-projects.php",
+      "route": "/pages/onepage-projects.php",
+      "ready": false,
+      "requirements": [
+        {
+          "id": "page-heading",
+          "description": "공간형 원페이지의 소개 제목",
+          "selector": "h1",
+          "min": 1
+        },
+        {
+          "id": "project-scenes",
+          "description": "서로 다른 공간 장면 실제 화면 자료",
+          "selector": "article img",
+          "min": 3
+        },
+        {
+          "id": "project-gallery",
+          "description": "키보드와 버튼으로 이동하는 갤러리",
+          "selector": "[data-jwo-gallery]",
+          "min": 1
+        },
+        {
+          "id": "project-flow",
+          "description": "사진과 구별되는 방문자 개념 동선 도해",
+          "selector": "[data-jwo-project-flow]",
+          "min": 1
+        }
+      ],
+      "purpose": "가상 공간 콘셉트의 외부·실내·재료·갤러리 장면을 살펴보고 프로젝트 문의로 이동합니다.",
+      "layout": "전폭 공간 사진, 공간 의도, 방문자 동선 도해, 실내 장면, 재료 편집면, 스와이프 갤러리, 문의",
+      "firstViewport": "하나의 공간 콘셉트 전경을 전폭 사진과 제목으로 보여 주며 가상 프로젝트임을 분명히 밝힙니다.",
+      "composition": "공간의 의도, 방문자의 개념 동선, 실내와 재료, 다른 시간의 장면 갤러리, 프로젝트 문의로 이어집니다.",
+      "imagery": "하나의 가상 공간을 외부·실내·재료·회랑·라운지·저녁 장면에서 보여 주는 전용 이미지 6장을 사용합니다.",
+      "interactions": [
+        "gallery-next",
+        "gallery-prev",
+        "gallery-keyboard"
+      ]
     },
     {
       "id": "company-overview-1",

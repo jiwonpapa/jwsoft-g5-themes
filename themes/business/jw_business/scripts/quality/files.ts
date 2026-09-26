@@ -29,7 +29,7 @@ export async function walk(root: string, path: string): Promise<string[]> {
 // the checker itself are included; changing any of them invalidates previous reviews.
 export async function inputDigest(root: string): Promise<string> {
   const paths: string[] = [];
-  for (const dir of ["src", "pages", "tokens", "generated", "theme", "scripts/quality"]) paths.push(...await walk(root, dir));
+  for (const dir of ["src", "pages", "onepages", "tokens", "generated", "theme", "scripts/quality"]) paths.push(...await walk(root, dir));
   paths.push("scripts/check-quality.ts", "quality/contract.json", "quality/assets.json", "docs/PAGE-CATALOG.json", "package.json", "theme.manifest.json", "vite.config.ts");
   const digest = createHash("sha256");
   for (const path of paths.sort()) digest.update(path).update("\0").update(await readFile(await safeFile(root, path))).update("\0");

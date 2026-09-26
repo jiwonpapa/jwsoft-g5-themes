@@ -48,4 +48,5 @@ define('G5_THEME_URL', '/theme');
 define('G5_THEME_PATH', __DIR__.'/shell');
 $styles = array();
 function add_stylesheet($html, $order) { global $styles; $styles[] = $html; }
+function get_versioned_asset_url($url) { return $url.'?ver=fixture'; }
 include $bundle.'/pages/onepage-'.$variant.'.php';
