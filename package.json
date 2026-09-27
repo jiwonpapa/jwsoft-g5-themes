@@ -41,6 +41,30 @@
     "quality:start": "bun run themes/business/jw_business/scripts/check-quality.ts start",
     "quality:prepare": "bun run themes/business/jw_business/scripts/check-quality.ts prepare",
     "quality:test": "bun test themes/business/jw_business/tests/quality-gate.test.ts",
-    "quality:compare": "bun run themes/business/jw_business/scripts/check-quality.ts compare"
+    "quality:compare": "bun run themes/business/jw_business/scripts/check-quality.ts compare",
+    "ui:check": "bun run harness/ui/run.ts check",
+    "ui:capture": "bun run harness/ui/run.ts capture",
+    "ui:compare": "bun run harness/ui/run.ts compare",
+    "ui:selftest": "bun run harness/ui/run.ts selftest",
+    "harness:test": "bun test harness/ui/*.test.ts harness/design/*.test.ts",
+    "styles:check": "bun run harness/design/styles-check.ts",
+    "ui:runtime": "bun run harness/ui/runtime.ts",
+    "ui:install": "PLAYWRIGHT_SKIP_BROWSER_GC=1 bun x --no-install playwright install chromium",
+    "stack:check": "bun run harness/design/check-stack.ts",
+    "dev:g5": "bun run harness/ui/dev-g5.ts",
+    "gallery:build": "bun run harness/ui/gallery/build.ts",
+    "ui:gallery": "bun run harness/ui/run.ts gallery",
+    "foundation:check": "bun run harness/ui/foundation.ts",
+    "generated:check": "bun run harness/ui/generated-check.ts",
+    "harness:typecheck": "bun x --no-install tsc -p harness/tsconfig.json"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.13.0",
+    "@playwright/test": "1.63.0",
+    "@types/bun": "1.4.2",
+    "@types/node": "26.6.1",
+    "postcss-value-parser": "4.2.0",
+    "stylelint": "17.15.0",
+    "typescript": "7.0.2"
   }
 }

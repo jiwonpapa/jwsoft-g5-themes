@@ -1,0 +1,62 @@
+[
+  {
+    "page": "home-4",
+    "state": "desktop-light",
+    "file": "desktop-light/home-4.png",
+    "sha256": "1135cac93ed33c4f65992c5d29a9f4c60ac29af9483dedbe4acce4a0e62faa41",
+    "sourceDigest": "f3992b0cc96fa64774ee4fb4e5dbd4e8cd3150601970c314f4c843edcec709a0",
+    "platform": "linux",
+    "browser": "153.0.8010.12",
+    "reviewer": "/root/harness_finish_reviewer",
+    "implementer": "/root",
+    "reviewedAt": "2026-09-27T12:32:05.028968+00:00",
+    "result": "pass",
+    "evidence": "harness/ui/baselines/REVIEW-2026-09-27.md",
+    "evidenceSha256": "f83d5f2e4716bb9ea6ba08bb47171a4458b7faf6e641efaa3afe322b5b53da2c"
+  },
+  {
+    "page": "home-4",
+    "state": "desktop-dark",
+    "file": "desktop-dark/home-4.png",
+    "sha256": "e9915866109c5677b0a413c448f53fc99864001eb6286b43f2ab20694509cbe6",
+    "sourceDigest": "f3992b0cc96fa64774ee4fb4e5dbd4e8cd3150601970c314f4c843edcec709a0",
+    "platform": "linux",
+    "browser": "153.0.8010.12",
+    "reviewer": "/root/harness_finish_reviewer",
+    "implementer": "/root",
+    "reviewedAt": "2026-09-27T12:32:05.030596+00:00",
+    "result": "pass",
+    "evidence": "harness/ui/baselines/REVIEW-2026-09-27.md",
+    "evidenceSha256": "f83d5f2e4716bb9ea6ba08bb47171a4458b7faf6e641efaa3afe322b5b53da2c"
+  },
+  {
+    "page": "home-4",
+    "state": "mobile-light",
+    "file": "mobile-light/home-4.png",
+    "sha256": "e97da48dc813f37fcd718937700accaf8bcb78e0e3eec9b8145cf9f5f57da836",
+    "sourceDigest": "f3992b0cc96fa64774ee4fb4e5dbd4e8cd3150601970c314f4c843edcec709a0",
+    "platform": "linux",
+    "browser": "153.0.8010.12",
+    "reviewer": "/root/harness_finish_reviewer",
+    "implementer": "/root",
+    "reviewedAt": "2026-09-27T12:32:05.031248+00:00",
+    "result": "pass",
+    "evidence": "harness/ui/baselines/REVIEW-2026-09-27.md",
+    "evidenceSha256": "f83d5f2e4716bb9ea6ba08bb47171a4458b7faf6e641efaa3afe322b5b53da2c"
+  },
+  {
+    "page": "home-4",
+    "state": "mobile-dark",
+    "file": "mobile-dark/home-4.png",
+    "sha256": "5f46341b28233789530ad7e8ce80ff76ec88e14f94eb49a1367b583e0b8e2f1a",
+    "sourceDigest": "f3992b0cc96fa64774ee4fb4e5dbd4e8cd3150601970c314f4c843edcec709a0",
+    "platform": "linux",
+    "browser": "153.0.8010.12",
+    "reviewer": "/root/harness_finish_reviewer",
+    "implementer": "/root",
+    "reviewedAt": "2026-09-27T12:32:05.031836+00:00",
+    "result": "pass",
+    "evidence": "harness/ui/baselines/REVIEW-2026-09-27.md",
+    "evidenceSha256": "f83d5f2e4716bb9ea6ba08bb47171a4458b7faf6e641efaa3afe322b5b53da2c"
+  }
+]

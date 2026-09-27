@@ -1,7 +1,7 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import { join, resolve } from "node:path";
 import { checkQuality, loadPolicy } from "./quality/check";
-import { inputDigest } from "./quality/files";
+import { groupDigest } from "./quality/files";
 import { writeComparison } from "./quality/comparison";
 
 const root = resolve(import.meta.dirname, "..");
@@ -23,7 +23,7 @@ try {
     if (!implementer || implementer.length < 6) throw new Error("실제 구현 작업 ID를 지정하세요.");
     const pages = contract.pages.filter(page => page.group === group);
     const draft = {
-      schemaVersion: 1, group, inputDigest: await inputDigest(root), implementer,
+      schemaVersion: 2, group, inputDigest: await groupDigest(root, group!), implementer,
       reviewer: "PENDING", reviewedAt: new Date().toISOString(), result: "pending",
       captures: [], pages: pages.map(page => ({ id: page.id,
         purpose: { id: "purpose", result: "fail", reason: "실제 화면과 페이지 목적의 일치를 검토해야 합니다." },

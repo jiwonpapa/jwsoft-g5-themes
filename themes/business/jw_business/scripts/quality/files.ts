@@ -35,3 +35,22 @@ export async function inputDigest(root: string): Promise<string> {
   for (const path of paths.sort()) digest.update(path).update("\0").update(await readFile(await safeFile(root, path))).update("\0");
   return digest.digest("hex");
 }
+
+// Only registered, independent page PHP from other groups is excluded.
+// Shared PHP, all CSS/JS/chunks, tokens, photos and every checker/policy stay global.
+// Unknown files are included conservatively. Global photo reuse still runs in check.ts.
+export async function groupDigest(root: string, group: string): Promise<string> {
+  const contract = JSON.parse(await readFile(await safeFile(root, 'quality/contract.json'), 'utf8')) as { pages: Array<{group:string;path:string}> };
+  if (!contract.pages.some(page => page.group === group)) throw new Error('Unknown review group: ' + group);
+  const excluded = new Set<string>();
+  for (const page of contract.pages.filter(page => page.group !== group)) {
+    excluded.add(page.path);
+    if (page.path.startsWith('src/php/')) excluded.add('theme/' + page.path.slice(8));
+  }
+  const paths: string[] = [];
+  for (const dir of ['src','pages','onepages','tokens','generated','theme','scripts/quality']) paths.push(...await walk(root,dir));
+  paths.push('scripts/check-quality.ts','quality/contract.json','quality/assets.json','docs/PAGE-CATALOG.json','package.json','theme.manifest.json','vite.config.ts');
+  const digest = createHash('sha256').update('group-v2\0' + group + '\0');
+  for (const path of paths.sort()) if (!excluded.has(path)) digest.update(path).update('\0').update(await readFile(await safeFile(root,path))).update('\0');
+  return digest.digest('hex');
+}

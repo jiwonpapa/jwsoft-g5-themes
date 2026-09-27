@@ -32,10 +32,16 @@
       "src/php/mobile/group.php"
     ],
     "css": [
-      "src/styles/theme.css"
+      "src/styles/theme.css",
+      "src/styles/home-one.css",
+      "src/styles/home-four.css",
+      "src/styles/onepages.css"
     ],
     "js": [
-      "src/scripts/theme.ts"
+      "src/scripts/theme.ts",
+      "src/scripts/home-one-entry.ts",
+      "src/scripts/home-four-entry.ts",
+      "src/scripts/onepages-entry.ts"
     ]
   },
   "surfaces": [
@@ -52,7 +58,11 @@
     "pretendard@1.3.9",
     "tailwindcss@4.3.3",
     "typescript@7.0.2",
-    "vite@8.3.0"
+    "vite@8.3.0",
+    "embla-carousel@8.6.0",
+    "embla-carousel-autoplay@8.6.0",
+    "embla-carousel-fade@8.6.0",
+    "motion@13.4.0"
   ],
   "manifests": {
     "assets": "ASSET-MANIFEST.json",

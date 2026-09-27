@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+set -euo pipefail
+while read -r local_ref local_sha remote_ref remote_sha; do
+  if [[ "$remote_ref" == refs/heads/main ]]; then
+    echo 'main push requires product quality, styles, foundation and actual browser evidence.'
+    bun run quality:check
+    bun run styles:check
+    bun run foundation:check
+    bun run generated:check
+    bun run ui:check
+    JW_UI_PAGES=home-4 bun run ui:runtime test compare
+  fi
+done

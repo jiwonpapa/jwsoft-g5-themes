@@ -3,7 +3,7 @@
   "version": "5.6.391",
   "tag": "v5.6.391",
   "commit": "148d748c2d3fe60a536966164d1d7dbbe6f9c477",
-  "source": "https://github.com/gnuboard/gnuboard5/archive/refs/tags/v5.6.391.tar.gz",
-  "sha256": "318a9346c113e0be92a51ec7bdcb4d3b81566e75f5d5dd42e14db74a2e27b111",
-  "lockedAt": "2026-09-20"
+  "source": "https://codeload.github.com/gnuboard/gnuboard5/tar.gz/148d748c2d3fe60a536966164d1d7dbbe6f9c477",
+  "sha256": "8b623bcd61edaa913ae9b6b37d761fa4987a4be47b0f02337c85a7dd0c568669",
+  "lockedAt": "2026-09-27"
 }

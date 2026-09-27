@@ -1,0 +1,335 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-27T12:29:37.423778+00:00",
+  "title": "Design System: JW-Business",
+  "extensions": {
+    "colorMeta": {
+      "light-primary": {
+        "role": "primary",
+        "displayName": "light · primary"
+      },
+      "light-primary-content": {
+        "role": "primary",
+        "displayName": "light · primary-content"
+      },
+      "light-base-100": {
+        "role": "neutral",
+        "displayName": "light · base-100"
+      },
+      "light-base-200": {
+        "role": "neutral",
+        "displayName": "light · base-200"
+      },
+      "light-base-300": {
+        "role": "neutral",
+        "displayName": "light · base-300"
+      },
+      "light-base-content": {
+        "role": "neutral",
+        "displayName": "light · base-content"
+      },
+      "light-secondary": {
+        "role": "secondary",
+        "displayName": "light · secondary"
+      },
+      "light-secondary-content": {
+        "role": "secondary",
+        "displayName": "light · secondary-content"
+      },
+      "light-accent": {
+        "role": "secondary",
+        "displayName": "light · accent"
+      },
+      "light-accent-content": {
+        "role": "secondary",
+        "displayName": "light · accent-content"
+      },
+      "light-success": {
+        "role": "secondary",
+        "displayName": "light · success"
+      },
+      "light-success-content": {
+        "role": "secondary",
+        "displayName": "light · success-content"
+      },
+      "light-warning": {
+        "role": "secondary",
+        "displayName": "light · warning"
+      },
+      "light-warning-content": {
+        "role": "secondary",
+        "displayName": "light · warning-content"
+      },
+      "light-error": {
+        "role": "secondary",
+        "displayName": "light · error"
+      },
+      "light-error-content": {
+        "role": "secondary",
+        "displayName": "light · error-content"
+      },
+      "light-info": {
+        "role": "secondary",
+        "displayName": "light · info"
+      },
+      "light-info-content": {
+        "role": "secondary",
+        "displayName": "light · info-content"
+      },
+      "dark-primary": {
+        "role": "primary",
+        "displayName": "dark · primary"
+      },
+      "dark-primary-content": {
+        "role": "primary",
+        "displayName": "dark · primary-content"
+      },
+      "dark-base-100": {
+        "role": "neutral",
+        "displayName": "dark · base-100"
+      },
+      "dark-base-200": {
+        "role": "neutral",
+        "displayName": "dark · base-200"
+      },
+      "dark-base-300": {
+        "role": "neutral",
+        "displayName": "dark · base-300"
+      },
+      "dark-base-content": {
+        "role": "neutral",
+        "displayName": "dark · base-content"
+      },
+      "dark-secondary": {
+        "role": "secondary",
+        "displayName": "dark · secondary"
+      },
+      "dark-secondary-content": {
+        "role": "secondary",
+        "displayName": "dark · secondary-content"
+      },
+      "dark-accent": {
+        "role": "secondary",
+        "displayName": "dark · accent"
+      },
+      "dark-accent-content": {
+        "role": "secondary",
+        "displayName": "dark · accent-content"
+      },
+      "dark-success": {
+        "role": "secondary",
+        "displayName": "dark · success"
+      },
+      "dark-success-content": {
+        "role": "secondary",
+        "displayName": "dark · success-content"
+      },
+      "dark-warning": {
+        "role": "secondary",
+        "displayName": "dark · warning"
+      },
+      "dark-warning-content": {
+        "role": "secondary",
+        "displayName": "dark · warning-content"
+      },
+      "dark-error": {
+        "role": "secondary",
+        "displayName": "dark · error"
+      },
+      "dark-error-content": {
+        "role": "secondary",
+        "displayName": "dark · error-content"
+      },
+      "dark-info": {
+        "role": "secondary",
+        "displayName": "dark · info"
+      },
+      "dark-info-content": {
+        "role": "secondary",
+        "displayName": "dark · info-content"
+      }
+    },
+    "typographyMeta": {
+      "page-title": {
+        "displayName": "page-title",
+        "purpose": "DESIGN.md의 현재 구현 역할을 따릅니다."
+      },
+      "section-heading": {
+        "displayName": "section-heading",
+        "purpose": "DESIGN.md의 현재 구현 역할을 따릅니다."
+      },
+      "field-label": {
+        "displayName": "field-label",
+        "purpose": "DESIGN.md의 현재 구현 역할을 따릅니다."
+      },
+      "button": {
+        "displayName": "button",
+        "purpose": "DESIGN.md의 현재 구현 역할을 따릅니다."
+      },
+      "badge": {
+        "displayName": "badge",
+        "purpose": "DESIGN.md의 현재 구현 역할을 따릅니다."
+      },
+      "card-body": {
+        "displayName": "card-body",
+        "purpose": "DESIGN.md의 현재 구현 역할을 따릅니다."
+      }
+    },
+    "shadows": [
+      {
+        "name": "scrolled-header",
+        "value": "0 12px 34px -24px color-mix(in oklch, var(--color-base-content) 42%, transparent)",
+        "purpose": "스크롤된 헤더의 경계"
+      },
+      {
+        "name": "submenu",
+        "value": "0 22px 60px -34px color-mix(in oklch, var(--color-base-content) 52%, transparent)",
+        "purpose": "펼쳐진 메뉴의 레이어"
+      },
+      {
+        "name": "primary-hover",
+        "value": "0 12px 28px -16px var(--color-primary)",
+        "purpose": "주요 메인 버튼의 호버 피드백"
+      }
+    ],
+    "motion": [
+      {
+        "name": "feedback",
+        "value": "180ms",
+        "purpose": "DTCG 상태 피드백"
+      },
+      {
+        "name": "stagger",
+        "value": "70ms",
+        "purpose": "DTCG 순차 지연"
+      },
+      {
+        "name": "reveal",
+        "value": "420ms",
+        "purpose": "DTCG 등장"
+      },
+      {
+        "name": "focal",
+        "value": "620ms",
+        "purpose": "DTCG 주목"
+      },
+      {
+        "name": "reveal-distance",
+        "value": "16px",
+        "purpose": "DTCG 등장 거리"
+      },
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "DTCG 감속"
+      },
+      {
+        "name": "legacy-shared-control",
+        "value": "160ms ease",
+        "purpose": "공용 버튼의 현행 전환; 토큰 통합 완료 주장이 아님"
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "shell-intermediate",
+        "value": "1240px"
+      },
+      {
+        "name": "shell-compact",
+        "value": "1080px"
+      },
+      {
+        "name": "shell-mobile",
+        "value": "860px"
+      },
+      {
+        "name": "community-form",
+        "value": "720px"
+      },
+      {
+        "name": "shell-small",
+        "value": "620px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "주요 메인 버튼",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "공용 메인·헤더용 44px 최소 높이 버튼.",
+      "html": "<button class=\"ds-primary\" type=\"button\">문의하기</button>",
+      "css": ".ds-primary{font-family:'Pretendard Variable',sans-serif;color:var(--color-base-content,oklch(22.389% 0.031 278.072));background:var(--color-base-100,oklch(100% 0 0));border:1px solid var(--color-base-300,oklch(86% 0 0));border-radius:8px;font-size:14px;font-weight:650;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;min-height:44px;padding:0 20px;background:var(--color-primary,oklch(51% 0.145 241.966));color:var(--color-primary-content,oklch(100% 0 0));border-color:transparent;transition:transform 160ms ease,background 160ms ease,box-shadow 160ms ease}.ds-primary:hover{box-shadow:0 12px 28px -16px var(--color-primary,oklch(51% 0.145 241.966));transform:translateY(-1px)}.ds-primary:focus-visible{outline:3px solid color-mix(in oklch,var(--color-primary,oklch(51% 0.145 241.966)) 72%,transparent);outline-offset:3px;}@media(prefers-reduced-motion:reduce){.ds-primary{transition:none}.ds-primary:hover{transform:none}}"
+    },
+    {
+      "name": "중립 실행 컨트롤",
+      "kind": "button",
+      "refersTo": "control-quiet",
+      "description": "게시판·회원 단일 행 입력과 높이를 맞추는 컨트롤.",
+      "html": "<button class=\"ds-quiet\" type=\"button\">목록으로</button>",
+      "css": ".ds-quiet{font-family:'Pretendard Variable',sans-serif;color:var(--color-base-content,oklch(22.389% 0.031 278.072));background:var(--color-base-100,oklch(100% 0 0));border:1px solid var(--color-base-300,oklch(86% 0 0));border-radius:8px;font-size:14px;font-weight:650;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;height:var(--jw-control-height,48px);padding:0 16px;line-height:1.25}.ds-quiet:hover{background:var(--color-base-200,oklch(93% 0 0));border-color:color-mix(in oklch,var(--color-base-content,oklch(22.389% 0.031 278.072)) 28%,transparent)}.ds-quiet:focus-visible{outline:3px solid color-mix(in oklch,var(--color-primary,oklch(51% 0.145 241.966)) 72%,transparent);outline-offset:3px;}"
+    },
+    {
+      "name": "텍스트 입력",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "도움말과 독립적인 48px 입력 높이.",
+      "html": "<label class=\"ds-field\">제목<input class=\"ds-field-input\" type=\"text\" placeholder=\"제목을 입력하세요\"></label>",
+      "css": ".ds-field{font-family:'Pretendard Variable',sans-serif;display:grid;gap:8px;color:var(--color-base-content,oklch(22.389% 0.031 278.072));font-size:13px;font-weight:650}.ds-field-input{font-family:'Pretendard Variable',sans-serif;height:var(--jw-control-height,48px);box-sizing:border-box;min-width:0;padding:0 13px;border:1px solid var(--jw-field-border,color-mix(in oklch,var(--color-base-content,oklch(22.389% 0.031 278.072)) 50%,var(--color-base-100,oklch(100% 0 0))));border-radius:8px;background:var(--color-base-100,oklch(100% 0 0));color:var(--color-base-content,oklch(22.389% 0.031 278.072));font-size:13px;font-weight:400}.ds-field-input::placeholder{color:color-mix(in oklch,var(--color-base-content,oklch(22.389% 0.031 278.072)) 80%,var(--color-base-100,oklch(100% 0 0)));opacity:1}.ds-field-input:focus-visible{outline:2px solid var(--jw-link-ink,var(--color-primary,oklch(51% 0.145 241.966)));outline-offset:3px}.ds-field-input:read-only{background:var(--color-base-200,oklch(93% 0 0))}"
+    },
+    {
+      "name": "PC 메뉴 링크",
+      "kind": "nav",
+      "refersTo": "control-quiet",
+      "description": "호버·키보드 포커스 때 밑줄로 탐색 상태를 드러냅니다.",
+      "html": "<nav class=\"ds-nav\"><a class=\"ds-nav-link\" href=\"#company\">회사소개</a></nav>",
+      "css": ".ds-nav{font-family:'Pretendard Variable',sans-serif;display:flex;background:var(--color-base-100,oklch(100% 0 0));color:var(--color-base-content,oklch(22.389% 0.031 278.072))}.ds-nav-link{position:relative;display:flex;align-items:center;padding:18px;font-size:14px;font-weight:560;color:inherit;text-decoration:none}.ds-nav-link:after{position:absolute;left:18px;right:18px;bottom:-1px;height:2px;background:var(--color-primary,oklch(51% 0.145 241.966));content:\"\";opacity:0;transform:scaleX(.25);transition:opacity 160ms ease,transform 200ms ease}.ds-nav-link:hover:after,.ds-nav-link:focus-visible:after{opacity:1;transform:scaleX(1)}.ds-nav-link:focus-visible{outline:3px solid color-mix(in oklch,var(--color-primary,oklch(51% 0.145 241.966)) 72%,transparent);outline-offset:3px;}"
+    },
+    {
+      "name": "중립 배지",
+      "kind": "chip",
+      "refersTo": "badge",
+      "description": "정적 분류 정보이며 클릭 동작을 암시하지 않습니다.",
+      "html": "<span class=\"ds-badge\">자료</span>",
+      "css": ".ds-badge{font-family:'Pretendard Variable',sans-serif;display:inline-flex;align-items:center;justify-content:center;min-height:23px;padding:0 8px;border-radius:999px;background:var(--color-base-200,oklch(93% 0 0));color:color-mix(in oklch,var(--color-base-content,oklch(22.389% 0.031 278.072)) 72%,transparent);font-size:12px;font-weight:700}"
+    },
+    {
+      "name": "콘텐츠 카드",
+      "kind": "card",
+      "refersTo": "media",
+      "description": "사진의 역할과 카드 본문을 분리합니다. 이 패널은 사진 미등록 상태를 표시합니다.",
+      "html": "<article class=\"ds-card\"><div class=\"ds-card-media\"><span>등록된 사진 없음</span></div><h3><a href=\"#detail\">사례와 결과 자료</a></h3><p>콘텐츠의 목적을 설명하는 본문입니다.</p></article>",
+      "css": ".ds-card{font-family:'Pretendard Variable',sans-serif;color:var(--color-base-content,oklch(22.389% 0.031 278.072));min-width:0}.ds-card-media{display:grid;aspect-ratio:4/3;place-items:center;border-radius:var(--radius-box,.25rem);background:var(--color-base-200,oklch(93% 0 0));color:color-mix(in oklch,var(--color-base-content,oklch(22.389% 0.031 278.072)) 48%,transparent)}.ds-card-media span{font-size:13px}.ds-card h3{margin:28px 0 0;font-size:clamp(18px,1.55vw,23px);line-height:1.38;letter-spacing:-.025em}.ds-card a{color:inherit;text-decoration:none}.ds-card a:hover{color:var(--color-primary,oklch(51% 0.145 241.966))}.ds-card a:focus-visible{outline:3px solid color-mix(in oklch,var(--color-primary,oklch(51% 0.145 241.966)) 72%,transparent);outline-offset:3px;}.ds-card p{margin:10px 0 0;color:color-mix(in oklch,var(--color-base-content,oklch(22.389% 0.031 278.072)) 65%,transparent);font-size:14px;line-height:1.7}"
+    }
+  ],
+  "narrative": {
+    "northStar": "기업 정보와 작업 결과",
+    "overview": "기업·전문 서비스의 정보와 실제로 보여 줄 수 있는 결과물을 명확하게 구성하는 상업용 G5 테마입니다. 로컬 Pretendard, 의미 색상, 읽기 쉬운 컨트롤을 공통 언어로 쓰되, 각 페이지는 목적에 맞는 사진·큰 아이콘·자료·섹션 구도의 조합으로 서로 다른 선택 이유를 제공해야 합니다.",
+    "keyCharacteristics": [
+      "jw-light·jw-dark 의미 색상과 로컬 Pretendard",
+      "목적이 분명한 사진·대형 Lucide 아이콘·실제 HTML 자료",
+      "여러 섹션과 서로 구별되는 상업용 페이지 변형",
+      "독립 PHP와 G5 네이티브 스킨의 직접 수정 가능성"
+    ],
+    "rules": [
+      {
+        "name": "The Semantic Pair Rule",
+        "body": "색상과 그 위의 content 색을 함께 사용하고 두 모드에서 읽기·선택·상태 전달을 확인합니다.",
+        "section": "colors"
+      }
+    ],
+    "dos": [
+      "Do 색상은 의미 토큰에서, 타이포그래피·간격은 해당 원본 스타일에서 확인합니다.",
+      "Do 페이지의 정보 역할에 맞게 사진·큰 아이콘·자료·카드·표·목록을 조합합니다.",
+      "Do PC·모바일, 라이트·다크, 필요한 로그인 상태와 실제 G5 동작을 함께 검토합니다.",
+      "Do 원본과 생성물을 구분하고 수정 뒤 빌드·필수 gate·새 화면 검토를 수행합니다."
+    ],
+    "donts": [
+      "Don't Main 4의 FORME 팔레트·아홉 섹션·아이콘 카드를 테마 전체의 규격으로 일반화하지 않습니다.",
+      "Don't 카드 금지나 네 섹션짜리 범용 랜딩 구성을 상업용 테마의 기본값으로 강제하지 않습니다.",
+      "Don't 사진·문구·순서만 바꾸어 별개 디자인 변형으로 계산하지 않습니다.",
+      "Don't G5 코어 수정, 별도 페이지 dispatcher, 런타임 sections include로 독립 PHP 계약을 우회하지 않습니다.",
+      "Don't 페이지 ship·자동 검사·배포 성공을 전체 상품 승인이나 판매 ZIP 검증으로 바꾸어 말하지 않습니다."
+    ]
+  }
+}

@@ -2,7 +2,7 @@
 name: JW-Business Main 4
 description: 기존 JW 테마 안에서 FORME 가상 브랜드의 과정과 산출물을 보여주는 메인 4 구현 기록
 colors:
-  light-primary: "oklch(58% 0.158 241.966)"
+  light-primary: "oklch(51% 0.145 241.966)"
   light-primary-content: "oklch(100% 0 0)"
   light-base-100: "oklch(100% 0 0)"
   light-base-200: "oklch(93% 0 0)"
@@ -85,7 +85,7 @@ components:
 
 근거는 저장소 루트의 [검토 범위와 화면 목록](../../../../.impeccable/review/main4-20260927/BRIEF.md), [PRODUCT.md](../PRODUCT.md), [품질 차단](../quality/README.md)입니다. 생성된 `direction-comp.png`는 작업자가 만든 방향 참고 이미지이며 사용자 승인 시안이나 실제 브라우저 캡처가 아닙니다.
 
-상속할 테마 `DESIGN.md`와 `.impeccable/design.json`은 현재 없습니다. 저장소의 `prototypes/`에 있는 별도 시안 문서는 이 테마의 상속 계약이 아닙니다. 이는 기존 문서화 공백으로 남기며 이번 두 문서는 전역 파일을 신설하거나 대체하지 않습니다.
+테마의 공통 기준은 `../DESIGN.md`와 `../.impeccable/design.json`에서 확인합니다. 2026-09-27 개발 하네스 개선 시 현행 소스 기준으로 문서화했으며, light primary와 공통 footer는 실제 대비 검사 후 조정했습니다. 저장소의 `prototypes/`에 있는 별도 시안 문서는 이 테마의 상속 계약이 아닙니다.
 
 ## Colors
 

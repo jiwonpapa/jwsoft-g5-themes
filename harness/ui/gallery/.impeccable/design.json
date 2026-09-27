@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-27T12:29:37.423640+00:00",
+  "title": "Design System: G5 블록 검토실",
+  "extensions": {
+    "colorMeta": {
+      "light-primary": {
+        "role": "primary",
+        "displayName": "light · primary"
+      },
+      "light-primary-content": {
+        "role": "primary",
+        "displayName": "light · primary-content"
+      },
+      "light-base-100": {
+        "role": "neutral",
+        "displayName": "light · base-100"
+      },
+      "light-base-200": {
+        "role": "neutral",
+        "displayName": "light · base-200"
+      },
+      "light-base-300": {
+        "role": "neutral",
+        "displayName": "light · base-300"
+      },
+      "light-base-content": {
+        "role": "neutral",
+        "displayName": "light · base-content"
+      },
+      "dark-primary": {
+        "role": "primary",
+        "displayName": "dark · primary"
+      },
+      "dark-primary-content": {
+        "role": "primary",
+        "displayName": "dark · primary-content"
+      },
+      "dark-base-100": {
+        "role": "neutral",
+        "displayName": "dark · base-100"
+      },
+      "dark-base-200": {
+        "role": "neutral",
+        "displayName": "dark · base-200"
+      },
+      "dark-base-300": {
+        "role": "neutral",
+        "displayName": "dark · base-300"
+      },
+      "dark-base-content": {
+        "role": "neutral",
+        "displayName": "dark · base-content"
+      }
+    },
+    "typographyMeta": {
+      "title": {
+        "displayName": "title",
+        "purpose": "DESIGN.md의 현재 구현 역할을 따릅니다."
+      },
+      "section": {
+        "displayName": "section",
+        "purpose": "DESIGN.md의 현재 구현 역할을 따릅니다."
+      },
+      "pane": {
+        "displayName": "pane",
+        "purpose": "DESIGN.md의 현재 구현 역할을 따릅니다."
+      },
+      "body": {
+        "displayName": "body",
+        "purpose": "DESIGN.md의 현재 구현 역할을 따릅니다."
+      },
+      "label": {
+        "displayName": "label",
+        "purpose": "DESIGN.md의 현재 구현 역할을 따릅니다."
+      },
+      "code": {
+        "displayName": "code",
+        "purpose": "DESIGN.md의 현재 구현 역할을 따릅니다."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "section-focus",
+        "value": "instant",
+        "purpose": "선택한 현재 섹션과 이전 캡처를 즉시 대응시킵니다."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "stack-preview",
+        "value": "900px"
+      },
+      {
+        "name": "stack-sidebar",
+        "value": "600px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "PHP 복사",
+      "kind": "button",
+      "refersTo": "button",
+      "description": "중립 작업 버튼. 원본에는 별도 hover 장식이 없습니다.",
+      "html": "<button class=\"ds-gallery-button\" type=\"button\">PHP 복사</button>",
+      "css": ".ds-gallery-button{font-family:'Pretendard Variable',sans-serif;color:var(--color-base-content,oklch(22.389% 0.031 278.072));background:var(--color-base-100,oklch(100% 0 0));border:1px solid var(--color-base-300,oklch(86% 0 0));border-radius:var(--radius-box,0.25rem);min-height:44px;padding:8px 12px;cursor:pointer;}.ds-gallery-button:hover{background:var(--color-base-100,oklch(100% 0 0))}.ds-gallery-button:focus-visible{outline:2px solid var(--color-primary,oklch(51% 0.145 241.966));outline-offset:3px;}"
+    },
+    {
+      "name": "선택된 섹션",
+      "kind": "nav",
+      "refersTo": "section-selected",
+      "description": "현재 섹션을 색과 aria-current로 표시합니다.",
+      "html": "<nav aria-label=\"섹션 선택\"><button class=\"ds-gallery-section\" aria-current=\"true\" type=\"button\">과정 · 대형 아이콘 카드</button></nav>",
+      "css": ".ds-gallery-section{font-family:'Pretendard Variable',sans-serif;color:var(--color-base-content,oklch(22.389% 0.031 278.072));background:var(--color-base-100,oklch(100% 0 0));border:1px solid var(--color-base-300,oklch(86% 0 0));border-radius:var(--radius-box,0.25rem);min-height:44px;padding:8px 12px;cursor:pointer;text-align:left;font-size:14px;background:var(--color-primary,oklch(51% 0.145 241.966));color:var(--color-primary-content,oklch(100% 0 0));font-weight:650;border-color:transparent}.ds-gallery-section:hover{background:var(--color-primary,oklch(51% 0.145 241.966))}.ds-gallery-section:focus-visible{outline:2px solid var(--color-primary,oklch(51% 0.145 241.966));outline-offset:3px;}"
+    },
+    {
+      "name": "기기 선택",
+      "kind": "input",
+      "refersTo": "button",
+      "description": "라벨을 유지하는 네이티브 선택 컨트롤.",
+      "html": "<label class=\"ds-gallery-label\">화면<select class=\"ds-gallery-select\"><option>PC 1440</option><option>모바일 390</option></select></label>",
+      "css": ".ds-gallery-label{font-family:'Pretendard Variable',sans-serif;display:grid;gap:6px;font-size:12px;color:var(--color-base-content,oklch(22.389% 0.031 278.072))}.ds-gallery-select{font-family:'Pretendard Variable',sans-serif;color:var(--color-base-content,oklch(22.389% 0.031 278.072));background:var(--color-base-100,oklch(100% 0 0));border:1px solid var(--color-base-300,oklch(86% 0 0));border-radius:var(--radius-box,0.25rem);min-height:44px;padding:8px 12px;cursor:pointer;}.ds-gallery-select:hover{background:var(--color-base-100,oklch(100% 0 0))}.ds-gallery-select:focus-visible{outline:2px solid var(--color-primary,oklch(51% 0.145 241.966));outline-offset:3px;}"
+    },
+    {
+      "name": "실제 페이지 링크",
+      "kind": "custom",
+      "refersTo": "button",
+      "description": "문구와 장식용 인라인 SVG를 사용하는 링크.",
+      "html": "<a class=\"ds-gallery-link\" href=\"#preview\">실제 페이지 열기 <svg aria-hidden=\"true\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M7 7h10v10M7 17 17 7\"/></svg></a>",
+      "css": ".ds-gallery-link{font-family:'Pretendard Variable',sans-serif;color:var(--color-base-content,oklch(22.389% 0.031 278.072));font-size:14px;font-weight:600;padding:12px 0;text-underline-offset:4px}.ds-gallery-link svg{vertical-align:middle;margin-left:3px}.ds-gallery-link:hover{color:var(--color-base-content,oklch(22.389% 0.031 278.072))}.ds-gallery-link:focus-visible{outline:2px solid var(--color-primary,oklch(51% 0.145 241.966));outline-offset:3px;}"
+    },
+    {
+      "name": "원본 펼침",
+      "kind": "custom",
+      "refersTo": "source",
+      "description": "네이티브 details로 원본을 펼칩니다.",
+      "html": "<details class=\"ds-gallery-source\"><summary>PHP 원본 및 사용 조건</summary><pre>&lt;section&gt;복사할 독립 PHP 원본&lt;/section&gt;</pre></details>",
+      "css": ".ds-gallery-source{font-family:'Pretendard Variable',sans-serif;color:var(--color-base-content,oklch(22.389% 0.031 278.072));border-top:1px solid var(--color-base-300,oklch(86% 0 0));padding-top:20px}.ds-gallery-source summary{font-weight:650;min-height:36px;cursor:pointer}.ds-gallery-source summary:hover{color:var(--color-base-content,oklch(22.389% 0.031 278.072))}.ds-gallery-source summary:focus-visible{outline:2px solid var(--color-primary,oklch(51% 0.145 241.966));outline-offset:3px;}.ds-gallery-source pre{font-size:12px;line-height:1.6;background:var(--color-base-200,oklch(93% 0 0));padding:20px;overflow:auto;max-height:480px}"
+    },
+    {
+      "name": "비교창 빈 상태",
+      "kind": "card",
+      "refersTo": "preview",
+      "description": "참고 캡처가 없는 상태를 명확히 표시합니다.",
+      "html": "<section class=\"ds-gallery-empty\"><p>등록된 참고 이미지가 없습니다.<br>현재 구현을 승인 기준으로 자동 등록하지 않습니다.</p></section>",
+      "css": ".ds-gallery-empty{font-family:'Pretendard Variable',sans-serif;background:var(--color-base-200,oklch(93% 0 0));color:var(--color-base-content,oklch(22.389% 0.031 278.072));border:1px solid var(--color-base-300,oklch(86% 0 0))}.ds-gallery-empty p{padding:32px 24px;font-size:14px;line-height:1.6;margin:0}"
+    }
+  ],
+  "narrative": {
+    "northStar": "블록 검토실",
+    "overview": "기존 JW-Business의 의미 색상과 Pretendard로 만든 개발 작업대입니다. 얇은 경계, 명확한 선택 상태, 읽을 수 있는 작업창으로 현재 G5 화면과 이전 캡처를 비교합니다. 별도 브랜드 팔레트나 판매용 히어로를 추가하지 않습니다.",
+    "keyCharacteristics": [
+      "페이지·섹션 선택과 현재/이전 화면의 대응이 분명한 구조",
+      "중립 표면과 선택 상태에 쓰는 기존 강조색",
+      "PC·모바일과 라이트·다크를 같은 작업 흐름에서 비교"
+    ],
+    "rules": [
+      {
+        "name": "The Inherited Palette Rule",
+        "body": "갤러리는 테마의 의미 색상을 소비하며 별도 팔레트를 만들지 않습니다.",
+        "section": "colors"
+      }
+    ],
+    "dos": [
+      "Do 기존 의미 색상과 Pretendard를 사용하고 두 모드에서 선택 상태를 확인합니다.",
+      "Do 선택한 섹션의 현재 화면과 이전 캡처를 같은 위치로 이동시킵니다.",
+      "Do 참고 자료의 출처와 승인 여부를 분리해 표시합니다.",
+      "Do 목록 실패·참고 이미지 없음·복사 실패 상태에서 다음 행동을 알려 줍니다."
+    ],
+    "donts": [
+      "Don't 작업창에 새 브랜드 컬러, 장식용 그림자, 랜딩용 영웅 영역을 추가하지 않습니다.",
+      "Don't 참고 캡처나 자동 검사 통과를 사용자 승인·상품 완료로 표시하지 않습니다.",
+      "Don't 복사한 PHP를 새 런타임 include 체계로 바꾸거나 갤러리를 판매 ZIP에 넣지 않습니다."
+    ]
+  }
+}

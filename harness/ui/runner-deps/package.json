@@ -1,0 +1,9 @@
+{
+  "name": "jw-ui-runner-dependencies",
+  "private": true,
+  "version": "1.0.0",
+  "dependencies": {
+    "@playwright/test": "1.63.0",
+    "@axe-core/playwright": "4.13.0"
+  }
+}

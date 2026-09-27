@@ -1,0 +1,28 @@
+import { test, expect } from '@playwright/test';
+import AxeBuilder from '@axe-core/playwright';
+import { mkdir } from 'node:fs/promises';
+import { resolve } from 'node:path';
+import { root } from '../catalog';
+test('gallery loads native G5, changes section, mode, viewport and exposes source', async ({page}, info) => {
+  const errors: string[] = []; page.on('pageerror',error => errors.push(error.message));
+  await page.goto('/__jw-dev/');
+  await page.locator('#mode').selectOption(info.project.name.endsWith('-dark') ? 'jw-dark' : 'jw-light');
+  await page.locator('#device').selectOption(info.project.name.startsWith('mobile') ? '390' : '1440');
+  const native = page.frameLocator('#live');
+  await expect(native.locator('.h4-hero')).toBeVisible();
+  await page.getByRole('button',{name:'과정 · 대형 아이콘 카드',exact:true}).click();
+  await expect(page.locator('#source')).toContainText('h4-process');
+  await expect(page.locator('#sections button[aria-current="true"]')).toHaveText('과정 · 대형 아이콘 카드');
+  await expect(native.locator('html')).toHaveAttribute('data-theme',info.project.name.endsWith('-dark')?'jw-dark':'jw-light');
+  await page.evaluate(() => document.fonts.ready);
+  await expect.poll(() => page.locator('#reference').evaluate(element => Number(element.dataset.offset))).toBeGreaterThan(150);
+  await expect(page.locator('body')).toHaveAttribute('data-preview-ready','과정 · 대형 아이콘 카드');
+  const directory = resolve(root,'output/qa/ui/gallery'); await mkdir(directory,{recursive:true});
+  await page.screenshot({path:resolve(directory,info.project.name+'.png'),fullPage:true});
+  expect(await page.evaluate(() => document.documentElement.scrollWidth-innerWidth)).toBeLessThanOrEqual(1);
+  expect((await new AxeBuilder({page}).exclude('#live').withTags(['wcag2a','wcag2aa','wcag21aa']).analyze()).violations).toEqual([]);
+  expect(errors).toEqual([]);
+  await page.locator('#page-select').selectOption('home-3');
+  await expect(page.locator('#reference-empty')).toBeVisible();
+  await expect(page.locator('#source')).toContainText('index_3.php');
+});

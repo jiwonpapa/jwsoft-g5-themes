@@ -18,7 +18,7 @@ export interface Capture extends Artifact {
 }
 export interface Judgment { id: string; result: "pass" | "fail"; reason: string }
 export interface Review {
-  schemaVersion: 1; group: string; inputDigest: string; implementer: string; reviewer: string;
+  schemaVersion: 1 | 2; group: string; inputDigest: string; implementer: string; reviewer: string;
   reviewedAt: string; result: "pass" | "fail" | "pending";
   captures: Capture[];
   pages: Array<{ id: string; purpose: Judgment; imagery: Judgment; composition: Judgment }>;
@@ -50,7 +50,7 @@ const schemas = {
   })) }),
   assets: object({ schemaVersion: { const: 1 }, photos: list(object({ path: text, sha256: hash, origin: text, owner: text })) }),
   review: object({
-    schemaVersion: { const: 1 }, group: text, inputDigest: hash, implementer: text, reviewer: text,
+    schemaVersion: { enum: [1, 2] }, group: text, inputDigest: hash, implementer: text, reviewer: text,
     reviewedAt: text, result: { enum: ["pass", "fail", "pending"] },
     captures: list(object({ path: text, sha256: hash, page: text,
       viewport: { enum: ["desktop", "mobile"] }, mode: { enum: ["light", "dark"] },

@@ -1,0 +1,52 @@
+name: Design harness
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  foundation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: 1.4.2
+      - run: bun install --frozen-lockfile
+      - run: bun run foundation:check
+      - run: bun run generated:check
+      - name: PHP syntax (product and harness)
+        run: find themes/business/jw_business/src/php themes/business/jw_business/pages harness/ui -name '*.php' -print0 | xargs -0 -n1 php -l > /tmp/php-lint.log
+  style-policy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: 1.4.2
+      - run: bun install --frozen-lockfile
+      - run: bun run styles:check
+  browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: 1.4.2
+      - run: bun install --frozen-lockfile
+      - run: bun run --cwd themes/business/jw_business build
+      - run: bun run ui:runtime up > /tmp/g5-runtime.log 2>&1
+      - run: bun run ui:runtime test selftest
+      - run: bun run ui:runtime test gallery
+      - name: Reviewed Main 4 screenshot comparison
+        run: JW_UI_PAGES=home-4 bun run ui:runtime test compare
+      - name: All seven main templates in four states
+        if: ${{ !cancelled() }}
+        run: bun run ui:runtime test check
+      - uses: actions/upload-artifact@v4
+        if: ${{ !cancelled() }}
+        with:
+          name: browser-evidence
+          path: output/qa/ui
+          retention-days: 14
+      - run: bun run ui:runtime down
+        if: ${{ always() }}

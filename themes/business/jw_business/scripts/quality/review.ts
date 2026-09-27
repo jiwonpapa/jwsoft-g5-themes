@@ -6,13 +6,14 @@ import type { PageSource } from "./media";
 
 const validTime = (value: string): boolean => /^\d{4}-\d{2}-\d{2}T/.test(value) && Number.isFinite(Date.parse(value)) && Date.parse(value) <= Date.now() + 60_000;
 const placeholder = /^(?:pending|todo|unknown|author|reviewer|implementer|pass|승인|검토자|미정)$/i;
-export async function inspectReview(root: string, group: string, plans: PagePlan[], digest: string, sources: PageSource[]): Promise<{ failures: Failure[]; review?: Review }> {
+export async function inspectReview(root: string, group: string, plans: PagePlan[], digest: string, sources: PageSource[], scopedDigest?: string): Promise<{ failures: Failure[]; review?: Review }> {
   const failures: Failure[] = [];
   const fail = (code: string, target: string, message: string) => failures.push({ code, target, message });
   let review: Review;
   try { review = validate<Review>("review", JSON.parse(await readFile(await safeFile(root, `quality/reviews/${group}.json`), "utf8"))); }
   catch (error) { return { failures: [{ code: "REVIEW_MISSING_OR_INVALID", target: group, message: String(error) }] }; }
-  if (review.group !== group || review.inputDigest !== digest) fail("STALE_REVIEW", group, "현재 소스·이미지·검사 정책과 검토 기록이 일치하지 않습니다.");
+  const expectedDigest = review.schemaVersion === 2 ? scopedDigest : digest;
+  if (review.group !== group || review.inputDigest !== expectedDigest) fail("STALE_REVIEW", group, "현재 소스·이미지·검사 정책과 검토 기록이 일치하지 않습니다.");
   if (review.result !== "pass") fail("REVIEW_NOT_PASSED", group, "시각 검토가 통과하지 않았습니다.");
   if (review.implementer === review.reviewer || [review.implementer, review.reviewer].some(value => value.length < 6 || placeholder.test(value))) fail("INDEPENDENT_REVIEW", group, "구현자와 별개 검토자의 실제 작업 식별자가 필요합니다.");
   if (!validTime(review.reviewedAt)) fail("REVIEW_TIME", group, "유효한 실제 검토 시각이 필요합니다.");

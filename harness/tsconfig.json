@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "ES2023", "module": "ESNext", "moduleResolution": "Bundler",
+    "strict": true, "skipLibCheck": true, "allowJs": true, "checkJs": false,
+    "allowImportingTsExtensions": true, "noEmit": true,
+    "types": ["bun", "node"], "lib": ["ES2023", "DOM", "DOM.Iterable"]
+  },
+  "include": ["ui/**/*.ts", "design/check-stack.ts", "design/styles-check.ts", "design/theme-colors.mjs", "design/theme-colors.test.ts"]
+}

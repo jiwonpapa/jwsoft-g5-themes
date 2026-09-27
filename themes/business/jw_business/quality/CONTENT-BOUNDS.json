@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "status": "editing-contract-not-design-approval",
+  "unit": "Unicode characters including spaces",
+  "shared": {
+    "h1": {
+      "min": 8,
+      "max": 56
+    },
+    "h2": {
+      "min": 4,
+      "max": 60
+    },
+    "paragraph": {
+      "max": 260
+    },
+    "button": {
+      "max": 24
+    },
+    "overflow": "No clipping at 390px or 1440px. Longer content requires a new render check, not a font-size workaround."
+  },
+  "pages": [
+    {
+      "id": "home-1",
+      "path": "src/php/index_1.php",
+      "purpose": "메인 방문자가 주제와 행동, 주요 사업, 선택 근거, 문의 내용을 이해하고 다음 행동을 선택합니다.",
+      "requirementsSource": "quality/contract.json",
+      "reference": null,
+      "approval": "independent review required after edits"
+    },
+    {
+      "id": "home-2",
+      "path": "src/php/index_2.php",
+      "purpose": "메인 방문자가 주제와 행동, 주요 사업, 선택 근거, 문의 내용을 이해하고 다음 행동을 선택합니다.",
+      "requirementsSource": "quality/contract.json",
+      "reference": null,
+      "approval": "independent review required after edits"
+    },
+    {
+      "id": "home-3",
+      "path": "src/php/index_3.php",
+      "purpose": "메인 방문자가 주제와 행동, 주요 사업, 선택 근거, 문의 내용을 이해하고 다음 행동을 선택합니다.",
+      "requirementsSource": "quality/contract.json",
+      "reference": null,
+      "approval": "independent review required after edits"
+    },
+    {
+      "id": "home-4",
+      "path": "src/php/index_4.php",
+      "purpose": "메인 방문자가 주제와 행동, 주요 사업, 선택 근거, 문의 내용을 이해하고 다음 행동을 선택합니다.",
+      "requirementsSource": "quality/contract.json",
+      "reference": "quality/evidence/main4-20260927/manifest.json",
+      "approval": "independent review required after edits"
+    },
+    {
+      "id": "onepage-showcase",
+      "path": "pages/onepage-showcase.php",
+      "purpose": "산업용 제품 콘셉트의 형태, 연결부, 설치 검토 내용을 탐색하고 도입 상담으로 이동합니다.",
+      "requirementsSource": "quality/contract.json",
+      "reference": null,
+      "approval": "independent review required after edits"
+    },
+    {
+      "id": "onepage-services",
+      "path": "pages/onepage-services.php",
+      "purpose": "서비스 범위와 산출물을 비교하고 가상 고객의 상담 준비 흐름을 살펴본 뒤 문의합니다.",
+      "requirementsSource": "quality/contract.json",
+      "reference": null,
+      "approval": "independent review required after edits"
+    },
+    {
+      "id": "onepage-projects",
+      "path": "pages/onepage-projects.php",
+      "purpose": "가상 공간 콘셉트의 외부·실내·재료·갤러리 장면을 살펴보고 프로젝트 문의로 이동합니다.",
+      "requirementsSource": "quality/contract.json",
+      "reference": null,
+      "approval": "independent review required after edits"
+    }
+  ]
+}

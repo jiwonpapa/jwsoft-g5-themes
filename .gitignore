@@ -44,3 +44,6 @@ output/blender/
 output/mobile-menu-before/
 __pycache__/
 *.pyc
+
+# Disposable UI fixture routing generated from the quality contract
+harness/ui/routes.json

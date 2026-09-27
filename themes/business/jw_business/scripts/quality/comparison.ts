@@ -25,7 +25,7 @@ export async function writeComparison(root: string, contract: QualityContract, g
     }
     sections.push(`<section><h2>${viewport} · ${mode}</h2><div class="grid">${cards.join("")}</div></section>`);
   }
-  const html = `<!doctype html><html lang="ko"><meta charset="utf-8"><title>${escape(group)} 변형 비교</title><style>body{font:15px system-ui;margin:24px;background:#eceff1;color:#17212b}.grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:16px}article{background:white;padding:12px}img{width:100%;height:auto}h2{margin-top:40px}.missing{color:#a00000}a{color:inherit}</style><h1>${escape(group)} 다섯 변형 비교</h1><p>검토 결과: ${escape(review.result)}. 비교판 생성 자체는 통과가 아닙니다. 각 화면을 열어 첫 화면·중간·마지막 구성과 콘텐츠 적합성을 직접 확인하세요.</p>${sections.join("")}</html>`;
+  const html = `<!doctype html><html lang="ko"><meta charset="utf-8"><title>${escape(group)} 변형 비교</title><style>body{font:15px system-ui;margin:24px;background:#eceff1;color:#17212b}.grid{display:grid;grid-template-columns:repeat(${pages.length},minmax(0,1fr));gap:16px}article{background:white;padding:12px}img{width:100%;height:auto}h2{margin-top:40px}.missing{color:#a00000}a{color:inherit}</style><h1>${escape(group)} ${pages.length}개 변형 비교</h1><p>검토 결과: ${escape(review.result)}. 비교판 생성 자체는 통과가 아닙니다. 각 화면을 열어 첫 화면·중간·마지막 구성과 콘텐츠 적합성을 직접 확인하세요.</p>${sections.join("")}</html>`;
   await mkdir(dirname(output), { recursive: true });
   await writeFile(output, html);
   return output;

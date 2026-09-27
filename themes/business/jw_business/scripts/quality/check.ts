@@ -1,6 +1,6 @@
 import { readFile } from "node:fs/promises";
 import { load } from "cheerio";
-import { inputDigest, safeFile, sha256 } from "./files";
+import { inputDigest, groupDigest, safeFile, sha256 } from "./files";
 import { inspectMedia, inspectSources, withoutPhp } from "./media";
 import { inspectReview } from "./review";
 import { validate, type AssetRegistry, type Failure, type PagePlan, type QualityContract, type QualityResult } from "./model";
@@ -77,7 +77,7 @@ export async function checkQuality(root: string, scope = "current"): Promise<Qua
       skeletons.set(signature, peer.plan.id);
     }
     for (const matching of openings.values()) if (matching.length >= 3) failures.push({ code: "REPEATED_OPENING", target: matching.join(" / "), message: "같은 목적의 변형 3개 이상이 동일한 도입 구조를 사용합니다. 첫 화면에서 선택 이유가 드러나도록 재설계해야 합니다." });
-    const reviewed = await inspectReview(root, group, contract.pages.filter(page => page.group === group), digest, sources);
+    const reviewed = await inspectReview(root, group, contract.pages.filter(page => page.group === group), digest, sources, await groupDigest(root, group));
     failures.push(...reviewed.failures);
     // Include dynamically rendered assets so PHP/CSS indirection cannot omit them from reuse checks.
     for (const capture of reviewed.review?.captures ?? []) {
