@@ -44,3 +44,11 @@ INTERACTION: 기존 헤더 스크롤 상태, 사례 이미지의 절제된 hover
 FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
 
 기존 시각 체계를 확장하는 작업이므로 전역 디자인 원본을 임의로 교체하지 않습니다. 메뉴별 검증 기록에 실제 검사 범위·남은 항목·커밋을 남깁니다.
+
+## 2026-09-27 — 메인 4 개선·재감사
+
+- 사용자 지정 범위인 메인 4만 전용 사진 4장·대형 아이콘·실제 산출물 표현을 포함한 9개 섹션으로 개선했습니다. 다른 메인 6종의 디자인은 변경하지 않았습니다.
+- 사무실 Ubuntu 반영 후 내장 브라우저의 PC·모바일, 라이트·다크와 320px·768px 추가 폭을 확인했습니다. 독립 시각 재검수는 메인 4 범위에서 `ship`입니다.
+- 빌드·구조·타입·토큰·계약·64개 회귀·서버 PHP lint와 배포 내용 일치를 확인했습니다. 코드·빌드 산출물·편집 문서·실제 화면 증거를 메인 4 전용 커밋에 포함합니다.
+- 전체 `quality:check`는 다른 페이지의 미완성 및 묶음 비교 승인 부족으로 실패 상태입니다. 판매 ZIP 승인, 기본 index 복사 설치, 로그인별 공용 기능 검사는 완료로 간주하지 않습니다.
+- [개선·재감사 보고서](../reports/JW-BUSINESS-MAIN-4-REDESIGN-REAUDIT-2026-09-27.md). 나머지 페이지는 사용자 검토 후 방향을 결정합니다.

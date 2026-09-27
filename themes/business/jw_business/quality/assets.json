@@ -192,6 +192,30 @@
       "sha256": "3d454a32e7d046ac530204ae1b6752a27be9fd48b5b4fd1752edc88b689e1d07",
       "origin": "onepage-projects-images-courtyard.webp",
       "owner": "onepage-projects"
+    },
+    {
+      "path": "src/assets/home-four/digital.webp",
+      "sha256": "def9924a954fdcc748048e0c637e0682dbfee6170afc34eed8fd7b2047a0290f",
+      "origin": "imagegen:98a62823-c1a3-4c1d-8530-fbfa26ae54ea",
+      "owner": "home-4"
+    },
+    {
+      "path": "src/assets/home-four/discovery.webp",
+      "sha256": "3299375905571f68fa76cfa4fb0b52fc662cde88502192355659a10c00ec9bb0",
+      "origin": "imagegen:b77b85a9-852f-4de3-a8b8-d1d8a2e36cc2",
+      "owner": "home-4"
+    },
+    {
+      "path": "src/assets/home-four/handoff.webp",
+      "sha256": "b102d2b3bebf5f6a681f1880865e98e1e0934d640d26097cd60b1649018ac7a6",
+      "origin": "imagegen:72a76b56-abb2-48ae-90e5-b21a604bd671",
+      "owner": "home-4"
+    },
+    {
+      "path": "src/assets/home-four/hero.webp",
+      "sha256": "aaaf472078c30de5ad7aef884c7b3ed3565c4a9b989cef95e310ee455d8b9986",
+      "origin": "imagegen:98a62823-c1a3-4c1d-8530-fbfa26ae54ea",
+      "owner": "home-4"
     }
   ]
 }

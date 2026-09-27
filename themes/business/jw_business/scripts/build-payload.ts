@@ -97,6 +97,9 @@ async function main(): Promise<void> {
   for (const name of ["strategy", "digital", "brand", "brand-detail", "industry-ceramics", "case-food", "case-learning"]) {
     await copyFile(join(themeRoot, "src/assets/main-one", `${name}.webp`), join(payloadRoot, "assets/main-one", `${name}.webp`));
   }
+  for (const name of ["hero", "discovery", "digital", "handoff"]) {
+    await copyFile(join(themeRoot, "src/assets/home-four", `${name}.webp`), join(payloadRoot, "assets/home-four", `${name}.webp`));
+  }
   await cp(join(themeRoot, "src/assets/home-three"), join(payloadRoot, "assets/home-three"), { recursive: true });
   await cp(join(themeRoot, "onepages/assets/images"), join(payloadRoot, "onepages/assets/images"), { recursive: true });
   await cp(join(themeRoot, "onepages/assets/sequence"), join(payloadRoot, "onepages/assets/sequence"), { recursive: true });
@@ -140,7 +143,7 @@ async function main(): Promise<void> {
           : generated
             ? "JW SOFT and bundled library authors"
             : "SIR",
-      acquiredAt: "2026-09-21",
+      acquiredAt: path.startsWith("assets/home-four/") ? "2026-09-27" : "2026-09-21",
       licenseExpression: blenderLogo
         ? "LicenseRef-JWSOFT AND OFL-1.1"
         : path.startsWith("onepages/assets/sequence/")

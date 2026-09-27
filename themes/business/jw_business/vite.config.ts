@@ -17,6 +17,7 @@ export default defineConfig({
       input: {
         "jw-business": resolve(import.meta.dirname, "src/scripts/theme.ts"),
         "home-one": resolve(import.meta.dirname, "src/scripts/home-one-entry.ts"),
+        "home-four": resolve(import.meta.dirname, "src/scripts/home-four-entry.ts"),
         "onepages": resolve(import.meta.dirname, "src/scripts/onepages-entry.ts"),
       },
       output: {
@@ -24,7 +25,7 @@ export default defineConfig({
         chunkFileNames: "js/chunks/[name]-[hash].js",
         assetFileNames: (asset) => {
           const name = asset.names[0] ?? "asset";
-          if (name.endsWith(".css")) return name.includes("home-one") ? "css/home-one.min.css" : name.includes("onepages") ? "css/onepages.min.css" : "css/jw-business.min.css";
+          if (name.endsWith(".css")) return name.includes("home-one") ? "css/home-one.min.css" : name.includes("home-four") ? "css/home-four.min.css" : name.includes("onepages") ? "css/onepages.min.css" : "css/jw-business.min.css";
           if (name.endsWith(".woff2")) return "fonts/[name][extname]";
           return "assets/[name]-[hash][extname]";
         }

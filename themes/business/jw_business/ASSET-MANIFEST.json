@@ -40,6 +40,54 @@
       "salePackage": true
     },
     {
+      "id": "build-assets-home-four-digital-webp-fef7df86",
+      "path": "theme/assets/home-four/digital.webp",
+      "sha256": "def9924a954fdcc748048e0c637e0682dbfee6170afc34eed8fd7b2047a0290f",
+      "provenance": "generated",
+      "generatedBy": "OpenAI image generation + cwebp + Vite 8.3.0",
+      "author": "OpenAI image generation, directed by JW SOFT",
+      "acquiredAt": "2026-09-27",
+      "licenseExpression": "LicenseRef-OpenAI-Generated-Asset AND LicenseRef-JWSOFT",
+      "usageScope": "theme",
+      "salePackage": true
+    },
+    {
+      "id": "build-assets-home-four-discovery-webp-f1e8b9c3",
+      "path": "theme/assets/home-four/discovery.webp",
+      "sha256": "3299375905571f68fa76cfa4fb0b52fc662cde88502192355659a10c00ec9bb0",
+      "provenance": "generated",
+      "generatedBy": "OpenAI image generation + cwebp + Vite 8.3.0",
+      "author": "OpenAI image generation, directed by JW SOFT",
+      "acquiredAt": "2026-09-27",
+      "licenseExpression": "LicenseRef-OpenAI-Generated-Asset AND LicenseRef-JWSOFT",
+      "usageScope": "theme",
+      "salePackage": true
+    },
+    {
+      "id": "build-assets-home-four-handoff-webp-8ce782fd",
+      "path": "theme/assets/home-four/handoff.webp",
+      "sha256": "b102d2b3bebf5f6a681f1880865e98e1e0934d640d26097cd60b1649018ac7a6",
+      "provenance": "generated",
+      "generatedBy": "OpenAI image generation + cwebp + Vite 8.3.0",
+      "author": "OpenAI image generation, directed by JW SOFT",
+      "acquiredAt": "2026-09-27",
+      "licenseExpression": "LicenseRef-OpenAI-Generated-Asset AND LicenseRef-JWSOFT",
+      "usageScope": "theme",
+      "salePackage": true
+    },
+    {
+      "id": "build-assets-home-four-hero-webp-786917c5",
+      "path": "theme/assets/home-four/hero.webp",
+      "sha256": "aaaf472078c30de5ad7aef884c7b3ed3565c4a9b989cef95e310ee455d8b9986",
+      "provenance": "generated",
+      "generatedBy": "OpenAI image generation + cwebp + Vite 8.3.0",
+      "author": "OpenAI image generation, directed by JW SOFT",
+      "acquiredAt": "2026-09-27",
+      "licenseExpression": "LicenseRef-OpenAI-Generated-Asset AND LicenseRef-JWSOFT",
+      "usageScope": "theme",
+      "salePackage": true
+    },
+    {
       "id": "build-assets-home-hero-cxphg0yl-webp-7f7bcac7",
       "path": "theme/assets/home-hero-CxPHG0Yl.webp",
       "sha256": "202e2c614d70a14607e8b0c1594a80c95cdd3294ec7dcbc72a88d76a6d4bbac0",
@@ -220,6 +268,18 @@
       "salePackage": true
     },
     {
+      "id": "build-css-home-four-min-css-8cdfc3e3",
+      "path": "theme/css/home-four.min.css",
+      "sha256": "446ce13574a90a14c655b7b449cf113c3df953bfa58dbc7f8bb04e37fa790012",
+      "provenance": "generated",
+      "generatedBy": "Vite 8.3.0",
+      "author": "JW SOFT and bundled library authors",
+      "acquiredAt": "2026-09-21",
+      "licenseExpression": "MIT AND OFL-1.1 AND LicenseRef-JWSOFT",
+      "usageScope": "theme",
+      "salePackage": true
+    },
+    {
       "id": "build-css-home-one-min-css-ff98ed24",
       "path": "theme/css/home-one.min.css",
       "sha256": "375afa3745c784f69e784377bc8575ee6340a864978bbafa09fa2256ae633e85",
@@ -234,7 +294,7 @@
     {
       "id": "build-css-jw-business-min-css-c16fb848",
       "path": "theme/css/jw-business.min.css",
-      "sha256": "c33e6d91c4be634a5400100810b64aa7bea26500758d91fa758d675e72f4dccf",
+      "sha256": "04a7e037ec15d9f013be60fefdb04908b5f4b38d044ccee24bab9e6cf0ee4fec",
       "provenance": "generated",
       "generatedBy": "Vite 8.3.0",
       "author": "JW SOFT and bundled library authors",
@@ -1728,9 +1788,45 @@
       "salePackage": true
     },
     {
-      "id": "build-js-chunks-viewport-dwhqkzuu-js-5e13b90b",
-      "path": "theme/js/chunks/viewport-DwHqKZUu.js",
-      "sha256": "0375b153326394bf74b0c9c2084ae5c92ca579e74ad73abf208767ad0fae652c",
+      "id": "build-js-chunks-lucide-bd68aeba-js-82205cfa",
+      "path": "theme/js/chunks/lucide-BD68aEba.js",
+      "sha256": "131969b8abc07b23baed0f16c35cce265777ce376e40deacf9dcc3af99389ece",
+      "provenance": "generated",
+      "generatedBy": "Vite 8.3.0",
+      "author": "JW SOFT and bundled library authors",
+      "acquiredAt": "2026-09-21",
+      "licenseExpression": "ISC AND MIT AND LicenseRef-JWSOFT",
+      "usageScope": "theme",
+      "salePackage": true
+    },
+    {
+      "id": "build-js-chunks-scroll-a4lbn8ij-js-6f53f382",
+      "path": "theme/js/chunks/scroll-A4lbN8IJ.js",
+      "sha256": "ec4eda24de405cccb2912b96789d4b5641e5529dbb65562de4680117a940490b",
+      "provenance": "generated",
+      "generatedBy": "Vite 8.3.0",
+      "author": "JW SOFT and bundled library authors",
+      "acquiredAt": "2026-09-21",
+      "licenseExpression": "ISC AND MIT AND LicenseRef-JWSOFT",
+      "usageScope": "theme",
+      "salePackage": true
+    },
+    {
+      "id": "build-js-chunks-viewport-bl6qps6n-js-dea6c620",
+      "path": "theme/js/chunks/viewport-BL6QPS6n.js",
+      "sha256": "364f134aa7676ba2d498d67a6f862d5711bf30a50a3a0a8d7d93507f76047539",
+      "provenance": "generated",
+      "generatedBy": "Vite 8.3.0",
+      "author": "JW SOFT and bundled library authors",
+      "acquiredAt": "2026-09-21",
+      "licenseExpression": "ISC AND MIT AND LicenseRef-JWSOFT",
+      "usageScope": "theme",
+      "salePackage": true
+    },
+    {
+      "id": "build-js-home-four-min-js-78caec8c",
+      "path": "theme/js/home-four.min.js",
+      "sha256": "fe16e57098a540bf00c47efaad055e458375af5baa630aa6f2862399e2e13fa0",
       "provenance": "generated",
       "generatedBy": "Vite 8.3.0",
       "author": "JW SOFT and bundled library authors",
@@ -1742,7 +1838,7 @@
     {
       "id": "build-js-home-one-min-js-21fa91f1",
       "path": "theme/js/home-one.min.js",
-      "sha256": "91e2b586c1a20ff29d8a4917f952b0bc70660a79563d9765b18ab8ee2f0efe12",
+      "sha256": "73ea5dd2f492c1b9edd500a18082584fca9795bda3d89585309a54d59614ac96",
       "provenance": "generated",
       "generatedBy": "Vite 8.3.0",
       "author": "JW SOFT and bundled library authors",
@@ -1754,7 +1850,7 @@
     {
       "id": "build-js-jw-business-min-js-0f77a7b0",
       "path": "theme/js/jw-business.min.js",
-      "sha256": "f1367496c3d0a7813806e2c1d37a77fdc73b11a35a54590c40cb7d5ebba5e73f",
+      "sha256": "93cee465cc381992b753b39784a65dfeed25abae0cd2aad8565df6b4172ec3b0",
       "provenance": "generated",
       "generatedBy": "Vite 8.3.0",
       "author": "JW SOFT and bundled library authors",
@@ -1766,7 +1862,7 @@
     {
       "id": "build-js-onepages-min-js-fe8b3578",
       "path": "theme/js/onepages.min.js",
-      "sha256": "41249d25cfd2da7eef329e28823e79968e9e4b1b0e7e8ea080d5d686046b98b2",
+      "sha256": "00e2641e3360f5870e8aa1fcbbfdc5e78cdc28e4da945d85925b0b4c19ba4fc1",
       "provenance": "generated",
       "generatedBy": "Vite 8.3.0",
       "author": "JW SOFT and bundled library authors",

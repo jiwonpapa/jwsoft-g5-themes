@@ -22,6 +22,13 @@ async function fixture(): Promise<{ root: string; contract: QualityContract; pla
   for (const dir of ["src/styles", "src/assets/images", "onepages/assets/images", "tokens", "generated", "theme", "scripts/quality", "quality/evidence"]) await mkdir(join(root, dir), { recursive: true });
   await put(root, "docs/PAGE-CATALOG.json", await readFile(join(realRoot, "docs/PAGE-CATALOG.json")));
   for (const file of ["package.json", "theme.manifest.json", "vite.config.ts", "scripts/check-quality.ts"]) await put(root, file, "{}");
+  const homeFourPhotos: AssetRegistry["photos"] = [];
+  for (let index = 0; index < 4; index++) {
+    const bytes = await sharp({ create: { width: 80, height: 60, channels: 3, background: { r: 40 + index * 30, g: 80, b: 130 } } }).png().toBuffer();
+    const path = `src/assets/home-four/fixture-${index}.png`;
+    await put(root, path, bytes);
+    homeFourPhotos.push({ path, sha256: sha256(bytes), origin: `fixture-main4-${index}`, owner: "home-4" });
+  }
   for (const page of contract.pages) {
     page.ready = page.group === "home" || page.group === "onepage";
     page.firstViewport = "방문자의 주제와 첫 행동이 실제 화면에 명확하게 표시됩니다.";
@@ -31,7 +38,7 @@ async function fixture(): Promise<{ root: string; contract: QualityContract; pla
     const requiredMarkers = page.id === "home-2"
         ? "data-jw-home2-slider data-jw-digital-artifact data-jwh2-decision-matrix data-jwh2-decision-evidence"
         : "";
-    const homeFourProducts = page.id === "home-4" ? '<section data-jwh4-work-product></section>'.repeat(4) : "";
+    const homeFourProducts = page.id === "home-4" ? '<section data-jwh4-work-product></section>'.repeat(4) + homeFourPhotos.map(photo => `<img src="${photo.path}">`).join("") + '<a class="h4-process-card"><i class="h4-large-icon"></i></a>'.repeat(4) + '<div class="h4-insights"><div></div><div></div></div>' : "";
     const mainOneSections = [
       '<section data-jw-hero-slider><h1>Test home-1</h1></section>',
       `<section>${'<span class="jwh1-service-icon"><svg></svg></span>'.repeat(3)}</section>`,
@@ -55,7 +62,7 @@ async function fixture(): Promise<{ root: string; contract: QualityContract; pla
         : '<article class="jw-page-facade"><h2>Scaffold</h2></article>');
   }
   await put(root, "quality/contract.json", contract);
-  await put(root, "quality/assets.json", { schemaVersion: 1, photos: [] });
+  await put(root, "quality/assets.json", { schemaVersion: 1, photos: homeFourPhotos });
   const plans = contract.pages.filter(page => page.group === "home");
   const now = new Date().toISOString();
   const review: Review = {
@@ -74,7 +81,7 @@ async function fixture(): Promise<{ root: string; contract: QualityContract; pla
     const path = `quality/evidence/${page.id}-${viewport}-${mode}.png`;
     await put(root, path, bytes);
     review.captures.push({ page: page.id, viewport, mode, width, height: 640, documentHeight: 640, fullPage: true, path, sha256: sha256(bytes),
-      url: `https://g5themes.test${page.route}`, capturedAt: now, media: [], requirements: page.requirements.map(item => ({ id: item.id, count: item.min, visible: true })) });
+      url: `https://g5themes.test${page.route}`, capturedAt: now, media: page.id === "home-4" ? homeFourPhotos.map(photo => photo.path) : [], requirements: page.requirements.map(item => ({ id: item.id, count: item.min, visible: true })) });
   }
   for (const page of plans) for (const id of page.interactions) for (const viewport of ["desktop", "mobile"] as const) {
     const captures = review.captures.filter(item => item.page === page.id && item.viewport === viewport);

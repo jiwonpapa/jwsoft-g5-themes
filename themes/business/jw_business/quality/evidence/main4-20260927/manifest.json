@@ -1,0 +1,69 @@
+{
+  "page": "home-4",
+  "url": "https://g5themes.test/theme/jw_business/index_4.php",
+  "capture": "Codex in-app browser; final full document captures include complete viewport width",
+  "inputDigest": "c5ab2c5edfb34a38a90fcbe7f7db7e683cb3b1536c61c2703e58c997717700da",
+  "viewport": {
+    "desktop": {
+      "width": 1440,
+      "height": 1000
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844
+    }
+  },
+  "evidence": [
+    {
+      "file": "desktop-light.png",
+      "width": 1440,
+      "height": 6905,
+      "sha256": "8603b2f5ca03dff35a680b05cf4621694ba8cc38cc32a417c32ca18843f7a90d",
+      "capturedAt": "2026-09-27T05:21:21.257645+00:00",
+      "mimeType": "image/png"
+    },
+    {
+      "file": "desktop-dark.png",
+      "width": 1440,
+      "height": 6905,
+      "sha256": "6286fa0a79d4fed332733884062ae2542444536705453a3426c561ccd3056747",
+      "capturedAt": "2026-09-27T05:21:23.514966+00:00",
+      "mimeType": "image/png"
+    },
+    {
+      "file": "mobile-light.png",
+      "width": 390,
+      "height": 8308,
+      "sha256": "eb7f8955541a14b78de94006c3c400a9908f6ec8f3a67d296a39046049d5cceb",
+      "capturedAt": "2026-09-27T05:21:47.281916+00:00",
+      "mimeType": "image/png"
+    },
+    {
+      "file": "mobile-dark.png",
+      "width": 390,
+      "height": 8308,
+      "sha256": "5555db94559f7b187e3a039e90a2d2cd7a735bba1bb9990b60bf9660b8101e46",
+      "capturedAt": "2026-09-27T05:21:36.687083+00:00",
+      "mimeType": "image/png"
+    },
+    {
+      "file": "desktop-hero.jpg",
+      "width": 1425,
+      "height": 990,
+      "sha256": "e69d5a99babea2c89ea535c37f1c807059c472d1fdecf7d0581ecd889c6fc381",
+      "capturedAt": "2026-09-27T05:21:21.330896+00:00",
+      "mimeType": "image/jpeg"
+    },
+    {
+      "file": "before-desktop.jpg",
+      "width": 1425,
+      "height": 6122,
+      "sha256": "32382b1a698c4a36bcb731c805c024a189fe27a7a175bb9f340831a5f40d0a38",
+      "capturedAt": "2026-09-27T04:57:36.806605+00:00",
+      "mimeType": "image/jpeg"
+    }
+  ],
+  "qualityGate": "fail: entire product/group evidence still pending; this manifest is not home-group approval",
+  "reviewer": "/root/main4_finish_reviewer",
+  "visualDisposition": "ship, Main 4 visual scope only"
+}

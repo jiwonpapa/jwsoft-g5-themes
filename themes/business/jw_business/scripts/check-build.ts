@@ -87,7 +87,8 @@ async function main(): Promise<void> {
   const jsPath = join(payloadRoot, "js/jw-business.min.js");
   const homeCssPath = join(payloadRoot, "css/home-one.min.css");
   const homeJsPath = join(payloadRoot, "js/home-one.min.js");
-  for (const path of ["css/onepages.min.css", "js/onepages.min.js", "assets/home-three/mobility.webp", "assets/home-three/print.webp",
+  for (const path of ["css/home-four.min.css", "js/home-four.min.js", "assets/home-four/hero.webp", "assets/home-four/discovery.webp", "assets/home-four/digital.webp", "assets/home-four/handoff.webp",
+    "css/onepages.min.css", "js/onepages.min.js", "assets/home-three/mobility.webp", "assets/home-three/print.webp",
     "onepages/assets/images/service-workshop.webp", "onepages/assets/images/courtyard-colonnade.webp",
     "onepages/assets/sequence/node-001.webp", "onepages/assets/sequence/node-036.webp"]) {
     assert(fileSet.has(path), `seven-page asset missing from installable theme: ${path}`);
@@ -117,12 +118,18 @@ async function main(): Promise<void> {
   const sharedChunks = files.filter((path) => path.startsWith("js/chunks/") && path.endsWith(".js"));
   const emblaChunk = sharedChunks.find((path) => /^js\/chunks\/embla-carousel\.esm-[\w-]+\.js$/.test(path));
   const viewportChunk = sharedChunks.find((path) => /^js\/chunks\/viewport-[\w-]+\.js$/.test(path));
-  assert(sharedChunks.length === 2 && emblaChunk && viewportChunk, `expected shared Embla and Motion viewport chunks, found ${sharedChunks.join(", ")}`);
+  const lucideChunk = sharedChunks.find((path) => /^js\/chunks\/lucide-[\w-]+\.js$/.test(path));
+  const scrollChunk = sharedChunks.find((path) => /^js\/chunks\/scroll-[\w-]+\.js$/.test(path));
+  assert(sharedChunks.length === 4 && emblaChunk && viewportChunk && lucideChunk && scrollChunk, `expected shared Embla, Lucide, Motion viewport and scroll chunks, found ${sharedChunks.join(", ")}`);
   const emblaImport = `./chunks/${emblaChunk.split("/").pop()}`;
   const viewportImport = `./chunks/${viewportChunk.split("/").pop()}`;
   assert(js.includes(emblaImport) && homeJs.includes(emblaImport), "Embla is not shared by both entries");
   const onepageJs = await readFile(join(payloadRoot, "js/onepages.min.js"), "utf8");
-  assert(onepageJs.includes(emblaImport) && onepageJs.includes(viewportImport) && homeJs.includes(viewportImport), "onepages and Main 1 do not share the chosen effect stack");
+  const scrollImport = `./chunks/${scrollChunk.split("/").pop()}`;
+  const homeFourJs = await readFile(join(payloadRoot, "js/home-four.min.js"), "utf8");
+  const lucideImport = `./chunks/${lucideChunk.split("/").pop()}`;
+  assert(homeFourJs.includes(viewportImport) && homeFourJs.includes(lucideImport) && js.includes(lucideImport), "Main 4 must share Motion viewport and Lucide instead of bundling alternate engines");
+  assert(onepageJs.includes(emblaImport) && onepageJs.includes(scrollImport) && homeJs.includes(scrollImport), "onepages and Main 1 do not share the chosen effect stack");
   const [emblaLicense, motionLicense, notices] = await Promise.all([
     readFile(join(themeRoot, "LICENSES/embla-carousel-MIT.txt"), "utf8"),
     readFile(join(themeRoot, "LICENSES/motion-MIT.txt"), "utf8"),
@@ -139,7 +146,9 @@ async function main(): Promise<void> {
   const jsGzip = gzipSync(js).byteLength;
   const firstPageJsGzip = jsGzip + gzipSync(homeJs).byteLength
     + gzipSync(await readFile(join(payloadRoot, emblaChunk))).byteLength
-    + gzipSync(await readFile(join(payloadRoot, viewportChunk))).byteLength;
+    + gzipSync(await readFile(join(payloadRoot, viewportChunk))).byteLength
+    + gzipSync(await readFile(join(payloadRoot, lucideChunk))).byteLength
+    + gzipSync(await readFile(join(payloadRoot, scrollChunk))).byteLength;
   assert(cssGzip <= 90 * 1024, `CSS gzip budget exceeded: ${cssGzip} bytes`);
   assert(jsGzip <= 80 * 1024, `JavaScript gzip budget exceeded: ${jsGzip} bytes`);
   assert(firstPageJsGzip <= 140 * 1024, `Main 1 JavaScript gzip budget exceeded: ${firstPageJsGzip} bytes`);
@@ -148,7 +157,7 @@ async function main(): Promise<void> {
     assets: Array<{ path: string; provenance: string }>;
   };
   assert(manifest.assets.length > fontFiles.length, "asset manifest does not cover built and inherited assets");
-  for (const path of ["theme/css/home-one.min.css", "theme/js/home-one.min.js", `theme/${sharedChunks[0]}`]) {
+  for (const path of ["theme/css/home-one.min.css", "theme/js/home-one.min.js", "theme/css/home-four.min.css", "theme/js/home-four.min.js", `theme/${sharedChunks[0]}`]) {
     assert(manifest.assets.some((asset) => asset.path === path && asset.provenance === "generated"), `built Main 1 asset has wrong provenance: ${path}`);
   }
 
