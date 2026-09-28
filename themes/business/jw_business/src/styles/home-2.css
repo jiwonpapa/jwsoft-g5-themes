@@ -15,6 +15,22 @@ html[data-theme='jw-dark'] .jwh2-product__bar span:last-child,html[data-theme='j
 @media(max-width:760px){.jwh2-shell{width:calc(100% - 36px)}}
 @media(max-width:760px){.jwh2-product__bar{align-items:flex-start;padding:18px 20px}.jwh2-product__bar span:last-child{max-width:190px}}
 
+/* The result is an inspectable screen mockup, not invented performance data. */
+.jwh2-screen__heading{padding-bottom:28px;border-bottom:1px solid var(--color-base-300)}
+.jwh2-screen__heading>span{display:block;color:var(--jw-link-ink);font-size:11px;font-weight:800;letter-spacing:.15em}
+.jwh2-screen__heading>strong{display:block;margin-top:15px;font-size:clamp(24px,2.5vw,36px);line-height:1.2;letter-spacing:-.055em}
+.jwh2-screen__heading>p{margin:12px 0 0;color:color-mix(in srgb,var(--color-base-content) 67%,transparent);font-size:14px;line-height:1.6}
+.jwh2-screen__query{display:flex;align-items:center;gap:15px;min-height:68px;margin:30px 0 20px;padding:0 22px;border:2px solid var(--color-primary);color:var(--color-base-content);font-size:14px;font-weight:700}
+.jwh2-screen__query svg{flex:none;width:22px;height:22px;color:var(--color-primary)}
+.jwh2-screen__query span{flex:1}.jwh2-screen__query b{color:var(--color-primary);font-size:24px;font-weight:500}
+.jwh2-screen__result{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:24px 4px;border-top:1px solid var(--color-base-300)}
+.jwh2-screen__result>div>span{display:block;color:var(--jw-link-ink);font-size:11px;font-weight:800}
+.jwh2-screen__result strong{display:block;margin-top:7px;font-size:21px;line-height:1.3}
+.jwh2-screen__result p{margin:7px 0 0;color:color-mix(in srgb,var(--color-base-content) 68%,transparent);font-size:13px;line-height:1.5}
+.jwh2-screen__result svg{flex:none;width:28px;height:28px;color:var(--color-primary)}
+.jwh2-screen__foot{display:flex;justify-content:space-between;gap:18px;padding-top:20px;border-top:1px solid var(--color-base-300);color:color-mix(in srgb,var(--color-base-content) 65%,transparent);font-size:11px}
+@media(max-width:760px){.jwh2-screen__heading{padding-bottom:24px}.jwh2-screen__query{min-height:60px;margin-top:25px;padding-inline:15px;font-size:12px}.jwh2-screen__result{padding-block:20px}.jwh2-screen__foot{flex-direction:column;gap:5px}}
+
 /* Decision-led split slider: intentionally different from Main 1's full-bleed editorial hero. */
 .jwh2{--jwh2-blue:var(--color-primary);--jwh2-line:color-mix(in oklab,var(--color-base-content) 17%,transparent);--jw-color-muted:color-mix(in oklab,var(--color-base-content) 70%,transparent)}
 

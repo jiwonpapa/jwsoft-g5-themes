@@ -354,7 +354,7 @@
     {
       "id": "build-css-jw-business-min-css-c16fb848",
       "path": "theme/css/jw-business.min.css",
-      "sha256": "7ef04114e5acbbf1c1f7a308d3b557a500b6789d503b9eac8121a26b8b6a67ab",
+      "sha256": "6181eefd4c48db82eb17c5f93d0d4a34a23fc642e828d19e1f684540780f832b",
       "provenance": "generated",
       "generatedBy": "Vite 8.3.0",
       "author": "JW SOFT and bundled library authors",
@@ -378,7 +378,7 @@
     {
       "id": "build-css-onepages-min-css-99a37b37",
       "path": "theme/css/onepages.min.css",
-      "sha256": "e2adc9b2ed12ed5728c4189610df58d95ab640c5c72f2f3d572aecc2ac810061",
+      "sha256": "d9b4b39f6e3c187c7977625f8e4cd34ed1151a23b8977ebb19abc1715d730568",
       "provenance": "generated",
       "generatedBy": "Vite 8.3.0",
       "author": "JW SOFT and bundled library authors",

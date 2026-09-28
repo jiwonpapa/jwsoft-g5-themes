@@ -157,7 +157,7 @@ $contact_url = jw_business_page_url('contact-1');
         <div class="jwh2-shell jwh2-result__grid">
             <div class="jwh2-result__copy">
                 <h2 id="jwh2-result-title">문서로 끝나지 않는<br>디지털 결과물</h2>
-                <p>가설은 화면으로, 화면은 측정 가능한 운영 흐름으로 바꿉니다. 오른쪽은 서비스 개선 프로젝트에서 사용하는 결과물 구성을 재현한 예시입니다.</p>
+                <p>가설은 고객이 직접 읽고 선택할 수 있는 화면으로 옮깁니다. 오른쪽은 가상 기업의 서비스 탐색 화면을 재현한 시안입니다.</p>
                 <dl>
                     <div><dt>발견</dt><dd>고객 여정과 병목 지점</dd></div>
                     <div><dt>검증</dt><dd>사용 가능한 프로토타입</dd></div>
@@ -167,24 +167,12 @@ $contact_url = jw_business_page_url('contact-1');
             </div>
 
             <div class="jwh2-product" data-jw-digital-artifact aria-label="디지털 서비스 결과물 예시">
-                <div class="jwh2-product__bar">
-                    <span>Service Pulse</span>
-                    <span>시연 데이터 · 실제 고객 실적이 아닙니다</span>
-                </div>
-                <div class="jwh2-product__body">
-                    <div class="jwh2-product__summary">
-                        <p>이번 주 핵심 신호</p>
-                        <strong>첫 행동까지 걸린 시간</strong>
-                        <div><b>2분 18초</b><span>지난주보다 24초 단축</span></div>
-                    </div>
-                    <div class="jwh2-product__chart" role="img" aria-label="최근 7일 개선 추세를 나타낸 예시 차트">
-                        <span style="--value: 38%"></span><span style="--value: 51%"></span><span style="--value: 46%"></span><span style="--value: 64%"></span><span style="--value: 58%"></span><span style="--value: 76%"></span><span style="--value: 84%"></span>
-                    </div>
-                    <div class="jwh2-product__flow">
-                        <div><span>고객 행동</span><strong>첫 방문</strong><b>100%</b></div>
-                        <div><span>핵심 행동</span><strong>서비스 선택</strong><b>68%</b></div>
-                        <div><span>완료 행동</span><strong>상담 요청</strong><b>41%</b></div>
-                    </div>
+                <div class="jwh2-product__body" role="img" aria-label="가상 기업 서비스 탐색 화면 시안. 고객이 과제를 고르면 전략 수립과 디지털 서비스 설계 중 관련 서비스를 비교하고 문의에 필요한 내용을 확인합니다.">
+                    <div class="jwh2-screen__heading"><span>EXPLORE / 01</span><strong>필요한 일부터 찾아보세요.</strong><p>서비스 이름을 몰라도, 지금의 과제에서 시작할 수 있습니다.</p></div>
+                    <div class="jwh2-screen__query"><i data-lucide="search" aria-hidden="true"></i><span>지금 해결하고 싶은 일은 무엇인가요?</span><b aria-hidden="true">↗</b></div>
+                    <div class="jwh2-screen__result"><div><span>01 / 방향을 정할 때</span><strong>비즈니스 전략</strong><p>고객의 문제와 실행 순서를 함께 정리합니다.</p></div><i data-lucide="arrow-up-right" aria-hidden="true"></i></div>
+                    <div class="jwh2-screen__result"><div><span>02 / 화면을 바꿀 때</span><strong>디지털 서비스</strong><p>정보를 찾고 선택하는 흐름을 설계합니다.</p></div><i data-lucide="arrow-up-right" aria-hidden="true"></i></div>
+                    <div class="jwh2-screen__foot"><span>화면 구조 시안 · 시연용 가상 기업</span><span>서비스 비교 → 문의 준비</span></div>
                 </div>
             </div>
         </div>

@@ -484,8 +484,7 @@ html[data-theme="jw-dark"] .jwo { --jwo-accent: color-mix(in oklab, var(--color-
  .jwo--projects .jwo-project-hero__track figcaption{left:20px;right:auto;bottom:120px;font-size:.67rem}
  .jwo--projects .jwo-project-hero__bottom{bottom:18px;display:block}.jwo--projects .jwo-project-hero__bottom>p{font-size:.66rem}
  .jwo--projects .jwo-project-hero__controls{margin-top:14px;justify-content:flex-start}
- .jwo--projects .jwo-gallery__viewport{width:calc(100% - 40px)}.jwo--projects .jwo-gallery__track>figure{flex-basis:calc(100vw - 60px)}
- .jwo--projects .jwo-gallery__controls>div{margin-right:56px}
+ .jwo--projects .jwo-gallery__viewport{width:calc(100% - 40px)}.jwo--projects .jwo-gallery__track>figure{flex-basis:100%}
 }
 @media(max-width:960px){.jwo-service-v2 .jwo-service-board{gap:16px}.jwo-service-v2 .jwo-service-card{padding:30px 20px}.jwo-workbench__body{grid-template-columns:.75fr 1.25fr}.jwo-workbench aside,.jwo-workbench__content{padding:28px}.jwo-aura-feature-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:767px){

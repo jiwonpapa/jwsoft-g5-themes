@@ -1675,11 +1675,11 @@
 
   .jw-theme .jw-hero__overlay {
     z-index: -1;
-    background: linear-gradient(90deg, color-mix(in oklch, white 96%, transparent) 0%, color-mix(in oklch, white 88%, transparent) 32%, transparent 66%);
+    background: linear-gradient(90deg, color-mix(in oklch, var(--color-base-100) 96%, transparent) 0%, color-mix(in oklch, var(--color-base-100) 88%, transparent) 32%, transparent 66%);
   }
 
   .jw-theme[data-theme="jw-dark"] .jw-hero__overlay {
-    background: linear-gradient(90deg, color-mix(in oklch, var(--color-base-100) 94%, transparent) 0%, color-mix(in oklch, var(--color-base-100) 80%, transparent) 38%, color-mix(in oklch, black 18%, transparent) 78%);
+    background: linear-gradient(90deg, color-mix(in oklch, var(--color-base-100) 94%, transparent) 0%, color-mix(in oklch, var(--color-base-100) 80%, transparent) 38%, color-mix(in oklch, var(--color-neutral) 18%, transparent) 78%);
   }
 
   .jw-theme .jw-hero__content {
@@ -2158,11 +2158,11 @@
   }
 
   .jw-theme .jw-home--1 .jw-hero__overlay {
-    background: linear-gradient(90deg, color-mix(in oklch, white 97%, transparent) 0%, color-mix(in oklch, white 90%, transparent) 34%, color-mix(in oklch, white 12%, transparent) 68%, transparent 100%);
+    background: linear-gradient(90deg, color-mix(in oklch, var(--color-base-100) 97%, transparent) 0%, color-mix(in oklch, var(--color-base-100) 90%, transparent) 34%, color-mix(in oklch, var(--color-base-100) 12%, transparent) 68%, transparent 100%);
   }
 
   .jw-theme[data-theme="jw-dark"] .jw-home--1 .jw-hero__overlay {
-    background: linear-gradient(90deg, color-mix(in oklch, var(--color-base-100) 96%, transparent) 0%, color-mix(in oklch, var(--color-base-100) 84%, transparent) 36%, color-mix(in oklch, black 22%, transparent) 72%, color-mix(in oklch, black 10%, transparent) 100%);
+    background: linear-gradient(90deg, color-mix(in oklch, var(--color-base-100) 96%, transparent) 0%, color-mix(in oklch, var(--color-base-100) 84%, transparent) 36%, color-mix(in oklch, var(--color-neutral) 22%, transparent) 72%, color-mix(in oklch, var(--color-neutral) 10%, transparent) 100%);
   }
 
   .jw-theme .jw-home--1 .jw-hero__content {
@@ -2424,19 +2424,19 @@
     position: absolute;
     z-index: -1;
     inset: 0;
-    background: linear-gradient(0deg, color-mix(in oklch, black 76%, transparent) 0%, color-mix(in oklch, black 30%, transparent) 42%, transparent 76%);
+    background: linear-gradient(0deg, color-mix(in oklch, var(--color-neutral) 76%, transparent) 0%, color-mix(in oklch, var(--color-neutral) 30%, transparent) 42%, transparent 76%);
     content: "";
   }
 
   .jw-theme .jw-home--1 .jw-project__copy {
     max-width: 860px;
     padding: clamp(38px, 6vw, 76px);
-    color: white;
+    color: var(--color-neutral-content);
   }
 
   .jw-theme .jw-home--1 .jw-project__copy > p {
     margin: 0 0 18px;
-    color: color-mix(in oklch, white 72%, transparent);
+    color: color-mix(in oklch, var(--color-neutral-content) 72%, transparent);
     font-size: 11px;
     font-weight: 720;
     letter-spacing: 0.14em;
@@ -2444,14 +2444,14 @@
   }
 
   .jw-theme .jw-home--1 .jw-project__copy h2 {
-    color: white;
+    color: var(--color-neutral-content);
   }
 
   .jw-theme .jw-home--1 .jw-project__copy > span {
     display: block;
     max-width: 620px;
     margin-top: 24px;
-    color: color-mix(in oklch, white 78%, transparent);
+    color: color-mix(in oklch, var(--color-neutral-content) 78%, transparent);
     font-size: 15px;
     line-height: 1.7;
   }
@@ -2463,8 +2463,8 @@
     gap: 10px;
     margin-top: 34px;
     padding-bottom: 7px;
-    border-bottom: 1px solid color-mix(in oklch, white 62%, transparent);
-    color: white;
+    border-bottom: 1px solid color-mix(in oklch, var(--color-neutral-content) 62%, transparent);
+    color: var(--color-neutral-content);
     font-size: 14px;
     font-weight: 680;
   }
@@ -3877,11 +3877,11 @@
     border-radius: 14px;
     background: var(--color-base-100);
     color: var(--color-base-content);
-    box-shadow: 0 36px 90px -44px black;
+    box-shadow: 0 36px 90px -44px var(--color-neutral);
   }
 
   .jw-theme .jw-autosave-dialog::backdrop {
-    background: color-mix(in oklch, black 46%, transparent);
+    background: color-mix(in oklch, var(--color-neutral) 46%, transparent);
     backdrop-filter: blur(3px);
   }
 
@@ -4324,11 +4324,11 @@
     border-radius: 14px;
     background: var(--color-base-100);
     color: var(--color-base-content);
-    box-shadow: 0 36px 90px -44px black;
+    box-shadow: 0 36px 90px -44px var(--color-neutral);
   }
 
   .jw-theme .jw-consent-dialog::backdrop {
-    background: color-mix(in oklch, black 46%, transparent);
+    background: color-mix(in oklch, var(--color-neutral) 46%, transparent);
     backdrop-filter: blur(3px);
   }
 
@@ -4654,7 +4654,7 @@
 
   .jw-theme .jw-home--1 .jw-hero__overlay,
   .jw-theme[data-theme="jw-dark"] .jw-home--1 .jw-hero__overlay {
-    background: linear-gradient(0deg, color-mix(in oklch, var(--color-base-100) 97%, transparent) 0%, color-mix(in oklch, var(--color-base-100) 84%, transparent) 48%, color-mix(in oklch, black 14%, transparent) 100%);
+    background: linear-gradient(0deg, color-mix(in oklch, var(--color-base-100) 97%, transparent) 0%, color-mix(in oklch, var(--color-base-100) 84%, transparent) 48%, color-mix(in oklch, var(--color-neutral) 14%, transparent) 100%);
   }
 
   .jw-theme .jw-home--1 .jw-hero__content {
