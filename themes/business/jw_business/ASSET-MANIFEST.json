@@ -196,6 +196,30 @@
       "salePackage": true
     },
     {
+      "id": "build-assets-images-home2-decision-workshop-webp-0201005e",
+      "path": "theme/assets/images/home2-decision-workshop.webp",
+      "sha256": "04d6fb43cdc1df4998c0ea5232bca3e18d0055a5a216ee8449c3a9cbe5f00d37",
+      "provenance": "generated",
+      "generatedBy": "OpenAI image generation + sharp + Vite 8.3.0",
+      "author": "OpenAI image generation, directed by JW SOFT",
+      "acquiredAt": "2026-09-28",
+      "licenseExpression": "LicenseRef-OpenAI-Generated-Asset AND LicenseRef-JWSOFT",
+      "usageScope": "theme",
+      "salePackage": true
+    },
+    {
+      "id": "build-assets-images-home2-evidence-retail-webp-fa72dfc5",
+      "path": "theme/assets/images/home2-evidence-retail.webp",
+      "sha256": "faf50c6bb5bc6b654688f78b285fa0a9ffdee363548ec47eb9b08c5c1db63787",
+      "provenance": "generated",
+      "generatedBy": "OpenAI image generation + sharp + Vite 8.3.0",
+      "author": "OpenAI image generation, directed by JW SOFT",
+      "acquiredAt": "2026-09-28",
+      "licenseExpression": "LicenseRef-OpenAI-Generated-Asset AND LicenseRef-JWSOFT",
+      "usageScope": "theme",
+      "salePackage": true
+    },
+    {
       "id": "build-assets-images-home2-strategy-webp-db2b31d1",
       "path": "theme/assets/images/home2-strategy.webp",
       "sha256": "b27be2c000da4eee6ee842d34c3627e04fcdb9cb1e9f849514722617defd6f5f",
@@ -330,7 +354,7 @@
     {
       "id": "build-css-jw-business-min-css-c16fb848",
       "path": "theme/css/jw-business.min.css",
-      "sha256": "25f23b9668ab24a9cca5c911ee29910f2217fb74412adddac3ab6e31818c11fd",
+      "sha256": "7ef04114e5acbbf1c1f7a308d3b557a500b6789d503b9eac8121a26b8b6a67ab",
       "provenance": "generated",
       "generatedBy": "Vite 8.3.0",
       "author": "JW SOFT and bundled library authors",
@@ -354,7 +378,7 @@
     {
       "id": "build-css-onepages-min-css-99a37b37",
       "path": "theme/css/onepages.min.css",
-      "sha256": "34809c4382890773a678a82807d6900f4b42bb6b4e71cefb169928fe3dad78f5",
+      "sha256": "e2adc9b2ed12ed5728c4189610df58d95ab640c5c72f2f3d572aecc2ac810061",
       "provenance": "generated",
       "generatedBy": "Vite 8.3.0",
       "author": "JW SOFT and bundled library authors",
@@ -3223,6 +3247,18 @@
       "generatedBy": "OpenAI image generation + cwebp + Vite 8.3.0",
       "author": "OpenAI image generation, directed by JW SOFT",
       "acquiredAt": "2026-09-21",
+      "licenseExpression": "LicenseRef-OpenAI-Generated-Asset AND LicenseRef-JWSOFT",
+      "usageScope": "theme",
+      "salePackage": true
+    },
+    {
+      "id": "build-onepages-assets-images-service-field-studio-webp-b84736a1",
+      "path": "theme/onepages/assets/images/service-field-studio.webp",
+      "sha256": "3eb0e72ca1ac78dc3170983d59ec373321bdabd2691a94c55c0a6d80e9b830c4",
+      "provenance": "generated",
+      "generatedBy": "OpenAI image generation + sharp + Vite 8.3.0",
+      "author": "OpenAI image generation, directed by JW SOFT",
+      "acquiredAt": "2026-09-28",
       "licenseExpression": "LicenseRef-OpenAI-Generated-Asset AND LicenseRef-JWSOFT",
       "usageScope": "theme",
       "salePackage": true

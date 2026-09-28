@@ -100,7 +100,9 @@ async function main(): Promise<void> {
   for (const name of ["hero", "discovery", "digital", "handoff"]) {
     await copyFile(join(themeRoot, "src/assets/home-four", `${name}.webp`), join(payloadRoot, "assets/home-four", `${name}.webp`));
   }
-  await copyFile(join(themeRoot, "src/assets/images/home2-strategy.webp"), join(payloadRoot, "assets/images/home2-strategy.webp"));
+  for (const name of ["home2-strategy", "home2-decision-workshop", "home2-evidence-retail"]) {
+    await copyFile(join(themeRoot, "src/assets/images", `${name}.webp`), join(payloadRoot, "assets/images", `${name}.webp`));
+  }
   await cp(join(themeRoot, "src/assets/home-three"), join(payloadRoot, "assets/home-three"), { recursive: true, filter: (source) => !source.endsWith('.json') });
   for (const source of await walkFiles(join(themeRoot, "onepages/assets/images"))) {
     if (basename(source) !== "node-poster.webp" && !source.endsWith('.json')) await copyFile(source, join(payloadRoot, "onepages/assets/images", basename(source)));
@@ -119,6 +121,11 @@ async function main(): Promise<void> {
     const bytes = await readFile(file);
     const blenderLogo = path.startsWith("assets/brand/");
     const generatedImage = (path.startsWith("assets/") || path.startsWith("onepages/assets/")) && /\.(?:avif|jpe?g|png|webp)$/i.test(path);
+    const september28SharpImage = new Set([
+      "assets/images/home2-decision-workshop.webp",
+      "assets/images/home2-evidence-retail.webp",
+      "onepages/assets/images/service-field-studio.webp",
+    ]).has(path);
     const generated = builtAssets.has(path) || generatedImage;
     const font = path.startsWith("fonts/");
     assets.push({
@@ -133,6 +140,8 @@ async function main(): Promise<void> {
           ? "Blender 5.2.2 LTS + WebP encoding"
           : font
           ? "Vite 8.3.0 + Pretendard 1.3.9"
+          : september28SharpImage
+            ? "OpenAI image generation + sharp + Vite 8.3.0"
           : generatedImage
             ? "OpenAI image generation + cwebp + Vite 8.3.0"
             : "Vite 8.3.0"
@@ -153,7 +162,7 @@ async function main(): Promise<void> {
           : generated
             ? "JW SOFT and bundled library authors"
             : "SIR",
-      acquiredAt: path.startsWith("onepages/assets/sequence/") || /\/(?:service-studio|space-studio)\.webp$/.test(path) ? "2026-09-28" : path.startsWith("assets/home-four/") ? "2026-09-27" : "2026-09-21",
+      acquiredAt: september28SharpImage || path.startsWith("onepages/assets/sequence/") || /\/(?:service-studio|space-studio)\.webp$/.test(path) ? "2026-09-28" : path.startsWith("assets/home-four/") ? "2026-09-27" : "2026-09-21",
       licenseExpression: blenderLogo
         ? "LicenseRef-JWSOFT AND OFL-1.1"
         : path.startsWith("onepages/assets/sequence/")

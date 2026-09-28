@@ -112,7 +112,27 @@ $contact_url = jw_business_page_url('contact-1');
         </div>
     </section>
 
-<section class="jwh2-journey jwh2-shell" aria-labelledby="jwh2-journey-title"><div><h2 id="jwh2-journey-title">고객의 움직임이<br>설계의 근거가 됩니다.</h2><p>방문부터 상담까지, 어떤 장면을 확인할지 먼저 정합니다. 화면과 질문을 연결한 가상 서비스 검토 지도입니다.</p></div><div class="jwh2-journey-map" data-jwh2-journey-map><div class="jwh2-journey-map__head"><strong>서비스 탐색 지도</strong><span>가상 고객 여정</span></div><ol><li><i data-lucide="search" aria-hidden="true"></i><b>발견</b><span>검색 · 첫 방문</span></li><li><i data-lucide="files" aria-hidden="true"></i><b>비교</b><span>범위 · 사례</span></li><li><i data-lucide="message-circle" aria-hidden="true"></i><b>문의</b><span>준비 · 다음 단계</span></li></ol><div class="jwh2-journey-map__notes"><p><strong>관찰할 장면</strong>어떤 정보 앞에서 멈추는가</p><p><strong>확인할 자료</strong>탐색 기록과 반복되는 질문</p></div></div></section>
+    <section class="jwh2-journey" aria-labelledby="jwh2-journey-title">
+        <div class="jwh2-shell jwh2-journey__layout">
+            <div class="jwh2-journey__story">
+                <h2 id="jwh2-journey-title">회의실의 의견을<br>확인할 장면으로.</h2>
+                <p>가상의 서비스 개선 과제에서, 추상적인 의견 대신 고객이 실제로 지나가는 세 순간을 살펴봅니다.</p>
+                <figure>
+                    <img src="<?php echo G5_THEME_URL; ?>/assets/images/home2-decision-workshop.webp" width="1536" height="1024" alt="가상 전략 워크숍에서 고객 여정 자료와 선택지를 놓고 검토하는 장면" loading="lazy">
+                    <figcaption>판단 자료를 함께 검토하는 시연 장면 · AI 생성 이미지</figcaption>
+                </figure>
+            </div>
+            <div class="jwh2-journey-map" data-jwh2-journey-map>
+                <div class="jwh2-journey-map__head"><strong>살펴볼 고객의 순간</strong><span>가상 고객 여정</span></div>
+                <ol>
+                    <li><i data-lucide="search" aria-hidden="true"></i><div><b>첫 방문</b><span>찾는 답이 첫 화면에 있는가</span></div></li>
+                    <li><i data-lucide="files" aria-hidden="true"></i><div><b>비교</b><span>서비스의 차이를 읽을 수 있는가</span></div></li>
+                    <li><i data-lucide="message-circle" aria-hidden="true"></i><div><b>문의 준비</b><span>무엇을 보내야 할지 아는가</span></div></li>
+                </ol>
+                <p class="jwh2-journey-map__conclusion">이 세 장면에서 확인한 질문을 다음 우선순위 판단에 사용합니다.</p>
+            </div>
+        </div>
+    </section>
     <section class="jwh2-matrix" aria-labelledby="jwh2-matrix-title" data-jwh2-decision-matrix>
         <div class="jwh2-shell">
             <div class="jwh2-matrix__heading">
@@ -173,12 +193,12 @@ $contact_url = jw_business_page_url('contact-1');
     <section class="jwh2-evidence" aria-labelledby="jwh2-evidence-title" data-jwh2-decision-evidence>
         <div class="jwh2-shell">
             <div class="jwh2-evidence__heading"><h2 id="jwh2-evidence-title">결정마다 남기는<br>확인 가능한 근거.</h2><p>같은 가상 과제에서 우선순위를 정할 때 쓰는 자료 형식입니다. 숫자는 실적이 아닌 작성 예시입니다.</p></div>
-            <div class="jwh2-evidence__table" role="table" aria-label="가상 서비스 개선 과제의 결정 근거">
-                <div role="row" class="jwh2-evidence__labels"><span role="columnheader">살펴볼 신호</span><span role="columnheader">확인 방법</span><span role="columnheader">다음 결정</span></div>
-                <div role="row"><strong role="cell">처음 온 방문자의 질문</strong><span role="cell">문의 내용과 탐색 경로 분류</span><em role="cell">가장 많이 찾는 정보부터 앞에 배치</em></div>
-                <div role="row"><strong role="cell">서비스 선택 전 멈춤</strong><span role="cell">비교에 필요한 조건과 문구 검토</span><em role="cell">설명 순서를 바꾼 시안 검증</em></div>
-                <div role="row"><strong role="cell">상담 준비의 빈칸</strong><span role="cell">반복 질문과 필수 자료 확인</span><em role="cell">문의 전 안내 항목 정의</em></div>
-            </div>
+            <figure class="jwh2-evidence__photo"><img src="<?php echo G5_THEME_URL; ?>/assets/images/home2-evidence-retail.webp" width="1536" height="1024" alt="가상 리테일 서비스의 고객 질문 카드와 선택 화면 시안을 나란히 놓은 검토 자료" loading="lazy"><figcaption>가상 서비스 개선 자료 · AI 생성 이미지</figcaption></figure>
+            <ol class="jwh2-evidence__decisions" aria-label="자료에서 다음 결정으로 이어지는 세 가지 예시">
+                <li><i data-lucide="search" aria-hidden="true"></i><div><strong>처음 온 방문자의 질문</strong><p>문의 내용과 탐색 경로를 분류합니다.</p><span>자주 찾는 답부터 앞에 배치</span></div></li>
+                <li><i data-lucide="git-compare-arrows" aria-hidden="true"></i><div><strong>서비스 선택 전 멈춤</strong><p>비교에 필요한 조건과 문구를 살펴봅니다.</p><span>설명 순서를 바꾼 시안 검증</span></div></li>
+                <li><i data-lucide="clipboard-check" aria-hidden="true"></i><div><strong>상담 준비의 빈칸</strong><p>반복 질문과 필요한 자료를 확인합니다.</p><span>문의 전 준비 항목 정의</span></div></li>
+            </ol>
         </div>
     </section>
 
