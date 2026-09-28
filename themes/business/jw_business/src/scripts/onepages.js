@@ -27,6 +27,84 @@ if (root) {
   header?.addEventListener('transitionend', updateNavigation);
   updateNavigation();
 
+  const sequence = root.querySelector('[data-jwo-sequence]');
+  if (sequence) {
+    const image = sequence.querySelector('[data-jwo-sequence-image]');
+    const controls = sequence.querySelector('[data-jwo-sequence-controls]');
+    const range = controls.querySelector('input');
+    const angle = controls.querySelector('output');
+    const toggle = controls.querySelector('button');
+    const hint = sequence.querySelector('[data-jwo-sequence-hint]');
+    const count = Number(sequence.dataset.frameCount);
+    const frames = new Map();
+    let automatic = false;
+    let ready = false;
+    let loading;
+    let requested = 0;
+    const url = index => `${sequence.dataset.sequenceBase}${String(index + 1).padStart(3, '0')}.webp?v=${sequence.dataset.sequenceVersion}`;
+    const frame = index => {
+      if (!frames.has(index)) {
+        const photo = new Image();
+        photo.src = url(index);
+        const decoded = photo.decode().then(() => photo).catch(error => { frames.delete(index); throw error; });
+        frames.set(index, decoded);
+      }
+      return frames.get(index);
+    };
+    const draw = async index => {
+      requested = index;
+      try {
+        const photo = await frame(index);
+        if (requested !== index) return;
+        image.src = photo.src;
+        image.dataset.frame = String(index);
+        range.value = String(index);
+        const degrees = Math.round(index * 360 / count);
+        angle.value = `${degrees}°`;
+        range.setAttribute('aria-valuetext', `${degrees}도`);
+      } catch {
+        hint.textContent = '이미지를 불러오지 못했습니다. 다른 각도를 선택하거나 잠시 후 다시 시도해 주세요.';
+      }
+    };
+    const sync = () => {
+      sequence.classList.toggle('is-ready', ready && motionAllowed());
+      toggle.setAttribute('aria-pressed', String(automatic));
+      toggle.textContent = automatic ? '스크롤 회전 끄기' : '스크롤 회전 켜기';
+      toggle.hidden = !motionAllowed();
+    };
+    const preload = async () => {
+      if (loading) return loading;
+      loading = (async () => {
+        let next = 0;
+        // Four concurrent requests bound simultaneous transfer and decoding; mobile loads chosen angles only.
+        await Promise.all(Array.from({ length: 4 }, async () => {
+          while (next < count) await frame(next++);
+        }));
+        ready = true;
+        sync();
+      })().catch(() => { loading = undefined; automatic = false; sync(); });
+      return loading;
+    };
+    controls.hidden = false;
+    range.addEventListener('input', () => { automatic = false; sync(); draw(Number(range.value)); });
+    toggle.addEventListener('click', async () => {
+      automatic = !automatic;
+      if (automatic) await preload();
+      sync();
+    });
+    inView(sequence, () => {
+      if (motionAllowed()) { automatic = true; preload(); }
+    }, { margin: '400px' });
+    scroll(progress => {
+      if (automatic && ready && motionAllowed()) draw(Math.min(count - 1, Math.round(progress * (count - 1))));
+    }, { target: sequence, offset: ['start start', 'end end'] });
+    for (const query of [reduced, compact]) query.addEventListener('change', () => {
+      if (!motionAllowed()) automatic = false;
+      sync();
+    });
+    sync();
+  }
+
   // Keep every semantic panel available when script execution is unavailable.
   root.querySelectorAll('[data-jwo-tabs]').forEach(group => {
     const list = group.querySelector('[data-jwo-tablist]');

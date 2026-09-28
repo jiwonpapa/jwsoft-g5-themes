@@ -1,0 +1,1662 @@
+[
+  {
+    "path": "quality/evidence/main-seven-correction-20260928/captures/home-1/desktop-light.png",
+    "sha256": "7e8bd86653a702cf4bd0fd290e727553b7d7ad2afdb8dbb4a45d09f488520245",
+    "page": "home-1",
+    "viewport": "desktop",
+    "mode": "light",
+    "width": 1440,
+    "height": 1000,
+    "url": "https://g5themes.test/theme/jw_business/index_1.php?device=pc",
+    "capturedAt": "2026-09-28T04:36:05.910Z",
+    "fullPage": true,
+    "documentHeight": 10258,
+    "media": [
+      "src/assets/main-one/strategy.webp",
+      "src/assets/main-one/digital.webp",
+      "src/assets/main-one/brand.webp",
+      "src/assets/main-one/industry-ceramics.webp",
+      "src/assets/main-one/case-food.webp",
+      "src/assets/main-one/case-learning.webp",
+      "src/assets/main-one/brand-detail.webp"
+    ],
+    "requirements": [
+      {
+        "id": "page-heading",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "hero-slider",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "service-icons",
+        "count": 3,
+        "visible": true
+      },
+      {
+        "id": "section-range",
+        "count": 12,
+        "visible": true
+      },
+      {
+        "id": "industry-mosaic",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "process-rail",
+        "count": 4,
+        "visible": true
+      },
+      {
+        "id": "case-composition",
+        "count": 3,
+        "visible": true
+      },
+      {
+        "id": "brand-board",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "question-blocks",
+        "count": 4,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "path": "quality/evidence/main-seven-correction-20260928/captures/home-1/desktop-dark.png",
+    "sha256": "e945d8b464af1dbf5c1aa6c899949f314d9c132aa373ce54a7466b7555e386d7",
+    "page": "home-1",
+    "viewport": "desktop",
+    "mode": "dark",
+    "width": 1440,
+    "height": 1000,
+    "url": "https://g5themes.test/theme/jw_business/index_1.php?device=pc",
+    "capturedAt": "2026-09-28T04:36:25.825Z",
+    "fullPage": true,
+    "documentHeight": 10258,
+    "media": [
+      "src/assets/main-one/strategy.webp",
+      "src/assets/main-one/digital.webp",
+      "src/assets/main-one/brand.webp",
+      "src/assets/main-one/industry-ceramics.webp",
+      "src/assets/main-one/case-food.webp",
+      "src/assets/main-one/case-learning.webp",
+      "src/assets/main-one/brand-detail.webp"
+    ],
+    "requirements": [
+      {
+        "id": "page-heading",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "hero-slider",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "service-icons",
+        "count": 3,
+        "visible": true
+      },
+      {
+        "id": "section-range",
+        "count": 12,
+        "visible": true
+      },
+      {
+        "id": "industry-mosaic",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "process-rail",
+        "count": 4,
+        "visible": true
+      },
+      {
+        "id": "case-composition",
+        "count": 3,
+        "visible": true
+      },
+      {
+        "id": "brand-board",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "question-blocks",
+        "count": 4,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "path": "quality/evidence/main-seven-correction-20260928/captures/home-1/mobile-light.png",
+    "sha256": "6eb201291c83f53e84691b2a56a59ddc4bf93435a7e4ce799cabb60d70991a14",
+    "page": "home-1",
+    "viewport": "mobile",
+    "mode": "light",
+    "width": 390,
+    "height": 844,
+    "url": "https://g5themes.test/theme/jw_business/index_1.php?device=mobile",
+    "capturedAt": "2026-09-28T04:36:44.965Z",
+    "fullPage": true,
+    "documentHeight": 11953,
+    "media": [
+      "src/assets/main-one/strategy.webp",
+      "src/assets/main-one/digital.webp",
+      "src/assets/main-one/brand.webp",
+      "src/assets/main-one/industry-ceramics.webp",
+      "src/assets/main-one/case-food.webp",
+      "src/assets/main-one/case-learning.webp",
+      "src/assets/main-one/brand-detail.webp"
+    ],
+    "requirements": [
+      {
+        "id": "page-heading",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "hero-slider",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "service-icons",
+        "count": 3,
+        "visible": true
+      },
+      {
+        "id": "section-range",
+        "count": 12,
+        "visible": true
+      },
+      {
+        "id": "industry-mosaic",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "process-rail",
+        "count": 4,
+        "visible": true
+      },
+      {
+        "id": "case-composition",
+        "count": 3,
+        "visible": true
+      },
+      {
+        "id": "brand-board",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "question-blocks",
+        "count": 4,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "path": "quality/evidence/main-seven-correction-20260928/captures/home-1/mobile-dark.png",
+    "sha256": "26dda17a7abf819c1ec679dae043cb2b9f2540106c1173255acfe5c959ced0a0",
+    "page": "home-1",
+    "viewport": "mobile",
+    "mode": "dark",
+    "width": 390,
+    "height": 844,
+    "url": "https://g5themes.test/theme/jw_business/index_1.php?device=mobile",
+    "capturedAt": "2026-09-28T04:37:01.791Z",
+    "fullPage": true,
+    "documentHeight": 11953,
+    "media": [
+      "src/assets/main-one/strategy.webp",
+      "src/assets/main-one/digital.webp",
+      "src/assets/main-one/brand.webp",
+      "src/assets/main-one/industry-ceramics.webp",
+      "src/assets/main-one/case-food.webp",
+      "src/assets/main-one/case-learning.webp",
+      "src/assets/main-one/brand-detail.webp"
+    ],
+    "requirements": [
+      {
+        "id": "page-heading",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "hero-slider",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "service-icons",
+        "count": 3,
+        "visible": true
+      },
+      {
+        "id": "section-range",
+        "count": 12,
+        "visible": true
+      },
+      {
+        "id": "industry-mosaic",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "process-rail",
+        "count": 4,
+        "visible": true
+      },
+      {
+        "id": "case-composition",
+        "count": 3,
+        "visible": true
+      },
+      {
+        "id": "brand-board",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "question-blocks",
+        "count": 4,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "path": "quality/evidence/main-seven-correction-20260928/captures/home-2/desktop-light.png",
+    "sha256": "ee72a6bd00c9a57db1d00c782e75b9384719ab09e7ed531db2aa97497c07a64e",
+    "page": "home-2",
+    "viewport": "desktop",
+    "mode": "light",
+    "width": 1440,
+    "height": 1000,
+    "url": "https://g5themes.test/theme/jw_business/index_2.php?device=pc",
+    "capturedAt": "2026-09-28T04:36:08.880Z",
+    "fullPage": true,
+    "documentHeight": 7367,
+    "media": [
+      "src/assets/images/home2-decision.webp",
+      "src/assets/images/home2-digital.webp",
+      "src/assets/images/home2-operations.webp"
+    ],
+    "requirements": [
+      {
+        "id": "page-heading",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "hero-slider",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "digital-artifact",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "decision-matrix",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "decision-evidence",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "large-choice-icons",
+        "count": 3,
+        "visible": true
+      },
+      {
+        "id": "journey-map",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "delivery-board",
+        "count": 3,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "path": "quality/evidence/main-seven-correction-20260928/captures/home-2/desktop-dark.png",
+    "sha256": "69c76cb85e3eb2247fdd3cb7b98c7958313ac4afd2bb83cd823abae12e5b6faa",
+    "page": "home-2",
+    "viewport": "desktop",
+    "mode": "dark",
+    "width": 1440,
+    "height": 1000,
+    "url": "https://g5themes.test/theme/jw_business/index_2.php?device=pc",
+    "capturedAt": "2026-09-28T04:36:28.799Z",
+    "fullPage": true,
+    "documentHeight": 7367,
+    "media": [
+      "src/assets/images/home2-decision.webp",
+      "src/assets/images/home2-digital.webp",
+      "src/assets/images/home2-operations.webp"
+    ],
+    "requirements": [
+      {
+        "id": "page-heading",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "hero-slider",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "digital-artifact",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "decision-matrix",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "decision-evidence",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "large-choice-icons",
+        "count": 3,
+        "visible": true
+      },
+      {
+        "id": "journey-map",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "delivery-board",
+        "count": 3,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "path": "quality/evidence/main-seven-correction-20260928/captures/home-2/mobile-light.png",
+    "sha256": "12f2df0c1f742c40458678c43d32d80bb33de5a0084d48249e8fa6b2116f5b1b",
+    "page": "home-2",
+    "viewport": "mobile",
+    "mode": "light",
+    "width": 390,
+    "height": 844,
+    "url": "https://g5themes.test/theme/jw_business/index_2.php?device=mobile",
+    "capturedAt": "2026-09-28T04:36:47.446Z",
+    "fullPage": true,
+    "documentHeight": 9205,
+    "media": [
+      "src/assets/images/home2-decision.webp",
+      "src/assets/images/home2-digital.webp",
+      "src/assets/images/home2-operations.webp"
+    ],
+    "requirements": [
+      {
+        "id": "page-heading",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "hero-slider",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "digital-artifact",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "decision-matrix",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "decision-evidence",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "large-choice-icons",
+        "count": 3,
+        "visible": true
+      },
+      {
+        "id": "journey-map",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "delivery-board",
+        "count": 3,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "path": "quality/evidence/main-seven-correction-20260928/captures/home-2/mobile-dark.png",
+    "sha256": "60bef3b8bb1d4bee54ffbeaabe9562429981895ac24a686bc15ae7664fa8893b",
+    "page": "home-2",
+    "viewport": "mobile",
+    "mode": "dark",
+    "width": 390,
+    "height": 844,
+    "url": "https://g5themes.test/theme/jw_business/index_2.php?device=mobile",
+    "capturedAt": "2026-09-28T04:37:04.304Z",
+    "fullPage": true,
+    "documentHeight": 9205,
+    "media": [
+      "src/assets/images/home2-decision.webp",
+      "src/assets/images/home2-digital.webp",
+      "src/assets/images/home2-operations.webp"
+    ],
+    "requirements": [
+      {
+        "id": "page-heading",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "hero-slider",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "digital-artifact",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "decision-matrix",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "decision-evidence",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "large-choice-icons",
+        "count": 3,
+        "visible": true
+      },
+      {
+        "id": "journey-map",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "delivery-board",
+        "count": 3,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "path": "quality/evidence/main-seven-correction-20260928/captures/home-3/desktop-light.png",
+    "sha256": "27529510d45eb49e7fe7b447bf057c5447cab35d653b07a88ef6b56babc4c4f9",
+    "page": "home-3",
+    "viewport": "desktop",
+    "mode": "light",
+    "width": 1440,
+    "height": 1000,
+    "url": "https://g5themes.test/theme/jw_business/index_3.php?device=pc",
+    "capturedAt": "2026-09-28T04:36:11.348Z",
+    "fullPage": true,
+    "documentHeight": 7077,
+    "media": [
+      "src/assets/home-three/mobility.webp",
+      "src/assets/home-three/print.webp",
+      "src/assets/home-three/exhibition.webp"
+    ],
+    "requirements": [
+      {
+        "id": "page-heading",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "wayfinding-map",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "exhibition-photo",
+        "count": 1,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "path": "quality/evidence/main-seven-correction-20260928/captures/home-3/desktop-dark.png",
+    "sha256": "4e29048bf3336a4955d52cdf215eed14b8b9f28a1fdeab14fb71185d82f59b3a",
+    "page": "home-3",
+    "viewport": "desktop",
+    "mode": "dark",
+    "width": 1440,
+    "height": 1000,
+    "url": "https://g5themes.test/theme/jw_business/index_3.php?device=pc",
+    "capturedAt": "2026-09-28T04:36:31.244Z",
+    "fullPage": true,
+    "documentHeight": 7077,
+    "media": [
+      "src/assets/home-three/mobility.webp",
+      "src/assets/home-three/print.webp",
+      "src/assets/home-three/exhibition.webp"
+    ],
+    "requirements": [
+      {
+        "id": "page-heading",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "wayfinding-map",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "exhibition-photo",
+        "count": 1,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "path": "quality/evidence/main-seven-correction-20260928/captures/home-3/mobile-light.png",
+    "sha256": "8c3fedc2d9647829642da1cb71446d7413e9be9252dd2b6e796eec8fd56eed9a",
+    "page": "home-3",
+    "viewport": "mobile",
+    "mode": "light",
+    "width": 390,
+    "height": 844,
+    "url": "https://g5themes.test/theme/jw_business/index_3.php?device=mobile",
+    "capturedAt": "2026-09-28T04:36:49.400Z",
+    "fullPage": true,
+    "documentHeight": 6982,
+    "media": [
+      "src/assets/home-three/mobility.webp",
+      "src/assets/home-three/print.webp",
+      "src/assets/home-three/exhibition.webp"
+    ],
+    "requirements": [
+      {
+        "id": "page-heading",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "wayfinding-map",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "exhibition-photo",
+        "count": 1,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "path": "quality/evidence/main-seven-correction-20260928/captures/home-3/mobile-dark.png",
+    "sha256": "3ed5af32d494a4bb29c416a444f6ea5c8a1f8b9e4c565f4ecf5780ebf6f9493d",
+    "page": "home-3",
+    "viewport": "mobile",
+    "mode": "dark",
+    "width": 390,
+    "height": 844,
+    "url": "https://g5themes.test/theme/jw_business/index_3.php?device=mobile",
+    "capturedAt": "2026-09-28T04:37:06.252Z",
+    "fullPage": true,
+    "documentHeight": 6982,
+    "media": [
+      "src/assets/home-three/mobility.webp",
+      "src/assets/home-three/print.webp",
+      "src/assets/home-three/exhibition.webp"
+    ],
+    "requirements": [
+      {
+        "id": "page-heading",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "wayfinding-map",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "exhibition-photo",
+        "count": 1,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "path": "quality/evidence/main-seven-correction-20260928/captures/home-4/desktop-light.png",
+    "sha256": "a99d02647c23e5d0bfe291cc3064bed0e70278333cec54e5fb424191796e391b",
+    "page": "home-4",
+    "viewport": "desktop",
+    "mode": "light",
+    "width": 1440,
+    "height": 1000,
+    "url": "https://g5themes.test/theme/jw_business/index_4.php?device=pc",
+    "capturedAt": "2026-09-28T04:36:13.602Z",
+    "fullPage": true,
+    "documentHeight": 6900,
+    "media": [
+      "src/assets/home-four/hero.webp",
+      "src/assets/home-four/discovery.webp",
+      "src/assets/home-four/digital.webp",
+      "src/assets/home-four/handoff.webp"
+    ],
+    "requirements": [
+      {
+        "id": "page-heading",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "artifact-variants",
+        "count": 4,
+        "visible": true
+      },
+      {
+        "id": "dedicated-images",
+        "count": 4,
+        "visible": true
+      },
+      {
+        "id": "large-process-icons",
+        "count": 4,
+        "visible": true
+      },
+      {
+        "id": "aligned-insights",
+        "count": 2,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "path": "quality/evidence/main-seven-correction-20260928/captures/home-4/desktop-dark.png",
+    "sha256": "dc58dedca709eafdb4f3826635b9153e2c00e6b3a2000056e9e24db8d79ef01d",
+    "page": "home-4",
+    "viewport": "desktop",
+    "mode": "dark",
+    "width": 1440,
+    "height": 1000,
+    "url": "https://g5themes.test/theme/jw_business/index_4.php?device=pc",
+    "capturedAt": "2026-09-28T04:36:33.667Z",
+    "fullPage": true,
+    "documentHeight": 6900,
+    "media": [
+      "src/assets/home-four/hero.webp",
+      "src/assets/home-four/discovery.webp",
+      "src/assets/home-four/digital.webp",
+      "src/assets/home-four/handoff.webp"
+    ],
+    "requirements": [
+      {
+        "id": "page-heading",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "artifact-variants",
+        "count": 4,
+        "visible": true
+      },
+      {
+        "id": "dedicated-images",
+        "count": 4,
+        "visible": true
+      },
+      {
+        "id": "large-process-icons",
+        "count": 4,
+        "visible": true
+      },
+      {
+        "id": "aligned-insights",
+        "count": 2,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "path": "quality/evidence/main-seven-correction-20260928/captures/home-4/mobile-light.png",
+    "sha256": "78cff2b34bbf68eaccc1964c3019f224c803db341dbcf1a46c76d2aec5640e84",
+    "page": "home-4",
+    "viewport": "mobile",
+    "mode": "light",
+    "width": 390,
+    "height": 844,
+    "url": "https://g5themes.test/theme/jw_business/index_4.php?device=mobile",
+    "capturedAt": "2026-09-28T04:36:51.339Z",
+    "fullPage": true,
+    "documentHeight": 8337,
+    "media": [
+      "src/assets/home-four/hero.webp",
+      "src/assets/home-four/discovery.webp",
+      "src/assets/home-four/digital.webp",
+      "src/assets/home-four/handoff.webp"
+    ],
+    "requirements": [
+      {
+        "id": "page-heading",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "artifact-variants",
+        "count": 4,
+        "visible": true
+      },
+      {
+        "id": "dedicated-images",
+        "count": 4,
+        "visible": true
+      },
+      {
+        "id": "large-process-icons",
+        "count": 4,
+        "visible": true
+      },
+      {
+        "id": "aligned-insights",
+        "count": 2,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "path": "quality/evidence/main-seven-correction-20260928/captures/home-4/mobile-dark.png",
+    "sha256": "3a664af9bca9e9004a6787e88f7db9d3b97b8f062d7eb86f268d7eaf57b32081",
+    "page": "home-4",
+    "viewport": "mobile",
+    "mode": "dark",
+    "width": 390,
+    "height": 844,
+    "url": "https://g5themes.test/theme/jw_business/index_4.php?device=mobile",
+    "capturedAt": "2026-09-28T04:37:08.208Z",
+    "fullPage": true,
+    "documentHeight": 8337,
+    "media": [
+      "src/assets/home-four/hero.webp",
+      "src/assets/home-four/discovery.webp",
+      "src/assets/home-four/digital.webp",
+      "src/assets/home-four/handoff.webp"
+    ],
+    "requirements": [
+      {
+        "id": "page-heading",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "artifact-variants",
+        "count": 4,
+        "visible": true
+      },
+      {
+        "id": "dedicated-images",
+        "count": 4,
+        "visible": true
+      },
+      {
+        "id": "large-process-icons",
+        "count": 4,
+        "visible": true
+      },
+      {
+        "id": "aligned-insights",
+        "count": 2,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "path": "quality/evidence/main-seven-correction-20260928/captures/onepage-showcase/desktop-light.png",
+    "sha256": "0dc779bfafd1fc7ca5c229ecd1c04ef31f4183399151ebd75053cc5ce275461a",
+    "page": "onepage-showcase",
+    "viewport": "desktop",
+    "mode": "light",
+    "width": 1440,
+    "height": 1000,
+    "url": "https://g5themes.test/pages/onepage-showcase.php?device=pc",
+    "capturedAt": "2026-09-28T04:45:55.834Z",
+    "fullPage": true,
+    "documentHeight": 7859,
+    "media": [
+      "onepages/assets/images/aura-hero.webp",
+      "onepages/assets/images/aura-detail.webp",
+      "onepages/assets/sequence/aura-001.webp",
+      "onepages/assets/images/aura-living.webp"
+    ],
+    "requirements": [
+      {
+        "id": "page-heading",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "detail-tabs",
+        "count": 3,
+        "visible": true
+      },
+      {
+        "id": "install-diagram",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "product-detail-scene",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "feature-icons",
+        "count": 4,
+        "visible": true
+      },
+      {
+        "id": "product-section-range",
+        "count": 11,
+        "visible": true
+      },
+      {
+        "id": "company-profile",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "product-rotation",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "product-guide",
+        "count": 1,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "path": "quality/evidence/main-seven-correction-20260928/captures/onepage-showcase/desktop-dark.png",
+    "sha256": "aec2a0dc677ab434a76da399847c83ae7ff249a66d3c7b4f1112a689734c29ca",
+    "page": "onepage-showcase",
+    "viewport": "desktop",
+    "mode": "dark",
+    "width": 1440,
+    "height": 1000,
+    "url": "https://g5themes.test/pages/onepage-showcase.php?device=pc",
+    "capturedAt": "2026-09-28T04:45:59.904Z",
+    "fullPage": true,
+    "documentHeight": 7859,
+    "media": [
+      "onepages/assets/images/aura-hero.webp",
+      "onepages/assets/images/aura-detail.webp",
+      "onepages/assets/sequence/aura-001.webp",
+      "onepages/assets/images/aura-living.webp"
+    ],
+    "requirements": [
+      {
+        "id": "page-heading",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "detail-tabs",
+        "count": 3,
+        "visible": true
+      },
+      {
+        "id": "install-diagram",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "product-detail-scene",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "feature-icons",
+        "count": 4,
+        "visible": true
+      },
+      {
+        "id": "product-section-range",
+        "count": 11,
+        "visible": true
+      },
+      {
+        "id": "company-profile",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "product-rotation",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "product-guide",
+        "count": 1,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "path": "quality/evidence/main-seven-correction-20260928/captures/onepage-showcase/mobile-light.png",
+    "sha256": "b10571ab7b1986ff7c26a75dbb2199e34d2c82f86af74d21fcc9e4ef55a98a96",
+    "page": "onepage-showcase",
+    "viewport": "mobile",
+    "mode": "light",
+    "width": 390,
+    "height": 844,
+    "url": "https://g5themes.test/pages/onepage-showcase.php?device=mobile",
+    "capturedAt": "2026-09-28T04:46:05.275Z",
+    "fullPage": true,
+    "documentHeight": 8252,
+    "media": [
+      "onepages/assets/images/aura-hero.webp",
+      "onepages/assets/images/aura-detail.webp",
+      "onepages/assets/sequence/aura-001.webp",
+      "onepages/assets/images/aura-living.webp"
+    ],
+    "requirements": [
+      {
+        "id": "page-heading",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "detail-tabs",
+        "count": 3,
+        "visible": true
+      },
+      {
+        "id": "install-diagram",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "product-detail-scene",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "feature-icons",
+        "count": 4,
+        "visible": true
+      },
+      {
+        "id": "product-section-range",
+        "count": 11,
+        "visible": true
+      },
+      {
+        "id": "company-profile",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "product-rotation",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "product-guide",
+        "count": 1,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "path": "quality/evidence/main-seven-correction-20260928/captures/onepage-showcase/mobile-dark.png",
+    "sha256": "c84617b0007e21f5aa776ce2c5caf367b2e763dd913fa3e0340a4155115fb925",
+    "page": "onepage-showcase",
+    "viewport": "mobile",
+    "mode": "dark",
+    "width": 390,
+    "height": 844,
+    "url": "https://g5themes.test/pages/onepage-showcase.php?device=mobile",
+    "capturedAt": "2026-09-28T04:46:09.508Z",
+    "fullPage": true,
+    "documentHeight": 8252,
+    "media": [
+      "onepages/assets/images/aura-hero.webp",
+      "onepages/assets/images/aura-detail.webp",
+      "onepages/assets/sequence/aura-001.webp",
+      "onepages/assets/images/aura-living.webp"
+    ],
+    "requirements": [
+      {
+        "id": "page-heading",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "detail-tabs",
+        "count": 3,
+        "visible": true
+      },
+      {
+        "id": "install-diagram",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "product-detail-scene",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "feature-icons",
+        "count": 4,
+        "visible": true
+      },
+      {
+        "id": "product-section-range",
+        "count": 11,
+        "visible": true
+      },
+      {
+        "id": "company-profile",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "product-rotation",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "product-guide",
+        "count": 1,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "path": "quality/evidence/main-seven-correction-20260928/captures/onepage-services/desktop-light.png",
+    "sha256": "7ea81bfe9db0e183981c111a3496be6aabb26c064ca883718615d1fe935b11d2",
+    "page": "onepage-services",
+    "viewport": "desktop",
+    "mode": "light",
+    "width": 1440,
+    "height": 1000,
+    "url": "https://g5themes.test/pages/onepage-services.php?device=pc",
+    "capturedAt": "2026-09-28T04:36:19.067Z",
+    "fullPage": true,
+    "documentHeight": 9738,
+    "media": [
+      "onepages/assets/images/service-journey-workshop.webp",
+      "onepages/assets/images/service-studio.webp",
+      "onepages/assets/images/service-workshop.webp"
+    ],
+    "requirements": [
+      {
+        "id": "page-heading",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "service-board",
+        "count": 3,
+        "visible": true
+      },
+      {
+        "id": "customer-journey",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "delivery-sample",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "large-service-icons",
+        "count": 3,
+        "visible": true
+      },
+      {
+        "id": "delivery-files",
+        "count": 3,
+        "visible": true
+      },
+      {
+        "id": "service-section-range",
+        "count": 12,
+        "visible": true
+      },
+      {
+        "id": "company-profile",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "delivery-process",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "engagement-scope",
+        "count": 1,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "path": "quality/evidence/main-seven-correction-20260928/captures/onepage-services/desktop-dark.png",
+    "sha256": "cc2b87d6826723dc38e9dcc0a3fea10439f444542b0d59701567c93d7c8c1040",
+    "page": "onepage-services",
+    "viewport": "desktop",
+    "mode": "dark",
+    "width": 1440,
+    "height": 1000,
+    "url": "https://g5themes.test/pages/onepage-services.php?device=pc",
+    "capturedAt": "2026-09-28T04:36:39.090Z",
+    "fullPage": true,
+    "documentHeight": 9738,
+    "media": [
+      "onepages/assets/images/service-journey-workshop.webp",
+      "onepages/assets/images/service-studio.webp",
+      "onepages/assets/images/service-workshop.webp"
+    ],
+    "requirements": [
+      {
+        "id": "page-heading",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "service-board",
+        "count": 3,
+        "visible": true
+      },
+      {
+        "id": "customer-journey",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "delivery-sample",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "large-service-icons",
+        "count": 3,
+        "visible": true
+      },
+      {
+        "id": "delivery-files",
+        "count": 3,
+        "visible": true
+      },
+      {
+        "id": "service-section-range",
+        "count": 12,
+        "visible": true
+      },
+      {
+        "id": "company-profile",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "delivery-process",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "engagement-scope",
+        "count": 1,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "path": "quality/evidence/main-seven-correction-20260928/captures/onepage-services/mobile-light.png",
+    "sha256": "3777b882fa38ce0b5aeb32ec44c80d4ca3593d324bf7f7f3583620d9249142b8",
+    "page": "onepage-services",
+    "viewport": "mobile",
+    "mode": "light",
+    "width": 390,
+    "height": 844,
+    "url": "https://g5themes.test/pages/onepage-services.php?device=mobile",
+    "capturedAt": "2026-09-28T04:36:56.306Z",
+    "fullPage": true,
+    "documentHeight": 12934,
+    "media": [
+      "onepages/assets/images/service-journey-workshop.webp",
+      "onepages/assets/images/service-studio.webp",
+      "onepages/assets/images/service-workshop.webp"
+    ],
+    "requirements": [
+      {
+        "id": "page-heading",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "service-board",
+        "count": 3,
+        "visible": true
+      },
+      {
+        "id": "customer-journey",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "delivery-sample",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "large-service-icons",
+        "count": 3,
+        "visible": true
+      },
+      {
+        "id": "delivery-files",
+        "count": 3,
+        "visible": true
+      },
+      {
+        "id": "service-section-range",
+        "count": 12,
+        "visible": true
+      },
+      {
+        "id": "company-profile",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "delivery-process",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "engagement-scope",
+        "count": 1,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "path": "quality/evidence/main-seven-correction-20260928/captures/onepage-services/mobile-dark.png",
+    "sha256": "affb56d7798cb245eb934e33f901c5bbfd67ec96998015fd8331098fe94b3d76",
+    "page": "onepage-services",
+    "viewport": "mobile",
+    "mode": "dark",
+    "width": 390,
+    "height": 844,
+    "url": "https://g5themes.test/pages/onepage-services.php?device=mobile",
+    "capturedAt": "2026-09-28T04:37:13.328Z",
+    "fullPage": true,
+    "documentHeight": 12934,
+    "media": [
+      "onepages/assets/images/service-journey-workshop.webp",
+      "onepages/assets/images/service-studio.webp",
+      "onepages/assets/images/service-workshop.webp"
+    ],
+    "requirements": [
+      {
+        "id": "page-heading",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "service-board",
+        "count": 3,
+        "visible": true
+      },
+      {
+        "id": "customer-journey",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "delivery-sample",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "large-service-icons",
+        "count": 3,
+        "visible": true
+      },
+      {
+        "id": "delivery-files",
+        "count": 3,
+        "visible": true
+      },
+      {
+        "id": "service-section-range",
+        "count": 12,
+        "visible": true
+      },
+      {
+        "id": "company-profile",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "delivery-process",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "engagement-scope",
+        "count": 1,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "path": "quality/evidence/main-seven-correction-20260928/captures/onepage-projects/desktop-light.png",
+    "sha256": "3b56c3702f9811ecc934dd9089ad7abcd826944903ef1620f513d939f144a592",
+    "page": "onepage-projects",
+    "viewport": "desktop",
+    "mode": "light",
+    "width": 1440,
+    "height": 1000,
+    "url": "https://g5themes.test/pages/onepage-projects.php?device=pc",
+    "capturedAt": "2026-09-28T04:36:21.784Z",
+    "fullPage": true,
+    "documentHeight": 10062,
+    "media": [
+      "onepages/assets/images/courtyard.webp",
+      "onepages/assets/images/space-studio.webp",
+      "onepages/assets/images/courtyard-interior.webp",
+      "onepages/assets/images/courtyard-detail.webp",
+      "onepages/assets/images/courtyard-colonnade.webp",
+      "onepages/assets/images/courtyard-lounge.webp",
+      "onepages/assets/images/courtyard-terrace.webp"
+    ],
+    "requirements": [
+      {
+        "id": "page-heading",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "project-scenes",
+        "count": 7,
+        "visible": true
+      },
+      {
+        "id": "project-gallery",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "project-flow",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "spatial-floorplan",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "company-profile",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "delivery-process",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "service-scope",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "project-deliverables",
+        "count": 1,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "path": "quality/evidence/main-seven-correction-20260928/captures/onepage-projects/desktop-dark.png",
+    "sha256": "2ef04f3c0d96c0b80381ad576cb0b7e0de9c68be792f63b890c3e015ccca8afd",
+    "page": "onepage-projects",
+    "viewport": "desktop",
+    "mode": "dark",
+    "width": 1440,
+    "height": 1000,
+    "url": "https://g5themes.test/pages/onepage-projects.php?device=pc",
+    "capturedAt": "2026-09-28T04:36:41.748Z",
+    "fullPage": true,
+    "documentHeight": 10062,
+    "media": [
+      "onepages/assets/images/courtyard.webp",
+      "onepages/assets/images/space-studio.webp",
+      "onepages/assets/images/courtyard-interior.webp",
+      "onepages/assets/images/courtyard-detail.webp",
+      "onepages/assets/images/courtyard-colonnade.webp",
+      "onepages/assets/images/courtyard-lounge.webp",
+      "onepages/assets/images/courtyard-terrace.webp"
+    ],
+    "requirements": [
+      {
+        "id": "page-heading",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "project-scenes",
+        "count": 7,
+        "visible": true
+      },
+      {
+        "id": "project-gallery",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "project-flow",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "spatial-floorplan",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "company-profile",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "delivery-process",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "service-scope",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "project-deliverables",
+        "count": 1,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "path": "quality/evidence/main-seven-correction-20260928/captures/onepage-projects/mobile-light.png",
+    "sha256": "fb676ff91687c0ffe5ad85c5cf32e90e8ea459799fc632a6fc375c8b6a9e4f04",
+    "page": "onepage-projects",
+    "viewport": "mobile",
+    "mode": "light",
+    "width": 390,
+    "height": 844,
+    "url": "https://g5themes.test/pages/onepage-projects.php?device=mobile",
+    "capturedAt": "2026-09-28T04:36:58.614Z",
+    "fullPage": true,
+    "documentHeight": 10398,
+    "media": [
+      "onepages/assets/images/courtyard.webp",
+      "onepages/assets/images/space-studio.webp",
+      "onepages/assets/images/courtyard-interior.webp",
+      "onepages/assets/images/courtyard-detail.webp",
+      "onepages/assets/images/courtyard-colonnade.webp",
+      "onepages/assets/images/courtyard-lounge.webp",
+      "onepages/assets/images/courtyard-terrace.webp"
+    ],
+    "requirements": [
+      {
+        "id": "page-heading",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "project-scenes",
+        "count": 7,
+        "visible": true
+      },
+      {
+        "id": "project-gallery",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "project-flow",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "spatial-floorplan",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "company-profile",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "delivery-process",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "service-scope",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "project-deliverables",
+        "count": 1,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "path": "quality/evidence/main-seven-correction-20260928/captures/onepage-projects/mobile-dark.png",
+    "sha256": "429134d9a965695ce6d4521ffc4d64b7038eef92058c00efeefa8f6dbea08f8e",
+    "page": "onepage-projects",
+    "viewport": "mobile",
+    "mode": "dark",
+    "width": 390,
+    "height": 844,
+    "url": "https://g5themes.test/pages/onepage-projects.php?device=mobile",
+    "capturedAt": "2026-09-28T04:37:15.656Z",
+    "fullPage": true,
+    "documentHeight": 10398,
+    "media": [
+      "onepages/assets/images/courtyard.webp",
+      "onepages/assets/images/space-studio.webp",
+      "onepages/assets/images/courtyard-interior.webp",
+      "onepages/assets/images/courtyard-detail.webp",
+      "onepages/assets/images/courtyard-colonnade.webp",
+      "onepages/assets/images/courtyard-lounge.webp",
+      "onepages/assets/images/courtyard-terrace.webp"
+    ],
+    "requirements": [
+      {
+        "id": "page-heading",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "project-scenes",
+        "count": 7,
+        "visible": true
+      },
+      {
+        "id": "project-gallery",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "project-flow",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "spatial-floorplan",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "company-profile",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "delivery-process",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "service-scope",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "project-deliverables",
+        "count": 1,
+        "visible": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,1220 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-09-28",
+  "disposition": "ship",
+  "round": "bounded-final-verdict",
+  "reviewer": {
+    "actualAgentIdentity": "/root/correction_finish_reviewer",
+    "roleDefinition": ".agents/skills/impeccable/agents/impeccable_finish_reviewer.toml",
+    "rolePersonallyRead": true,
+    "implementationChanges": false,
+    "browserOrRenderExecuted": false
+  },
+  "scope": {
+    "pages": [
+      "home-1",
+      "home-2",
+      "home-3",
+      "home-4",
+      "onepage-showcase",
+      "onepage-services",
+      "onepage-projects"
+    ],
+    "environment": "g5themes.test public unauthenticated captures",
+    "excluded": [
+      "whole-theme sales readiness",
+      "ZIP installation/update/rollback",
+      "authenticated member flows",
+      "all board functions",
+      "YoungCart storefront",
+      "real customer business claims"
+    ],
+    "technicalPassIsNotDesignApproval": true
+  },
+  "missingInputs": [
+    "new approved comp (not applicable to code-led refinement)",
+    "standalone decision comp",
+    "standalone quality-bar card",
+    "concept-roll seed record (no new concept roll asserted)"
+  ],
+  "persistence": {
+    "result": "pass",
+    "product": "PRODUCT.md exists; historic phase status not used as current deployment evidence",
+    "design": "DESIGN.md incumbent world used with current DTCG and provided capture evidence"
+  },
+  "fidelity": [
+    {
+      "element": "TYPE",
+      "classification": "match",
+      "reason": "Readable Korean title scale; hero/photo separation and incumbent weight hierarchy retained."
+    },
+    {
+      "element": "MATERIAL",
+      "classification": "match",
+      "finish": "resolved",
+      "finding": "R1",
+      "reason": "True Blender geometry retained; final deployed captures show irregular walnut grain on body and curved shoulder, coherent with the hero product concept. R1 resolved."
+    },
+    {
+      "element": "GROUND",
+      "classification": "match",
+      "reason": "Existing light/dark context retained; updated dark capture has no rectangular shadow catcher. FORME dark specimen is legible. No external approved comp color target exists."
+    },
+    {
+      "element": "Main2 geometry and CTA",
+      "classification": "match",
+      "reason": "All slides visually separate title/photo and retain centered layout across required widths."
+    },
+    {
+      "element": "responsive reflow",
+      "classification": "acceptable adaptation",
+      "authority": "MAIN-SEVEN-CORRECTION-BRIEF-2026-09-28.md <=800px stack",
+      "reason": "Mobile and tablet preserve reading order."
+    },
+    {
+      "element": "rotation and fallback",
+      "classification": "match",
+      "reason": "Front/rear/side geometry changes; no-JS and failed-load poster remain; updated mobile-dark is painted."
+    },
+    {
+      "element": "onepage company story",
+      "classification": "match",
+      "reason": "Brand/company, offer, evidence, process, deliverables/guide, FAQ, contact are present with different stories."
+    },
+    {
+      "element": "craft floor",
+      "classification": "match",
+      "reason": "Affected Main1 hero and Main3 section decorative labels removed; functional indices and meaningful specimen/case captions preserved."
+    }
+  ],
+  "contract": {
+    "THESIS": {
+      "result": "pass",
+      "reason": "Readable Korean titles connect real photos, diagrams and company explanations."
+    },
+    "OWN-WORLD": {
+      "result": "pass",
+      "reason": "Incumbent typography, semantic themes and visual material roles retained."
+    },
+    "STORY": {
+      "result": "pass",
+      "reason": "Four home roles and three onepage roles remain distinct."
+    },
+    "FIRST VIEWPORT": {
+      "result": "pass",
+      "reason": "Main2 centered reading geometry and gap restored; other first viewports retain their own focal images."
+    },
+    "FORM": {
+      "result": "pass",
+      "reason": "Explicit code-led refinement; no new concept seed or approved comp is invented."
+    }
+  },
+  "pages": [
+    {
+      "page": "home-1",
+      "purpose": {
+        "id": "home-1.purpose",
+        "result": "pass",
+        "reason": "종합 서비스의 분야·업종·결과를 연결합니다."
+      },
+      "imagery": {
+        "id": "home-1.imagery",
+        "result": "pass",
+        "reason": "협업·디지털 사용·패키징 hero, 업종 사진, 전략 도해, 웹 시안의 역할이 구별됩니다."
+      },
+      "composition": {
+        "id": "home-1.composition",
+        "result": "pass",
+        "reason": "전폭 사진의 문장·제어가 중앙 본문축으로 이어지고 카드·사진·전략·사례가 다른 밀도를 가집니다."
+      }
+    },
+    {
+      "page": "home-2",
+      "purpose": {
+        "id": "home-2.purpose",
+        "result": "pass",
+        "reason": "사업 선택과 우선순위를 판단하는 홈입니다."
+      },
+      "imagery": {
+        "id": "home-2.imagery",
+        "result": "pass",
+        "reason": "고객 여정·우선순위 matrix·dashboard·proof table이 선택 근거를 시각화합니다."
+      },
+      "composition": {
+        "id": "home-2.composition",
+        "result": "pass",
+        "reason": "모든 hero에서 문장·사진의 두 열과 간격이 복구되었고 tablet/mobile의 위아래 흐름도 명확합니다."
+      }
+    },
+    {
+      "page": "home-3",
+      "purpose": {
+        "id": "home-3.purpose",
+        "result": "pass",
+        "reason": "안내·인쇄·공간·웹의 매체별 포트폴리오입니다."
+      },
+      "imagery": {
+        "id": "home-3.imagery",
+        "result": "pass",
+        "reason": "안내 도해·실물 인쇄·전시 사진·FIELDNOTE 시안이 서로 다른 매체를 실제로 보여줍니다."
+      },
+      "composition": {
+        "id": "home-3.composition",
+        "result": "pass",
+        "reason": "완화한 제목과 큰 사진이 균형을 이루고 좌우 인쇄물·전폭 공간·어두운 웹 시안이 리듬을 만듭니다."
+      }
+    },
+    {
+      "page": "home-4",
+      "purpose": {
+        "id": "home-4.purpose",
+        "result": "pass",
+        "reason": "FORME 하나의 브랜드를 통해 제작 과정과 인계를 설명합니다."
+      },
+      "imagery": {
+        "id": "home-4.imagery",
+        "result": "pass",
+        "reason": "제품·팀·고객 여정·웹·패키징·색상 자료가 같은 브랜드 흐름을 구성합니다."
+      },
+      "composition": {
+        "id": "home-4.composition",
+        "result": "pass",
+        "reason": "기존 중앙 배치·단계 진행이 유지됩니다. FORME 모바일 dark의 크림 배경과 진한 녹색 제목은 읽힙니다."
+      }
+    },
+    {
+      "page": "onepage-showcase",
+      "purpose": {
+        "id": "onepage-showcase.purpose",
+        "result": "pass",
+        "reason": "AURA 제품 브랜드의 관점·소재·사용·안내를 설명합니다."
+      },
+      "imagery": {
+        "id": "onepage-showcase.imagery",
+        "result": "pass",
+        "reason": "최종 브라우저 정면·후면·측면에서 불규칙한 목재 결과 곡면의 결이 보입니다. 이전 흐린 평행 줄과 플라스틱 외피 인상이 해소되었습니다. 형상·우측 다이얼·직조·상판이 유지되며 hero와 같은 제품 콘셉트로 읽힙니다. 밝은 스튜디오 조명 차이는 결함으로 보지 않습니다.",
+        "reviewedAt": "2026-09-28T04:52:10+00:00",
+        "evidence": [
+          "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-normal-front.png",
+          "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-normal-rear.png",
+          "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-normal-return.png",
+          "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-normal-final.png",
+          "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-reduced-final.png",
+          "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-no-js-final.png",
+          "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-dark-final.png",
+          "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-network-failure-final.png",
+          "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/mobile-normal-final.png",
+          "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/mobile-reduced-final.png",
+          "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/mobile-no-js-final.png",
+          "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/mobile-dark-final.png",
+          "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/mobile-network-failure-final.png"
+        ]
+      },
+      "composition": {
+        "id": "onepage-showcase.composition",
+        "result": "pass",
+        "reason": "브랜드→소재→세부→실제3D→사용→안내→문의가 완결됩니다. 브랜드 마크와 관점이 회사 역할을 담당합니다."
+      }
+    },
+    {
+      "page": "onepage-services",
+      "purpose": {
+        "id": "onepage-services.purpose",
+        "result": "pass",
+        "reason": "PARTNER의 회사 역할·서비스 범위·협업 조건을 설명합니다."
+      },
+      "imagery": {
+        "id": "onepage-services.imagery",
+        "result": "pass",
+        "reason": "팀 작업·고객 여정·서비스 prototype·검토 장면·산출물이 서비스 실체를 보여줍니다."
+      },
+      "composition": {
+        "id": "onepage-services.composition",
+        "result": "pass",
+        "reason": "회사→범위→시연→절차→산출물·조건→FAQ·문의가 진행되며 사진·도해·비교표가 카드의 반복을 나눕니다."
+      }
+    },
+    {
+      "page": "onepage-projects",
+      "purpose": {
+        "id": "onepage-projects.purpose",
+        "result": "pass",
+        "reason": "SAI 공간 스튜디오의 사례와 업무 범위를 설명합니다."
+      },
+      "imagery": {
+        "id": "onepage-projects.imagery",
+        "result": "pass",
+        "reason": "모형 검토·건축 외관·내부 공간·평면 도해·재료 세부·갤러리가 연결됩니다."
+      },
+      "composition": {
+        "id": "onepage-projects.composition",
+        "result": "pass",
+        "reason": "스튜디오→사례→설계 판단→업무 범위→절차·전달 자료→문의가 완결되어 사진 모음에 머무르지 않습니다."
+      }
+    }
+  ],
+  "comparisons": [
+    {
+      "left": "home-1",
+      "right": "home-2",
+      "result": "pass",
+      "reason": "종합 서비스의 전폭 사진·업종 모자이크와 사업 선택의 분할 hero·matrix·표 중심 구성이 다릅니다."
+    },
+    {
+      "left": "home-1",
+      "right": "home-3",
+      "result": "pass",
+      "reason": "종합 회사의 서비스 폭과 매체별 완성 결과를 크게 보여주는 포트폴리오가 다릅니다."
+    },
+    {
+      "left": "home-1",
+      "right": "home-4",
+      "result": "pass",
+      "reason": "여러 업종·서비스와 한 FORME 프로젝트의 과정·인계가 다른 이야기를 만듭니다."
+    },
+    {
+      "left": "home-2",
+      "right": "home-3",
+      "result": "pass",
+      "reason": "선택 기준·자료 비교와 실물 인쇄·공간·시안의 시각 증거가 다른 중심을 가집니다."
+    },
+    {
+      "left": "home-2",
+      "right": "home-4",
+      "result": "pass",
+      "reason": "무엇부터 선택할지 정하는 matrix와 어떻게 제작·전달하는지 보여주는 단계 흐름이 다릅니다."
+    },
+    {
+      "left": "home-3",
+      "right": "home-4",
+      "result": "pass",
+      "reason": "다양한 매체의 완성 결과와 하나의 브랜드에 연결된 제작 과정이 다릅니다."
+    },
+    {
+      "left": "onepage-showcase",
+      "right": "onepage-services",
+      "result": "pass",
+      "reason": "단일 물체의 소재·회전·사용과 회사 인력·설계 범위·협업 조건이 다릅니다."
+    },
+    {
+      "left": "onepage-showcase",
+      "right": "onepage-projects",
+      "result": "pass",
+      "reason": "제품 세부·360도와 공간 전체·평면·동선·재료 장면이 다릅니다."
+    },
+    {
+      "left": "onepage-services",
+      "right": "onepage-projects",
+      "result": "pass",
+      "reason": "서비스 여정·웹 시연·팀 역할과 공간 스튜디오·건축 장면·설계 자료가 다릅니다."
+    }
+  ],
+  "ceiling": {
+    "result": "reached-for-scored-fix",
+    "reason": "R1 irregular walnut grain is visible in actual browser recaptures; no whole-product ceiling approval implied."
+  },
+  "material_fixes": [],
+  "findingHistory": [
+    {
+      "id": "R1",
+      "status": "resolved",
+      "resolvedPortions": [
+        "removed extra wordmark",
+        "removed extra left controls",
+        "removed feet",
+        "charcoal cross-weave restored",
+        "irregular walnut material visible in final browser front/rear/side"
+      ],
+      "openPortion": null,
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-normal-front.png",
+        "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-normal-rear.png",
+        "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-normal-return.png",
+        "output/qa/main-seven-correction-20260928/final/strips/onepage-showcase/desktop-light/01.png",
+        "output/qa/main-seven-correction-20260928/reviewer-renders/aura-0001.png"
+      ],
+      "initialStatus": "partial",
+      "preservedPreFinalEvidence": [
+        "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/reviewer-before/round1-desktop-normal-front.png",
+        "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/reviewer-before/round1-desktop-normal-rear.png",
+        "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/reviewer-before/round1-desktop-normal-return.png",
+        "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/reviewer-before/round1-desktop-dark-final.png"
+      ],
+      "finalEvidence": [
+        "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-normal-front.png",
+        "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-normal-rear.png",
+        "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-normal-return.png",
+        "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-normal-final.png",
+        "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-reduced-final.png",
+        "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-no-js-final.png",
+        "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-dark-final.png",
+        "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-network-failure-final.png",
+        "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/mobile-normal-final.png",
+        "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/mobile-reduced-final.png",
+        "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/mobile-no-js-final.png",
+        "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/mobile-dark-final.png",
+        "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/mobile-network-failure-final.png"
+      ],
+      "reviewedAt": "2026-09-28T04:52:10+00:00"
+    },
+    {
+      "id": "R2",
+      "status": "resolved",
+      "reason": "Updated desktop-dark product sits on clean background with no dark rectangular floor layer.",
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-dark-final.png",
+        "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/mobile-dark-final.png"
+      ]
+    },
+    {
+      "id": "R3",
+      "status": "resolved",
+      "reason": "Main1 hero topic labels and Main3 decorative English numbered kickers removed; content captions retained.",
+      "evidence": [
+        "output/qa/ui/captures/home-1/wide-light.slide-1.png",
+        "output/qa/ui/captures/home-1/desktop-light.slide-2.png",
+        "output/qa/ui/captures/home-1/mobile-dark.slide-3.png",
+        "output/qa/main-seven-correction-20260928/final/strips/home-3/desktop-light/02.png",
+        "output/qa/main-seven-correction-20260928/final/strips/home-3/desktop-light/03.png",
+        "output/qa/main-seven-correction-20260928/final/strips/home-3/desktop-light/04.png",
+        "output/qa/main-seven-correction-20260928/final/strips/home-3/desktop-light/05.png"
+      ]
+    }
+  ],
+  "rejectedCandidates": [
+    {
+      "candidate": "Main4 mobile-dark FORME contrast",
+      "status": "withdrawn",
+      "reason": "Original-width strip04 shows dark green headline on cream, readable."
+    },
+    {
+      "candidate": "permanently absent failure poster",
+      "status": "not-substantiated",
+      "reason": "Old capture was pre decode/paint; /tmp/jw-fallback-after.png and refreshed desktop/mobile network-failure screenshots visibly retain poster."
+    }
+  ],
+  "evidence": {
+    "primaryUserScreenshots": [
+      "/var/folders/xf/jdln7xp96rs_yyl5c03rl68c0000gn/T/codex-clipboard-079b9f0b-8ef4-4824-89f9-66e15a772b11.png",
+      "/var/folders/xf/jdln7xp96rs_yyl5c03rl68c0000gn/T/codex-clipboard-d8a8ce50-dabe-4aa4-b024-b81ab4911a0d.png"
+    ],
+    "requiredCaptureSet": {
+      "root": "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/captures",
+      "pages": [
+        "home-1",
+        "home-2",
+        "home-3",
+        "home-4",
+        "onepage-showcase",
+        "onepage-services",
+        "onepage-projects"
+      ],
+      "states": [
+        "wide-light",
+        "large-light",
+        "compact-light",
+        "tablet-light",
+        "desktop-light",
+        "desktop-dark",
+        "mobile-light",
+        "mobile-dark"
+      ],
+      "widths": [
+        2560,
+        1920,
+        1280,
+        768,
+        1440,
+        1440,
+        390,
+        390
+      ],
+      "filesExistAndMetadataInspected": true
+    },
+    "fullOriginalsOpenedAsCompositionOverview": [
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/captures/home-1/wide-light.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/captures/home-1/large-light.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/captures/home-1/compact-light.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/captures/home-1/tablet-light.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/captures/home-1/desktop-light.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/captures/home-2/wide-light.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/captures/home-2/large-light.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/captures/home-2/compact-light.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/captures/home-2/tablet-light.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/captures/home-2/desktop-light.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/captures/home-3/wide-light.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/captures/home-3/large-light.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/captures/home-3/compact-light.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/captures/home-3/tablet-light.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/captures/home-3/desktop-light.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/captures/home-4/wide-light.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/captures/home-4/large-light.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/captures/home-4/compact-light.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/captures/home-4/tablet-light.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/captures/home-4/desktop-light.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/captures/onepage-showcase/wide-light.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/captures/onepage-showcase/large-light.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/captures/onepage-showcase/compact-light.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/captures/onepage-showcase/tablet-light.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/captures/onepage-showcase/desktop-light.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/captures/onepage-services/wide-light.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/captures/onepage-services/large-light.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/captures/onepage-services/compact-light.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/captures/onepage-services/tablet-light.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/captures/onepage-services/desktop-light.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/captures/onepage-projects/wide-light.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/captures/onepage-projects/large-light.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/captures/onepage-projects/compact-light.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/captures/onepage-projects/tablet-light.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/captures/onepage-projects/desktop-light.png"
+    ],
+    "boardsOpened": [
+      "output/qa/main-seven-correction-20260928/final/boards/home-1-desktop-light.png",
+      "output/qa/main-seven-correction-20260928/final/boards/home-1-desktop-dark.png",
+      "output/qa/main-seven-correction-20260928/final/boards/home-1-mobile-light.png",
+      "output/qa/main-seven-correction-20260928/final/boards/home-1-mobile-dark.png",
+      "output/qa/main-seven-correction-20260928/final/boards/home-2-desktop-light.png",
+      "output/qa/main-seven-correction-20260928/final/boards/home-2-desktop-dark.png",
+      "output/qa/main-seven-correction-20260928/final/boards/home-2-mobile-light.png",
+      "output/qa/main-seven-correction-20260928/final/boards/home-2-mobile-dark.png",
+      "output/qa/main-seven-correction-20260928/final/boards/home-3-desktop-light.png",
+      "output/qa/main-seven-correction-20260928/final/boards/home-3-desktop-dark.png",
+      "output/qa/main-seven-correction-20260928/final/boards/home-3-mobile-light.png",
+      "output/qa/main-seven-correction-20260928/final/boards/home-3-mobile-dark.png",
+      "output/qa/main-seven-correction-20260928/final/boards/home-4-desktop-light.png",
+      "output/qa/main-seven-correction-20260928/final/boards/home-4-desktop-dark.png",
+      "output/qa/main-seven-correction-20260928/final/boards/home-4-mobile-light.png",
+      "output/qa/main-seven-correction-20260928/final/boards/home-4-mobile-dark.png",
+      "output/qa/main-seven-correction-20260928/final/boards/onepage-showcase-desktop-light.png",
+      "output/qa/main-seven-correction-20260928/final/boards/onepage-showcase-desktop-dark.png",
+      "output/qa/main-seven-correction-20260928/final/boards/onepage-showcase-mobile-light.png",
+      "output/qa/main-seven-correction-20260928/final/boards/onepage-showcase-mobile-dark.png",
+      "output/qa/main-seven-correction-20260928/final/boards/onepage-services-desktop-light.png",
+      "output/qa/main-seven-correction-20260928/final/boards/onepage-services-desktop-dark.png",
+      "output/qa/main-seven-correction-20260928/final/boards/onepage-services-mobile-light.png",
+      "output/qa/main-seven-correction-20260928/final/boards/onepage-services-mobile-dark.png",
+      "output/qa/main-seven-correction-20260928/final/boards/onepage-projects-desktop-light.png",
+      "output/qa/main-seven-correction-20260928/final/boards/onepage-projects-desktop-dark.png",
+      "output/qa/main-seven-correction-20260928/final/boards/onepage-projects-mobile-light.png",
+      "output/qa/main-seven-correction-20260928/final/boards/onepage-projects-mobile-dark.png"
+    ],
+    "originalWidthStripsOpened": [
+      "output/qa/main-seven-correction-20260928/final/strips/home-1/desktop-light/02.png",
+      "output/qa/main-seven-correction-20260928/final/strips/home-1/desktop-light/03.png",
+      "output/qa/main-seven-correction-20260928/final/strips/home-1/desktop-light/04.png",
+      "output/qa/main-seven-correction-20260928/final/strips/home-1/desktop-light/05.png",
+      "output/qa/main-seven-correction-20260928/final/strips/home-1/desktop-light/06.png",
+      "output/qa/main-seven-correction-20260928/final/strips/home-1/desktop-light/07.png",
+      "output/qa/main-seven-correction-20260928/final/strips/home-1/desktop-light/08.png",
+      "output/qa/main-seven-correction-20260928/final/strips/home-1/desktop-light/09.png",
+      "output/qa/main-seven-correction-20260928/final/strips/home-1/mobile-dark/03.png",
+      "output/qa/main-seven-correction-20260928/final/strips/home-1/mobile-dark/05.png",
+      "output/qa/main-seven-correction-20260928/final/strips/home-1/mobile-dark/07.png",
+      "output/qa/main-seven-correction-20260928/final/strips/home-2/desktop-light/02.png",
+      "output/qa/main-seven-correction-20260928/final/strips/home-2/desktop-light/03.png",
+      "output/qa/main-seven-correction-20260928/final/strips/home-2/desktop-light/04.png",
+      "output/qa/main-seven-correction-20260928/final/strips/home-2/desktop-light/05.png",
+      "output/qa/main-seven-correction-20260928/final/strips/home-2/desktop-light/06.png",
+      "output/qa/main-seven-correction-20260928/final/strips/home-2/mobile-dark/03.png",
+      "output/qa/main-seven-correction-20260928/final/strips/home-2/mobile-dark/04.png",
+      "output/qa/main-seven-correction-20260928/final/strips/home-2/mobile-dark/06.png",
+      "output/qa/main-seven-correction-20260928/final/strips/home-3/desktop-light/02.png",
+      "output/qa/main-seven-correction-20260928/final/strips/home-3/desktop-light/03.png",
+      "output/qa/main-seven-correction-20260928/final/strips/home-3/desktop-light/04.png",
+      "output/qa/main-seven-correction-20260928/final/strips/home-3/desktop-light/05.png",
+      "output/qa/main-seven-correction-20260928/final/strips/home-3/desktop-light/06.png",
+      "output/qa/main-seven-correction-20260928/final/strips/home-3/mobile-dark/02.png",
+      "output/qa/main-seven-correction-20260928/final/strips/home-3/mobile-dark/03.png",
+      "output/qa/main-seven-correction-20260928/final/strips/home-3/mobile-dark/04.png",
+      "output/qa/main-seven-correction-20260928/final/strips/home-4/desktop-light/02.png",
+      "output/qa/main-seven-correction-20260928/final/strips/home-4/desktop-light/03.png",
+      "output/qa/main-seven-correction-20260928/final/strips/home-4/desktop-light/05.png",
+      "output/qa/main-seven-correction-20260928/final/strips/home-4/desktop-light/06.png",
+      "output/qa/main-seven-correction-20260928/final/strips/home-4/desktop-dark/04.png",
+      "output/qa/main-seven-correction-20260928/final/strips/home-4/mobile-dark/02.png",
+      "output/qa/main-seven-correction-20260928/final/strips/home-4/mobile-dark/03.png",
+      "output/qa/main-seven-correction-20260928/final/strips/home-4/mobile-dark/04.png",
+      "output/qa/main-seven-correction-20260928/final/strips/home-4/mobile-dark/05.png",
+      "output/qa/main-seven-correction-20260928/final/strips/home-4/mobile-dark/06.png",
+      "output/qa/main-seven-correction-20260928/final/strips/onepage-showcase/desktop-light/01.png",
+      "output/qa/main-seven-correction-20260928/final/strips/onepage-showcase/desktop-light/02.png",
+      "output/qa/main-seven-correction-20260928/final/strips/onepage-showcase/desktop-light/03.png",
+      "output/qa/main-seven-correction-20260928/final/strips/onepage-showcase/desktop-light/04.png",
+      "output/qa/main-seven-correction-20260928/final/strips/onepage-showcase/desktop-light/05.png",
+      "output/qa/main-seven-correction-20260928/final/strips/onepage-showcase/desktop-light/06.png",
+      "output/qa/main-seven-correction-20260928/final/strips/onepage-showcase/desktop-light/07.png",
+      "output/qa/main-seven-correction-20260928/final/strips/onepage-showcase/mobile-dark/02.png",
+      "output/qa/main-seven-correction-20260928/final/strips/onepage-showcase/mobile-dark/04.png",
+      "output/qa/main-seven-correction-20260928/final/strips/onepage-showcase/mobile-dark/05.png",
+      "output/qa/main-seven-correction-20260928/final/strips/onepage-services/desktop-light/02.png",
+      "output/qa/main-seven-correction-20260928/final/strips/onepage-services/desktop-light/03.png",
+      "output/qa/main-seven-correction-20260928/final/strips/onepage-services/desktop-light/04.png",
+      "output/qa/main-seven-correction-20260928/final/strips/onepage-services/desktop-light/05.png",
+      "output/qa/main-seven-correction-20260928/final/strips/onepage-services/desktop-light/06.png",
+      "output/qa/main-seven-correction-20260928/final/strips/onepage-services/desktop-light/07.png",
+      "output/qa/main-seven-correction-20260928/final/strips/onepage-services/desktop-light/08.png",
+      "output/qa/main-seven-correction-20260928/final/strips/onepage-services/desktop-light/09.png",
+      "output/qa/main-seven-correction-20260928/final/strips/onepage-services/mobile-dark/03.png",
+      "output/qa/main-seven-correction-20260928/final/strips/onepage-services/mobile-dark/04.png",
+      "output/qa/main-seven-correction-20260928/final/strips/onepage-services/mobile-dark/05.png",
+      "output/qa/main-seven-correction-20260928/final/strips/onepage-services/mobile-dark/06.png",
+      "output/qa/main-seven-correction-20260928/final/strips/onepage-services/mobile-dark/07.png",
+      "output/qa/main-seven-correction-20260928/final/strips/onepage-services/mobile-dark/08.png",
+      "output/qa/main-seven-correction-20260928/final/strips/onepage-projects/desktop-light/02.png",
+      "output/qa/main-seven-correction-20260928/final/strips/onepage-projects/desktop-light/03.png",
+      "output/qa/main-seven-correction-20260928/final/strips/onepage-projects/desktop-light/04.png",
+      "output/qa/main-seven-correction-20260928/final/strips/onepage-projects/desktop-light/05.png",
+      "output/qa/main-seven-correction-20260928/final/strips/onepage-projects/desktop-light/06.png",
+      "output/qa/main-seven-correction-20260928/final/strips/onepage-projects/desktop-light/07.png",
+      "output/qa/main-seven-correction-20260928/final/strips/onepage-projects/desktop-light/08.png",
+      "output/qa/main-seven-correction-20260928/final/strips/onepage-projects/desktop-light/09.png",
+      "output/qa/main-seven-correction-20260928/final/strips/onepage-projects/mobile-dark/02.png",
+      "output/qa/main-seven-correction-20260928/final/strips/onepage-projects/mobile-dark/03.png",
+      "output/qa/main-seven-correction-20260928/final/strips/onepage-projects/mobile-dark/05.png",
+      "output/qa/main-seven-correction-20260928/final/strips/onepage-projects/mobile-dark/06.png",
+      "output/qa/main-seven-correction-20260928/final/strips/onepage-projects/mobile-dark/07.png"
+    ],
+    "allHeroSlidesOpened": [
+      "output/qa/ui/captures/home-1/wide-light.slide-1.png",
+      "output/qa/ui/captures/home-1/wide-light.slide-2.png",
+      "output/qa/ui/captures/home-1/wide-light.slide-3.png",
+      "output/qa/ui/captures/home-1/large-light.slide-1.png",
+      "output/qa/ui/captures/home-1/large-light.slide-2.png",
+      "output/qa/ui/captures/home-1/large-light.slide-3.png",
+      "output/qa/ui/captures/home-1/compact-light.slide-1.png",
+      "output/qa/ui/captures/home-1/compact-light.slide-2.png",
+      "output/qa/ui/captures/home-1/compact-light.slide-3.png",
+      "output/qa/ui/captures/home-1/tablet-light.slide-1.png",
+      "output/qa/ui/captures/home-1/tablet-light.slide-2.png",
+      "output/qa/ui/captures/home-1/tablet-light.slide-3.png",
+      "output/qa/ui/captures/home-1/desktop-light.slide-1.png",
+      "output/qa/ui/captures/home-1/desktop-light.slide-2.png",
+      "output/qa/ui/captures/home-1/desktop-light.slide-3.png",
+      "output/qa/ui/captures/home-1/desktop-dark.slide-1.png",
+      "output/qa/ui/captures/home-1/desktop-dark.slide-2.png",
+      "output/qa/ui/captures/home-1/desktop-dark.slide-3.png",
+      "output/qa/ui/captures/home-1/mobile-light.slide-1.png",
+      "output/qa/ui/captures/home-1/mobile-light.slide-2.png",
+      "output/qa/ui/captures/home-1/mobile-light.slide-3.png",
+      "output/qa/ui/captures/home-1/mobile-dark.slide-1.png",
+      "output/qa/ui/captures/home-1/mobile-dark.slide-2.png",
+      "output/qa/ui/captures/home-1/mobile-dark.slide-3.png",
+      "output/qa/ui/captures/home-2/wide-light.slide-1.png",
+      "output/qa/ui/captures/home-2/wide-light.slide-2.png",
+      "output/qa/ui/captures/home-2/wide-light.slide-3.png",
+      "output/qa/ui/captures/home-2/large-light.slide-1.png",
+      "output/qa/ui/captures/home-2/large-light.slide-2.png",
+      "output/qa/ui/captures/home-2/large-light.slide-3.png",
+      "output/qa/ui/captures/home-2/compact-light.slide-1.png",
+      "output/qa/ui/captures/home-2/compact-light.slide-2.png",
+      "output/qa/ui/captures/home-2/compact-light.slide-3.png",
+      "output/qa/ui/captures/home-2/tablet-light.slide-1.png",
+      "output/qa/ui/captures/home-2/tablet-light.slide-2.png",
+      "output/qa/ui/captures/home-2/tablet-light.slide-3.png",
+      "output/qa/ui/captures/home-2/desktop-light.slide-1.png",
+      "output/qa/ui/captures/home-2/desktop-light.slide-2.png",
+      "output/qa/ui/captures/home-2/desktop-light.slide-3.png",
+      "output/qa/ui/captures/home-2/desktop-dark.slide-1.png",
+      "output/qa/ui/captures/home-2/desktop-dark.slide-2.png",
+      "output/qa/ui/captures/home-2/desktop-dark.slide-3.png",
+      "output/qa/ui/captures/home-2/mobile-light.slide-1.png",
+      "output/qa/ui/captures/home-2/mobile-light.slide-2.png",
+      "output/qa/ui/captures/home-2/mobile-light.slide-3.png",
+      "output/qa/ui/captures/home-2/mobile-dark.slide-1.png",
+      "output/qa/ui/captures/home-2/mobile-dark.slide-2.png",
+      "output/qa/ui/captures/home-2/mobile-dark.slide-3.png"
+    ],
+    "rotationOpened": [
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-normal-front.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-normal-rear.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-normal-return.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/mobile-normal-final.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-reduced-final.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/mobile-reduced-final.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-no-js-final.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/mobile-no-js-final.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-dark-final.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/mobile-dark-final.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-network-failure-final.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/mobile-network-failure-final.png"
+    ],
+    "inAppBrowserOpened": [
+      "output/qa/main-seven-correction-20260928/iab/main1-wide.png",
+      "output/qa/main-seven-correction-20260928/iab/main2-wide-slide3.png",
+      "output/qa/main-seven-correction-20260928/iab/main2-tablet-slide2.png",
+      "output/qa/main-seven-correction-20260928/iab/main3-wide.png",
+      "output/qa/main-seven-correction-20260928/iab/main4-wide.png",
+      "output/qa/main-seven-correction-20260928/iab/product-rotation-final.png"
+    ],
+    "oldDefectsPreserved": [
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/reviewer-before/desktop-network-failure-final.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/reviewer-before/desktop-dark-final.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/reviewer-before/desktop-normal-front.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/reviewer-before/desktop-normal-rear.png"
+    ],
+    "rawSamplesOpened": [
+      "output/qa/main-seven-correction-20260928/reviewer-renders/aura-0001.png",
+      "output/qa/main-seven-correction-20260928/reviewer-renders/aura-0030.png",
+      "output/qa/main-seven-correction-20260928/final-renders/aura-0001.png"
+    ],
+    "limitations": [
+      "Not all461 strips were opened; listed readable intervening strips and all28 boards supplement35 full-page overviews.",
+      "Full-page overviews alone were not used to approve small text.",
+      "Additional40 interaction screenshots were not individually reviewed; manifest was read, no independent browser execution.",
+      "Bulk unchanged page evidence was reviewed before bounded label/material fixes; affected labels and rotation were reopened after recapture.",
+      "A pair comparison pass does not override R1 or establish whole-product sales readiness.",
+      "Final verdict uses13 reopened rotation screenshots; seven-page bulk judgments and9 comparisons are retained from the initial review. It is not a new full-theme review."
+    ],
+    "finalVerdictSamePathsReopened": [
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-normal-front.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-normal-rear.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-normal-return.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-normal-final.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-reduced-final.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-no-js-final.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-dark-final.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-network-failure-final.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/mobile-normal-final.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/mobile-reduced-final.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/mobile-no-js-final.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/mobile-dark-final.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/mobile-network-failure-final.png"
+    ],
+    "preFinalTextureBrowserArchive": [
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/reviewer-before/round1-desktop-normal-front.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/reviewer-before/round1-desktop-normal-rear.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/reviewer-before/round1-desktop-normal-return.png",
+      "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/reviewer-before/round1-desktop-dark-final.png"
+    ]
+  },
+  "keep": "Central reading axis; readable Korean hierarchy; seven purpose/material differences; genuine Blender rotation; onepage company/scope/process/deliverables narrative.",
+  "initialReview": {
+    "disposition": "fix",
+    "round": "initial-full-review-after-valid-recapture",
+    "fidelity": [
+      {
+        "element": "TYPE",
+        "classification": "match",
+        "reason": "Readable Korean title scale; hero/photo separation and incumbent weight hierarchy retained."
+      },
+      {
+        "element": "MATERIAL",
+        "classification": "match",
+        "finish": "partial",
+        "finding": "R1",
+        "reason": "True dimensional Blender frames and physical/photo material are present; walnut finish remains visibly below the hero/detail photographs."
+      },
+      {
+        "element": "GROUND",
+        "classification": "match",
+        "reason": "Existing light/dark context retained; updated dark capture has no rectangular shadow catcher. FORME dark specimen is legible. No external approved comp color target exists."
+      },
+      {
+        "element": "Main2 geometry and CTA",
+        "classification": "match",
+        "reason": "All slides visually separate title/photo and retain centered layout across required widths."
+      },
+      {
+        "element": "responsive reflow",
+        "classification": "acceptable adaptation",
+        "authority": "MAIN-SEVEN-CORRECTION-BRIEF-2026-09-28.md <=800px stack",
+        "reason": "Mobile and tablet preserve reading order."
+      },
+      {
+        "element": "rotation and fallback",
+        "classification": "match",
+        "reason": "Front/rear/side geometry changes; no-JS and failed-load poster remain; updated mobile-dark is painted."
+      },
+      {
+        "element": "onepage company story",
+        "classification": "match",
+        "reason": "Brand/company, offer, evidence, process, deliverables/guide, FAQ, contact are present with different stories."
+      },
+      {
+        "element": "craft floor",
+        "classification": "match",
+        "reason": "Affected Main1 hero and Main3 section decorative labels removed; functional indices and meaningful specimen/case captions preserved."
+      }
+    ],
+    "pages": [
+      {
+        "page": "home-1",
+        "purpose": {
+          "id": "home-1.purpose",
+          "result": "pass",
+          "reason": "종합 서비스의 분야·업종·결과를 연결합니다."
+        },
+        "imagery": {
+          "id": "home-1.imagery",
+          "result": "pass",
+          "reason": "협업·디지털 사용·패키징 hero, 업종 사진, 전략 도해, 웹 시안의 역할이 구별됩니다."
+        },
+        "composition": {
+          "id": "home-1.composition",
+          "result": "pass",
+          "reason": "전폭 사진의 문장·제어가 중앙 본문축으로 이어지고 카드·사진·전략·사례가 다른 밀도를 가집니다."
+        }
+      },
+      {
+        "page": "home-2",
+        "purpose": {
+          "id": "home-2.purpose",
+          "result": "pass",
+          "reason": "사업 선택과 우선순위를 판단하는 홈입니다."
+        },
+        "imagery": {
+          "id": "home-2.imagery",
+          "result": "pass",
+          "reason": "고객 여정·우선순위 matrix·dashboard·proof table이 선택 근거를 시각화합니다."
+        },
+        "composition": {
+          "id": "home-2.composition",
+          "result": "pass",
+          "reason": "모든 hero에서 문장·사진의 두 열과 간격이 복구되었고 tablet/mobile의 위아래 흐름도 명확합니다."
+        }
+      },
+      {
+        "page": "home-3",
+        "purpose": {
+          "id": "home-3.purpose",
+          "result": "pass",
+          "reason": "안내·인쇄·공간·웹의 매체별 포트폴리오입니다."
+        },
+        "imagery": {
+          "id": "home-3.imagery",
+          "result": "pass",
+          "reason": "안내 도해·실물 인쇄·전시 사진·FIELDNOTE 시안이 서로 다른 매체를 실제로 보여줍니다."
+        },
+        "composition": {
+          "id": "home-3.composition",
+          "result": "pass",
+          "reason": "완화한 제목과 큰 사진이 균형을 이루고 좌우 인쇄물·전폭 공간·어두운 웹 시안이 리듬을 만듭니다."
+        }
+      },
+      {
+        "page": "home-4",
+        "purpose": {
+          "id": "home-4.purpose",
+          "result": "pass",
+          "reason": "FORME 하나의 브랜드를 통해 제작 과정과 인계를 설명합니다."
+        },
+        "imagery": {
+          "id": "home-4.imagery",
+          "result": "pass",
+          "reason": "제품·팀·고객 여정·웹·패키징·색상 자료가 같은 브랜드 흐름을 구성합니다."
+        },
+        "composition": {
+          "id": "home-4.composition",
+          "result": "pass",
+          "reason": "기존 중앙 배치·단계 진행이 유지됩니다. FORME 모바일 dark의 크림 배경과 진한 녹색 제목은 읽힙니다."
+        }
+      },
+      {
+        "page": "onepage-showcase",
+        "purpose": {
+          "id": "onepage-showcase.purpose",
+          "result": "pass",
+          "reason": "AURA 제품 브랜드의 관점·소재·사용·안내를 설명합니다."
+        },
+        "imagery": {
+          "id": "onepage-showcase.imagery",
+          "result": "fail",
+          "reason": "같은 둥근 목재 몸체·직조 전면·메탈 상판·우측 다이얼 콘셉트이나 현재 browser 모델의 월넛이 균일한 흐린 세로띠와 넓은 반사로 읽힙니다. 남은 R1은 목재 재질입니다."
+        },
+        "composition": {
+          "id": "onepage-showcase.composition",
+          "result": "pass",
+          "reason": "브랜드→소재→세부→실제3D→사용→안내→문의가 완결됩니다. 브랜드 마크와 관점이 회사 역할을 담당합니다."
+        }
+      },
+      {
+        "page": "onepage-services",
+        "purpose": {
+          "id": "onepage-services.purpose",
+          "result": "pass",
+          "reason": "PARTNER의 회사 역할·서비스 범위·협업 조건을 설명합니다."
+        },
+        "imagery": {
+          "id": "onepage-services.imagery",
+          "result": "pass",
+          "reason": "팀 작업·고객 여정·서비스 prototype·검토 장면·산출물이 서비스 실체를 보여줍니다."
+        },
+        "composition": {
+          "id": "onepage-services.composition",
+          "result": "pass",
+          "reason": "회사→범위→시연→절차→산출물·조건→FAQ·문의가 진행되며 사진·도해·비교표가 카드의 반복을 나눕니다."
+        }
+      },
+      {
+        "page": "onepage-projects",
+        "purpose": {
+          "id": "onepage-projects.purpose",
+          "result": "pass",
+          "reason": "SAI 공간 스튜디오의 사례와 업무 범위를 설명합니다."
+        },
+        "imagery": {
+          "id": "onepage-projects.imagery",
+          "result": "pass",
+          "reason": "모형 검토·건축 외관·내부 공간·평면 도해·재료 세부·갤러리가 연결됩니다."
+        },
+        "composition": {
+          "id": "onepage-projects.composition",
+          "result": "pass",
+          "reason": "스튜디오→사례→설계 판단→업무 범위→절차·전달 자료→문의가 완결되어 사진 모음에 머무르지 않습니다."
+        }
+      }
+    ],
+    "comparisons": [
+      {
+        "left": "home-1",
+        "right": "home-2",
+        "result": "pass",
+        "reason": "종합 서비스의 전폭 사진·업종 모자이크와 사업 선택의 분할 hero·matrix·표 중심 구성이 다릅니다."
+      },
+      {
+        "left": "home-1",
+        "right": "home-3",
+        "result": "pass",
+        "reason": "종합 회사의 서비스 폭과 매체별 완성 결과를 크게 보여주는 포트폴리오가 다릅니다."
+      },
+      {
+        "left": "home-1",
+        "right": "home-4",
+        "result": "pass",
+        "reason": "여러 업종·서비스와 한 FORME 프로젝트의 과정·인계가 다른 이야기를 만듭니다."
+      },
+      {
+        "left": "home-2",
+        "right": "home-3",
+        "result": "pass",
+        "reason": "선택 기준·자료 비교와 실물 인쇄·공간·시안의 시각 증거가 다른 중심을 가집니다."
+      },
+      {
+        "left": "home-2",
+        "right": "home-4",
+        "result": "pass",
+        "reason": "무엇부터 선택할지 정하는 matrix와 어떻게 제작·전달하는지 보여주는 단계 흐름이 다릅니다."
+      },
+      {
+        "left": "home-3",
+        "right": "home-4",
+        "result": "pass",
+        "reason": "다양한 매체의 완성 결과와 하나의 브랜드에 연결된 제작 과정이 다릅니다."
+      },
+      {
+        "left": "onepage-showcase",
+        "right": "onepage-services",
+        "result": "pass",
+        "reason": "단일 물체의 소재·회전·사용과 회사 인력·설계 범위·협업 조건이 다릅니다."
+      },
+      {
+        "left": "onepage-showcase",
+        "right": "onepage-projects",
+        "result": "pass",
+        "reason": "제품 세부·360도와 공간 전체·평면·동선·재료 장면이 다릅니다."
+      },
+      {
+        "left": "onepage-services",
+        "right": "onepage-projects",
+        "result": "pass",
+        "reason": "서비스 여정·웹 시연·팀 역할과 공간 스튜디오·건축 장면·설계 자료가 다릅니다."
+      }
+    ],
+    "ceiling": {
+      "result": "not-reached",
+      "reason": "R1 walnut material has blurred regular bands and broad smooth shoulder reflection; lighting hue alone is not the defect. Geometry and medium do not require page rebuild."
+    },
+    "material_fixes": [
+      {
+        "id": "R1",
+        "priority": "P2",
+        "status": "partial",
+        "type": "produce raster material asset",
+        "action": "Produce irregular walnut grain raster texture with matte microvariation, rerender all60 angles preserving geometry/dial/fabric/metal, then verify same browser front/rear/side light/dark/mobile/fallback captures.",
+        "preservedBrowserEvidence": [
+          "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/reviewer-before/round1-desktop-normal-front.png",
+          "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/reviewer-before/round1-desktop-normal-rear.png",
+          "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/reviewer-before/round1-desktop-normal-return.png",
+          "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/reviewer-before/round1-desktop-dark-final.png"
+        ]
+      }
+    ]
+  },
+  "reviewedAt": "2026-09-28T04:52:10+00:00",
+  "judgmentBasis": "Initial full seven-page review retained; final same-path recaptures score R1 and regressions of that bounded material fix only.",
+  "verdict": {
+    "reviewedAt": "2026-09-28T04:52:10+00:00",
+    "reviewer": "/root/correction_finish_reviewer",
+    "scoredFixes": [
+      {
+        "id": "R1",
+        "status": "resolved",
+        "reason": "최종 브라우저 정면·후면·측면에서 불규칙한 목재 결과 곡면의 결이 보입니다. 이전 흐린 평행 줄과 플라스틱 외피 인상이 해소되었습니다. 형상·우측 다이얼·직조·상판이 유지되며 hero와 같은 제품 콘셉트로 읽힙니다. 밝은 스튜디오 조명 차이는 결함으로 보지 않습니다."
+      }
+    ],
+    "regressions": [],
+    "remaining": "clear",
+    "disposition": "ship",
+    "scope": "Only scored fixes on the previously reviewed seven public templates. Original exclusions and evidence limits remain.",
+    "evidence": [
+      {
+        "path": "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-normal-front.png",
+        "sha256": "510f8c1f4e115aace27fee28c2dc79d40bf5eab0d73ec3d23f2b616ab19de784"
+      },
+      {
+        "path": "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-normal-rear.png",
+        "sha256": "7d80e9f2eab5f843fac7a6eb984beab334222771238e3d4da731e8ee4585e2d3"
+      },
+      {
+        "path": "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-normal-return.png",
+        "sha256": "34085c497c9515e33a1cd47bfd4a55cc01de62695dc7ac59243d1c1dad0b75c5"
+      },
+      {
+        "path": "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-normal-final.png",
+        "sha256": "e64fb6ae571b0e2ce51bda2952b17bddc3977d8260c579322815550f2982f413"
+      },
+      {
+        "path": "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-reduced-final.png",
+        "sha256": "d1f0792436098cc23aaaef332c9a3251aea47362678dec6c8b5069259f723397"
+      },
+      {
+        "path": "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-no-js-final.png",
+        "sha256": "5636e68324fd77a0df952177f6ac8cc915bbf9dbcb58055b285e72cdd4b61ab2"
+      },
+      {
+        "path": "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-dark-final.png",
+        "sha256": "9b002f5be97578d4d782e631c74b4b69e891aad20feb3b2b9fa5cfcab058e322"
+      },
+      {
+        "path": "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-network-failure-final.png",
+        "sha256": "c4308b569f3e4102483ecdc83ff1ce6486cf68d48928e666f294ae5c983e8c0a"
+      },
+      {
+        "path": "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/mobile-normal-final.png",
+        "sha256": "fb3845d6e53c839cdca2af975010457142f790549b0148d52e5e5be0528dd0a6"
+      },
+      {
+        "path": "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/mobile-reduced-final.png",
+        "sha256": "fb3845d6e53c839cdca2af975010457142f790549b0148d52e5e5be0528dd0a6"
+      },
+      {
+        "path": "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/mobile-no-js-final.png",
+        "sha256": "cb6fcea73e07f59aee3712277fe531a0afa1a8511abb904470da85a16b37815f"
+      },
+      {
+        "path": "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/mobile-dark-final.png",
+        "sha256": "63413d5cb25e29a24554d329a7a55246d62f685f0c9f39b7d93e070790463fa4"
+      },
+      {
+        "path": "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/mobile-network-failure-final.png",
+        "sha256": "385596c73d2e5e7d62f39dc699a491715197215fa1f725d90648c66fa62f1e84"
+      }
+    ]
+  },
+  "finalReview": {
+    "reviewedAt": "2026-09-28T04:52:10+00:00",
+    "disposition": "ship",
+    "pages": [
+      {
+        "page": "home-1",
+        "purpose": {
+          "id": "home-1.purpose",
+          "result": "pass",
+          "reason": "종합 서비스의 분야·업종·결과를 연결합니다."
+        },
+        "imagery": {
+          "id": "home-1.imagery",
+          "result": "pass",
+          "reason": "협업·디지털 사용·패키징 hero, 업종 사진, 전략 도해, 웹 시안의 역할이 구별됩니다."
+        },
+        "composition": {
+          "id": "home-1.composition",
+          "result": "pass",
+          "reason": "전폭 사진의 문장·제어가 중앙 본문축으로 이어지고 카드·사진·전략·사례가 다른 밀도를 가집니다."
+        }
+      },
+      {
+        "page": "home-2",
+        "purpose": {
+          "id": "home-2.purpose",
+          "result": "pass",
+          "reason": "사업 선택과 우선순위를 판단하는 홈입니다."
+        },
+        "imagery": {
+          "id": "home-2.imagery",
+          "result": "pass",
+          "reason": "고객 여정·우선순위 matrix·dashboard·proof table이 선택 근거를 시각화합니다."
+        },
+        "composition": {
+          "id": "home-2.composition",
+          "result": "pass",
+          "reason": "모든 hero에서 문장·사진의 두 열과 간격이 복구되었고 tablet/mobile의 위아래 흐름도 명확합니다."
+        }
+      },
+      {
+        "page": "home-3",
+        "purpose": {
+          "id": "home-3.purpose",
+          "result": "pass",
+          "reason": "안내·인쇄·공간·웹의 매체별 포트폴리오입니다."
+        },
+        "imagery": {
+          "id": "home-3.imagery",
+          "result": "pass",
+          "reason": "안내 도해·실물 인쇄·전시 사진·FIELDNOTE 시안이 서로 다른 매체를 실제로 보여줍니다."
+        },
+        "composition": {
+          "id": "home-3.composition",
+          "result": "pass",
+          "reason": "완화한 제목과 큰 사진이 균형을 이루고 좌우 인쇄물·전폭 공간·어두운 웹 시안이 리듬을 만듭니다."
+        }
+      },
+      {
+        "page": "home-4",
+        "purpose": {
+          "id": "home-4.purpose",
+          "result": "pass",
+          "reason": "FORME 하나의 브랜드를 통해 제작 과정과 인계를 설명합니다."
+        },
+        "imagery": {
+          "id": "home-4.imagery",
+          "result": "pass",
+          "reason": "제품·팀·고객 여정·웹·패키징·색상 자료가 같은 브랜드 흐름을 구성합니다."
+        },
+        "composition": {
+          "id": "home-4.composition",
+          "result": "pass",
+          "reason": "기존 중앙 배치·단계 진행이 유지됩니다. FORME 모바일 dark의 크림 배경과 진한 녹색 제목은 읽힙니다."
+        }
+      },
+      {
+        "page": "onepage-showcase",
+        "purpose": {
+          "id": "onepage-showcase.purpose",
+          "result": "pass",
+          "reason": "AURA 제품 브랜드의 관점·소재·사용·안내를 설명합니다."
+        },
+        "imagery": {
+          "id": "onepage-showcase.imagery",
+          "result": "pass",
+          "reason": "최종 브라우저 정면·후면·측면에서 불규칙한 목재 결과 곡면의 결이 보입니다. 이전 흐린 평행 줄과 플라스틱 외피 인상이 해소되었습니다. 형상·우측 다이얼·직조·상판이 유지되며 hero와 같은 제품 콘셉트로 읽힙니다. 밝은 스튜디오 조명 차이는 결함으로 보지 않습니다.",
+          "reviewedAt": "2026-09-28T04:52:10+00:00",
+          "evidence": [
+            "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-normal-front.png",
+            "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-normal-rear.png",
+            "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-normal-return.png",
+            "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-normal-final.png",
+            "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-reduced-final.png",
+            "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-no-js-final.png",
+            "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-dark-final.png",
+            "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/desktop-network-failure-final.png",
+            "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/mobile-normal-final.png",
+            "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/mobile-reduced-final.png",
+            "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/mobile-no-js-final.png",
+            "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/mobile-dark-final.png",
+            "themes/business/jw_business/quality/evidence/main-seven-correction-20260928/rotation/mobile-network-failure-final.png"
+          ]
+        },
+        "composition": {
+          "id": "onepage-showcase.composition",
+          "result": "pass",
+          "reason": "브랜드→소재→세부→실제3D→사용→안내→문의가 완결됩니다. 브랜드 마크와 관점이 회사 역할을 담당합니다."
+        }
+      },
+      {
+        "page": "onepage-services",
+        "purpose": {
+          "id": "onepage-services.purpose",
+          "result": "pass",
+          "reason": "PARTNER의 회사 역할·서비스 범위·협업 조건을 설명합니다."
+        },
+        "imagery": {
+          "id": "onepage-services.imagery",
+          "result": "pass",
+          "reason": "팀 작업·고객 여정·서비스 prototype·검토 장면·산출물이 서비스 실체를 보여줍니다."
+        },
+        "composition": {
+          "id": "onepage-services.composition",
+          "result": "pass",
+          "reason": "회사→범위→시연→절차→산출물·조건→FAQ·문의가 진행되며 사진·도해·비교표가 카드의 반복을 나눕니다."
+        }
+      },
+      {
+        "page": "onepage-projects",
+        "purpose": {
+          "id": "onepage-projects.purpose",
+          "result": "pass",
+          "reason": "SAI 공간 스튜디오의 사례와 업무 범위를 설명합니다."
+        },
+        "imagery": {
+          "id": "onepage-projects.imagery",
+          "result": "pass",
+          "reason": "모형 검토·건축 외관·내부 공간·평면 도해·재료 세부·갤러리가 연결됩니다."
+        },
+        "composition": {
+          "id": "onepage-projects.composition",
+          "result": "pass",
+          "reason": "스튜디오→사례→설계 판단→업무 범위→절차·전달 자료→문의가 완결되어 사진 모음에 머무르지 않습니다."
+        }
+      }
+    ],
+    "comparisons": [
+      {
+        "left": "home-1",
+        "right": "home-2",
+        "result": "pass",
+        "reason": "종합 서비스의 전폭 사진·업종 모자이크와 사업 선택의 분할 hero·matrix·표 중심 구성이 다릅니다."
+      },
+      {
+        "left": "home-1",
+        "right": "home-3",
+        "result": "pass",
+        "reason": "종합 회사의 서비스 폭과 매체별 완성 결과를 크게 보여주는 포트폴리오가 다릅니다."
+      },
+      {
+        "left": "home-1",
+        "right": "home-4",
+        "result": "pass",
+        "reason": "여러 업종·서비스와 한 FORME 프로젝트의 과정·인계가 다른 이야기를 만듭니다."
+      },
+      {
+        "left": "home-2",
+        "right": "home-3",
+        "result": "pass",
+        "reason": "선택 기준·자료 비교와 실물 인쇄·공간·시안의 시각 증거가 다른 중심을 가집니다."
+      },
+      {
+        "left": "home-2",
+        "right": "home-4",
+        "result": "pass",
+        "reason": "무엇부터 선택할지 정하는 matrix와 어떻게 제작·전달하는지 보여주는 단계 흐름이 다릅니다."
+      },
+      {
+        "left": "home-3",
+        "right": "home-4",
+        "result": "pass",
+        "reason": "다양한 매체의 완성 결과와 하나의 브랜드에 연결된 제작 과정이 다릅니다."
+      },
+      {
+        "left": "onepage-showcase",
+        "right": "onepage-services",
+        "result": "pass",
+        "reason": "단일 물체의 소재·회전·사용과 회사 인력·설계 범위·협업 조건이 다릅니다."
+      },
+      {
+        "left": "onepage-showcase",
+        "right": "onepage-projects",
+        "result": "pass",
+        "reason": "제품 세부·360도와 공간 전체·평면·동선·재료 장면이 다릅니다."
+      },
+      {
+        "left": "onepage-services",
+        "right": "onepage-projects",
+        "result": "pass",
+        "reason": "서비스 여정·웹 시연·팀 역할과 공간 스튜디오·건축 장면·설계 자료가 다릅니다."
+      }
+    ],
+    "material_fixes": [],
+    "reason": "Initial independent seven-page judgments retained with R1 imagery updated after directly reopening13 final browser rotation screenshots. Irregular walnut grain now reads across body and curved shoulder; no regression to geometry/fabric/metal, dark alpha, mobile poster or failure fallback. This ship covers scored corrections only; original scope exclusions and inspection limits remain."
+  }
+}

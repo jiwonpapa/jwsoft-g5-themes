@@ -1,0 +1,81 @@
+{
+  "result": "collected-not-approved",
+  "page": "home-2",
+  "state": "desktop-dark",
+  "url": "https://g5themes.test/theme/jw_business/index_2.php?device=pc",
+  "capturedAt": "2026-09-28T04:36:28.799Z",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "fullPage": true,
+  "file": "/Users/neojins/workspace/jwsoft-g5-themes/output/qa/ui/captures/home-2/desktop-dark.png",
+  "sha256": "69c76cb85e3eb2247fdd3cb7b98c7958313ac4afd2bb83cd823abae12e5b6faa",
+  "inputDigest": "3e0b2674c4dd84d4d51d37bc4693baeb853f8ae001fdabae2b4bbd3a2a5de887",
+  "platform": "darwin",
+  "browser": "153.0.8010.12",
+  "errors": [],
+  "mode": "jw-dark",
+  "documentHeight": 7367,
+  "overflow": 0,
+  "brokenImages": [],
+  "missingIcons": 0,
+  "reversedText": [],
+  "requirements": [
+    {
+      "id": "page-heading",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "hero-slider",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "digital-artifact",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "decision-matrix",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "decision-evidence",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "large-choice-icons",
+      "count": 3,
+      "visible": true
+    },
+    {
+      "id": "journey-map",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "delivery-board",
+      "count": 3,
+      "visible": true
+    }
+  ],
+  "media": [
+    "https://g5themes.test/theme/jw_business/assets/brand/jw-business-light.webp",
+    "https://g5themes.test/theme/jw_business/assets/brand/jw-business-dark.webp",
+    "https://g5themes.test/theme/jw_business/assets/home2-decision-CfVJk5gZ.webp",
+    "https://g5themes.test/theme/jw_business/assets/home2-digital-BAfUKBwe.webp",
+    "https://g5themes.test/theme/jw_business/assets/home2-operations-Iz1Us8MJ.webp"
+  ],
+  "regions": {
+    ".jw-footer": {
+      "left": 0,
+      "top": 7123,
+      "width": 1440,
+      "height": 244
+    }
+  }
+}

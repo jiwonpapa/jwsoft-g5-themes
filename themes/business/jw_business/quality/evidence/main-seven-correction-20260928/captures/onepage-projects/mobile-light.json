@@ -1,0 +1,90 @@
+{
+  "result": "collected-not-approved",
+  "page": "onepage-projects",
+  "state": "mobile-light",
+  "url": "https://g5themes.test/pages/onepage-projects.php?device=mobile",
+  "capturedAt": "2026-09-28T04:36:58.614Z",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "fullPage": true,
+  "file": "/Users/neojins/workspace/jwsoft-g5-themes/output/qa/ui/captures/onepage-projects/mobile-light.png",
+  "sha256": "fb676ff91687c0ffe5ad85c5cf32e90e8ea459799fc632a6fc375c8b6a9e4f04",
+  "inputDigest": "3e0b2674c4dd84d4d51d37bc4693baeb853f8ae001fdabae2b4bbd3a2a5de887",
+  "platform": "darwin",
+  "browser": "153.0.8010.12",
+  "errors": [],
+  "mode": "jw-light",
+  "documentHeight": 10398,
+  "overflow": 0,
+  "brokenImages": [],
+  "missingIcons": 0,
+  "reversedText": [],
+  "requirements": [
+    {
+      "id": "page-heading",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "project-scenes",
+      "count": 7,
+      "visible": true
+    },
+    {
+      "id": "project-gallery",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "project-flow",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "spatial-floorplan",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "company-profile",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "delivery-process",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "service-scope",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "project-deliverables",
+      "count": 1,
+      "visible": true
+    }
+  ],
+  "media": [
+    "https://g5themes.test/theme/jw_business/assets/brand/jw-business-light.webp",
+    "https://g5themes.test/theme/jw_business/assets/brand/jw-business-dark.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/space-studio.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard-interior.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard-detail.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard-colonnade.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard-lounge.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard-terrace.webp"
+  ],
+  "regions": {
+    ".jw-footer": {
+      "left": 0,
+      "top": 9916,
+      "width": 390,
+      "height": 482
+    }
+  }
+}

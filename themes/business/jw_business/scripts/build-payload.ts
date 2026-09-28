@@ -105,6 +105,10 @@ async function main(): Promise<void> {
     if (basename(source) !== "node-poster.webp" && !source.endsWith('.json')) await copyFile(source, join(payloadRoot, "onepages/assets/images", basename(source)));
   }
 
+  for (const source of await walkFiles(join(themeRoot, "onepages/assets/sequence"))) {
+    if (/^aura-\d{3}\.webp$/.test(basename(source))) await copyFile(source, join(payloadRoot, "onepages/assets/sequence", basename(source)));
+  }
+
   const assets = [];
   for (const file of await walkFiles(payloadRoot)) {
     const path = portablePath(relative(payloadRoot, file));
@@ -122,8 +126,10 @@ async function main(): Promise<void> {
       sha256: sha256(bytes),
       provenance: generated ? "generated" : "original",
       ...(generated ? {
-        generatedBy: blenderLogo || path.startsWith("onepages/assets/sequence/")
-          ? "Blender 5.2.2 LTS + ImageMagick WebP"
+        generatedBy: path.startsWith("onepages/assets/sequence/")
+          ? "Blender 5.2.2 LTS + OpenAI walnut material texture + WebP encoding"
+          : blenderLogo
+          ? "Blender 5.2.2 LTS + WebP encoding"
           : font
           ? "Vite 8.3.0 + Pretendard 1.3.9"
           : generatedImage
@@ -135,7 +141,9 @@ async function main(): Promise<void> {
         : generated
           ? {}
           : { sourceUrl: `https://github.com/gnuboard/gnuboard5/blob/v5.6.391/theme/basic/${path.split("/").map(encodeURIComponent).join("/")}` }),
-      author: blenderLogo || path.startsWith("onepages/assets/sequence/")
+      author: path.startsWith("onepages/assets/sequence/")
+        ? "JW SOFT authored AURA 3D model; OpenAI generated walnut texture"
+        : blenderLogo
         ? "JW SOFT; lettering based on Pretendard by Kil Hyung-jin"
         : font
         ? "Kil Hyung-jin"
@@ -144,11 +152,11 @@ async function main(): Promise<void> {
           : generated
             ? "JW SOFT and bundled library authors"
             : "SIR",
-      acquiredAt: path.startsWith("assets/home-four/") ? "2026-09-27" : "2026-09-21",
+      acquiredAt: path.startsWith("onepages/assets/sequence/") || /\/(?:service-studio|space-studio)\.webp$/.test(path) ? "2026-09-28" : path.startsWith("assets/home-four/") ? "2026-09-27" : "2026-09-21",
       licenseExpression: blenderLogo
         ? "LicenseRef-JWSOFT AND OFL-1.1"
         : path.startsWith("onepages/assets/sequence/")
-        ? "LicenseRef-JWSOFT"
+        ? "LicenseRef-OpenAI-Generated-Asset AND LicenseRef-JWSOFT"
         : font
         ? "OFL-1.1"
         : generatedImage

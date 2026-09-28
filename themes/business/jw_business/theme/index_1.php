@@ -37,17 +37,17 @@ $jw_news_board = isset($jw_home['news_board']) ? preg_replace('/[^a-zA-Z0-9_]/',
       <div class="hero__slide is-active" data-slide="0">
         <img src="<?php echo G5_THEME_URL; ?>/assets/main-one/strategy.webp" alt="팀이 인쇄된 의사결정 지도를 함께 살피는 모습" fetchpriority="high">
         <div class="hero__shade"></div>
-        <div class="hero__copy"><p class="hero__topic">비즈니스 전략</p><h1>복잡한 선택을<br>선명한 방향으로.</h1><p class="hero__summary">진단에서 끝내지 않습니다. 다음 결정을 내릴 수 있는 기준을 함께 만듭니다.</p><a href="#strategy" class="hero__link">전략이 만들어지는 과정 <span aria-hidden="true">↗</span></a></div>
+        <div class="hero__copy"><h1>복잡한 선택을<br>선명한 방향으로.</h1><p class="hero__summary">진단에서 끝내지 않습니다. 다음 결정을 내릴 수 있는 기준을 함께 만듭니다.</p><a href="#strategy" class="hero__link">전략이 만들어지는 과정 <span aria-hidden="true">↗</span></a></div>
       </div>
       <div class="hero__slide" data-slide="1" hidden>
         <img src="<?php echo G5_THEME_URL; ?>/assets/main-one/digital.webp" alt="한 이용자가 모바일 서비스를 사용하는 모습" loading="eager">
         <div class="hero__shade"></div>
-        <div class="hero__copy"><p class="hero__topic">디지털 서비스</p><h2>쓰는 순간까지<br>고려한 디지털.</h2><p class="hero__summary">정보의 흐름과 읽는 방식을 하나의 화면 경험으로 설계합니다.</p><a href="#digital" class="hero__link">화면 시안 보기 <span aria-hidden="true">↗</span></a></div>
+        <div class="hero__copy"><h2>쓰는 순간까지<br>고려한 디지털.</h2><p class="hero__summary">정보의 흐름과 읽는 방식을 하나의 화면 경험으로 설계합니다.</p><a href="#digital" class="hero__link">화면 시안 보기 <span aria-hidden="true">↗</span></a></div>
       </div>
       <div class="hero__slide" data-slide="2" hidden>
         <img src="<?php echo G5_THEME_URL; ?>/assets/main-one/brand.webp" alt="일관된 그래픽 언어로 만든 포장과 인쇄물" loading="eager">
         <div class="hero__shade"></div>
-        <div class="hero__copy"><p class="hero__topic">브랜드 경험</p><h2>보이는 순간부터<br>남는 경험까지.</h2><p class="hero__summary">하나의 생각을 화면, 물건, 공간의 접점에서 일관되게 전합니다.</p><a href="#brand" class="hero__link">브랜드 결과물 보기 <span aria-hidden="true">↗</span></a></div>
+        <div class="hero__copy"><h2>보이는 순간부터<br>남는 경험까지.</h2><p class="hero__summary">하나의 생각을 화면, 물건, 공간의 접점에서 일관되게 전합니다.</p><a href="#brand" class="hero__link">브랜드 결과물 보기 <span aria-hidden="true">↗</span></a></div>
       </div>
       </div></div>
       <div class="hero__controls">

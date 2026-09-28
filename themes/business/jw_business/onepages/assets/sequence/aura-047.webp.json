@@ -1,0 +1,17 @@
+{
+  "kind": "authored-3d-render",
+  "author": "JW SOFT",
+  "date": "2026-09-28",
+  "tool": "Blender 5.2.2 LTS Cycles / cwebp",
+  "source": "onepages/design/render-aura.py",
+  "scene": "onepages/design/aura-concept.blend",
+  "frame": 47,
+  "degrees": 276,
+  "license": "LicenseRef-OpenAI-Generated-Asset AND LicenseRef-JWSOFT",
+  "transparent_background": true,
+  "shadow": "No floor or backdrop; native transparent pixels",
+  "prompt": "Authored Blender render with generated walnut albedo, not image-model generation of the product. Origin: onepages/design/render-aura.py and packed aura-concept.blend; JW SOFT; material prompt in aura-walnut-albedo.png.json; Cycles1080x810 RGBA, no floor, frame 47.",
+  "materials": {
+    "walnut": "onepages/design/aura-walnut-albedo.png"
+  }
+}

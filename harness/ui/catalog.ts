@@ -13,6 +13,10 @@ export function selectedPages(ids = process.env.JW_UI_PAGES) {
   return mainPages.filter(page => names.includes(page.id));
 }
 export const states = [
+  { name: "wide-light", viewport: { width: 2560, height: 1100 }, mode: "jw-light" },
+  { name: "large-light", viewport: { width: 1920, height: 1080 }, mode: "jw-light" },
+  { name: "compact-light", viewport: { width: 1280, height: 900 }, mode: "jw-light" },
+  { name: "tablet-light", viewport: { width: 768, height: 1024 }, mode: "jw-light" },
   { name: "desktop-light", viewport: { width: 1440, height: 1000 }, mode: "jw-light" },
   { name: "desktop-dark", viewport: { width: 1440, height: 1000 }, mode: "jw-dark" },
   { name: "mobile-light", viewport: { width: 390, height: 844 }, mode: "jw-light" },

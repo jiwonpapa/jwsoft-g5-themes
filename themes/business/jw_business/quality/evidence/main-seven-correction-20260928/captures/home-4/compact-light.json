@@ -1,0 +1,73 @@
+{
+  "result": "collected-not-approved",
+  "page": "home-4",
+  "state": "compact-light",
+  "url": "https://g5themes.test/theme/jw_business/index_4.php?device=pc",
+  "capturedAt": "2026-09-28T04:35:36.945Z",
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "fullPage": true,
+  "file": "/Users/neojins/workspace/jwsoft-g5-themes/output/qa/ui/captures/home-4/compact-light.png",
+  "sha256": "cda3f0006597535b457f127aab3d285594b61ff7943a9beb93371237412acf58",
+  "inputDigest": "3e0b2674c4dd84d4d51d37bc4693baeb853f8ae001fdabae2b4bbd3a2a5de887",
+  "platform": "darwin",
+  "browser": "153.0.8010.12",
+  "errors": [],
+  "mode": "jw-light",
+  "documentHeight": 6710,
+  "overflow": 0,
+  "brokenImages": [],
+  "missingIcons": 0,
+  "reversedText": [],
+  "requirements": [
+    {
+      "id": "page-heading",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "artifact-variants",
+      "count": 4,
+      "visible": true
+    },
+    {
+      "id": "dedicated-images",
+      "count": 4,
+      "visible": true
+    },
+    {
+      "id": "large-process-icons",
+      "count": 4,
+      "visible": true
+    },
+    {
+      "id": "aligned-insights",
+      "count": 2,
+      "visible": true
+    }
+  ],
+  "media": [
+    "https://g5themes.test/theme/jw_business/assets/brand/jw-business-light.webp",
+    "https://g5themes.test/theme/jw_business/assets/brand/jw-business-dark.webp",
+    "https://g5themes.test/theme/jw_business/assets/home-four/hero.webp",
+    "https://g5themes.test/theme/jw_business/assets/home-four/discovery.webp",
+    "https://g5themes.test/theme/jw_business/assets/home-four/digital.webp",
+    "https://g5themes.test/theme/jw_business/assets/home-four/handoff.webp"
+  ],
+  "regions": {
+    ".h4-process": {
+      "left": 0,
+      "top": 740,
+      "width": 1280,
+      "height": 642
+    },
+    ".jw-footer": {
+      "left": 0,
+      "top": 6466,
+      "width": 1280,
+      "height": 244
+    }
+  }
+}

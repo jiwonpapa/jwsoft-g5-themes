@@ -1,0 +1,130 @@
+[
+  {
+    "viewport": "desktop",
+    "variant": "normal",
+    "phase": "front",
+    "frame": "3",
+    "path": "quality/evidence/main-seven-correction-20260928/rotation/desktop-normal-front.png",
+    "sha256": "510f8c1f4e115aace27fee28c2dc79d40bf5eab0d73ec3d23f2b616ab19de784"
+  },
+  {
+    "viewport": "desktop",
+    "variant": "normal",
+    "phase": "rear",
+    "frame": "32",
+    "path": "quality/evidence/main-seven-correction-20260928/rotation/desktop-normal-rear.png",
+    "sha256": "7d80e9f2eab5f843fac7a6eb984beab334222771238e3d4da731e8ee4585e2d3"
+  },
+  {
+    "viewport": "desktop",
+    "variant": "normal",
+    "phase": "return",
+    "frame": "56",
+    "path": "quality/evidence/main-seven-correction-20260928/rotation/desktop-normal-return.png",
+    "sha256": "34085c497c9515e33a1cd47bfd4a55cc01de62695dc7ac59243d1c1dad0b75c5"
+  },
+  {
+    "viewport": "desktop",
+    "variant": "normal",
+    "result": "pass",
+    "errors": [],
+    "path": "quality/evidence/main-seven-correction-20260928/rotation/desktop-normal-final.png",
+    "sha256": "e64fb6ae571b0e2ce51bda2952b17bddc3977d8260c579322815550f2982f413"
+  },
+  {
+    "viewport": "desktop",
+    "variant": "reduced",
+    "result": "pass",
+    "errors": [],
+    "path": "quality/evidence/main-seven-correction-20260928/rotation/desktop-reduced-final.png",
+    "sha256": "d1f0792436098cc23aaaef332c9a3251aea47362678dec6c8b5069259f723397"
+  },
+  {
+    "viewport": "desktop",
+    "variant": "no-js",
+    "result": "pass",
+    "errors": [],
+    "path": "quality/evidence/main-seven-correction-20260928/rotation/desktop-no-js-final.png",
+    "sha256": "5636e68324fd77a0df952177f6ac8cc915bbf9dbcb58055b285e72cdd4b61ab2"
+  },
+  {
+    "viewport": "desktop",
+    "variant": "dark",
+    "phase": "front",
+    "frame": "3",
+    "path": "quality/evidence/main-seven-correction-20260928/rotation/desktop-dark-front.png",
+    "sha256": "6047657a817b7f1ea4f48752e81107263f1c51d102a5c8c9cb1682d915a6f710"
+  },
+  {
+    "viewport": "desktop",
+    "variant": "dark",
+    "phase": "rear",
+    "frame": "32",
+    "path": "quality/evidence/main-seven-correction-20260928/rotation/desktop-dark-rear.png",
+    "sha256": "94458dd8b32daac5ee3493c5f9f6e3052f72de6939932786b3a975884cefd07a"
+  },
+  {
+    "viewport": "desktop",
+    "variant": "dark",
+    "phase": "return",
+    "frame": "56",
+    "path": "quality/evidence/main-seven-correction-20260928/rotation/desktop-dark-return.png",
+    "sha256": "9b002f5be97578d4d782e631c74b4b69e891aad20feb3b2b9fa5cfcab058e322"
+  },
+  {
+    "viewport": "desktop",
+    "variant": "dark",
+    "result": "pass",
+    "errors": [],
+    "path": "quality/evidence/main-seven-correction-20260928/rotation/desktop-dark-final.png",
+    "sha256": "9b002f5be97578d4d782e631c74b4b69e891aad20feb3b2b9fa5cfcab058e322"
+  },
+  {
+    "viewport": "desktop",
+    "variant": "network-failure",
+    "result": "pass",
+    "errors": [],
+    "path": "quality/evidence/main-seven-correction-20260928/rotation/desktop-network-failure-final.png",
+    "sha256": "c4308b569f3e4102483ecdc83ff1ce6486cf68d48928e666f294ae5c983e8c0a"
+  },
+  {
+    "viewport": "mobile",
+    "variant": "normal",
+    "result": "pass",
+    "errors": [],
+    "path": "quality/evidence/main-seven-correction-20260928/rotation/mobile-normal-final.png",
+    "sha256": "fb3845d6e53c839cdca2af975010457142f790549b0148d52e5e5be0528dd0a6"
+  },
+  {
+    "viewport": "mobile",
+    "variant": "reduced",
+    "result": "pass",
+    "errors": [],
+    "path": "quality/evidence/main-seven-correction-20260928/rotation/mobile-reduced-final.png",
+    "sha256": "fb3845d6e53c839cdca2af975010457142f790549b0148d52e5e5be0528dd0a6"
+  },
+  {
+    "viewport": "mobile",
+    "variant": "no-js",
+    "result": "pass",
+    "errors": [],
+    "path": "quality/evidence/main-seven-correction-20260928/rotation/mobile-no-js-final.png",
+    "sha256": "cb6fcea73e07f59aee3712277fe531a0afa1a8511abb904470da85a16b37815f"
+  },
+  {
+    "viewport": "mobile",
+    "variant": "dark",
+    "result": "pass",
+    "errors": [],
+    "path": "quality/evidence/main-seven-correction-20260928/rotation/mobile-dark-final.png",
+    "sha256": "63413d5cb25e29a24554d329a7a55246d62f685f0c9f39b7d93e070790463fa4"
+  },
+  {
+    "viewport": "mobile",
+    "variant": "network-failure",
+    "result": "pass",
+    "errors": [],
+    "path": "quality/evidence/main-seven-correction-20260928/rotation/mobile-network-failure-final.png",
+    "sha256": "385596c73d2e5e7d62f39dc699a491715197215fa1f725d90648c66fa62f1e84"
+  }
+]

@@ -72,3 +72,9 @@ bun run dev:g5 --page home-4 --gallery
 ## main 푸시 차단의 한계
 
 2026-09-27 GitHub의 비공개 저장소 branch protection API가 Pro 업그레이드를 요구하며 HTTP 403으로 거절했습니다. 공개 전환이나 결제는 하지 않았습니다. 이 checkout에는 `.githooks/pre-push`를 연결하여 main 직접 푸시 전에 필수 검사를 실행합니다. 다른 checkout은 `git config core.hooksPath .githooks`로 연결해야 합니다. 로컬 hook은 `--no-verify`나 GitHub 웹 병합을 막는 서버 보호가 아닙니다. 서버 강제 보호는 요금제/저장소 설정 조건이 충족되어야 합니다.
+
+## 사용자 화면 교정 회귀 (2026-09-28)
+
+`ui:check`는 2560·1920·1440·1280·768·390 폭을 검사합니다. 1440·390은 라이트/다크를 포함해 총 8상태입니다. 메인1·2의 모든 슬라이드를 캡처하며 메인2의 문장/사진 간격, 전체 중심, CTA 문자·아이콘 수직 중심을 실제 레이아웃으로 검사합니다. 이 수치는 시각 상품 승인과 별개입니다.
+
+`bun run harness/ui/collect-rotation.ts`는 AURA의 스크롤 세 각도, 키보드, 모바일, 동작 줄이기, JS 없음, 프레임 요청 실패의 실제 화면을 수집합니다. 기존 동작 수집기는 `JW_INTERACTION_OUTPUT`으로 새 증거 디렉터리를 지정할 수 있습니다.

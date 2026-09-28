@@ -47,3 +47,7 @@ __pycache__/
 
 # Disposable UI fixture routing generated from the quality contract
 harness/ui/routes.json
+
+# Blender source scene is tracked; intermediate PNG renders are reproducible.
+themes/business/jw_business/onepages/design/aura-renders/
+themes/business/jw_business/onepages/design/*.blend1

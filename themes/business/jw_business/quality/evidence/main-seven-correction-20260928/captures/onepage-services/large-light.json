@@ -1,0 +1,91 @@
+{
+  "result": "collected-not-approved",
+  "page": "onepage-services",
+  "state": "large-light",
+  "url": "https://g5themes.test/pages/onepage-services.php?device=pc",
+  "capturedAt": "2026-09-28T04:35:22.777Z",
+  "viewport": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fullPage": true,
+  "file": "/Users/neojins/workspace/jwsoft-g5-themes/output/qa/ui/captures/onepage-services/large-light.png",
+  "sha256": "cf42b10a522deb7490e2bbb3545877b04233ce1b883ad292d4f52b2bf8e3f5b3",
+  "inputDigest": "3e0b2674c4dd84d4d51d37bc4693baeb853f8ae001fdabae2b4bbd3a2a5de887",
+  "platform": "darwin",
+  "browser": "153.0.8010.12",
+  "errors": [],
+  "mode": "jw-light",
+  "documentHeight": 10028,
+  "overflow": 0,
+  "brokenImages": [],
+  "missingIcons": 0,
+  "reversedText": [],
+  "requirements": [
+    {
+      "id": "page-heading",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "service-board",
+      "count": 3,
+      "visible": true
+    },
+    {
+      "id": "customer-journey",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "delivery-sample",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "large-service-icons",
+      "count": 3,
+      "visible": true
+    },
+    {
+      "id": "delivery-files",
+      "count": 3,
+      "visible": true
+    },
+    {
+      "id": "service-section-range",
+      "count": 12,
+      "visible": true
+    },
+    {
+      "id": "company-profile",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "delivery-process",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "engagement-scope",
+      "count": 1,
+      "visible": true
+    }
+  ],
+  "media": [
+    "https://g5themes.test/theme/jw_business/assets/brand/jw-business-light.webp",
+    "https://g5themes.test/theme/jw_business/assets/brand/jw-business-dark.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/service-journey-workshop.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/service-studio.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/service-workshop.webp"
+  ],
+  "regions": {
+    ".jw-footer": {
+      "left": 0,
+      "top": 9784,
+      "width": 1920,
+      "height": 244
+    }
+  }
+}

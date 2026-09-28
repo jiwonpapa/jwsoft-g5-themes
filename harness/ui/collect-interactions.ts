@@ -5,7 +5,7 @@ import { createHash } from 'node:crypto';
 import { mainPages, themeRoot, root } from './catalog';
 
 // Collects real actions and screenshots; does not authorize a visual quality review.
-const directory=resolve(themeRoot,'quality/evidence/main-seven-20260928/interactions');
+const directory=resolve(themeRoot,process.env.JW_INTERACTION_OUTPUT || 'quality/evidence/main-seven-20260928/interactions');
 await mkdir(directory,{recursive:true});
 const evidence:any[]=[];
 const browser=await chromium.launch();

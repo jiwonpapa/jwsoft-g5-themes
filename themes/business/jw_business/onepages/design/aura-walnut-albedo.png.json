@@ -1,0 +1,8 @@
+{
+  "kind": "generated-material-texture",
+  "tool": "image_gen",
+  "date": "2026-09-28",
+  "author": "JW SOFT / OpenAI image generation",
+  "license": "LicenseRef-OpenAI-Generated-Asset AND LicenseRef-JWSOFT",
+  "prompt": "Material texture asset for a Blender product model, not a scene or finished product. Perfectly flat orthographic scan of a premium dark American walnut wood veneer, full frame square texture map. Realistic irregular long grain running vertically, subtle cathedral grain figure, slender branching pores, natural dark chocolate and muted warm brown variation. Fine satin oiled finish with visible wood fibers. No lighting gradients, no highlights, no shadows, no object edges, no tabletop, no frame, no background, no letters or logos, no knots or damage. Neutral diffuse cross-polarized material capture, evenly lit for a physically based albedo map, photorealistic close-up detail, tileable edges. Avoid regular parallel stripes, plastic gloss, blurred noise, orange wood, and exaggerated contrast."
+}

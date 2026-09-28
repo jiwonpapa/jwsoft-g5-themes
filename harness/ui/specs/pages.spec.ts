@@ -14,6 +14,38 @@ for (const plan of selectedPages()) {
     await openPage(page, plan, info.project.name.endsWith("-dark"));
     const directory = resolve(root, "output/qa/ui/captures", plan.id);
     await mkdir(directory, { recursive: true });
+    if (plan.id === 'home-1' || plan.id === 'home-2') {
+      const home2 = plan.id === 'home-2';
+      const slides = page.locator(home2 ? '[data-jwh2-slide]' : '.hero__slide');
+      const next = page.locator(home2 ? '[data-jwh2-next]' : '[data-dir="1"]');
+      for (let index = 0; index < 3; index++) {
+        const slide = slides.nth(index);
+        await expect(slide).not.toHaveAttribute('aria-hidden', 'true');
+        if (home2) {
+          // Embla changes aria state before the next animation frame places the slide.
+          await expect.poll(() => slide.evaluate(el => Math.abs(el.getBoundingClientRect().x))).toBeLessThan(1);
+          const geometry = await slide.evaluate(el => {
+            const copy = el.querySelector('.jwh2-slide__content')!.getBoundingClientRect();
+            const image = el.querySelector('.jwh2-slide__image')!.getBoundingClientRect();
+            const button = el.querySelector('.jw-btn')!;
+            const rect = button.getBoundingClientRect();
+            const icon = button.querySelector('svg')!.getBoundingClientRect();
+            const text = document.createRange(); text.selectNodeContents(button.firstChild!);
+            const ink = text.getBoundingClientRect();
+            return { gap: innerWidth > 800 ? image.left - copy.right : image.top - copy.bottom,
+              center: Math.abs((Math.min(copy.left,image.left)+Math.max(copy.right,image.right))/2-document.documentElement.clientWidth/2),
+              textCenter: Math.abs(ink.y+ink.height/2-rect.y-rect.height/2),
+              iconCenter: Math.abs(icon.y+icon.height/2-rect.y-rect.height/2) };
+          });
+          expect.soft(geometry.gap, 'every slide has a real copy/image gap').toBeGreaterThanOrEqual(31);
+          expect.soft(geometry.center, 'hero composition shares the viewport center').toBeLessThanOrEqual(1);
+          expect.soft(geometry.textCenter, 'CTA text vertically centered').toBeLessThanOrEqual(2);
+          expect.soft(geometry.iconCenter, 'CTA icon vertically centered').toBeLessThanOrEqual(1);
+        }
+        await page.screenshot({path:resolve(directory,info.project.name+`.slide-${index+1}.png`),animations:'disabled'});
+        await next.click();
+      }
+    }
     // Required diagram belongs to an inactive tab: verify each real state, then capture installation.
     if (plan.id === 'onepage-showcase') {
       const tabs = page.getByRole('tab');
@@ -73,7 +105,7 @@ for (const plan of selectedPages()) {
       const question=page.locator('.h4-faq-list details').first();
       await question.locator('summary').click(); await expect(question).toHaveAttribute('open','');
       await question.locator('summary').click(); await expect(question).not.toHaveAttribute('open','');
-      if (info.project.name.startsWith('mobile')) await page.locator('[data-jw-menu-open]').click();
+      if (await page.locator('[data-jw-menu-open]').isVisible()) await page.locator('[data-jw-menu-open]').click();
       await page.locator('[data-jw-theme-toggle]:visible').click();
       await expect(page.locator('html')).toHaveAttribute('data-theme',info.project.name.endsWith('-dark')?'jw-light':'jw-dark');
       expect(await page.locator('.h4-process-card > svg.h4-large-icon').count()).toBe(4);

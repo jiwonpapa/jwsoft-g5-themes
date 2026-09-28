@@ -1,27 +1,28 @@
 {
   "schemaVersion": 2,
   "group": "onepage",
-  "inputDigest": "abacf2f2578f4839e455cd00e9adccf3319e1ddee006c21d5738846220957ae3",
-  "implementer": "codex:/root/main-seven-improvement-20260928",
-  "reviewer": "impeccable_finish_reviewer:/root/impeccable_finish_reviewer_7main",
-  "reviewedAt": "2026-09-28T02:27:49Z",
+  "inputDigest": "b29da369e233f50c6038eb60a7461bd7e87d03ef1006905a26cedf99ca07fb60",
+  "implementer": "codex:/root/main-seven-correction-20260928",
+  "reviewer": "impeccable_finish_reviewer:/root/correction_finish_reviewer",
+  "reviewedAt": "2026-09-28T04:52:10+00:00",
   "result": "pass",
   "captures": [
     {
-      "path": "quality/evidence/main-seven-20260928/captures/onepage-showcase/desktop-light.png",
-      "sha256": "167c977dd9664e6136f3ec6b02151d05279ab7f5c35182a6b98eb4d212dd8a36",
+      "path": "quality/evidence/main-seven-correction-20260928/captures/onepage-showcase/desktop-light.png",
+      "sha256": "0dc779bfafd1fc7ca5c229ecd1c04ef31f4183399151ebd75053cc5ce275461a",
       "page": "onepage-showcase",
       "viewport": "desktop",
       "mode": "light",
       "width": 1440,
       "height": 1000,
       "url": "https://g5themes.test/pages/onepage-showcase.php?device=pc",
-      "capturedAt": "2026-09-28T02:26:13.693Z",
+      "capturedAt": "2026-09-28T04:45:55.834Z",
       "fullPage": true,
-      "documentHeight": 5856,
+      "documentHeight": 7859,
       "media": [
         "onepages/assets/images/aura-hero.webp",
         "onepages/assets/images/aura-detail.webp",
+        "onepages/assets/sequence/aura-001.webp",
         "onepages/assets/images/aura-living.webp"
       ],
       "requirements": [
@@ -52,26 +53,42 @@
         },
         {
           "id": "product-section-range",
-          "count": 8,
+          "count": 11,
+          "visible": true
+        },
+        {
+          "id": "company-profile",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "product-rotation",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "product-guide",
+          "count": 1,
           "visible": true
         }
       ]
     },
     {
-      "path": "quality/evidence/main-seven-20260928/captures/onepage-showcase/desktop-dark.png",
-      "sha256": "e7fd30d3f95640ea8cfcdc56c693edaf23f53a9842921d16cf8cf10961a4d9c0",
+      "path": "quality/evidence/main-seven-correction-20260928/captures/onepage-showcase/desktop-dark.png",
+      "sha256": "aec2a0dc677ab434a76da399847c83ae7ff249a66d3c7b4f1112a689734c29ca",
       "page": "onepage-showcase",
       "viewport": "desktop",
       "mode": "dark",
       "width": 1440,
       "height": 1000,
       "url": "https://g5themes.test/pages/onepage-showcase.php?device=pc",
-      "capturedAt": "2026-09-28T02:26:30.673Z",
+      "capturedAt": "2026-09-28T04:45:59.904Z",
       "fullPage": true,
-      "documentHeight": 5856,
+      "documentHeight": 7859,
       "media": [
         "onepages/assets/images/aura-hero.webp",
         "onepages/assets/images/aura-detail.webp",
+        "onepages/assets/sequence/aura-001.webp",
         "onepages/assets/images/aura-living.webp"
       ],
       "requirements": [
@@ -102,26 +119,42 @@
         },
         {
           "id": "product-section-range",
-          "count": 8,
+          "count": 11,
+          "visible": true
+        },
+        {
+          "id": "company-profile",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "product-rotation",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "product-guide",
+          "count": 1,
           "visible": true
         }
       ]
     },
     {
-      "path": "quality/evidence/main-seven-20260928/captures/onepage-showcase/mobile-light.png",
-      "sha256": "ea4fbfb484fc0e2302f519235ab7744e5a7772d9e5bb5983b3c38828c9621dfb",
+      "path": "quality/evidence/main-seven-correction-20260928/captures/onepage-showcase/mobile-light.png",
+      "sha256": "b10571ab7b1986ff7c26a75dbb2199e34d2c82f86af74d21fcc9e4ef55a98a96",
       "page": "onepage-showcase",
       "viewport": "mobile",
       "mode": "light",
       "width": 390,
       "height": 844,
       "url": "https://g5themes.test/pages/onepage-showcase.php?device=mobile",
-      "capturedAt": "2026-09-28T02:26:46.268Z",
+      "capturedAt": "2026-09-28T04:46:05.275Z",
       "fullPage": true,
-      "documentHeight": 6095,
+      "documentHeight": 8252,
       "media": [
         "onepages/assets/images/aura-hero.webp",
         "onepages/assets/images/aura-detail.webp",
+        "onepages/assets/sequence/aura-001.webp",
         "onepages/assets/images/aura-living.webp"
       ],
       "requirements": [
@@ -152,26 +185,42 @@
         },
         {
           "id": "product-section-range",
-          "count": 8,
+          "count": 11,
+          "visible": true
+        },
+        {
+          "id": "company-profile",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "product-rotation",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "product-guide",
+          "count": 1,
           "visible": true
         }
       ]
     },
     {
-      "path": "quality/evidence/main-seven-20260928/captures/onepage-showcase/mobile-dark.png",
-      "sha256": "9641dad8d7f08c8ba5a69090e8343be060da679188aaf1695b6732be4d863d63",
+      "path": "quality/evidence/main-seven-correction-20260928/captures/onepage-showcase/mobile-dark.png",
+      "sha256": "c84617b0007e21f5aa776ce2c5caf367b2e763dd913fa3e0340a4155115fb925",
       "page": "onepage-showcase",
       "viewport": "mobile",
       "mode": "dark",
       "width": 390,
       "height": 844,
       "url": "https://g5themes.test/pages/onepage-showcase.php?device=mobile",
-      "capturedAt": "2026-09-28T02:27:01.140Z",
+      "capturedAt": "2026-09-28T04:46:09.508Z",
       "fullPage": true,
-      "documentHeight": 6095,
+      "documentHeight": 8252,
       "media": [
         "onepages/assets/images/aura-hero.webp",
         "onepages/assets/images/aura-detail.webp",
+        "onepages/assets/sequence/aura-001.webp",
         "onepages/assets/images/aura-living.webp"
       ],
       "requirements": [
@@ -202,25 +251,41 @@
         },
         {
           "id": "product-section-range",
-          "count": 8,
+          "count": 11,
+          "visible": true
+        },
+        {
+          "id": "company-profile",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "product-rotation",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "product-guide",
+          "count": 1,
           "visible": true
         }
       ]
     },
     {
-      "path": "quality/evidence/main-seven-20260928/captures/onepage-services/desktop-light.png",
-      "sha256": "65274be29e97c6394dfa9dce6a9896c21a840fd78c0783e5957ba36e79775925",
+      "path": "quality/evidence/main-seven-correction-20260928/captures/onepage-services/desktop-light.png",
+      "sha256": "7ea81bfe9db0e183981c111a3496be6aabb26c064ca883718615d1fe935b11d2",
       "page": "onepage-services",
       "viewport": "desktop",
       "mode": "light",
       "width": 1440,
       "height": 1000,
       "url": "https://g5themes.test/pages/onepage-services.php?device=pc",
-      "capturedAt": "2026-09-28T02:26:15.681Z",
+      "capturedAt": "2026-09-28T04:36:19.067Z",
       "fullPage": true,
-      "documentHeight": 7361,
+      "documentHeight": 9738,
       "media": [
         "onepages/assets/images/service-journey-workshop.webp",
+        "onepages/assets/images/service-studio.webp",
         "onepages/assets/images/service-workshop.webp"
       ],
       "requirements": [
@@ -256,25 +321,41 @@
         },
         {
           "id": "service-section-range",
-          "count": 9,
+          "count": 12,
+          "visible": true
+        },
+        {
+          "id": "company-profile",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "delivery-process",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "engagement-scope",
+          "count": 1,
           "visible": true
         }
       ]
     },
     {
-      "path": "quality/evidence/main-seven-20260928/captures/onepage-services/desktop-dark.png",
-      "sha256": "b864401c003651dc6bdd60599696c632776d83bcdac679379e6e420a74be2501",
+      "path": "quality/evidence/main-seven-correction-20260928/captures/onepage-services/desktop-dark.png",
+      "sha256": "cc2b87d6826723dc38e9dcc0a3fea10439f444542b0d59701567c93d7c8c1040",
       "page": "onepage-services",
       "viewport": "desktop",
       "mode": "dark",
       "width": 1440,
       "height": 1000,
       "url": "https://g5themes.test/pages/onepage-services.php?device=pc",
-      "capturedAt": "2026-09-28T02:26:32.709Z",
+      "capturedAt": "2026-09-28T04:36:39.090Z",
       "fullPage": true,
-      "documentHeight": 7361,
+      "documentHeight": 9738,
       "media": [
         "onepages/assets/images/service-journey-workshop.webp",
+        "onepages/assets/images/service-studio.webp",
         "onepages/assets/images/service-workshop.webp"
       ],
       "requirements": [
@@ -310,25 +391,41 @@
         },
         {
           "id": "service-section-range",
-          "count": 9,
+          "count": 12,
+          "visible": true
+        },
+        {
+          "id": "company-profile",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "delivery-process",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "engagement-scope",
+          "count": 1,
           "visible": true
         }
       ]
     },
     {
-      "path": "quality/evidence/main-seven-20260928/captures/onepage-services/mobile-light.png",
-      "sha256": "7d3f40f70ffb2b965f3d4c58d7e099e2213681a0e1c71a787921448be143dc16",
+      "path": "quality/evidence/main-seven-correction-20260928/captures/onepage-services/mobile-light.png",
+      "sha256": "3777b882fa38ce0b5aeb32ec44c80d4ca3593d324bf7f7f3583620d9249142b8",
       "page": "onepage-services",
       "viewport": "mobile",
       "mode": "light",
       "width": 390,
       "height": 844,
       "url": "https://g5themes.test/pages/onepage-services.php?device=mobile",
-      "capturedAt": "2026-09-28T02:26:48.167Z",
+      "capturedAt": "2026-09-28T04:36:56.306Z",
       "fullPage": true,
-      "documentHeight": 10123,
+      "documentHeight": 12934,
       "media": [
         "onepages/assets/images/service-journey-workshop.webp",
+        "onepages/assets/images/service-studio.webp",
         "onepages/assets/images/service-workshop.webp"
       ],
       "requirements": [
@@ -364,25 +461,41 @@
         },
         {
           "id": "service-section-range",
-          "count": 9,
+          "count": 12,
+          "visible": true
+        },
+        {
+          "id": "company-profile",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "delivery-process",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "engagement-scope",
+          "count": 1,
           "visible": true
         }
       ]
     },
     {
-      "path": "quality/evidence/main-seven-20260928/captures/onepage-services/mobile-dark.png",
-      "sha256": "d6c06a6b7ebb3244ad7089ed49be929594e21458fa08b3d69427f5dccaec02e0",
+      "path": "quality/evidence/main-seven-correction-20260928/captures/onepage-services/mobile-dark.png",
+      "sha256": "affb56d7798cb245eb934e33f901c5bbfd67ec96998015fd8331098fe94b3d76",
       "page": "onepage-services",
       "viewport": "mobile",
       "mode": "dark",
       "width": 390,
       "height": 844,
       "url": "https://g5themes.test/pages/onepage-services.php?device=mobile",
-      "capturedAt": "2026-09-28T02:27:03.058Z",
+      "capturedAt": "2026-09-28T04:37:13.328Z",
       "fullPage": true,
-      "documentHeight": 10123,
+      "documentHeight": 12934,
       "media": [
         "onepages/assets/images/service-journey-workshop.webp",
+        "onepages/assets/images/service-studio.webp",
         "onepages/assets/images/service-workshop.webp"
       ],
       "requirements": [
@@ -418,25 +531,41 @@
         },
         {
           "id": "service-section-range",
-          "count": 9,
+          "count": 12,
+          "visible": true
+        },
+        {
+          "id": "company-profile",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "delivery-process",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "engagement-scope",
+          "count": 1,
           "visible": true
         }
       ]
     },
     {
-      "path": "quality/evidence/main-seven-20260928/captures/onepage-projects/desktop-light.png",
-      "sha256": "c5785a4da2c4fe6d14329c91a09eb9518bc62a5bf3fee9dd24e4f5f047fb2a22",
+      "path": "quality/evidence/main-seven-correction-20260928/captures/onepage-projects/desktop-light.png",
+      "sha256": "3b56c3702f9811ecc934dd9089ad7abcd826944903ef1620f513d939f144a592",
       "page": "onepage-projects",
       "viewport": "desktop",
       "mode": "light",
       "width": 1440,
       "height": 1000,
       "url": "https://g5themes.test/pages/onepage-projects.php?device=pc",
-      "capturedAt": "2026-09-28T02:26:17.982Z",
+      "capturedAt": "2026-09-28T04:36:21.784Z",
       "fullPage": true,
-      "documentHeight": 6356,
+      "documentHeight": 10062,
       "media": [
         "onepages/assets/images/courtyard.webp",
+        "onepages/assets/images/space-studio.webp",
         "onepages/assets/images/courtyard-interior.webp",
         "onepages/assets/images/courtyard-detail.webp",
         "onepages/assets/images/courtyard-colonnade.webp",
@@ -451,7 +580,7 @@
         },
         {
           "id": "project-scenes",
-          "count": 6,
+          "count": 7,
           "visible": true
         },
         {
@@ -468,23 +597,44 @@
           "id": "spatial-floorplan",
           "count": 1,
           "visible": true
+        },
+        {
+          "id": "company-profile",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "delivery-process",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "service-scope",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "project-deliverables",
+          "count": 1,
+          "visible": true
         }
       ]
     },
     {
-      "path": "quality/evidence/main-seven-20260928/captures/onepage-projects/desktop-dark.png",
-      "sha256": "546944140ee653e6fc7b5c7483a52eafa5979d34ce241e3b339821495621f321",
+      "path": "quality/evidence/main-seven-correction-20260928/captures/onepage-projects/desktop-dark.png",
+      "sha256": "2ef04f3c0d96c0b80381ad576cb0b7e0de9c68be792f63b890c3e015ccca8afd",
       "page": "onepage-projects",
       "viewport": "desktop",
       "mode": "dark",
       "width": 1440,
       "height": 1000,
       "url": "https://g5themes.test/pages/onepage-projects.php?device=pc",
-      "capturedAt": "2026-09-28T02:26:35.013Z",
+      "capturedAt": "2026-09-28T04:36:41.748Z",
       "fullPage": true,
-      "documentHeight": 6356,
+      "documentHeight": 10062,
       "media": [
         "onepages/assets/images/courtyard.webp",
+        "onepages/assets/images/space-studio.webp",
         "onepages/assets/images/courtyard-interior.webp",
         "onepages/assets/images/courtyard-detail.webp",
         "onepages/assets/images/courtyard-colonnade.webp",
@@ -499,7 +649,7 @@
         },
         {
           "id": "project-scenes",
-          "count": 6,
+          "count": 7,
           "visible": true
         },
         {
@@ -516,23 +666,44 @@
           "id": "spatial-floorplan",
           "count": 1,
           "visible": true
+        },
+        {
+          "id": "company-profile",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "delivery-process",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "service-scope",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "project-deliverables",
+          "count": 1,
+          "visible": true
         }
       ]
     },
     {
-      "path": "quality/evidence/main-seven-20260928/captures/onepage-projects/mobile-light.png",
-      "sha256": "fcdc8cc5aefc5a44f295eb0afc51341772af7fcf71681e4018506a511d02081c",
+      "path": "quality/evidence/main-seven-correction-20260928/captures/onepage-projects/mobile-light.png",
+      "sha256": "fb676ff91687c0ffe5ad85c5cf32e90e8ea459799fc632a6fc375c8b6a9e4f04",
       "page": "onepage-projects",
       "viewport": "mobile",
       "mode": "light",
       "width": 390,
       "height": 844,
       "url": "https://g5themes.test/pages/onepage-projects.php?device=mobile",
-      "capturedAt": "2026-09-28T02:26:50.047Z",
+      "capturedAt": "2026-09-28T04:36:58.614Z",
       "fullPage": true,
-      "documentHeight": 5978,
+      "documentHeight": 10398,
       "media": [
         "onepages/assets/images/courtyard.webp",
+        "onepages/assets/images/space-studio.webp",
         "onepages/assets/images/courtyard-interior.webp",
         "onepages/assets/images/courtyard-detail.webp",
         "onepages/assets/images/courtyard-colonnade.webp",
@@ -547,7 +718,7 @@
         },
         {
           "id": "project-scenes",
-          "count": 6,
+          "count": 7,
           "visible": true
         },
         {
@@ -562,25 +733,46 @@
         },
         {
           "id": "spatial-floorplan",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "company-profile",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "delivery-process",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "service-scope",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "project-deliverables",
           "count": 1,
           "visible": true
         }
       ]
     },
     {
-      "path": "quality/evidence/main-seven-20260928/captures/onepage-projects/mobile-dark.png",
-      "sha256": "876463b1a01eb047555858df5f736b26797a8a9ad79385a1fad3190564163caa",
+      "path": "quality/evidence/main-seven-correction-20260928/captures/onepage-projects/mobile-dark.png",
+      "sha256": "429134d9a965695ce6d4521ffc4d64b7038eef92058c00efeefa8f6dbea08f8e",
       "page": "onepage-projects",
       "viewport": "mobile",
       "mode": "dark",
       "width": 390,
       "height": 844,
       "url": "https://g5themes.test/pages/onepage-projects.php?device=mobile",
-      "capturedAt": "2026-09-28T02:27:04.943Z",
+      "capturedAt": "2026-09-28T04:37:15.656Z",
       "fullPage": true,
-      "documentHeight": 5978,
+      "documentHeight": 10398,
       "media": [
         "onepages/assets/images/courtyard.webp",
+        "onepages/assets/images/space-studio.webp",
         "onepages/assets/images/courtyard-interior.webp",
         "onepages/assets/images/courtyard-detail.webp",
         "onepages/assets/images/courtyard-colonnade.webp",
@@ -595,7 +787,7 @@
         },
         {
           "id": "project-scenes",
-          "count": 6,
+          "count": 7,
           "visible": true
         },
         {
@@ -610,6 +802,26 @@
         },
         {
           "id": "spatial-floorplan",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "company-profile",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "delivery-process",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "service-scope",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "project-deliverables",
           "count": 1,
           "visible": true
         }
@@ -622,17 +834,17 @@
       "purpose": {
         "id": "purpose",
         "result": "pass",
-        "reason": "AURA의 형태·소재·사용 장면·설치 검토·설명·문의가 단일 제품 소개로 이어집니다."
+        "reason": "AURA 제품 브랜드의 관점·소재·사용·안내를 설명합니다."
       },
       "imagery": {
         "id": "imagery",
         "result": "pass",
-        "reason": "월넛·금속·패브릭의 전체 컷과 확대 컷, 생활 장면이 각각 다른 정보와 촬영 거리를 제공합니다."
+        "reason": "최종 브라우저 정면·후면·측면에서 불규칙한 목재 결과 곡면의 결이 보입니다. 이전 흐린 평행 줄과 플라스틱 외피 인상이 해소되었습니다. 형상·우측 다이얼·직조·상판이 유지되며 hero와 같은 제품 콘셉트로 읽힙니다. 밝은 스튜디오 조명 차이는 결함으로 보지 않습니다."
       },
       "composition": {
         "id": "composition",
         "result": "pass",
-        "reason": "PC의 큰 상세·생활 사진과 모바일의 이미지·설명 흐름이 리듬을 만들고 라이트·다크 정렬이 유지됩니다. 별도 탭 동작은 미인증입니다."
+        "reason": "브랜드→소재→세부→실제3D→사용→안내→문의가 완결됩니다. 브랜드 마크와 관점이 회사 역할을 담당합니다."
       }
     },
     {
@@ -640,17 +852,17 @@
       "purpose": {
         "id": "purpose",
         "result": "pass",
-        "reason": "서비스 범위와 남길 자료를 선택하고 상담 준비로 이어지는 목적이 명확합니다."
+        "reason": "PARTNER의 회사 역할·서비스 범위·협업 조건을 설명합니다."
       },
       "imagery": {
         "id": "imagery",
         "result": "pass",
-        "reason": "워크숍 사진·큰 서비스 아이콘·연결된 고객 질문·실제 배치가 있는 화면 시안·자료 사진·인계물이 텍스트 편중을 해소합니다."
+        "reason": "팀 작업·고객 여정·서비스 prototype·검토 장면·산출물이 서비스 실체를 보여줍니다."
       },
       "composition": {
         "id": "composition",
         "result": "pass",
-        "reason": "선택·여정·업종·인계 카드가 역할과 정렬·배경을 달리하며 모바일의 카드 여백과 경계도 유지됩니다."
+        "reason": "회사→범위→시연→절차→산출물·조건→FAQ·문의가 진행되며 사진·도해·비교표가 카드의 반복을 나눕니다."
       }
     },
     {
@@ -658,17 +870,17 @@
       "purpose": {
         "id": "purpose",
         "result": "pass",
-        "reason": "공간 사진·평면 동선·재료 상세·갤러리가 공간을 어떻게 쓰는지 설명합니다."
+        "reason": "SAI 공간 스튜디오의 사례와 업무 범위를 설명합니다."
       },
       "imagery": {
         "id": "imagery",
         "result": "pass",
-        "reason": "넓은 건축·실내·재료·갤러리와 세 장소의 평면 동선이 서로 다른 관찰 거리를 제공합니다."
+        "reason": "모형 검토·건축 외관·내부 공간·평면 도해·재료 세부·갤러리가 연결됩니다."
       },
       "composition": {
         "id": "composition",
         "result": "pass",
-        "reason": "동선 제목의 지정 영문 장식이 제거됐으며 평면도·단계·설명문 정렬은 PC와 모바일 두 모드에서 유지됩니다. F3 해결."
+        "reason": "스튜디오→사례→설계 판단→업무 범위→절차·전달 자료→문의가 완결되어 사진 모음에 머무르지 않습니다."
       }
     }
   ],
@@ -677,19 +889,19 @@
       "left": "onepage-showcase",
       "right": "onepage-services",
       "result": "pass",
-      "reason": "오디오의 소재 확대·생활 장면과 서비스 선택·질문·화면 시안·인계물의 화면 가치가 구분됩니다."
+      "reason": "단일 물체의 소재·회전·사용과 회사 인력·설계 범위·협업 조건이 다릅니다."
     },
     {
       "left": "onepage-showcase",
       "right": "onepage-projects",
       "result": "pass",
-      "reason": "단일 제품의 가까운 재질·설치 검토와 넓은 공간의 동선·재료·장면 연속이라는 관찰 거리와 자료가 다릅니다."
+      "reason": "제품 세부·360도와 공간 전체·평면·동선·재료 장면이 다릅니다."
     },
     {
       "left": "onepage-services",
       "right": "onepage-projects",
       "result": "pass",
-      "reason": "서비스 범위·여정·인계물 선택과 공간 경험·평면 동선·사진 갤러리가 서로 다른 정보 구성을 제공합니다."
+      "reason": "서비스 여정·웹 시연·팀 역할과 공간 스튜디오·건축 장면·설계 자료가 다릅니다."
     }
   ],
   "interactions": [
@@ -700,12 +912,12 @@
       "result": "pass",
       "steps": "탭의 ArrowRight와 End 키로 크기와 설치 검토를 선택하고 aria-selected 및 배치도의 실제 표시를 확인했습니다.",
       "before": {
-        "path": "quality/evidence/main-seven-20260928/interactions/onepage-showcase-desktop-detail-tabs-keyboard-before.png",
-        "sha256": "d3b755d7de0e124143e203f591b02dd2c50b794d5335ca749f247579b5ffc532"
+        "path": "quality/evidence/main-seven-correction-20260928/interactions/onepage-showcase-desktop-detail-tabs-keyboard-before.png",
+        "sha256": "b0033cd95cd27b440dc816e4bf3da417203a9ff45e2ff3e91a22a4824cacd11e"
       },
       "after": {
-        "path": "quality/evidence/main-seven-20260928/interactions/onepage-showcase-desktop-detail-tabs-keyboard-after.png",
-        "sha256": "e82367e5853df7f1f47409e2d955b76e126fbce9d441078e3dc2e43853a35185"
+        "path": "quality/evidence/main-seven-correction-20260928/interactions/onepage-showcase-desktop-detail-tabs-keyboard-after.png",
+        "sha256": "6f900d9bc59ffaafc8e089edf7f255e2f810e51bdab0f4bcb3df58f6fe2c549b"
       }
     },
     {
@@ -715,12 +927,12 @@
       "result": "pass",
       "steps": "소재 사진으로 스크롤하여 Motion 패럴랙스 transform과 이미지 표시를 확인했습니다.",
       "before": {
-        "path": "quality/evidence/main-seven-20260928/interactions/onepage-showcase-desktop-detail-scroll-before.png",
-        "sha256": "e95a4420d69bba941b4680e82c6a73109ecc123e552f346e26842b045602424a"
+        "path": "quality/evidence/main-seven-correction-20260928/interactions/onepage-showcase-desktop-detail-scroll-before.png",
+        "sha256": "4970e095b9e0565f92e9b622c6ff3a61635d6853d016ecabebe3a6d16e7b0dcb"
       },
       "after": {
-        "path": "quality/evidence/main-seven-20260928/interactions/onepage-showcase-desktop-detail-scroll-after.png",
-        "sha256": "23133fa042094385696b6ffa7e40a49998a8278236f957ded34068f8052f90dd"
+        "path": "quality/evidence/main-seven-correction-20260928/interactions/onepage-showcase-desktop-detail-scroll-after.png",
+        "sha256": "7fe1b08e8f23e3779e2d583129107c799ebf9b1885ad26e2489213bde091a628"
       }
     },
     {
@@ -730,12 +942,12 @@
       "result": "pass",
       "steps": "줄인 동작 설정에서 소재 사진까지 이동하여 transform 없는 정적 사진과 본문을 확인했습니다.",
       "before": {
-        "path": "quality/evidence/main-seven-20260928/interactions/onepage-showcase-desktop-detail-reduced-motion-before.png",
-        "sha256": "e95a4420d69bba941b4680e82c6a73109ecc123e552f346e26842b045602424a"
+        "path": "quality/evidence/main-seven-correction-20260928/interactions/onepage-showcase-desktop-detail-reduced-motion-before.png",
+        "sha256": "4970e095b9e0565f92e9b622c6ff3a61635d6853d016ecabebe3a6d16e7b0dcb"
       },
       "after": {
-        "path": "quality/evidence/main-seven-20260928/interactions/onepage-showcase-desktop-detail-reduced-motion-after.png",
-        "sha256": "52b0b4517b29badc5d90d1acd464be113b40aa84ca36febc6a1a638e754352d5"
+        "path": "quality/evidence/main-seven-correction-20260928/interactions/onepage-showcase-desktop-detail-reduced-motion-after.png",
+        "sha256": "90aa3f72f5bcc5d9b70dc96ab04cb8404562d1e72b297173671ad2a765727d95"
       }
     },
     {
@@ -745,12 +957,12 @@
       "result": "pass",
       "steps": "갤러리 다음 버튼으로 두 번째 공간 사진과 설명으로 이동하는지 확인했습니다.",
       "before": {
-        "path": "quality/evidence/main-seven-20260928/interactions/onepage-projects-desktop-gallery-next-before.png",
-        "sha256": "e45f45ee5f8353a8296baa9bc4ac03933a8c5bd369d17a5162faed3fba22431b"
+        "path": "quality/evidence/main-seven-correction-20260928/interactions/onepage-projects-desktop-gallery-next-before.png",
+        "sha256": "131c537c6736d51b58f8175f2b26017d605b75ce47d2dfd603129fd1437a1d4a"
       },
       "after": {
-        "path": "quality/evidence/main-seven-20260928/interactions/onepage-projects-desktop-gallery-next-after.png",
-        "sha256": "d43050778241d5ce2965a36748f46dca543d2cec31aee36a98b94fde8bac6da0"
+        "path": "quality/evidence/main-seven-correction-20260928/interactions/onepage-projects-desktop-gallery-next-after.png",
+        "sha256": "2af92a6fa19a46f0f0fdcc1d8c45343dc15a46948966c43223623c858d924edb"
       }
     },
     {
@@ -760,12 +972,12 @@
       "result": "pass",
       "steps": "갤러리 이전 버튼으로 첫 번째 사진으로 복귀하는지 확인했습니다.",
       "before": {
-        "path": "quality/evidence/main-seven-20260928/interactions/onepage-projects-desktop-gallery-prev-before.png",
-        "sha256": "d43050778241d5ce2965a36748f46dca543d2cec31aee36a98b94fde8bac6da0"
+        "path": "quality/evidence/main-seven-correction-20260928/interactions/onepage-projects-desktop-gallery-prev-before.png",
+        "sha256": "d6655713ab3327aa5fac128e30b836280ce7d035ce645403f44b3d11e5c1482c"
       },
       "after": {
-        "path": "quality/evidence/main-seven-20260928/interactions/onepage-projects-desktop-gallery-prev-after.png",
-        "sha256": "9e87520b0b292da66f03412f95ca46c8a974377ac6e6c8e12fe88096a9c8f6cb"
+        "path": "quality/evidence/main-seven-correction-20260928/interactions/onepage-projects-desktop-gallery-prev-after.png",
+        "sha256": "36e5cbda6a62a0c543b7ad160d49686aa22967d9e0f5e23fb40442e7abd31555"
       }
     },
     {
@@ -775,12 +987,12 @@
       "result": "pass",
       "steps": "갤러리의 ArrowRight 키로 두 번째 사진을 선택하고 설명 변경을 확인했습니다.",
       "before": {
-        "path": "quality/evidence/main-seven-20260928/interactions/onepage-projects-desktop-gallery-keyboard-before.png",
-        "sha256": "9e87520b0b292da66f03412f95ca46c8a974377ac6e6c8e12fe88096a9c8f6cb"
+        "path": "quality/evidence/main-seven-correction-20260928/interactions/onepage-projects-desktop-gallery-keyboard-before.png",
+        "sha256": "36e5cbda6a62a0c543b7ad160d49686aa22967d9e0f5e23fb40442e7abd31555"
       },
       "after": {
-        "path": "quality/evidence/main-seven-20260928/interactions/onepage-projects-desktop-gallery-keyboard-after.png",
-        "sha256": "a3186e48afcd2c3c150ea616351df453f9221eb7387e7bb20148e22834863d1d"
+        "path": "quality/evidence/main-seven-correction-20260928/interactions/onepage-projects-desktop-gallery-keyboard-after.png",
+        "sha256": "2e45e3083ea93e72361f669f9e9f0ea3e8520568c10f1fdea27c3e44b0c38ccb"
       }
     },
     {
@@ -790,12 +1002,12 @@
       "result": "pass",
       "steps": "탭의 ArrowRight와 End 키로 크기와 설치 검토를 선택하고 aria-selected 및 배치도의 실제 표시를 확인했습니다.",
       "before": {
-        "path": "quality/evidence/main-seven-20260928/interactions/onepage-showcase-mobile-detail-tabs-keyboard-before.png",
-        "sha256": "27607a75d51ce916da23fdb31cd20fd949c37d72948cb4d51af92aa720507746"
+        "path": "quality/evidence/main-seven-correction-20260928/interactions/onepage-showcase-mobile-detail-tabs-keyboard-before.png",
+        "sha256": "dfe879899dd9f05d5f9da4a779406ee594362b909d9e8278ea56c187be9a3ab9"
       },
       "after": {
-        "path": "quality/evidence/main-seven-20260928/interactions/onepage-showcase-mobile-detail-tabs-keyboard-after.png",
-        "sha256": "b91f759c76d866211761ffedecce8d3e9f176af17bff11e23a7b5a54de4e9a8a"
+        "path": "quality/evidence/main-seven-correction-20260928/interactions/onepage-showcase-mobile-detail-tabs-keyboard-after.png",
+        "sha256": "d5689d8b0883bd927c7ed6bc380f4107f313627640404c00623a0d9a38c53ada"
       }
     },
     {
@@ -805,12 +1017,12 @@
       "result": "pass",
       "steps": "모바일 소재 사진으로 스크롤하여 자동 이동이 없는 정적 대체 화면을 확인했습니다.",
       "before": {
-        "path": "quality/evidence/main-seven-20260928/interactions/onepage-showcase-mobile-detail-scroll-before.png",
-        "sha256": "3ab93272b850d41bab0399ccb19428f2664aa2aa5f5b943abf756c0d7378c5c2"
+        "path": "quality/evidence/main-seven-correction-20260928/interactions/onepage-showcase-mobile-detail-scroll-before.png",
+        "sha256": "fca8a7e2d1520d09cd1d071b86cd6403eb93aa21f32864c1dc3b264cf1d51c39"
       },
       "after": {
-        "path": "quality/evidence/main-seven-20260928/interactions/onepage-showcase-mobile-detail-scroll-after.png",
-        "sha256": "c1dbac137b9399acd91730eb11c5155bd4fdb08f4227e524582bee00136f1092"
+        "path": "quality/evidence/main-seven-correction-20260928/interactions/onepage-showcase-mobile-detail-scroll-after.png",
+        "sha256": "dd19da4f6668dc94fdf325d3484fc0634dc87f92b56804260e8a690de54ef60a"
       }
     },
     {
@@ -820,12 +1032,12 @@
       "result": "pass",
       "steps": "줄인 동작 설정에서 소재 사진까지 이동하여 transform 없는 정적 사진과 본문을 확인했습니다.",
       "before": {
-        "path": "quality/evidence/main-seven-20260928/interactions/onepage-showcase-mobile-detail-reduced-motion-before.png",
-        "sha256": "3ab93272b850d41bab0399ccb19428f2664aa2aa5f5b943abf756c0d7378c5c2"
+        "path": "quality/evidence/main-seven-correction-20260928/interactions/onepage-showcase-mobile-detail-reduced-motion-before.png",
+        "sha256": "fca8a7e2d1520d09cd1d071b86cd6403eb93aa21f32864c1dc3b264cf1d51c39"
       },
       "after": {
-        "path": "quality/evidence/main-seven-20260928/interactions/onepage-showcase-mobile-detail-reduced-motion-after.png",
-        "sha256": "fe2ef8f480f107efbcb296221fc78c6d3362a640d0ae53f6bf29afe9fbd813ab"
+        "path": "quality/evidence/main-seven-correction-20260928/interactions/onepage-showcase-mobile-detail-reduced-motion-after.png",
+        "sha256": "c05c93b1e89fbb249fae0ee3391f96e996e5850eed0e411e042143420e54e82d"
       }
     },
     {
@@ -835,12 +1047,12 @@
       "result": "pass",
       "steps": "갤러리 다음 버튼으로 두 번째 공간 사진과 설명으로 이동하는지 확인했습니다.",
       "before": {
-        "path": "quality/evidence/main-seven-20260928/interactions/onepage-projects-mobile-gallery-next-before.png",
-        "sha256": "5a1bc00f15baaa5fd491c7fe3fcfdc68c5ab4896576e2cdb646f3badbbc83cd2"
+        "path": "quality/evidence/main-seven-correction-20260928/interactions/onepage-projects-mobile-gallery-next-before.png",
+        "sha256": "2e9b6c820a321162ebcd9a11f7a49734296f071534e36b8d77943bcec684c4b4"
       },
       "after": {
-        "path": "quality/evidence/main-seven-20260928/interactions/onepage-projects-mobile-gallery-next-after.png",
-        "sha256": "d92c13b305212a9255e89715da4a418da73704bd5a5068f3573cf6a8e9b6cc0a"
+        "path": "quality/evidence/main-seven-correction-20260928/interactions/onepage-projects-mobile-gallery-next-after.png",
+        "sha256": "e57b68c7c241daea3d4da8c547daeaea4b1b76e08eca2ceb3c1ca5daf6785706"
       }
     },
     {
@@ -850,12 +1062,12 @@
       "result": "pass",
       "steps": "갤러리 이전 버튼으로 첫 번째 사진으로 복귀하는지 확인했습니다.",
       "before": {
-        "path": "quality/evidence/main-seven-20260928/interactions/onepage-projects-mobile-gallery-prev-before.png",
-        "sha256": "bf3e8d8e7520854a2bb31fcab8febf05506c69c8be87affecab7e48667f345f8"
+        "path": "quality/evidence/main-seven-correction-20260928/interactions/onepage-projects-mobile-gallery-prev-before.png",
+        "sha256": "e57b68c7c241daea3d4da8c547daeaea4b1b76e08eca2ceb3c1ca5daf6785706"
       },
       "after": {
-        "path": "quality/evidence/main-seven-20260928/interactions/onepage-projects-mobile-gallery-prev-after.png",
-        "sha256": "f3ba71d8e2654898a243045cdfe37801fbae7cd40dd3461a62bfb4494e0a802b"
+        "path": "quality/evidence/main-seven-correction-20260928/interactions/onepage-projects-mobile-gallery-prev-after.png",
+        "sha256": "40810ba86a8edc743092485930a262649f6aa83211707f8dfc46192263bc03c1"
       }
     },
     {
@@ -865,12 +1077,132 @@
       "result": "pass",
       "steps": "갤러리의 ArrowRight 키로 두 번째 사진을 선택하고 설명 변경을 확인했습니다.",
       "before": {
-        "path": "quality/evidence/main-seven-20260928/interactions/onepage-projects-mobile-gallery-keyboard-before.png",
-        "sha256": "f3ba71d8e2654898a243045cdfe37801fbae7cd40dd3461a62bfb4494e0a802b"
+        "path": "quality/evidence/main-seven-correction-20260928/interactions/onepage-projects-mobile-gallery-keyboard-before.png",
+        "sha256": "ff43d107079e89e1c94ad7de9f920593648919d6b17306cb6adf18dadd545e4a"
       },
       "after": {
-        "path": "quality/evidence/main-seven-20260928/interactions/onepage-projects-mobile-gallery-keyboard-after.png",
-        "sha256": "77c7df69cc72aed2d7db3becd58bf66fd19b7a0e688d502d4bfc30cbbab6c273"
+        "path": "quality/evidence/main-seven-correction-20260928/interactions/onepage-projects-mobile-gallery-keyboard-after.png",
+        "sha256": "eccf8c9392aead8451aff6d63110b41ba90746237bc4c6722fddd3395beae274"
+      }
+    },
+    {
+      "page": "onepage-showcase",
+      "id": "product-rotation-scroll",
+      "viewport": "desktop",
+      "result": "pass",
+      "steps": "스크롤 5%, 55%, 95%에서 앞·뒤·복귀 프레임을 확인했습니다.",
+      "before": {
+        "path": "quality/evidence/main-seven-correction-20260928/rotation/desktop-normal-top.png",
+        "sha256": "4970e095b9e0565f92e9b622c6ff3a61635d6853d016ecabebe3a6d16e7b0dcb"
+      },
+      "after": {
+        "path": "quality/evidence/main-seven-correction-20260928/rotation/desktop-product-rotation-scroll-after.png",
+        "sha256": "34085c497c9515e33a1cd47bfd4a55cc01de62695dc7ac59243d1c1dad0b75c5"
+      }
+    },
+    {
+      "page": "onepage-showcase",
+      "id": "product-rotation-keyboard",
+      "viewport": "desktop",
+      "result": "pass",
+      "steps": "각도 슬라이더를 End, Home, ArrowRight 키로 조작하고 59, 0, 1 프레임 및 6도 안내를 확인했습니다.",
+      "before": {
+        "path": "quality/evidence/main-seven-correction-20260928/rotation/desktop-product-rotation-keyboard-before.png",
+        "sha256": "9c3b41145d4293d65451645a011e198d77386b1e43108f6bbc8844079e46d1cd"
+      },
+      "after": {
+        "path": "quality/evidence/main-seven-correction-20260928/rotation/desktop-product-rotation-keyboard-after.png",
+        "sha256": "e64fb6ae571b0e2ce51bda2952b17bddc3977d8260c579322815550f2982f413"
+      }
+    },
+    {
+      "page": "onepage-showcase",
+      "id": "product-rotation-reduced-motion",
+      "viewport": "desktop",
+      "result": "pass",
+      "steps": "줄인 동작에서 스크롤 고정·자동 회전 없이 정적 제품을 표시하고 방향키 수동 전환을 확인했습니다.",
+      "before": {
+        "path": "quality/evidence/main-seven-correction-20260928/rotation/desktop-reduced-top.png",
+        "sha256": "4970e095b9e0565f92e9b622c6ff3a61635d6853d016ecabebe3a6d16e7b0dcb"
+      },
+      "after": {
+        "path": "quality/evidence/main-seven-correction-20260928/rotation/desktop-product-rotation-reduced-motion-after.png",
+        "sha256": "d1f0792436098cc23aaaef332c9a3251aea47362678dec6c8b5069259f723397"
+      }
+    },
+    {
+      "page": "onepage-showcase",
+      "id": "product-rotation-fallback",
+      "viewport": "desktop",
+      "result": "pass",
+      "steps": "JavaScript가 꺼진 상태에서 제품 영역까지 스크롤했습니다. 포스터 로드와 조작부 숨김을 확인했습니다.",
+      "before": {
+        "path": "quality/evidence/main-seven-correction-20260928/rotation/desktop-no-js-top.png",
+        "sha256": "dcb67afbe9557978abf9eaec24b10f93d5fbdd16c55cad455badd3d4812fe0b6"
+      },
+      "after": {
+        "path": "quality/evidence/main-seven-correction-20260928/rotation/desktop-product-rotation-fallback-after.png",
+        "sha256": "5636e68324fd77a0df952177f6ac8cc915bbf9dbcb58055b285e72cdd4b61ab2"
+      }
+    },
+    {
+      "page": "onepage-showcase",
+      "id": "product-rotation-scroll",
+      "viewport": "mobile",
+      "result": "pass",
+      "steps": "모바일에서 제품 영역으로 스크롤해 정적 포스터 유지와 수동 제어 표시를 확인했습니다.",
+      "before": {
+        "path": "quality/evidence/main-seven-correction-20260928/rotation/mobile-normal-top.png",
+        "sha256": "fca8a7e2d1520d09cd1d071b86cd6403eb93aa21f32864c1dc3b264cf1d51c39"
+      },
+      "after": {
+        "path": "quality/evidence/main-seven-correction-20260928/rotation/mobile-product-rotation-scroll-after.png",
+        "sha256": "c09060f1c720324f02d79f307a56ea5229ef8b7bc758c687a72f25263945818d"
+      }
+    },
+    {
+      "page": "onepage-showcase",
+      "id": "product-rotation-keyboard",
+      "viewport": "mobile",
+      "result": "pass",
+      "steps": "각도 슬라이더를 End, Home, ArrowRight 키로 조작하고 59, 0, 1 프레임 및 6도 안내를 확인했습니다.",
+      "before": {
+        "path": "quality/evidence/main-seven-correction-20260928/rotation/mobile-product-rotation-keyboard-before.png",
+        "sha256": "3ef5624f5e8b09f5ad76a3b0ec7ae7d23190ab8b43b84a0d58ad3c0163ab6b34"
+      },
+      "after": {
+        "path": "quality/evidence/main-seven-correction-20260928/rotation/mobile-product-rotation-keyboard-after.png",
+        "sha256": "fb3845d6e53c839cdca2af975010457142f790549b0148d52e5e5be0528dd0a6"
+      }
+    },
+    {
+      "page": "onepage-showcase",
+      "id": "product-rotation-reduced-motion",
+      "viewport": "mobile",
+      "result": "pass",
+      "steps": "줄인 동작에서 스크롤 고정·자동 회전 없이 정적 제품을 표시하고 방향키 수동 전환을 확인했습니다.",
+      "before": {
+        "path": "quality/evidence/main-seven-correction-20260928/rotation/mobile-reduced-top.png",
+        "sha256": "fca8a7e2d1520d09cd1d071b86cd6403eb93aa21f32864c1dc3b264cf1d51c39"
+      },
+      "after": {
+        "path": "quality/evidence/main-seven-correction-20260928/rotation/mobile-product-rotation-reduced-motion-after.png",
+        "sha256": "fb3845d6e53c839cdca2af975010457142f790549b0148d52e5e5be0528dd0a6"
+      }
+    },
+    {
+      "page": "onepage-showcase",
+      "id": "product-rotation-fallback",
+      "viewport": "mobile",
+      "result": "pass",
+      "steps": "JavaScript가 꺼진 상태에서 제품 영역까지 스크롤했습니다. 포스터 로드와 조작부 숨김을 확인했습니다.",
+      "before": {
+        "path": "quality/evidence/main-seven-correction-20260928/rotation/mobile-no-js-top.png",
+        "sha256": "53eb231a7f66d6c25d08963eadc787975dafc23074b9099d01d5d7053a8b2a69"
+      },
+      "after": {
+        "path": "quality/evidence/main-seven-correction-20260928/rotation/mobile-product-rotation-fallback-after.png",
+        "sha256": "cb6fcea73e07f59aee3712277fe531a0afa1a8511abb904470da85a16b37815f"
       }
     }
   ]

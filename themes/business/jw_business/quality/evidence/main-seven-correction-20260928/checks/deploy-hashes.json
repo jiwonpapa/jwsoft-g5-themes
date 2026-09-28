@@ -1,0 +1,1412 @@
+{
+  "target": "office Ubuntu g5themes.test",
+  "result": "pass",
+  "files": 234,
+  "mismatches": [],
+  "records": [
+    {
+      "source": "themes/business/jw_business/theme/css/jw-business.min.css",
+      "destination": "theme/jw_business/css/jw-business.min.css",
+      "local": "f191f9ce2d378ac630bc3b2519dce39dbd232c70a2dc163b3c380391ae1532d9",
+      "remote": "f191f9ce2d378ac630bc3b2519dce39dbd232c70a2dc163b3c380391ae1532d9"
+    },
+    {
+      "source": "themes/business/jw_business/theme/css/default.css",
+      "destination": "theme/jw_business/css/default.css",
+      "local": "c245e2d69cda2d81242ecc62d51aa505507a9afb7fd4fd9de745420607410861",
+      "remote": "c245e2d69cda2d81242ecc62d51aa505507a9afb7fd4fd9de745420607410861"
+    },
+    {
+      "source": "themes/business/jw_business/theme/css/onepages.min.css",
+      "destination": "theme/jw_business/css/onepages.min.css",
+      "local": "da88eebf9a2e5839584539ee0d9d9c43eb36151cdfe1f35caac3f0d5e4fd6cc0",
+      "remote": "da88eebf9a2e5839584539ee0d9d9c43eb36151cdfe1f35caac3f0d5e4fd6cc0"
+    },
+    {
+      "source": "themes/business/jw_business/theme/css/home-one.min.css",
+      "destination": "theme/jw_business/css/home-one.min.css",
+      "local": "7fa4ab8ba3749ae9e1f5cd8f442ac0cccc884767b31ac29ba92f3ffeedae7891",
+      "remote": "7fa4ab8ba3749ae9e1f5cd8f442ac0cccc884767b31ac29ba92f3ffeedae7891"
+    },
+    {
+      "source": "themes/business/jw_business/theme/css/home-four.min.css",
+      "destination": "theme/jw_business/css/home-four.min.css",
+      "local": "9af82dd5e4ad2538221869bebc911044e94d2a6825227d9771dc221ef73b4585",
+      "remote": "9af82dd5e4ad2538221869bebc911044e94d2a6825227d9771dc221ef73b4585"
+    },
+    {
+      "source": "themes/business/jw_business/theme/css/mobile.css",
+      "destination": "theme/jw_business/css/mobile.css",
+      "local": "4b75a5ed4dcb125a325f3088f49f46b6b2d9cc003646671c257a9c19a2611c1e",
+      "remote": "4b75a5ed4dcb125a325f3088f49f46b6b2d9cc003646671c257a9c19a2611c1e"
+    },
+    {
+      "source": "themes/business/jw_business/theme/js/home-four.min.js",
+      "destination": "theme/jw_business/js/home-four.min.js",
+      "local": "485e6fd9c46e67a391d2acd24576b79f9bc49c624382e123607b6d25925c8e28",
+      "remote": "485e6fd9c46e67a391d2acd24576b79f9bc49c624382e123607b6d25925c8e28"
+    },
+    {
+      "source": "themes/business/jw_business/theme/js/jw-business.min.js",
+      "destination": "theme/jw_business/js/jw-business.min.js",
+      "local": "523cb6bd439307ac103733b9dacad70f697a549b6f620e2f6c50200b46f076f7",
+      "remote": "523cb6bd439307ac103733b9dacad70f697a549b6f620e2f6c50200b46f076f7"
+    },
+    {
+      "source": "themes/business/jw_business/theme/js/chunks/target-CvMBzxY6.js",
+      "destination": "theme/jw_business/js/chunks/target-CvMBzxY6.js",
+      "local": "c2c88a2e1911c5f7c9ea2b1949777322d53f756ed6d3daaede80d4e84c739c4b",
+      "remote": "c2c88a2e1911c5f7c9ea2b1949777322d53f756ed6d3daaede80d4e84c739c4b"
+    },
+    {
+      "source": "themes/business/jw_business/theme/js/chunks/route-Rvx62nsK.js",
+      "destination": "theme/jw_business/js/chunks/route-Rvx62nsK.js",
+      "local": "a5c5a58b9385064a8b31af810d41bed1a3041f29e65e5bd32744f60c5f04437a",
+      "remote": "a5c5a58b9385064a8b31af810d41bed1a3041f29e65e5bd32744f60c5f04437a"
+    },
+    {
+      "source": "themes/business/jw_business/theme/js/chunks/compass-DeEk11TB.js",
+      "destination": "theme/jw_business/js/chunks/compass-DeEk11TB.js",
+      "local": "12b76285cef150714c7cc92d77df581343b9d67d297d599256b1da829ddcaf42",
+      "remote": "12b76285cef150714c7cc92d77df581343b9d67d297d599256b1da829ddcaf42"
+    },
+    {
+      "source": "themes/business/jw_business/theme/js/chunks/viewport-BL6QPS6n.js",
+      "destination": "theme/jw_business/js/chunks/viewport-BL6QPS6n.js",
+      "local": "364f134aa7676ba2d498d67a6f862d5711bf30a50a3a0a8d7d93507f76047539",
+      "remote": "364f134aa7676ba2d498d67a6f862d5711bf30a50a3a0a8d7d93507f76047539"
+    },
+    {
+      "source": "themes/business/jw_business/theme/js/chunks/scroll-A4lbN8IJ.js",
+      "destination": "theme/jw_business/js/chunks/scroll-A4lbN8IJ.js",
+      "local": "ec4eda24de405cccb2912b96789d4b5641e5529dbb65562de4680117a940490b",
+      "remote": "ec4eda24de405cccb2912b96789d4b5641e5529dbb65562de4680117a940490b"
+    },
+    {
+      "source": "themes/business/jw_business/theme/js/chunks/embla-carousel.esm-GjFMhePy.js",
+      "destination": "theme/jw_business/js/chunks/embla-carousel.esm-GjFMhePy.js",
+      "local": "11e7e9781086bf70ffb2901d7f5dbb0a2aa513ffd1261e65bd6664550e746ab1",
+      "remote": "11e7e9781086bf70ffb2901d7f5dbb0a2aa513ffd1261e65bd6664550e746ab1"
+    },
+    {
+      "source": "themes/business/jw_business/theme/js/chunks/lucide-DEBFpjbC.js",
+      "destination": "theme/jw_business/js/chunks/lucide-DEBFpjbC.js",
+      "local": "6416f694db186d2803084aaab7e2a8078986f949614586fcd0e4b552cb8b4209",
+      "remote": "6416f694db186d2803084aaab7e2a8078986f949614586fcd0e4b552cb8b4209"
+    },
+    {
+      "source": "themes/business/jw_business/theme/js/home-one.min.js",
+      "destination": "theme/jw_business/js/home-one.min.js",
+      "local": "73ea5dd2f492c1b9edd500a18082584fca9795bda3d89585309a54d59614ac96",
+      "remote": "73ea5dd2f492c1b9edd500a18082584fca9795bda3d89585309a54d59614ac96"
+    },
+    {
+      "source": "themes/business/jw_business/theme/js/onepages.min.js",
+      "destination": "theme/jw_business/js/onepages.min.js",
+      "local": "0de99752a9b410bec19293a833b1747d7d6fbd0290eef92476c282bad0b4e27e",
+      "remote": "0de99752a9b410bec19293a833b1747d7d6fbd0290eef92476c282bad0b4e27e"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.56.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.56.woff2",
+      "local": "0f3624847670e49b273c0d638d0c1385a7178c8e38c70f9cd4afc1971880d279",
+      "remote": "0f3624847670e49b273c0d638d0c1385a7178c8e38c70f9cd4afc1971880d279"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.13.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.13.woff2",
+      "local": "f9473c59d65080b75327d6b5f8ea53a3e2c417542d609fd1f12b0e084079e0b2",
+      "remote": "f9473c59d65080b75327d6b5f8ea53a3e2c417542d609fd1f12b0e084079e0b2"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.72.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.72.woff2",
+      "local": "a2df48a0029fb84736c5570930e1e0f33af665bd1ec18b5930c7ee1077317e22",
+      "remote": "a2df48a0029fb84736c5570930e1e0f33af665bd1ec18b5930c7ee1077317e22"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.37.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.37.woff2",
+      "local": "e5e19247f5eb141d5ee84994518a3f2fe7f2e4d2978e7451988b8fae73ac52a5",
+      "remote": "e5e19247f5eb141d5ee84994518a3f2fe7f2e4d2978e7451988b8fae73ac52a5"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.70.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.70.woff2",
+      "local": "8bccc361d2d7ad5c3891a7914505ffd0ed89cf0bd9a5f1f6c320f85af54cb041",
+      "remote": "8bccc361d2d7ad5c3891a7914505ffd0ed89cf0bd9a5f1f6c320f85af54cb041"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.35.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.35.woff2",
+      "local": "2f3c1deae8147772bf706b561701ee9a3ba7459436e9fad45c8102066e90f802",
+      "remote": "2f3c1deae8147772bf706b561701ee9a3ba7459436e9fad45c8102066e90f802"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.69.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.69.woff2",
+      "local": "c9aa76582f8ffb946f59639a265ca988a6a794e6d6e2582e9aedad18e6bc4adb",
+      "remote": "c9aa76582f8ffb946f59639a265ca988a6a794e6d6e2582e9aedad18e6bc4adb"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.54.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.54.woff2",
+      "local": "37ed0b796e61205cabe4e20590d8800106a9a646d8a6f9e1da38581e637c3b80",
+      "remote": "37ed0b796e61205cabe4e20590d8800106a9a646d8a6f9e1da38581e637c3b80"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.11.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.11.woff2",
+      "local": "52f3cb7bf5d9feeadbe77902217113ea49b89a9bc0f135748e5ad599f322549f",
+      "remote": "52f3cb7bf5d9feeadbe77902217113ea49b89a9bc0f135748e5ad599f322549f"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.28.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.28.woff2",
+      "local": "484aaea385bf22d20a06a50c74202275a7a245446451c80ea1da7a96111f494e",
+      "remote": "484aaea385bf22d20a06a50c74202275a7a245446451c80ea1da7a96111f494e"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.90.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.90.woff2",
+      "local": "ed2d605d80cbe4f2c1df801852f7a1d8ad5e1a4972b26d8fee93427317f32f09",
+      "remote": "ed2d605d80cbe4f2c1df801852f7a1d8ad5e1a4972b26d8fee93427317f32f09"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.50.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.50.woff2",
+      "local": "f3bb8007d522f3d67cf6930ed417b0b911189eaaff08a5ab41eed790d18b6bb0",
+      "remote": "f3bb8007d522f3d67cf6930ed417b0b911189eaaff08a5ab41eed790d18b6bb0"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.15.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.15.woff2",
+      "local": "d043fdd0fb1d707a57ddec602d3c9c5dd230fe1e8921ae1a6a3d0f6f5c504d6a",
+      "remote": "d043fdd0fb1d707a57ddec602d3c9c5dd230fe1e8921ae1a6a3d0f6f5c504d6a"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.74.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.74.woff2",
+      "local": "b935b4839e30b68835341cb7c195ec2653d5df502281a14574af1593f03e63ff",
+      "remote": "b935b4839e30b68835341cb7c195ec2653d5df502281a14574af1593f03e63ff"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.31.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.31.woff2",
+      "local": "95bd711a06b3a13b23b44d1b9aa49dc36e759a5ff1989a239fd6af3d750f8fef",
+      "remote": "95bd711a06b3a13b23b44d1b9aa49dc36e759a5ff1989a239fd6af3d750f8fef"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.89.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.89.woff2",
+      "local": "44634e793e0d50fcdf803a2ad513d8bf0482d9adccbbd4ef534325cae9b2ee01",
+      "remote": "44634e793e0d50fcdf803a2ad513d8bf0482d9adccbbd4ef534325cae9b2ee01"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.8.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.8.woff2",
+      "local": "0fcc3858ccf1bfae9d1a13852583f7273e8a9bcb32b6f42fa47fe19d3041905c",
+      "remote": "0fcc3858ccf1bfae9d1a13852583f7273e8a9bcb32b6f42fa47fe19d3041905c"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.49.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.49.woff2",
+      "local": "5bbf61d013a4a9362841671cc56096a356377773d8b92dcb7ce71c89e3ce23da",
+      "remote": "5bbf61d013a4a9362841671cc56096a356377773d8b92dcb7ce71c89e3ce23da"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.76.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.76.woff2",
+      "local": "20ccaae02a27753fe5f5b2cc0e6bb7ee3f4c5b61b6bf91cccc515334e97213ac",
+      "remote": "20ccaae02a27753fe5f5b2cc0e6bb7ee3f4c5b61b6bf91cccc515334e97213ac"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.33.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.33.woff2",
+      "local": "ec28ff655691820931a57f7b6960922a0f3b7f655fe062c2fd11de86d6893269",
+      "remote": "ec28ff655691820931a57f7b6960922a0f3b7f655fe062c2fd11de86d6893269"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.52.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.52.woff2",
+      "local": "93f30e304a97b867e21f8e8a6dbc86df6047e7d1f2d34818261c381e859e1ded",
+      "remote": "93f30e304a97b867e21f8e8a6dbc86df6047e7d1f2d34818261c381e859e1ded"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.17.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.17.woff2",
+      "local": "62a20965ab703ba906359c01e56ac49cb28651e5e23efc4777412ef775e949dd",
+      "remote": "62a20965ab703ba906359c01e56ac49cb28651e5e23efc4777412ef775e949dd"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.34.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.34.woff2",
+      "local": "bdaffbd5c9fed912fb2d92866f2476953c6075a1c396817011b158fa146ef29f",
+      "remote": "bdaffbd5c9fed912fb2d92866f2476953c6075a1c396817011b158fa146ef29f"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.71.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.71.woff2",
+      "local": "78ca0ca3a02fb86ff29c68e80c50555c29aa522f37f286e7ab5b3cd8fb0b2a51",
+      "remote": "78ca0ca3a02fb86ff29c68e80c50555c29aa522f37f286e7ab5b3cd8fb0b2a51"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.10.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.10.woff2",
+      "local": "544f73152519f43c01aeda9489554a82e907019010795aab2fabc990a4e91f5a",
+      "remote": "544f73152519f43c01aeda9489554a82e907019010795aab2fabc990a4e91f5a"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.55.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.55.woff2",
+      "local": "4b170f37c7be9dfa2ca332ce97e35dc02da7cb43531d7e2907d733f291b09222",
+      "remote": "4b170f37c7be9dfa2ca332ce97e35dc02da7cb43531d7e2907d733f291b09222"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.68.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.68.woff2",
+      "local": "a0f33cbfd1a49928487778b69574191ea9f636581860aa8d299156c470a6d0f5",
+      "remote": "a0f33cbfd1a49928487778b69574191ea9f636581860aa8d299156c470a6d0f5"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.12.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.12.woff2",
+      "local": "ba87086a06c38a8eba037034c54756415b5eee8bd386866adf79ccae5e63213d",
+      "remote": "ba87086a06c38a8eba037034c54756415b5eee8bd386866adf79ccae5e63213d"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.57.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.57.woff2",
+      "local": "7c6aa4751ceb44a9a4af9c0ed80a7e95bc89d334a89231996ed84634093e128b",
+      "remote": "7c6aa4751ceb44a9a4af9c0ed80a7e95bc89d334a89231996ed84634093e128b"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.36.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.36.woff2",
+      "local": "d4e7580fb6bd8db8ac2daf2df3a41082b608476b9e4d8867756b28fb941bc6f8",
+      "remote": "d4e7580fb6bd8db8ac2daf2df3a41082b608476b9e4d8867756b28fb941bc6f8"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.73.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.73.woff2",
+      "local": "fe4874885e6450739e9067af520b94cc5f60e56c36538b6db3df3aa7a37baf42",
+      "remote": "fe4874885e6450739e9067af520b94cc5f60e56c36538b6db3df3aa7a37baf42"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.32.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.32.woff2",
+      "local": "a2fb59661363e8f3ce21e344f6cd0c85fe7901b9e910d10a6f805a13c0c2d261",
+      "remote": "a2fb59661363e8f3ce21e344f6cd0c85fe7901b9e910d10a6f805a13c0c2d261"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.77.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.77.woff2",
+      "local": "9ab92ab7b4e3770a6f3a17ed34b0a26df5a0faf2c4f8e2d2685b36cf248ff751",
+      "remote": "9ab92ab7b4e3770a6f3a17ed34b0a26df5a0faf2c4f8e2d2685b36cf248ff751"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.16.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.16.woff2",
+      "local": "f9da3e1e2f6ab97babdaaaf67f74308a3c4cb75a7c0e70efab295aaa62ecde67",
+      "remote": "f9da3e1e2f6ab97babdaaaf67f74308a3c4cb75a7c0e70efab295aaa62ecde67"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.53.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.53.woff2",
+      "local": "d0fe78c3e77b3f2b9ad3ceae3cfcd539b5f39a948af850b7912942cfbf7feefc",
+      "remote": "d0fe78c3e77b3f2b9ad3ceae3cfcd539b5f39a948af850b7912942cfbf7feefc"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.14.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.14.woff2",
+      "local": "dbf5fc513294d1942090faa226a53e882c8a72bebc1c701399b47cf7566c11ec",
+      "remote": "dbf5fc513294d1942090faa226a53e882c8a72bebc1c701399b47cf7566c11ec"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.51.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.51.woff2",
+      "local": "530c8e2d2a5e01cc5bfacc40a947f2b3162ee084a718f3f938e5f084b3458462",
+      "remote": "530c8e2d2a5e01cc5bfacc40a947f2b3162ee084a718f3f938e5f084b3458462"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.29.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.29.woff2",
+      "local": "5481a19ad6067630f96a54432fa76a77943c1234bbd37537fba9aeea54710c9f",
+      "remote": "5481a19ad6067630f96a54432fa76a77943c1234bbd37537fba9aeea54710c9f"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.91.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.91.woff2",
+      "local": "fc9fcd1bea9c8f43f97136a1e89bfa6e34db85f820f86538288647b4c24c5b06",
+      "remote": "fc9fcd1bea9c8f43f97136a1e89bfa6e34db85f820f86538288647b4c24c5b06"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.9.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.9.woff2",
+      "local": "523e91cb7665f4a87767e3b0b5099753decba1bd33e3ce7733b92f71001da9a5",
+      "remote": "523e91cb7665f4a87767e3b0b5099753decba1bd33e3ce7733b92f71001da9a5"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.48.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.48.woff2",
+      "local": "e3dde5ed049d0a2a07050aca649ce4a1a1d7659b30b7871fa1d1bef1fec4da16",
+      "remote": "e3dde5ed049d0a2a07050aca649ce4a1a1d7659b30b7871fa1d1bef1fec4da16"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.30.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.30.woff2",
+      "local": "c1ed2a2f2927a3ccef124b6763147e12feb497157edc26752cba38646085d888",
+      "remote": "c1ed2a2f2927a3ccef124b6763147e12feb497157edc26752cba38646085d888"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.75.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.75.woff2",
+      "local": "07f0ddae65c844dfe5d294087749e19b05e95cfd904b20df3501b040f1a5f61e",
+      "remote": "07f0ddae65c844dfe5d294087749e19b05e95cfd904b20df3501b040f1a5f61e"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.88.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.88.woff2",
+      "local": "192abc4c6ad933f53d809d8a46ee6237ae71e766bf66199fdce4678841fe12d7",
+      "remote": "192abc4c6ad933f53d809d8a46ee6237ae71e766bf66199fdce4678841fe12d7"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.79.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.79.woff2",
+      "local": "0bbdf492d859723843e118154b24573abdd62e781cb3827378e5dc65eeb8e0e9",
+      "remote": "0bbdf492d859723843e118154b24573abdd62e781cb3827378e5dc65eeb8e0e9"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.84.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.84.woff2",
+      "local": "d28ace2d199ca5c6304a6191f4233e28ddb225d341d6e0b41db040e9447c2cc9",
+      "remote": "d28ace2d199ca5c6304a6191f4233e28ddb225d341d6e0b41db040e9447c2cc9"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.5.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.5.woff2",
+      "local": "a4ad435d7abd68580606a20397920be734d9d49f1c420829a6493084e855912f",
+      "remote": "a4ad435d7abd68580606a20397920be734d9d49f1c420829a6493084e855912f"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.44.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.44.woff2",
+      "local": "8bd3bdcc7481b9a61bb570ab14ad1801b5f8a13df3f61d9bf2625bdad28e2a3b",
+      "remote": "8bd3bdcc7481b9a61bb570ab14ad1801b5f8a13df3f61d9bf2625bdad28e2a3b"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.60.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.60.woff2",
+      "local": "4f6724848817f8a893c21686fd3c666492176cc453a82f2a1c7fad3170bbd13c",
+      "remote": "4f6724848817f8a893c21686fd3c666492176cc453a82f2a1c7fad3170bbd13c"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.25.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.25.woff2",
+      "local": "4b520857cb0e6272a3582a504f7706e530f0f9718a82fec1c7b9cd13fd57f261",
+      "remote": "4b520857cb0e6272a3582a504f7706e530f0f9718a82fec1c7b9cd13fd57f261"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.18.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.18.woff2",
+      "local": "253726dfde6320f522bd7e7895df56e02312b677abb609c17ecbbb7952ce68cf",
+      "remote": "253726dfde6320f522bd7e7895df56e02312b677abb609c17ecbbb7952ce68cf"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.62.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.62.woff2",
+      "local": "1a2f8d760e6bfeb7f8611db8df550260145a7d48e8a4336016b21d699502c90f",
+      "remote": "1a2f8d760e6bfeb7f8611db8df550260145a7d48e8a4336016b21d699502c90f"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.27.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.27.woff2",
+      "local": "8dcc8a46af7069935ab1209094bb8e1c890f854bfce377711bdcc99516e228ef",
+      "remote": "8dcc8a46af7069935ab1209094bb8e1c890f854bfce377711bdcc99516e228ef"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.46.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.46.woff2",
+      "local": "c443e627e1bc68e004d028eeeef57fad78e6b996ff03adfccc4ab05d551b82e4",
+      "remote": "c443e627e1bc68e004d028eeeef57fad78e6b996ff03adfccc4ab05d551b82e4"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.7.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.7.woff2",
+      "local": "0edd124bf5f5fee66118c25ce0f7257c701169603817b0ea385707043151bd9c",
+      "remote": "0edd124bf5f5fee66118c25ce0f7257c701169603817b0ea385707043151bd9c"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.86.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.86.woff2",
+      "local": "3e680901e55f16848b58d16d25870596495a6a073d9e3127fe481583ac4439b6",
+      "remote": "3e680901e55f16848b58d16d25870596495a6a073d9e3127fe481583ac4439b6"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.3.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.3.woff2",
+      "local": "3af919db7b7432ae34a0ea725f5dbbe4b80f6b351a349437339a07760ae02a62",
+      "remote": "3af919db7b7432ae34a0ea725f5dbbe4b80f6b351a349437339a07760ae02a62"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.42.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.42.woff2",
+      "local": "3e347fc722ea29c4c3347b204a139c4e76fe68884bde24159b25b8e0988bd8b5",
+      "remote": "3e347fc722ea29c4c3347b204a139c4e76fe68884bde24159b25b8e0988bd8b5"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.82.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.82.woff2",
+      "local": "493e29967aa59d0f5326ae95fe163ca6e0ce9d95610838cc07a1f543a4a2e289",
+      "remote": "493e29967aa59d0f5326ae95fe163ca6e0ce9d95610838cc07a1f543a4a2e289"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.66.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.66.woff2",
+      "local": "73d60e9ad890a3b2674fe1fe7daf869708d7af6f4e93e364b19bb0a8bffde8d5",
+      "remote": "73d60e9ad890a3b2674fe1fe7daf869708d7af6f4e93e364b19bb0a8bffde8d5"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.23.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.23.woff2",
+      "local": "bf5e603a72bcbd65ef80522c722caca2df7399dbc6dbd14c3b428f2c4571abdb",
+      "remote": "bf5e603a72bcbd65ef80522c722caca2df7399dbc6dbd14c3b428f2c4571abdb"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.64.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.64.woff2",
+      "local": "4d73796ddeaf1d1584f701f3d3761d091160cd78fd2ef05255f605c747e63ad7",
+      "remote": "4d73796ddeaf1d1584f701f3d3761d091160cd78fd2ef05255f605c747e63ad7"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.21.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.21.woff2",
+      "local": "30d4f324dc4e480890682086d9873e4e6ea53617d5cc1526509ac4322b0abcc7",
+      "remote": "30d4f324dc4e480890682086d9873e4e6ea53617d5cc1526509ac4322b0abcc7"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.59.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.59.woff2",
+      "local": "4ae337e8895ac35b02a749e19d2b49ccb46ecdfabd09c51433c5eed206221579",
+      "remote": "4ae337e8895ac35b02a749e19d2b49ccb46ecdfabd09c51433c5eed206221579"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.80.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.80.woff2",
+      "local": "3802ad32c6c1bfa889c1019bd22d265c19392a6d52bbbd38e3a6fb99fdb0cf8f",
+      "remote": "3802ad32c6c1bfa889c1019bd22d265c19392a6d52bbbd38e3a6fb99fdb0cf8f"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.38.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.38.woff2",
+      "local": "17226de7caa3a041d9deb369db637a8480afa5ee9eeb8e5f8169a28ff54f57bd",
+      "remote": "17226de7caa3a041d9deb369db637a8480afa5ee9eeb8e5f8169a28ff54f57bd"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.40.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.40.woff2",
+      "local": "12fb5a30e92ed1397b25125c9b75449f24b3b164ed28455968e8eefefd0cae0a",
+      "remote": "12fb5a30e92ed1397b25125c9b75449f24b3b164ed28455968e8eefefd0cae0a"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.1.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.1.woff2",
+      "local": "b1c51b35964614cf67d44166752af0c6cf3a2a4a50daf304af2a7327611242ae",
+      "remote": "b1c51b35964614cf67d44166752af0c6cf3a2a4a50daf304af2a7327611242ae"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.26.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.26.woff2",
+      "local": "608a2c01bc4ebe327b68fadf6b78dd842a912582950d16d56c2696594bd4242d",
+      "remote": "608a2c01bc4ebe327b68fadf6b78dd842a912582950d16d56c2696594bd4242d"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.63.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.63.woff2",
+      "local": "cced20f4434401b2088f1b6e414eaa193779e1575afb51ea43301066e9fec95a",
+      "remote": "cced20f4434401b2088f1b6e414eaa193779e1575afb51ea43301066e9fec95a"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.87.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.87.woff2",
+      "local": "04ca8277cfe3d27235573956255b0211575504cb695cdeab644c583df774e257",
+      "remote": "04ca8277cfe3d27235573956255b0211575504cb695cdeab644c583df774e257"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.47.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.47.woff2",
+      "local": "f242e40d23d0aac4583574da52d460b2a804f31d5f7aa435e5dc58ceaab35ac2",
+      "remote": "f242e40d23d0aac4583574da52d460b2a804f31d5f7aa435e5dc58ceaab35ac2"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.6.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.6.woff2",
+      "local": "48b5ad9306b00b620b6d4acb3b8ba697cac7b271ee20da2f6351ba7c1406afa3",
+      "remote": "48b5ad9306b00b620b6d4acb3b8ba697cac7b271ee20da2f6351ba7c1406afa3"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.4.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.4.woff2",
+      "local": "993fcd2747f4d21f17b4a60bf5528d1c31825ca6a29ed942280bfba47825bedc",
+      "remote": "993fcd2747f4d21f17b4a60bf5528d1c31825ca6a29ed942280bfba47825bedc"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.45.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.45.woff2",
+      "local": "dff46d20074b8f3d9eeb05f7bea4ba0746d7d9887f8ec2dcb2280cadd2889ff7",
+      "remote": "dff46d20074b8f3d9eeb05f7bea4ba0746d7d9887f8ec2dcb2280cadd2889ff7"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.78.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.78.woff2",
+      "local": "67f065415552e8c66da5e60fc67a891ec1ba74bfb9370078261bbf9a718a182f",
+      "remote": "67f065415552e8c66da5e60fc67a891ec1ba74bfb9370078261bbf9a718a182f"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.85.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.85.woff2",
+      "local": "757b9fc85ad85a1024fcacc04a9b688ace2db7af393e9ddc3b5dd2ba605b5a9b",
+      "remote": "757b9fc85ad85a1024fcacc04a9b688ace2db7af393e9ddc3b5dd2ba605b5a9b"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.19.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.19.woff2",
+      "local": "0c005e3239d3f44ede30e7464171c93d8f4063b1279bb4805508c256ebe83929",
+      "remote": "0c005e3239d3f44ede30e7464171c93d8f4063b1279bb4805508c256ebe83929"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.24.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.24.woff2",
+      "local": "d0cecc926613d63ef9e82b990f5a7dc721f87360bb5047fb53623b9a24e4be01",
+      "remote": "d0cecc926613d63ef9e82b990f5a7dc721f87360bb5047fb53623b9a24e4be01"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.61.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.61.woff2",
+      "local": "0f36628cfb62fb7c6e4c26c0cac303d07578640c0328cd8cce9dbeaa2290af23",
+      "remote": "0f36628cfb62fb7c6e4c26c0cac303d07578640c0328cd8cce9dbeaa2290af23"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.58.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.58.woff2",
+      "local": "cff4a57ea5e9c11218c9a0ca1380a5d6fb8fa7e9d13499038a7b4df12d0e4331",
+      "remote": "cff4a57ea5e9c11218c9a0ca1380a5d6fb8fa7e9d13499038a7b4df12d0e4331"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.20.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.20.woff2",
+      "local": "06a4d6ce1c3e1c277239f490df8f17002cd6524b33a2d1e105b0ed16b2e061a1",
+      "remote": "06a4d6ce1c3e1c277239f490df8f17002cd6524b33a2d1e105b0ed16b2e061a1"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.65.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.65.woff2",
+      "local": "3bea94ae7ab0adfe697bcbf7a4366da48ae4518ff9ec9bc798ba2e0a271376fa",
+      "remote": "3bea94ae7ab0adfe697bcbf7a4366da48ae4518ff9ec9bc798ba2e0a271376fa"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.41.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.41.woff2",
+      "local": "41d390d3f3201a3714fb37f968f132ee78892d382655b64eb94688046fa97e35",
+      "remote": "41d390d3f3201a3714fb37f968f132ee78892d382655b64eb94688046fa97e35"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.0.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.0.woff2",
+      "local": "8713e83342c3f5ed316bf22bf50a3d991a5b5dd16c0c45c54a6ad81f62be7df3",
+      "remote": "8713e83342c3f5ed316bf22bf50a3d991a5b5dd16c0c45c54a6ad81f62be7df3"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.81.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.81.woff2",
+      "local": "f0ae631ec332bbaf686a493d126ff56a8ac0c6284bdbb7542cef8fedd946fa66",
+      "remote": "f0ae631ec332bbaf686a493d126ff56a8ac0c6284bdbb7542cef8fedd946fa66"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.39.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.39.woff2",
+      "local": "647e3532e8e5b2f5271c85eca2d909f32ae4791a17911cf66a635e8f6f4726c0",
+      "remote": "647e3532e8e5b2f5271c85eca2d909f32ae4791a17911cf66a635e8f6f4726c0"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.83.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.83.woff2",
+      "local": "f8f1fe652aaf3c759d78f37e48afe1c58c1d335e9261c5be2a2d90ff5bbfb9cc",
+      "remote": "f8f1fe652aaf3c759d78f37e48afe1c58c1d335e9261c5be2a2d90ff5bbfb9cc"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.2.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.2.woff2",
+      "local": "ddc9557de55b6534fb6802da96e03ca334449474eae71ec1a1eefa9b3fa40fd3",
+      "remote": "ddc9557de55b6534fb6802da96e03ca334449474eae71ec1a1eefa9b3fa40fd3"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.43.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.43.woff2",
+      "local": "97a8be68deee3f724890b64cea61a4f59b2886a1d9f39604e24adec371c457a3",
+      "remote": "97a8be68deee3f724890b64cea61a4f59b2886a1d9f39604e24adec371c457a3"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.22.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.22.woff2",
+      "local": "5712a4ee03e83532b8c3efeeefcbf2dd105beea873f735a6373dab370c9d38e2",
+      "remote": "5712a4ee03e83532b8c3efeeefcbf2dd105beea873f735a6373dab370c9d38e2"
+    },
+    {
+      "source": "themes/business/jw_business/theme/fonts/PretendardVariable.subset.67.woff2",
+      "destination": "theme/jw_business/fonts/PretendardVariable.subset.67.woff2",
+      "local": "24e38abacceaba8979f58c6b06bf0b56e915c32921b08be439befa016268abf5",
+      "remote": "24e38abacceaba8979f58c6b06bf0b56e915c32921b08be439befa016268abf5"
+    },
+    {
+      "source": "themes/business/jw_business/theme/img/btn_idx_left.png",
+      "destination": "theme/jw_business/img/btn_idx_left.png",
+      "local": "7328df83f22757106c5ef47adfa7b542004c7f9de5c648fb24a7e1436c5b9f67",
+      "remote": "7328df83f22757106c5ef47adfa7b542004c7f9de5c648fb24a7e1436c5b9f67"
+    },
+    {
+      "source": "themes/business/jw_business/theme/img/btn_next.gif",
+      "destination": "theme/jw_business/img/btn_next.gif",
+      "local": "a7e0a80ed7f7ad02877dd4fd9c214b6d6b247560ba5ae58ee554a76c18a85e80",
+      "remote": "a7e0a80ed7f7ad02877dd4fd9c214b6d6b247560ba5ae58ee554a76c18a85e80"
+    },
+    {
+      "source": "themes/business/jw_business/theme/img/more-btn.gif",
+      "destination": "theme/jw_business/img/more-btn.gif",
+      "local": "9412ff300017699e6458e0c5abe90fc622d14f147558cd255382d67f7849f0cb",
+      "remote": "9412ff300017699e6458e0c5abe90fc622d14f147558cd255382d67f7849f0cb"
+    },
+    {
+      "source": "themes/business/jw_business/theme/img/btn_prev.gif",
+      "destination": "theme/jw_business/img/btn_prev.gif",
+      "local": "b78934d88f78fb03258d2412f1cdca1441c6e5709ac096a3acbec1192e47efce",
+      "remote": "b78934d88f78fb03258d2412f1cdca1441c6e5709ac096a3acbec1192e47efce"
+    },
+    {
+      "source": "themes/business/jw_business/theme/img/close_btn.gif",
+      "destination": "theme/jw_business/img/close_btn.gif",
+      "local": "d51e3e2431b43901701e70ba3c92f4492c5fe18715a405ff89352e25bea0f14a",
+      "remote": "d51e3e2431b43901701e70ba3c92f4492c5fe18715a405ff89352e25bea0f14a"
+    },
+    {
+      "source": "themes/business/jw_business/theme/img/gnb_bg.gif",
+      "destination": "theme/jw_business/img/gnb_bg.gif",
+      "local": "aeb7590c32ea26863632315a6f5505ca924d16ab31a46fd08e490553b9878129",
+      "remote": "aeb7590c32ea26863632315a6f5505ca924d16ab31a46fd08e490553b9878129"
+    },
+    {
+      "source": "themes/business/jw_business/theme/img/require.png",
+      "destination": "theme/jw_business/img/require.png",
+      "local": "ecca28ad16cd2edfd30fc15789f4cda71cfd3eb63d6773c6b6437c65742a56fe",
+      "remote": "ecca28ad16cd2edfd30fc15789f4cda71cfd3eb63d6773c6b6437c65742a56fe"
+    },
+    {
+      "source": "themes/business/jw_business/theme/img/btn_first.gif",
+      "destination": "theme/jw_business/img/btn_first.gif",
+      "local": "c2ecfc94fde0e319c5535749c07b641e5691d293fde6e75295c7644962b93fa2",
+      "remote": "c2ecfc94fde0e319c5535749c07b641e5691d293fde6e75295c7644962b93fa2"
+    },
+    {
+      "source": "themes/business/jw_business/theme/img/btn_idx_right.png",
+      "destination": "theme/jw_business/img/btn_idx_right.png",
+      "local": "0b3dd4c0f912b2fbe71822793dc6104dc0da0d313bd3cf1ab296cd3b278b3db9",
+      "remote": "0b3dd4c0f912b2fbe71822793dc6104dc0da0d313bd3cf1ab296cd3b278b3db9"
+    },
+    {
+      "source": "themes/business/jw_business/theme/img/bullet.gif",
+      "destination": "theme/jw_business/img/bullet.gif",
+      "local": "9c2b31d6f677eae0de3dbb519e7436509f8ab113acab5c797157a8d8f021abcc",
+      "remote": "9c2b31d6f677eae0de3dbb519e7436509f8ab113acab5c797157a8d8f021abcc"
+    },
+    {
+      "source": "themes/business/jw_business/theme/img/btn_next.png",
+      "destination": "theme/jw_business/img/btn_next.png",
+      "local": "c0d17446f87437250feec79a0aba15fa029384ae2510ca92bd2efa68010a42f3",
+      "remote": "c0d17446f87437250feec79a0aba15fa029384ae2510ca92bd2efa68010a42f3"
+    },
+    {
+      "source": "themes/business/jw_business/theme/img/mobile/gnb_bg2.png",
+      "destination": "theme/jw_business/img/mobile/gnb_bg2.png",
+      "local": "feec35c2286a67b4cce6ef45f35be8d16fb681b63d3af83c204f4ceb01c01a17",
+      "remote": "feec35c2286a67b4cce6ef45f35be8d16fb681b63d3af83c204f4ceb01c01a17"
+    },
+    {
+      "source": "themes/business/jw_business/theme/img/mobile/gnb_bg.png",
+      "destination": "theme/jw_business/img/mobile/gnb_bg.png",
+      "local": "dedefbd3abc0d029aa8c371d7f954af2ddcacbea265391004abedf224c6c0825",
+      "remote": "dedefbd3abc0d029aa8c371d7f954af2ddcacbea265391004abedf224c6c0825"
+    },
+    {
+      "source": "themes/business/jw_business/theme/img/mobile/btn_close.png",
+      "destination": "theme/jw_business/img/mobile/btn_close.png",
+      "local": "bee4e255882655df73581b127c03492b22e970099615875ced319884920f77f8",
+      "remote": "bee4e255882655df73581b127c03492b22e970099615875ced319884920f77f8"
+    },
+    {
+      "source": "themes/business/jw_business/theme/img/btn_prev.png",
+      "destination": "theme/jw_business/img/btn_prev.png",
+      "local": "25c75db36b88b3efb5d10f31e630ad5cb784bdfded6f22ae88889f59f1dd9191",
+      "remote": "25c75db36b88b3efb5d10f31e630ad5cb784bdfded6f22ae88889f59f1dd9191"
+    },
+    {
+      "source": "themes/business/jw_business/theme/img/gnb_bg00.gif",
+      "destination": "theme/jw_business/img/gnb_bg00.gif",
+      "local": "2545dd517d93fab4e0b161cb938e11316d6df044cf47b87644e139133f0b7b56",
+      "remote": "2545dd517d93fab4e0b161cb938e11316d6df044cf47b87644e139133f0b7b56"
+    },
+    {
+      "source": "themes/business/jw_business/theme/img/no_profile.gif",
+      "destination": "theme/jw_business/img/no_profile.gif",
+      "local": "90263fe4a422ec397a6f9c8a64f8ff731bbe02a0c83d2e740d3d0b9271147dae",
+      "remote": "90263fe4a422ec397a6f9c8a64f8ff731bbe02a0c83d2e740d3d0b9271147dae"
+    },
+    {
+      "source": "themes/business/jw_business/theme/img/btn_end.gif",
+      "destination": "theme/jw_business/img/btn_end.gif",
+      "local": "095f56b84c5b039b9fbae750a93bc4d6aa48470a679222f3d0f7936f33c6cc69",
+      "remote": "095f56b84c5b039b9fbae750a93bc4d6aa48470a679222f3d0f7936f33c6cc69"
+    },
+    {
+      "source": "themes/business/jw_business/theme/img/wrest.gif",
+      "destination": "theme/jw_business/img/wrest.gif",
+      "local": "2370a62cd745cb6c44971faadd55b14df496729cb54d3985c07489cc3e40d4de",
+      "remote": "2370a62cd745cb6c44971faadd55b14df496729cb54d3985c07489cc3e40d4de"
+    },
+    {
+      "source": "themes/business/jw_business/theme/img/chk.png",
+      "destination": "theme/jw_business/img/chk.png",
+      "local": "6916a8b9f6eaaea1fbf753f98bf4530fab8c72cb09e5889f1bca421f93907e15",
+      "remote": "6916a8b9f6eaaea1fbf753f98bf4530fab8c72cb09e5889f1bca421f93907e15"
+    },
+    {
+      "source": "themes/business/jw_business/theme/img/gnb_bg2.gif",
+      "destination": "theme/jw_business/img/gnb_bg2.gif",
+      "local": "94fac43c3b9f1773440376cb1f2e9ab1a87a4af07dab703d4bd1a9170bedfc48",
+      "remote": "94fac43c3b9f1773440376cb1f2e9ab1a87a4af07dab703d4bd1a9170bedfc48"
+    },
+    {
+      "source": "themes/business/jw_business/theme/assets/main-one/industry-ceramics.webp",
+      "destination": "theme/jw_business/assets/main-one/industry-ceramics.webp",
+      "local": "9f69655ea0693d366a92d5bd75eee0384060c4847a120446a03e3ee7228d5b92",
+      "remote": "9f69655ea0693d366a92d5bd75eee0384060c4847a120446a03e3ee7228d5b92"
+    },
+    {
+      "source": "themes/business/jw_business/theme/assets/main-one/strategy.webp",
+      "destination": "theme/jw_business/assets/main-one/strategy.webp",
+      "local": "7f300bc6c19d07c66638527b32dbb21bef79fde6fabbf3d607fddc3a36301e1d",
+      "remote": "7f300bc6c19d07c66638527b32dbb21bef79fde6fabbf3d607fddc3a36301e1d"
+    },
+    {
+      "source": "themes/business/jw_business/theme/assets/main-one/digital.webp",
+      "destination": "theme/jw_business/assets/main-one/digital.webp",
+      "local": "d3d3bc7e5bcd2f138e4c811ef1b1712ce227ac12dd7efae27971f4e61a195865",
+      "remote": "d3d3bc7e5bcd2f138e4c811ef1b1712ce227ac12dd7efae27971f4e61a195865"
+    },
+    {
+      "source": "themes/business/jw_business/theme/assets/main-one/brand-detail.webp",
+      "destination": "theme/jw_business/assets/main-one/brand-detail.webp",
+      "local": "3ad7720ea90a386add4169a47938d1ad1db834e5203d8fed7b8a214fdbda498b",
+      "remote": "3ad7720ea90a386add4169a47938d1ad1db834e5203d8fed7b8a214fdbda498b"
+    },
+    {
+      "source": "themes/business/jw_business/theme/assets/main-one/case-food.webp",
+      "destination": "theme/jw_business/assets/main-one/case-food.webp",
+      "local": "184cef61c07c4a86eba25ab25319a482c76f1a2225cdc1e73d58a26bf09b2561",
+      "remote": "184cef61c07c4a86eba25ab25319a482c76f1a2225cdc1e73d58a26bf09b2561"
+    },
+    {
+      "source": "themes/business/jw_business/theme/assets/main-one/case-learning.webp",
+      "destination": "theme/jw_business/assets/main-one/case-learning.webp",
+      "local": "8e6104390e0bfcc254c690536db395e7671665a83ceaadf768d47413a743bdf9",
+      "remote": "8e6104390e0bfcc254c690536db395e7671665a83ceaadf768d47413a743bdf9"
+    },
+    {
+      "source": "themes/business/jw_business/theme/assets/main-one/brand.webp",
+      "destination": "theme/jw_business/assets/main-one/brand.webp",
+      "local": "735bd310b078122a9d8eaad6b0cf1bb80c298689a75a7c5f5138d7bc98428bbd",
+      "remote": "735bd310b078122a9d8eaad6b0cf1bb80c298689a75a7c5f5138d7bc98428bbd"
+    },
+    {
+      "source": "themes/business/jw_business/theme/assets/home2-operations-Iz1Us8MJ.webp",
+      "destination": "theme/jw_business/assets/home2-operations-Iz1Us8MJ.webp",
+      "local": "3c815735abd6c40c8512504c47cb1f3c1760cfb35e3defb0536f2b79165e538a",
+      "remote": "3c815735abd6c40c8512504c47cb1f3c1760cfb35e3defb0536f2b79165e538a"
+    },
+    {
+      "source": "themes/business/jw_business/theme/assets/brand/jw-business-dark.webp",
+      "destination": "theme/jw_business/assets/brand/jw-business-dark.webp",
+      "local": "6208c1ba3dbf41b3ca34b593d0424b23fb202940bd9182af62ef3e4135bc3b0f",
+      "remote": "6208c1ba3dbf41b3ca34b593d0424b23fb202940bd9182af62ef3e4135bc3b0f"
+    },
+    {
+      "source": "themes/business/jw_business/theme/assets/brand/jw-business-light.webp",
+      "destination": "theme/jw_business/assets/brand/jw-business-light.webp",
+      "local": "511ef697f7871369e9ecd807483e4c638ff555dabaaef0d31d352c7fb0e5691c",
+      "remote": "511ef697f7871369e9ecd807483e4c638ff555dabaaef0d31d352c7fb0e5691c"
+    },
+    {
+      "source": "themes/business/jw_business/theme/assets/home2-decision-CfVJk5gZ.webp",
+      "destination": "theme/jw_business/assets/home2-decision-CfVJk5gZ.webp",
+      "local": "6f0fc02bb2447f58ffeeaf47e1cbdb6cc6c274f8f956563055e0fbbbef7ba1eb",
+      "remote": "6f0fc02bb2447f58ffeeaf47e1cbdb6cc6c274f8f956563055e0fbbbef7ba1eb"
+    },
+    {
+      "source": "themes/business/jw_business/theme/assets/home-collaboration-DEfOmZ1W.webp",
+      "destination": "theme/jw_business/assets/home-collaboration-DEfOmZ1W.webp",
+      "local": "fd15488505e0d8a5a9dc7f1a372ff0f2680f5c743d793b0ccf5262236507f53e",
+      "remote": "fd15488505e0d8a5a9dc7f1a372ff0f2680f5c743d793b0ccf5262236507f53e"
+    },
+    {
+      "source": "themes/business/jw_business/theme/assets/home-hero-CxPHG0Yl.webp",
+      "destination": "theme/jw_business/assets/home-hero-CxPHG0Yl.webp",
+      "local": "202e2c614d70a14607e8b0c1594a80c95cdd3294ec7dcbc72a88d76a6d4bbac0",
+      "remote": "202e2c614d70a14607e8b0c1594a80c95cdd3294ec7dcbc72a88d76a6d4bbac0"
+    },
+    {
+      "source": "themes/business/jw_business/theme/assets/home2-digital-BAfUKBwe.webp",
+      "destination": "theme/jw_business/assets/home2-digital-BAfUKBwe.webp",
+      "local": "46b6e39aa0e92ea2c0a22e4cd434c78f61cd8b6c07e3a38e2277fcbd0b26aede",
+      "remote": "46b6e39aa0e92ea2c0a22e4cd434c78f61cd8b6c07e3a38e2277fcbd0b26aede"
+    },
+    {
+      "source": "themes/business/jw_business/theme/assets/home-four/hero.webp",
+      "destination": "theme/jw_business/assets/home-four/hero.webp",
+      "local": "aaaf472078c30de5ad7aef884c7b3ed3565c4a9b989cef95e310ee455d8b9986",
+      "remote": "aaaf472078c30de5ad7aef884c7b3ed3565c4a9b989cef95e310ee455d8b9986"
+    },
+    {
+      "source": "themes/business/jw_business/theme/assets/home-four/digital.webp",
+      "destination": "theme/jw_business/assets/home-four/digital.webp",
+      "local": "def9924a954fdcc748048e0c637e0682dbfee6170afc34eed8fd7b2047a0290f",
+      "remote": "def9924a954fdcc748048e0c637e0682dbfee6170afc34eed8fd7b2047a0290f"
+    },
+    {
+      "source": "themes/business/jw_business/theme/assets/home-four/discovery.webp",
+      "destination": "theme/jw_business/assets/home-four/discovery.webp",
+      "local": "3299375905571f68fa76cfa4fb0b52fc662cde88502192355659a10c00ec9bb0",
+      "remote": "3299375905571f68fa76cfa4fb0b52fc662cde88502192355659a10c00ec9bb0"
+    },
+    {
+      "source": "themes/business/jw_business/theme/assets/home-four/handoff.webp",
+      "destination": "theme/jw_business/assets/home-four/handoff.webp",
+      "local": "b102d2b3bebf5f6a681f1880865e98e1e0934d640d26097cd60b1649018ac7a6",
+      "remote": "b102d2b3bebf5f6a681f1880865e98e1e0934d640d26097cd60b1649018ac7a6"
+    },
+    {
+      "source": "themes/business/jw_business/theme/assets/home-three/print.webp",
+      "destination": "theme/jw_business/assets/home-three/print.webp",
+      "local": "70bda53eceb3680763585cb76a8863c1a94bb1cd862d6d427d9ac3723356c89c",
+      "remote": "70bda53eceb3680763585cb76a8863c1a94bb1cd862d6d427d9ac3723356c89c"
+    },
+    {
+      "source": "themes/business/jw_business/theme/assets/home-three/exhibition.webp",
+      "destination": "theme/jw_business/assets/home-three/exhibition.webp",
+      "local": "ae4046fc766e03dfdbe163d7f33d1b9ad3b1dc4140de900dfe6c96b163d787c3",
+      "remote": "ae4046fc766e03dfdbe163d7f33d1b9ad3b1dc4140de900dfe6c96b163d787c3"
+    },
+    {
+      "source": "themes/business/jw_business/theme/assets/home-three/mobility.webp",
+      "destination": "theme/jw_business/assets/home-three/mobility.webp",
+      "local": "0ce1847e9469e0930947afd0a4a28132bff13324859305bb67f71dff0e776019",
+      "remote": "0ce1847e9469e0930947afd0a4a28132bff13324859305bb67f71dff0e776019"
+    },
+    {
+      "source": "themes/business/jw_business/theme/assets/home-project-DqyQ4Omm.webp",
+      "destination": "theme/jw_business/assets/home-project-DqyQ4Omm.webp",
+      "local": "1420d0db77609fb0cd3397e7140113a4848bbc522f9f8951e3f540c7b2e22a64",
+      "remote": "1420d0db77609fb0cd3397e7140113a4848bbc522f9f8951e3f540c7b2e22a64"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/images/service-journey-workshop.webp",
+      "destination": "theme/jw_business/onepages/assets/images/service-journey-workshop.webp",
+      "local": "325596a90765416b7fc7965080bda5b181a5f3950692bda630f0672753c00826",
+      "remote": "325596a90765416b7fc7965080bda5b181a5f3950692bda630f0672753c00826"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/images/aura-detail.webp",
+      "destination": "theme/jw_business/onepages/assets/images/aura-detail.webp",
+      "local": "7f5bc7fcdec39f676c903a232d135f24fed71c9578381017d5c2a10121839e5d",
+      "remote": "7f5bc7fcdec39f676c903a232d135f24fed71c9578381017d5c2a10121839e5d"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/images/courtyard.webp",
+      "destination": "theme/jw_business/onepages/assets/images/courtyard.webp",
+      "local": "3d454a32e7d046ac530204ae1b6752a27be9fd48b5b4fd1752edc88b689e1d07",
+      "remote": "3d454a32e7d046ac530204ae1b6752a27be9fd48b5b4fd1752edc88b689e1d07"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/images/aura-hero.webp",
+      "destination": "theme/jw_business/onepages/assets/images/aura-hero.webp",
+      "local": "99d731c494a5a661573e5b759462a65af1d3163ae35c419c264d27e32d36b315",
+      "remote": "99d731c494a5a661573e5b759462a65af1d3163ae35c419c264d27e32d36b315"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/images/courtyard-colonnade.webp",
+      "destination": "theme/jw_business/onepages/assets/images/courtyard-colonnade.webp",
+      "local": "9a67c135220752c65b2d5b68efc6807b863b62afc8ffb356db213eb120fcbd47",
+      "remote": "9a67c135220752c65b2d5b68efc6807b863b62afc8ffb356db213eb120fcbd47"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/images/space-studio.webp",
+      "destination": "theme/jw_business/onepages/assets/images/space-studio.webp",
+      "local": "684c76c661a4d8dde4863db9e1ef3b881fc89bd33f0e7b34d64dbdf6cd604e51",
+      "remote": "684c76c661a4d8dde4863db9e1ef3b881fc89bd33f0e7b34d64dbdf6cd604e51"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/images/service-studio.webp",
+      "destination": "theme/jw_business/onepages/assets/images/service-studio.webp",
+      "local": "73d61be3aaf50241d63df1177e97a9662489366a426104094e442c3287381023",
+      "remote": "73d61be3aaf50241d63df1177e97a9662489366a426104094e442c3287381023"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/images/courtyard-terrace.webp",
+      "destination": "theme/jw_business/onepages/assets/images/courtyard-terrace.webp",
+      "local": "565ef87f6aee60272df6daf073501efb0bb5a0b548d63f7cc785914dc2b2d0a3",
+      "remote": "565ef87f6aee60272df6daf073501efb0bb5a0b548d63f7cc785914dc2b2d0a3"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/images/aura-living.webp",
+      "destination": "theme/jw_business/onepages/assets/images/aura-living.webp",
+      "local": "5ebf56099f3afc5d413fd09a9483b922f61073f0e2fbf10776026013fbdf9032",
+      "remote": "5ebf56099f3afc5d413fd09a9483b922f61073f0e2fbf10776026013fbdf9032"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/images/service-workshop.webp",
+      "destination": "theme/jw_business/onepages/assets/images/service-workshop.webp",
+      "local": "1caf00f9e2e4f240dcdaf8c9e298547c2393cb71433d9bfb2cbea46907f3a977",
+      "remote": "1caf00f9e2e4f240dcdaf8c9e298547c2393cb71433d9bfb2cbea46907f3a977"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/images/courtyard-interior.webp",
+      "destination": "theme/jw_business/onepages/assets/images/courtyard-interior.webp",
+      "local": "33938805ccff031f2701e108785dde7b51d261d08a93472fae5299ddda5fa7dd",
+      "remote": "33938805ccff031f2701e108785dde7b51d261d08a93472fae5299ddda5fa7dd"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/images/courtyard-lounge.webp",
+      "destination": "theme/jw_business/onepages/assets/images/courtyard-lounge.webp",
+      "local": "af5a4e634e72beda6e72c7d86ff84c262a643156a2ee2ad20f8ba759def0b4fd",
+      "remote": "af5a4e634e72beda6e72c7d86ff84c262a643156a2ee2ad20f8ba759def0b4fd"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/images/courtyard-detail.webp",
+      "destination": "theme/jw_business/onepages/assets/images/courtyard-detail.webp",
+      "local": "96e89afe22fb5788d2297b6bddbafa0293a10505216ee08f84b8c4a945644375",
+      "remote": "96e89afe22fb5788d2297b6bddbafa0293a10505216ee08f84b8c4a945644375"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-046.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-046.webp",
+      "local": "7578ed38c3067c34e96966445368b964dac630934b42ee3d8f09b6f2d0e95204",
+      "remote": "7578ed38c3067c34e96966445368b964dac630934b42ee3d8f09b6f2d0e95204"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-011.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-011.webp",
+      "local": "9d302985de4c388833aeeda6c92d8e1d5995a0762593ecde66851791ecfd0143",
+      "remote": "9d302985de4c388833aeeda6c92d8e1d5995a0762593ecde66851791ecfd0143"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-007.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-007.webp",
+      "local": "e260cc85e558c14b14c387492ed744c7f3f961b8580869adb7f2fc94c3cf1f1e",
+      "remote": "e260cc85e558c14b14c387492ed744c7f3f961b8580869adb7f2fc94c3cf1f1e"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-050.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-050.webp",
+      "local": "7407aba9d6d8c0e0201c20fb2b1ec0279b8f1fa7ad1f740a58556966583d1781",
+      "remote": "7407aba9d6d8c0e0201c20fb2b1ec0279b8f1fa7ad1f740a58556966583d1781"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-027.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-027.webp",
+      "local": "6953fc10e2544c6645b372fa307d0808869c0948dcc88621c8453c0b68317d91",
+      "remote": "6953fc10e2544c6645b372fa307d0808869c0948dcc88621c8453c0b68317d91"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-031.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-031.webp",
+      "local": "c22c186e80600a45b2013c211541090fe3b39b8770012d258e3425f843a7cb01",
+      "remote": "c22c186e80600a45b2013c211541090fe3b39b8770012d258e3425f843a7cb01"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-030.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-030.webp",
+      "local": "753115b138781c30d90da57ec7487b5e074fb894de291f9fb200226c00403ef1",
+      "remote": "753115b138781c30d90da57ec7487b5e074fb894de291f9fb200226c00403ef1"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-026.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-026.webp",
+      "local": "77ffac0ad49c79a65568345cd65222eb01042e5d493e9a1a20964555178d98c8",
+      "remote": "77ffac0ad49c79a65568345cd65222eb01042e5d493e9a1a20964555178d98c8"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-051.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-051.webp",
+      "local": "da522a4ccd42e9dd4b6fa8139f9d7b4c90c50432baf6c843f2402c6f21263b31",
+      "remote": "da522a4ccd42e9dd4b6fa8139f9d7b4c90c50432baf6c843f2402c6f21263b31"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-006.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-006.webp",
+      "local": "7e7cc12a3ce7f110d0ea12ef17263c7a4ea738af6b30238c0758d588b3f54b89",
+      "remote": "7e7cc12a3ce7f110d0ea12ef17263c7a4ea738af6b30238c0758d588b3f54b89"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-010.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-010.webp",
+      "local": "4f485d8114a700dfdbdbd8396986069292bb54625c3ba7122fd89e0f2408515d",
+      "remote": "4f485d8114a700dfdbdbd8396986069292bb54625c3ba7122fd89e0f2408515d"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-047.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-047.webp",
+      "local": "69f833ae855e0e01d9a69b834ca0c77843d2df1160b812280454b55424ac3693",
+      "remote": "69f833ae855e0e01d9a69b834ca0c77843d2df1160b812280454b55424ac3693"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-021.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-021.webp",
+      "local": "e183eb78bd695b8003e25175c8538b655fdec61eba793c36d9b687d3e98c8e89",
+      "remote": "e183eb78bd695b8003e25175c8538b655fdec61eba793c36d9b687d3e98c8e89"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-060.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-060.webp",
+      "local": "6a4d03dfad5a633ef6a49ddc9076154968512879429402065b7d86b2d27de554",
+      "remote": "6a4d03dfad5a633ef6a49ddc9076154968512879429402065b7d86b2d27de554"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-037.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-037.webp",
+      "local": "d741cbf7c1b914c628671dd884329d806ccf977cccc367339f6e0e8f046bf068",
+      "remote": "d741cbf7c1b914c628671dd884329d806ccf977cccc367339f6e0e8f046bf068"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-040.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-040.webp",
+      "local": "38369cfa6b419e4771a55c5bd1834991eb8bc45a1abc1b83ff280291bf300352",
+      "remote": "38369cfa6b419e4771a55c5bd1834991eb8bc45a1abc1b83ff280291bf300352"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-017.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-017.webp",
+      "local": "042304e72464b7efd31fd0cd06ee8755c234a48f8be8bf6970d5fbca23b0d757",
+      "remote": "042304e72464b7efd31fd0cd06ee8755c234a48f8be8bf6970d5fbca23b0d757"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-001.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-001.webp",
+      "local": "2916d17f8671e3c19172d8f9a98bd068fbbe778a3077211d98601c3ffb01ab5a",
+      "remote": "2916d17f8671e3c19172d8f9a98bd068fbbe778a3077211d98601c3ffb01ab5a"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-056.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-056.webp",
+      "local": "bb4d9de8ae9d5121037c5d93d59346d7f5978695c2305862721d4f38b1b31ec1",
+      "remote": "bb4d9de8ae9d5121037c5d93d59346d7f5978695c2305862721d4f38b1b31ec1"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-057.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-057.webp",
+      "local": "e9932b110edc4b2d098cb5c957f8342e23d897a648c58d1c1b8dd349c7621691",
+      "remote": "e9932b110edc4b2d098cb5c957f8342e23d897a648c58d1c1b8dd349c7621691"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-016.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-016.webp",
+      "local": "573a3feb5020b649e9b5e4dd0348b1cd2308e0f36d11d3136f126bff53fe430a",
+      "remote": "573a3feb5020b649e9b5e4dd0348b1cd2308e0f36d11d3136f126bff53fe430a"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-041.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-041.webp",
+      "local": "91fdd63449f1420281e0eb1ae2bc7facac21b22122ad112dab21dc469aae7b70",
+      "remote": "91fdd63449f1420281e0eb1ae2bc7facac21b22122ad112dab21dc469aae7b70"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-036.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-036.webp",
+      "local": "1d1d0e55ed162d8ce18e22ecf2c29a0a4438e029a1d027fa467856bbeeada06e",
+      "remote": "1d1d0e55ed162d8ce18e22ecf2c29a0a4438e029a1d027fa467856bbeeada06e"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-020.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-020.webp",
+      "local": "648bfdbcd984cdcb9942bbb8d468eeda9a4764eeba1b090b2cd7150361fbf3d8",
+      "remote": "648bfdbcd984cdcb9942bbb8d468eeda9a4764eeba1b090b2cd7150361fbf3d8"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-035.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-035.webp",
+      "local": "63db8dbd5f76b2441f0a32ee8c4833bae53b7c554822ce89f9b5b73b7642cc13",
+      "remote": "63db8dbd5f76b2441f0a32ee8c4833bae53b7c554822ce89f9b5b73b7642cc13"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-023.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-023.webp",
+      "local": "cf917eefb23ecd1d7c48173aab5f1facb75d89124456c68f71a1a5d9d3cf2bc7",
+      "remote": "cf917eefb23ecd1d7c48173aab5f1facb75d89124456c68f71a1a5d9d3cf2bc7"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-058.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-058.webp",
+      "local": "0b41f6f7b30b3d6a0e6c181de738f93ed30aa657958687828909ce308f0084e5",
+      "remote": "0b41f6f7b30b3d6a0e6c181de738f93ed30aa657958687828909ce308f0084e5"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-019.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-019.webp",
+      "local": "67fadc564d9d75d1f49f97a2b17c5831e8c61e2f341f880340364a4c8b43120e",
+      "remote": "67fadc564d9d75d1f49f97a2b17c5831e8c61e2f341f880340364a4c8b43120e"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-039.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-039.webp",
+      "local": "444c5edd37cb971a483221780e0dbfecc45c92765a8f66c36e7967871bea2172",
+      "remote": "444c5edd37cb971a483221780e0dbfecc45c92765a8f66c36e7967871bea2172"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-054.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-054.webp",
+      "local": "d305abb86a17c493ce3702057010ef7677b6149079cb267c5f1de9e2a3f2d37f",
+      "remote": "d305abb86a17c493ce3702057010ef7677b6149079cb267c5f1de9e2a3f2d37f"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-003.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-003.webp",
+      "local": "6d7684cc79b475961466102dd202680adfab6429d01155a4919b6aa81dc09f46",
+      "remote": "6d7684cc79b475961466102dd202680adfab6429d01155a4919b6aa81dc09f46"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-015.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-015.webp",
+      "local": "94cd834bfa8037917d9911e76fa01f18acf2b298432f4887c86c4353da291624",
+      "remote": "94cd834bfa8037917d9911e76fa01f18acf2b298432f4887c86c4353da291624"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-042.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-042.webp",
+      "local": "5d6238e2b23a85912de9f5e2d085561f840b0a840db865dc1d543ad245e20617",
+      "remote": "5d6238e2b23a85912de9f5e2d085561f840b0a840db865dc1d543ad245e20617"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-043.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-043.webp",
+      "local": "720e9d0402925e672b76085f56ce08d51cb0c4a1992bbb969e78b13bcec2c6f2",
+      "remote": "720e9d0402925e672b76085f56ce08d51cb0c4a1992bbb969e78b13bcec2c6f2"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-014.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-014.webp",
+      "local": "c750007ef9fb0266b058629ca81ff1c1731f9d03878ca919eaf9f0dc6e21117c",
+      "remote": "c750007ef9fb0266b058629ca81ff1c1731f9d03878ca919eaf9f0dc6e21117c"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-002.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-002.webp",
+      "local": "937371be37bd215737341060d8018701d21948c9512173cfa99c59cd79bb0f02",
+      "remote": "937371be37bd215737341060d8018701d21948c9512173cfa99c59cd79bb0f02"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-055.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-055.webp",
+      "local": "a44002f07822c6de455e1e6d204219e6b3966b9c4c2c592d692fa92d592be7b3",
+      "remote": "a44002f07822c6de455e1e6d204219e6b3966b9c4c2c592d692fa92d592be7b3"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-038.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-038.webp",
+      "local": "e1e5252df905dc46cd12fe087e1e21cdeb882b00aaf47948db07cad4f11f7aa3",
+      "remote": "e1e5252df905dc46cd12fe087e1e21cdeb882b00aaf47948db07cad4f11f7aa3"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-018.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-018.webp",
+      "local": "d50b96caf1239ad8a390168cb13f6780720a85056e2ce638c45bc2938c63a94e",
+      "remote": "d50b96caf1239ad8a390168cb13f6780720a85056e2ce638c45bc2938c63a94e"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-059.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-059.webp",
+      "local": "6c78640d84c7db17af0a9adc12e2ae03183264bcf83a51675a4da093cc3a853d",
+      "remote": "6c78640d84c7db17af0a9adc12e2ae03183264bcf83a51675a4da093cc3a853d"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-022.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-022.webp",
+      "local": "01e235a53bbaf8113ad957ac09b822ee1a1dd9af27b340f3573b8b99189c337c",
+      "remote": "01e235a53bbaf8113ad957ac09b822ee1a1dd9af27b340f3573b8b99189c337c"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-034.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-034.webp",
+      "local": "9d00acad66b3979e6140d7904702a2ab6c96d8855a54986b1032ff311b2c593f",
+      "remote": "9d00acad66b3979e6140d7904702a2ab6c96d8855a54986b1032ff311b2c593f"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-029.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-029.webp",
+      "local": "eaba86fddcd5f3736901084b21fdb4aa9f29ceeff3a0c0eba646ce8cdb091f33",
+      "remote": "eaba86fddcd5f3736901084b21fdb4aa9f29ceeff3a0c0eba646ce8cdb091f33"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-052.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-052.webp",
+      "local": "fdc896bab95baa50b19f52cc1d0eba791dc7d34d547835b247b52971a268a9e0",
+      "remote": "fdc896bab95baa50b19f52cc1d0eba791dc7d34d547835b247b52971a268a9e0"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-005.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-005.webp",
+      "local": "f4379762b5f590538003df621cb918bb02a4b69ed9e0a7cfff5eeaa639226eb5",
+      "remote": "f4379762b5f590538003df621cb918bb02a4b69ed9e0a7cfff5eeaa639226eb5"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-013.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-013.webp",
+      "local": "537435ac435a3b6dc929f1f9e1d8d653462f7041321f39a7d22fb5c3e274db99",
+      "remote": "537435ac435a3b6dc929f1f9e1d8d653462f7041321f39a7d22fb5c3e274db99"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-044.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-044.webp",
+      "local": "a8d006747a5d0dd205043f5d269f5591518b6cd7a2bd50626f639fb4a285f68f",
+      "remote": "a8d006747a5d0dd205043f5d269f5591518b6cd7a2bd50626f639fb4a285f68f"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-033.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-033.webp",
+      "local": "b517d9b2551a19282596f885b9f75b726c08d5657019291043df597c61515653",
+      "remote": "b517d9b2551a19282596f885b9f75b726c08d5657019291043df597c61515653"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-025.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-025.webp",
+      "local": "9f29c7fbb19ce75168492724d9a8c7d5e84eae3a57c613a2919ddb42b87eefe5",
+      "remote": "9f29c7fbb19ce75168492724d9a8c7d5e84eae3a57c613a2919ddb42b87eefe5"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-009.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-009.webp",
+      "local": "6fb03589fd92d63a19e26c66d636939241e75da7e6155e5875482ba6b77f7639",
+      "remote": "6fb03589fd92d63a19e26c66d636939241e75da7e6155e5875482ba6b77f7639"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-048.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-048.webp",
+      "local": "a2e85a7c7c6cc516c09ece20d76a0254a5a1b61b1e3b04579610ca212abedf4b",
+      "remote": "a2e85a7c7c6cc516c09ece20d76a0254a5a1b61b1e3b04579610ca212abedf4b"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-049.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-049.webp",
+      "local": "903b597e5fe901d6b0d025f65c830ddaab026fe98749841b49605bfff469de96",
+      "remote": "903b597e5fe901d6b0d025f65c830ddaab026fe98749841b49605bfff469de96"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-008.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-008.webp",
+      "local": "287490238c946da57051c4e88f5ddb1031fcd3addb0e9e599de7498e79514bd0",
+      "remote": "287490238c946da57051c4e88f5ddb1031fcd3addb0e9e599de7498e79514bd0"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-024.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-024.webp",
+      "local": "8d98ad2aef38870204564bf97f84992cb6a1097e89eeb177113f9d891ef07d07",
+      "remote": "8d98ad2aef38870204564bf97f84992cb6a1097e89eeb177113f9d891ef07d07"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-032.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-032.webp",
+      "local": "ac553a2f16057c39c5488c794bcec6479a10882b239083e4c82b4a66e508ba99",
+      "remote": "ac553a2f16057c39c5488c794bcec6479a10882b239083e4c82b4a66e508ba99"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-045.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-045.webp",
+      "local": "67725a563e655aa5c0154d0ae2d13a9d255abd029036278b66f3ae1b430294bb",
+      "remote": "67725a563e655aa5c0154d0ae2d13a9d255abd029036278b66f3ae1b430294bb"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-012.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-012.webp",
+      "local": "e02dcefd61675ac83863d9f9e77c40f6fec509e65ab71b19db75b1b241e16408",
+      "remote": "e02dcefd61675ac83863d9f9e77c40f6fec509e65ab71b19db75b1b241e16408"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-004.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-004.webp",
+      "local": "cbcd9be37b21ca3f230d55b61b6ab9c4f3f90cae530be7ae58a08a6712f33513",
+      "remote": "cbcd9be37b21ca3f230d55b61b6ab9c4f3f90cae530be7ae58a08a6712f33513"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-053.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-053.webp",
+      "local": "d665a3a4040985c54fdbbcf330e7261f0a945556b1a6d224297377771fee4a0d",
+      "remote": "d665a3a4040985c54fdbbcf330e7261f0a945556b1a6d224297377771fee4a0d"
+    },
+    {
+      "source": "themes/business/jw_business/theme/onepages/assets/sequence/aura-028.webp",
+      "destination": "theme/jw_business/onepages/assets/sequence/aura-028.webp",
+      "local": "0ca4551c7512c865fcdb1f39606e8622cfa2ac0d979f9337861fab4e1f59b96d",
+      "remote": "0ca4551c7512c865fcdb1f39606e8622cfa2ac0d979f9337861fab4e1f59b96d"
+    },
+    {
+      "source": "themes/business/jw_business/theme/index_1.php",
+      "destination": "theme/jw_business/index_1.php",
+      "local": "fe97a0a0223bc5dff2700895e9828f38a658ed8173d13972d8bf6c5304691a00",
+      "remote": "fe97a0a0223bc5dff2700895e9828f38a658ed8173d13972d8bf6c5304691a00"
+    },
+    {
+      "source": "themes/business/jw_business/theme/index_2.php",
+      "destination": "theme/jw_business/index_2.php",
+      "local": "2df4d900400171dcbbd63699fa0a9ffd6df47a7f2f219c7405ea9b44e2832f94",
+      "remote": "2df4d900400171dcbbd63699fa0a9ffd6df47a7f2f219c7405ea9b44e2832f94"
+    },
+    {
+      "source": "themes/business/jw_business/theme/index_3.php",
+      "destination": "theme/jw_business/index_3.php",
+      "local": "4939926afd60236d45c387706b561a750c95d67ce3ce6c3e7e82fbc2415bf591",
+      "remote": "4939926afd60236d45c387706b561a750c95d67ce3ce6c3e7e82fbc2415bf591"
+    },
+    {
+      "source": "themes/business/jw_business/theme/index_4.php",
+      "destination": "theme/jw_business/index_4.php",
+      "local": "fa643948f6dc9322538f3988c3b8bec3c964d1a119e38ef0e9161f1be8630a2c",
+      "remote": "fa643948f6dc9322538f3988c3b8bec3c964d1a119e38ef0e9161f1be8630a2c"
+    },
+    {
+      "source": "themes/business/jw_business/pages/onepage-showcase.php",
+      "destination": "pages/onepage-showcase.php",
+      "local": "fef6e42de0134d8b9f7c3dc66031637ecafb9a65d6831c675ffe22453d1e5fee",
+      "remote": "fef6e42de0134d8b9f7c3dc66031637ecafb9a65d6831c675ffe22453d1e5fee"
+    },
+    {
+      "source": "themes/business/jw_business/pages/onepage-services.php",
+      "destination": "pages/onepage-services.php",
+      "local": "2c07ba57730792cb5008ca6c548327e9d1f2b5960290f4bb8704b3c0487340e4",
+      "remote": "2c07ba57730792cb5008ca6c548327e9d1f2b5960290f4bb8704b3c0487340e4"
+    },
+    {
+      "source": "themes/business/jw_business/pages/onepage-projects.php",
+      "destination": "pages/onepage-projects.php",
+      "local": "bd40c8c1d824f3f225957376c2cf40efbd5896c1e3df0a0c84f6dc7bec9c125e",
+      "remote": "bd40c8c1d824f3f225957376c2cf40efbd5896c1e3df0a0c84f6dc7bec9c125e"
+    },
+    {
+      "source": "themes/business/jw_business/theme/index.php",
+      "destination": "theme/jw_business/index.php",
+      "local": "b14332b7e9e3b7542eb038d8eecc2409bd96121e2527c26045db541633228c68",
+      "remote": "b14332b7e9e3b7542eb038d8eecc2409bd96121e2527c26045db541633228c68"
+    },
+    {
+      "source": "themes/business/jw_business/theme/mobile/index.php",
+      "destination": "theme/jw_business/mobile/index.php",
+      "local": "32f768dbda18639bcc19768496f38f9bcd1518f6bc11c296106cda97d1e53d74",
+      "remote": "32f768dbda18639bcc19768496f38f9bcd1518f6bc11c296106cda97d1e53d74"
+    }
+  ]
+}

@@ -93,6 +93,7 @@ async function main(): Promise<void> {
     "onepages/assets/images/aura-hero.webp", "onepages/assets/images/aura-detail.webp", "onepages/assets/images/aura-living.webp", "onepages/assets/images/service-journey-workshop.webp"]) {
     assert(fileSet.has(path), `seven-page asset missing from installable theme: ${path}`);
   }
+  assert(files.filter(path => /^onepages\/assets\/sequence\/aura-\d{3}\.webp$/.test(path)).length === 60, "AURA rotation requires all 60 Blender frames");
   assert(!files.some((path) => /^onepages\/assets\/(?:sequence\/node-\d{3}|images\/node-poster)\.webp$/.test(path)), "retired NODE product imagery must not enter the AURA payload");
   const [css, js, homeCss, homeJs] = await Promise.all([
     readFile(cssPath, "utf8"), readFile(jsPath, "utf8"),

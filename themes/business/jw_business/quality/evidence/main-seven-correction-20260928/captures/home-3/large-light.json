@@ -1,0 +1,56 @@
+{
+  "result": "collected-not-approved",
+  "page": "home-3",
+  "state": "large-light",
+  "url": "https://g5themes.test/theme/jw_business/index_3.php?device=pc",
+  "capturedAt": "2026-09-28T04:35:14.908Z",
+  "viewport": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fullPage": true,
+  "file": "/Users/neojins/workspace/jwsoft-g5-themes/output/qa/ui/captures/home-3/large-light.png",
+  "sha256": "7c8cd357d817adc4261a8b182df09e1370557fab5571cef0e73d75244d60c69b",
+  "inputDigest": "3e0b2674c4dd84d4d51d37bc4693baeb853f8ae001fdabae2b4bbd3a2a5de887",
+  "platform": "darwin",
+  "browser": "153.0.8010.12",
+  "errors": [],
+  "mode": "jw-light",
+  "documentHeight": 7130,
+  "overflow": 0,
+  "brokenImages": [],
+  "missingIcons": 0,
+  "reversedText": [],
+  "requirements": [
+    {
+      "id": "page-heading",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "wayfinding-map",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "exhibition-photo",
+      "count": 1,
+      "visible": true
+    }
+  ],
+  "media": [
+    "https://g5themes.test/theme/jw_business/assets/brand/jw-business-light.webp",
+    "https://g5themes.test/theme/jw_business/assets/brand/jw-business-dark.webp",
+    "https://g5themes.test/theme/jw_business/assets/home-three/mobility.webp",
+    "https://g5themes.test/theme/jw_business/assets/home-three/print.webp",
+    "https://g5themes.test/theme/jw_business/assets/home-three/exhibition.webp"
+  ],
+  "regions": {
+    ".jw-footer": {
+      "left": 0,
+      "top": 6886,
+      "width": 1920,
+      "height": 244
+    }
+  }
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "page": "onepage-showcase",
+    "id": "product-rotation-scroll",
+    "viewport": "desktop",
+    "result": "pass",
+    "steps": "스크롤 5%, 55%, 95%에서 앞·뒤·복귀 프레임을 확인했습니다.",
+    "before": {
+      "path": "quality/evidence/main-seven-correction-20260928/rotation/desktop-normal-top.png",
+      "sha256": "4970e095b9e0565f92e9b622c6ff3a61635d6853d016ecabebe3a6d16e7b0dcb"
+    },
+    "after": {
+      "path": "quality/evidence/main-seven-correction-20260928/rotation/desktop-product-rotation-scroll-after.png",
+      "sha256": "34085c497c9515e33a1cd47bfd4a55cc01de62695dc7ac59243d1c1dad0b75c5"
+    }
+  },
+  {
+    "page": "onepage-showcase",
+    "id": "product-rotation-keyboard",
+    "viewport": "desktop",
+    "result": "pass",
+    "steps": "각도 슬라이더를 End, Home, ArrowRight 키로 조작하고 59, 0, 1 프레임 및 6도 안내를 확인했습니다.",
+    "before": {
+      "path": "quality/evidence/main-seven-correction-20260928/rotation/desktop-product-rotation-keyboard-before.png",
+      "sha256": "9c3b41145d4293d65451645a011e198d77386b1e43108f6bbc8844079e46d1cd"
+    },
+    "after": {
+      "path": "quality/evidence/main-seven-correction-20260928/rotation/desktop-product-rotation-keyboard-after.png",
+      "sha256": "e64fb6ae571b0e2ce51bda2952b17bddc3977d8260c579322815550f2982f413"
+    }
+  },
+  {
+    "page": "onepage-showcase",
+    "id": "product-rotation-reduced-motion",
+    "viewport": "desktop",
+    "result": "pass",
+    "steps": "줄인 동작에서 스크롤 고정·자동 회전 없이 정적 제품을 표시하고 방향키 수동 전환을 확인했습니다.",
+    "before": {
+      "path": "quality/evidence/main-seven-correction-20260928/rotation/desktop-reduced-top.png",
+      "sha256": "4970e095b9e0565f92e9b622c6ff3a61635d6853d016ecabebe3a6d16e7b0dcb"
+    },
+    "after": {
+      "path": "quality/evidence/main-seven-correction-20260928/rotation/desktop-product-rotation-reduced-motion-after.png",
+      "sha256": "d1f0792436098cc23aaaef332c9a3251aea47362678dec6c8b5069259f723397"
+    }
+  },
+  {
+    "page": "onepage-showcase",
+    "id": "product-rotation-fallback",
+    "viewport": "desktop",
+    "result": "pass",
+    "steps": "JavaScript가 꺼진 상태에서 제품 영역까지 스크롤했습니다. 포스터 로드와 조작부 숨김을 확인했습니다.",
+    "before": {
+      "path": "quality/evidence/main-seven-correction-20260928/rotation/desktop-no-js-top.png",
+      "sha256": "dcb67afbe9557978abf9eaec24b10f93d5fbdd16c55cad455badd3d4812fe0b6"
+    },
+    "after": {
+      "path": "quality/evidence/main-seven-correction-20260928/rotation/desktop-product-rotation-fallback-after.png",
+      "sha256": "5636e68324fd77a0df952177f6ac8cc915bbf9dbcb58055b285e72cdd4b61ab2"
+    }
+  },
+  {
+    "page": "onepage-showcase",
+    "id": "product-rotation-scroll",
+    "viewport": "mobile",
+    "result": "pass",
+    "steps": "모바일에서 제품 영역으로 스크롤해 정적 포스터 유지와 수동 제어 표시를 확인했습니다.",
+    "before": {
+      "path": "quality/evidence/main-seven-correction-20260928/rotation/mobile-normal-top.png",
+      "sha256": "fca8a7e2d1520d09cd1d071b86cd6403eb93aa21f32864c1dc3b264cf1d51c39"
+    },
+    "after": {
+      "path": "quality/evidence/main-seven-correction-20260928/rotation/mobile-product-rotation-scroll-after.png",
+      "sha256": "c09060f1c720324f02d79f307a56ea5229ef8b7bc758c687a72f25263945818d"
+    }
+  },
+  {
+    "page": "onepage-showcase",
+    "id": "product-rotation-keyboard",
+    "viewport": "mobile",
+    "result": "pass",
+    "steps": "각도 슬라이더를 End, Home, ArrowRight 키로 조작하고 59, 0, 1 프레임 및 6도 안내를 확인했습니다.",
+    "before": {
+      "path": "quality/evidence/main-seven-correction-20260928/rotation/mobile-product-rotation-keyboard-before.png",
+      "sha256": "3ef5624f5e8b09f5ad76a3b0ec7ae7d23190ab8b43b84a0d58ad3c0163ab6b34"
+    },
+    "after": {
+      "path": "quality/evidence/main-seven-correction-20260928/rotation/mobile-product-rotation-keyboard-after.png",
+      "sha256": "fb3845d6e53c839cdca2af975010457142f790549b0148d52e5e5be0528dd0a6"
+    }
+  },
+  {
+    "page": "onepage-showcase",
+    "id": "product-rotation-reduced-motion",
+    "viewport": "mobile",
+    "result": "pass",
+    "steps": "줄인 동작에서 스크롤 고정·자동 회전 없이 정적 제품을 표시하고 방향키 수동 전환을 확인했습니다.",
+    "before": {
+      "path": "quality/evidence/main-seven-correction-20260928/rotation/mobile-reduced-top.png",
+      "sha256": "fca8a7e2d1520d09cd1d071b86cd6403eb93aa21f32864c1dc3b264cf1d51c39"
+    },
+    "after": {
+      "path": "quality/evidence/main-seven-correction-20260928/rotation/mobile-product-rotation-reduced-motion-after.png",
+      "sha256": "fb3845d6e53c839cdca2af975010457142f790549b0148d52e5e5be0528dd0a6"
+    }
+  },
+  {
+    "page": "onepage-showcase",
+    "id": "product-rotation-fallback",
+    "viewport": "mobile",
+    "result": "pass",
+    "steps": "JavaScript가 꺼진 상태에서 제품 영역까지 스크롤했습니다. 포스터 로드와 조작부 숨김을 확인했습니다.",
+    "before": {
+      "path": "quality/evidence/main-seven-correction-20260928/rotation/mobile-no-js-top.png",
+      "sha256": "53eb231a7f66d6c25d08963eadc787975dafc23074b9099d01d5d7053a8b2a69"
+    },
+    "after": {
+      "path": "quality/evidence/main-seven-correction-20260928/rotation/mobile-product-rotation-fallback-after.png",
+      "sha256": "cb6fcea73e07f59aee3712277fe531a0afa1a8511abb904470da85a16b37815f"
+    }
+  }
+]
