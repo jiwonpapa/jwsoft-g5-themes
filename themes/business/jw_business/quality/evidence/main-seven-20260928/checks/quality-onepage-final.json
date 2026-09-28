@@ -1,0 +1,5 @@
+{
+  "result": "fail",
+  "code": "QUALITY_BLOCKED",
+  "message": "Error: NEXT_BATCH_BLOCKED: home 미통과. onepage 완료 처리 불가."
+}

@@ -29,6 +29,8 @@ async function fixture(): Promise<{ root: string; contract: QualityContract; pla
     await put(root, path, bytes);
     homeFourPhotos.push({ path, sha256: sha256(bytes), origin: `fixture-main4-${index}`, owner: "home-4" });
   }
+  const homeThreePath = await photo(root, "home-three-exhibition", 19);
+  const homeThreePhoto = { path: homeThreePath, sha256: sha256(await readFile(join(root, homeThreePath))), origin: "fixture-main3-exhibition", owner: "home-3" };
   for (const page of contract.pages) {
     page.ready = page.group === "home" || page.group === "onepage";
     page.firstViewport = "방문자의 주제와 첫 행동이 실제 화면에 명확하게 표시됩니다.";
@@ -39,6 +41,9 @@ async function fixture(): Promise<{ root: string; contract: QualityContract; pla
         ? "data-jw-home2-slider data-jw-digital-artifact data-jwh2-decision-matrix data-jwh2-decision-evidence"
         : "";
     const homeFourProducts = page.id === "home-4" ? '<section data-jwh4-work-product></section>'.repeat(4) + homeFourPhotos.map(photo => `<img src="${photo.path}">`).join("") + '<a class="h4-process-card"><i class="h4-large-icon"></i></a>'.repeat(4) + '<div class="h4-insights"><div></div><div></div></div>' : "";
+    const extraProducts = page.id === "home-2"
+      ? '<span class="jwh2-choice-icon"><i data-lucide="compass"></i></span>'.repeat(3) + '<div data-jwh2-journey-map></div><div data-jwh2-delivery-board>' + '<article>Deliverable</article>'.repeat(3) + '</div>'
+      : page.id === "home-3" ? `<div class="jwh3-wayfinding-v2"><svg></svg></div><div class="jwh3-exhibition"><img src="${homeThreePath}"></div>` : "";
     const mainOneSections = [
       '<section data-jw-hero-slider><h1>Test home-1</h1></section>',
       `<section>${'<span class="jwh1-service-icon"><svg></svg></span>'.repeat(3)}</section>`,
@@ -56,13 +61,13 @@ async function fixture(): Promise<{ root: string; contract: QualityContract; pla
     await put(root, page.path, page.group === "home"
       ? page.id === "home-1"
         ? `<div class="jwh1-concept">${mainOneSections.join("")}</div>`
-        : `<article><header ${requiredMarkers}><h1>Test ${page.id}</h1>${"<p>Distinct fixture structure</p>".repeat(count)}</header>${homeFourProducts}</article>`
+        : `<article><header ${requiredMarkers}><h1>Test ${page.id}</h1>${"<p>Distinct fixture structure</p>".repeat(count)}</header>${homeFourProducts}${extraProducts}</article>`
       : page.group === "onepage"
         ? `<article><section><h1>Test ${page.id}</h1><p>Independent onepage fixture</p></section></article>`
         : '<article class="jw-page-facade"><h2>Scaffold</h2></article>');
   }
   await put(root, "quality/contract.json", contract);
-  await put(root, "quality/assets.json", { schemaVersion: 1, photos: homeFourPhotos });
+  await put(root, "quality/assets.json", { schemaVersion: 1, photos: [...homeFourPhotos, homeThreePhoto] });
   const plans = contract.pages.filter(page => page.group === "home");
   const now = new Date().toISOString();
   const review: Review = {
@@ -81,7 +86,7 @@ async function fixture(): Promise<{ root: string; contract: QualityContract; pla
     const path = `quality/evidence/${page.id}-${viewport}-${mode}.png`;
     await put(root, path, bytes);
     review.captures.push({ page: page.id, viewport, mode, width, height: 640, documentHeight: 640, fullPage: true, path, sha256: sha256(bytes),
-      url: `https://g5themes.test${page.route}`, capturedAt: now, media: page.id === "home-4" ? homeFourPhotos.map(photo => photo.path) : [], requirements: page.requirements.map(item => ({ id: item.id, count: item.min, visible: true })) });
+      url: `https://g5themes.test${page.route}`, capturedAt: now, media: page.id === "home-4" ? homeFourPhotos.map(photo => photo.path) : page.id === "home-3" ? [homeThreePath] : [], requirements: page.requirements.map(item => ({ id: item.id, count: item.min, visible: true })) });
   }
   for (const page of plans) for (const id of page.interactions) for (const viewport of ["desktop", "mobile"] as const) {
     const captures = review.captures.filter(item => item.page === page.id && item.viewport === viewport);

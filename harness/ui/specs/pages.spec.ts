@@ -12,9 +12,29 @@ for (const plan of selectedPages()) {
     const errors: string[] = [];
     page.on("pageerror", error => errors.push(error.message));
     await openPage(page, plan, info.project.name.endsWith("-dark"));
-    const metrics = await inspectPage(page, plan);
     const directory = resolve(root, "output/qa/ui/captures", plan.id);
     await mkdir(directory, { recursive: true });
+    // Required diagram belongs to an inactive tab: verify each real state, then capture installation.
+    if (plan.id === 'onepage-showcase') {
+      const tabs = page.getByRole('tab');
+      await expect(tabs).toHaveCount(3);
+      for (let index = 0; index < 3; index++) {
+        await tabs.nth(index).click();
+        await expect(tabs.nth(index)).toHaveAttribute('aria-selected', 'true');
+        const panelId = await tabs.nth(index).getAttribute('aria-controls');
+        await expect(page.locator('#' + panelId)).toBeVisible();
+        await page.locator('#' + panelId).screenshot({path: resolve(directory, info.project.name + '.detail-' + index + '.png')});
+      }
+      await tabs.nth(2).press('Home');
+      await expect(tabs.nth(0)).toHaveAttribute('aria-selected', 'true');
+      await tabs.nth(0).press('ArrowRight');
+      await expect(tabs.nth(1)).toHaveAttribute('aria-selected', 'true');
+      await tabs.nth(1).press('End');
+      await expect(page.locator('[data-jwo-install-diagram]')).toBeVisible();
+      await page.evaluate(() => scrollTo(0, 0));
+    }
+    const metrics = await inspectPage(page, plan);
+
     const file = resolve(directory, info.project.name + ".png");
     const bytes = await page.screenshot({ path: file, fullPage: true, animations: "disabled" });
     const capture = {
@@ -35,6 +55,11 @@ for (const plan of selectedPages()) {
       const actual = metrics.requirements.find(item => item.id === requirement.id)!;
       expect.soft(actual.count, requirement.description).toBeGreaterThanOrEqual(requirement.min);
       expect.soft(actual.visible, requirement.description).toBe(true);
+    }
+    if (plan.id === 'onepage-services') {
+      const icons = page.locator('.jwo-service-card > svg[data-jwo-icon]');
+      await expect(icons).toHaveCount(3);
+      for (const icon of await icons.all()) expect((await icon.boundingBox())!.width).toBeGreaterThanOrEqual(60);
     }
     if (plan.id === "home-4") {
       expect.soft(await alignedRows(page, ".h4-process-card h3"), "process title alignment").toBe(true);

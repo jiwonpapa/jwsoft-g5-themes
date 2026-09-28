@@ -1,0 +1,249 @@
+{
+  "result": "fail",
+  "scope": "home",
+  "inputDigest": "47292a2d84ea5e6025a9826481a547ad17cdb1098e5be3ccd5826b69a890e8ef",
+  "pages": 4,
+  "failures": [
+    {
+      "code": "PHOTO_REUSE",
+      "target": "src/assets/images/home-hero.webp",
+      "message": "페이지 간 사진 재사용: company-overview-1, company-overview-2, company-overview-3, business-list-1, business-list-2, business-list-3"
+    },
+    {
+      "code": "PHOTO_OWNER",
+      "target": "src/assets/images/home-hero.webp",
+      "message": "허용 페이지는 home-1입니다. 실제: company-overview-1, company-overview-2, company-overview-3, business-list-1, business-list-2, business-list-3"
+    },
+    {
+      "code": "PHOTO_REUSE",
+      "target": "src/assets/images/home-collaboration.webp",
+      "message": "페이지 간 사진 재사용: company-overview-1, company-overview-2, company-overview-3, company-overview-4, company-overview-5, business-list-1, business-list-2, business-list-4, business-list-5, business-detail-1, business-detail-2"
+    },
+    {
+      "code": "PHOTO_OWNER",
+      "target": "src/assets/images/home-collaboration.webp",
+      "message": "허용 페이지는 home-1입니다. 실제: company-overview-1, company-overview-2, company-overview-3, company-overview-4, company-overview-5, business-list-1, business-list-2, business-list-4, business-list-5, business-detail-1, business-detail-2"
+    },
+    {
+      "code": "PHOTO_REUSE",
+      "target": "src/assets/images/home-project.webp",
+      "message": "페이지 간 사진 재사용: company-overview-2, company-overview-3, company-overview-4, business-list-1, business-list-2, business-list-5, business-detail-2, business-detail-3, business-detail-4"
+    },
+    {
+      "code": "PHOTO_OWNER",
+      "target": "src/assets/images/home-project.webp",
+      "message": "허용 페이지는 home-1입니다. 실제: company-overview-2, company-overview-3, company-overview-4, business-list-1, business-list-2, business-list-5, business-detail-2, business-detail-3, business-detail-4"
+    }
+  ],
+  "photoUsage": [
+    {
+      "path": "src/assets/main-one/strategy.webp",
+      "pages": [
+        "home-1"
+      ]
+    },
+    {
+      "path": "src/assets/main-one/digital.webp",
+      "pages": [
+        "home-1"
+      ]
+    },
+    {
+      "path": "src/assets/main-one/brand.webp",
+      "pages": [
+        "home-1"
+      ]
+    },
+    {
+      "path": "src/assets/main-one/industry-ceramics.webp",
+      "pages": [
+        "home-1"
+      ]
+    },
+    {
+      "path": "src/assets/main-one/case-food.webp",
+      "pages": [
+        "home-1"
+      ]
+    },
+    {
+      "path": "src/assets/main-one/case-learning.webp",
+      "pages": [
+        "home-1"
+      ]
+    },
+    {
+      "path": "src/assets/main-one/brand-detail.webp",
+      "pages": [
+        "home-1"
+      ]
+    },
+    {
+      "path": "src/assets/images/home2-decision.webp",
+      "pages": [
+        "home-2"
+      ]
+    },
+    {
+      "path": "src/assets/images/home2-digital.webp",
+      "pages": [
+        "home-2"
+      ]
+    },
+    {
+      "path": "src/assets/images/home2-operations.webp",
+      "pages": [
+        "home-2"
+      ]
+    },
+    {
+      "path": "src/assets/home-three/mobility.webp",
+      "pages": [
+        "home-3"
+      ]
+    },
+    {
+      "path": "src/assets/home-three/print.webp",
+      "pages": [
+        "home-3"
+      ]
+    },
+    {
+      "path": "src/assets/home-three/exhibition.webp",
+      "pages": [
+        "home-3"
+      ]
+    },
+    {
+      "path": "src/assets/home-four/hero.webp",
+      "pages": [
+        "home-4"
+      ]
+    },
+    {
+      "path": "src/assets/home-four/discovery.webp",
+      "pages": [
+        "home-4"
+      ]
+    },
+    {
+      "path": "src/assets/home-four/digital.webp",
+      "pages": [
+        "home-4"
+      ]
+    },
+    {
+      "path": "src/assets/home-four/handoff.webp",
+      "pages": [
+        "home-4"
+      ]
+    },
+    {
+      "path": "onepages/assets/images/aura-hero.webp",
+      "pages": [
+        "onepage-showcase"
+      ]
+    },
+    {
+      "path": "onepages/assets/images/aura-detail.webp",
+      "pages": [
+        "onepage-showcase"
+      ]
+    },
+    {
+      "path": "onepages/assets/images/aura-living.webp",
+      "pages": [
+        "onepage-showcase"
+      ]
+    },
+    {
+      "path": "onepages/assets/images/service-journey-workshop.webp",
+      "pages": [
+        "onepage-services"
+      ]
+    },
+    {
+      "path": "onepages/assets/images/service-workshop.webp",
+      "pages": [
+        "onepage-services"
+      ]
+    },
+    {
+      "path": "onepages/assets/images/courtyard.webp",
+      "pages": [
+        "onepage-projects"
+      ]
+    },
+    {
+      "path": "onepages/assets/images/courtyard-interior.webp",
+      "pages": [
+        "onepage-projects"
+      ]
+    },
+    {
+      "path": "onepages/assets/images/courtyard-detail.webp",
+      "pages": [
+        "onepage-projects"
+      ]
+    },
+    {
+      "path": "onepages/assets/images/courtyard-colonnade.webp",
+      "pages": [
+        "onepage-projects"
+      ]
+    },
+    {
+      "path": "onepages/assets/images/courtyard-lounge.webp",
+      "pages": [
+        "onepage-projects"
+      ]
+    },
+    {
+      "path": "onepages/assets/images/courtyard-terrace.webp",
+      "pages": [
+        "onepage-projects"
+      ]
+    },
+    {
+      "path": "src/assets/images/home-hero.webp",
+      "pages": [
+        "business-list-1",
+        "business-list-2",
+        "business-list-3",
+        "company-overview-1",
+        "company-overview-2",
+        "company-overview-3"
+      ]
+    },
+    {
+      "path": "src/assets/images/home-collaboration.webp",
+      "pages": [
+        "business-detail-1",
+        "business-detail-2",
+        "business-list-1",
+        "business-list-2",
+        "business-list-4",
+        "business-list-5",
+        "company-overview-1",
+        "company-overview-2",
+        "company-overview-3",
+        "company-overview-4",
+        "company-overview-5"
+      ]
+    },
+    {
+      "path": "src/assets/images/home-project.webp",
+      "pages": [
+        "business-detail-2",
+        "business-detail-3",
+        "business-detail-4",
+        "business-list-1",
+        "business-list-2",
+        "business-list-5",
+        "company-overview-2",
+        "company-overview-3",
+        "company-overview-4"
+      ]
+    }
+  ]
+}

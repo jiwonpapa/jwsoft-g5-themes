@@ -91,20 +91,20 @@ $contact_url = jw_business_page_url('contact-1');
             </div>
             <div class="jwh2-choices__list">
                 <a href="<?php echo $service_url; ?>">
-                    <span>방향이 흐릴 때</span>
-                    <strong>사업의 우선순위를 다시 정합니다.</strong>
+                    <span class="jwh2-choice-icon"><i data-lucide="compass" aria-hidden="true"></i></span><span>방향이 흐릴 때</span>
+                    <strong>사업의 우선순위를 정합니다.</strong>
                     <p>시장·고객·조직의 신호를 모아 실행할 문제를 선명하게 만듭니다.</p>
                     <i data-lucide="arrow-up-right" aria-hidden="true"></i>
                 </a>
                 <a href="<?php echo $solutions_url; ?>">
-                    <span>서비스가 멈출 때</span>
-                    <strong>고객이 실제로 쓰는 흐름을 검증합니다.</strong>
+                    <span class="jwh2-choice-icon"><i data-lucide="monitor" aria-hidden="true"></i></span><span>서비스가 멈출 때</span>
+                    <strong>고객의 흐름을 검증합니다.</strong>
                     <p>핵심 여정을 빠르게 시제품으로 만들고 행동 데이터로 판단합니다.</p>
                     <i data-lucide="arrow-up-right" aria-hidden="true"></i>
                 </a>
                 <a href="<?php echo $contact_url; ?>">
-                    <span>실행이 이어지지 않을 때</span>
-                    <strong>현장에 남는 운영 기준을 만듭니다.</strong>
+                    <span class="jwh2-choice-icon"><i data-lucide="target" aria-hidden="true"></i></span><span>실행이 이어지지 않을 때</span>
+                    <strong>현장의 운영 기준을 만듭니다.</strong>
                     <p>팀이 반복해서 사용할 기준과 도구를 일하는 흐름 안에 정착시킵니다.</p>
                     <i data-lucide="arrow-up-right" aria-hidden="true"></i>
                 </a>
@@ -112,6 +112,7 @@ $contact_url = jw_business_page_url('contact-1');
         </div>
     </section>
 
+<section class="jwh2-journey jwh2-shell" aria-labelledby="jwh2-journey-title"><div><h2 id="jwh2-journey-title">고객의 움직임이<br>설계의 근거가 됩니다.</h2><p>방문부터 상담까지, 어떤 장면을 확인할지 먼저 정합니다. 화면과 질문을 연결한 가상 서비스 검토 지도입니다.</p></div><div class="jwh2-journey-map" data-jwh2-journey-map><div class="jwh2-journey-map__head"><strong>서비스 탐색 지도</strong><span>가상 고객 여정</span></div><ol><li><i data-lucide="search" aria-hidden="true"></i><b>발견</b><span>검색 · 첫 방문</span></li><li><i data-lucide="files" aria-hidden="true"></i><b>비교</b><span>범위 · 사례</span></li><li><i data-lucide="message-circle" aria-hidden="true"></i><b>문의</b><span>준비 · 다음 단계</span></li></ol><div class="jwh2-journey-map__notes"><p><strong>관찰할 장면</strong>어떤 정보 앞에서 멈추는가</p><p><strong>확인할 자료</strong>탐색 기록과 반복되는 질문</p></div></div></section>
     <section class="jwh2-matrix" aria-labelledby="jwh2-matrix-title" data-jwh2-decision-matrix>
         <div class="jwh2-shell">
             <div class="jwh2-matrix__heading">
@@ -156,7 +157,7 @@ $contact_url = jw_business_page_url('contact-1');
                         <strong>첫 행동까지 걸린 시간</strong>
                         <div><b>2분 18초</b><span>지난주보다 24초 단축</span></div>
                     </div>
-                    <div class="jwh2-product__chart" aria-label="최근 7일 개선 추세를 나타낸 예시 차트">
+                    <div class="jwh2-product__chart" role="img" aria-label="최근 7일 개선 추세를 나타낸 예시 차트">
                         <span style="--value: 38%"></span><span style="--value: 51%"></span><span style="--value: 46%"></span><span style="--value: 64%"></span><span style="--value: 58%"></span><span style="--value: 76%"></span><span style="--value: 84%"></span>
                     </div>
                     <div class="jwh2-product__flow">
@@ -181,6 +182,7 @@ $contact_url = jw_business_page_url('contact-1');
         </div>
     </section>
 
+<section class="jwh2-delivery"><div class="jwh2-shell"><div class="jwh2-evidence__heading"><h2>담당자가 이어 쓸<br>결과물까지.</h2><p>판단의 근거와 운영 기준을 한 세트로 남깁니다. 문서 제목만이 아닌 자료의 구성을 함께 보여 드립니다.</p></div><div class="jwh2-delivery-board" data-jwh2-delivery-board><article><i data-lucide="compass" aria-hidden="true"></i><h3>의사결정 지도</h3><div class="jwh2-mini-matrix" aria-hidden="true"><span>먼저 검증</span><span>준비 후 실행</span><span>빠른 정리</span><span>범위 재검토</span></div><p>효과와 부담을 비교하는 기준</p></article><article><i data-lucide="monitor" aria-hidden="true"></i><h3>서비스 시안</h3><div class="jwh2-mini-screen" aria-hidden="true"><b>서비스 찾기</b><span>현재 상황 → 서비스 범위</span><span>사례 확인 → 상담 준비</span></div><p>검토 가능한 화면과 정보 구조</p></article><article><i data-lucide="shield-check" aria-hidden="true"></i><h3>운영 점검표</h3><ul><li>담당자와 수정 범위</li><li>콘텐츠의 작성 기준</li><li>공개 전 확인 항목</li></ul><p>다음 작업에도 남는 실행 기준</p></article></div></div></section>
     <section class="jwh2-method" aria-labelledby="jwh2-method-title">
         <div class="jwh2-shell">
             <div class="jwh2-method__head">

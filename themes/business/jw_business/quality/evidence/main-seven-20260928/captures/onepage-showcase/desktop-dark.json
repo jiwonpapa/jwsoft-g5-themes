@@ -1,0 +1,71 @@
+{
+  "result": "collected-not-approved",
+  "page": "onepage-showcase",
+  "state": "desktop-dark",
+  "url": "https://g5themes.test/pages/onepage-showcase.php?device=pc",
+  "capturedAt": "2026-09-28T02:26:30.673Z",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "fullPage": true,
+  "file": "/Users/neojins/workspace/jwsoft-g5-themes/output/qa/ui/captures/onepage-showcase/desktop-dark.png",
+  "sha256": "e7fd30d3f95640ea8cfcdc56c693edaf23f53a9842921d16cf8cf10961a4d9c0",
+  "inputDigest": "47292a2d84ea5e6025a9826481a547ad17cdb1098e5be3ccd5826b69a890e8ef",
+  "platform": "darwin",
+  "browser": "153.0.8010.12",
+  "errors": [],
+  "mode": "jw-dark",
+  "documentHeight": 5856,
+  "overflow": 0,
+  "brokenImages": [],
+  "missingIcons": 0,
+  "reversedText": [],
+  "requirements": [
+    {
+      "id": "page-heading",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "detail-tabs",
+      "count": 3,
+      "visible": true
+    },
+    {
+      "id": "install-diagram",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "product-detail-scene",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "feature-icons",
+      "count": 4,
+      "visible": true
+    },
+    {
+      "id": "product-section-range",
+      "count": 8,
+      "visible": true
+    }
+  ],
+  "media": [
+    "https://g5themes.test/theme/jw_business/assets/brand/jw-business-light.webp",
+    "https://g5themes.test/theme/jw_business/assets/brand/jw-business-dark.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/aura-hero.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/aura-detail.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/aura-living.webp"
+  ],
+  "regions": {
+    ".jw-footer": {
+      "left": 0,
+      "top": 5611,
+      "width": 1440,
+      "height": 244
+    }
+  }
+}

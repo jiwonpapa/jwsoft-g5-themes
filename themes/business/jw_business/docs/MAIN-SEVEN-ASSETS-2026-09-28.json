@@ -1,0 +1,52 @@
+{
+  "date": "2026-09-28",
+  "producer": "Built-in image_gen",
+  "scope": "Fictional theme demonstration imagery; no real product or client claims",
+  "assets": [
+    {
+      "generated": "/Users/neojins/.codex/generated_images/01a0c7c7-0abf-7860-bbe4-8f518f750848/exec-9b52e0bf-23d8-4f29-82b4-d410e6ca98ab.png",
+      "output": "onepages/assets/images/aura-hero.webp",
+      "owner": "onepage-showcase",
+      "brief": "Premium original walnut tabletop speaker, charcoal woven acoustic front, champagne aluminium top and single knurled volume dial; three-quarter studio photo on pale limestone, speaker right, daylight. No logos.",
+      "prompt": "Create one photorealistic premium industrial design campaign photograph for a Korean commercial website theme, landscape 1536x1024. Fictional unbranded high-end tabletop wireless speaker: a rounded rectangular monolith, 32 cm wide, 22 cm high, 13 cm deep; warm natural walnut curved side cheeks, a single perfectly taut dark charcoal woven acoustic fabric front, understated brushed champagne aluminium top plate with ONE small knurled circular volume dial at its top right. Sophisticated original design, no resemblance to a specific branded product, no logos or letters, no ports on the front. Three-quarter front angle so the crafted walnut side and aluminium top are visible. Speaker sits on a pale limestone plinth on the RIGHT half of the image. LEFT third is clean natural pale stone negative space for separately coded text, no text in image. Soft daylight from left, precise luxury catalogue photography, real textile weave, subtle machining, rich wood grain, beautiful contact shadow, calm warm neutral studio, refined composition, no generic plastic gadget, no extra speaker, no diagrams. This photograph will be the principal product identity for additional matching lifestyle and macro shots.",
+      "mode": "generate",
+      "reference": null
+    },
+    {
+      "generated": "/Users/neojins/.codex/generated_images/01a0c7c7-0abf-7860-bbe4-8f518f750848/exec-e51112fd-dfca-49f0-ab0a-1be6eedb5975.png",
+      "output": "onepages/assets/images/aura-detail.webp",
+      "owner": "onepage-showcase",
+      "brief": "Matching reference speaker, extreme macro at junction of knurled metal dial, brushed champagne aluminium, walnut and charcoal acoustic textile. Luxury materials photography.",
+      "prompt": "Create a NEW matching photograph of EXACTLY the same original speaker in the reference, preserving walnut rounded sides, charcoal woven front, champagne brushed metal top and single knurled round volume dial at right. Landscape 1536x1024. Extreme macro detail editorial composition focused on top right corner where the knurled champagne volume dial, fine brushed top plate, dark charcoal woven fabric, and curved walnut edge meet. The entire image is filled with these real material details, rich texture and precise engineering. Low side light emphasizes craftsmanship, shallow depth of field but all four material junctions discernible. Premium luxury audio campaign, exquisitely believable photographic detail. No branding, no text, no unrelated objects.",
+      "mode": "reference edit",
+      "reference": "/Users/neojins/.codex/generated_images/01a0c7c7-0abf-7860-bbe4-8f518f750848/exec-9b52e0bf-23d8-4f29-82b4-d410e6ca98ab.png"
+    },
+    {
+      "generated": "/Users/neojins/.codex/generated_images/01a0c7c7-0abf-7860-bbe4-8f518f750848/exec-07d94e8f-c6c3-413a-8943-960ded12ef8e.png",
+      "output": "onepages/assets/images/aura-living.webp",
+      "owner": "onepage-showcase",
+      "brief": "Matching reference speaker on walnut sideboard in a lived-in listening room, olive lounge chair, abstract blue artwork, records, evening lamp and cool dusk.",
+      "prompt": "Create a NEW matching premium lifestyle photograph of EXACTLY the same original speaker in the reference, preserving walnut rounded sides, charcoal woven front, champagne brushed metal top and single knurled volume dial at top right. Landscape 1536x1024. This is an original fictional tabletop wireless speaker 32 cm wide, not a full-size floor speaker. Place it on a low walnut sideboard occupying lower center of frame in a sophisticated lived-in listening room. Contemporary deep olive upholstered lounge chair to left, large abstract blue art print leaning against off-white wall on right, a couple of vinyl records and an open book, early evening warm light from an understated lamp, cool dusk outside frame. Speaker is clearly visible, front facing at slight angle. Thoughtfully composed luxury interiors editorial photograph with convincing scale, not a bare architecture render. No visible people, no logos, no text.",
+      "mode": "reference edit",
+      "reference": "/Users/neojins/.codex/generated_images/01a0c7c7-0abf-7860-bbe4-8f518f750848/exec-9b52e0bf-23d8-4f29-82b4-d410e6ca98ab.png"
+    },
+    {
+      "generated": "/Users/neojins/.codex/generated_images/01a0c7c7-0abf-7860-bbe4-8f518f750848/exec-a504e6a3-d8d8-4e51-89a8-d1e06dbd9d73.png",
+      "output": "onepages/assets/images/service-journey-workshop.webp",
+      "owner": "onepage-services",
+      "brief": "Three East Asian design strategists standing at a large wall of cobalt and teal customer journey cards, gesturing at diagram, natural studio light, no meeting table.",
+      "prompt": "One landscape 1536x1024 editorial photograph for a premium Korean business consulting website, no written text or brand logos. Three East Asian design strategists of different genders in a bright modern creative studio, standing at a large wall covered with carefully arranged vivid cobalt blue and teal customer journey cards, a project lead gesturing at a diagram on the wall, another person listening and holding a tablet. Candid mid-discussion composition from a side angle, not a posed business stock photo, not a meeting table, no architectural exterior. A meaningful wall of sketches/cards fills the left half; people occupy right half; confident professional atmosphere, natural window light, contemporary blue/white palette, realistic hands and faces. Medium wide shot, editorial quality, subtle depth, beautiful honest working scene.",
+      "mode": "generate",
+      "reference": null
+    },
+    {
+      "generated": "/Users/neojins/.codex/generated_images/01a0c7c7-0abf-7860-bbe4-8f518f750848/exec-44d31e22-2c07-4315-a83b-67e5427bbb08.png",
+      "output": "src/assets/home-three/exhibition.webp",
+      "owner": "home-3",
+      "brief": "Museum graphic exhibition installation, three translucent cobalt acrylic panels with white geometric circles, vivid blue shadows and terracotta sculpture, tiny visitor at right, no typography.",
+      "prompt": "Create a premium cultural design portfolio photograph, landscape 1536x1024, one continuous photographic scene, no collage. A contemporary museum exhibition installation: three large freestanding translucent cobalt blue acrylic panels, each with a precise simple white geometric circle or angular shape, installed at varying depths in a white gallery. Strong midday sunlight draws crisp blue shadows on the white floor, a very small visitor silhouette gives scale at far right. Subject is the graphic exhibition artwork, not architectural building. Restrained composition with confident saturated blue and one muted terracotta circular sculpture, refined material detail, believable professional exhibition photography, ample clean image space, no typography, no logo, no pseudo-language. It should feel like a high quality designed outcome that an agency portfolio proudly shows.",
+      "mode": "generate",
+      "reference": null
+    }
+  ]
+}

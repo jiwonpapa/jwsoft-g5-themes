@@ -1,0 +1,90 @@
+{
+  "result": "collected-not-approved",
+  "page": "home-1",
+  "state": "mobile-dark",
+  "url": "https://g5themes.test/theme/jw_business/index_1.php?device=mobile",
+  "capturedAt": "2026-09-28T02:26:52.630Z",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "fullPage": true,
+  "file": "/Users/neojins/workspace/jwsoft-g5-themes/output/qa/ui/captures/home-1/mobile-dark.png",
+  "sha256": "fc27d3c9ba5442ec3a93ae0f2aaf88520278399992c98379265a43b8aecf8ff6",
+  "inputDigest": "47292a2d84ea5e6025a9826481a547ad17cdb1098e5be3ccd5826b69a890e8ef",
+  "platform": "darwin",
+  "browser": "153.0.8010.12",
+  "errors": [],
+  "mode": "jw-dark",
+  "documentHeight": 12004,
+  "overflow": 0,
+  "brokenImages": [],
+  "missingIcons": 0,
+  "reversedText": [],
+  "requirements": [
+    {
+      "id": "page-heading",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "hero-slider",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "service-icons",
+      "count": 3,
+      "visible": true
+    },
+    {
+      "id": "section-range",
+      "count": 12,
+      "visible": true
+    },
+    {
+      "id": "industry-mosaic",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "process-rail",
+      "count": 4,
+      "visible": true
+    },
+    {
+      "id": "case-composition",
+      "count": 3,
+      "visible": true
+    },
+    {
+      "id": "brand-board",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "question-blocks",
+      "count": 4,
+      "visible": true
+    }
+  ],
+  "media": [
+    "https://g5themes.test/theme/jw_business/assets/brand/jw-business-light.webp",
+    "https://g5themes.test/theme/jw_business/assets/brand/jw-business-dark.webp",
+    "https://g5themes.test/theme/jw_business/assets/main-one/strategy.webp",
+    "https://g5themes.test/theme/jw_business/assets/main-one/digital.webp",
+    "https://g5themes.test/theme/jw_business/assets/main-one/brand.webp",
+    "https://g5themes.test/theme/jw_business/assets/main-one/industry-ceramics.webp",
+    "https://g5themes.test/theme/jw_business/assets/main-one/case-food.webp",
+    "https://g5themes.test/theme/jw_business/assets/main-one/case-learning.webp",
+    "https://g5themes.test/theme/jw_business/assets/main-one/brand-detail.webp"
+  ],
+  "regions": {
+    ".jw-footer": {
+      "left": 0,
+      "top": 11522,
+      "width": 390,
+      "height": 482
+    }
+  }
+}

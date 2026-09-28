@@ -1,0 +1,75 @@
+{
+  "result": "collected-not-approved",
+  "page": "onepage-services",
+  "state": "desktop-light",
+  "url": "https://g5themes.test/pages/onepage-services.php?device=pc",
+  "capturedAt": "2026-09-28T02:26:15.681Z",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "fullPage": true,
+  "file": "/Users/neojins/workspace/jwsoft-g5-themes/output/qa/ui/captures/onepage-services/desktop-light.png",
+  "sha256": "65274be29e97c6394dfa9dce6a9896c21a840fd78c0783e5957ba36e79775925",
+  "inputDigest": "47292a2d84ea5e6025a9826481a547ad17cdb1098e5be3ccd5826b69a890e8ef",
+  "platform": "darwin",
+  "browser": "153.0.8010.12",
+  "errors": [],
+  "mode": "jw-light",
+  "documentHeight": 7361,
+  "overflow": 0,
+  "brokenImages": [],
+  "missingIcons": 0,
+  "reversedText": [],
+  "requirements": [
+    {
+      "id": "page-heading",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "service-board",
+      "count": 3,
+      "visible": true
+    },
+    {
+      "id": "customer-journey",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "delivery-sample",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "large-service-icons",
+      "count": 3,
+      "visible": true
+    },
+    {
+      "id": "delivery-files",
+      "count": 3,
+      "visible": true
+    },
+    {
+      "id": "service-section-range",
+      "count": 9,
+      "visible": true
+    }
+  ],
+  "media": [
+    "https://g5themes.test/theme/jw_business/assets/brand/jw-business-light.webp",
+    "https://g5themes.test/theme/jw_business/assets/brand/jw-business-dark.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/service-journey-workshop.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/service-workshop.webp"
+  ],
+  "regions": {
+    ".jw-footer": {
+      "left": 0,
+      "top": 7116,
+      "width": 1440,
+      "height": 244
+    }
+  }
+}

@@ -1487,3 +1487,9 @@
     transform:none;
   }
 }
+
+/* Readable handoff labels preserve the process layout. */
+.h4-cover figcaption>span,.h4-preview-caption,.h4-brand-photo figcaption,.h4-workshop figcaption{font-size:13px;line-height:1.65}
+.h4-cover figcaption{gap:12px}
+.h4-stage-label{font-size:13px}
+.h4-workshop figcaption{padding-block:14px}

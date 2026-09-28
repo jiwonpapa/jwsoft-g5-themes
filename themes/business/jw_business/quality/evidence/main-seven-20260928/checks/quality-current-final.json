@@ -1,0 +1,364 @@
+{
+  "result": "fail",
+  "scope": "current",
+  "inputDigest": "47292a2d84ea5e6025a9826481a547ad17cdb1098e5be3ccd5826b69a890e8ef",
+  "pages": 23,
+  "failures": [
+    {
+      "code": "DESIGN_NOT_READY",
+      "target": "company-overview-1",
+      "message": "첫 화면·구성·이미지 계획이 확정되지 않았습니다. 수량 확보를 위한 구현을 진행할 수 없습니다."
+    },
+    {
+      "code": "DESIGN_NOT_READY",
+      "target": "company-overview-2",
+      "message": "첫 화면·구성·이미지 계획이 확정되지 않았습니다. 수량 확보를 위한 구현을 진행할 수 없습니다."
+    },
+    {
+      "code": "DESIGN_NOT_READY",
+      "target": "company-overview-3",
+      "message": "첫 화면·구성·이미지 계획이 확정되지 않았습니다. 수량 확보를 위한 구현을 진행할 수 없습니다."
+    },
+    {
+      "code": "DESIGN_NOT_READY",
+      "target": "company-overview-4",
+      "message": "첫 화면·구성·이미지 계획이 확정되지 않았습니다. 수량 확보를 위한 구현을 진행할 수 없습니다."
+    },
+    {
+      "code": "DESIGN_NOT_READY",
+      "target": "company-overview-5",
+      "message": "첫 화면·구성·이미지 계획이 확정되지 않았습니다. 수량 확보를 위한 구현을 진행할 수 없습니다."
+    },
+    {
+      "code": "DESIGN_NOT_READY",
+      "target": "business-list-1",
+      "message": "첫 화면·구성·이미지 계획이 확정되지 않았습니다. 수량 확보를 위한 구현을 진행할 수 없습니다."
+    },
+    {
+      "code": "DESIGN_NOT_READY",
+      "target": "business-list-2",
+      "message": "첫 화면·구성·이미지 계획이 확정되지 않았습니다. 수량 확보를 위한 구현을 진행할 수 없습니다."
+    },
+    {
+      "code": "DESIGN_NOT_READY",
+      "target": "business-list-3",
+      "message": "첫 화면·구성·이미지 계획이 확정되지 않았습니다. 수량 확보를 위한 구현을 진행할 수 없습니다."
+    },
+    {
+      "code": "DESIGN_NOT_READY",
+      "target": "business-list-4",
+      "message": "첫 화면·구성·이미지 계획이 확정되지 않았습니다. 수량 확보를 위한 구현을 진행할 수 없습니다."
+    },
+    {
+      "code": "DESIGN_NOT_READY",
+      "target": "business-list-5",
+      "message": "첫 화면·구성·이미지 계획이 확정되지 않았습니다. 수량 확보를 위한 구현을 진행할 수 없습니다."
+    },
+    {
+      "code": "DESIGN_NOT_READY",
+      "target": "business-detail-1",
+      "message": "첫 화면·구성·이미지 계획이 확정되지 않았습니다. 수량 확보를 위한 구현을 진행할 수 없습니다."
+    },
+    {
+      "code": "DESIGN_NOT_READY",
+      "target": "business-detail-2",
+      "message": "첫 화면·구성·이미지 계획이 확정되지 않았습니다. 수량 확보를 위한 구현을 진행할 수 없습니다."
+    },
+    {
+      "code": "REQUIRED_CONTENT",
+      "target": "business-detail-2",
+      "message": "purpose-content: 디지털 사업을 설명하는 실제 화면 설계 또는 디지털 결과물 시각 자료 ([data-jw-digital-artifact])"
+    },
+    {
+      "code": "DESIGN_NOT_READY",
+      "target": "business-detail-3",
+      "message": "첫 화면·구성·이미지 계획이 확정되지 않았습니다. 수량 확보를 위한 구현을 진행할 수 없습니다."
+    },
+    {
+      "code": "DESIGN_NOT_READY",
+      "target": "business-detail-4",
+      "message": "첫 화면·구성·이미지 계획이 확정되지 않았습니다. 수량 확보를 위한 구현을 진행할 수 없습니다."
+    },
+    {
+      "code": "REQUIRED_CONTENT",
+      "target": "business-detail-4",
+      "message": "purpose-content: 디지털 사례의 변화 전후를 보여 주는 실제 화면 결과물 ([data-jw-digital-artifact])"
+    },
+    {
+      "code": "DESIGN_NOT_READY",
+      "target": "business-detail-5",
+      "message": "첫 화면·구성·이미지 계획이 확정되지 않았습니다. 수량 확보를 위한 구현을 진행할 수 없습니다."
+    },
+    {
+      "code": "DESIGN_NOT_READY",
+      "target": "contact-1",
+      "message": "첫 화면·구성·이미지 계획이 확정되지 않았습니다. 수량 확보를 위한 구현을 진행할 수 없습니다."
+    },
+    {
+      "code": "REVIEW_MISSING_OR_INVALID",
+      "target": "company-overview",
+      "message": "Error: ENOENT: no such file or directory, lstat '/Users/neojins/workspace/jwsoft-g5-themes/themes/business/jw_business/quality/reviews/company-overview.json'"
+    },
+    {
+      "code": "REPEATED_OPENING",
+      "target": "business-list-1 / business-list-2 / business-list-3 / business-list-4 / business-list-5",
+      "message": "같은 목적의 변형 3개 이상이 동일한 도입 구조를 사용합니다. 첫 화면에서 선택 이유가 드러나도록 재설계해야 합니다."
+    },
+    {
+      "code": "REVIEW_MISSING_OR_INVALID",
+      "target": "business-list",
+      "message": "Error: ENOENT: no such file or directory, lstat '/Users/neojins/workspace/jwsoft-g5-themes/themes/business/jw_business/quality/reviews/business-list.json'"
+    },
+    {
+      "code": "REVIEW_MISSING_OR_INVALID",
+      "target": "business-detail",
+      "message": "Error: ENOENT: no such file or directory, lstat '/Users/neojins/workspace/jwsoft-g5-themes/themes/business/jw_business/quality/reviews/business-detail.json'"
+    },
+    {
+      "code": "REVIEW_MISSING_OR_INVALID",
+      "target": "contact",
+      "message": "Error: ENOENT: no such file or directory, lstat '/Users/neojins/workspace/jwsoft-g5-themes/themes/business/jw_business/quality/reviews/contact.json'"
+    },
+    {
+      "code": "PHOTO_REUSE",
+      "target": "src/assets/images/home-hero.webp",
+      "message": "페이지 간 사진 재사용: company-overview-1, company-overview-2, company-overview-3, business-list-1, business-list-2, business-list-3"
+    },
+    {
+      "code": "PHOTO_OWNER",
+      "target": "src/assets/images/home-hero.webp",
+      "message": "허용 페이지는 home-1입니다. 실제: company-overview-1, company-overview-2, company-overview-3, business-list-1, business-list-2, business-list-3"
+    },
+    {
+      "code": "PHOTO_REUSE",
+      "target": "src/assets/images/home-collaboration.webp",
+      "message": "페이지 간 사진 재사용: company-overview-1, company-overview-2, company-overview-3, company-overview-4, company-overview-5, business-list-1, business-list-2, business-list-4, business-list-5, business-detail-1, business-detail-2"
+    },
+    {
+      "code": "PHOTO_OWNER",
+      "target": "src/assets/images/home-collaboration.webp",
+      "message": "허용 페이지는 home-1입니다. 실제: company-overview-1, company-overview-2, company-overview-3, company-overview-4, company-overview-5, business-list-1, business-list-2, business-list-4, business-list-5, business-detail-1, business-detail-2"
+    },
+    {
+      "code": "PHOTO_REUSE",
+      "target": "src/assets/images/home-project.webp",
+      "message": "페이지 간 사진 재사용: company-overview-2, company-overview-3, company-overview-4, business-list-1, business-list-2, business-list-5, business-detail-2, business-detail-3, business-detail-4"
+    },
+    {
+      "code": "PHOTO_OWNER",
+      "target": "src/assets/images/home-project.webp",
+      "message": "허용 페이지는 home-1입니다. 실제: company-overview-2, company-overview-3, company-overview-4, business-list-1, business-list-2, business-list-5, business-detail-2, business-detail-3, business-detail-4"
+    }
+  ],
+  "photoUsage": [
+    {
+      "path": "src/assets/main-one/strategy.webp",
+      "pages": [
+        "home-1"
+      ]
+    },
+    {
+      "path": "src/assets/main-one/digital.webp",
+      "pages": [
+        "home-1"
+      ]
+    },
+    {
+      "path": "src/assets/main-one/brand.webp",
+      "pages": [
+        "home-1"
+      ]
+    },
+    {
+      "path": "src/assets/main-one/industry-ceramics.webp",
+      "pages": [
+        "home-1"
+      ]
+    },
+    {
+      "path": "src/assets/main-one/case-food.webp",
+      "pages": [
+        "home-1"
+      ]
+    },
+    {
+      "path": "src/assets/main-one/case-learning.webp",
+      "pages": [
+        "home-1"
+      ]
+    },
+    {
+      "path": "src/assets/main-one/brand-detail.webp",
+      "pages": [
+        "home-1"
+      ]
+    },
+    {
+      "path": "src/assets/images/home2-decision.webp",
+      "pages": [
+        "home-2"
+      ]
+    },
+    {
+      "path": "src/assets/images/home2-digital.webp",
+      "pages": [
+        "home-2"
+      ]
+    },
+    {
+      "path": "src/assets/images/home2-operations.webp",
+      "pages": [
+        "home-2"
+      ]
+    },
+    {
+      "path": "src/assets/home-three/mobility.webp",
+      "pages": [
+        "home-3"
+      ]
+    },
+    {
+      "path": "src/assets/home-three/print.webp",
+      "pages": [
+        "home-3"
+      ]
+    },
+    {
+      "path": "src/assets/home-three/exhibition.webp",
+      "pages": [
+        "home-3"
+      ]
+    },
+    {
+      "path": "src/assets/home-four/hero.webp",
+      "pages": [
+        "home-4"
+      ]
+    },
+    {
+      "path": "src/assets/home-four/discovery.webp",
+      "pages": [
+        "home-4"
+      ]
+    },
+    {
+      "path": "src/assets/home-four/digital.webp",
+      "pages": [
+        "home-4"
+      ]
+    },
+    {
+      "path": "src/assets/home-four/handoff.webp",
+      "pages": [
+        "home-4"
+      ]
+    },
+    {
+      "path": "onepages/assets/images/aura-hero.webp",
+      "pages": [
+        "onepage-showcase"
+      ]
+    },
+    {
+      "path": "onepages/assets/images/aura-detail.webp",
+      "pages": [
+        "onepage-showcase"
+      ]
+    },
+    {
+      "path": "onepages/assets/images/aura-living.webp",
+      "pages": [
+        "onepage-showcase"
+      ]
+    },
+    {
+      "path": "onepages/assets/images/service-journey-workshop.webp",
+      "pages": [
+        "onepage-services"
+      ]
+    },
+    {
+      "path": "onepages/assets/images/service-workshop.webp",
+      "pages": [
+        "onepage-services"
+      ]
+    },
+    {
+      "path": "onepages/assets/images/courtyard.webp",
+      "pages": [
+        "onepage-projects"
+      ]
+    },
+    {
+      "path": "onepages/assets/images/courtyard-interior.webp",
+      "pages": [
+        "onepage-projects"
+      ]
+    },
+    {
+      "path": "onepages/assets/images/courtyard-detail.webp",
+      "pages": [
+        "onepage-projects"
+      ]
+    },
+    {
+      "path": "onepages/assets/images/courtyard-colonnade.webp",
+      "pages": [
+        "onepage-projects"
+      ]
+    },
+    {
+      "path": "onepages/assets/images/courtyard-lounge.webp",
+      "pages": [
+        "onepage-projects"
+      ]
+    },
+    {
+      "path": "onepages/assets/images/courtyard-terrace.webp",
+      "pages": [
+        "onepage-projects"
+      ]
+    },
+    {
+      "path": "src/assets/images/home-hero.webp",
+      "pages": [
+        "business-list-1",
+        "business-list-2",
+        "business-list-3",
+        "company-overview-1",
+        "company-overview-2",
+        "company-overview-3"
+      ]
+    },
+    {
+      "path": "src/assets/images/home-collaboration.webp",
+      "pages": [
+        "business-detail-1",
+        "business-detail-2",
+        "business-list-1",
+        "business-list-2",
+        "business-list-4",
+        "business-list-5",
+        "company-overview-1",
+        "company-overview-2",
+        "company-overview-3",
+        "company-overview-4",
+        "company-overview-5"
+      ]
+    },
+    {
+      "path": "src/assets/images/home-project.webp",
+      "pages": [
+        "business-detail-2",
+        "business-detail-3",
+        "business-detail-4",
+        "business-list-1",
+        "business-list-2",
+        "business-list-5",
+        "company-overview-2",
+        "company-overview-3",
+        "company-overview-4"
+      ]
+    }
+  ]
+}

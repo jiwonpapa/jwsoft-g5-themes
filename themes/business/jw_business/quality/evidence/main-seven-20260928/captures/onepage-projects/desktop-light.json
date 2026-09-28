@@ -1,0 +1,69 @@
+{
+  "result": "collected-not-approved",
+  "page": "onepage-projects",
+  "state": "desktop-light",
+  "url": "https://g5themes.test/pages/onepage-projects.php?device=pc",
+  "capturedAt": "2026-09-28T02:26:17.982Z",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "fullPage": true,
+  "file": "/Users/neojins/workspace/jwsoft-g5-themes/output/qa/ui/captures/onepage-projects/desktop-light.png",
+  "sha256": "c5785a4da2c4fe6d14329c91a09eb9518bc62a5bf3fee9dd24e4f5f047fb2a22",
+  "inputDigest": "47292a2d84ea5e6025a9826481a547ad17cdb1098e5be3ccd5826b69a890e8ef",
+  "platform": "darwin",
+  "browser": "153.0.8010.12",
+  "errors": [],
+  "mode": "jw-light",
+  "documentHeight": 6356,
+  "overflow": 0,
+  "brokenImages": [],
+  "missingIcons": 0,
+  "reversedText": [],
+  "requirements": [
+    {
+      "id": "page-heading",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "project-scenes",
+      "count": 6,
+      "visible": true
+    },
+    {
+      "id": "project-gallery",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "project-flow",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "spatial-floorplan",
+      "count": 1,
+      "visible": true
+    }
+  ],
+  "media": [
+    "https://g5themes.test/theme/jw_business/assets/brand/jw-business-light.webp",
+    "https://g5themes.test/theme/jw_business/assets/brand/jw-business-dark.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard-interior.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard-detail.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard-colonnade.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard-lounge.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard-terrace.webp"
+  ],
+  "regions": {
+    ".jw-footer": {
+      "left": 0,
+      "top": 6112,
+      "width": 1440,
+      "height": 244
+    }
+  }
+}

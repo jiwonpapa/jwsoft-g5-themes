@@ -98,7 +98,22 @@ $jw_news_board = isset($jw_home['news_board']) ? preg_replace('/[^a-zA-Z0-9_]/',
           <text x="94" y="220" text-anchor="middle">질문</text><text x="294" y="125" text-anchor="middle">가설</text><text x="516" y="220" text-anchor="middle">선택</text><text x="675" y="220" text-anchor="middle">실행</text>
           <text class="map-side" x="58" y="287">고객의 문제</text><text class="map-side" x="245" y="62">검증할 방향</text><text class="map-side" x="469" y="285">우선할 경험</text><text class="map-side" x="634" y="285">첫 번째 개선</text><text class="map-side" x="332" y="380">보류할 선택</text>
         </svg>
-        <ol class="map__mobile" aria-label="전략 결정 지도 순서"><li><span>01</span><div><strong>질문</strong><small>고객이 겪는 문제를 적습니다.</small></div></li><li><span>02</span><div><strong>가설</strong><small>검증할 방향을 고릅니다.</small></div></li><li><span>03</span><div><strong>선택</strong><small>우선할 경험을 결정합니다.</small></div></li><li><span>04</span><div><strong>실행</strong><small>첫 개선을 작게 시작합니다.</small></div></li></ol>
+        <svg class="map__mobile" viewBox="0 0 320 430" role="img" aria-label="고객 문제에서 가설을 세운 뒤, 검증된 선택은 실행하고 근거가 부족한 선택은 보류하는 결정 지도">
+          <path class="map-line" d="M160 79V119M160 185V212H80V253M160 212H245V253M80 317V358"/>
+          <path class="map-line dim" d="M301 285H312V152H225"/>
+          <path d="M153 110l7 9 7-9M73 244l7 10 7-10M238 244l7 10 7-10M73 349l7 9 7-9M234 145l-9 7 9 7" fill="none" stroke="currentColor" stroke-width="3"/>
+          <rect x="97" y="15" width="126" height="64" rx="32" fill="var(--color-primary)"/>
+          <text class="map__mobile-on-primary" x="160" y="53" text-anchor="middle">고객의 문제</text>
+          <rect x="97" y="120" width="126" height="64" rx="8" fill="var(--color-base-200)" stroke="currentColor"/>
+          <text x="160" y="158" text-anchor="middle">검증할 가설</text>
+          <rect x="17" y="254" width="126" height="64" rx="8" fill="var(--color-base-200)" stroke="currentColor"/>
+          <text x="80" y="292" text-anchor="middle">우선할 선택</text>
+          <rect x="190" y="254" width="111" height="64" rx="8" fill="var(--color-base-100)" stroke="currentColor" stroke-dasharray="5 4"/>
+          <text x="245" y="292" text-anchor="middle">보류할 선택</text>
+          <rect x="17" y="359" width="126" height="58" rx="29" fill="var(--color-primary)"/>
+          <text class="map__mobile-on-primary" x="80" y="394" text-anchor="middle">첫 개선 실행</text>
+          <text class="map__mobile-label" x="247" y="355" text-anchor="middle">추가 근거 수집</text>
+        </svg>
         <div class="map__bottom"><span>진단 → 가설 → 선택 → 실행</span><span>가상 사업 사례를 위한 화면 예시</span></div>
       </div>
     </section>
@@ -117,15 +132,15 @@ $jw_news_board = isset($jw_home['news_board']) ? preg_replace('/[^a-zA-Z0-9_]/',
     <section class="digital" id="digital">
       <div class="digital__head"><h2>설명보다 빠른 건,<br>직접 보이는 화면입니다.</h2><p>필요한 정보를 어떤 순서로 보여줄지, PC와 모바일에서 어떻게 읽힐지를 설계합니다. 아래는 가상 기업 웹페이지의 디자인 시안입니다.</p></div>
       <div class="digital__stage">
-        <div class="web-preview" aria-label="가상 기업 웹페이지의 PC와 모바일 디자인 시안">
+        <div class="web-preview" role="img" aria-label="가상 기업 웹페이지의 PC와 모바일 디자인 시안">
           <div class="web-preview__desktop">
             <div class="web-preview__top"><strong>ATELIER N<span>.</span></strong><span>소개&nbsp;&nbsp;&nbsp;분야&nbsp;&nbsp;&nbsp;이야기</span><small>DESIGN CONCEPT</small></div>
-            <div class="web-preview__cover"><span>COMPANY / 01</span><h3>생각을 모아<br>방향을 만듭니다.</h3><p>우리가 하는 일과 그 이유를<br>한눈에 읽을 수 있도록.</p><div class="web-preview__orbit" aria-hidden="true"><i></i><i></i><i></i></div></div>
+            <div class="web-preview__cover"><span>COMPANY / 01</span><h3>생각을 모아<br>방향을 만듭니다.</h3><p>우리가 하는 일과 그 이유를<br>한눈에 읽을 수 있도록.</p><div class="web-preview__artifact" aria-hidden="true"><svg viewBox="0 0 300 250"><path d="M45 60H150V190H250M150 120h100" fill="none" stroke="currentColor" stroke-width="3"/><rect x="12" y="30" width="74" height="60" rx="8" fill="var(--color-base-100)" stroke="currentColor" stroke-width="2"/><rect x="205" y="92" width="83" height="58" rx="8" fill="var(--color-base-100)" stroke="currentColor" stroke-width="2"/><rect x="205" y="163" width="83" height="58" rx="8" fill="var(--color-base-100)" stroke="currentColor" stroke-width="2"/><circle cx="150" cy="60" r="18" fill="var(--color-primary)"/><text x="49" y="66" text-anchor="middle" fill="currentColor" font-size="16">발견</text><text x="246" y="127" text-anchor="middle" fill="currentColor" font-size="16">경험</text><text x="246" y="198" text-anchor="middle" fill="currentColor" font-size="16">연결</text></svg></div></div>
             <div class="web-preview__index"><span>01 &nbsp; 기업 소개</span><span>02 &nbsp; 전문 분야</span><span>03 &nbsp; 우리의 이야기</span></div>
           </div>
           <div class="web-preview__mobile" aria-hidden="true"><div class="web-preview__mobile-top"><strong>ATELIER N.</strong><span>☰</span></div><span class="web-preview__mobile-kicker">COMPANY / 01</span><strong class="web-preview__mobile-title">생각을 모아<br>방향을 만듭니다.</strong><div class="web-preview__mobile-orbit"></div><span class="web-preview__mobile-bottom">01 &nbsp; 기업 소개 <b>↗</b></span></div>
         </div>
-        <div class="digital__note"><span>CONTENT TO EXPERIENCE</span><div class="digital__arrow">↗</div><h3>같은 내용이,<br>화면에 맞게 읽히도록.</h3><p>사업 소개에서 사례까지 정보의 흐름을 정리한 반응형 웹페이지 예시입니다.</p></div>
+        <div class="digital__note"><div class="digital__arrow">↗</div><h3>같은 내용이,<br>화면에 맞게 읽히도록.</h3><p>사업 소개에서 사례까지 정보의 흐름을 정리한 반응형 웹페이지 예시입니다.</p></div>
       </div>
     </section>
 
@@ -159,7 +174,7 @@ $jw_news_board = isset($jw_home['news_board']) ? preg_replace('/[^a-zA-Z0-9_]/',
       <div class="jwh1-touchpoints__board" aria-label="가상 브랜드의 형태, 글자, 색상 조합">
         <div class="jwh1-touchpoints__poster"><div class="jwh1-touchpoints__mark" aria-hidden="true"><i></i><i></i></div><strong>모양이 먼저<br>기억되도록.</strong><span>FORM / 01</span></div>
         <div class="jwh1-touchpoints__type"><span>TYPE / 02</span><strong>짧은 문장도<br>같은 목소리로.</strong><p>화면에서 읽는 글자와 손에 쥐는 인쇄물의 글자가 하나의 결을 공유합니다.</p></div>
-        <div class="jwh1-touchpoints__colors"><span>COLOR / 03</span><div aria-label="짙은 남색, 구리빛, 밝은 크림 색상 예시"><i></i><i></i><i></i></div><strong>색의 관계까지<br>하나의 체계로.</strong></div>
+        <div class="jwh1-touchpoints__colors"><span>COLOR / 03</span><div role="img" aria-label="테마의 중립색, 강조색, 밝은 대비색으로 구성한 세 가지 색상 예시"><i></i><i></i><i></i></div><strong>색의 관계까지<br>하나의 체계로.</strong></div>
       </div>
     </section>
 

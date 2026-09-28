@@ -16,6 +16,10 @@ bun run ui:capture
 
 `ui:capture`는 수집만 하며 승인하지 않습니다. `ui:check`는 이미지·아이콘·폰트 정착 후 가로 넘침·뒤집힌 제목·필수 요소·JS 오류·axe WCAG A/AA를 검사합니다. Main4의 카드 제목·본문 정렬, FAQ, 다크 전환 후 아이콘 유지도 검사합니다. 모션 정지 캡처는 동작 품질의 승인이 아닙니다.
 
+메인 7종의 필수 동작 증거는 `bun run harness/ui/collect-interactions.ts`로 별도 수집합니다. PC·모바일 크기에서 슬라이더, 재생·정지, 키보드, 카드 hover/focus, 스크롤 및 줄인 동작, 제품 상세 탭, 공간 갤러리 총 40건을 실제 조작합니다. 결과는 테마 `quality/evidence/main-seven-20260928/interactions/`의 전후 PNG와 manifest입니다. `JW_INTERACTION_VIEWPORT=desktop` 또는 `mobile`로 한 크기만 실행할 수 있으며, 이때 최종 manifest도 해당 실행 범위만 포함합니다. 독립 시각 검토와 실물 터치 기기 검증을 대신하지 않습니다.
+
+제품 상세 탭은 세 패널을 직접 클릭한 화면도 별도로 수집합니다. 아이콘은 실제 SVG 크기·표시 여부를 검사하고, 렌더링 자료에는 CSS 배경 사진도 포함합니다.
+
 ## 고정 Linux 환경과 이미지 비교
 
 ```sh
@@ -44,6 +48,8 @@ bun run dev:g5 --page home-4 --gallery
 마지막 명령은 source 변경을 감지합니다. manifest/Vite/의존성 일치 → 구조·typecheck → 토큰·Vite·payload build → payload 검사 → 사무실의 지정 테마 자산과 선택 PHP만 rsync → HTTP 확인 순서입니다. 빌드 실패 시 전송하지 않습니다. `.runtime/dev-g5.lock`으로 중복 실행을 차단하며 변경을 모아 순차 처리합니다. 비정상 종료 후 lock이 남으면 `pid`의 프로세스 종료를 확인한 뒤 해당 lock만 제거합니다. 삭제 동기화와 DB 변경은 하지 않습니다.
 
 개발 반영은 실패를 고치기 위한 미리보기이며 판매 승인 경로가 아닙니다. `styles:check`, `quality:check`, 브라우저 검사를 통과시키지 않고 판매 ZIP을 만들거나 다음 묶음 완료를 선언할 수 없습니다.
+
+`--page all`은 메인 7종 전체를 선택합니다. 원페이지가 선택되면 독립 `pages/onepage-*.php`와 빌드된 `theme/onepages/assets/`도 전송합니다. 이 폴더의 원본 변경도 감지합니다. 다른 메뉴의 PHP, G5 코어와 DB는 전송 대상이 아닙니다. 빌드 payload에서는 폐기한 NODE 렌더 프레임·포스터와 이미지 출처 sidecar JSON을 제외합니다. 삭제 동기화를 하지 않으므로 사무실 서버에 예전 파일이 남을 수 있지만 새 페이지가 참조하지 않습니다.
 
 ## 블록 갤러리
 

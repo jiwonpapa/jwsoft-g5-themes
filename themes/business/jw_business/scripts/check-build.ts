@@ -88,12 +88,12 @@ async function main(): Promise<void> {
   const homeCssPath = join(payloadRoot, "css/home-one.min.css");
   const homeJsPath = join(payloadRoot, "js/home-one.min.js");
   for (const path of ["css/home-four.min.css", "js/home-four.min.js", "assets/home-four/hero.webp", "assets/home-four/discovery.webp", "assets/home-four/digital.webp", "assets/home-four/handoff.webp",
-    "css/onepages.min.css", "js/onepages.min.js", "assets/home-three/mobility.webp", "assets/home-three/print.webp",
+    "css/onepages.min.css", "js/onepages.min.js", "assets/home-three/mobility.webp", "assets/home-three/print.webp", "assets/home-three/exhibition.webp",
     "onepages/assets/images/service-workshop.webp", "onepages/assets/images/courtyard-colonnade.webp",
-    "onepages/assets/sequence/node-001.webp", "onepages/assets/sequence/node-036.webp"]) {
+    "onepages/assets/images/aura-hero.webp", "onepages/assets/images/aura-detail.webp", "onepages/assets/images/aura-living.webp", "onepages/assets/images/service-journey-workshop.webp"]) {
     assert(fileSet.has(path), `seven-page asset missing from installable theme: ${path}`);
   }
-  assert(files.filter((path) => /^onepages\/assets\/sequence\/node-\d{3}\.webp$/.test(path)).length === 36, "the product onepage needs all 36 built frames");
+  assert(!files.some((path) => /^onepages\/assets\/(?:sequence\/node-\d{3}|images\/node-poster)\.webp$/.test(path)), "retired NODE product imagery must not enter the AURA payload");
   const [css, js, homeCss, homeJs] = await Promise.all([
     readFile(cssPath, "utf8"), readFile(jsPath, "utf8"),
     readFile(homeCssPath, "utf8"), readFile(homeJsPath, "utf8"),
@@ -120,7 +120,8 @@ async function main(): Promise<void> {
   const viewportChunk = sharedChunks.find((path) => /^js\/chunks\/viewport-[\w-]+\.js$/.test(path));
   const lucideChunk = sharedChunks.find((path) => /^js\/chunks\/lucide-[\w-]+\.js$/.test(path));
   const scrollChunk = sharedChunks.find((path) => /^js\/chunks\/scroll-[\w-]+\.js$/.test(path));
-  assert(sharedChunks.length === 4 && emblaChunk && viewportChunk && lucideChunk && scrollChunk, `expected shared Embla, Lucide, Motion viewport and scroll chunks, found ${sharedChunks.join(", ")}`);
+  const iconChunks = sharedChunks.filter((path) => /^js\/chunks\/(compass|route|target)-[\w-]+\.js$/.test(path));
+  assert(sharedChunks.length === 4 + iconChunks.length && emblaChunk && viewportChunk && lucideChunk && scrollChunk, `expected shared Embla, Lucide, Motion and deduplicated icon chunks, found ${sharedChunks.join(", ")}`);
   const emblaImport = `./chunks/${emblaChunk.split("/").pop()}`;
   const viewportImport = `./chunks/${viewportChunk.split("/").pop()}`;
   assert(js.includes(emblaImport) && homeJs.includes(emblaImport), "Embla is not shared by both entries");

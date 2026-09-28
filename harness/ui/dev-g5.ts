@@ -12,6 +12,7 @@ export function syncPlan(scope: string) {
     ['theme/css/', 'theme/jw_business/css/'], ['theme/js/', 'theme/jw_business/js/'],
     ['theme/fonts/', 'theme/jw_business/fonts/'], ['theme/img/', 'theme/jw_business/img/'],
     ['theme/assets/', 'theme/jw_business/assets/'],
+    ...(pages.some(page => page.group === 'onepage') ? [['theme/onepages/assets/', 'theme/jw_business/onepages/assets/']] : []),
     ...pages.map(page => page.path.startsWith('src/php/') ? ['theme/' + page.path.slice(8), 'theme/jw_business/'] : [page.path, 'pages/']),
   ];
   if (pages.some(page => page.id === 'home-1')) entries.push(['theme/index.php','theme/jw_business/'],['theme/mobile/index.php','theme/jw_business/mobile/']);
@@ -35,7 +36,7 @@ if (import.meta.main) {
   let stopping = false;
   for (const signal of ['SIGINT','SIGTERM'] as const) process.on(signal, () => { stopping=true; });
   let dirty = true, running = false;
-  const sources = ['src','pages','tokens','vite.config.ts','theme.manifest.json'].map(path => resolve(themeRoot,path));
+  const sources = ['src','pages','onepages/assets','tokens','vite.config.ts','theme.manifest.json'].map(path => resolve(themeRoot,path));
   const watchers = args.includes('--once') ? [] : sources.map(path => watch(path,{recursive:true},() => {dirty=true;}));
   try {
     do {

@@ -216,6 +216,36 @@
       "sha256": "aaaf472078c30de5ad7aef884c7b3ed3565c4a9b989cef95e310ee455d8b9986",
       "origin": "imagegen:98a62823-c1a3-4c1d-8530-fbfa26ae54ea",
       "owner": "home-4"
+    },
+    {
+      "path": "onepages/assets/images/aura-hero.webp",
+      "sha256": "99d731c494a5a661573e5b759462a65af1d3163ae35c419c264d27e32d36b315",
+      "origin": "aura-hero-20260928",
+      "owner": "onepage-showcase"
+    },
+    {
+      "path": "onepages/assets/images/aura-detail.webp",
+      "sha256": "7f5bc7fcdec39f676c903a232d135f24fed71c9578381017d5c2a10121839e5d",
+      "origin": "aura-detail-20260928",
+      "owner": "onepage-showcase"
+    },
+    {
+      "path": "onepages/assets/images/aura-living.webp",
+      "sha256": "5ebf56099f3afc5d413fd09a9483b922f61073f0e2fbf10776026013fbdf9032",
+      "origin": "aura-living-20260928",
+      "owner": "onepage-showcase"
+    },
+    {
+      "path": "onepages/assets/images/service-journey-workshop.webp",
+      "sha256": "325596a90765416b7fc7965080bda5b181a5f3950692bda630f0672753c00826",
+      "origin": "service-journey-workshop-20260928",
+      "owner": "onepage-services"
+    },
+    {
+      "path": "src/assets/home-three/exhibition.webp",
+      "sha256": "ae4046fc766e03dfdbe163d7f33d1b9ad3b1dc4140de900dfe6c96b163d787c3",
+      "origin": "exhibition-20260928",
+      "owner": "home-3"
     }
   ]
 }

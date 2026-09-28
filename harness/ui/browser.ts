@@ -44,13 +44,16 @@ export async function inspectPage(page: Page, plan: Pick<PagePlan, "requirements
       documentHeight: document.documentElement.scrollHeight,
       overflow: Math.max(0, document.documentElement.scrollWidth - innerWidth),
       brokenImages: [...document.images].filter(img => !img.complete || img.naturalWidth === 0).map(img => img.currentSrc || img.src),
-      missingIcons: [...body.querySelectorAll("i[data-lucide],i[data-h4-icon]")].filter(visible).length,
+      missingIcons: [...body.querySelectorAll("i[data-lucide],i[data-h4-icon],i[data-jwo-icon]")].filter(visible).length,
       reversedText,
       requirements: requirements.map(item => {
         const all = [...document.querySelectorAll(item.selector)];
         return { id: item.id, count: all.length, visible: all.filter(visible).length >= item.min };
       }),
-      media: [...new Set([...document.images].map(img => img.currentSrc || img.src))],
+      media: [...new Set([
+        ...[...document.images].map(img => img.currentSrc || img.src),
+        ...[...body.querySelectorAll('*')].flatMap(el => [...getComputedStyle(el).backgroundImage.matchAll(/url\(["']?(https?:[^"')]+)["']?\)/g)].map(match => match[1]!)),
+      ])],
       regions: Object.fromEntries(['.h4-process','.jw-footer'].flatMap(selector => {
         const el=document.querySelector(selector); if (!el) return [];
         const box=el.getBoundingClientRect();

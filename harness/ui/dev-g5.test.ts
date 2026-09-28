@@ -12,3 +12,10 @@ test('Main 4 sync cannot write G5 core, database, menu or other page files', () 
   expect(plan.every(row => row.at(-1)?.startsWith('localubuntu:/home/neojins/services/g5themes-test/site/theme/jw_business/'))).toBe(true);
   expect(() => syncPlan('home-5')).toThrow();
 });
+
+test('onepage scopes sync their own built media without deleting server files', () => {
+  const plan = syncPlan('onepage-showcase');
+  expect(plan.some(row => row.at(-1)?.endsWith('/theme/jw_business/onepages/assets/'))).toBe(true);
+  expect(plan.some(row => row.includes('--delete'))).toBe(false);
+  expect(syncPlan('home-4').some(row => row.at(-1)?.endsWith('/onepages/assets/'))).toBe(false);
+});

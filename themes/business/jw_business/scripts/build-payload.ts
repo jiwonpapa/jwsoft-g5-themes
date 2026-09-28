@@ -100,9 +100,10 @@ async function main(): Promise<void> {
   for (const name of ["hero", "discovery", "digital", "handoff"]) {
     await copyFile(join(themeRoot, "src/assets/home-four", `${name}.webp`), join(payloadRoot, "assets/home-four", `${name}.webp`));
   }
-  await cp(join(themeRoot, "src/assets/home-three"), join(payloadRoot, "assets/home-three"), { recursive: true });
-  await cp(join(themeRoot, "onepages/assets/images"), join(payloadRoot, "onepages/assets/images"), { recursive: true });
-  await cp(join(themeRoot, "onepages/assets/sequence"), join(payloadRoot, "onepages/assets/sequence"), { recursive: true });
+  await cp(join(themeRoot, "src/assets/home-three"), join(payloadRoot, "assets/home-three"), { recursive: true, filter: (source) => !source.endsWith('.json') });
+  for (const source of await walkFiles(join(themeRoot, "onepages/assets/images"))) {
+    if (basename(source) !== "node-poster.webp" && !source.endsWith('.json')) await copyFile(source, join(payloadRoot, "onepages/assets/images", basename(source)));
+  }
 
   const assets = [];
   for (const file of await walkFiles(payloadRoot)) {

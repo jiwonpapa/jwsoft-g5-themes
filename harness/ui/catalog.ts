@@ -7,7 +7,7 @@ export const themeRoot = resolve(root, "themes/business/jw_business");
 export const contract: QualityContract = JSON.parse(readFileSync(resolve(themeRoot, "quality/contract.json"), "utf8"));
 export const mainPages = contract.pages.filter(page => ["home", "onepage"].includes(page.group));
 export function selectedPages(ids = process.env.JW_UI_PAGES) {
-  if (!ids) return mainPages;
+  if (!ids || ids === 'all') return mainPages;
   const names = ids.split(",");
   if (names.some(id => !mainPages.some(page => page.id === id))) throw new Error("Unknown main page: " + ids);
   return mainPages.filter(page => names.includes(page.id));
