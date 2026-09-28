@@ -176,6 +176,14 @@ describe("mandatory product quality gate", () => {
     const codes = (await inspectMedia(root, registry, sources)).map(item => item.code);
     expect(codes).toContain("PHOTO_REUSE"); expect(codes).toContain("PHOTO_OWNER");
   });
+  test("blocks the same image repeated in one page markup", async () => {
+    const { root, plans } = await fixture();
+    const path = await photo(root, "repeated-scene");
+    await put(root, plans[0]!.path, `<article><img src="${path}"><section><img src="${path}"></section></article>`);
+    const sources = await inspectSources(root, plans);
+    const registry: AssetRegistry = { schemaVersion: 1, photos: [{ path, origin: "repeated-scene", owner: plans[0]!.id, sha256: sha256(await readFile(join(root, path))) }] };
+    expect((await inspectMedia(root, registry, sources)).some(item => item.code === "PHOTO_REPEAT_WITHIN_PAGE" && item.target === plans[0]!.id)).toBe(true);
+  });
   test("detects renamed, recompressed and declared cropped derivatives", async () => {
     const { root, plans } = await fixture();
     const path = await photo(root, "original");

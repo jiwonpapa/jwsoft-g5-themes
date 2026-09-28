@@ -867,6 +867,22 @@
 .h4-entered {
   animation:h4-rise var(--jw-motion-duration-reveal) var(--jw-motion-ease-out) both;
 }
+@media(min-width:761px) and (prefers-reduced-motion:no-preference) {
+  .h4-journey--motion .h4-journey-nodes:after {
+    content:'';position:absolute;z-index:1;top:79px;left:12.5%;width:75%;height:4px;
+    background:var(--color-primary);transform:scaleX(var(--h4-journey-progress,0));transform-origin:left center;
+  }
+  .h4-journey--motion .h4-node-icon { transition:background .35s,color .35s,transform .35s,box-shadow .35s; }
+  .h4-journey--motion .h4-is-current .h4-node-icon {
+    background:var(--color-primary);color:var(--color-primary-content);
+    transform:scale(1.22);box-shadow:0 0 0 10px color-mix(in srgb,var(--color-primary) 12%,transparent);
+  }
+  .h4-browser-stage--motion .h4-browser {
+    transform:perspective(1000px) translateY(var(--h4-preview-y,58px)) rotateX(var(--h4-preview-angle,9deg)) scale(var(--h4-preview-scale,.88));
+    transform-origin:center bottom;
+  }
+  .h4-browser-stage--motion .h4-preview-caption { opacity:var(--h4-preview-opacity,.4); }
+}
 @media(min-width:1600px) {
   .h4-hero {
     padding-block:70px;

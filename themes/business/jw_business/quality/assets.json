@@ -248,6 +248,12 @@
       "owner": "home-3"
     },
     {
+      "path": "src/assets/home-three/fieldnote-program.webp",
+      "sha256": "6f3e84a41412de6be5fc2d7efbef4e28e810f401a16a4e32e4c3e5579129200e",
+      "origin": "fieldnote-program-20260928",
+      "owner": "home-3"
+    },
+    {
       "path": "onepages/assets/images/service-studio.webp",
       "sha256": "73d61be3aaf50241d63df1177e97a9662489366a426104094e442c3287381023",
       "owner": "onepage-services",
@@ -258,6 +264,12 @@
       "sha256": "684c76c661a4d8dde4863db9e1ef3b881fc89bd33f0e7b34d64dbdf6cd604e51",
       "owner": "onepage-projects",
       "origin": "space-studio-20260928"
+    },
+    {
+      "path": "onepages/assets/images/space-process.webp",
+      "sha256": "d727c8f34167e364f7b92f5d4a45cbc17190e6c3d7822507514d71f976941ca0",
+      "owner": "onepage-projects",
+      "origin": "space-process-20260928"
     },
     {
       "path": "onepages/assets/sequence/aura-001.webp",

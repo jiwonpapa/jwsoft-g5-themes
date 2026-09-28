@@ -7,7 +7,7 @@ import type { AssetRegistry, Failure, PagePlan } from "./model";
 
 export const withoutPhp = (source: string): string => source.replace(/<\?[\s\S]*?\?>/g, "").replace(/<!--[\s\S]*?-->/g, "");
 const raster = /\.(?:avif|webp|png|jpe?g|gif)(?:[?#].*)?$/i;
-export interface PageSource { plan: PagePlan; source: string; body: string; media: Set<string>; failures: Failure[] }
+export interface PageSource { plan: PagePlan; source: string; body: string; media: Set<string>; mediaOccurrences: Map<string, number>; failures: Failure[] }
 
 export async function inspectSources(root: string, plans: PagePlan[]): Promise<PageSource[]> {
   const cssFiles = (await walk(root, "src/styles")).filter(path => path.endsWith(".css"));
@@ -32,11 +32,15 @@ export async function inspectSources(root: string, plans: PagePlan[]): Promise<P
       $("body").append(`<div class="jwc-photo jwc-photo--${match[1]}"></div>`);
     }
     const media = new Set<string>();
+    const mediaOccurrences = new Map<string, number>();
     const failures: Failure[] = [];
-    const add = (path: string) => {
+    const add = (path: string, fromMarkup = false) => {
       const normalized = path.split(/[?#]/)[0]!;
       if (!normalized.startsWith("src/assets/") && !(plan.group === "onepage" && normalized.startsWith("onepages/assets/"))) failures.push({ code: "UNRESOLVED_MEDIA", target: plan.id, message: `본문 이미지의 원본 경로를 확인할 수 없습니다: ${path}` });
-      else media.add(normalized);
+      else {
+        media.add(normalized);
+        if (fromMarkup) mediaOccurrences.set(normalized, (mediaOccurrences.get(normalized) ?? 0) + 1);
+      }
     };
     for (const rule of rules) {
       // Match the last compound as well: outer G5 containers are absent in PHP source.
@@ -57,14 +61,14 @@ export async function inspectSources(root: string, plans: PagePlan[]): Promise<P
       for (const candidate of value.split(",")) {
         const path = candidate.trim().split(/\s+/)[0]!;
         if (!path || (!raster.test(path) && !path.includes("<?"))) continue;
-        if (path.startsWith("@onepage/")) add(`onepages/assets/${path.slice(9)}`);
-        else if (path.startsWith("@theme/assets/")) add(`src/${path.slice(7)}`);
-        else if (path.startsWith("src/assets/")) add(path);
-        else if (!path.includes("<?") && !/^(https?:|data:|\/)/.test(path)) add(posix.normalize(posix.join(dirname(plan.path), path)));
-        else add(path);
+        if (path.startsWith("@onepage/")) add(`onepages/assets/${path.slice(9)}`, true);
+        else if (path.startsWith("@theme/assets/")) add(`src/${path.slice(7)}`, true);
+        else if (path.startsWith("src/assets/")) add(path, true);
+        else if (!path.includes("<?") && !/^(https?:|data:|\/)/.test(path)) add(posix.normalize(posix.join(dirname(plan.path), path)), true);
+        else add(path, true);
       }
     }
-    result.push({ plan, source, body: stripped, media, failures });
+    result.push({ plan, source, body: stripped, media, mediaOccurrences, failures });
   }
   return result;
 }
@@ -93,6 +97,9 @@ export async function inspectMedia(root: string, registry: AssetRegistry, pages:
   const usage = new Map<string, Set<string>>();
   for (const page of pages) {
     failures.push(...page.failures);
+    for (const [path, count] of page.mediaOccurrences) {
+      if (count > 1) failures.push({ code: "PHOTO_REPEAT_WITHIN_PAGE", target: page.plan.id, message: `한 페이지에 같은 이미지가 ${count}번 사용됩니다: ${path}` });
+    }
     for (const path of page.media) {
       if (!usage.has(path)) usage.set(path, new Set());
       usage.get(path)!.add(page.plan.id);

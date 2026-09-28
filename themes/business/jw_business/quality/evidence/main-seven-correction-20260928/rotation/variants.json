@@ -85,7 +85,7 @@
     "result": "pass",
     "errors": [],
     "path": "quality/evidence/main-seven-correction-20260928/rotation/desktop-network-failure-final.png",
-    "sha256": "c4308b569f3e4102483ecdc83ff1ce6486cf68d48928e666f294ae5c983e8c0a"
+    "sha256": "6019c32d15aa56c72096b81f36abc9f740f94ce307276a860292c77dac228892"
   },
   {
     "viewport": "mobile",
@@ -117,7 +117,7 @@
     "result": "pass",
     "errors": [],
     "path": "quality/evidence/main-seven-correction-20260928/rotation/mobile-dark-final.png",
-    "sha256": "63413d5cb25e29a24554d329a7a55246d62f685f0c9f39b7d93e070790463fa4"
+    "sha256": "e0a190a68566211a496384590a1dc5ec60da5633ab4671958a8d00d90424c9d5"
   },
   {
     "viewport": "mobile",
@@ -125,6 +125,6 @@
     "result": "pass",
     "errors": [],
     "path": "quality/evidence/main-seven-correction-20260928/rotation/mobile-network-failure-final.png",
-    "sha256": "385596c73d2e5e7d62f39dc699a491715197215fa1f725d90648c66fa62f1e84"
+    "sha256": "b141ae1b4e2e960b2117e15c8ac791412e164f3788a8eb527a48a2bcef7f8c86"
   }
 ]

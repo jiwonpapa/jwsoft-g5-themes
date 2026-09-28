@@ -122,12 +122,14 @@ async function main(): Promise<void> {
   const lucideChunk = sharedChunks.find((path) => /^js\/chunks\/lucide-[\w-]+\.js$/.test(path));
   const scrollChunk = sharedChunks.find((path) => /^js\/chunks\/scroll-[\w-]+\.js$/.test(path));
   const iconChunks = sharedChunks.filter((path) => /^js\/chunks\/(compass|route|target)-[\w-]+\.js$/.test(path));
-  assert(sharedChunks.length === 4 + iconChunks.length && emblaChunk && viewportChunk && lucideChunk && scrollChunk, `expected shared Embla, Lucide, Motion and deduplicated icon chunks, found ${sharedChunks.join(", ")}`);
+  // Rollup may merge Motion scroll into its viewport chunk when Main 4 imports
+  // both. Either layout is valid if every entry shares the same Motion chunk.
+  assert(sharedChunks.length === 3 + iconChunks.length + Number(Boolean(scrollChunk)) && emblaChunk && viewportChunk && lucideChunk, `expected shared Embla, Lucide, Motion and deduplicated icon chunks, found ${sharedChunks.join(", ")}`);
   const emblaImport = `./chunks/${emblaChunk.split("/").pop()}`;
   const viewportImport = `./chunks/${viewportChunk.split("/").pop()}`;
   assert(js.includes(emblaImport) && homeJs.includes(emblaImport), "Embla is not shared by both entries");
   const onepageJs = await readFile(join(payloadRoot, "js/onepages.min.js"), "utf8");
-  const scrollImport = `./chunks/${scrollChunk.split("/").pop()}`;
+  const scrollImport = `./chunks/${(scrollChunk ?? viewportChunk).split("/").pop()}`;
   const homeFourJs = await readFile(join(payloadRoot, "js/home-four.min.js"), "utf8");
   const lucideImport = `./chunks/${lucideChunk.split("/").pop()}`;
   assert(homeFourJs.includes(viewportImport) && homeFourJs.includes(lucideImport) && js.includes(lucideImport), "Main 4 must share Motion viewport and Lucide instead of bundling alternate engines");
@@ -150,7 +152,7 @@ async function main(): Promise<void> {
     + gzipSync(await readFile(join(payloadRoot, emblaChunk))).byteLength
     + gzipSync(await readFile(join(payloadRoot, viewportChunk))).byteLength
     + gzipSync(await readFile(join(payloadRoot, lucideChunk))).byteLength
-    + gzipSync(await readFile(join(payloadRoot, scrollChunk))).byteLength;
+    + (scrollChunk ? gzipSync(await readFile(join(payloadRoot, scrollChunk))).byteLength : 0);
   assert(cssGzip <= 90 * 1024, `CSS gzip budget exceeded: ${cssGzip} bytes`);
   assert(jsGzip <= 80 * 1024, `JavaScript gzip budget exceeded: ${jsGzip} bytes`);
   assert(firstPageJsGzip <= 140 * 1024, `Main 1 JavaScript gzip budget exceeded: ${firstPageJsGzip} bytes`);

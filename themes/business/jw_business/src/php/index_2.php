@@ -119,15 +119,15 @@ $contact_url = jw_business_page_url('contact-1');
                 <h2 id="jwh2-matrix-title">급한 일과 중요한 일을<br>같은 자리에 놓습니다.</h2>
                 <p>가상 서비스 개선 과제입니다. 기대 효과와 실행 부담을 함께 비교하면, 먼저 검증할 일이 보입니다.</p>
             </div>
-            <div class="jwh2-matrix__body" role="img" aria-label="가상 과제 네 개를 기대 효과와 실행 부담으로 나눈 우선순위 지도">
-                <span class="jwh2-matrix__axis jwh2-matrix__axis--y">기대 효과 ↑</span>
+            <div class="jwh2-matrix__body" role="img" aria-label="기대 효과가 높고 실행 부담이 낮은 서비스 탐색 개선을 먼저 검증합니다. 운영 시스템 교체는 장기 과제, 안내 문구 정리는 빠른 유지 관리, 전체 화면 재제작은 보류로 배치한 가상 우선순위 지도입니다.">
+                <div class="jwh2-matrix__axis-head"><strong>기대 효과</strong><span>높음 ↑</span></div>
                 <div class="jwh2-matrix__field">
-                    <div class="jwh2-matrix__quadrant"><small>검증 후보</small><strong>서비스 탐색 개선</strong><span>효과는 크고 범위는 좁게</span></div>
-                    <div class="jwh2-matrix__quadrant"><small>장기 과제</small><strong>운영 시스템 교체</strong><span>효과는 크지만 준비가 필요</span></div>
-                    <div class="jwh2-matrix__quadrant"><small>유지 관리</small><strong>안내 문구 정리</strong><span>작게 실행해 불편을 줄이기</span></div>
-                    <div class="jwh2-matrix__quadrant"><small>보류</small><strong>전체 화면 재제작</strong><span>문제 확인 뒤 범위 결정</span></div>
+                    <div class="jwh2-matrix__quadrant jwh2-matrix__quadrant--lead"><span class="jwh2-matrix__point">01</span><div><small>먼저 검증</small><strong>서비스 탐색 개선</strong><span>효과 ↑ · 부담 ↓</span></div></div>
+                    <div class="jwh2-matrix__quadrant"><span class="jwh2-matrix__point">02</span><div><small>장기 과제</small><strong>운영 시스템 교체</strong><span>효과 ↑ · 준비 필요</span></div></div>
+                    <div class="jwh2-matrix__quadrant"><span class="jwh2-matrix__point">03</span><div><small>빠른 정리</small><strong>안내 문구 정리</strong><span>작게 실행해 불편 축소</span></div></div>
+                    <div class="jwh2-matrix__quadrant"><span class="jwh2-matrix__point">04</span><div><small>범위 재검토</small><strong>전체 화면 재제작</strong><span>문제 확인 뒤 결정</span></div></div>
                 </div>
-                <span class="jwh2-matrix__axis jwh2-matrix__axis--x">실행 부담 →</span>
+                <div class="jwh2-matrix__axis-foot"><span>낮음</span><strong>실행 부담</strong><span>높음 →</span></div>
             </div>
             <p class="jwh2-matrix__note">시연을 위한 판단 예시이며 실제 고객 프로젝트의 평가가 아닙니다.</p>
         </div>
@@ -189,13 +189,7 @@ $contact_url = jw_business_page_url('contact-1');
                 <h2 id="jwh2-method-title">한 번의 제안보다,<br>이어지는 판단을 만듭니다.</h2>
                 <p>질문을 좁히고 빠르게 확인한 뒤, 팀이 스스로 이어갈 수 있는 기준까지 남깁니다.</p>
             </div>
-            <div class="jwh2-method__flow" aria-label="프로젝트 진행 방식">
-                <div><strong>질문을 좁힙니다</strong><span>현장 인터뷰 · 데이터 확인</span></div>
-                <i data-lucide="arrow-right" aria-hidden="true"></i>
-                <div><strong>작게 검증합니다</strong><span>여정 설계 · 프로토타입</span></div>
-                <i data-lucide="arrow-right" aria-hidden="true"></i>
-                <div><strong>운영에 남깁니다</strong><span>측정 기준 · 실행 도구</span></div>
-            </div>
+            <div class="jwh2-method__scene"><figure><img src="<?php echo G5_THEME_URL; ?>/assets/images/home2-strategy.webp" width="1536" height="1024" alt="가상 팀이 조사 자료를 펼쳐 놓고 우선순위를 함께 검토하는 장면" loading="lazy"><figcaption>판단을 함께 만드는 과정 · 시연 이미지</figcaption></figure><ol aria-label="프로젝트 진행 방식"><li><b>01</b><div><strong>질문을 좁힙니다</strong><span>현장 인터뷰 · 데이터 확인</span></div></li><li><b>02</b><div><strong>작게 검증합니다</strong><span>여정 설계 · 프로토타입</span></div></li><li><b>03</b><div><strong>운영에 남깁니다</strong><span>측정 기준 · 실행 도구</span></div></li></ol></div>
         </div>
     </section>
 

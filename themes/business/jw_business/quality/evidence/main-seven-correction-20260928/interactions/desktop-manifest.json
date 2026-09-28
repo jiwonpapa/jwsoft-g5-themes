@@ -131,7 +131,7 @@
     },
     "after": {
       "path": "quality/evidence/main-seven-correction-20260928/interactions/home-2-desktop-slider-play-pause-after.png",
-      "sha256": "1ef798e82bf3c8dc0c490a054911215386ae8b71119376a5cb5da524c5648a16"
+      "sha256": "f8fb66da0caa47e6eadbb7c15d20bbc7ae0ee9a1e79d8eedfd2f478ab7658410"
     }
   },
   {
@@ -176,7 +176,7 @@
     },
     "after": {
       "path": "quality/evidence/main-seven-correction-20260928/interactions/home-1-desktop-service-keyboard-focus-after.png",
-      "sha256": "2decd3222a15470a31cc9c07038bf9d4459b777ae11d0b1f6da6ff2a7dc9f460"
+      "sha256": "abb784866ccdde49218f595110b52226793c024145a95eba67dfef724a3383fe"
     }
   },
   {
@@ -217,11 +217,11 @@
     "steps": "탭의 ArrowRight와 End 키로 크기와 설치 검토를 선택하고 aria-selected 및 배치도의 실제 표시를 확인했습니다.",
     "before": {
       "path": "quality/evidence/main-seven-correction-20260928/interactions/onepage-showcase-desktop-detail-tabs-keyboard-before.png",
-      "sha256": "b0033cd95cd27b440dc816e4bf3da417203a9ff45e2ff3e91a22a4824cacd11e"
+      "sha256": "45d41c947c34015340490e4c930707ad948691327d0e0e9ded49bd966eac650c"
     },
     "after": {
       "path": "quality/evidence/main-seven-correction-20260928/interactions/onepage-showcase-desktop-detail-tabs-keyboard-after.png",
-      "sha256": "6f900d9bc59ffaafc8e089edf7f255e2f810e51bdab0f4bcb3df58f6fe2c549b"
+      "sha256": "7bc2b878a7177757e5a1150ef0895c671afdb4636db6f9a34f4541b779438b1f"
     }
   },
   {
@@ -277,7 +277,7 @@
     "steps": "갤러리 이전 버튼으로 첫 번째 사진으로 복귀하는지 확인했습니다.",
     "before": {
       "path": "quality/evidence/main-seven-correction-20260928/interactions/onepage-projects-desktop-gallery-prev-before.png",
-      "sha256": "d6655713ab3327aa5fac128e30b836280ce7d035ce645403f44b3d11e5c1482c"
+      "sha256": "2af92a6fa19a46f0f0fdcc1d8c45343dc15a46948966c43223623c858d924edb"
     },
     "after": {
       "path": "quality/evidence/main-seven-correction-20260928/interactions/onepage-projects-desktop-gallery-prev-after.png",
