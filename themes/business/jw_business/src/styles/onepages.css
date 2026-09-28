@@ -444,14 +444,14 @@ html[data-theme="jw-dark"] .jwo { --jwo-accent: color-mix(in oklab, var(--color-
 .jwo-aura-brand{@apply tw:grid tw:items-center;grid-template-columns:.8fr 1.2fr;gap:10%}
 .jwo-aura-mark{@apply tw:flex tw:flex-col tw:items-center tw:justify-center;min-height:330px;border-block:1px solid var(--jwo-line)}.jwo-aura-mark svg{width:130px;height:130px;stroke-width:1;margin-bottom:30px}.jwo-aura-mark strong{font-size:36px;font-weight:500;letter-spacing:.18em}.jwo-aura-mark span{font-size:11px;letter-spacing:.1em;margin-top:8px}
 .jwo-aura-setup{@apply tw:grid;grid-template-columns:1fr 1fr;gap:8%;align-items:start}.jwo-aura-setup h2{margin-bottom:24px}.jwo-aura-setup ol{list-style:none;padding:0;margin:0}.jwo-aura-setup li{@apply tw:flex;gap:26px;padding:26px 0;border-bottom:1px solid var(--jwo-line)}.jwo-aura-setup li:first-child{padding-top:0}.jwo-aura-setup svg{width:48px;height:48px;flex-shrink:0}.jwo-aura-setup h3{font-size:23px;margin-bottom:12px}.jwo-aura-setup li p{font-size:15px;margin:0}
-.jwo-aura-setup{width:100%;padding-inline:max(48px,calc((100% - 1200px)/2));background:var(--color-base-200);border-block:1px solid var(--color-base-300)}
-.jwo-setup-diagram{margin-top:32px;padding:20px;background:var(--color-base-100);border:1px solid var(--jwo-line);border-radius:var(--radius-box)}
+.jwo-aura-setup{width:100%;padding-inline:max(48px,calc((100% - 1200px)/2));background:var(--color-base-100);border-block:1px solid var(--color-base-300)}
+.jwo-setup-diagram{margin-top:32px;padding:20px;background:var(--color-base-200);border:1px solid var(--jwo-line);border-radius:var(--radius-box)}
 .jwo-aura-setup .jwo-setup-diagram svg{display:block;width:100%;height:auto;max-height:240px;color:var(--color-base-content)}
 .jwo-setup-diagram>div{display:flex;justify-content:space-around;gap:14px;flex-wrap:wrap;padding-top:10px;color:var(--jwo-muted);font-size:12px;font-weight:700}
-.jwo-aura-faq{display:block;padding-block:clamp(72px,8vw,105px)}
+.jwo-aura-faq{display:block;width:100%;max-width:none;padding:clamp(72px,8vw,105px) max(48px,calc((100% - 1200px)/2));background:var(--color-base-200);border-block:1px solid var(--color-base-300)}
 .jwo-aura-faq>div:first-child{text-align:center;margin-bottom:38px}.jwo-aura-faq h2+p{margin:12px auto 0}
 .jwo-aura-faq>div:last-child{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
-.jwo-aura-faq details,.jwo-aura-faq details:first-child{padding:24px;border:1px solid var(--jwo-line);background:var(--color-base-200);border-radius:var(--radius-box)}
+.jwo-aura-faq details,.jwo-aura-faq details:first-child{padding:24px;border:1px solid var(--jwo-line);background:var(--color-base-100);border-radius:var(--radius-box)}
 .jwo-aura-faq summary{line-height:1.45;min-height:66px}.jwo-aura-faq details p{font-size:14px}
 .jwo-aura-contact{position:relative;isolation:isolate;overflow:hidden;width:100%;max-width:none;min-height:390px;display:flex;flex-direction:column;align-items:center;justify-content:center;padding-inline:24px;background:var(--color-neutral);color:var(--color-neutral-content)}
 .jwo-aura-contact h2{font-size:clamp(32px,3.5vw,52px)}.jwo-aura-contact .jwo-button{margin-top:8px;background:var(--color-primary);color:var(--color-primary-content)!important}
@@ -473,7 +473,7 @@ html[data-theme="jw-dark"] .jwo { --jwo-accent: color-mix(in oklab, var(--color-
 .jwo .jwo-sequence__note{text-align:center;font-size:12px;color:var(--color-neutral-content);margin:16px 0 0}
 @media(max-width:1000px){.jwo-roadmap{grid-template-columns:1fr 1fr;gap:40px}.jwo-nav{gap:20px}.jwo-nav__links{gap:18px}.jwo-team-roles>div{grid-template-columns:1fr;gap:4px}.jwo-space-disciplines{gap:28px}}
 @media(max-width:767px){
- .jwo-service-studio,.jwo-space-studio,.jwo-aura-brand,.jwo-aura-setup,.jwo-space-process,.jwo-space-handoff__grid{grid-template-columns:1fr;gap:40px}.jwo-aura-setup{padding-inline:20px}.jwo-aura-faq>div:last-child{grid-template-columns:1fr}.jwo-aura-faq summary{min-height:48px}.jwo-aura-contact{min-height:340px}
+ .jwo-service-studio,.jwo-space-studio,.jwo-aura-brand,.jwo-aura-setup,.jwo-space-process,.jwo-space-handoff__grid{grid-template-columns:1fr;gap:40px}.jwo-aura-setup{padding-inline:20px}.jwo-aura-faq{padding-inline:20px}.jwo-aura-faq>div:last-child{grid-template-columns:1fr}.jwo-aura-faq summary{min-height:48px}.jwo-aura-contact{min-height:340px}
  .jwo-service-studio img,.jwo-space-studio img{aspect-ratio:1.25}.jwo-space-studio>figure{grid-row:1}.jwo-service-studio h2,.jwo-space-studio h2,.jwo-aura-brand h2{margin-bottom:24px}
  .jwo-roadmap{gap:32px 24px}.jwo-roadmap li>svg{width:44px;height:44px;margin-bottom:22px}.jwo-roadmap h3{font-size:20px}.jwo-roadmap p{font-size:14px}.jwo-roadmap strong{font-size:12px}
  .jwo-scope-table [role=row]{grid-template-columns:1fr;gap:12px;padding:24px 0}.jwo-scope-table [role=row]:first-child{display:none}.jwo-scope-table [role=cell]{padding-left:54px}

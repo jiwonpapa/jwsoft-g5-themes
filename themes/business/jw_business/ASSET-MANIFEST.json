@@ -354,7 +354,7 @@
     {
       "id": "build-css-onepages-min-css-99a37b37",
       "path": "theme/css/onepages.min.css",
-      "sha256": "15f63262486e27d527a9b1ee84b9c0c02bfa2180e187a8d35a6687c9a5f0020d",
+      "sha256": "599709342292214aa127a4adcad151989fe9f6e01d7daaa57145e381bfea7270",
       "provenance": "generated",
       "generatedBy": "Vite 8.3.0",
       "author": "JW SOFT and bundled library authors",
