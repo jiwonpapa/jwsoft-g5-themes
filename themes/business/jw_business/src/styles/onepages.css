@@ -397,6 +397,96 @@ html[data-theme="jw-dark"] .jwo { --jwo-accent: color-mix(in oklab, var(--color-
 .jwo-aura-feature-grid article:hover svg{transform:rotate(-12deg) scale(1.08)}
 .jwo-aura-feature-grid h3{font-size:23px;margin-bottom:14px}.jwo-aura-feature-grid p{font-size:15px;color:var(--jwo-muted)}
 .jwo [data-jwo-entered]{animation:jwo-enter var(--jw-motion-duration-attention) var(--jw-motion-easing-out) both}
+
+/* Services: a photographic industry mosaic and visibly different deliverable formats. */
+.jwo-service-v2 .jwo-service-application{background:var(--jwo-soft)}
+.jwo-service-v2 .jwo-applications{display:grid;grid-template-columns:1.08fr .92fr;grid-template-rows:repeat(2,minmax(260px,1fr));gap:22px}
+.jwo-service-v2 .jwo-applications article{display:grid;grid-template-columns:44% 56%;min-width:0;padding:0;overflow:hidden;border:0;border-radius:var(--radius-box);background:var(--jwo-bg)}
+.jwo-service-v2 .jwo-applications article:first-child{grid-row:span 2;grid-template-columns:1fr;grid-template-rows:minmax(340px,1fr) auto}
+.jwo-service-v2 .jwo-applications figure{min-width:0;overflow:hidden}
+.jwo-service-v2 .jwo-applications img{width:100%;height:100%;object-fit:cover;transition:transform .9s var(--jw-motion-easing-out)}
+.jwo-service-v2 .jwo-applications article:hover img{transform:scale(1.055)}
+.jwo-service-v2 .jwo-applications article>div{display:flex;flex-direction:column;align-items:flex-start;justify-content:center;padding:clamp(24px,3vw,40px)}
+.jwo-service-v2 .jwo-applications span{font-size:.72rem;font-weight:800;letter-spacing:.14em;color:var(--jwo-accent)}
+.jwo-service-v2 .jwo-applications h3{margin:14px 0 8px;font-size:clamp(1.25rem,1.65vw,1.65rem)}
+.jwo-service-v2 .jwo-applications p{margin:0;color:var(--jwo-ink);font-size:.96rem;line-height:1.65}
+.jwo-service-v2 .jwo-applications small{margin-top:22px;padding-top:13px;border-top:1px solid var(--jwo-line);color:var(--jwo-muted);font-size:.78rem}
+.jwo-service-v2 .jwo-deliverables{background:var(--jwo-bg);border-top:1px solid var(--jwo-line)}
+.jwo-service-v2 .jwo-deliverables .jwo-section-head{display:flex;text-align:left}
+.jwo-service-v2 .jwo-deliverables .jwo-section-head>p{margin:0}
+.jwo-service-v2 .jwo-delivery-files{display:grid;grid-template-columns:1.15fr .85fr;grid-template-rows:repeat(2,minmax(240px,1fr));gap:18px}
+.jwo-service-v2 .jwo-delivery-files article{display:flex;align-items:stretch;text-align:left;min-width:0;min-height:0;padding:30px;border:1px solid var(--jwo-line);border-radius:var(--radius-box)}
+.jwo-service-v2 .jwo-delivery-files article>div:first-child>span{font-size:.7rem;font-weight:800;letter-spacing:.13em}
+.jwo-service-v2 .jwo-delivery-files article svg{display:block;width:45px;height:45px;margin:24px 0 16px}
+.jwo-service-v2 .jwo-delivery-files h3{font-size:clamp(1.3rem,1.8vw,1.8rem)}
+.jwo-service-v2 .jwo-delivery-files p{margin:8px 0 0;min-height:0}
+.jwo-service-v2 .jwo-delivery-files small{display:block;margin-top:20px;font-size:.77rem;opacity:.76}
+.jwo-service-v2 .jwo-delivery-files__primary{grid-row:span 2;flex-direction:column;justify-content:space-between;background:var(--color-neutral);color:var(--color-neutral-content)}
+.jwo-service-v2 .jwo-delivery-files__primary svg{color:var(--color-neutral-content)}
+.jwo-service-map{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:36px 0 30px}
+.jwo-service-map>div{position:relative;display:flex;flex-direction:column;min-height:150px;padding:20px 12px;border:1px solid color-mix(in srgb,var(--color-neutral-content) 43%,transparent);border-radius:var(--radius-box)}
+.jwo-service-map>div:not(:last-child)::after{content:'→';position:absolute;z-index:1;right:-14px;top:44%;width:20px;height:20px;border-radius:50%;background:var(--color-neutral);text-align:center;line-height:20px}
+.jwo-service-map b{font-size:.78rem;opacity:.68}.jwo-service-map strong{margin-top:auto;font-size:clamp(1.35rem,2.2vw,2rem)}.jwo-service-map small{margin:0!important;opacity:.7}
+.jwo-service-v2 .jwo-delivery-files__secondary{flex-direction:row;align-items:center;justify-content:space-between;gap:28px;background:var(--jwo-soft)}
+.jwo-service-v2 .jwo-delivery-files__secondary>div:first-child{flex:1}
+.jwo-service-v2 .jwo-delivery-files__secondary .jwo-file-preview{width:38%;height:165px;min-width:135px;margin:0;background:var(--jwo-bg)}
+.jwo-service-v2 .jwo-delivery-files__secondary .jwo-file-preview--screen{grid-template-rows:22px 1fr}.jwo-service-v2 .jwo-delivery-files__secondary .jwo-file-preview--guide{grid-template-columns:20px 1fr}
+@media (prefers-reduced-motion:no-preference){
+  .jwo-service-v2 [data-jwo-image-mosaic]:not(.is-in-view) img{transform:scale(1.1)}
+  .jwo-service-v2 [data-jwo-deliverables]:not(.is-in-view) .jwo-service-map>div{opacity:.6;transform:translateY(18px)}
+  .jwo-service-v2 .jwo-service-map>div{transition:opacity .6s,transform .6s var(--jw-motion-easing-out)}
+  .jwo-service-v2 .jwo-service-map>div:nth-child(2){transition-delay:.12s}.jwo-service-v2 .jwo-service-map>div:nth-child(3){transition-delay:.24s}
+}
+
+/* Projects: one-frame cinematic hero and a deliberately bounded gallery stage. */
+.jwo--projects .jwo-project-hero{position:relative;height:clamp(570px,77svh,820px);overflow:hidden;background:var(--color-neutral);color:var(--color-neutral-content)}
+.jwo--projects .jwo-project-hero__viewport,.jwo--projects .jwo-project-hero__track,.jwo--projects .jwo-project-hero__track>figure{height:100%}
+.jwo--projects .jwo-project-hero__viewport{overflow:hidden;touch-action:pan-y pinch-zoom}
+.jwo--projects .jwo-project-hero__track{display:flex;touch-action:pan-y pinch-zoom}
+.jwo--projects .jwo-project-hero__track>figure{flex:0 0 100%;min-width:0;margin:0;position:relative}
+.jwo--projects .jwo-project-hero__track img{width:100%;height:100%;object-fit:cover;object-position:center}
+.jwo--projects .jwo-project-hero__track figcaption{position:absolute;right:max(48px,calc((100% - 1200px)/2));bottom:118px;z-index:2;color:var(--color-neutral-content);font-size:.76rem;font-weight:700;letter-spacing:.08em}
+.jwo--projects .jwo-project-hero__shade{position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,color-mix(in srgb,var(--color-neutral) 87%,transparent),color-mix(in srgb,var(--color-neutral) 34%,transparent) 58%,transparent),linear-gradient(0deg,color-mix(in srgb,var(--color-neutral) 78%,transparent),transparent 40%)}
+.jwo--projects .jwo-project-hero__content{position:absolute;z-index:2;left:0;right:0;top:50%;transform:translateY(-50%)}
+.jwo--projects .jwo-project-hero__eyebrow{font-size:.77rem;font-weight:800;letter-spacing:.2em}
+.jwo--projects .jwo-project-hero h1{max-width:11ch;margin:25px 0 24px;font-size:clamp(3rem,5.1vw,5.7rem);line-height:1.1;letter-spacing:-.04em}
+.jwo--projects .jwo-project-hero__content p{max-width:38ch;font-size:clamp(1.1rem,1.55vw,1.4rem);line-height:1.55}
+.jwo--projects .jwo-project-hero__content .jwo-button{margin-top:34px;background:var(--color-primary);color:var(--color-primary-content)!important}
+.jwo--projects .jwo-project-hero__bottom{position:absolute;z-index:3;bottom:28px;left:0;right:0;display:flex;justify-content:space-between;align-items:end;gap:28px}
+.jwo--projects .jwo-project-hero__bottom>p{max-width:57ch;color:var(--color-neutral-content);font-size:.74rem;line-height:1.45}
+.jwo--projects .jwo-project-hero__controls{display:flex;align-items:center;gap:12px;white-space:nowrap}
+.jwo--projects .jwo-project-hero__controls button{min-width:42px;min-height:42px;padding:6px 10px;border:1px solid color-mix(in srgb,var(--color-neutral-content) 65%,transparent);border-radius:var(--radius-field);background:color-mix(in srgb,var(--color-neutral) 33%,transparent);color:var(--color-neutral-content)}
+.jwo--projects .jwo-project-hero__controls button:hover{background:var(--color-neutral-content);color:var(--color-neutral)}
+.jwo--projects .jwo-project-hero__controls button:last-child{padding-inline:14px;font-size:.8rem}
+.jwo--projects .jwo-project-hero__controls span{min-width:66px;text-align:center;font-size:.83rem;font-variant-numeric:tabular-nums}
+.jwo--projects .jwo-gallery__viewport{width:min(1500px,calc(100% - 96px));margin-inline:auto}
+.jwo--projects .jwo-gallery__track>figure{flex-basis:min(900px,74vw)}
+@media(max-width:960px){
+ .jwo-service-v2 .jwo-applications{grid-template-columns:1fr;grid-template-rows:auto}
+ .jwo-service-v2 .jwo-applications article:first-child{grid-row:auto;grid-template-columns:44% 56%;grid-template-rows:auto}
+ .jwo-service-v2 .jwo-applications article{min-height:255px}
+ .jwo-service-v2 .jwo-delivery-files{grid-template-columns:1fr;grid-template-rows:auto}
+ .jwo-service-v2 .jwo-delivery-files__primary{grid-row:auto;min-height:380px}
+ .jwo--projects .jwo-project-hero__track figcaption{right:24px}
+}
+@media(max-width:767px){
+ .jwo-service-v2 .jwo-applications{gap:18px}
+ .jwo-service-v2 .jwo-applications article,.jwo-service-v2 .jwo-applications article:first-child{display:block;min-height:0}
+ .jwo-service-v2 .jwo-applications figure{height:215px}.jwo-service-v2 .jwo-applications article>div{padding:24px}
+ .jwo-service-v2 .jwo-deliverables .jwo-section-head{display:block}.jwo-service-v2 .jwo-deliverables .jwo-section-head>p{margin-top:18px}
+ .jwo-service-v2 .jwo-delivery-files article{padding:24px}.jwo-service-v2 .jwo-delivery-files__primary{min-height:0}
+ .jwo-service-v2 .jwo-delivery-files__secondary{gap:18px}.jwo-service-v2 .jwo-delivery-files__secondary .jwo-file-preview{width:31%;min-width:92px;height:135px}
+ .jwo-service-map>div{min-height:116px;padding:12px 8px}.jwo-service-map strong{font-size:1.12rem}.jwo-service-map small{font-size:.66rem}
+ .jwo--projects .jwo-project-hero{height:min(710px,calc(100svh - 80px));min-height:600px}
+ .jwo--projects .jwo-project-hero__track img{object-position:55% center}
+ .jwo--projects .jwo-project-hero__shade{background:linear-gradient(90deg,color-mix(in srgb,var(--color-neutral) 77%,transparent),color-mix(in srgb,var(--color-neutral) 15%,transparent)),linear-gradient(0deg,color-mix(in srgb,var(--color-neutral) 86%,transparent),transparent 47%)}
+ .jwo--projects .jwo-project-hero__content{top:43%}.jwo--projects .jwo-project-hero h1{font-size:clamp(2.65rem,10vw,4.25rem)}
+ .jwo--projects .jwo-project-hero__track figcaption{left:20px;right:auto;bottom:120px;font-size:.67rem}
+ .jwo--projects .jwo-project-hero__bottom{bottom:18px;display:block}.jwo--projects .jwo-project-hero__bottom>p{font-size:.66rem}
+ .jwo--projects .jwo-project-hero__controls{margin-top:14px;justify-content:flex-start}
+ .jwo--projects .jwo-gallery__viewport{width:calc(100% - 40px)}.jwo--projects .jwo-gallery__track>figure{flex-basis:calc(100vw - 60px)}
+ .jwo--projects .jwo-gallery__controls>div{margin-right:56px}
+}
 @media(max-width:960px){.jwo-service-v2 .jwo-service-board{gap:16px}.jwo-service-v2 .jwo-service-card{padding:30px 20px}.jwo-workbench__body{grid-template-columns:.75fr 1.25fr}.jwo-workbench aside,.jwo-workbench__content{padding:28px}.jwo-aura-feature-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:767px){
  .jwo-service-v2 .jwo-service-hero,.jwo-working,.jwo-aura-material{grid-template-columns:1fr;gap:32px}

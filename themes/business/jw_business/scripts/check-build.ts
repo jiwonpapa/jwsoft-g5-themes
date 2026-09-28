@@ -90,7 +90,9 @@ async function main(): Promise<void> {
   for (const path of ["css/home-four.min.css", "js/home-four.min.js", "assets/home-four/hero.webp", "assets/home-four/discovery.webp", "assets/home-four/digital.webp", "assets/home-four/handoff.webp",
     "css/onepages.min.css", "js/onepages.min.js", "assets/home-three/mobility.webp", "assets/home-three/print.webp", "assets/home-three/exhibition.webp",
     "onepages/assets/images/service-workshop.webp", "onepages/assets/images/courtyard-colonnade.webp",
-    "onepages/assets/images/aura-hero.webp", "onepages/assets/images/aura-detail.webp", "onepages/assets/images/aura-living.webp", "onepages/assets/images/service-journey-workshop.webp"]) {
+    "onepages/assets/images/aura-hero.webp", "onepages/assets/images/aura-detail.webp", "onepages/assets/images/aura-living.webp", "onepages/assets/images/service-journey-workshop.webp",
+    "onepages/assets/images/project-hero-walkway.webp", "onepages/assets/images/project-hero-dusk.webp", "onepages/assets/images/project-gallery-stair.webp", "onepages/assets/images/project-gallery-workroom.webp",
+    "onepages/assets/images/service-sector-retail.webp", "onepages/assets/images/service-sector-learning.webp", "onepages/assets/images/service-sector-industry.webp"]) {
     assert(fileSet.has(path), `seven-page asset missing from installable theme: ${path}`);
   }
   assert(files.filter(path => /^onepages\/assets\/sequence\/aura-\d{3}\.webp$/.test(path)).length === 60, "AURA rotation requires all 60 Blender frames");
@@ -118,17 +120,20 @@ async function main(): Promise<void> {
   assert(!homeCss.includes(".js-motion .reveal"), "obsolete generic reveal CSS remains in Main 1");
   const sharedChunks = files.filter((path) => path.startsWith("js/chunks/") && path.endsWith(".js"));
   const emblaChunk = sharedChunks.find((path) => /^js\/chunks\/embla-carousel\.esm-[\w-]+\.js$/.test(path));
+  const autoplayChunk = sharedChunks.find((path) => /^js\/chunks\/embla-carousel-autoplay\.esm-[\w-]+\.js$/.test(path));
   const viewportChunk = sharedChunks.find((path) => /^js\/chunks\/viewport-[\w-]+\.js$/.test(path));
   const lucideChunk = sharedChunks.find((path) => /^js\/chunks\/lucide-[\w-]+\.js$/.test(path));
   const scrollChunk = sharedChunks.find((path) => /^js\/chunks\/scroll-[\w-]+\.js$/.test(path));
   const iconChunks = sharedChunks.filter((path) => /^js\/chunks\/(compass|route|target)-[\w-]+\.js$/.test(path));
   // Rollup may merge Motion scroll into its viewport chunk when Main 4 imports
   // both. Either layout is valid if every entry shares the same Motion chunk.
-  assert(sharedChunks.length === 3 + iconChunks.length + Number(Boolean(scrollChunk)) && emblaChunk && viewportChunk && lucideChunk, `expected shared Embla, Lucide, Motion and deduplicated icon chunks, found ${sharedChunks.join(", ")}`);
+  assert(sharedChunks.length === 4 + iconChunks.length + Number(Boolean(scrollChunk)) && emblaChunk && autoplayChunk && viewportChunk && lucideChunk, `expected shared Embla, Autoplay, Lucide, Motion and deduplicated icon chunks, found ${sharedChunks.join(", ")}`);
   const emblaImport = `./chunks/${emblaChunk.split("/").pop()}`;
   const viewportImport = `./chunks/${viewportChunk.split("/").pop()}`;
   assert(js.includes(emblaImport) && homeJs.includes(emblaImport), "Embla is not shared by both entries");
   const onepageJs = await readFile(join(payloadRoot, "js/onepages.min.js"), "utf8");
+  const autoplayImport = `./chunks/${autoplayChunk.split("/").pop()}`;
+  assert(onepageJs.includes(autoplayImport) && homeJs.includes(autoplayImport), "Main 1 and project hero must share Embla Autoplay");
   const scrollImport = `./chunks/${(scrollChunk ?? viewportChunk).split("/").pop()}`;
   const homeFourJs = await readFile(join(payloadRoot, "js/home-four.min.js"), "utf8");
   const lucideImport = `./chunks/${lucideChunk.split("/").pop()}`;

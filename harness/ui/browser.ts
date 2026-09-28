@@ -9,7 +9,12 @@ export async function settle(page: Page) {
       scrollTo(0, y);
       await new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve)));
     }
-    await Promise.all([...document.images].map(image => image.decode().catch(() => undefined)));
+    // Offscreen Embla slides are horizontally hidden, so vertical scrolling alone
+    // does not request their lazy images. Load them for a complete capture.
+    await Promise.all([...document.images].map(image => {
+      image.loading = 'eager';
+      return image.decode().catch(() => undefined);
+    }));
     scrollTo(0, 0);
     await new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve)));
   });

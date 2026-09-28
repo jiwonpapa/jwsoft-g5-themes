@@ -1,5 +1,6 @@
 /* JW SOFT Commercial License. Onepage behavior uses the theme's Embla and Motion stack. */
 import EmblaCarousel from 'embla-carousel';
+import Autoplay from 'embla-carousel-autoplay';
 import { inView, scroll } from 'motion';
 
 const root = document.querySelector('[data-jw-onepage]');
@@ -139,6 +140,41 @@ if (root) {
     list.setAttribute('role', 'tablist');
     list.hidden = false;
     select(0);
+  });
+
+  const projectHero = root.querySelector('[data-jwo-project-hero]');
+  if (projectHero) {
+    const viewport = projectHero.querySelector('[data-jwo-project-hero-viewport]');
+    const slides = [...projectHero.querySelectorAll('.jwo-project-hero__track > figure')];
+    const controls = projectHero.querySelector('[data-jwo-project-hero-controls]');
+    const prev = controls?.querySelector('[data-jwo-project-hero-prev]');
+    const next = controls?.querySelector('[data-jwo-project-hero-next]');
+    const toggle = controls?.querySelector('[data-jwo-project-hero-toggle]');
+    const status = controls?.querySelector('[data-jwo-project-hero-status]');
+    if (viewport && slides.length > 1 && controls && prev && next && toggle && status) {
+      const autoplay = Autoplay({ delay: 5800, playOnInit: !reduced.matches, stopOnFocusIn: true, stopOnMouseEnter: true, stopOnInteraction: false });
+      const carousel = EmblaCarousel(viewport, { loop: true, duration: reduced.matches ? 0 : 28, breakpoints: { '(prefers-reduced-motion: reduce)': { duration: 0 } } }, [autoplay]);
+      const sync = () => {
+        const current = carousel.selectedScrollSnap();
+        status.textContent = `${String(current + 1).padStart(2, '0')} / ${String(slides.length).padStart(2, '0')}`;
+        slides.forEach((slide, index) => slide.setAttribute('aria-hidden', String(index !== current)));
+        const playing = autoplay.isPlaying();
+        toggle.textContent = playing ? '일시 정지' : '재생';
+        toggle.setAttribute('aria-label', playing ? '자동 슬라이드 일시 정지' : '자동 슬라이드 재생');
+        toggle.setAttribute('aria-pressed', String(playing));
+      };
+      prev.addEventListener('click', () => { carousel.scrollPrev(); autoplay.reset(); });
+      next.addEventListener('click', () => { carousel.scrollNext(); autoplay.reset(); });
+      toggle.addEventListener('click', () => { autoplay.isPlaying() ? autoplay.stop() : autoplay.play(); sync(); });
+      reduced.addEventListener('change', () => { if (reduced.matches) autoplay.stop(); sync(); });
+      carousel.on('select', sync).on('reInit', sync);
+      controls.hidden = false;
+      sync();
+    }
+  }
+
+  root.querySelectorAll('[data-jwo-image-mosaic], [data-jwo-deliverables]').forEach(section => {
+    inView(section, () => section.classList.add('is-in-view'), { amount: 0.2 });
   });
 
   root.querySelectorAll('[data-jwo-gallery]').forEach(gallery => {

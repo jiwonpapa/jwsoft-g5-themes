@@ -354,7 +354,7 @@
     {
       "id": "build-css-onepages-min-css-99a37b37",
       "path": "theme/css/onepages.min.css",
-      "sha256": "599709342292214aa127a4adcad151989fe9f6e01d7daaa57145e381bfea7270",
+      "sha256": "34809c4382890773a678a82807d6900f4b42bb6b4e71cefb169928fe3dad78f5",
       "provenance": "generated",
       "generatedBy": "Vite 8.3.0",
       "author": "JW SOFT and bundled library authors",
@@ -1824,6 +1824,18 @@
       "salePackage": true
     },
     {
+      "id": "build-js-chunks-embla-carousel-autoplay-esm-nylz4-va-js-fde937f8",
+      "path": "theme/js/chunks/embla-carousel-autoplay.esm-nYLz4_VA.js",
+      "sha256": "719d425ee927ff356bf87f6732253f6dd171e006e3affe608baf8e48bfabee65",
+      "provenance": "generated",
+      "generatedBy": "Vite 8.3.0",
+      "author": "JW SOFT and bundled library authors",
+      "acquiredAt": "2026-09-21",
+      "licenseExpression": "ISC AND MIT AND LicenseRef-JWSOFT",
+      "usageScope": "theme",
+      "salePackage": true
+    },
+    {
       "id": "build-js-chunks-embla-carousel-esm-gjfmhepy-js-b237e10f",
       "path": "theme/js/chunks/embla-carousel.esm-GjFMhePy.js",
       "sha256": "11e7e9781086bf70ffb2901d7f5dbb0a2aa513ffd1261e65bd6664550e746ab1",
@@ -1898,7 +1910,7 @@
     {
       "id": "build-js-home-one-min-js-21fa91f1",
       "path": "theme/js/home-one.min.js",
-      "sha256": "91e2b586c1a20ff29d8a4917f952b0bc70660a79563d9765b18ab8ee2f0efe12",
+      "sha256": "e40b7b2519faee299c5e3c5accda2bbe5071dc9d0a7c299a6826e3728f79533b",
       "provenance": "generated",
       "generatedBy": "Vite 8.3.0",
       "author": "JW SOFT and bundled library authors",
@@ -1922,7 +1934,7 @@
     {
       "id": "build-js-onepages-min-js-fe8b3578",
       "path": "theme/js/onepages.min.js",
-      "sha256": "d28627f46d0814cbb8035acc62abf592f3aa47fa335e8f551151cdcf81a6f548",
+      "sha256": "2361960e23f5b0cfea1e5a8eab4293a966944284953e3f9b6a380d74da1fa44f",
       "provenance": "generated",
       "generatedBy": "Vite 8.3.0",
       "author": "JW SOFT and bundled library authors",
@@ -3168,9 +3180,93 @@
       "salePackage": true
     },
     {
+      "id": "build-onepages-assets-images-project-gallery-stair-webp-e850cd67",
+      "path": "theme/onepages/assets/images/project-gallery-stair.webp",
+      "sha256": "a75765edab612de03b86e05cbc12ee286246418030254219934fb920f84d56d1",
+      "provenance": "generated",
+      "generatedBy": "OpenAI image generation + cwebp + Vite 8.3.0",
+      "author": "OpenAI image generation, directed by JW SOFT",
+      "acquiredAt": "2026-09-21",
+      "licenseExpression": "LicenseRef-OpenAI-Generated-Asset AND LicenseRef-JWSOFT",
+      "usageScope": "theme",
+      "salePackage": true
+    },
+    {
+      "id": "build-onepages-assets-images-project-gallery-workroom-webp-97fbb9db",
+      "path": "theme/onepages/assets/images/project-gallery-workroom.webp",
+      "sha256": "c8685a16224584c8a93ba380a902e490f906a6f74003eff4a9661d79da58325a",
+      "provenance": "generated",
+      "generatedBy": "OpenAI image generation + cwebp + Vite 8.3.0",
+      "author": "OpenAI image generation, directed by JW SOFT",
+      "acquiredAt": "2026-09-21",
+      "licenseExpression": "LicenseRef-OpenAI-Generated-Asset AND LicenseRef-JWSOFT",
+      "usageScope": "theme",
+      "salePackage": true
+    },
+    {
+      "id": "build-onepages-assets-images-project-hero-dusk-webp-6109c4d4",
+      "path": "theme/onepages/assets/images/project-hero-dusk.webp",
+      "sha256": "54c672da22ee25693689fb1f7e3d02c9f63a5e3c8d3a78a22f8f845c4bab3ccb",
+      "provenance": "generated",
+      "generatedBy": "OpenAI image generation + cwebp + Vite 8.3.0",
+      "author": "OpenAI image generation, directed by JW SOFT",
+      "acquiredAt": "2026-09-21",
+      "licenseExpression": "LicenseRef-OpenAI-Generated-Asset AND LicenseRef-JWSOFT",
+      "usageScope": "theme",
+      "salePackage": true
+    },
+    {
+      "id": "build-onepages-assets-images-project-hero-walkway-webp-b37a3d21",
+      "path": "theme/onepages/assets/images/project-hero-walkway.webp",
+      "sha256": "18e578e5e48f3361382f5106476cd652469efc317e4a89277289a0fad7dbed4e",
+      "provenance": "generated",
+      "generatedBy": "OpenAI image generation + cwebp + Vite 8.3.0",
+      "author": "OpenAI image generation, directed by JW SOFT",
+      "acquiredAt": "2026-09-21",
+      "licenseExpression": "LicenseRef-OpenAI-Generated-Asset AND LicenseRef-JWSOFT",
+      "usageScope": "theme",
+      "salePackage": true
+    },
+    {
       "id": "build-onepages-assets-images-service-journey-workshop-webp-b20ec2df",
       "path": "theme/onepages/assets/images/service-journey-workshop.webp",
       "sha256": "325596a90765416b7fc7965080bda5b181a5f3950692bda630f0672753c00826",
+      "provenance": "generated",
+      "generatedBy": "OpenAI image generation + cwebp + Vite 8.3.0",
+      "author": "OpenAI image generation, directed by JW SOFT",
+      "acquiredAt": "2026-09-21",
+      "licenseExpression": "LicenseRef-OpenAI-Generated-Asset AND LicenseRef-JWSOFT",
+      "usageScope": "theme",
+      "salePackage": true
+    },
+    {
+      "id": "build-onepages-assets-images-service-sector-industry-webp-7580791f",
+      "path": "theme/onepages/assets/images/service-sector-industry.webp",
+      "sha256": "32fa99503f328790dd64660ecd1024ca9c2d27d087d47811c41da0293a9a5201",
+      "provenance": "generated",
+      "generatedBy": "OpenAI image generation + cwebp + Vite 8.3.0",
+      "author": "OpenAI image generation, directed by JW SOFT",
+      "acquiredAt": "2026-09-21",
+      "licenseExpression": "LicenseRef-OpenAI-Generated-Asset AND LicenseRef-JWSOFT",
+      "usageScope": "theme",
+      "salePackage": true
+    },
+    {
+      "id": "build-onepages-assets-images-service-sector-learning-webp-4327cccb",
+      "path": "theme/onepages/assets/images/service-sector-learning.webp",
+      "sha256": "ad00c586bc78d9254afed3762e50434cc25651c2ce58052ee3c63c9545c47ef9",
+      "provenance": "generated",
+      "generatedBy": "OpenAI image generation + cwebp + Vite 8.3.0",
+      "author": "OpenAI image generation, directed by JW SOFT",
+      "acquiredAt": "2026-09-21",
+      "licenseExpression": "LicenseRef-OpenAI-Generated-Asset AND LicenseRef-JWSOFT",
+      "usageScope": "theme",
+      "salePackage": true
+    },
+    {
+      "id": "build-onepages-assets-images-service-sector-retail-webp-86e4b513",
+      "path": "theme/onepages/assets/images/service-sector-retail.webp",
+      "sha256": "d75c1aa58f3c7e2d662b5a4eabc1d57664093277936fdf6373421efd29c8c288",
       "provenance": "generated",
       "generatedBy": "OpenAI image generation + cwebp + Vite 8.3.0",
       "author": "OpenAI image generation, directed by JW SOFT",
