@@ -2,6 +2,7 @@ import { defineConfig } from "@playwright/test";
 import { resolve } from "node:path";
 import { root, states } from "./catalog";
 const runName = (process.env.JW_UI_COMMAND || 'check') + '-' + (process.env.JW_UI_PAGES || 'all').replace(/[^a-z0-9,-]/g, '_');
+const reviewedCompareStates = new Set(["desktop-light", "desktop-dark", "mobile-light", "mobile-dark"]);
 
 export default defineConfig({
   testDir: "./specs",
@@ -26,5 +27,7 @@ export default defineConfig({
     screenshot: "only-on-failure",
     serviceWorkers: "block",
   },
-  projects: states.map(state => ({ name: state.name, use: { viewport: state.viewport, colorScheme: state.mode === "jw-dark" ? "dark" : "light" } })),
+  // The reviewed Linux baseline has four states; the subsequent check still tests all eight.
+  projects: (process.env.JW_UI_COMMAND === "compare" ? states.filter(state => reviewedCompareStates.has(state.name)) : states)
+    .map(state => ({ name: state.name, use: { viewport: state.viewport, colorScheme: state.mode === "jw-dark" ? "dark" : "light" } })),
 });
