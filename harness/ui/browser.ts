@@ -59,6 +59,12 @@ export async function inspectPage(page: Page, plan: Pick<PagePlan, "requirements
         ...[...document.images].map(img => img.currentSrc || img.src),
         ...[...body.querySelectorAll('*')].flatMap(el => [...getComputedStyle(el).backgroundImage.matchAll(/url\(["']?(https?:[^"')]+)["']?\)/g)].map(match => match[1]!)),
       ])],
+      sections: [...body.querySelectorAll('section')].filter(visible).map((element, index) => {
+        const box = element.getBoundingClientRect();
+        return { index, id: element.id, heading: element.querySelector('h1,h2')?.textContent?.trim(),
+          left: Math.round(box.left + scrollX), top: Math.round(box.top + scrollY),
+          width: Math.round(box.width), height: Math.round(box.height) };
+      }),
       regions: Object.fromEntries(['.h4-process','.jw-footer'].flatMap(selector => {
         const el=document.querySelector(selector); if (!el) return [];
         const box=el.getBoundingClientRect();

@@ -4,7 +4,7 @@ import { createHash } from 'node:crypto';
 import { resolve, relative } from 'node:path';
 import { themeRoot } from './catalog';
 // Actual actions and distinct before/after evidence; visual approval remains independent.
-const directory=resolve(themeRoot,'quality/evidence/main-seven-correction-20260928/rotation');
+const directory=resolve(themeRoot,process.env.JW_ROTATION_OUTPUT || 'quality/evidence/main-seven-correction-20260928/rotation');
 await mkdir(directory,{recursive:true});
 const browser=await chromium.launch();
 const evidence:any[]=[], extras:any[]=[];

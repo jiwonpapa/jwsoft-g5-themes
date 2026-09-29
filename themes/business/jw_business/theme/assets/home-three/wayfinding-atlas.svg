@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 720" role="img" aria-labelledby="map-title map-description">
+  <title id="map-title">CENTRAL EXCHANGE 층별 안내 체계 시안</title>
+  <desc id="map-description">중앙 안내 데스크에서 서쪽 A 출구와 시내 버스, 북쪽 B 승강장 1번과 2번, 동쪽 C 환승으로 연결되는 가상의 1층 평면. 엘리베이터, 화장실, 매표소, 대기 공간과 무단차 이동 경로가 표시되어 있습니다.</desc>
+  <rect width="1080" height="720" fill="#f4f1e9"/>
+  <g font-family="Arial, sans-serif" fill="#172d3b">
+    <path d="M44 99h992" stroke="#172d3b" stroke-width="2"/>
+    <text x="44" y="45" font-size="12" letter-spacing="2">CENTRAL EXCHANGE / WAYFINDING SYSTEM</text>
+    <text x="44" y="80" font-size="28" font-weight="700">어디로 가시나요?</text><text x="720" y="77" font-size="15">1F · 중앙 홀 / CONCOURSE</text>
+    <text x="45" y="129" font-size="11" letter-spacing="1">A / STREET &amp; CITY BUS</text><text x="387" y="129" font-size="11" letter-spacing="1">B / RAIL PLATFORMS</text><text x="809" y="129" font-size="11" letter-spacing="1">C / TRANSFER</text>
+    <path d="M213 178h654v342H213Z" fill="#fff" stroke="#bdc6c7" stroke-width="3"/>
+    <path d="M284 178v90h136v-90m-136 40h136m233-40v90h142v-90m-142 40h142" fill="#dfe4df" stroke="#a4b2b0" stroke-width="2"/>
+    <g fill="#f4f1e9" stroke="#bdc6c7" stroke-width="2"><path d="M234 402h134v93H234Z"/><path d="M405 425h118v70H405Z"/><path d="M565 425h113v70H565Z"/><path d="M719 402h127v93H719Z"/></g>
+    <path d="M469 153h134v129H469Z" fill="#d5e2e4" stroke="#728e96" stroke-width="2"/>
+    <path d="M483 175h106m-106 13h106m-106 13h106m-106 13h106m-106 13h106m-106 13h106m-106 13h106" stroke="#728e96" stroke-width="3"/>
+    <text x="350" y="211" font-size="15" text-anchor="middle">승강장 1</text><text x="723" y="211" font-size="15" text-anchor="middle">승강장 2</text>
+    <text x="350" y="246" font-size="11" text-anchor="middle">시내 방면</text><text x="723" y="246" font-size="11" text-anchor="middle">공항 방면</text>
+    <text x="302" y="440" font-size="15" text-anchor="middle">매표소</text><text x="302" y="462" font-size="10" text-anchor="middle">TICKETS</text>
+    <text x="464" y="456" font-size="14" text-anchor="middle">대기 공간</text><text x="464" y="478" font-size="10" text-anchor="middle">WAITING</text>
+    <text x="620" y="456" font-size="14" text-anchor="middle">화장실</text><text x="620" y="478" font-size="10" text-anchor="middle">WC</text>
+    <text x="782" y="440" font-size="14" text-anchor="middle">엘리베이터</text><text x="782" y="463" font-size="10" text-anchor="middle">LIFT / STEP-FREE</text>
+    <path d="M542 365H133M542 365V300M542 365h388" fill="none" stroke="#1a5270" stroke-width="13" stroke-linecap="round"/>
+    <path d="m157 344-25 21 25 21m364-65 21-23 21 23m343 22 25 21-25 21" fill="none" stroke="#1a5270" stroke-width="6"/>
+    <path d="M549 386h247v-102h-77" fill="none" stroke="#b66d3d" stroke-width="4" stroke-dasharray="4 7"/>
+    <circle cx="542" cy="365" r="23" fill="#e29b4e" stroke="#fff" stroke-width="5"/><circle cx="542" cy="365" r="5" fill="#172d3b"/>
+    <rect x="469" y="538" width="146" height="37" rx="2" fill="#172d3b"/><text x="542" y="562" font-size="14" fill="#fff" text-anchor="middle">현재 위치 / 안내 데스크</text>
+    <path d="M542 394v135" stroke="#172d3b" stroke-width="1.5" stroke-dasharray="3 5"/>
+    <rect x="44" y="263" width="126" height="62" fill="#172d3b"/><text x="57" y="304" fill="#fff" font-size="33" font-weight="700">← A</text><text x="45" y="413" font-size="17" font-weight="700">거리로 나가기</text><text x="45" y="436" font-size="12">출구 · 시내 버스</text><text x="45" y="456" font-size="12">무단차 출입구</text>
+    <rect x="466" y="153" width="141" height="55" fill="#1a5270"/><text x="500" y="190" fill="#fff" font-size="30" font-weight="700">↑ B</text>
+    <rect x="907" y="263" width="128" height="62" fill="#1a5270"/><text x="923" y="304" fill="#fff" font-size="33" font-weight="700">C →</text><text x="910" y="413" font-size="17" font-weight="700">다음 노선으로</text><text x="910" y="436" font-size="12">연결 통로 · 환승</text><text x="910" y="456" font-size="12">교통카드 이용</text>
+    <path d="M44 610h992" stroke="#a4b2b0"/>
+    <circle cx="53" cy="644" r="7" fill="#e29b4e"/><text x="70" y="649" font-size="12">현재 위치</text><path d="M204 644h38" stroke="#1a5270" stroke-width="5"/><text x="251" y="649" font-size="12">주요 이동</text><path d="M390 644h38" stroke="#b66d3d" stroke-width="3" stroke-dasharray="4 5"/><text x="440" y="649" font-size="12">무단차 이동</text>
+    <text x="717" y="649" font-size="11">색 + 문자 + 방향을 함께 표시합니다.</text>
+    <text x="44" y="687" font-size="10" fill="#566e77">FICTIONAL DESIGN STUDY · 실제 시설의 안내도로 사용하지 않습니다.</text><text x="910" y="687" font-size="10">JW SOFT / 2026</text>
+  </g>
+</svg>

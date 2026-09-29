@@ -94,16 +94,21 @@ async function main(): Promise<void> {
   }
 
   await cp(join(themeRoot, "src/assets/brand"), join(payloadRoot, "assets/brand"), { recursive: true });
-  for (const name of ["strategy", "digital", "brand", "brand-detail", "industry-ceramics", "case-food", "case-learning"]) {
+  for (const name of ["strategy", "digital", "brand", "brand-detail", "industry-ceramics", "case-food", "case-learning", "atelier-collection", "atelier-mug"]) {
     await copyFile(join(themeRoot, "src/assets/main-one", `${name}.webp`), join(payloadRoot, "assets/main-one", `${name}.webp`));
   }
-  for (const name of ["hero", "discovery", "digital", "handoff"]) {
+  for (const name of ["decision-logic", "decision-logic-mobile"]) {
+    await copyFile(join(themeRoot, "src/assets/main-one", `${name}.svg`), join(payloadRoot, "assets/main-one", `${name}.svg`));
+  }
+  for (const name of ["hero", "discovery", "digital", "handoff", "experience-pack", "journey-products"]) {
     await copyFile(join(themeRoot, "src/assets/home-four", `${name}.webp`), join(payloadRoot, "assets/home-four", `${name}.webp`));
   }
   for (const name of ["home2-strategy", "home2-decision-workshop", "home2-evidence-retail"]) {
     await copyFile(join(themeRoot, "src/assets/images", `${name}.webp`), join(payloadRoot, "assets/images", `${name}.webp`));
   }
+  await cp(join(themeRoot, "src/assets/images/home2-correction"), join(payloadRoot, "assets/images/home2-correction"), { recursive: true, filter: (source) => !source.endsWith('.json') });
   await cp(join(themeRoot, "src/assets/home-three"), join(payloadRoot, "assets/home-three"), { recursive: true, filter: (source) => !source.endsWith('.json') });
+  await cp(join(themeRoot, "onepages/assets/correction"), join(payloadRoot, "onepages/assets/correction"), { recursive: true, filter: (source) => !source.endsWith('.json') });
   for (const source of await walkFiles(join(themeRoot, "onepages/assets/images"))) {
     if (basename(source) !== "node-poster.webp" && !source.endsWith('.json')) await copyFile(source, join(payloadRoot, "onepages/assets/images", basename(source)));
   }
@@ -112,6 +117,20 @@ async function main(): Promise<void> {
     if (/^aura-\d{3}\.webp$/.test(basename(source))) await copyFile(source, join(payloadRoot, "onepages/assets/sequence", basename(source)));
   }
 
+  // Source sidecars follow the image bytes, including Vite's hashed filenames.
+  // Only dated records override the legacy inventory; no provenance is inferred
+  // from a renamed file or a browser URL.
+  const authoredSources = new Map<string, { acquiredAt: string; blender: boolean; tool: string }>();
+  for (const directory of ["src/assets", "onepages/assets"]) {
+    for (const sidecar of (await walkFiles(join(themeRoot, directory))).filter(path => /\.(?:webp|png|jpe?g)\.json$/i.test(path))) {
+      const record = JSON.parse(await readFile(sidecar, "utf8"));
+      const acquiredAt = String(record.acquiredAt || record.createdAt || "").slice(0, 10);
+      if (!/^\d{4}-\d{2}-\d{2}$/.test(acquiredAt)) continue;
+      const tool = String(record.tool || record.source || "");
+      const blender = /blender/i.test(tool) || /^blender:/i.test(String(record.origin || ""));
+      authoredSources.set(sha256(await readFile(sidecar.slice(0, -5))), { acquiredAt, blender, tool });
+    }
+  }
   const assets = [];
   for (const file of await walkFiles(payloadRoot)) {
     const path = portablePath(relative(payloadRoot, file));
@@ -119,6 +138,8 @@ async function main(): Promise<void> {
     if (!staticExtensions.has(extension)) continue;
 
     const bytes = await readFile(file);
+    const authoredSource = authoredSources.get(sha256(bytes));
+    const authoredDiagram = path === "assets/home-three/wayfinding-atlas.svg" || /^assets\/main-one\/decision-logic(?:-mobile)?\.svg$/.test(path) || /^assets\/images\/home2-correction\/priority-evidence(?:-mobile)?\.svg$/.test(path) || (path.startsWith("onepages/assets/correction/") && extension === "svg");
     const blenderLogo = path.startsWith("assets/brand/");
     const generatedImage = (path.startsWith("assets/") || path.startsWith("onepages/assets/")) && /\.(?:avif|jpe?g|png|webp)$/i.test(path);
     const september28SharpImage = new Set([
@@ -126,7 +147,7 @@ async function main(): Promise<void> {
       "assets/images/home2-evidence-retail.webp",
       "onepages/assets/images/service-field-studio.webp",
     ]).has(path);
-    const generated = builtAssets.has(path) || generatedImage;
+    const generated = builtAssets.has(path) || generatedImage || authoredDiagram;
     const font = path.startsWith("fonts/");
     assets.push({
       id: assetId(generated ? "build" : "g5", path),
@@ -134,7 +155,13 @@ async function main(): Promise<void> {
       sha256: sha256(bytes),
       provenance: generated ? "generated" : "original",
       ...(generated ? {
-        generatedBy: path.startsWith("onepages/assets/sequence/")
+        generatedBy: authoredDiagram
+          ? "JW SOFT authored SVG illustration"
+          : authoredSource?.blender
+          ? "Blender 5.2.2 LTS + OpenAI walnut material texture + WebP encoding"
+          : authoredSource
+          ? `${authoredSource.tool || "OpenAI image generation"} + WebP encoding`
+          : path.startsWith("onepages/assets/sequence/")
           ? "Blender 5.2.2 LTS + OpenAI walnut material texture + WebP encoding"
           : blenderLogo
           ? "Blender 5.2.2 LTS + WebP encoding"
@@ -151,7 +178,9 @@ async function main(): Promise<void> {
         : generated
           ? {}
           : { sourceUrl: `https://github.com/gnuboard/gnuboard5/blob/v5.6.391/theme/basic/${path.split("/").map(encodeURIComponent).join("/")}` }),
-      author: path.startsWith("onepages/assets/sequence/")
+      author: authoredDiagram
+        ? "JW SOFT"
+        : authoredSource?.blender || path.startsWith("onepages/assets/sequence/")
         ? "JW SOFT authored AURA 3D model; OpenAI generated walnut texture"
         : blenderLogo
         ? "JW SOFT; lettering based on Pretendard by Kil Hyung-jin"
@@ -162,8 +191,10 @@ async function main(): Promise<void> {
           : generated
             ? "JW SOFT and bundled library authors"
             : "SIR",
-      acquiredAt: september28SharpImage || path.startsWith("onepages/assets/sequence/") || /\/(?:service-studio|space-studio)\.webp$/.test(path) ? "2026-09-28" : path.startsWith("assets/home-four/") ? "2026-09-27" : "2026-09-21",
-      licenseExpression: blenderLogo
+      acquiredAt: authoredSource?.acquiredAt || (authoredDiagram ? "2026-09-29" : september28SharpImage || path.startsWith("onepages/assets/sequence/") || /\/(?:service-studio|space-studio)\.webp$/.test(path) ? "2026-09-28" : path.startsWith("assets/home-four/") ? "2026-09-27" : "2026-09-21"),
+      licenseExpression: authoredDiagram
+        ? "LicenseRef-JWSOFT"
+        : blenderLogo
         ? "LicenseRef-JWSOFT AND OFL-1.1"
         : path.startsWith("onepages/assets/sequence/")
         ? "LicenseRef-OpenAI-Generated-Asset AND LicenseRef-JWSOFT"

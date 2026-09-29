@@ -285,363 +285,363 @@
     },
     {
       "path": "onepages/assets/sequence/aura-001.webp",
-      "sha256": "2916d17f8671e3c19172d8f9a98bd068fbbe778a3077211d98601c3ffb01ab5a",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "89d0e73792e2fd6790e838ec25845bf5e9de080fbc19de5c8fbc74dc3ee7456a",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-002.webp",
-      "sha256": "937371be37bd215737341060d8018701d21948c9512173cfa99c59cd79bb0f02",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "c7e844212ee411c8668b9efa61a50df9ccde287744790f9f0a6a2b76b9a9600a",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-003.webp",
-      "sha256": "6d7684cc79b475961466102dd202680adfab6429d01155a4919b6aa81dc09f46",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "b2507156915d6bd3a71db58efd1f7049d80e45b5756e7380dc93c9a5c51e103c",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-004.webp",
-      "sha256": "cbcd9be37b21ca3f230d55b61b6ab9c4f3f90cae530be7ae58a08a6712f33513",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "576b3fe955084ce167771fe4c37939521e761f396561f5e6857b7c26b9336fd4",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-005.webp",
-      "sha256": "f4379762b5f590538003df621cb918bb02a4b69ed9e0a7cfff5eeaa639226eb5",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "eb09a910f58c99262678058e8ebf90865403e189a313f42914c259f8fdc8d308",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-006.webp",
-      "sha256": "7e7cc12a3ce7f110d0ea12ef17263c7a4ea738af6b30238c0758d588b3f54b89",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "94a1bbfb937af4d976917ef1757d0a24df1d9017aa12905fec4f04e8a7faad6b",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-007.webp",
-      "sha256": "e260cc85e558c14b14c387492ed744c7f3f961b8580869adb7f2fc94c3cf1f1e",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "87b9e4ac2a0c566ca91b75e2aacfd4ae85a0ea8cf41ae3fdc0e76a03a6cd8024",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-008.webp",
-      "sha256": "287490238c946da57051c4e88f5ddb1031fcd3addb0e9e599de7498e79514bd0",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "098429bfcfe95944388167988352552c8db3e5cbc9da0ae85fe1f5e1b4134f1c",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-009.webp",
-      "sha256": "6fb03589fd92d63a19e26c66d636939241e75da7e6155e5875482ba6b77f7639",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "dffdf2eb20398aacdf4cf44b1d967ffc191f389e836c6a1cc23e2ef7815c0715",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-010.webp",
-      "sha256": "4f485d8114a700dfdbdbd8396986069292bb54625c3ba7122fd89e0f2408515d",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "57b2a3498d2dd711cba9be16d5f5c657bf28925a5f84baad1840a04eef98ca25",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-011.webp",
-      "sha256": "9d302985de4c388833aeeda6c92d8e1d5995a0762593ecde66851791ecfd0143",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "b919589b60347284a12f28f0d64fb7a5140a471a7ef66c8a69d1eee2cddd56db",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-012.webp",
-      "sha256": "e02dcefd61675ac83863d9f9e77c40f6fec509e65ab71b19db75b1b241e16408",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "86832e32ab47759617e6cfa268f4a7cab3cdfdc0e1e473c0315a9c827f6448cd",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-013.webp",
-      "sha256": "537435ac435a3b6dc929f1f9e1d8d653462f7041321f39a7d22fb5c3e274db99",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "93b4a4a256ae4e374a4f208631db2b1605f06ffd183c3468ce105a3d5580a2af",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-014.webp",
-      "sha256": "c750007ef9fb0266b058629ca81ff1c1731f9d03878ca919eaf9f0dc6e21117c",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "a4200b16a1b932cf41746ed0e29f3bf4de35d14101fda031512cf578de5392bc",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-015.webp",
-      "sha256": "94cd834bfa8037917d9911e76fa01f18acf2b298432f4887c86c4353da291624",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "a39145944b6d5eb798391d26fe6050ce60ca2ac0f1a3be4c18fcace1dd6a95a9",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-016.webp",
-      "sha256": "573a3feb5020b649e9b5e4dd0348b1cd2308e0f36d11d3136f126bff53fe430a",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "34c717222845e9e83e2a992d9adb65a83c1c34d93212166da629ec41d3b5e5bd",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-017.webp",
-      "sha256": "042304e72464b7efd31fd0cd06ee8755c234a48f8be8bf6970d5fbca23b0d757",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "229cf54c2bbe003b46f7d5ab2ce84e1681e6003d2af743a68826560d05dfaf19",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-018.webp",
-      "sha256": "d50b96caf1239ad8a390168cb13f6780720a85056e2ce638c45bc2938c63a94e",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "c55ccdd6cd45d64ae091e854e7a2b0ab8fd07ec4962b961f9116c019996c0173",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-019.webp",
-      "sha256": "67fadc564d9d75d1f49f97a2b17c5831e8c61e2f341f880340364a4c8b43120e",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "b9f515091a67638a51b182f8d0b550ee2de30750a328d32073d100de7309f261",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-020.webp",
-      "sha256": "648bfdbcd984cdcb9942bbb8d468eeda9a4764eeba1b090b2cd7150361fbf3d8",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "f2bf8fff06b904dd1d2938fe2ee84b7bada5b8c27d51727a550a1096f31b4480",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-021.webp",
-      "sha256": "e183eb78bd695b8003e25175c8538b655fdec61eba793c36d9b687d3e98c8e89",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "ea99813222b6b290df6338c985d492931cd28649640905ede87145c90df38372",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-022.webp",
-      "sha256": "01e235a53bbaf8113ad957ac09b822ee1a1dd9af27b340f3573b8b99189c337c",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "cba4f3709f10ae275a45d96b454b84a3fed065739905a103e41c74a60bd04e71",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-023.webp",
-      "sha256": "cf917eefb23ecd1d7c48173aab5f1facb75d89124456c68f71a1a5d9d3cf2bc7",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "2490c0f7a6f07adfc69ac289827950c7a8f2a75ff839b4aff24f9238bcc3d9d0",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-024.webp",
-      "sha256": "8d98ad2aef38870204564bf97f84992cb6a1097e89eeb177113f9d891ef07d07",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "842e13e2114ab4bbd458a07ba9202314be0db2892a972f5fa855425920e5cd6f",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-025.webp",
-      "sha256": "9f29c7fbb19ce75168492724d9a8c7d5e84eae3a57c613a2919ddb42b87eefe5",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "741cc8846cb6c8aa8039a6bc8f90241f7c66b9c00269798d4ae448b40eecef65",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-026.webp",
-      "sha256": "77ffac0ad49c79a65568345cd65222eb01042e5d493e9a1a20964555178d98c8",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "60d757403a470ea2255d93ac4b852197ff4e48c3b86225b2b03fd9abe80dc691",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-027.webp",
-      "sha256": "6953fc10e2544c6645b372fa307d0808869c0948dcc88621c8453c0b68317d91",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "c1610b2077f1251336c2cb2a0b19e4f45f43b60834d313e03875c3e72622911c",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-028.webp",
-      "sha256": "0ca4551c7512c865fcdb1f39606e8622cfa2ac0d979f9337861fab4e1f59b96d",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "5c768eeeece0d4986de3cf86aa42837b2dfe5076395c64c4f5332f0b95b2dcc3",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-029.webp",
-      "sha256": "eaba86fddcd5f3736901084b21fdb4aa9f29ceeff3a0c0eba646ce8cdb091f33",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "ff0b3ff0b5f7c26665afdcbf216616e6f2ab2cd84f8c4a1c3b89d38cbbaa9666",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-030.webp",
-      "sha256": "753115b138781c30d90da57ec7487b5e074fb894de291f9fb200226c00403ef1",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "1b9492de1d40209579166d98b794717db3e03843c8181bc00940e730b98da77e",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-031.webp",
-      "sha256": "c22c186e80600a45b2013c211541090fe3b39b8770012d258e3425f843a7cb01",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "419f6dddfb143396462774bdfcece52251a5dcfb40ed114370fbb91bd1df8b24",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-032.webp",
-      "sha256": "ac553a2f16057c39c5488c794bcec6479a10882b239083e4c82b4a66e508ba99",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "a018e1ad81e875a69612ed92420fba7a09b85a81c1d2a1f5939a59be723e77c2",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-033.webp",
-      "sha256": "b517d9b2551a19282596f885b9f75b726c08d5657019291043df597c61515653",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "99727be489f361c386f1c48a73919317f14aa3b24085e37bd7189aed76a4ef71",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-034.webp",
-      "sha256": "9d00acad66b3979e6140d7904702a2ab6c96d8855a54986b1032ff311b2c593f",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "118c70be5448be964ad310cfe625fb63b46ff1fcdc88574ff1cfe94bbea066f4",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-035.webp",
-      "sha256": "63db8dbd5f76b2441f0a32ee8c4833bae53b7c554822ce89f9b5b73b7642cc13",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "bcd7a71ab74182cdbb768137427c3bee550cb3e15b4b0eb1b38dd01bddb66dd2",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-036.webp",
-      "sha256": "1d1d0e55ed162d8ce18e22ecf2c29a0a4438e029a1d027fa467856bbeeada06e",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "2012a0ba5ae5194f7355b456c2f8440317bd2cdf0ad1ed3385b22fc6a093f989",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-037.webp",
-      "sha256": "d741cbf7c1b914c628671dd884329d806ccf977cccc367339f6e0e8f046bf068",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "41b29d4fe874de4ed70910d5ceb43e9377dc932590cd15b4a2dc3e66a7470f54",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-038.webp",
-      "sha256": "e1e5252df905dc46cd12fe087e1e21cdeb882b00aaf47948db07cad4f11f7aa3",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "dc761950c25e5a547e4a773d74913e66f306d131d1d3f65de928ef3d61e85bfa",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-039.webp",
-      "sha256": "444c5edd37cb971a483221780e0dbfecc45c92765a8f66c36e7967871bea2172",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "416423a9071b9c3c148687e9c3f4128f18d4c17338e10a380a47adf3fbd65007",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-040.webp",
-      "sha256": "38369cfa6b419e4771a55c5bd1834991eb8bc45a1abc1b83ff280291bf300352",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "54489f99535277cc24653cab525da9143d0119f8eddbaf895994cbb67ab25ebe",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-041.webp",
-      "sha256": "91fdd63449f1420281e0eb1ae2bc7facac21b22122ad112dab21dc469aae7b70",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "2af251cfee736806fa3bde788d86567e96e330d8c630b70c5afa7e366160b427",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-042.webp",
-      "sha256": "5d6238e2b23a85912de9f5e2d085561f840b0a840db865dc1d543ad245e20617",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "1d3273ad5cf8b79bf2a4c423360153142f5c11b05cbe7e920f30582a33aab8ac",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-043.webp",
-      "sha256": "720e9d0402925e672b76085f56ce08d51cb0c4a1992bbb969e78b13bcec2c6f2",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "beb06e79ce1297cb6f309c727318c326feb2001a8d7f9f9bbafd0d3bac461121",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-044.webp",
-      "sha256": "a8d006747a5d0dd205043f5d269f5591518b6cd7a2bd50626f639fb4a285f68f",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "30f206a70328d2c3af48a321b3d11eb6afdc5e6e70dca0ceed98d60e44a12bcf",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-045.webp",
-      "sha256": "67725a563e655aa5c0154d0ae2d13a9d255abd029036278b66f3ae1b430294bb",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "cf0ae825923c975ef8887bd43e26e50486388231125aa3cc780a4fbd5eccca8a",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-046.webp",
-      "sha256": "7578ed38c3067c34e96966445368b964dac630934b42ee3d8f09b6f2d0e95204",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "da47f49bc0ba2aeb4d1d36e90d3eff5b90864343d087ed2f52d1ef56ebd68dee",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-047.webp",
-      "sha256": "69f833ae855e0e01d9a69b834ca0c77843d2df1160b812280454b55424ac3693",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "db2662b922687161ab3f3d210f036e6e5eece26b34e49969e8428473b1a4d3a3",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-048.webp",
-      "sha256": "a2e85a7c7c6cc516c09ece20d76a0254a5a1b61b1e3b04579610ca212abedf4b",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "aa8e89b56cca920e11b3e31c00c1cc56160e27eedd88aa27c26e88aa6a212c19",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-049.webp",
-      "sha256": "903b597e5fe901d6b0d025f65c830ddaab026fe98749841b49605bfff469de96",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "4a92f559f92b2fbfc14e7476c99b8417a4f072edd5710bc38c382c81c058733f",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-050.webp",
-      "sha256": "7407aba9d6d8c0e0201c20fb2b1ec0279b8f1fa7ad1f740a58556966583d1781",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "937fc075bdc039d2fa85401d070e2949e1e7670dc8c080f828e915f87179f5ef",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-051.webp",
-      "sha256": "da522a4ccd42e9dd4b6fa8139f9d7b4c90c50432baf6c843f2402c6f21263b31",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "bacb0fe9fb64fa3ed51aedda0bf3613310d830ba005980dcd5eec4763839d375",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-052.webp",
-      "sha256": "fdc896bab95baa50b19f52cc1d0eba791dc7d34d547835b247b52971a268a9e0",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "0157ef3b7b396db1dbaa9b61ecb5c5eb0963bc2729fcb1affb8f3a0bf06990c5",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-053.webp",
-      "sha256": "d665a3a4040985c54fdbbcf330e7261f0a945556b1a6d224297377771fee4a0d",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "570c6feae144839ec472a19e2524317bf59ad400aa68580c0a7d7a669a2aa097",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-054.webp",
-      "sha256": "d305abb86a17c493ce3702057010ef7677b6149079cb267c5f1de9e2a3f2d37f",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "602503c3a1c863a63f86d56c622b0f36c4ec31728c43251465f5092acffc7590",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-055.webp",
-      "sha256": "a44002f07822c6de455e1e6d204219e6b3966b9c4c2c592d692fa92d592be7b3",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "1541277f39961f243ad3f176114f9ed69a669035ea8ef73d8c749e3f535f585f",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-056.webp",
-      "sha256": "bb4d9de8ae9d5121037c5d93d59346d7f5978695c2305862721d4f38b1b31ec1",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "78169222c4c6c532f5321673c50ceda1edfbd6e9109fa55f0904167add8d3d16",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-057.webp",
-      "sha256": "e9932b110edc4b2d098cb5c957f8342e23d897a648c58d1c1b8dd349c7621691",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "a8693209bf9cd33f1f3b8e38c5c6d95f59469725349e5706e0dce2ea7004a05a",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-058.webp",
-      "sha256": "0b41f6f7b30b3d6a0e6c181de738f93ed30aa657958687828909ce308f0084e5",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "37201a74a4b591f738e7e3251bdd4181854d10c908c84ce74512e6831c1d4765",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-059.webp",
-      "sha256": "6c78640d84c7db17af0a9adc12e2ae03183264bcf83a51675a4da093cc3a853d",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "1533e0f3077b4aa0f16ce78057a85574a68048a44d404ae2110cc94b903604e8",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/sequence/aura-060.webp",
-      "sha256": "6a4d03dfad5a633ef6a49ddc9076154968512879429402065b7d86b2d27de554",
-      "owner": "onepage-showcase",
-      "origin": "aura-blender-20260928"
+      "sha256": "af8cba4f086b2e336fb8d25c82874b2534b4b2109fde29f6cc3346fe869077d2",
+      "origin": "blender:aura-master-20260929-sequence",
+      "owner": "onepage-showcase"
     },
     {
       "path": "onepages/assets/images/project-hero-walkway.webp",
@@ -689,6 +689,138 @@
       "path": "onepages/assets/images/service-field-studio.webp",
       "sha256": "3eb0e72ca1ac78dc3170983d59ec373321bdabd2691a94c55c0a6d80e9b830c4",
       "origin": "service-field-studio-20260928",
+      "owner": "onepage-services"
+    },
+    {
+      "path": "src/assets/main-one/atelier-collection.webp",
+      "sha256": "a61c5aaae14c9515feb84349071080310fa65ede2c63f499177d8464d6d024fa",
+      "origin": "imagegen:7bdc0326-f6b3-4c26-97f1-142594039b2c",
+      "owner": "home-1"
+    },
+    {
+      "path": "src/assets/main-one/atelier-mug.webp",
+      "sha256": "751b4538125cd31b04913f1e5caac0143459f71c6e85cee6ab2a028deb82ada3",
+      "origin": "imagegen:65545e27-0cf0-4f63-9d56-45053202aa1f",
+      "owner": "home-1"
+    },
+    {
+      "path": "src/assets/home-four/experience-pack.webp",
+      "sha256": "85b130f4418a52aff21c145bf38279d36ab13e75a22f7d71889cd89fb8074448",
+      "origin": "imagegen:cdac65cf-1e5a-43a0-aec1-235eca3dab23",
+      "owner": "home-4"
+    },
+    {
+      "path": "src/assets/home-four/journey-products.webp",
+      "sha256": "fb90bdb99988223b132db62e3aa764eae81dab1274cf2dd8a672553feae21ba3",
+      "origin": "imagegen:e93ab311-d44e-414a-9584-5f330bf328b0",
+      "owner": "home-4"
+    },
+    {
+      "path": "src/assets/images/home2-correction/decision-review.webp",
+      "sha256": "59bd1964f7b63519b96bb906f6cbdb6947cecf41c2ddb0454d4da1a37d4de04e",
+      "origin": "seven-decision-review-20260929",
+      "owner": "home-2"
+    },
+    {
+      "path": "src/assets/images/home2-correction/operations-playbook.webp",
+      "sha256": "7dd524e08e515f632038d8a56c9ca4676e927c0eeaa60a9e79d630faea94c3d6",
+      "origin": "seven-operations-playbook-20260929",
+      "owner": "home-2"
+    },
+    {
+      "path": "src/assets/home-three/correction/fieldnote-editorial.webp",
+      "sha256": "e6e1f72c097df02c4bada404c866523b39a8528d9f1d3e66fe78326cf76b8795",
+      "origin": "seven-fieldnote-editorial-20260929",
+      "owner": "home-3"
+    },
+    {
+      "path": "onepages/assets/correction/aura-setup.webp",
+      "sha256": "373173c2e862e14b0015bee91907e42526107aeed3f2bf297b5f8b6125af723f",
+      "origin": "blender:aura-master-20260929-setup",
+      "owner": "onepage-showcase"
+    },
+    {
+      "path": "onepages/assets/correction/aura-detail.webp",
+      "sha256": "902344223d6ad154cc72b4a83044d5bdbef441f79f94f2459b5088e4576bf95e",
+      "origin": "blender:aura-master-20260929-detail",
+      "owner": "onepage-showcase"
+    },
+    {
+      "path": "onepages/assets/correction/service-ondo-studio.webp",
+      "sha256": "09f5fe60f6e5e11ab2f4dbce4ec50af8ccd626838e12a3dd81ff19dfbba4e4e5",
+      "origin": "openai:seven-onepages-20260929-service-ondo-studio",
+      "owner": "onepage-services"
+    },
+    {
+      "path": "onepages/assets/correction/aura-hero.webp",
+      "sha256": "1c28080b848c5cc64d7477d4bb4229a128a352508597b6b8906ff8aaaf5d42a6",
+      "origin": "blender:aura-master-20260929-hero",
+      "owner": "onepage-showcase"
+    },
+    {
+      "path": "onepages/assets/correction/project-arrival.webp",
+      "sha256": "37945d179a83efc7c1b46112c1c4bd607ae074a87aa12392ad1751ba961dd879",
+      "origin": "openai:seven-onepages-20260929-project-arrival",
+      "owner": "onepage-projects"
+    },
+    {
+      "path": "onepages/assets/correction/aura-front.webp",
+      "sha256": "87ee7f8ef0a075a1aa2bf17b6c66a3cbcc82917214d2da40e7436cd139687bd5",
+      "origin": "blender:aura-master-20260929-front",
+      "owner": "onepage-showcase"
+    },
+    {
+      "path": "onepages/assets/correction/aura-placement.webp",
+      "sha256": "ee4395e884e2e9ee0d5ec46e614257b7ee20773f1afc13095eebc8158348bda2",
+      "origin": "blender:aura-master-20260929-placement",
+      "owner": "onepage-showcase"
+    },
+    {
+      "path": "onepages/assets/correction/aura-living.webp",
+      "sha256": "27b07f5aa1e37a65af83dd13754ae66b0a25467fad6694aeeef00ecabc8efbc6",
+      "origin": "blender:aura-master-20260929-living",
+      "owner": "onepage-showcase"
+    },
+    {
+      "path": "onepages/assets/correction/aura-materials.webp",
+      "sha256": "367c6e68802bbcd76e59c566fe9b6453becca63c0cc735aa89cdf6f521a142a2",
+      "origin": "blender:aura-master-20260929-materials",
+      "owner": "onepage-showcase"
+    },
+    {
+      "path": "onepages/assets/correction/project-material-study.webp",
+      "sha256": "37320c0843058e3edb012d0e5fe5bd985a69ed50589e67e55af7fbad2bf0e775",
+      "origin": "openai:seven-onepages-20260929-project-material-study",
+      "owner": "onepage-projects"
+    },
+    {
+      "path": "onepages/assets/correction/aura-fabric.webp",
+      "sha256": "3aaf58c274287fbb2ea331e337eab226c654c3af446fa7142d575d503cf58694",
+      "origin": "blender:aura-master-20260929-fabric",
+      "owner": "onepage-showcase"
+    },
+    {
+      "path": "onepages/assets/correction/aura-metal.webp",
+      "sha256": "b20c6fe3e78ca176a9e9aef3735f4f41e65ba1a03c5b51676b86714681d680bc",
+      "origin": "blender:aura-master-20260929-metal",
+      "owner": "onepage-showcase"
+    },
+    {
+      "path": "onepages/assets/correction/aura-wood.webp",
+      "sha256": "35350cefd9205d85ac4c9bda37404eb63c2fd27cd79393f3d068d06a356d643c",
+      "origin": "blender:aura-master-20260929-wood",
+      "owner": "onepage-showcase"
+    },
+    {
+      "path": "onepages/assets/correction/service-ondo-first-cup.webp",
+      "sha256": "af0a901fe48bdcd33dbb86775c0a51511513a1785abf89b6c7a06a68a9e01149",
+      "origin": "openai:seven-onepages-sol-review-20260929-service-ondo-first-cup",
+      "owner": "onepage-services"
+    },
+    {
+      "path": "onepages/assets/correction/service-ondo-course-works.webp",
+      "sha256": "1750e5fa0fd3027892798cfb37e9551151faef65f326b982c0c31934a04ce624",
+      "origin": "openai:seven-onepages-sol-review-20260929-service-ondo-course-works",
       "owner": "onepage-services"
     }
   ]
