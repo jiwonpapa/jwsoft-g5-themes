@@ -36,7 +36,7 @@ $jw_photo = static function ($type, $label, $classes = '') {
         <p>전략을 세우는 일부터 디지털 경험과 공간을 만드는 일까지. <?php echo $jw_company_name; ?>는 현장을 이해하고, 필요한 것을 연결하며, 실행 이후까지 함께합니다.</p>
         <a class="jwc-link" href="#company-approach">우리가 일하는 방식<i data-lucide="arrow-down" aria-hidden="true"></i></a>
     </div>
-    <figure class="jwc-split-hero__figure"><?php $jw_photo('campus', '광장과 나무가 어우러진 현대적인 업무 시설'); ?><figcaption>사람과 일이 자연스럽게 이어지는 환경을 생각합니다.</figcaption></figure>
+    <figure class="jwc-split-hero__figure"><?php $jw_photo('co1-workshop', '밝은 작업실에서 디자인 자료를 함께 검토하는 팀'); ?><figcaption>사람과 일이 자연스럽게 이어지는 환경을 생각합니다.</figcaption></figure>
 </section>
 <!-- Company summary: keep short facts between the hero and detailed services. -->
 <section class="jwc-profile jwc-wrap" aria-label="기업 소개 요약">
@@ -60,7 +60,7 @@ $jw_photo = static function ($type, $label, $classes = '') {
 </section>
 <!-- A photo and a project brief explain one example instead of repeating a slogan. -->
 <section class="jwc-section jwc-wrap jwc-example">
-    <figure><?php $jw_photo('team', '도면을 펼쳐 놓고 프로젝트 내용을 함께 검토하는 동료'); ?><figcaption>프로젝트의 출발점은 같은 문제를 함께 이해하는 일입니다.</figcaption></figure>
+    <figure><?php $jw_photo('co1-consultation', '고객과 함께 프로젝트 내용을 검토하는 상담 장면'); ?><figcaption>프로젝트의 출발점은 같은 문제를 함께 이해하는 일입니다.</figcaption></figure>
     <div class="jwc-example__copy"><p class="jwc-kicker">프로젝트 접근 예시</p><h2>흩어진 고객 접점을<br>하나의 경험으로.</h2><p>기업 홈페이지와 상담 과정이 따로 운영되는 상황을 가정한 협업 예시입니다.</p>
     <dl class="jwc-brief"><div><dt>출발점</dt><dd>방문자가 사업 정보를 찾고 담당자에게 문의하기까지의 흐름을 살핍니다.</dd></div><div><dt>함께 할 일</dt><dd>정보 구조, 화면 설계, 문의 분류와 운영자의 응대 과정을 함께 정리합니다.</dd></div><div><dt>확인할 자료</dt><dd>메뉴 구조도, 주요 화면, 문의 처리 기준을 단계별로 공유합니다.</dd></div></dl></div>
 </section>

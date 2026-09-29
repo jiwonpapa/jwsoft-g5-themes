@@ -1,6 +1,6 @@
 # JW-Business 생성 이미지 기록
 
-메인 화면에 쓰는 프로젝트 전용 이미지입니다. OpenAI 이미지 생성 도구로 만든 뒤 `cwebp`로 변환했습니다. 외부 사이트의 사진을 복제하거나 다운로드하지 않았습니다.
+메인과 일반 페이지에 쓰는 프로젝트 전용 이미지입니다. OpenAI 이미지 생성 도구로 만든 뒤 `cwebp`로 변환했습니다. 외부 사이트의 사진을 복제하거나 다운로드하지 않았습니다.
 
 ## `home-hero.webp`
 
@@ -20,7 +20,13 @@
 - 방향: 자연광과 재료감이 살아 있는 현대 업무 공간
 - 프롬프트: `Premium architectural editorial photograph of a modern collaborative workplace interior in Korea, generous daylight, long communal table, glass walls, textured concrete, warm wood and greenery, a few distant subtle human silhouettes only for scale, refined minimal composition, calm gray and muted teal palette, realistic photography, no logo, no text, no watermark, landscape 4:3.`
 
-## 관리 원칙
+## 일반 페이지 전용 이미지 (2026-09-29)
+
+- `company-overview-{1..5}-*.webp`: 기업개요 변형마다 다른 협업·방문·소재 장면. 12개 원본. 4번의 업무 구역 사진은 기존 개념도를 대체합니다.
+- `business-list-{1..5}-*.webp`: 사업소개 변형마다 다른 전략·디지털·공간 장면. 10개 원본.
+- `business-detail-{1..4}-*.webp`: 각 상세 페이지의 업무·검토·공간 장면. 5개 원본.
+- OpenAI 이미지 생성 도구로 각 장면을 따로 생성하고 `cwebp -q 86`으로 변환했습니다. 기존 테마 사진을 복사하거나 다른 페이지의 이미지를 잘라 다시 사용하지 않았습니다.
+- 파일별 SHA-256, 원본 ID, 단독 사용 페이지는 [`quality/assets.json`](../../../quality/assets.json)에 기록합니다. 각 이미지의 정확한 생성 프롬프트는 보존되지 않았으므로 재현 가능한 프롬프트 자료라고 주장하지 않습니다.
 
 ## 메인 2 전용 이미지
 

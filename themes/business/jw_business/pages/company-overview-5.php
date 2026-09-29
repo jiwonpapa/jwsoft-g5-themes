@@ -30,7 +30,7 @@ $jw_photo = static function ($type, $label, $classes = '') {
     <nav class="jwc-trail jwc-wrap" aria-label="현재 위치"><a href="<?php echo G5_URL; ?>">홈</a><span aria-hidden="true">/</span><span>회사소개</span><span aria-hidden="true">/</span><span aria-current="page">기업개요</span></nav>
     <!-- JW BLOCK COPY START: legacy src/php/pages/company-overview/5.php; 이 페이지 안에서만 수정합니다. -->
 <header class="jwc-editorial-title jwc-wrap"><h1>좋은 질문에서,<br>오래가는 관계까지.</h1><div><p><?php echo $jw_company_name; ?>가<br>일의 이유와 결정을 남기는 방식.</p><a class="jwc-link" href="#company-belief">기록 읽기<i data-lucide="arrow-down" aria-hidden="true"></i></a></div></header>
-<figure class="jwc-editorial-cover jwc-wrap"><?php $jw_photo('team','같은 테이블에서 도면을 함께 검토하는 동료'); ?><figcaption>함께 확인한 내용이 다음 결정의 출발점이 됩니다. 협업 장면 예시.</figcaption></figure>
+<figure class="jwc-editorial-cover jwc-wrap"><?php $jw_photo('co5-roundtable','원형 테이블에서 제품 모형과 자료를 함께 검토하는 팀'); ?><figcaption>함께 확인한 내용이 다음 결정의 출발점이 됩니다. 협업 장면 예시.</figcaption></figure>
 <div class="jwc-section jwc-wrap jwc-reading-layout">
     <nav class="jwc-reading-nav" aria-label="기업 소개 목차"><strong>일을 남기는 방식</strong><a href="#company-belief">01 · 질문을 남기다</a><a href="#company-connection">02 · 결정을 기록하다</a><a href="#company-continuity">03 · 원칙을 지키다</a><a href="#company-next">다음 이야기</a></nav>
     <div class="jwc-reading">

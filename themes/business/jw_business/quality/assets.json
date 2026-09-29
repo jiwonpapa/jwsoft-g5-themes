@@ -828,6 +828,168 @@
       "sha256": "1750e5fa0fd3027892798cfb37e9551151faef65f326b982c0c31934a04ce624",
       "origin": "openai:seven-onepages-sol-review-20260929-service-ondo-course-works",
       "owner": "onepage-services"
+    },
+    {
+      "path": "src/assets/images/company-overview-1-consultation.webp",
+      "sha256": "127c0aefa0538fec2dac55b97003ca5a91f8101495e2d9dd8ea2153584c82070",
+      "origin": "ai-company-overview-1-consultation-20260929",
+      "owner": "company-overview-1"
+    },
+    {
+      "path": "src/assets/images/company-overview-1-workshop.webp",
+      "sha256": "84d0c3b281795366ac406aa9f1971ec2a7dad197259282724dcbc99430e35913",
+      "origin": "ai-company-overview-1-workshop-20260929",
+      "owner": "company-overview-1"
+    },
+    {
+      "path": "src/assets/images/company-overview-2-arrival.webp",
+      "sha256": "3e6560a5466be5d77b5acf9dd0e8e2bbaa4c37d7d2fb220f28f075aab565de5b",
+      "origin": "ai-company-overview-2-arrival-20260929",
+      "owner": "company-overview-2"
+    },
+    {
+      "path": "src/assets/images/company-overview-2-material.webp",
+      "sha256": "3db3e28a5fbb22cd4105d5f2ccdcd32d365d34e59661be8fe83a9b8748e37abf",
+      "origin": "ai-company-overview-2-material-20260929",
+      "owner": "company-overview-2"
+    },
+    {
+      "path": "src/assets/images/company-overview-2-studio.webp",
+      "sha256": "355daded23968fe69385890799d86bad1a29521697ba72965d5a7a77dddb5386",
+      "origin": "ai-company-overview-2-studio-20260929",
+      "owner": "company-overview-2"
+    },
+    {
+      "path": "src/assets/images/company-overview-3-arrival.webp",
+      "sha256": "1b12d2459d64a67181cd82090eef7ff66b5c9210301e3e6e012f1b7c3281b5e1",
+      "origin": "ai-company-overview-3-arrival-20260929",
+      "owner": "company-overview-3"
+    },
+    {
+      "path": "src/assets/images/company-overview-3-observation.webp",
+      "sha256": "1509bb83dcff9b695022cdfa3be79c8b593a75f24f128dacfba72fbc0d1e0da9",
+      "origin": "ai-company-overview-3-observation-20260929",
+      "owner": "company-overview-3"
+    },
+    {
+      "path": "src/assets/images/company-overview-3-studio.webp",
+      "sha256": "5e488120a033972133da71392fbca2152a9029c8d2b078782fe0d39b84959d84",
+      "origin": "ai-company-overview-3-studio-20260929",
+      "owner": "company-overview-3"
+    },
+    {
+      "path": "src/assets/images/company-overview-4-material.webp",
+      "sha256": "c1eb381c7fbda3dfa86a9b783518d8da91fe87dcf9cf64d1c7f8a5dc8f1b65fd",
+      "origin": "ai-company-overview-4-material-20260929",
+      "owner": "company-overview-4"
+    },
+    {
+      "path": "src/assets/images/company-overview-4-retail.webp",
+      "sha256": "170d1e3dfdcf75a66be50b5963f13376670654f21e7bc55ef882f708540beb3f",
+      "origin": "ai-company-overview-4-retail-20260929",
+      "owner": "company-overview-4"
+    },
+    {
+      "path": "src/assets/images/company-overview-4-workplace.webp",
+      "sha256": "4b7b49c223453e762174436bfc64a50be29c58c4d43120f61e806409e5a3877a",
+      "origin": "ai-company-overview-4-workplace-20260929",
+      "owner": "company-overview-4"
+    },
+    {
+      "path": "src/assets/images/company-overview-5-roundtable.webp",
+      "sha256": "34aa49f0cbe09d08f04fa7ab63c7c1f5d4e870a68dd4eb0039ae561e9e82b65e",
+      "origin": "ai-company-overview-5-roundtable-20260929",
+      "owner": "company-overview-5"
+    },
+    {
+      "path": "src/assets/images/business-detail-1-consulting.webp",
+      "sha256": "53f851c5aebd2c91dc9085cfe8067bda817b51c156c55652563d4185bdb7ed62",
+      "origin": "ai-business-detail-1-consulting-20260929",
+      "owner": "business-detail-1"
+    },
+    {
+      "path": "src/assets/images/business-detail-2-cover.webp",
+      "sha256": "e90fd0b939cd3d7aadf5d38f23b2676c777b7ce54c638bdbd2f01e4b8449f903",
+      "origin": "ai-business-detail-2-cover-20260929",
+      "owner": "business-detail-2"
+    },
+    {
+      "path": "src/assets/images/business-detail-2-review.webp",
+      "sha256": "79fe9656027f9203a95a708a771c490ac098f265113d7759a9013b3b8794593e",
+      "origin": "ai-business-detail-2-review-20260929",
+      "owner": "business-detail-2"
+    },
+    {
+      "path": "src/assets/images/business-detail-3-space.webp",
+      "sha256": "967553739d7a71e98a6b5539c4aec5d3415bea09120992c4c7f4d93a8f16acd2",
+      "origin": "ai-business-detail-3-space-20260929",
+      "owner": "business-detail-3"
+    },
+    {
+      "path": "src/assets/images/business-detail-4-case.webp",
+      "sha256": "07adf0c28788e614c74b32fa7bf8be1a175bb8f2fc4fd5bb01e7c24d0b0fb280",
+      "origin": "ai-business-detail-4-case-20260929",
+      "owner": "business-detail-4"
+    },
+    {
+      "path": "src/assets/images/business-list-1-digital.webp",
+      "sha256": "9a346fd8d523bf94834d849b5ceb6a56b3214ccdb91d2e140ed56df658b184e8",
+      "origin": "ai-business-list-1-digital-20260929",
+      "owner": "business-list-1"
+    },
+    {
+      "path": "src/assets/images/business-list-1-space.webp",
+      "sha256": "ebb17660331c65ed5c48c337f4359775d7073501e6bf6ca09edb610b21899232",
+      "origin": "ai-business-list-1-space-20260929",
+      "owner": "business-list-1"
+    },
+    {
+      "path": "src/assets/images/business-list-1-strategy.webp",
+      "sha256": "b6f6254ed85a10337563a9160e9b0a7a41c3419f811f937e3030a3099f984151",
+      "origin": "ai-business-list-1-strategy-20260929",
+      "owner": "business-list-1"
+    },
+    {
+      "path": "src/assets/images/business-list-2-digital.webp",
+      "sha256": "b3d6e15e591725e10f527b0fbfa6054217bd1695963cfdc9bd4a8cf359b30c75",
+      "origin": "ai-business-list-2-digital-20260929",
+      "owner": "business-list-2"
+    },
+    {
+      "path": "src/assets/images/business-list-2-space.webp",
+      "sha256": "0b0b7f764cbfa282248ebdb17fa31ca258604bdc7f2747a2f1927411ed774177",
+      "origin": "ai-business-list-2-space-20260929",
+      "owner": "business-list-2"
+    },
+    {
+      "path": "src/assets/images/business-list-2-strategy.webp",
+      "sha256": "faaa3967262d06fb49a1b1151060dc0fc5f94ecf864ddcf385a8d67aba74ddc7",
+      "origin": "ai-business-list-2-strategy-20260929",
+      "owner": "business-list-2"
+    },
+    {
+      "path": "src/assets/images/business-list-3-arrival.webp",
+      "sha256": "c0421c4a601cd768ed550d4aa7db406ce3f2d5ef6501a066d1bee4e350713d66",
+      "origin": "ai-business-list-3-arrival-20260929",
+      "owner": "business-list-3"
+    },
+    {
+      "path": "src/assets/images/business-list-4-team.webp",
+      "sha256": "25987c14b01e1baf6cef47aafb626525107f281a3ac8828048a63ce05447d019",
+      "origin": "ai-business-list-4-team-20260929",
+      "owner": "business-list-4"
+    },
+    {
+      "path": "src/assets/images/business-list-5-direction.webp",
+      "sha256": "927c03423a2ab50483b739a01a57a7d65af03411a51b8f66bd2906aaeb1dceef",
+      "origin": "ai-business-list-5-direction-20260929",
+      "owner": "business-list-5"
+    },
+    {
+      "path": "src/assets/images/business-list-5-experience.webp",
+      "sha256": "7ae4116f0c25a94bb5acbe0a11051ecdf3acb3088bc6d1b8953bd750025f063f",
+      "origin": "ai-business-list-5-experience-20260929",
+      "owner": "business-list-5"
     }
   ]
 }

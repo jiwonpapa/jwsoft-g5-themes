@@ -26,7 +26,7 @@ $jw_company = jw_business_settings()['company'];
     <nav class="jwc-trail jwc-wrap" aria-label="현재 위치"><a href="<?php echo G5_URL; ?>">홈</a><span aria-hidden="true">/</span><a href="<?php echo $jw_link('business-list-1'); ?>">사업분야</a><span aria-hidden="true">/</span><span aria-current="page"><?php echo jw_business_escape($g5['title']); ?></span></nav>
     <!-- JW BLOCK COPY START: legacy src/php/pages/business-detail-3.php; 이 페이지 안에서만 수정합니다. -->
 <header class="jwc-cinema-title jwc-wrap"><h1>공간의 쓰임을<br>명확하게 설계합니다.</h1><p>방문 동선 · 공간 사용 · 안내 체계<br>검토할 범위부터 함께 정합니다.</p></header>
-<div class="jwb-space-banner jwc-photo jwc-photo--workspace" role="img" aria-label="테이블과 창가가 연결된 업무 공간 예시"></div>
+<div class="jwb-space-banner jwc-photo jwc-photo--business-detail-3-space" role="img" aria-label="테이블과 창가가 연결된 업무 공간 예시"></div>
 <section class="jwc-section jwc-wrap jwb-spec-layout" aria-labelledby="space-scope-title">
     <div><h2 id="space-scope-title">업무 범위</h2><p>공간의 모양을 결정하기 전에<br>사용하는 장면과 조건을 확인합니다.</p><a class="jwc-link" href="#space-preparation">상담 준비 자료<i data-lucide="arrow-down" aria-hidden="true"></i></a></div>
     <dl class="jwb-specifications">

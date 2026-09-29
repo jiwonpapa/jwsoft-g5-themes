@@ -33,7 +33,7 @@ $jw_photo = static function ($type, $label, $classes = '') {
 <section class="jwc-cinema" aria-label="기업 현장 소개" aria-roledescription="슬라이드 쇼" data-jwc-slider>
     <div class="jwc-slider__viewport" data-jwc-viewport tabindex="0" aria-label="기업 현장 사진. 좌우 화살표 키로 이동할 수 있습니다.">
         <div class="jwc-slider__track">
-            <?php $slides = array(array('campus','외관에서 시작하는 현장 이해','접근 동선과 주변 환경부터 살펴보는 공간 소개 예시입니다.','현대적인 업무 시설과 광장'),array('team','도면을 함께 읽는 검토 시간','기획 의도와 현장의 조건을 같은 자료 위에서 확인합니다.','도면을 검토하는 동료들'),array('workspace','회의와 집중을 담는 업무 환경','함께 논의하는 자리와 개별 업무가 이어지는 공간 예시입니다.','자연광이 들어오는 협업 공간')); foreach ($slides as $i=>$slide) { ?>
+            <?php $slides = array(array('co2-arrival','첫 방문에서 시작되는 경험','접근 동선과 주변 환경부터 살펴보는 공간 소개 예시입니다.','햇빛이 드는 현대적인 공간의 입구와 안내 데스크'),array('co2-material','손에 닿는 재료까지 검토합니다','공간의 분위기와 쓰임을 재료의 질감 위에서 비교합니다.','작업 테이블에 펼쳐진 색상과 소재 표본'),array('co2-studio','회의와 집중을 담는 업무 환경','함께 논의하는 자리와 개별 업무가 이어지는 공간 예시입니다.','자연광이 들어오는 스튜디오에서 일하는 팀')); foreach ($slides as $i=>$slide) { ?>
             <div class="jwc-slide" role="group" aria-roledescription="슬라이드" aria-label="<?php echo $i+1; ?> / 3">
                 <?php $jw_photo($slide[0],$slide[3]); ?>
                 <div class="jwc-slide__caption"><h2><?php echo $slide[1]; ?></h2><p><?php echo $slide[2]; ?></p></div>
