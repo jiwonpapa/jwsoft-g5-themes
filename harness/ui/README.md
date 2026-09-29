@@ -84,3 +84,9 @@ bun run dev:g5 --page home-4 --gallery
 `bun run harness/ui/collect-signatures.ts`는 메인1–4·서비스·프로젝트의 새 강조 장면을 PC 스크롤, 모바일 키보드, 동작 줄이기 키보드로 각각 시작·중간·끝까지 조작합니다. 상태 속성만 확인하지 않고 실제 표시 문구·이미지·원본 구간 캡처를 남깁니다. `JW_SIGNATURE_OUTPUT`으로 새 경로를 지정합니다. 수집 전후 inputDigest가 달라지면 실패하며 해당 캡처는 승인에 사용할 수 없습니다. 결과는 `observed-not-visually-approved`로 기록하며 독립 시각 검토를 대체하지 않습니다.
 
 회전 수집기도 `JW_ROTATION_OUTPUT`으로 새 증거 위치를 받습니다. 이전 검토 증거를 덮어쓰지 않고 같은 동결 빌드의 캡처·동작·내장 브라우저 검수 기록을 함께 검토합니다.
+
+## 일반 페이지 최종 검토 증거
+
+`bun run ui:capture --page general --project=desktop-light --project=desktop-dark --project=mobile-light --project=mobile-dark`는 현재 설계 준비된 일반 페이지 16종의 실제 G5 화면 64장을 수집합니다. `bun run ui:check --page general`은 8개 viewport 상태의 오류·넘침·이미지·아이콘·접근성을 검사합니다. `bun run harness/ui/collect-general-interactions.ts`는 일반 페이지 계약에 등록된 슬라이더와 목차 조작 14건의 전후 화면을 수집합니다.
+
+최종 소스를 배포하고 캡처한 뒤 `bun run harness/ui/prepare-review-captures.ts <group> <batch>`로 브라우저 사진 URL을 원본 SHA와 대조하고, 전체 화면 PNG를 `quality/evidence/<batch>/`에 복사합니다. 이 명령은 `output/qa/ui/<batch>-<group>-review-captures.json`에 검토용 사실 자료만 생성합니다. 합격·비교 판단과 `quality/reviews/<group>.json` 작성은 별도 독립 검토자의 책임입니다.

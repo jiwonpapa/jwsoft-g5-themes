@@ -1,0 +1,935 @@
+{
+  "schemaVersion": 2,
+  "group": "company-overview",
+  "inputDigest": "81f74d2302dec06c0b626d7bf7d7bf0972d1220dbc819860b0f29ed98dc5716d",
+  "implementer": "codex:/root:20260929",
+  "reviewer": "gpt-6-sol:/root/finish_visual_review:20260929",
+  "reviewedAt": "2026-09-29T07:25:53.071Z",
+  "result": "pass",
+  "captures": [
+    {
+      "path": "quality/evidence/current-20260929/company-overview-1/desktop-light.png",
+      "sha256": "85ed3e4a04f7bfdb01a5d9d330d51e0ddbf625f507441a2a0d8fc39af46b8673",
+      "page": "company-overview-1",
+      "viewport": "desktop",
+      "mode": "light",
+      "width": 1440,
+      "height": 1000,
+      "url": "https://g5themes.test/pages/company-overview-1.php?device=pc",
+      "capturedAt": "2026-09-29T07:06:01.394Z",
+      "fullPage": true,
+      "documentHeight": 4278,
+      "media": [
+        "src/assets/images/company-overview-1-workshop.webp",
+        "src/assets/images/company-overview-1-consultation.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "purpose-content",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/company-overview-1/desktop-dark.png",
+      "sha256": "5376e68ef5b48e3e48c5cfb504ef5ae5a36d3a8cbfed403fdf02520c1f8f4e15",
+      "page": "company-overview-1",
+      "viewport": "desktop",
+      "mode": "dark",
+      "width": 1440,
+      "height": 1000,
+      "url": "https://g5themes.test/pages/company-overview-1.php?device=pc",
+      "capturedAt": "2026-09-29T07:06:32.515Z",
+      "fullPage": true,
+      "documentHeight": 4278,
+      "media": [
+        "src/assets/images/company-overview-1-workshop.webp",
+        "src/assets/images/company-overview-1-consultation.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "purpose-content",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/company-overview-1/mobile-light.png",
+      "sha256": "bed5bf5b945d351e2d43b564883aa638a3e3b6a958a3e19ccd0628ab30d38291",
+      "page": "company-overview-1",
+      "viewport": "mobile",
+      "mode": "light",
+      "width": 390,
+      "height": 844,
+      "url": "https://g5themes.test/pages/company-overview-1.php?device=mobile",
+      "capturedAt": "2026-09-29T07:07:06.656Z",
+      "fullPage": true,
+      "documentHeight": 6559,
+      "media": [
+        "src/assets/images/company-overview-1-workshop.webp",
+        "src/assets/images/company-overview-1-consultation.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "purpose-content",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/company-overview-1/mobile-dark.png",
+      "sha256": "074cd4796ef7612f49afabed9cdbf485c73d1abdcbb249515e1cf5451a7370de",
+      "page": "company-overview-1",
+      "viewport": "mobile",
+      "mode": "dark",
+      "width": 390,
+      "height": 844,
+      "url": "https://g5themes.test/pages/company-overview-1.php?device=mobile",
+      "capturedAt": "2026-09-29T07:07:47.392Z",
+      "fullPage": true,
+      "documentHeight": 6559,
+      "media": [
+        "src/assets/images/company-overview-1-workshop.webp",
+        "src/assets/images/company-overview-1-consultation.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "purpose-content",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/company-overview-2/desktop-light.png",
+      "sha256": "da5a1c949c1249c2b72d4b2be8615d357b199360a61904439be75b2d8e181fbe",
+      "page": "company-overview-2",
+      "viewport": "desktop",
+      "mode": "light",
+      "width": 1440,
+      "height": 1000,
+      "url": "https://g5themes.test/pages/company-overview-2.php?device=pc",
+      "capturedAt": "2026-09-29T07:06:03.819Z",
+      "fullPage": true,
+      "documentHeight": 4358,
+      "media": [
+        "src/assets/images/company-overview-2-arrival.webp",
+        "src/assets/images/company-overview-2-material.webp",
+        "src/assets/images/company-overview-2-studio.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "purpose-content",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/company-overview-2/desktop-dark.png",
+      "sha256": "50d46758de90250891c87c2037eb9380f1fab024d48400fd7280d19597908f11",
+      "page": "company-overview-2",
+      "viewport": "desktop",
+      "mode": "dark",
+      "width": 1440,
+      "height": 1000,
+      "url": "https://g5themes.test/pages/company-overview-2.php?device=pc",
+      "capturedAt": "2026-09-29T07:06:34.632Z",
+      "fullPage": true,
+      "documentHeight": 4358,
+      "media": [
+        "src/assets/images/company-overview-2-arrival.webp",
+        "src/assets/images/company-overview-2-material.webp",
+        "src/assets/images/company-overview-2-studio.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "purpose-content",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/company-overview-2/mobile-light.png",
+      "sha256": "c67e127fe5f3ebfccccf212cdb03eccf3e4e3201eb1f336fdab8a5397cb9337f",
+      "page": "company-overview-2",
+      "viewport": "mobile",
+      "mode": "light",
+      "width": 390,
+      "height": 844,
+      "url": "https://g5themes.test/pages/company-overview-2.php?device=mobile",
+      "capturedAt": "2026-09-29T07:07:08.551Z",
+      "fullPage": true,
+      "documentHeight": 5259,
+      "media": [
+        "src/assets/images/company-overview-2-arrival.webp",
+        "src/assets/images/company-overview-2-material.webp",
+        "src/assets/images/company-overview-2-studio.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "purpose-content",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/company-overview-2/mobile-dark.png",
+      "sha256": "6b0ab4043d205c124911856318aacc55ed8f8c213641adb0178d3490906d9d13",
+      "page": "company-overview-2",
+      "viewport": "mobile",
+      "mode": "dark",
+      "width": 390,
+      "height": 844,
+      "url": "https://g5themes.test/pages/company-overview-2.php?device=mobile",
+      "capturedAt": "2026-09-29T07:07:49.260Z",
+      "fullPage": true,
+      "documentHeight": 5259,
+      "media": [
+        "src/assets/images/company-overview-2-arrival.webp",
+        "src/assets/images/company-overview-2-material.webp",
+        "src/assets/images/company-overview-2-studio.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "purpose-content",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/company-overview-3/desktop-light.png",
+      "sha256": "ab5e724e2760b46da81a47032d3e53158634d3ee45761553815c97a060b6d3e6",
+      "page": "company-overview-3",
+      "viewport": "desktop",
+      "mode": "light",
+      "width": 1440,
+      "height": 1000,
+      "url": "https://g5themes.test/pages/company-overview-3.php?device=pc",
+      "capturedAt": "2026-09-29T07:06:06.060Z",
+      "fullPage": true,
+      "documentHeight": 4088,
+      "media": [
+        "src/assets/images/company-overview-3-arrival.webp",
+        "src/assets/images/company-overview-3-studio.webp",
+        "src/assets/images/company-overview-3-observation.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "purpose-content",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/company-overview-3/desktop-dark.png",
+      "sha256": "e3a38c02bf3cb3acfe8da2663d359e4714d0ebaa742e2c5eb6972daf66c77f22",
+      "page": "company-overview-3",
+      "viewport": "desktop",
+      "mode": "dark",
+      "width": 1440,
+      "height": 1000,
+      "url": "https://g5themes.test/pages/company-overview-3.php?device=pc",
+      "capturedAt": "2026-09-29T07:06:37.881Z",
+      "fullPage": true,
+      "documentHeight": 4088,
+      "media": [
+        "src/assets/images/company-overview-3-arrival.webp",
+        "src/assets/images/company-overview-3-studio.webp",
+        "src/assets/images/company-overview-3-observation.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "purpose-content",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/company-overview-3/mobile-light.png",
+      "sha256": "0293f724e1fff7c3b4648bf474423af895761c531bdca138370dbedfc28adbac",
+      "page": "company-overview-3",
+      "viewport": "mobile",
+      "mode": "light",
+      "width": 390,
+      "height": 844,
+      "url": "https://g5themes.test/pages/company-overview-3.php?device=mobile",
+      "capturedAt": "2026-09-29T07:07:12.609Z",
+      "fullPage": true,
+      "documentHeight": 4919,
+      "media": [
+        "src/assets/images/company-overview-3-arrival.webp",
+        "src/assets/images/company-overview-3-studio.webp",
+        "src/assets/images/company-overview-3-observation.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "purpose-content",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/company-overview-3/mobile-dark.png",
+      "sha256": "01596edc661fbbf9d3495ed1633fc4540d481764d4e6a260e4219064b15b919c",
+      "page": "company-overview-3",
+      "viewport": "mobile",
+      "mode": "dark",
+      "width": 390,
+      "height": 844,
+      "url": "https://g5themes.test/pages/company-overview-3.php?device=mobile",
+      "capturedAt": "2026-09-29T07:07:51.057Z",
+      "fullPage": true,
+      "documentHeight": 4919,
+      "media": [
+        "src/assets/images/company-overview-3-arrival.webp",
+        "src/assets/images/company-overview-3-studio.webp",
+        "src/assets/images/company-overview-3-observation.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "purpose-content",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/company-overview-4/desktop-light.png",
+      "sha256": "5a0327772f7843f7312cd367f246cbc9cc5d26c7b46c6551c29b7202a7212dd3",
+      "page": "company-overview-4",
+      "viewport": "desktop",
+      "mode": "light",
+      "width": 1440,
+      "height": 1000,
+      "url": "https://g5themes.test/pages/company-overview-4.php?device=pc",
+      "capturedAt": "2026-09-29T07:06:08.126Z",
+      "fullPage": true,
+      "documentHeight": 4545,
+      "media": [
+        "src/assets/images/company-overview-4-retail.webp",
+        "src/assets/images/company-overview-4-material.webp",
+        "src/assets/images/company-overview-4-workplace.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "purpose-content",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/company-overview-4/desktop-dark.png",
+      "sha256": "7dd5349f12cd593e16518a15bafc5958839b9e6b28c3ac29dcfca61ec4effb3c",
+      "page": "company-overview-4",
+      "viewport": "desktop",
+      "mode": "dark",
+      "width": 1440,
+      "height": 1000,
+      "url": "https://g5themes.test/pages/company-overview-4.php?device=pc",
+      "capturedAt": "2026-09-29T07:06:39.921Z",
+      "fullPage": true,
+      "documentHeight": 4545,
+      "media": [
+        "src/assets/images/company-overview-4-retail.webp",
+        "src/assets/images/company-overview-4-material.webp",
+        "src/assets/images/company-overview-4-workplace.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "purpose-content",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/company-overview-4/mobile-light.png",
+      "sha256": "fbfea0c28fb7ae00bab67a256846102aa7107e5922bb87be0f43beeae78c0bea",
+      "page": "company-overview-4",
+      "viewport": "mobile",
+      "mode": "light",
+      "width": 390,
+      "height": 844,
+      "url": "https://g5themes.test/pages/company-overview-4.php?device=mobile",
+      "capturedAt": "2026-09-29T07:07:18.293Z",
+      "fullPage": true,
+      "documentHeight": 5506,
+      "media": [
+        "src/assets/images/company-overview-4-retail.webp",
+        "src/assets/images/company-overview-4-material.webp",
+        "src/assets/images/company-overview-4-workplace.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "purpose-content",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/company-overview-4/mobile-dark.png",
+      "sha256": "7fc576a57468c00d14cc801bfc1d36845fa21e0e3efcb725a7325e1dcfa9bd2c",
+      "page": "company-overview-4",
+      "viewport": "mobile",
+      "mode": "dark",
+      "width": 390,
+      "height": 844,
+      "url": "https://g5themes.test/pages/company-overview-4.php?device=mobile",
+      "capturedAt": "2026-09-29T07:07:52.863Z",
+      "fullPage": true,
+      "documentHeight": 5506,
+      "media": [
+        "src/assets/images/company-overview-4-retail.webp",
+        "src/assets/images/company-overview-4-material.webp",
+        "src/assets/images/company-overview-4-workplace.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "purpose-content",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/company-overview-5/desktop-light.png",
+      "sha256": "c6bd4dc9110c642d81d316273bb3a108f14c3cb6509786df9bbdb9a36b8ee05c",
+      "page": "company-overview-5",
+      "viewport": "desktop",
+      "mode": "light",
+      "width": 1440,
+      "height": 1000,
+      "url": "https://g5themes.test/pages/company-overview-5.php?device=pc",
+      "capturedAt": "2026-09-29T07:06:10.093Z",
+      "fullPage": true,
+      "documentHeight": 4555,
+      "media": [
+        "src/assets/images/company-overview-5-roundtable.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "purpose-content",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/company-overview-5/desktop-dark.png",
+      "sha256": "97c41be4c7fef01c4b4ee46561038f4789dc1ab1a41aee9d9c92367a6bce8a80",
+      "page": "company-overview-5",
+      "viewport": "desktop",
+      "mode": "dark",
+      "width": 1440,
+      "height": 1000,
+      "url": "https://g5themes.test/pages/company-overview-5.php?device=pc",
+      "capturedAt": "2026-09-29T07:06:41.878Z",
+      "fullPage": true,
+      "documentHeight": 4555,
+      "media": [
+        "src/assets/images/company-overview-5-roundtable.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "purpose-content",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/company-overview-5/mobile-light.png",
+      "sha256": "932933e8ee252d9a56dd36d2dafa80f5d28b18a7331d0ff184cd7cd6672746eb",
+      "page": "company-overview-5",
+      "viewport": "mobile",
+      "mode": "light",
+      "width": 390,
+      "height": 844,
+      "url": "https://g5themes.test/pages/company-overview-5.php?device=mobile",
+      "capturedAt": "2026-09-29T07:07:22.232Z",
+      "fullPage": true,
+      "documentHeight": 5229,
+      "media": [
+        "src/assets/images/company-overview-5-roundtable.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "purpose-content",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/company-overview-5/mobile-dark.png",
+      "sha256": "29cb071881b0a074c930b1f8dbbbb254199bb45def0267161f6e5b5471d1fff2",
+      "page": "company-overview-5",
+      "viewport": "mobile",
+      "mode": "dark",
+      "width": 390,
+      "height": 844,
+      "url": "https://g5themes.test/pages/company-overview-5.php?device=mobile",
+      "capturedAt": "2026-09-29T07:07:54.894Z",
+      "fullPage": true,
+      "documentHeight": 5229,
+      "media": [
+        "src/assets/images/company-overview-5-roundtable.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "purpose-content",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "id": "company-overview-1",
+      "purpose": {
+        "id": "purpose",
+        "result": "pass",
+        "reason": "상담과 워크숍 사진으로 기업의 세 전문 분야를 소개하고, 방문자가 자신의 과제를 상담으로 연결할 수 있습니다."
+      },
+      "imagery": {
+        "id": "imagery",
+        "result": "pass",
+        "reason": "첫 상담 자료와 고객 접점 검토 사진이 서로 다른 단계이며, 분야별 아이콘도 사진의 설명을 반복하지 않습니다."
+      },
+      "composition": {
+        "id": "composition",
+        "result": "pass",
+        "reason": "소개 사진 다음에 세 분야의 역할, 고객 접점 사례, 네 단계 준비 순서, 문의로 이어져 표준 기업 소개형의 읽기 순서가 명료합니다."
+      }
+    },
+    {
+      "id": "company-overview-2",
+      "purpose": {
+        "id": "purpose",
+        "result": "pass",
+        "reason": "회사 기본 정보와 분야별 검토 범위를 빠르게 비교하려는 방문자에게 기업 정보, 비교표와 상담 준비 자료를 제공합니다."
+      },
+      "imagery": {
+        "id": "imagery",
+        "result": "pass",
+        "reason": "도착·소재·스튜디오의 세 슬라이드가 장소와 재료를 다르게 보여 주며 같은 장면을 되풀이하지 않습니다."
+      },
+      "composition": {
+        "id": "composition",
+        "result": "pass",
+        "reason": "사진 슬라이더 다음에 회사 정보와 분야 비교표를 놓고 준비 자료·질문·문의로 마칩니다. 모바일 비교표는 내부 가로 스크롤로 읽히고 페이지 자체는 넘치지 않습니다."
+      }
+    },
+    {
+      "id": "company-overview-3",
+      "purpose": {
+        "id": "purpose",
+        "result": "pass",
+        "reason": "방문자의 시선에서 도착, 머무름, 함께 확인하는 일로 공간 경험을 설명하여 현장 관찰의 목적이 분명합니다."
+      },
+      "imagery": {
+        "id": "imagery",
+        "result": "pass",
+        "reason": "입구·회의 공간·현장 공동 검토의 전용 사진 세 장은 사람과 시점이 달라 서사를 전진시킵니다."
+      },
+      "composition": {
+        "id": "composition",
+        "result": "pass",
+        "reason": "공간 진입 사진 위의 제목에서 세 장면으로 내려가며, 모바일에서도 단계 링크와 글·사진 순서가 끊기지 않고 문의로 닫힙니다."
+      }
+    },
+    {
+      "id": "company-overview-4",
+      "purpose": {
+        "id": "purpose",
+        "result": "pass",
+        "reason": "전략·디지털·공간의 다른 관점을 협업 사례에 연결하고, 회의와 집중이 함께 가능한 사무실 장면으로 결론을 보여 줍니다."
+      },
+      "imagery": {
+        "id": "imagery",
+        "result": "pass",
+        "reason": "소매 현장·소재 검토·교체된 실제 사무실 분위기 사진이 각 문맥에 맞습니다. 새 사무실 사진은 모바일 크롭에서도 협업 테이블과 분리된 집중 구역을 읽을 수 있습니다."
+      },
+      "composition": {
+        "id": "composition",
+        "result": "pass",
+        "reason": "세 분야 진입 링크 다음 가상 협업 사례의 질문·3단계 아코디언을 거쳐 사무실 사진과 문의로 이어집니다. 라이트·다크 대비와 정렬이 유지됩니다."
+      }
+    },
+    {
+      "id": "company-overview-5",
+      "purpose": {
+        "id": "purpose",
+        "result": "pass",
+        "reason": "첫 대화의 질문을 남기고 결정 이유와 운영 원칙을 기록하는 기업의 태도를 장문 읽기 형식으로 설명합니다."
+      },
+      "imagery": {
+        "id": "imagery",
+        "result": "pass",
+        "reason": "원탁에서 대화하는 전용 사진 한 장을 출발점으로 삼고, 뒤에서는 표정이 다른 사진을 억지로 반복하지 않습니다."
+      },
+      "composition": {
+        "id": "composition",
+        "result": "pass",
+        "reason": "사진 다음에 출발 질문·결정 기록·운영 원칙을 편집 글로 이어가며 모바일에서 한 열로 읽힙니다. 마지막 행동도 현재 고민을 문의로 보낼 수 있게 명확합니다."
+      }
+    }
+  ],
+  "comparisons": [
+    {
+      "left": "company-overview-1",
+      "right": "company-overview-2",
+      "result": "pass",
+      "reason": "첫 화면은 company-overview-1의 상담 사진과 기업·전문 분야 소개, company-overview-2의 도착 장면 사진 슬라이더입니다. 중간은 각각 분야 링크와 고객 접점 검토 사례 / 기업 기본 정보와 분야별 비교표, 마감은 네 단계 준비 흐름과 문의 / 상담 준비 자료와 FAQ으로 다릅니다. 회사 설명의 정보 구조와 사진 역할이 구분됩니다."
+    },
+    {
+      "left": "company-overview-1",
+      "right": "company-overview-3",
+      "result": "pass",
+      "reason": "첫 화면은 company-overview-1의 상담 사진과 기업·전문 분야 소개, company-overview-3의 공간에 들어서는 방문 장면입니다. 중간은 각각 분야 링크와 고객 접점 검토 사례 / 도착·머무름·공동 검토의 현장 서사, 마감은 네 단계 준비 흐름과 문의 / 현장 질문과 문의으로 다릅니다. 회사 설명의 정보 구조와 사진 역할이 구분됩니다."
+    },
+    {
+      "left": "company-overview-1",
+      "right": "company-overview-4",
+      "result": "pass",
+      "reason": "첫 화면은 company-overview-1의 상담 사진과 기업·전문 분야 소개, company-overview-4의 소매 현장·소재 사진 모자이크입니다. 중간은 각각 분야 링크와 고객 접점 검토 사례 / 협업 사례의 세 단계 아코디언, 마감은 네 단계 준비 흐름과 문의 / 회의·집중 구역 사진과 협업 문의으로 다릅니다. 회사 설명의 정보 구조와 사진 역할이 구분됩니다."
+    },
+    {
+      "left": "company-overview-1",
+      "right": "company-overview-5",
+      "result": "pass",
+      "reason": "첫 화면은 company-overview-1의 상담 사진과 기업·전문 분야 소개, company-overview-5의 원탁 대화 사진과 에디토리얼 제목입니다. 중간은 각각 분야 링크와 고객 접점 검토 사례 / 첫 질문·결정 기록·운영 원칙의 장문, 마감은 네 단계 준비 흐름과 문의 / 현재 고민을 적는 문의으로 다릅니다. 회사 설명의 정보 구조와 사진 역할이 구분됩니다."
+    },
+    {
+      "left": "company-overview-2",
+      "right": "company-overview-3",
+      "result": "pass",
+      "reason": "첫 화면은 company-overview-2의 도착 장면 사진 슬라이더, company-overview-3의 공간에 들어서는 방문 장면입니다. 중간은 각각 기업 기본 정보와 분야별 비교표 / 도착·머무름·공동 검토의 현장 서사, 마감은 상담 준비 자료와 FAQ / 현장 질문과 문의으로 다릅니다. 회사 설명의 정보 구조와 사진 역할이 구분됩니다."
+    },
+    {
+      "left": "company-overview-2",
+      "right": "company-overview-4",
+      "result": "pass",
+      "reason": "첫 화면은 company-overview-2의 도착 장면 사진 슬라이더, company-overview-4의 소매 현장·소재 사진 모자이크입니다. 중간은 각각 기업 기본 정보와 분야별 비교표 / 협업 사례의 세 단계 아코디언, 마감은 상담 준비 자료와 FAQ / 회의·집중 구역 사진과 협업 문의으로 다릅니다. 회사 설명의 정보 구조와 사진 역할이 구분됩니다."
+    },
+    {
+      "left": "company-overview-2",
+      "right": "company-overview-5",
+      "result": "pass",
+      "reason": "첫 화면은 company-overview-2의 도착 장면 사진 슬라이더, company-overview-5의 원탁 대화 사진과 에디토리얼 제목입니다. 중간은 각각 기업 기본 정보와 분야별 비교표 / 첫 질문·결정 기록·운영 원칙의 장문, 마감은 상담 준비 자료와 FAQ / 현재 고민을 적는 문의으로 다릅니다. 회사 설명의 정보 구조와 사진 역할이 구분됩니다."
+    },
+    {
+      "left": "company-overview-3",
+      "right": "company-overview-4",
+      "result": "pass",
+      "reason": "첫 화면은 company-overview-3의 공간에 들어서는 방문 장면, company-overview-4의 소매 현장·소재 사진 모자이크입니다. 중간은 각각 도착·머무름·공동 검토의 현장 서사 / 협업 사례의 세 단계 아코디언, 마감은 현장 질문과 문의 / 회의·집중 구역 사진과 협업 문의으로 다릅니다. 회사 설명의 정보 구조와 사진 역할이 구분됩니다."
+    },
+    {
+      "left": "company-overview-3",
+      "right": "company-overview-5",
+      "result": "pass",
+      "reason": "첫 화면은 company-overview-3의 공간에 들어서는 방문 장면, company-overview-5의 원탁 대화 사진과 에디토리얼 제목입니다. 중간은 각각 도착·머무름·공동 검토의 현장 서사 / 첫 질문·결정 기록·운영 원칙의 장문, 마감은 현장 질문과 문의 / 현재 고민을 적는 문의으로 다릅니다. 회사 설명의 정보 구조와 사진 역할이 구분됩니다."
+    },
+    {
+      "left": "company-overview-4",
+      "right": "company-overview-5",
+      "result": "pass",
+      "reason": "첫 화면은 company-overview-4의 소매 현장·소재 사진 모자이크, company-overview-5의 원탁 대화 사진과 에디토리얼 제목입니다. 중간은 각각 협업 사례의 세 단계 아코디언 / 첫 질문·결정 기록·운영 원칙의 장문, 마감은 회의·집중 구역 사진과 협업 문의 / 현재 고민을 적는 문의으로 다릅니다. 회사 설명의 정보 구조와 사진 역할이 구분됩니다."
+    }
+  ],
+  "interactions": [
+    {
+      "page": "company-overview-2",
+      "id": "slider-next",
+      "viewport": "desktop",
+      "result": "pass",
+      "steps": "다음 사진을 눌러 번호와 현장 사진이 1/3에서 2/3으로 바뀌는지 확인했습니다.",
+      "before": {
+        "path": "quality/evidence/current-20260929/general-interactions/company-overview-2-desktop-slider-next-before.png",
+        "sha256": "a7aad2d1751fa3e05964cf9066a8ec423ece368c12ef7df97fbf7e202032e37b"
+      },
+      "after": {
+        "path": "quality/evidence/current-20260929/general-interactions/company-overview-2-desktop-slider-next-after.png",
+        "sha256": "029d5b70d974e909ba384e88a0a731290f819130c75e8fb38faf6a382a2f1a22"
+      }
+    },
+    {
+      "page": "company-overview-2",
+      "id": "slider-prev",
+      "viewport": "desktop",
+      "result": "pass",
+      "steps": "이전 사진을 눌러 현장 사진과 번호가 1/3으로 돌아오는지 확인했습니다.",
+      "before": {
+        "path": "quality/evidence/current-20260929/general-interactions/company-overview-2-desktop-slider-prev-before.png",
+        "sha256": "029d5b70d974e909ba384e88a0a731290f819130c75e8fb38faf6a382a2f1a22"
+      },
+      "after": {
+        "path": "quality/evidence/current-20260929/general-interactions/company-overview-2-desktop-slider-prev-after.png",
+        "sha256": "8991ae4a4a3c3263688b99e4c7e2e2adbc13896e82b29905beb432e112b3bcb1"
+      }
+    },
+    {
+      "page": "company-overview-2",
+      "id": "slider-keyboard",
+      "viewport": "desktop",
+      "result": "pass",
+      "steps": "사진 슬라이더에서 오른쪽 화살표 키로 다음 사진을 표시했습니다.",
+      "before": {
+        "path": "quality/evidence/current-20260929/general-interactions/company-overview-2-desktop-slider-keyboard-before.png",
+        "sha256": "8991ae4a4a3c3263688b99e4c7e2e2adbc13896e82b29905beb432e112b3bcb1"
+      },
+      "after": {
+        "path": "quality/evidence/current-20260929/general-interactions/company-overview-2-desktop-slider-keyboard-after.png",
+        "sha256": "301791591acb4c6600c128a6c8b7b621057f99d4064a39e42ab74645a4ca2bc9"
+      }
+    },
+    {
+      "page": "company-overview-2",
+      "id": "slider-play-pause",
+      "viewport": "desktop",
+      "result": "pass",
+      "steps": "자동 재생을 켜고 실제 사진 전환을 기다린 뒤 중지 버튼으로 정지했습니다.",
+      "before": {
+        "path": "quality/evidence/current-20260929/general-interactions/company-overview-2-desktop-slider-play-pause-before.png",
+        "sha256": "a7aad2d1751fa3e05964cf9066a8ec423ece368c12ef7df97fbf7e202032e37b"
+      },
+      "after": {
+        "path": "quality/evidence/current-20260929/general-interactions/company-overview-2-desktop-slider-play-pause-after.png",
+        "sha256": "6b511177325cb80249e91515c2f5cf0908f755f3b6332e21a59f98a402f269f5"
+      }
+    },
+    {
+      "page": "company-overview-3",
+      "id": "section-navigation",
+      "viewport": "desktop",
+      "result": "pass",
+      "steps": "목차 링크를 눌러 해당 본문 섹션으로 이동하고 주소의 앵커와 화면 변화를 확인했습니다.",
+      "before": {
+        "path": "quality/evidence/current-20260929/general-interactions/company-overview-3-desktop-section-navigation-before.png",
+        "sha256": "e762ae8fa453d1cf001f18b206ab5bcde4a29e345962b337210f080458434b10"
+      },
+      "after": {
+        "path": "quality/evidence/current-20260929/general-interactions/company-overview-3-desktop-section-navigation-after.png",
+        "sha256": "5e90717e4704af87a2405c9deea41901177d81a67571888654742bac1b4d9716"
+      }
+    },
+    {
+      "page": "company-overview-5",
+      "id": "section-navigation",
+      "viewport": "desktop",
+      "result": "pass",
+      "steps": "목차 링크를 눌러 해당 본문 섹션으로 이동하고 주소의 앵커와 화면 변화를 확인했습니다.",
+      "before": {
+        "path": "quality/evidence/current-20260929/general-interactions/company-overview-5-desktop-section-navigation-before.png",
+        "sha256": "ea86928d4406b19efd494c454d0cd49b3f3de61e0b49044556255eb38a119278"
+      },
+      "after": {
+        "path": "quality/evidence/current-20260929/general-interactions/company-overview-5-desktop-section-navigation-after.png",
+        "sha256": "fd06b9cb58eaa8d1f39a1d848ed1342c7bb240e85b5fc54e4cf79445c0cbda5e"
+      }
+    },
+    {
+      "page": "company-overview-2",
+      "id": "slider-next",
+      "viewport": "mobile",
+      "result": "pass",
+      "steps": "다음 사진을 눌러 번호와 현장 사진이 1/3에서 2/3으로 바뀌는지 확인했습니다.",
+      "before": {
+        "path": "quality/evidence/current-20260929/general-interactions/company-overview-2-mobile-slider-next-before.png",
+        "sha256": "bfbbe24bd73bad666a57f55cd785335ead1594550d290d1e99786f76820b7c45"
+      },
+      "after": {
+        "path": "quality/evidence/current-20260929/general-interactions/company-overview-2-mobile-slider-next-after.png",
+        "sha256": "d23f34cb37bcd98f62f4d9fc14a414fd07bae0468f2777eeebdc9f7415b2fcd3"
+      }
+    },
+    {
+      "page": "company-overview-2",
+      "id": "slider-prev",
+      "viewport": "mobile",
+      "result": "pass",
+      "steps": "이전 사진을 눌러 현장 사진과 번호가 1/3으로 돌아오는지 확인했습니다.",
+      "before": {
+        "path": "quality/evidence/current-20260929/general-interactions/company-overview-2-mobile-slider-prev-before.png",
+        "sha256": "d23f34cb37bcd98f62f4d9fc14a414fd07bae0468f2777eeebdc9f7415b2fcd3"
+      },
+      "after": {
+        "path": "quality/evidence/current-20260929/general-interactions/company-overview-2-mobile-slider-prev-after.png",
+        "sha256": "4ccb8bc19dd03bec8359dde3063a20c1c623e4c9f931c5516ebccd49ba1d37b8"
+      }
+    },
+    {
+      "page": "company-overview-2",
+      "id": "slider-keyboard",
+      "viewport": "mobile",
+      "result": "pass",
+      "steps": "사진 슬라이더에서 오른쪽 화살표 키로 다음 사진을 표시했습니다.",
+      "before": {
+        "path": "quality/evidence/current-20260929/general-interactions/company-overview-2-mobile-slider-keyboard-before.png",
+        "sha256": "4ccb8bc19dd03bec8359dde3063a20c1c623e4c9f931c5516ebccd49ba1d37b8"
+      },
+      "after": {
+        "path": "quality/evidence/current-20260929/general-interactions/company-overview-2-mobile-slider-keyboard-after.png",
+        "sha256": "47bca3a5119987e66d489ff08ade56b33c7a0d50e999dbf7fd472dc6c00707a7"
+      }
+    },
+    {
+      "page": "company-overview-2",
+      "id": "slider-play-pause",
+      "viewport": "mobile",
+      "result": "pass",
+      "steps": "자동 재생을 켜고 실제 사진 전환을 기다린 뒤 중지 버튼으로 정지했습니다.",
+      "before": {
+        "path": "quality/evidence/current-20260929/general-interactions/company-overview-2-mobile-slider-play-pause-before.png",
+        "sha256": "bfbbe24bd73bad666a57f55cd785335ead1594550d290d1e99786f76820b7c45"
+      },
+      "after": {
+        "path": "quality/evidence/current-20260929/general-interactions/company-overview-2-mobile-slider-play-pause-after.png",
+        "sha256": "ea743362193a744d0f7ca7c7e8b9717683cf14d8f2f4937ce518ff25ac8d0f51"
+      }
+    },
+    {
+      "page": "company-overview-3",
+      "id": "section-navigation",
+      "viewport": "mobile",
+      "result": "pass",
+      "steps": "목차 링크를 눌러 해당 본문 섹션으로 이동하고 주소의 앵커와 화면 변화를 확인했습니다.",
+      "before": {
+        "path": "quality/evidence/current-20260929/general-interactions/company-overview-3-mobile-section-navigation-before.png",
+        "sha256": "020ca6ca5d2110d14e3dbbcd700541cdbb9ec96904f5abc151f315d33c846610"
+      },
+      "after": {
+        "path": "quality/evidence/current-20260929/general-interactions/company-overview-3-mobile-section-navigation-after.png",
+        "sha256": "fdd5829d8cb08a7264307c2ab75ee09876688ef0decda9b43c63b8aacb6e5da2"
+      }
+    },
+    {
+      "page": "company-overview-5",
+      "id": "section-navigation",
+      "viewport": "mobile",
+      "result": "pass",
+      "steps": "목차 링크를 눌러 해당 본문 섹션으로 이동하고 주소의 앵커와 화면 변화를 확인했습니다.",
+      "before": {
+        "path": "quality/evidence/current-20260929/general-interactions/company-overview-5-mobile-section-navigation-before.png",
+        "sha256": "f6f0a80b57df97bcfac470eeae454fee5027a7de700341bef8fe22d5c1ce30b8"
+      },
+      "after": {
+        "path": "quality/evidence/current-20260929/general-interactions/company-overview-5-mobile-section-navigation-after.png",
+        "sha256": "01e538e2a38668f433e42615742be79733b81b7a1c99233890ac63ad4bee78c6"
+      }
+    }
+  ]
+}

@@ -109,6 +109,33 @@ describe("mandatory product quality gate", () => {
     const { root } = await fixture();
     expect((await checkQuality(root, "home")).failures).toEqual([]);
   });
+  test("current review covers delivered contact page while release still requires all contact variants", async () => {
+    const { root, contract, review } = await fixture();
+    const plan = contract.pages.find(page => page.id === "contact-1")!;
+    const now = new Date().toISOString();
+    const contactReview: Review = { ...review, group: "contact", reviewedAt: now, interactions: [], comparisons: [],
+      pages: [{ id: plan.id,
+        purpose: { id: "purpose", result: "pass", reason: "현재 작성된 연락 페이지의 목적을 검토했습니다." },
+        imagery: { id: "imagery", result: "pass", reason: "현재 연락 페이지의 사진과 자료를 검토했습니다." },
+        composition: { id: "composition", result: "pass", reason: "현재 연락 페이지의 첫 화면과 본문을 검토했습니다." },
+      }], captures: [],
+    };
+    let color = 1;
+    for (const viewport of ["desktop", "mobile"] as const) for (const mode of ["light", "dark"] as const) {
+      const width = viewport === "desktop" ? 1280 : 390;
+      const bytes = await sharp({create:{width,height:640,channels:3,background:{r:color++ * 30,g:80,b:140}}}).png().toBuffer();
+      const path = `quality/evidence/contact-1-${viewport}-${mode}.png`;
+      await put(root,path,bytes);
+      contactReview.captures.push({page:plan.id,viewport,mode,width,height:640,documentHeight:640,fullPage:true,
+        path,sha256:sha256(bytes),url:`https://g5themes.test${plan.route}`,capturedAt:now,media:[],
+        requirements:plan.requirements.map(item=>({id:item.id,count:item.min,visible:true}))});
+    }
+    await put(root,"quality/reviews/contact.json",contactReview);
+    const current = (await checkQuality(root,"current")).failures;
+    expect(current.some(item => item.code === "CAPTURE_MISSING" && item.target === "contact-2")).toBe(false);
+    const release = (await checkQuality(root,"release")).failures;
+    expect(release.some(item => item.code === "CAPTURE_MISSING" && item.target === "contact-2")).toBe(true);
+  });
   test("rejects scope shrinkage and deletion of the hero slider requirement", async () => {
     const { root, contract } = await fixture();
     await put(root, "quality/contract.json", { ...contract, pages: contract.pages.slice(1) });

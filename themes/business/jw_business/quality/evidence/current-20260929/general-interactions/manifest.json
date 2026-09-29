@@ -1,0 +1,212 @@
+[
+  {
+    "page": "company-overview-2",
+    "id": "slider-next",
+    "viewport": "desktop",
+    "result": "pass",
+    "steps": "다음 사진을 눌러 번호와 현장 사진이 1/3에서 2/3으로 바뀌는지 확인했습니다.",
+    "before": {
+      "path": "quality/evidence/current-20260929/general-interactions/company-overview-2-desktop-slider-next-before.png",
+      "sha256": "a7aad2d1751fa3e05964cf9066a8ec423ece368c12ef7df97fbf7e202032e37b"
+    },
+    "after": {
+      "path": "quality/evidence/current-20260929/general-interactions/company-overview-2-desktop-slider-next-after.png",
+      "sha256": "029d5b70d974e909ba384e88a0a731290f819130c75e8fb38faf6a382a2f1a22"
+    }
+  },
+  {
+    "page": "company-overview-2",
+    "id": "slider-prev",
+    "viewport": "desktop",
+    "result": "pass",
+    "steps": "이전 사진을 눌러 현장 사진과 번호가 1/3으로 돌아오는지 확인했습니다.",
+    "before": {
+      "path": "quality/evidence/current-20260929/general-interactions/company-overview-2-desktop-slider-prev-before.png",
+      "sha256": "029d5b70d974e909ba384e88a0a731290f819130c75e8fb38faf6a382a2f1a22"
+    },
+    "after": {
+      "path": "quality/evidence/current-20260929/general-interactions/company-overview-2-desktop-slider-prev-after.png",
+      "sha256": "8991ae4a4a3c3263688b99e4c7e2e2adbc13896e82b29905beb432e112b3bcb1"
+    }
+  },
+  {
+    "page": "company-overview-2",
+    "id": "slider-keyboard",
+    "viewport": "desktop",
+    "result": "pass",
+    "steps": "사진 슬라이더에서 오른쪽 화살표 키로 다음 사진을 표시했습니다.",
+    "before": {
+      "path": "quality/evidence/current-20260929/general-interactions/company-overview-2-desktop-slider-keyboard-before.png",
+      "sha256": "8991ae4a4a3c3263688b99e4c7e2e2adbc13896e82b29905beb432e112b3bcb1"
+    },
+    "after": {
+      "path": "quality/evidence/current-20260929/general-interactions/company-overview-2-desktop-slider-keyboard-after.png",
+      "sha256": "301791591acb4c6600c128a6c8b7b621057f99d4064a39e42ab74645a4ca2bc9"
+    }
+  },
+  {
+    "page": "company-overview-2",
+    "id": "slider-play-pause",
+    "viewport": "desktop",
+    "result": "pass",
+    "steps": "자동 재생을 켜고 실제 사진 전환을 기다린 뒤 중지 버튼으로 정지했습니다.",
+    "before": {
+      "path": "quality/evidence/current-20260929/general-interactions/company-overview-2-desktop-slider-play-pause-before.png",
+      "sha256": "a7aad2d1751fa3e05964cf9066a8ec423ece368c12ef7df97fbf7e202032e37b"
+    },
+    "after": {
+      "path": "quality/evidence/current-20260929/general-interactions/company-overview-2-desktop-slider-play-pause-after.png",
+      "sha256": "6b511177325cb80249e91515c2f5cf0908f755f3b6332e21a59f98a402f269f5"
+    }
+  },
+  {
+    "page": "company-overview-3",
+    "id": "section-navigation",
+    "viewport": "desktop",
+    "result": "pass",
+    "steps": "목차 링크를 눌러 해당 본문 섹션으로 이동하고 주소의 앵커와 화면 변화를 확인했습니다.",
+    "before": {
+      "path": "quality/evidence/current-20260929/general-interactions/company-overview-3-desktop-section-navigation-before.png",
+      "sha256": "e762ae8fa453d1cf001f18b206ab5bcde4a29e345962b337210f080458434b10"
+    },
+    "after": {
+      "path": "quality/evidence/current-20260929/general-interactions/company-overview-3-desktop-section-navigation-after.png",
+      "sha256": "5e90717e4704af87a2405c9deea41901177d81a67571888654742bac1b4d9716"
+    }
+  },
+  {
+    "page": "company-overview-5",
+    "id": "section-navigation",
+    "viewport": "desktop",
+    "result": "pass",
+    "steps": "목차 링크를 눌러 해당 본문 섹션으로 이동하고 주소의 앵커와 화면 변화를 확인했습니다.",
+    "before": {
+      "path": "quality/evidence/current-20260929/general-interactions/company-overview-5-desktop-section-navigation-before.png",
+      "sha256": "ea86928d4406b19efd494c454d0cd49b3f3de61e0b49044556255eb38a119278"
+    },
+    "after": {
+      "path": "quality/evidence/current-20260929/general-interactions/company-overview-5-desktop-section-navigation-after.png",
+      "sha256": "fd06b9cb58eaa8d1f39a1d848ed1342c7bb240e85b5fc54e4cf79445c0cbda5e"
+    }
+  },
+  {
+    "page": "business-detail-5",
+    "id": "section-navigation",
+    "viewport": "desktop",
+    "result": "pass",
+    "steps": "목차 링크를 눌러 해당 본문 섹션으로 이동하고 주소의 앵커와 화면 변화를 확인했습니다.",
+    "before": {
+      "path": "quality/evidence/current-20260929/general-interactions/business-detail-5-desktop-section-navigation-before.png",
+      "sha256": "17069245087497427ad4e399c1916d34d6da5b74295ccdc19c3d7207d39ae714"
+    },
+    "after": {
+      "path": "quality/evidence/current-20260929/general-interactions/business-detail-5-desktop-section-navigation-after.png",
+      "sha256": "0e593f7196b1787c1f72ef3427db5ebe4ceaaab9e7e84af824fbea492337fa15"
+    }
+  },
+  {
+    "page": "company-overview-2",
+    "id": "slider-next",
+    "viewport": "mobile",
+    "result": "pass",
+    "steps": "다음 사진을 눌러 번호와 현장 사진이 1/3에서 2/3으로 바뀌는지 확인했습니다.",
+    "before": {
+      "path": "quality/evidence/current-20260929/general-interactions/company-overview-2-mobile-slider-next-before.png",
+      "sha256": "bfbbe24bd73bad666a57f55cd785335ead1594550d290d1e99786f76820b7c45"
+    },
+    "after": {
+      "path": "quality/evidence/current-20260929/general-interactions/company-overview-2-mobile-slider-next-after.png",
+      "sha256": "d23f34cb37bcd98f62f4d9fc14a414fd07bae0468f2777eeebdc9f7415b2fcd3"
+    }
+  },
+  {
+    "page": "company-overview-2",
+    "id": "slider-prev",
+    "viewport": "mobile",
+    "result": "pass",
+    "steps": "이전 사진을 눌러 현장 사진과 번호가 1/3으로 돌아오는지 확인했습니다.",
+    "before": {
+      "path": "quality/evidence/current-20260929/general-interactions/company-overview-2-mobile-slider-prev-before.png",
+      "sha256": "d23f34cb37bcd98f62f4d9fc14a414fd07bae0468f2777eeebdc9f7415b2fcd3"
+    },
+    "after": {
+      "path": "quality/evidence/current-20260929/general-interactions/company-overview-2-mobile-slider-prev-after.png",
+      "sha256": "4ccb8bc19dd03bec8359dde3063a20c1c623e4c9f931c5516ebccd49ba1d37b8"
+    }
+  },
+  {
+    "page": "company-overview-2",
+    "id": "slider-keyboard",
+    "viewport": "mobile",
+    "result": "pass",
+    "steps": "사진 슬라이더에서 오른쪽 화살표 키로 다음 사진을 표시했습니다.",
+    "before": {
+      "path": "quality/evidence/current-20260929/general-interactions/company-overview-2-mobile-slider-keyboard-before.png",
+      "sha256": "4ccb8bc19dd03bec8359dde3063a20c1c623e4c9f931c5516ebccd49ba1d37b8"
+    },
+    "after": {
+      "path": "quality/evidence/current-20260929/general-interactions/company-overview-2-mobile-slider-keyboard-after.png",
+      "sha256": "47bca3a5119987e66d489ff08ade56b33c7a0d50e999dbf7fd472dc6c00707a7"
+    }
+  },
+  {
+    "page": "company-overview-2",
+    "id": "slider-play-pause",
+    "viewport": "mobile",
+    "result": "pass",
+    "steps": "자동 재생을 켜고 실제 사진 전환을 기다린 뒤 중지 버튼으로 정지했습니다.",
+    "before": {
+      "path": "quality/evidence/current-20260929/general-interactions/company-overview-2-mobile-slider-play-pause-before.png",
+      "sha256": "bfbbe24bd73bad666a57f55cd785335ead1594550d290d1e99786f76820b7c45"
+    },
+    "after": {
+      "path": "quality/evidence/current-20260929/general-interactions/company-overview-2-mobile-slider-play-pause-after.png",
+      "sha256": "ea743362193a744d0f7ca7c7e8b9717683cf14d8f2f4937ce518ff25ac8d0f51"
+    }
+  },
+  {
+    "page": "company-overview-3",
+    "id": "section-navigation",
+    "viewport": "mobile",
+    "result": "pass",
+    "steps": "목차 링크를 눌러 해당 본문 섹션으로 이동하고 주소의 앵커와 화면 변화를 확인했습니다.",
+    "before": {
+      "path": "quality/evidence/current-20260929/general-interactions/company-overview-3-mobile-section-navigation-before.png",
+      "sha256": "020ca6ca5d2110d14e3dbbcd700541cdbb9ec96904f5abc151f315d33c846610"
+    },
+    "after": {
+      "path": "quality/evidence/current-20260929/general-interactions/company-overview-3-mobile-section-navigation-after.png",
+      "sha256": "fdd5829d8cb08a7264307c2ab75ee09876688ef0decda9b43c63b8aacb6e5da2"
+    }
+  },
+  {
+    "page": "company-overview-5",
+    "id": "section-navigation",
+    "viewport": "mobile",
+    "result": "pass",
+    "steps": "목차 링크를 눌러 해당 본문 섹션으로 이동하고 주소의 앵커와 화면 변화를 확인했습니다.",
+    "before": {
+      "path": "quality/evidence/current-20260929/general-interactions/company-overview-5-mobile-section-navigation-before.png",
+      "sha256": "f6f0a80b57df97bcfac470eeae454fee5027a7de700341bef8fe22d5c1ce30b8"
+    },
+    "after": {
+      "path": "quality/evidence/current-20260929/general-interactions/company-overview-5-mobile-section-navigation-after.png",
+      "sha256": "01e538e2a38668f433e42615742be79733b81b7a1c99233890ac63ad4bee78c6"
+    }
+  },
+  {
+    "page": "business-detail-5",
+    "id": "section-navigation",
+    "viewport": "mobile",
+    "result": "pass",
+    "steps": "목차 링크를 눌러 해당 본문 섹션으로 이동하고 주소의 앵커와 화면 변화를 확인했습니다.",
+    "before": {
+      "path": "quality/evidence/current-20260929/general-interactions/business-detail-5-mobile-section-navigation-before.png",
+      "sha256": "a542376f9e8d6ff95c6f45c5e3393c75a741f4daa4aa2b0d32202e30bb411777"
+    },
+    "after": {
+      "path": "quality/evidence/current-20260929/general-interactions/business-detail-5-mobile-section-navigation-after.png",
+      "sha256": "2f57f83a190b65ff037a4ea2c0482fa99dff4ae548e86658ded63be2f7511301"
+    }
+  }
+]

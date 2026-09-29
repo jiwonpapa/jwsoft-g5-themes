@@ -1,0 +1,693 @@
+{
+  "schemaVersion": 2,
+  "group": "business-detail",
+  "inputDigest": "6d79af6639830b7d74dee1b46ff988c623d885f5e1a57347e83ddebf691847b0",
+  "implementer": "codex:/root:20260929",
+  "reviewer": "gpt-6-sol:/root/finish_visual_review:20260929",
+  "reviewedAt": "2026-09-29T07:25:53.071Z",
+  "result": "pass",
+  "captures": [
+    {
+      "path": "quality/evidence/current-20260929/business-detail-1/desktop-light.png",
+      "sha256": "6dffc4df3388ca78c1ecec6e615cafc9fb8cf477a5ca53ccea1508326055c232",
+      "page": "business-detail-1",
+      "viewport": "desktop",
+      "mode": "light",
+      "width": 1440,
+      "height": 1000,
+      "url": "https://g5themes.test/pages/business-detail-1.php?device=pc",
+      "capturedAt": "2026-09-29T07:06:21.092Z",
+      "fullPage": true,
+      "documentHeight": 3022,
+      "media": [
+        "src/assets/images/business-detail-1-consulting.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/business-detail-1/desktop-dark.png",
+      "sha256": "06153511b999dcdec7d1ab929dd3c035bacd182242b50d1262f3a3b2a067eb4b",
+      "page": "business-detail-1",
+      "viewport": "desktop",
+      "mode": "dark",
+      "width": 1440,
+      "height": 1000,
+      "url": "https://g5themes.test/pages/business-detail-1.php?device=pc",
+      "capturedAt": "2026-09-29T07:06:52.796Z",
+      "fullPage": true,
+      "documentHeight": 3022,
+      "media": [
+        "src/assets/images/business-detail-1-consulting.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/business-detail-1/mobile-light.png",
+      "sha256": "234297a498c5ff68328715bf78bf89bc262141977d4651c0efe61a38b38884b2",
+      "page": "business-detail-1",
+      "viewport": "mobile",
+      "mode": "light",
+      "width": 390,
+      "height": 844,
+      "url": "https://g5themes.test/pages/business-detail-1.php?device=mobile",
+      "capturedAt": "2026-09-29T07:07:36.295Z",
+      "fullPage": true,
+      "documentHeight": 4137,
+      "media": [
+        "src/assets/images/business-detail-1-consulting.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/business-detail-1/mobile-dark.png",
+      "sha256": "389a9b8c7597875b4f853ce28c88b1831705ce2a222821e1b04646a881595929",
+      "page": "business-detail-1",
+      "viewport": "mobile",
+      "mode": "dark",
+      "width": 390,
+      "height": 844,
+      "url": "https://g5themes.test/pages/business-detail-1.php?device=mobile",
+      "capturedAt": "2026-09-29T07:08:04.624Z",
+      "fullPage": true,
+      "documentHeight": 4137,
+      "media": [
+        "src/assets/images/business-detail-1-consulting.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/business-detail-2/desktop-light.png",
+      "sha256": "6b634f103f6ca9f703f3ffcba23712089b583e921ca3681ff9c9f895cd1db69e",
+      "page": "business-detail-2",
+      "viewport": "desktop",
+      "mode": "light",
+      "width": 1440,
+      "height": 1000,
+      "url": "https://g5themes.test/pages/business-detail-2.php?device=pc",
+      "capturedAt": "2026-09-29T07:06:22.893Z",
+      "fullPage": true,
+      "documentHeight": 3537,
+      "media": [
+        "src/assets/images/business-detail-2-cover.webp",
+        "src/assets/images/business-detail-2-review.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "purpose-content",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/business-detail-2/desktop-dark.png",
+      "sha256": "abe2f1d9b1aad16c601b2041ac63bf31efd4b825810230ee666efd1e5791ad78",
+      "page": "business-detail-2",
+      "viewport": "desktop",
+      "mode": "dark",
+      "width": 1440,
+      "height": 1000,
+      "url": "https://g5themes.test/pages/business-detail-2.php?device=pc",
+      "capturedAt": "2026-09-29T07:06:55.206Z",
+      "fullPage": true,
+      "documentHeight": 3537,
+      "media": [
+        "src/assets/images/business-detail-2-cover.webp",
+        "src/assets/images/business-detail-2-review.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "purpose-content",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/business-detail-2/mobile-light.png",
+      "sha256": "b15127fa9ac16a6685f25abfee9f93db7d556247e46a1cfe58215367e13726b5",
+      "page": "business-detail-2",
+      "viewport": "mobile",
+      "mode": "light",
+      "width": 390,
+      "height": 844,
+      "url": "https://g5themes.test/pages/business-detail-2.php?device=mobile",
+      "capturedAt": "2026-09-29T07:07:38.228Z",
+      "fullPage": true,
+      "documentHeight": 4632,
+      "media": [
+        "src/assets/images/business-detail-2-cover.webp",
+        "src/assets/images/business-detail-2-review.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "purpose-content",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/business-detail-2/mobile-dark.png",
+      "sha256": "f545c03679bdeb1440f90af0cdc427848201e4613e10e8b8e3aee4c654013b13",
+      "page": "business-detail-2",
+      "viewport": "mobile",
+      "mode": "dark",
+      "width": 390,
+      "height": 844,
+      "url": "https://g5themes.test/pages/business-detail-2.php?device=mobile",
+      "capturedAt": "2026-09-29T07:08:06.276Z",
+      "fullPage": true,
+      "documentHeight": 4632,
+      "media": [
+        "src/assets/images/business-detail-2-cover.webp",
+        "src/assets/images/business-detail-2-review.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "purpose-content",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/business-detail-3/desktop-light.png",
+      "sha256": "a94713574abb15d1d5b0facbd91b4df9f534826fc9e7f20a0759ddd821e71f0b",
+      "page": "business-detail-3",
+      "viewport": "desktop",
+      "mode": "light",
+      "width": 1440,
+      "height": 1000,
+      "url": "https://g5themes.test/pages/business-detail-3.php?device=pc",
+      "capturedAt": "2026-09-29T07:06:24.686Z",
+      "fullPage": true,
+      "documentHeight": 2997,
+      "media": [
+        "src/assets/images/business-detail-3-space.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/business-detail-3/desktop-dark.png",
+      "sha256": "1c49afa3f617a169f2e69b2f6b0f9dedb2f23d0792c2a0f1a87d988789cf2c85",
+      "page": "business-detail-3",
+      "viewport": "desktop",
+      "mode": "dark",
+      "width": 1440,
+      "height": 1000,
+      "url": "https://g5themes.test/pages/business-detail-3.php?device=pc",
+      "capturedAt": "2026-09-29T07:06:57.296Z",
+      "fullPage": true,
+      "documentHeight": 2997,
+      "media": [
+        "src/assets/images/business-detail-3-space.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/business-detail-3/mobile-light.png",
+      "sha256": "2ce752de20953fffa86c45ebb1bbfec814ad081fae216970190df7eeb7eaae35",
+      "page": "business-detail-3",
+      "viewport": "mobile",
+      "mode": "light",
+      "width": 390,
+      "height": 844,
+      "url": "https://g5themes.test/pages/business-detail-3.php?device=mobile",
+      "capturedAt": "2026-09-29T07:07:40.224Z",
+      "fullPage": true,
+      "documentHeight": 3899,
+      "media": [
+        "src/assets/images/business-detail-3-space.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/business-detail-3/mobile-dark.png",
+      "sha256": "b9630bb9c3220dc3c96738f92c749b5cb935e94963631bd53246fe6d1f67349a",
+      "page": "business-detail-3",
+      "viewport": "mobile",
+      "mode": "dark",
+      "width": 390,
+      "height": 844,
+      "url": "https://g5themes.test/pages/business-detail-3.php?device=mobile",
+      "capturedAt": "2026-09-29T07:08:07.873Z",
+      "fullPage": true,
+      "documentHeight": 3899,
+      "media": [
+        "src/assets/images/business-detail-3-space.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/business-detail-4/desktop-light.png",
+      "sha256": "37eeadd4f62c8da144fcda5e8f6576d741d0afaa46770832905a3a087dbafd96",
+      "page": "business-detail-4",
+      "viewport": "desktop",
+      "mode": "light",
+      "width": 1440,
+      "height": 1000,
+      "url": "https://g5themes.test/pages/business-detail-4.php?device=pc",
+      "capturedAt": "2026-09-29T07:06:26.763Z",
+      "fullPage": true,
+      "documentHeight": 3812,
+      "media": [
+        "src/assets/images/business-detail-4-case.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "purpose-content",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/business-detail-4/desktop-dark.png",
+      "sha256": "69e123513887706405186ad5f884dbd1a0834ca1da10df353682b0bf1f4f81d1",
+      "page": "business-detail-4",
+      "viewport": "desktop",
+      "mode": "dark",
+      "width": 1440,
+      "height": 1000,
+      "url": "https://g5themes.test/pages/business-detail-4.php?device=pc",
+      "capturedAt": "2026-09-29T07:06:59.476Z",
+      "fullPage": true,
+      "documentHeight": 3812,
+      "media": [
+        "src/assets/images/business-detail-4-case.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "purpose-content",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/business-detail-4/mobile-light.png",
+      "sha256": "c24f941b4ebdc94a57b072d683f3ca7315084a19b5296e510ca6f227411d6809",
+      "page": "business-detail-4",
+      "viewport": "mobile",
+      "mode": "light",
+      "width": 390,
+      "height": 844,
+      "url": "https://g5themes.test/pages/business-detail-4.php?device=mobile",
+      "capturedAt": "2026-09-29T07:07:41.933Z",
+      "fullPage": true,
+      "documentHeight": 4759,
+      "media": [
+        "src/assets/images/business-detail-4-case.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "purpose-content",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/business-detail-4/mobile-dark.png",
+      "sha256": "d89a83fbe0b3892c70fa33053bd831018df978450dc4d06b3e1818c4a43a9b5b",
+      "page": "business-detail-4",
+      "viewport": "mobile",
+      "mode": "dark",
+      "width": 390,
+      "height": 844,
+      "url": "https://g5themes.test/pages/business-detail-4.php?device=mobile",
+      "capturedAt": "2026-09-29T07:08:09.544Z",
+      "fullPage": true,
+      "documentHeight": 4759,
+      "media": [
+        "src/assets/images/business-detail-4-case.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "purpose-content",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/business-detail-5/desktop-light.png",
+      "sha256": "e96c61389db00e82169c8e07a7c408d45c143811b670bad11455d2974b45f91c",
+      "page": "business-detail-5",
+      "viewport": "desktop",
+      "mode": "light",
+      "width": 1440,
+      "height": 1000,
+      "url": "https://g5themes.test/pages/business-detail-5.php?device=pc",
+      "capturedAt": "2026-09-29T07:06:28.456Z",
+      "fullPage": true,
+      "documentHeight": 3673,
+      "media": [],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/business-detail-5/desktop-dark.png",
+      "sha256": "2ea4229732a5ca2a0319732de9b32a04b71731707fbd17410343d2e10ecf6c3e",
+      "page": "business-detail-5",
+      "viewport": "desktop",
+      "mode": "dark",
+      "width": 1440,
+      "height": 1000,
+      "url": "https://g5themes.test/pages/business-detail-5.php?device=pc",
+      "capturedAt": "2026-09-29T07:07:01.839Z",
+      "fullPage": true,
+      "documentHeight": 3673,
+      "media": [],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/business-detail-5/mobile-light.png",
+      "sha256": "6d4e318a4fffc1cbed22ad79db3fb5ea7d0c364b49017e2a6b9133315d220935",
+      "page": "business-detail-5",
+      "viewport": "mobile",
+      "mode": "light",
+      "width": 390,
+      "height": 844,
+      "url": "https://g5themes.test/pages/business-detail-5.php?device=mobile",
+      "capturedAt": "2026-09-29T07:07:43.624Z",
+      "fullPage": true,
+      "documentHeight": 5081,
+      "media": [],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/business-detail-5/mobile-dark.png",
+      "sha256": "1793fc9f3f1cb278cf1fb6c05397ff70f1921ff67bde7eb6dc8d4e407f2e4c4a",
+      "page": "business-detail-5",
+      "viewport": "mobile",
+      "mode": "dark",
+      "width": 390,
+      "height": 844,
+      "url": "https://g5themes.test/pages/business-detail-5.php?device=mobile",
+      "capturedAt": "2026-09-29T07:08:11.232Z",
+      "fullPage": true,
+      "documentHeight": 5081,
+      "media": [],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "id": "business-detail-1",
+      "purpose": {
+        "id": "purpose",
+        "result": "pass",
+        "reason": "컨설팅의 현황 진단·방향 설계·실행 준비 범위를 설명하고 어떤 자료로 상담을 시작할지 알려 줍니다."
+      },
+      "imagery": {
+        "id": "imagery",
+        "result": "pass",
+        "reason": "고객과 자료를 함께 검토하는 전용 사진 한 장이 상담 장면을 보여 주며 가상 성과 수치나 장식 사진을 추가하지 않았습니다."
+      },
+      "composition": {
+        "id": "composition",
+        "result": "pass",
+        "reason": "사진 다음 세 업무 범위, 반복 문의의 안내 흐름, 상담 준비 자료와 문의로 이어져 의사결정 범위에 집중합니다."
+      }
+    },
+    {
+      "id": "business-detail-2",
+      "purpose": {
+        "id": "purpose",
+        "result": "pass",
+        "reason": "디지털 서비스의 정보 구조, 사용 화면, 운영 인계를 설명해 화면 개선 상담의 범위를 구체화합니다."
+      },
+      "imagery": {
+        "id": "imagery",
+        "result": "pass",
+        "reason": "기획 자료와 화면을 대조하는 표지 사진, 실제 모바일 크기의 서비스 찾기 시안, 현장 휴대전화 검토 사진이 각각 다른 정보를 보여 줍니다."
+      },
+      "composition": {
+        "id": "composition",
+        "result": "pass",
+        "reason": "정보 탐색 시안 다음 사용 가능한 화면과 운영 자료로 깊이를 더하며 PC·모바일 라이트·다크에서 목업 글과 버튼이 읽힙니다."
+      }
+    },
+    {
+      "id": "business-detail-3",
+      "purpose": {
+        "id": "purpose",
+        "result": "pass",
+        "reason": "방문 동선·공유 공간·안내 체계의 업무 범위를 제시하고, 공간 제안과 별도 전문 업무의 경계를 설명합니다."
+      },
+      "imagery": {
+        "id": "imagery",
+        "result": "pass",
+        "reason": "전용 업무 공간 사진이 도착과 머무름을 함께 보여 주고 뒤 항목은 사진 재활용 없이 문장과 범위로 정리합니다."
+      },
+      "composition": {
+        "id": "composition",
+        "result": "pass",
+        "reason": "공간 사진에서 세 가지 과제·준비 자료·제안 범위를 지나 문의로 끝나며 모바일에서도 단락 경계가 뚜렷합니다."
+      }
+    },
+    {
+      "id": "business-detail-4",
+      "purpose": {
+        "id": "purpose",
+        "result": "pass",
+        "reason": "기업 사이트에서 설명 뒤 문의로 가는 길이 불명확했던 가상 상황을 전후 비교로 설명합니다."
+      },
+      "imagery": {
+        "id": "imagery",
+        "result": "pass",
+        "reason": "고객 화면을 검토하는 사진과 CSS/HTML로 만든 변경 전·후 작은 화면 조각이 문제와 개선 결과를 서로 다른 형태로 보여 줍니다."
+      },
+      "composition": {
+        "id": "composition",
+        "result": "pass",
+        "reason": "문제 정의→전후 화면 비교→정보 구조·반응형·운영 인계의 결과로 흐르며 가상 사례임을 명시하고 문의로 끝납니다."
+      }
+    },
+    {
+      "id": "business-detail-5",
+      "purpose": {
+        "id": "purpose",
+        "result": "pass",
+        "reason": "컨설팅의 현황 정리부터 인계 확인까지 네 단계와 각 단계에 남길 자료를 보여 줍니다."
+      },
+      "imagery": {
+        "id": "imagery",
+        "result": "pass",
+        "reason": "사진을 보태지 않고 돋보기·목표·문서·방패의 네 큰 아이콘으로 단계 차이를 드러냅니다. 테마색이 두 모드에서 읽힙니다."
+      },
+      "composition": {
+        "id": "composition",
+        "result": "pass",
+        "reason": "네 단계 목차와 단계별 확인·남는 자료를 세로로 펼친 뒤 조건 변경 질문과 상담으로 닫아 과정형 상세의 역할이 분명합니다."
+      }
+    }
+  ],
+  "comparisons": [
+    {
+      "left": "business-detail-1",
+      "right": "business-detail-2",
+      "result": "pass",
+      "reason": "첫 화면은 business-detail-1의 고객과 자료를 함께 검토하는 상담 사진, business-detail-2의 기획 자료와 화면을 대조하는 디지털 사진입니다. 중간은 각각 현황 진단·방향 설계·실행 준비의 범위 / 모바일 서비스 찾기 시안과 운영 인계 자료, 마감은 상담 준비 자료와 문의 / 화면 개선 상담으로 다릅니다. 상세 서비스의 문제와 설명 방식이 구분됩니다."
+    },
+    {
+      "left": "business-detail-1",
+      "right": "business-detail-3",
+      "result": "pass",
+      "reason": "첫 화면은 business-detail-1의 고객과 자료를 함께 검토하는 상담 사진, business-detail-3의 도착과 머무름이 보이는 공간 사진입니다. 중간은 각각 현황 진단·방향 설계·실행 준비의 범위 / 방문 동선·공유 공간·안내 체계의 범위, 마감은 상담 준비 자료와 문의 / 공간 제안 경계와 문의으로 다릅니다. 상세 서비스의 문제와 설명 방식이 구분됩니다."
+    },
+    {
+      "left": "business-detail-1",
+      "right": "business-detail-4",
+      "result": "pass",
+      "reason": "첫 화면은 business-detail-1의 고객과 자료를 함께 검토하는 상담 사진, business-detail-4의 고객 화면을 살피는 가상 사례 사진입니다. 중간은 각각 현황 진단·방향 설계·실행 준비의 범위 / 변경 전·후 화면 조각과 정보 구조 설명, 마감은 상담 준비 자료와 문의 / 가상 사례의 결과와 문의으로 다릅니다. 상세 서비스의 문제와 설명 방식이 구분됩니다."
+    },
+    {
+      "left": "business-detail-1",
+      "right": "business-detail-5",
+      "result": "pass",
+      "reason": "첫 화면은 business-detail-1의 고객과 자료를 함께 검토하는 상담 사진, business-detail-5의 네 단계 목차와 큰 아이콘입니다. 중간은 각각 현황 진단·방향 설계·실행 준비의 범위 / 확인 사항과 남는 자료의 세로형 단계, 마감은 상담 준비 자료와 문의 / 조건 변경 질문과 상담으로 다릅니다. 상세 서비스의 문제와 설명 방식이 구분됩니다."
+    },
+    {
+      "left": "business-detail-2",
+      "right": "business-detail-3",
+      "result": "pass",
+      "reason": "첫 화면은 business-detail-2의 기획 자료와 화면을 대조하는 디지털 사진, business-detail-3의 도착과 머무름이 보이는 공간 사진입니다. 중간은 각각 모바일 서비스 찾기 시안과 운영 인계 자료 / 방문 동선·공유 공간·안내 체계의 범위, 마감은 화면 개선 상담 / 공간 제안 경계와 문의으로 다릅니다. 상세 서비스의 문제와 설명 방식이 구분됩니다."
+    },
+    {
+      "left": "business-detail-2",
+      "right": "business-detail-4",
+      "result": "pass",
+      "reason": "첫 화면은 business-detail-2의 기획 자료와 화면을 대조하는 디지털 사진, business-detail-4의 고객 화면을 살피는 가상 사례 사진입니다. 중간은 각각 모바일 서비스 찾기 시안과 운영 인계 자료 / 변경 전·후 화면 조각과 정보 구조 설명, 마감은 화면 개선 상담 / 가상 사례의 결과와 문의으로 다릅니다. 상세 서비스의 문제와 설명 방식이 구분됩니다."
+    },
+    {
+      "left": "business-detail-2",
+      "right": "business-detail-5",
+      "result": "pass",
+      "reason": "첫 화면은 business-detail-2의 기획 자료와 화면을 대조하는 디지털 사진, business-detail-5의 네 단계 목차와 큰 아이콘입니다. 중간은 각각 모바일 서비스 찾기 시안과 운영 인계 자료 / 확인 사항과 남는 자료의 세로형 단계, 마감은 화면 개선 상담 / 조건 변경 질문과 상담으로 다릅니다. 상세 서비스의 문제와 설명 방식이 구분됩니다."
+    },
+    {
+      "left": "business-detail-3",
+      "right": "business-detail-4",
+      "result": "pass",
+      "reason": "첫 화면은 business-detail-3의 도착과 머무름이 보이는 공간 사진, business-detail-4의 고객 화면을 살피는 가상 사례 사진입니다. 중간은 각각 방문 동선·공유 공간·안내 체계의 범위 / 변경 전·후 화면 조각과 정보 구조 설명, 마감은 공간 제안 경계와 문의 / 가상 사례의 결과와 문의으로 다릅니다. 상세 서비스의 문제와 설명 방식이 구분됩니다."
+    },
+    {
+      "left": "business-detail-3",
+      "right": "business-detail-5",
+      "result": "pass",
+      "reason": "첫 화면은 business-detail-3의 도착과 머무름이 보이는 공간 사진, business-detail-5의 네 단계 목차와 큰 아이콘입니다. 중간은 각각 방문 동선·공유 공간·안내 체계의 범위 / 확인 사항과 남는 자료의 세로형 단계, 마감은 공간 제안 경계와 문의 / 조건 변경 질문과 상담으로 다릅니다. 상세 서비스의 문제와 설명 방식이 구분됩니다."
+    },
+    {
+      "left": "business-detail-4",
+      "right": "business-detail-5",
+      "result": "pass",
+      "reason": "첫 화면은 business-detail-4의 고객 화면을 살피는 가상 사례 사진, business-detail-5의 네 단계 목차와 큰 아이콘입니다. 중간은 각각 변경 전·후 화면 조각과 정보 구조 설명 / 확인 사항과 남는 자료의 세로형 단계, 마감은 가상 사례의 결과와 문의 / 조건 변경 질문과 상담으로 다릅니다. 상세 서비스의 문제와 설명 방식이 구분됩니다."
+    }
+  ],
+  "interactions": [
+    {
+      "page": "business-detail-5",
+      "id": "section-navigation",
+      "viewport": "desktop",
+      "result": "pass",
+      "steps": "목차 링크를 눌러 해당 본문 섹션으로 이동하고 주소의 앵커와 화면 변화를 확인했습니다.",
+      "before": {
+        "path": "quality/evidence/current-20260929/general-interactions/business-detail-5-desktop-section-navigation-before.png",
+        "sha256": "17069245087497427ad4e399c1916d34d6da5b74295ccdc19c3d7207d39ae714"
+      },
+      "after": {
+        "path": "quality/evidence/current-20260929/general-interactions/business-detail-5-desktop-section-navigation-after.png",
+        "sha256": "0e593f7196b1787c1f72ef3427db5ebe4ceaaab9e7e84af824fbea492337fa15"
+      }
+    },
+    {
+      "page": "business-detail-5",
+      "id": "section-navigation",
+      "viewport": "mobile",
+      "result": "pass",
+      "steps": "목차 링크를 눌러 해당 본문 섹션으로 이동하고 주소의 앵커와 화면 변화를 확인했습니다.",
+      "before": {
+        "path": "quality/evidence/current-20260929/general-interactions/business-detail-5-mobile-section-navigation-before.png",
+        "sha256": "a542376f9e8d6ff95c6f45c5e3393c75a741f4daa4aa2b0d32202e30bb411777"
+      },
+      "after": {
+        "path": "quality/evidence/current-20260929/general-interactions/business-detail-5-mobile-section-navigation-after.png",
+        "sha256": "2f57f83a190b65ff037a4ea2c0482fa99dff4ae548e86658ded63be2f7511301"
+      }
+    }
+  ]
+}

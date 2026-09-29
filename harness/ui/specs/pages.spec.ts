@@ -62,7 +62,7 @@ for (const plan of selectedPages()) {
       await tabs.nth(0).press('ArrowRight');
       await expect(tabs.nth(1)).toHaveAttribute('aria-selected', 'true');
       await tabs.nth(1).press('End');
-      await expect(page.locator('[data-jwo-install-diagram]')).toBeVisible();
+      await expect(page.locator('#aura-placement [data-jwo-install-diagram]')).toBeVisible();
       await page.evaluate(() => scrollTo(0, 0));
     }
     const metrics = await inspectPage(page, plan);

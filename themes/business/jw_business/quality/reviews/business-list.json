@@ -1,0 +1,646 @@
+{
+  "schemaVersion": 2,
+  "group": "business-list",
+  "inputDigest": "04d0dc66e494271df685c1782dceee14b96b4b4e5a56d6065f4bf24671e0adcb",
+  "implementer": "codex:/root:20260929",
+  "reviewer": "gpt-6-sol:/root/finish_visual_review:20260929",
+  "reviewedAt": "2026-09-29T07:25:53.071Z",
+  "result": "pass",
+  "captures": [
+    {
+      "path": "quality/evidence/current-20260929/business-list-1/desktop-light.png",
+      "sha256": "3e4dc21956b9bbdf93c9153d16f456ae312cd2b5cf8be1732fc16ccf73af16a6",
+      "page": "business-list-1",
+      "viewport": "desktop",
+      "mode": "light",
+      "width": 1440,
+      "height": 1000,
+      "url": "https://g5themes.test/pages/business-list-1.php?device=pc",
+      "capturedAt": "2026-09-29T07:06:11.958Z",
+      "fullPage": true,
+      "documentHeight": 2649,
+      "media": [
+        "src/assets/images/business-list-1-strategy.webp",
+        "src/assets/images/business-list-1-digital.webp",
+        "src/assets/images/business-list-1-space.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/business-list-1/desktop-dark.png",
+      "sha256": "71345c7f9537b6d81c847d6fc5eb1900917a5eef9ed02e0682c030dcb981b034",
+      "page": "business-list-1",
+      "viewport": "desktop",
+      "mode": "dark",
+      "width": 1440,
+      "height": 1000,
+      "url": "https://g5themes.test/pages/business-list-1.php?device=pc",
+      "capturedAt": "2026-09-29T07:06:43.764Z",
+      "fullPage": true,
+      "documentHeight": 2649,
+      "media": [
+        "src/assets/images/business-list-1-strategy.webp",
+        "src/assets/images/business-list-1-digital.webp",
+        "src/assets/images/business-list-1-space.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/business-list-1/mobile-light.png",
+      "sha256": "01d04fb70124d0c85f5b37557022f0a2c647735cc8c099d895bc0ff9703cd52a",
+      "page": "business-list-1",
+      "viewport": "mobile",
+      "mode": "light",
+      "width": 390,
+      "height": 844,
+      "url": "https://g5themes.test/pages/business-list-1.php?device=mobile",
+      "capturedAt": "2026-09-29T07:07:24.848Z",
+      "fullPage": true,
+      "documentHeight": 4540,
+      "media": [
+        "src/assets/images/business-list-1-strategy.webp",
+        "src/assets/images/business-list-1-digital.webp",
+        "src/assets/images/business-list-1-space.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/business-list-1/mobile-dark.png",
+      "sha256": "84d5c9d5ca31257261fb1cc9744e1669fff10687e4c4931bdc1cecbef4da1cc6",
+      "page": "business-list-1",
+      "viewport": "mobile",
+      "mode": "dark",
+      "width": 390,
+      "height": 844,
+      "url": "https://g5themes.test/pages/business-list-1.php?device=mobile",
+      "capturedAt": "2026-09-29T07:07:56.582Z",
+      "fullPage": true,
+      "documentHeight": 4540,
+      "media": [
+        "src/assets/images/business-list-1-strategy.webp",
+        "src/assets/images/business-list-1-digital.webp",
+        "src/assets/images/business-list-1-space.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/business-list-2/desktop-light.png",
+      "sha256": "ff427a1e993651b7f890fc4b1e358597ec3163f697f40004d8e28ba09b0b8957",
+      "page": "business-list-2",
+      "viewport": "desktop",
+      "mode": "light",
+      "width": 1440,
+      "height": 1000,
+      "url": "https://g5themes.test/pages/business-list-2.php?device=pc",
+      "capturedAt": "2026-09-29T07:06:13.796Z",
+      "fullPage": true,
+      "documentHeight": 2992,
+      "media": [
+        "src/assets/images/business-list-2-strategy.webp",
+        "src/assets/images/business-list-2-digital.webp",
+        "src/assets/images/business-list-2-space.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/business-list-2/desktop-dark.png",
+      "sha256": "3f9069f2755e7d8efb9dfd64b5feb22ead565d4fd1a301dddbd9b557b16a1fed",
+      "page": "business-list-2",
+      "viewport": "desktop",
+      "mode": "dark",
+      "width": 1440,
+      "height": 1000,
+      "url": "https://g5themes.test/pages/business-list-2.php?device=pc",
+      "capturedAt": "2026-09-29T07:06:45.537Z",
+      "fullPage": true,
+      "documentHeight": 2992,
+      "media": [
+        "src/assets/images/business-list-2-strategy.webp",
+        "src/assets/images/business-list-2-digital.webp",
+        "src/assets/images/business-list-2-space.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/business-list-2/mobile-light.png",
+      "sha256": "1c6fcafdad53660affb86a871d13babd01991e427ae5e20f5fff6ec3cf9438f9",
+      "page": "business-list-2",
+      "viewport": "mobile",
+      "mode": "light",
+      "width": 390,
+      "height": 844,
+      "url": "https://g5themes.test/pages/business-list-2.php?device=mobile",
+      "capturedAt": "2026-09-29T07:07:27.334Z",
+      "fullPage": true,
+      "documentHeight": 4387,
+      "media": [
+        "src/assets/images/business-list-2-strategy.webp",
+        "src/assets/images/business-list-2-digital.webp",
+        "src/assets/images/business-list-2-space.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/business-list-2/mobile-dark.png",
+      "sha256": "207b52aa97ee7b072934f90195fe1ff2df64ece8bcc7dc703a127938e6fae558",
+      "page": "business-list-2",
+      "viewport": "mobile",
+      "mode": "dark",
+      "width": 390,
+      "height": 844,
+      "url": "https://g5themes.test/pages/business-list-2.php?device=mobile",
+      "capturedAt": "2026-09-29T07:07:58.289Z",
+      "fullPage": true,
+      "documentHeight": 4387,
+      "media": [
+        "src/assets/images/business-list-2-strategy.webp",
+        "src/assets/images/business-list-2-digital.webp",
+        "src/assets/images/business-list-2-space.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/business-list-3/desktop-light.png",
+      "sha256": "420d8b491b353158c71895fb4334e81e887036e60d879a95c13bbf341f8a7c9c",
+      "page": "business-list-3",
+      "viewport": "desktop",
+      "mode": "light",
+      "width": 1440,
+      "height": 1000,
+      "url": "https://g5themes.test/pages/business-list-3.php?device=pc",
+      "capturedAt": "2026-09-29T07:06:15.549Z",
+      "fullPage": true,
+      "documentHeight": 2598,
+      "media": [
+        "src/assets/images/business-list-3-arrival.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/business-list-3/desktop-dark.png",
+      "sha256": "e2946fb02ba2f0415331a3d2487b3d7707c4f6ccaa8d809d1250755aeee566d7",
+      "page": "business-list-3",
+      "viewport": "desktop",
+      "mode": "dark",
+      "width": 1440,
+      "height": 1000,
+      "url": "https://g5themes.test/pages/business-list-3.php?device=pc",
+      "capturedAt": "2026-09-29T07:06:47.341Z",
+      "fullPage": true,
+      "documentHeight": 2598,
+      "media": [
+        "src/assets/images/business-list-3-arrival.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/business-list-3/mobile-light.png",
+      "sha256": "0fd1b72c26980c9a7f0b3118c44f4c06ac2cf8e4e6c8e3bddcc75db20ecb6611",
+      "page": "business-list-3",
+      "viewport": "mobile",
+      "mode": "light",
+      "width": 390,
+      "height": 844,
+      "url": "https://g5themes.test/pages/business-list-3.php?device=mobile",
+      "capturedAt": "2026-09-29T07:07:29.914Z",
+      "fullPage": true,
+      "documentHeight": 3258,
+      "media": [
+        "src/assets/images/business-list-3-arrival.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/business-list-3/mobile-dark.png",
+      "sha256": "75896b90977f076e0031a820e46a4565da9f74f4bb942655d51b763c4decac2c",
+      "page": "business-list-3",
+      "viewport": "mobile",
+      "mode": "dark",
+      "width": 390,
+      "height": 844,
+      "url": "https://g5themes.test/pages/business-list-3.php?device=mobile",
+      "capturedAt": "2026-09-29T07:07:59.874Z",
+      "fullPage": true,
+      "documentHeight": 3258,
+      "media": [
+        "src/assets/images/business-list-3-arrival.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/business-list-4/desktop-light.png",
+      "sha256": "2fad0ff6394f84b0d321134d067761e0cb3d0064b646b71a7bf19d43cd7cc13d",
+      "page": "business-list-4",
+      "viewport": "desktop",
+      "mode": "light",
+      "width": 1440,
+      "height": 1000,
+      "url": "https://g5themes.test/pages/business-list-4.php?device=pc",
+      "capturedAt": "2026-09-29T07:06:17.376Z",
+      "fullPage": true,
+      "documentHeight": 2657,
+      "media": [
+        "src/assets/images/business-list-4-team.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/business-list-4/desktop-dark.png",
+      "sha256": "803667cc56ce999be2544c5625deff15c018bb3d4129273cc5db47b2eb9891fd",
+      "page": "business-list-4",
+      "viewport": "desktop",
+      "mode": "dark",
+      "width": 1440,
+      "height": 1000,
+      "url": "https://g5themes.test/pages/business-list-4.php?device=pc",
+      "capturedAt": "2026-09-29T07:06:49.104Z",
+      "fullPage": true,
+      "documentHeight": 2657,
+      "media": [
+        "src/assets/images/business-list-4-team.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/business-list-4/mobile-light.png",
+      "sha256": "f11a0953910569b0482d52d9157eda9c3dfa1c01589150a318e41f073856118c",
+      "page": "business-list-4",
+      "viewport": "mobile",
+      "mode": "light",
+      "width": 390,
+      "height": 844,
+      "url": "https://g5themes.test/pages/business-list-4.php?device=mobile",
+      "capturedAt": "2026-09-29T07:07:32.280Z",
+      "fullPage": true,
+      "documentHeight": 3413,
+      "media": [
+        "src/assets/images/business-list-4-team.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/business-list-4/mobile-dark.png",
+      "sha256": "d35e015302bdd71df2dd97298d1af90a156b1b1281970cb191193f4edbba5b9e",
+      "page": "business-list-4",
+      "viewport": "mobile",
+      "mode": "dark",
+      "width": 390,
+      "height": 844,
+      "url": "https://g5themes.test/pages/business-list-4.php?device=mobile",
+      "capturedAt": "2026-09-29T07:08:01.476Z",
+      "fullPage": true,
+      "documentHeight": 3413,
+      "media": [
+        "src/assets/images/business-list-4-team.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/business-list-5/desktop-light.png",
+      "sha256": "198cc1ee8b68160cced8ca0aaa45a00574d4f6fc863f0315f7ba1f0f155dc328",
+      "page": "business-list-5",
+      "viewport": "desktop",
+      "mode": "light",
+      "width": 1440,
+      "height": 1000,
+      "url": "https://g5themes.test/pages/business-list-5.php?device=pc",
+      "capturedAt": "2026-09-29T07:06:19.236Z",
+      "fullPage": true,
+      "documentHeight": 3183,
+      "media": [
+        "src/assets/images/business-list-5-direction.webp",
+        "src/assets/images/business-list-5-experience.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/business-list-5/desktop-dark.png",
+      "sha256": "81efd7a254ef60c07d814f13a207eecab559816f0b983ecd311f6b1a9619e917",
+      "page": "business-list-5",
+      "viewport": "desktop",
+      "mode": "dark",
+      "width": 1440,
+      "height": 1000,
+      "url": "https://g5themes.test/pages/business-list-5.php?device=pc",
+      "capturedAt": "2026-09-29T07:06:50.858Z",
+      "fullPage": true,
+      "documentHeight": 3183,
+      "media": [
+        "src/assets/images/business-list-5-direction.webp",
+        "src/assets/images/business-list-5-experience.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/business-list-5/mobile-light.png",
+      "sha256": "7bf24aaf8a95de23e1cb3e931ef1ca4485ad91997913fafecd4cfc137ec15825",
+      "page": "business-list-5",
+      "viewport": "mobile",
+      "mode": "light",
+      "width": 390,
+      "height": 844,
+      "url": "https://g5themes.test/pages/business-list-5.php?device=mobile",
+      "capturedAt": "2026-09-29T07:07:34.572Z",
+      "fullPage": true,
+      "documentHeight": 3378,
+      "media": [
+        "src/assets/images/business-list-5-direction.webp",
+        "src/assets/images/business-list-5-experience.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/business-list-5/mobile-dark.png",
+      "sha256": "0521278cdff919d9b2e63f1103993070c04c87400b748e1bb19deddb4259be61",
+      "page": "business-list-5",
+      "viewport": "mobile",
+      "mode": "dark",
+      "width": 390,
+      "height": 844,
+      "url": "https://g5themes.test/pages/business-list-5.php?device=mobile",
+      "capturedAt": "2026-09-29T07:08:03.089Z",
+      "fullPage": true,
+      "documentHeight": 3378,
+      "media": [
+        "src/assets/images/business-list-5-direction.webp",
+        "src/assets/images/business-list-5-experience.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "id": "business-list-1",
+      "purpose": {
+        "id": "purpose",
+        "result": "pass",
+        "reason": "컨설팅·디지털·공간의 세 사업을 사진과 업무 범위로 빠르게 훑고 각 상세와 상담으로 이동할 수 있습니다."
+      },
+      "imagery": {
+        "id": "imagery",
+        "result": "pass",
+        "reason": "전략 대화, 태블릿을 이용한 화면 작업, 방문 공간 사진이 각 분야의 실제 사용 맥락을 구분합니다."
+      },
+      "composition": {
+        "id": "composition",
+        "result": "pass",
+        "reason": "세 사진형 서비스 항목과 불릿 범위 뒤에 목표 정리·첫 상담의 네 단계·문의가 이어집니다. 모바일에서는 사진과 설명이 일정한 순서로 쌓입니다."
+      }
+    },
+    {
+      "id": "business-list-2",
+      "purpose": {
+        "id": "purpose",
+        "result": "pass",
+        "reason": "서로 다른 전문성이 하나의 사업 흐름으로 이어지는 과정을 전략·디지털·공간의 순서로 설명합니다."
+      },
+      "imagery": {
+        "id": "imagery",
+        "result": "pass",
+        "reason": "대화를 통한 방향 설정, 현장 태블릿 검토, 방문자가 움직이는 건축 장면이 서로 다른 업무를 가리킵니다."
+      },
+      "composition": {
+        "id": "composition",
+        "result": "pass",
+        "reason": "사진과 짧은 검토·공유 자료를 세 번 교대하고, 분야 경계보다 공동 목표를 강조한 뒤 상담 링크로 마칩니다."
+      }
+    },
+    {
+      "id": "business-list-3",
+      "purpose": {
+        "id": "purpose",
+        "result": "pass",
+        "reason": "장소에 도착해 이동하고 사람을 만나는 방문 흐름을 중심에 두어 공간 경험형 사업 안내임을 즉시 드러냅니다."
+      },
+      "imagery": {
+        "id": "imagery",
+        "result": "pass",
+        "reason": "계단과 사람들이 보이는 전용 실내 사진이 도착의 맥락에 맞고, 이후 건물·나침반·악수 아이콘이 서로 다른 장면을 가리킵니다."
+      },
+      "composition": {
+        "id": "composition",
+        "result": "pass",
+        "reason": "대형 공간 히어로 뒤 도착·이동·만남 카드, 보조 전문 분야 두 행, 현장 상담으로 이어져 다른 목록의 세 사진 반복을 피했습니다."
+      }
+    },
+    {
+      "id": "business-list-4",
+      "purpose": {
+        "id": "purpose",
+        "result": "pass",
+        "reason": "무엇을 먼저 바꿀지 결정할 방문자에게 세 분야의 수행 범위를 번호별로 분명히 제시합니다."
+      },
+      "imagery": {
+        "id": "imagery",
+        "result": "pass",
+        "reason": "팀이 공간 모형과 자료를 함께 살피는 전용 사진이 업무 안내의 맥락에 맞고, 디지털 작은 화면은 실제 시연 형식입니다."
+      },
+      "composition": {
+        "id": "composition",
+        "result": "pass",
+        "reason": "사진 히어로 뒤 컨설팅의 초점, 디지털 선택 화면, 공간의 장소 아이콘으로 표현을 바꾸며 협업 문의로 닫습니다. PC·모바일에서 제목과 아이콘의 기준이 유지됩니다."
+      }
+    },
+    {
+      "id": "business-list-5",
+      "purpose": {
+        "id": "purpose",
+        "result": "pass",
+        "reason": "아직 분야를 정하지 않은 방문자에게 방향과 계획, 정보와 공간이라는 두 협업 갈래를 제시합니다."
+      },
+      "imagery": {
+        "id": "imagery",
+        "result": "pass",
+        "reason": "원탁 토론 사진과 전시장 앞에서 휴대전화 정보를 확인하는 사진은 작업과 방문 경험의 두 맥락을 분리합니다."
+      },
+      "composition": {
+        "id": "composition",
+        "result": "pass",
+        "reason": "회의 사진 뒤 파란 초점 패널로 계획을, 뒤쪽 현장 사진으로 경험을 보여 준 뒤 분야 미지정 문의로 연결합니다. 모바일에서도 두 갈래가 합쳐지지 않습니다."
+      }
+    }
+  ],
+  "comparisons": [
+    {
+      "left": "business-list-1",
+      "right": "business-list-2",
+      "result": "pass",
+      "reason": "첫 화면은 business-list-1의 세 분야의 사진형 서비스 목록, business-list-2의 방향을 함께 찾는 전략 상담 사진입니다. 중간은 각각 분야별 범위 불릿과 상세 링크 / 전략·디지털·공간 사진과 검토 자료의 교대, 마감은 첫 상담 네 단계와 문의 / 공동 목표를 묻는 상담으로 다릅니다. 사업을 고르는 경로와 이미지 리듬이 구분됩니다."
+    },
+    {
+      "left": "business-list-1",
+      "right": "business-list-3",
+      "result": "pass",
+      "reason": "첫 화면은 business-list-1의 세 분야의 사진형 서비스 목록, business-list-3의 사람과 계단이 보이는 공간 도착 사진입니다. 중간은 각각 분야별 범위 불릿과 상세 링크 / 도착·이동·만남의 세 아이콘 카드와 보조 분야, 마감은 첫 상담 네 단계와 문의 / 연결된 방문 접점을 묻는 상담으로 다릅니다. 사업을 고르는 경로와 이미지 리듬이 구분됩니다."
+    },
+    {
+      "left": "business-list-1",
+      "right": "business-list-4",
+      "result": "pass",
+      "reason": "첫 화면은 business-list-1의 세 분야의 사진형 서비스 목록, business-list-4의 모형을 함께 살피는 팀 사진입니다. 중간은 각각 분야별 범위 불릿과 상세 링크 / 번호별 초점·디지털 시연·공간 아이콘, 마감은 첫 상담 네 단계와 문의 / 여러 분야의 협업 문의으로 다릅니다. 사업을 고르는 경로와 이미지 리듬이 구분됩니다."
+    },
+    {
+      "left": "business-list-1",
+      "right": "business-list-5",
+      "result": "pass",
+      "reason": "첫 화면은 business-list-1의 세 분야의 사진형 서비스 목록, business-list-5의 변화의 위치를 묻는 원탁 토론 사진입니다. 중간은 각각 분야별 범위 불릿과 상세 링크 / 계획을 다룬 초점 패널과 방문자의 휴대전화·전시 사진, 마감은 첫 상담 네 단계와 문의 / 분야를 미리 정하지 않는 문의으로 다릅니다. 사업을 고르는 경로와 이미지 리듬이 구분됩니다."
+    },
+    {
+      "left": "business-list-2",
+      "right": "business-list-3",
+      "result": "pass",
+      "reason": "첫 화면은 business-list-2의 방향을 함께 찾는 전략 상담 사진, business-list-3의 사람과 계단이 보이는 공간 도착 사진입니다. 중간은 각각 전략·디지털·공간 사진과 검토 자료의 교대 / 도착·이동·만남의 세 아이콘 카드와 보조 분야, 마감은 공동 목표를 묻는 상담 / 연결된 방문 접점을 묻는 상담으로 다릅니다. 사업을 고르는 경로와 이미지 리듬이 구분됩니다."
+    },
+    {
+      "left": "business-list-2",
+      "right": "business-list-4",
+      "result": "pass",
+      "reason": "첫 화면은 business-list-2의 방향을 함께 찾는 전략 상담 사진, business-list-4의 모형을 함께 살피는 팀 사진입니다. 중간은 각각 전략·디지털·공간 사진과 검토 자료의 교대 / 번호별 초점·디지털 시연·공간 아이콘, 마감은 공동 목표를 묻는 상담 / 여러 분야의 협업 문의으로 다릅니다. 사업을 고르는 경로와 이미지 리듬이 구분됩니다."
+    },
+    {
+      "left": "business-list-2",
+      "right": "business-list-5",
+      "result": "pass",
+      "reason": "첫 화면은 business-list-2의 방향을 함께 찾는 전략 상담 사진, business-list-5의 변화의 위치를 묻는 원탁 토론 사진입니다. 중간은 각각 전략·디지털·공간 사진과 검토 자료의 교대 / 계획을 다룬 초점 패널과 방문자의 휴대전화·전시 사진, 마감은 공동 목표를 묻는 상담 / 분야를 미리 정하지 않는 문의으로 다릅니다. 사업을 고르는 경로와 이미지 리듬이 구분됩니다."
+    },
+    {
+      "left": "business-list-3",
+      "right": "business-list-4",
+      "result": "pass",
+      "reason": "첫 화면은 business-list-3의 사람과 계단이 보이는 공간 도착 사진, business-list-4의 모형을 함께 살피는 팀 사진입니다. 중간은 각각 도착·이동·만남의 세 아이콘 카드와 보조 분야 / 번호별 초점·디지털 시연·공간 아이콘, 마감은 연결된 방문 접점을 묻는 상담 / 여러 분야의 협업 문의으로 다릅니다. 사업을 고르는 경로와 이미지 리듬이 구분됩니다."
+    },
+    {
+      "left": "business-list-3",
+      "right": "business-list-5",
+      "result": "pass",
+      "reason": "첫 화면은 business-list-3의 사람과 계단이 보이는 공간 도착 사진, business-list-5의 변화의 위치를 묻는 원탁 토론 사진입니다. 중간은 각각 도착·이동·만남의 세 아이콘 카드와 보조 분야 / 계획을 다룬 초점 패널과 방문자의 휴대전화·전시 사진, 마감은 연결된 방문 접점을 묻는 상담 / 분야를 미리 정하지 않는 문의으로 다릅니다. 사업을 고르는 경로와 이미지 리듬이 구분됩니다."
+    },
+    {
+      "left": "business-list-4",
+      "right": "business-list-5",
+      "result": "pass",
+      "reason": "첫 화면은 business-list-4의 모형을 함께 살피는 팀 사진, business-list-5의 변화의 위치를 묻는 원탁 토론 사진입니다. 중간은 각각 번호별 초점·디지털 시연·공간 아이콘 / 계획을 다룬 초점 패널과 방문자의 휴대전화·전시 사진, 마감은 여러 분야의 협업 문의 / 분야를 미리 정하지 않는 문의으로 다릅니다. 사업을 고르는 경로와 이미지 리듬이 구분됩니다."
+    }
+  ],
+  "interactions": []
+}

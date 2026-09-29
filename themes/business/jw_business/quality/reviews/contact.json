@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 2,
+  "group": "contact",
+  "inputDigest": "23186c7f3ca26b53d0b5f8b70389633cfb52ee2513dc2a7c3c62584dac898b3a",
+  "implementer": "codex:/root:20260929",
+  "reviewer": "gpt-6-sol:/root/finish_visual_review:20260929",
+  "reviewedAt": "2026-09-29T07:25:53.071Z",
+  "result": "pass",
+  "captures": [
+    {
+      "path": "quality/evidence/current-20260929/contact-1/desktop-light.png",
+      "sha256": "d882edc6e9431b7de7144635dc8c0ac47eec6c173412af0f0ebcd741a69f0380",
+      "page": "contact-1",
+      "viewport": "desktop",
+      "mode": "light",
+      "width": 1440,
+      "height": 1000,
+      "url": "https://g5themes.test/pages/contact-1.php?device=pc",
+      "capturedAt": "2026-09-29T07:06:30.024Z",
+      "fullPage": true,
+      "documentHeight": 2597,
+      "media": [],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/contact-1/desktop-dark.png",
+      "sha256": "6f43d4ef504f1d6d26b611acff36e08be539bbc0e7dfe8eaf54a8f28584c467e",
+      "page": "contact-1",
+      "viewport": "desktop",
+      "mode": "dark",
+      "width": 1440,
+      "height": 1000,
+      "url": "https://g5themes.test/pages/contact-1.php?device=pc",
+      "capturedAt": "2026-09-29T07:07:03.913Z",
+      "fullPage": true,
+      "documentHeight": 2597,
+      "media": [],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/contact-1/mobile-light.png",
+      "sha256": "1dd9f22045f3a512829ecf0af1162b83b71740702483cce371b6041ce1ca6426",
+      "page": "contact-1",
+      "viewport": "mobile",
+      "mode": "light",
+      "width": 390,
+      "height": 844,
+      "url": "https://g5themes.test/pages/contact-1.php?device=mobile",
+      "capturedAt": "2026-09-29T07:07:45.204Z",
+      "fullPage": true,
+      "documentHeight": 3263,
+      "media": [],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/current-20260929/contact-1/mobile-dark.png",
+      "sha256": "588fd9234e906575f8126688835bb687567ac6950129f744893a460b1fffc3fa",
+      "page": "contact-1",
+      "viewport": "mobile",
+      "mode": "dark",
+      "width": 390,
+      "height": 844,
+      "url": "https://g5themes.test/pages/contact-1.php?device=mobile",
+      "capturedAt": "2026-09-29T07:08:12.732Z",
+      "fullPage": true,
+      "documentHeight": 3263,
+      "media": [],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "id": "contact-1",
+      "purpose": {
+        "id": "purpose",
+        "result": "pass",
+        "reason": "문의 목적을 세 분야로 나누고 온라인 1:1 문의·대표 연락처·사전 준비 내용을 안내합니다."
+      },
+      "imagery": {
+        "id": "imagery",
+        "result": "pass",
+        "reason": "장식 사진 대신 나침반·모니터·건물의 세 아이콘을 사용하며, 수정된 세 번째 건물 아이콘도 PC·모바일 라이트·다크 화면에서 보입니다."
+      },
+      "composition": {
+        "id": "composition",
+        "result": "pass",
+        "reason": "세 상담 경로 다음 대표 연락처 표와 문의 전 확인 사항으로 이어집니다. 입력 폼이나 없는 즉시 예약 기능을 암시하지 않습니다."
+      }
+    }
+  ],
+  "comparisons": [],
+  "interactions": []
+}

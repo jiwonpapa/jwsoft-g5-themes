@@ -1,24 +1,24 @@
 {
   "schemaVersion": 2,
   "group": "onepage",
-  "inputDigest": "886ea4115f66b580a2ed4a5e1e325b3977a698886009bb1ca5c00af9d5f15c9c",
+  "inputDigest": "c0314bea722f6db3be2afc0097ad5562d522ba07c4d82a255dfe20492fde3697",
   "implementer": "astra:/root/astra_home23+/root/astra_home14+/root/astra_onepages:20260929",
-  "reviewer": "sol:/root/impeccable_finish_reviewer_20260929:gpt-6-sol:xhigh",
-  "reviewedAt": "2026-09-29T03:20:58.985Z",
+  "reviewer": "gpt-6-sol:/root/finish_visual_review:20260929",
+  "reviewedAt": "2026-09-29T07:25:53.071Z",
   "result": "pass",
   "captures": [
     {
-      "path": "quality/evidence/seven-correction-20260929/revision-2/onepage-showcase/desktop-light.png",
-      "sha256": "434a8483d8dcc8dc33dcbdf5ce7dce1ceac9cdf616900e105d6bf0a225a75137",
+      "path": "quality/evidence/current-20260929/onepage-showcase/desktop-light.png",
+      "sha256": "e745176b58b5a6723b48910f81d6e58d822dade931e08b38362b317c18107cde",
       "page": "onepage-showcase",
       "viewport": "desktop",
       "mode": "light",
       "width": 1440,
       "height": 1000,
       "url": "https://g5themes.test/pages/onepage-showcase.php?device=pc",
-      "capturedAt": "2026-09-29T03:01:18.624Z",
+      "capturedAt": "2026-09-29T07:16:44.049Z",
       "fullPage": true,
-      "documentHeight": 8268,
+      "documentHeight": 8210,
       "media": [
         "onepages/assets/correction/aura-hero.webp",
         "onepages/assets/correction/aura-detail.webp",
@@ -44,7 +44,7 @@
         },
         {
           "id": "install-diagram",
-          "count": 1,
+          "count": 2,
           "visible": true
         },
         {
@@ -80,17 +80,17 @@
       ]
     },
     {
-      "path": "quality/evidence/seven-correction-20260929/revision-2/onepage-showcase/desktop-dark.png",
-      "sha256": "7c9f085cd3f6f1a8b4963e2f270790bdc8e4b0d9cb61270e4e025142b813c9ef",
+      "path": "quality/evidence/current-20260929/onepage-showcase/desktop-dark.png",
+      "sha256": "c0cf39c7eb0ea2917fe60797d9f7c570e3f0450309aabb976493a0327902a9db",
       "page": "onepage-showcase",
       "viewport": "desktop",
       "mode": "dark",
       "width": 1440,
       "height": 1000,
       "url": "https://g5themes.test/pages/onepage-showcase.php?device=pc",
-      "capturedAt": "2026-09-29T03:01:41.029Z",
+      "capturedAt": "2026-09-29T07:17:04.697Z",
       "fullPage": true,
-      "documentHeight": 8268,
+      "documentHeight": 8210,
       "media": [
         "onepages/assets/correction/aura-hero.webp",
         "onepages/assets/correction/aura-detail.webp",
@@ -116,7 +116,7 @@
         },
         {
           "id": "install-diagram",
-          "count": 1,
+          "count": 2,
           "visible": true
         },
         {
@@ -152,17 +152,17 @@
       ]
     },
     {
-      "path": "quality/evidence/seven-correction-20260929/revision-2/onepage-showcase/mobile-light.png",
-      "sha256": "978bc9d3c943e74f2c9468e929595b916a5b824faeba92b899f72f8e9e90e9af",
+      "path": "quality/evidence/current-20260929/onepage-showcase/mobile-light.png",
+      "sha256": "fd8a8b60bc5cadbae59505d8ca355d812dca0558468fad3bb6df31dc25274966",
       "page": "onepage-showcase",
       "viewport": "mobile",
       "mode": "light",
       "width": 390,
       "height": 844,
       "url": "https://g5themes.test/pages/onepage-showcase.php?device=mobile",
-      "capturedAt": "2026-09-29T03:02:00.777Z",
+      "capturedAt": "2026-09-29T07:17:22.700Z",
       "fullPage": true,
-      "documentHeight": 8683,
+      "documentHeight": 8393,
       "media": [
         "onepages/assets/correction/aura-hero.webp",
         "onepages/assets/correction/aura-detail.webp",
@@ -188,7 +188,7 @@
         },
         {
           "id": "install-diagram",
-          "count": 1,
+          "count": 2,
           "visible": true
         },
         {
@@ -224,17 +224,17 @@
       ]
     },
     {
-      "path": "quality/evidence/seven-correction-20260929/revision-2/onepage-showcase/mobile-dark.png",
-      "sha256": "b31cb62947f2df3c24fe4dcfe847223c46c89f02211b5f3b4184d6c2defcba35",
+      "path": "quality/evidence/current-20260929/onepage-showcase/mobile-dark.png",
+      "sha256": "afa6baee0b4b2a838a06b8f0316b5864b4971ddf50aeda6c14a16e498d15c9c3",
       "page": "onepage-showcase",
       "viewport": "mobile",
       "mode": "dark",
       "width": 390,
       "height": 844,
       "url": "https://g5themes.test/pages/onepage-showcase.php?device=mobile",
-      "capturedAt": "2026-09-29T03:02:19.774Z",
+      "capturedAt": "2026-09-29T07:17:40.198Z",
       "fullPage": true,
-      "documentHeight": 8683,
+      "documentHeight": 8393,
       "media": [
         "onepages/assets/correction/aura-hero.webp",
         "onepages/assets/correction/aura-detail.webp",
@@ -260,7 +260,7 @@
         },
         {
           "id": "install-diagram",
-          "count": 1,
+          "count": 2,
           "visible": true
         },
         {
@@ -296,22 +296,24 @@
       ]
     },
     {
-      "path": "quality/evidence/seven-correction-20260929/revision-2/onepage-services/desktop-light.png",
-      "sha256": "5e9097c4a63bd1c5dc664d6bde4ad4e03846af1dd07e189e1418271bb106608e",
+      "path": "quality/evidence/current-20260929/onepage-services/desktop-light.png",
+      "sha256": "291178faa55c8caf7afb5ad32ff00421440d313505db81e6ef1215a6069bc8a3",
       "page": "onepage-services",
       "viewport": "desktop",
       "mode": "light",
       "width": 1440,
       "height": 1000,
       "url": "https://g5themes.test/pages/onepage-services.php?device=pc",
-      "capturedAt": "2026-09-29T03:01:21.288Z",
+      "capturedAt": "2026-09-29T07:16:46.715Z",
       "fullPage": true,
-      "documentHeight": 11326,
+      "documentHeight": 9232,
       "media": [
         "onepages/assets/correction/service-ondo-studio.webp",
         "onepages/assets/images/service-studio.webp",
         "onepages/assets/correction/service-ondo-first-cup.webp",
         "onepages/assets/correction/service-ondo-course-works.webp",
+        "onepages/assets/images/service-journey-workshop.webp",
+        "onepages/assets/images/service-field-studio.webp",
         "onepages/assets/images/service-sector-retail.webp",
         "onepages/assets/images/service-sector-learning.webp",
         "onepages/assets/images/service-sector-industry.webp"
@@ -349,7 +351,7 @@
         },
         {
           "id": "service-section-range",
-          "count": 12,
+          "count": 11,
           "visible": true
         },
         {
@@ -370,22 +372,24 @@
       ]
     },
     {
-      "path": "quality/evidence/seven-correction-20260929/revision-2/onepage-services/desktop-dark.png",
-      "sha256": "ebd76ab97253af4b2859e8bb9641248258e028499687c5b4707201436fb73774",
+      "path": "quality/evidence/current-20260929/onepage-services/desktop-dark.png",
+      "sha256": "87434e18813050a7126166b69559033d8a1bcf2b6409fdcdb439ccc01b4b0687",
       "page": "onepage-services",
       "viewport": "desktop",
       "mode": "dark",
       "width": 1440,
       "height": 1000,
       "url": "https://g5themes.test/pages/onepage-services.php?device=pc",
-      "capturedAt": "2026-09-29T03:01:43.689Z",
+      "capturedAt": "2026-09-29T07:17:07.184Z",
       "fullPage": true,
-      "documentHeight": 11326,
+      "documentHeight": 9232,
       "media": [
         "onepages/assets/correction/service-ondo-studio.webp",
         "onepages/assets/images/service-studio.webp",
         "onepages/assets/correction/service-ondo-first-cup.webp",
         "onepages/assets/correction/service-ondo-course-works.webp",
+        "onepages/assets/images/service-journey-workshop.webp",
+        "onepages/assets/images/service-field-studio.webp",
         "onepages/assets/images/service-sector-retail.webp",
         "onepages/assets/images/service-sector-learning.webp",
         "onepages/assets/images/service-sector-industry.webp"
@@ -423,7 +427,7 @@
         },
         {
           "id": "service-section-range",
-          "count": 12,
+          "count": 11,
           "visible": true
         },
         {
@@ -444,22 +448,24 @@
       ]
     },
     {
-      "path": "quality/evidence/seven-correction-20260929/revision-2/onepage-services/mobile-light.png",
-      "sha256": "36fe77fd1f2ddb46a1b46b80dfec9d7396af3611536a3a7df8fb22f8ccdf7523",
+      "path": "quality/evidence/current-20260929/onepage-services/mobile-light.png",
+      "sha256": "94ff1f7bac34f38f3b7dc83a790edd5b3f35653b0868537172fa919ebfb046a6",
       "page": "onepage-services",
       "viewport": "mobile",
       "mode": "light",
       "width": 390,
       "height": 844,
       "url": "https://g5themes.test/pages/onepage-services.php?device=mobile",
-      "capturedAt": "2026-09-29T03:02:03.335Z",
+      "capturedAt": "2026-09-29T07:17:25.023Z",
       "fullPage": true,
-      "documentHeight": 15278,
+      "documentHeight": 12778,
       "media": [
         "onepages/assets/correction/service-ondo-studio.webp",
         "onepages/assets/images/service-studio.webp",
         "onepages/assets/correction/service-ondo-first-cup.webp",
         "onepages/assets/correction/service-ondo-course-works.webp",
+        "onepages/assets/images/service-journey-workshop.webp",
+        "onepages/assets/images/service-field-studio.webp",
         "onepages/assets/images/service-sector-retail.webp",
         "onepages/assets/images/service-sector-learning.webp",
         "onepages/assets/images/service-sector-industry.webp"
@@ -497,7 +503,7 @@
         },
         {
           "id": "service-section-range",
-          "count": 12,
+          "count": 11,
           "visible": true
         },
         {
@@ -518,22 +524,24 @@
       ]
     },
     {
-      "path": "quality/evidence/seven-correction-20260929/revision-2/onepage-services/mobile-dark.png",
-      "sha256": "11b823bf5d440724d431be20f3e1e1cc16930a11592771a44d8bad3bb2bc0c59",
+      "path": "quality/evidence/current-20260929/onepage-services/mobile-dark.png",
+      "sha256": "84fbf9b9f3f5ee018ee784df87a903f24517cb3de5f1ceddf5bc783b99ed5fb9",
       "page": "onepage-services",
       "viewport": "mobile",
       "mode": "dark",
       "width": 390,
       "height": 844,
       "url": "https://g5themes.test/pages/onepage-services.php?device=mobile",
-      "capturedAt": "2026-09-29T03:02:22.258Z",
+      "capturedAt": "2026-09-29T07:17:42.949Z",
       "fullPage": true,
-      "documentHeight": 15278,
+      "documentHeight": 12778,
       "media": [
         "onepages/assets/correction/service-ondo-studio.webp",
         "onepages/assets/images/service-studio.webp",
         "onepages/assets/correction/service-ondo-first-cup.webp",
         "onepages/assets/correction/service-ondo-course-works.webp",
+        "onepages/assets/images/service-journey-workshop.webp",
+        "onepages/assets/images/service-field-studio.webp",
         "onepages/assets/images/service-sector-retail.webp",
         "onepages/assets/images/service-sector-learning.webp",
         "onepages/assets/images/service-sector-industry.webp"
@@ -571,7 +579,7 @@
         },
         {
           "id": "service-section-range",
-          "count": 12,
+          "count": 11,
           "visible": true
         },
         {
@@ -592,17 +600,17 @@
       ]
     },
     {
-      "path": "quality/evidence/seven-correction-20260929/revision-2/onepage-projects/desktop-light.png",
-      "sha256": "226999460197c9041221361cf2d3952fc07128d951adb7312cfb27c7ce300dee",
+      "path": "quality/evidence/current-20260929/onepage-projects/desktop-light.png",
+      "sha256": "9b4c228748370102b004498a51c06775babde5874675e6fb3eaf81a1b24a88b4",
       "page": "onepage-projects",
       "viewport": "desktop",
       "mode": "light",
       "width": 1440,
       "height": 1000,
       "url": "https://g5themes.test/pages/onepage-projects.php?device=pc",
-      "capturedAt": "2026-09-29T03:01:24.653Z",
+      "capturedAt": "2026-09-29T07:16:49.613Z",
       "fullPage": true,
-      "documentHeight": 12194,
+      "documentHeight": 8767,
       "media": [
         "onepages/assets/images/courtyard.webp",
         "onepages/assets/images/project-hero-walkway.webp",
@@ -627,7 +635,7 @@
         },
         {
           "id": "project-scenes",
-          "count": 14,
+          "count": 5,
           "visible": true
         },
         {
@@ -642,7 +650,7 @@
         },
         {
           "id": "spatial-floorplan",
-          "count": 1,
+          "count": 3,
           "visible": true
         },
         {
@@ -668,17 +676,17 @@
       ]
     },
     {
-      "path": "quality/evidence/seven-correction-20260929/revision-2/onepage-projects/desktop-dark.png",
-      "sha256": "1612623c58c988f442b1a9cc48578f8ce7eb5013659dcfe0f48b76cb6a745770",
+      "path": "quality/evidence/current-20260929/onepage-projects/desktop-dark.png",
+      "sha256": "9e8cefbf18f9bd1d9c283978666ecbf6701edc2d5db8154a39de89c5b546321c",
       "page": "onepage-projects",
       "viewport": "desktop",
       "mode": "dark",
       "width": 1440,
       "height": 1000,
       "url": "https://g5themes.test/pages/onepage-projects.php?device=pc",
-      "capturedAt": "2026-09-29T03:01:46.944Z",
+      "capturedAt": "2026-09-29T07:17:10.064Z",
       "fullPage": true,
-      "documentHeight": 12194,
+      "documentHeight": 8767,
       "media": [
         "onepages/assets/images/courtyard.webp",
         "onepages/assets/images/project-hero-walkway.webp",
@@ -703,7 +711,7 @@
         },
         {
           "id": "project-scenes",
-          "count": 14,
+          "count": 5,
           "visible": true
         },
         {
@@ -718,7 +726,7 @@
         },
         {
           "id": "spatial-floorplan",
-          "count": 1,
+          "count": 3,
           "visible": true
         },
         {
@@ -744,17 +752,17 @@
       ]
     },
     {
-      "path": "quality/evidence/seven-correction-20260929/revision-2/onepage-projects/mobile-light.png",
-      "sha256": "cdf0e71d41b2282abb5280cf67d66683056818cb368bd2dca76bb6c6d9770fb0",
+      "path": "quality/evidence/current-20260929/onepage-projects/mobile-light.png",
+      "sha256": "6206fb43ce842970c6b47e7991210a52a591b30fe17ff9d8592694ff4c847e43",
       "page": "onepage-projects",
       "viewport": "mobile",
       "mode": "light",
       "width": 390,
       "height": 844,
       "url": "https://g5themes.test/pages/onepage-projects.php?device=mobile",
-      "capturedAt": "2026-09-29T03:02:05.934Z",
+      "capturedAt": "2026-09-29T07:17:27.517Z",
       "fullPage": true,
-      "documentHeight": 11729,
+      "documentHeight": 9298,
       "media": [
         "onepages/assets/images/courtyard.webp",
         "onepages/assets/images/project-hero-walkway.webp",
@@ -779,7 +787,7 @@
         },
         {
           "id": "project-scenes",
-          "count": 14,
+          "count": 5,
           "visible": true
         },
         {
@@ -794,7 +802,7 @@
         },
         {
           "id": "spatial-floorplan",
-          "count": 1,
+          "count": 3,
           "visible": true
         },
         {
@@ -820,17 +828,17 @@
       ]
     },
     {
-      "path": "quality/evidence/seven-correction-20260929/revision-2/onepage-projects/mobile-dark.png",
-      "sha256": "3e0219d0a686629405fad387c371b565c990eeeba5286f9b154d1bb3583dcc1a",
+      "path": "quality/evidence/current-20260929/onepage-projects/mobile-dark.png",
+      "sha256": "4f809e91d28d0ad3c22fe281b259bfbf5197960a2d9ab4afea26d6d0f114988f",
       "page": "onepage-projects",
       "viewport": "mobile",
       "mode": "dark",
       "width": 390,
       "height": 844,
       "url": "https://g5themes.test/pages/onepage-projects.php?device=mobile",
-      "capturedAt": "2026-09-29T03:02:24.857Z",
+      "capturedAt": "2026-09-29T07:17:45.419Z",
       "fullPage": true,
-      "documentHeight": 11729,
+      "documentHeight": 9298,
       "media": [
         "onepages/assets/images/courtyard.webp",
         "onepages/assets/images/project-hero-walkway.webp",
@@ -855,7 +863,7 @@
         },
         {
           "id": "project-scenes",
-          "count": 14,
+          "count": 5,
           "visible": true
         },
         {
@@ -870,7 +878,7 @@
         },
         {
           "id": "spatial-floorplan",
-          "count": 1,
+          "count": 3,
           "visible": true
         },
         {
@@ -980,12 +988,12 @@
       "result": "pass",
       "steps": "탭의 ArrowRight와 End 키로 크기와 설치 검토를 선택하고 aria-selected 및 배치도의 실제 표시를 확인했습니다.",
       "before": {
-        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/onepage-showcase-desktop-detail-tabs-keyboard-before.png",
+        "path": "quality/evidence/current-20260929/interactions/onepage-showcase-desktop-detail-tabs-keyboard-before.png",
         "sha256": "22ee2e5ae2548e52e7266945d46ab219504b48d33cd80e23aeb0da47fab1f842"
       },
       "after": {
-        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/onepage-showcase-desktop-detail-tabs-keyboard-after.png",
-        "sha256": "8595d3e07c16d82b11824f388472c2c45c6edc05ad6a1fdd65ba6715cc0af77f"
+        "path": "quality/evidence/current-20260929/interactions/onepage-showcase-desktop-detail-tabs-keyboard-after.png",
+        "sha256": "966e113dbd0eaf5245dee3b99267195692a1a1bd196d6bf835d68ef58d967034"
       }
     },
     {
@@ -995,11 +1003,11 @@
       "result": "pass",
       "steps": "소재 사진으로 스크롤하여 Motion 패럴랙스 transform과 이미지 표시를 확인했습니다.",
       "before": {
-        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/onepage-showcase-desktop-detail-scroll-before.png",
+        "path": "quality/evidence/current-20260929/interactions/onepage-showcase-desktop-detail-scroll-before.png",
         "sha256": "8183d735269a6c141389ea47afe886f32c72f5a9747849c7bd5ff16306bca7c7"
       },
       "after": {
-        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/onepage-showcase-desktop-detail-scroll-after.png",
+        "path": "quality/evidence/current-20260929/interactions/onepage-showcase-desktop-detail-scroll-after.png",
         "sha256": "439d43c0c554c331bc2cffce9076674ccdaa85e225274a018e8b6aa877c01cc4"
       }
     },
@@ -1010,11 +1018,11 @@
       "result": "pass",
       "steps": "줄인 동작 설정에서 소재 사진까지 이동하여 transform 없는 정적 사진과 본문을 확인했습니다.",
       "before": {
-        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/onepage-showcase-desktop-detail-reduced-motion-before.png",
+        "path": "quality/evidence/current-20260929/interactions/onepage-showcase-desktop-detail-reduced-motion-before.png",
         "sha256": "8183d735269a6c141389ea47afe886f32c72f5a9747849c7bd5ff16306bca7c7"
       },
       "after": {
-        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/onepage-showcase-desktop-detail-reduced-motion-after.png",
+        "path": "quality/evidence/current-20260929/interactions/onepage-showcase-desktop-detail-reduced-motion-after.png",
         "sha256": "8de72055181648d3efb0b151ef74d4d68ad008d036da063e3740eae083529e85"
       }
     },
@@ -1025,11 +1033,11 @@
       "result": "pass",
       "steps": "갤러리 다음 버튼으로 두 번째 공간 사진과 설명으로 이동하는지 확인했습니다.",
       "before": {
-        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/onepage-projects-desktop-gallery-next-before.png",
+        "path": "quality/evidence/current-20260929/interactions/onepage-projects-desktop-gallery-next-before.png",
         "sha256": "98de4f3e1ad15f8cd5bcee7ff0c1ebb98e5f386d0d00124c8110a5be1be04f50"
       },
       "after": {
-        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/onepage-projects-desktop-gallery-next-after.png",
+        "path": "quality/evidence/current-20260929/interactions/onepage-projects-desktop-gallery-next-after.png",
         "sha256": "6ec45e689419cf23cab81e27b553bb0664caa68a27a4dd98c5b952036a034a06"
       }
     },
@@ -1040,12 +1048,12 @@
       "result": "pass",
       "steps": "갤러리 이전 버튼으로 첫 번째 사진으로 복귀하는지 확인했습니다.",
       "before": {
-        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/onepage-projects-desktop-gallery-prev-before.png",
+        "path": "quality/evidence/current-20260929/interactions/onepage-projects-desktop-gallery-prev-before.png",
         "sha256": "6ec45e689419cf23cab81e27b553bb0664caa68a27a4dd98c5b952036a034a06"
       },
       "after": {
-        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/onepage-projects-desktop-gallery-prev-after.png",
-        "sha256": "d13c17b5011147f9614433e99f2ca6afbb6b1b7f9d1bcd2806aeca031ea53285"
+        "path": "quality/evidence/current-20260929/interactions/onepage-projects-desktop-gallery-prev-after.png",
+        "sha256": "1a2d8c948ba7057f8a6f7b89a2d41fb0fd1318e2120cfa66ca60a3dbd651c5d2"
       }
     },
     {
@@ -1055,11 +1063,11 @@
       "result": "pass",
       "steps": "갤러리의 ArrowRight 키로 두 번째 사진을 선택하고 설명 변경을 확인했습니다.",
       "before": {
-        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/onepage-projects-desktop-gallery-keyboard-before.png",
-        "sha256": "0418933e1e6dd960db8fa263bf15e903e10851a8d5bc97bf2ac2962c4895c8c2"
+        "path": "quality/evidence/current-20260929/interactions/onepage-projects-desktop-gallery-keyboard-before.png",
+        "sha256": "be39665d0d85fcd263d36d860aeb43acf2b307c42fe5c1ba046c85c203445c9f"
       },
       "after": {
-        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/onepage-projects-desktop-gallery-keyboard-after.png",
+        "path": "quality/evidence/current-20260929/interactions/onepage-projects-desktop-gallery-keyboard-after.png",
         "sha256": "c4f3bed571877e9db3d52b52cc2fb8ef6f9601326ef69fba6f15d3a605f94fc3"
       }
     },
@@ -1070,12 +1078,12 @@
       "result": "pass",
       "steps": "탭의 ArrowRight와 End 키로 크기와 설치 검토를 선택하고 aria-selected 및 배치도의 실제 표시를 확인했습니다.",
       "before": {
-        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/onepage-showcase-mobile-detail-tabs-keyboard-before.png",
+        "path": "quality/evidence/current-20260929/interactions/onepage-showcase-mobile-detail-tabs-keyboard-before.png",
         "sha256": "31a6a64b047c1e8bb3212486cdf114ca68aabda326bc4671ab65796eb8dda2ad"
       },
       "after": {
-        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/onepage-showcase-mobile-detail-tabs-keyboard-after.png",
-        "sha256": "490c0d9414bdd221e789e91b25cc659552b5ee3bd82f6f7290c9ce357e0d0189"
+        "path": "quality/evidence/current-20260929/interactions/onepage-showcase-mobile-detail-tabs-keyboard-after.png",
+        "sha256": "127e7c9b7d7d705bbedd1db17fd760a07073b556bcd59d8247359b1cd979f67b"
       }
     },
     {
@@ -1085,11 +1093,11 @@
       "result": "pass",
       "steps": "모바일 소재 사진으로 스크롤하여 자동 이동이 없는 정적 대체 화면을 확인했습니다.",
       "before": {
-        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/onepage-showcase-mobile-detail-scroll-before.png",
+        "path": "quality/evidence/current-20260929/interactions/onepage-showcase-mobile-detail-scroll-before.png",
         "sha256": "11aad9a1470dcac1b407a36cd5584a31a58a0f5239139410dd4a18ef279d0f25"
       },
       "after": {
-        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/onepage-showcase-mobile-detail-scroll-after.png",
+        "path": "quality/evidence/current-20260929/interactions/onepage-showcase-mobile-detail-scroll-after.png",
         "sha256": "2864fa3ae896a220a99a974f4ee89d922c3eab02f2551426c6b367874a536819"
       }
     },
@@ -1100,11 +1108,11 @@
       "result": "pass",
       "steps": "줄인 동작 설정에서 소재 사진까지 이동하여 transform 없는 정적 사진과 본문을 확인했습니다.",
       "before": {
-        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/onepage-showcase-mobile-detail-reduced-motion-before.png",
+        "path": "quality/evidence/current-20260929/interactions/onepage-showcase-mobile-detail-reduced-motion-before.png",
         "sha256": "11aad9a1470dcac1b407a36cd5584a31a58a0f5239139410dd4a18ef279d0f25"
       },
       "after": {
-        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/onepage-showcase-mobile-detail-reduced-motion-after.png",
+        "path": "quality/evidence/current-20260929/interactions/onepage-showcase-mobile-detail-reduced-motion-after.png",
         "sha256": "5495b5524215046eb7386bf37cb9f21f0b82cce009e7cbfebf98f14143ebc27e"
       }
     },
@@ -1115,12 +1123,12 @@
       "result": "pass",
       "steps": "갤러리 다음 버튼으로 두 번째 공간 사진과 설명으로 이동하는지 확인했습니다.",
       "before": {
-        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/onepage-projects-mobile-gallery-next-before.png",
-        "sha256": "d8995c8927fe5f011946846c406c27c94c9039996d09866f4a19478aa67b4ee8"
+        "path": "quality/evidence/current-20260929/interactions/onepage-projects-mobile-gallery-next-before.png",
+        "sha256": "613fe14a0108facea218a4857daee6ff4549a518f888480cb55354ba5d98c3a9"
       },
       "after": {
-        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/onepage-projects-mobile-gallery-next-after.png",
-        "sha256": "778201572f5d5d201afe708916783ac75709ac21d430d24fc044490992b12bb7"
+        "path": "quality/evidence/current-20260929/interactions/onepage-projects-mobile-gallery-next-after.png",
+        "sha256": "896177ff8bcc3f646342e7ab815e9286ac267fef64a1e7e13893728afc0a25ae"
       }
     },
     {
@@ -1130,12 +1138,12 @@
       "result": "pass",
       "steps": "갤러리 이전 버튼으로 첫 번째 사진으로 복귀하는지 확인했습니다.",
       "before": {
-        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/onepage-projects-mobile-gallery-prev-before.png",
-        "sha256": "fba769749eed3e909417ef0fd1fae03bc2186bf8b66767853f499f5f59bbfd1a"
+        "path": "quality/evidence/current-20260929/interactions/onepage-projects-mobile-gallery-prev-before.png",
+        "sha256": "896177ff8bcc3f646342e7ab815e9286ac267fef64a1e7e13893728afc0a25ae"
       },
       "after": {
-        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/onepage-projects-mobile-gallery-prev-after.png",
-        "sha256": "3e346c62f27f47081325de5fd48b255c24b6b74d7dae84295c6e417f23b22dec"
+        "path": "quality/evidence/current-20260929/interactions/onepage-projects-mobile-gallery-prev-after.png",
+        "sha256": "9a462ba24c4184bd8a74d702b030a0d02b4aab802f78ac5a4ab0996748935c6e"
       }
     },
     {
@@ -1145,12 +1153,12 @@
       "result": "pass",
       "steps": "갤러리의 ArrowRight 키로 두 번째 사진을 선택하고 설명 변경을 확인했습니다.",
       "before": {
-        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/onepage-projects-mobile-gallery-keyboard-before.png",
-        "sha256": "3e346c62f27f47081325de5fd48b255c24b6b74d7dae84295c6e417f23b22dec"
+        "path": "quality/evidence/current-20260929/interactions/onepage-projects-mobile-gallery-keyboard-before.png",
+        "sha256": "e58faee77eae17960f97169b013e9b24cc110e64c617c6c409c08243bb3ab4c9"
       },
       "after": {
-        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/onepage-projects-mobile-gallery-keyboard-after.png",
-        "sha256": "918b19ca64913fd2ebe693c5477866e53b7462eecc1cd29e113fb734427be4ba"
+        "path": "quality/evidence/current-20260929/interactions/onepage-projects-mobile-gallery-keyboard-after.png",
+        "sha256": "0c77ff499d23eaed6c86a21b5d92d977ec48f641ef5d662d4b7b62c2e77aae34"
       }
     },
     {
@@ -1160,11 +1168,11 @@
       "result": "pass",
       "steps": "스크롤 5%, 55%, 95%에서 앞·뒤·복귀 프레임을 확인했습니다.",
       "before": {
-        "path": "quality/evidence/seven-correction-20260929/revision-2/rotation/desktop-normal-top.png",
+        "path": "quality/evidence/current-20260929/rotation/desktop-normal-top.png",
         "sha256": "8183d735269a6c141389ea47afe886f32c72f5a9747849c7bd5ff16306bca7c7"
       },
       "after": {
-        "path": "quality/evidence/seven-correction-20260929/revision-2/rotation/desktop-product-rotation-scroll-after.png",
+        "path": "quality/evidence/current-20260929/rotation/desktop-product-rotation-scroll-after.png",
         "sha256": "66ab8387b64bd7c748428eb81d4e61c0d978a870f2d69ff3d1be836e958fa82f"
       }
     },
@@ -1175,11 +1183,11 @@
       "result": "pass",
       "steps": "각도 슬라이더를 End, Home, ArrowRight 키로 조작하고 59, 0, 1 프레임 및 6도 안내를 확인했습니다.",
       "before": {
-        "path": "quality/evidence/seven-correction-20260929/revision-2/rotation/desktop-product-rotation-keyboard-before.png",
+        "path": "quality/evidence/current-20260929/rotation/desktop-product-rotation-keyboard-before.png",
         "sha256": "a0b52cd654ceedb28a7c4412a0b1732ac31156b24dc8f3398bf4616f628bcca0"
       },
       "after": {
-        "path": "quality/evidence/seven-correction-20260929/revision-2/rotation/desktop-product-rotation-keyboard-after.png",
+        "path": "quality/evidence/current-20260929/rotation/desktop-product-rotation-keyboard-after.png",
         "sha256": "71fa8042bd4c7eb39658fbecce6e3c4ab86b54043854ef2c7b7a9982e411677b"
       }
     },
@@ -1190,11 +1198,11 @@
       "result": "pass",
       "steps": "줄인 동작에서 스크롤 고정·자동 회전 없이 정적 제품을 표시하고 방향키 수동 전환을 확인했습니다.",
       "before": {
-        "path": "quality/evidence/seven-correction-20260929/revision-2/rotation/desktop-reduced-top.png",
+        "path": "quality/evidence/current-20260929/rotation/desktop-reduced-top.png",
         "sha256": "8183d735269a6c141389ea47afe886f32c72f5a9747849c7bd5ff16306bca7c7"
       },
       "after": {
-        "path": "quality/evidence/seven-correction-20260929/revision-2/rotation/desktop-product-rotation-reduced-motion-after.png",
+        "path": "quality/evidence/current-20260929/rotation/desktop-product-rotation-reduced-motion-after.png",
         "sha256": "3e3764e4292cbe02629f935d25c591675870aef088e16688f311da8ec9a729c3"
       }
     },
@@ -1205,11 +1213,11 @@
       "result": "pass",
       "steps": "JavaScript가 꺼진 상태에서 제품 영역까지 스크롤했습니다. 포스터 로드와 조작부 숨김을 확인했습니다.",
       "before": {
-        "path": "quality/evidence/seven-correction-20260929/revision-2/rotation/desktop-no-js-top.png",
+        "path": "quality/evidence/current-20260929/rotation/desktop-no-js-top.png",
         "sha256": "cea66bbb97d153364499feb9fc391686da5655a2fb154fe6c78d8bf0d9884f8c"
       },
       "after": {
-        "path": "quality/evidence/seven-correction-20260929/revision-2/rotation/desktop-product-rotation-fallback-after.png",
+        "path": "quality/evidence/current-20260929/rotation/desktop-product-rotation-fallback-after.png",
         "sha256": "1eb38912c11ac41f1f11ae0df6f931087308470647b1e7158d44d07af697e63c"
       }
     },
@@ -1220,12 +1228,12 @@
       "result": "pass",
       "steps": "모바일에서 제품 영역으로 스크롤해 정적 포스터 유지와 수동 제어 표시를 확인했습니다.",
       "before": {
-        "path": "quality/evidence/seven-correction-20260929/revision-2/rotation/mobile-normal-top.png",
+        "path": "quality/evidence/current-20260929/rotation/mobile-normal-top.png",
         "sha256": "11aad9a1470dcac1b407a36cd5584a31a58a0f5239139410dd4a18ef279d0f25"
       },
       "after": {
-        "path": "quality/evidence/seven-correction-20260929/revision-2/rotation/mobile-product-rotation-scroll-after.png",
-        "sha256": "f95968cd85bf5d0e367d28c56444e9e4a0a776d3111c38a80558cc24cd004fac"
+        "path": "quality/evidence/current-20260929/rotation/mobile-product-rotation-scroll-after.png",
+        "sha256": "20a271f8701c2eb56cf91934d8af3b1f78837f33fb0557c8343d517045937270"
       }
     },
     {
@@ -1235,11 +1243,11 @@
       "result": "pass",
       "steps": "각도 슬라이더를 End, Home, ArrowRight 키로 조작하고 59, 0, 1 프레임 및 6도 안내를 확인했습니다.",
       "before": {
-        "path": "quality/evidence/seven-correction-20260929/revision-2/rotation/mobile-product-rotation-keyboard-before.png",
+        "path": "quality/evidence/current-20260929/rotation/mobile-product-rotation-keyboard-before.png",
         "sha256": "3733f4a04b9598a7c2ad35e4f40af4c570b266fc28f6f050d138bc561e7d3aea"
       },
       "after": {
-        "path": "quality/evidence/seven-correction-20260929/revision-2/rotation/mobile-product-rotation-keyboard-after.png",
+        "path": "quality/evidence/current-20260929/rotation/mobile-product-rotation-keyboard-after.png",
         "sha256": "5435e82e44549461e6efb5b77b9d6edb2bc4277ed9c10bcf90157ba2a44c4673"
       }
     },
@@ -1250,11 +1258,11 @@
       "result": "pass",
       "steps": "줄인 동작에서 스크롤 고정·자동 회전 없이 정적 제품을 표시하고 방향키 수동 전환을 확인했습니다.",
       "before": {
-        "path": "quality/evidence/seven-correction-20260929/revision-2/rotation/mobile-reduced-top.png",
+        "path": "quality/evidence/current-20260929/rotation/mobile-reduced-top.png",
         "sha256": "11aad9a1470dcac1b407a36cd5584a31a58a0f5239139410dd4a18ef279d0f25"
       },
       "after": {
-        "path": "quality/evidence/seven-correction-20260929/revision-2/rotation/mobile-product-rotation-reduced-motion-after.png",
+        "path": "quality/evidence/current-20260929/rotation/mobile-product-rotation-reduced-motion-after.png",
         "sha256": "5435e82e44549461e6efb5b77b9d6edb2bc4277ed9c10bcf90157ba2a44c4673"
       }
     },
@@ -1265,11 +1273,11 @@
       "result": "pass",
       "steps": "JavaScript가 꺼진 상태에서 제품 영역까지 스크롤했습니다. 포스터 로드와 조작부 숨김을 확인했습니다.",
       "before": {
-        "path": "quality/evidence/seven-correction-20260929/revision-2/rotation/mobile-no-js-top.png",
+        "path": "quality/evidence/current-20260929/rotation/mobile-no-js-top.png",
         "sha256": "cbb27f699d4c7859e7254fba4585fd75229cacc7e897f2c4e9f8427652f030d1"
       },
       "after": {
-        "path": "quality/evidence/seven-correction-20260929/revision-2/rotation/mobile-product-rotation-fallback-after.png",
+        "path": "quality/evidence/current-20260929/rotation/mobile-product-rotation-fallback-after.png",
         "sha256": "9d1a09ee84525fd3f64b9b997030000cf96cad52d3d4367230cd7a74c6b75706"
       }
     }
