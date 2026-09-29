@@ -106,6 +106,40 @@ export function initializeHomeOne(): void {
     if (scene) inView(scene, () => scene.classList.add('is-visible'), { amount: 0.15 });
   }
 
+  // The selected observation opens its concrete before/after editing specimen.
+  const decisionBoard = root.querySelector<HTMLElement>('[data-jw-decision-board]');
+  const decisions = [...root.querySelectorAll<HTMLElement>('[data-jw-decision]')];
+  const proofs = [...root.querySelectorAll<HTMLElement>('[data-jw-decision-proof]')];
+  const proofButtons = [...root.querySelectorAll<HTMLButtonElement>('[data-jw-decision-select]')];
+  const selectDecision = (active: number): void => {
+    if (!decisionBoard) return;
+    decisionBoard.dataset.jwStage = String(active);
+    decisions.forEach((row, index) => row.classList.toggle('is-current', active === index));
+    proofs.forEach((proof, index) => { proof.hidden = active !== index; });
+    proofButtons.forEach((button, index) => button.setAttribute('aria-pressed', String(active === index)));
+  };
+  if (decisionBoard && proofs.length === decisions.length) {
+    decisionBoard.classList.add('is-enhanced');
+    selectDecision(0);
+    proofButtons.forEach((button, index) => button.addEventListener('click', () => selectDecision(index)));
+  }
+  let stopDecisionScroll: (() => void) | undefined;
+  const updateDecisionMotion = (): void => {
+    stopDecisionScroll?.();
+    stopDecisionScroll = undefined;
+    if (!decisionBoard || reduced.matches || !decisions.length) return;
+    let lastDecision = -1;
+    stopDecisionScroll = scroll((progress: number) => {
+      const active = Math.min(decisions.length - 1, Math.floor(progress * decisions.length));
+      if (active !== lastDecision) {
+        selectDecision(active);
+        lastDecision = active;
+      }
+    }, { target: decisionBoard, offset: ['start .75', 'end .3'] });
+  };
+  reduced.addEventListener('change', updateDecisionMotion);
+  updateDecisionMotion();
+
   // The rail expresses reading progress; static content remains available on mobile/reduced motion.
   const desktop = window.matchMedia('(min-width: 701px)');
   let stopRailScroll: (() => void) | undefined;

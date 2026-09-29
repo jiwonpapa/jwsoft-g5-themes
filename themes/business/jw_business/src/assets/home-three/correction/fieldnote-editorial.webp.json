@@ -1,0 +1,16 @@
+{
+  "prompt": "Use case: product-mockup. Landscape 3:2 beautifully art-directed photographic flatlay for fictional cultural publication FIELDNOTE, Issue 06, autumn 2026. Show a fully finished open oversized culture journal with a small folded gallery guide beside it. White paper on a warm gray ground. Journal left page features a large artistic architectural photograph of a terracotta museum stair and a readable restrained heading 'Ways of seeing'; right page has two columns of real editorial text, a navy typographic quote, a sharply printed smaller photograph of red translucent art sculpture, captions and page numerals 24 / 25. Folded guide has dense event schedule 'FIELDNOTE / AUTUMN 2026' with dates, exhibition names and small map. Warm terracotta and midnight blue, refined balanced international typography, tactile offset printing, deckled detail minimal, realistic light shadows. This must look like a finished designer publication rather than a mockup placeholder: no empty colored rectangles, no lorem ipsum, no fake gray lines, no oversized giant letter F, no watermark. No content duplicated from an existing image.",
+  "source": "OpenAI built-in imagegen",
+  "original": "/Users/neojins/.codex/generated_images/01a0eab6-1919-7920-8a6e-4f4073a74f18/exec-7074a752-47bd-4ffc-8d5b-2f64bb9daedd.png",
+  "owner": "home-3",
+  "origin": "seven-fieldnote-editorial-20260929",
+  "sha256": "e6e1f72c097df02c4bada404c866523b39a8528d9f1d3e66fe78326cf76b8795",
+  "conversion": "cwebp -q 88; 1536x1024; no crop",
+  "usage": "Fictional JW-Business design demonstration; generated specifically for this page. No third-party source assets were supplied.",
+  "license": "Distributed with JW SOFT Commercial License as a theme demonstration asset; source generation recorded here.",
+  "createdAt": "2026-09-29T01:15:39.528933+00:00",
+  "acquiredAt": "2026-09-29",
+  "tool": "OpenAI built-in imagegen",
+  "embeddedPrompt": false,
+  "promptStorage": "sidecar; WebP contains no EXIF/XMP/IPTC metadata"
+}

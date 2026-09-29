@@ -1,0 +1,10 @@
+{
+  "prompt": "Use case: product-mockup. New companion editorial photo for fictional FORME botanical care brand. The reference is identity/style guide, not edit target. Preserve the sage frosted round-shoulder pump bottle with dark forest green pump, ivory hand cream tube with green cap, ivory paper box and FORME serif wordmark exactly as family. Create a very different wide 3:2 scene of final ready-to-deliver brand materials laid in a shallow open ivory gift tray, viewed 45 degrees from above: bottle, cream tube and single leaf-printed cream box fitted neatly, alongside one folded textured forest-green tissue sheet and an ivory FORME note card. Warm limestone tabletop, soft window sidelight, elegant natural tactile photographic detail. Tight composition with products filling frame. No computer, no people, no additional products or logos, no watermarks. Premium art-directed product/packaging photograph. Text only FORME when prominent. Matching original product family is critical.",
+  "createdAt": "2026-09-29T01:14:39.813241+00:00",
+  "tool": "built-in image_gen",
+  "source": "/Users/neojins/.codex/generated_images/01a0eab6-640a-7de2-9147-f2fa1516ca43/exec-cdac65cf-1e5a-43a0-aec1-235eca3dab23.png",
+  "origin": "imagegen:cdac65cf-1e5a-43a0-aec1-235eca3dab23",
+  "owner": "home-4",
+  "license": "Generated project artwork; no third-party source photograph",
+  "reference": "src/assets/home-four/hero.webp"
+}

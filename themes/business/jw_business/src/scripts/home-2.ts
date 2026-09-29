@@ -1,8 +1,10 @@
 import EmblaCarousel, { type EmblaCarouselType } from "embla-carousel";
+import { scroll } from "motion";
 
 const AUTOPLAY_DELAY = 8500;
 
 export const initializeHome2 = (root: ParentNode = document): void => {
+  initializePriorityStory(root);
   root.querySelectorAll<HTMLElement>("[data-jw-home2-slider]").forEach((slider) => {
     if (slider.dataset.jwHome2Ready === "true") return;
 
@@ -109,3 +111,44 @@ export const initializeHome2 = (root: ParentNode = document): void => {
     }, { once: true });
   });
 };
+
+/** Observation, comparison and the chosen experiment stay readable without motion. */
+function initializePriorityStory(root: ParentNode): void {
+  const story = root.querySelector<HTMLElement>("[data-jwh2-priority-scroll]");
+  if (!story || story.dataset.priorityReady === "true") return;
+  story.dataset.priorityReady = "true";
+  const reduced = window.matchMedia("(prefers-reduced-motion: reduce)");
+  const desktop = window.matchMedia("(min-width: 951px)");
+  const controls = Array.from(story.querySelectorAll<HTMLButtonElement>("[data-priority-label]"));
+  let stopScroll: (() => void) | undefined;
+  let manual = false;
+  const select = (step: number): void => {
+    story.dataset.priorityStep = String(step);
+    controls.forEach((control, index) => control.setAttribute("aria-pressed", String(index === step)));
+  };
+  const configure = (): void => {
+    stopScroll?.();
+    manual = false;
+    const enhanced = !reduced.matches && desktop.matches;
+    story.dataset.priorityEnhanced = String(enhanced);
+    select(enhanced ? 0 : 2);
+    if (enhanced) {
+      stopScroll = scroll((progress: number) => {
+        if (!manual) select(Math.min(2, Math.floor(progress * 3)));
+      }, { target: story, offset: ["start 0.7", "end 0.45"] });
+    }
+  };
+  controls.forEach((control, index) => control.addEventListener("click", () => {
+    manual = true;
+    select(index);
+    if (!desktop.matches || reduced.matches) story.querySelector<HTMLElement>(`[data-priority-detail="${index}"]`)?.scrollIntoView({ block: "center", behavior: "auto" });
+  }));
+  reduced.addEventListener("change", configure);
+  desktop.addEventListener("change", configure);
+  configure();
+  window.addEventListener("beforeunload", () => {
+    stopScroll?.();
+    reduced.removeEventListener("change", configure);
+    desktop.removeEventListener("change", configure);
+  }, { once: true });
+}

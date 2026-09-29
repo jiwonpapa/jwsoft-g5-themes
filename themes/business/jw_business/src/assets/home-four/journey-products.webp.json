@@ -1,0 +1,10 @@
+{
+  "prompt": "Use case: product-mockup. New catalog detail photograph for the same fictional FORME botanical care product family as reference. Preserve precisely the sage frosted cylindrical round-shoulder hand-and-body wash bottle with deep green pump and ivory cream tube with deep green cap. Portrait composition 4:5, two products side by side on smooth pale limestone, directly frontal, full product shapes in frame. The bottle is about 1.4 times tube height, both front labels facing viewer with FORME wordmark. Fine natural leaf shadow across the backdrop, clean cream backdrop, no packaging box, no extra props, no hands. Lighting balanced soft high-end studio catalog, realistic satin glass, fine tube texture. It will appear in a small but polished product comparison web interface; legible label wordmark and distinct product shapes matter. No additional words except existing package labels.",
+  "createdAt": "2026-09-29T01:18:20.992540+00:00",
+  "tool": "built-in image_gen",
+  "source": "/Users/neojins/.codex/generated_images/01a0eab6-640a-7de2-9147-f2fa1516ca43/exec-e93ab311-d44e-414a-9584-5f330bf328b0.png",
+  "origin": "imagegen:e93ab311-d44e-414a-9584-5f330bf328b0",
+  "owner": "home-4",
+  "reference": "src/assets/home-four/hero.webp",
+  "license": "Generated project artwork; no third-party source photograph"
+}

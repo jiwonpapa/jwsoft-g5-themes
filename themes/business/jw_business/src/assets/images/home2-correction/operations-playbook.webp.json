@@ -1,0 +1,16 @@
+{
+  "prompt": "Use case: product-mockup. Landscape 3:2 premium close-up studio photograph of a finished consulting handover kit for fictional service brand ORBIT. View at a modest 25 degree angle of an open wire-bound operating manual, separate tabbed task sheets, one navy document envelope, on a clean warm gray surface. The open manual occupies most of image and shows crisp professionally typeset real operating checklists and a mini service sitemap, annotated screen thumbnails, version header 'ORBIT / OPERATIONS PLAYBOOK' and footer 'Version 1.0 · Demonstration'. A separate narrow sheet has editorial headings OWNER / REVIEW / PUBLISH with checkboxes and detailed short task descriptions. Include paper grain, ink detail, fine alignment, a subtle navy spine, burnt orange index tabs. No hands, no team, no meeting, no laptop, no blank pages, no huge slogans, no fake financial statistics. Beautiful realistic physical document design with credible small text, structured paragraphs and fine diagrams, controlled side lighting and soft realistic shadows, commercial theme portfolio quality.",
+  "source": "OpenAI built-in imagegen",
+  "original": "/Users/neojins/.codex/generated_images/01a0eab6-1919-7920-8a6e-4f4073a74f18/exec-8aac8584-55ff-45c7-976d-063a984c8d9d.png",
+  "owner": "home-2",
+  "origin": "seven-operations-playbook-20260929",
+  "sha256": "7dd524e08e515f632038d8a56c9ca4676e927c0eeaa60a9e79d630faea94c3d6",
+  "conversion": "cwebp -q 88; 1536x1024; no crop",
+  "usage": "Fictional JW-Business design demonstration; generated specifically for this page. No third-party source assets were supplied.",
+  "license": "Distributed with JW SOFT Commercial License as a theme demonstration asset; source generation recorded here.",
+  "createdAt": "2026-09-29T01:13:58.427369+00:00",
+  "acquiredAt": "2026-09-29",
+  "tool": "OpenAI built-in imagegen",
+  "embeddedPrompt": false,
+  "promptStorage": "sidecar; WebP contains no EXIF/XMP/IPTC metadata"
+}

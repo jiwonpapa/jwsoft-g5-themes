@@ -1,0 +1,16 @@
+{
+  "prompt": "Use case: product-mockup. Create a premium editorial photograph for a Korean business consulting website, landscape 3:2. A finished consulting decision dossier for fictional public programme brand ORBIT, on a large matte charcoal vertical pinboard, straight-on close view, no people, no meeting room, no architectural materials. Real crisp paper artifacts pinned in carefully organized asymmetric hierarchy: a detailed service journey diagram with three stages, readable small headings DISCOVER / COMPARE / PREPARE; a cluster of actual contact sheets showing visitors interacting with service signage; a compact evidence card with interview quotations and page numbers; a well-designed priority comparison table using navy and muted orange, one neatly circled decision. Main dossier heading exactly 'ORBIT / DECISION REVIEW' and subtitle 'Service discovery · Working brief 04'. Show dense credible well-typeset paragraphs, miniature charts, annotated photographs and fine rules rather than giant empty shapes. Grazing soft light, tactile paper, refined Swiss editorial typography, sharp all over, premium finished agency case study photograph. No dominant large text, no random numbers as business performance, no generic sticky notes, no computers, no watermark. Fill frame with authored work; hierarchy of documents must be clear at 1440 web width.",
+  "source": "OpenAI built-in imagegen",
+  "original": "/Users/neojins/.codex/generated_images/01a0eab6-1919-7920-8a6e-4f4073a74f18/exec-e766c57c-d74c-451e-be15-20958df8b5b4.png",
+  "owner": "home-2",
+  "origin": "seven-decision-review-20260929",
+  "sha256": "59bd1964f7b63519b96bb906f6cbdb6947cecf41c2ddb0454d4da1a37d4de04e",
+  "conversion": "cwebp -q 88; 1536x1024; no crop",
+  "usage": "Fictional JW-Business design demonstration; generated specifically for this page. No third-party source assets were supplied.",
+  "license": "Distributed with JW SOFT Commercial License as a theme demonstration asset; source generation recorded here.",
+  "createdAt": "2026-09-29T01:16:36.446977+00:00",
+  "acquiredAt": "2026-09-29",
+  "tool": "OpenAI built-in imagegen",
+  "embeddedPrompt": false,
+  "promptStorage": "sidecar; WebP contains no EXIF/XMP/IPTC metadata"
+}

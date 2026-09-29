@@ -10,6 +10,9 @@ initializeCompanyPages();
 import { initializeHome2 } from "./home-2";
 initializeHome2();
 
+import { initializeHomeThree } from "./home-three";
+initializeHomeThree();
+
 import { initializeSupport } from "./support";
 initializeSupport();
 
