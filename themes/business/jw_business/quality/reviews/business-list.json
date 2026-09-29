@@ -1,10 +1,10 @@
 {
   "schemaVersion": 2,
   "group": "business-list",
-  "inputDigest": "04d0dc66e494271df685c1782dceee14b96b4b4e5a56d6065f4bf24671e0adcb",
+  "inputDigest": "def3c26ef2dc4aec9aa221fe26a939b80dbb8183117cba5a5896f5d6a109730c",
   "implementer": "codex:/root:20260929",
   "reviewer": "gpt-6-sol:/root/finish_visual_review:20260929",
-  "reviewedAt": "2026-09-29T07:25:53.071Z",
+  "reviewedAt": "2026-09-29T07:39:04.818Z",
   "result": "pass",
   "captures": [
     {

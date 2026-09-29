@@ -4,7 +4,7 @@ import { tmpdir } from "node:os";
 import { dirname, join, resolve } from "node:path";
 import sharp from "sharp";
 import { checkQuality, loadPolicy } from "../scripts/quality/check";
-import { inputDigest, sha256 } from "../scripts/quality/files";
+import { groupDigest, inputDigest, sha256 } from "../scripts/quality/files";
 import { imageFingerprint, inspectMedia, inspectSources, similar } from "../scripts/quality/media";
 import { inspectReview } from "../scripts/quality/review";
 import type { AssetRegistry, PagePlan, QualityContract, Review } from "../scripts/quality/model";
@@ -105,6 +105,16 @@ async function photo(root: string, name: string, seed = 1): Promise<string> {
 }
 
 describe("mandatory product quality gate", () => {
+  test("ignored Blender intermediates do not make local reviews stale in clean CI", async () => {
+    const { root } = await fixture();
+    const before = [await inputDigest(root), await groupDigest(root, "home")];
+    await put(root, "onepages/design/renders/node-0001.png", "intermediate render");
+    await put(root, "onepages/design/aura-renders/node-0002.png", "intermediate render");
+    await put(root, "onepages/design/aura-concept.blend1", "backup scene");
+    expect([await inputDigest(root), await groupDigest(root, "home")]).toEqual(before);
+    await put(root, "onepages/design/aura-concept.blend", "tracked source scene");
+    expect(await inputDigest(root)).not.toBe(before[0]);
+  });
   test("passes a complete independent fixture, not merely a report file", async () => {
     const { root } = await fixture();
     expect((await checkQuality(root, "home")).failures).toEqual([]);

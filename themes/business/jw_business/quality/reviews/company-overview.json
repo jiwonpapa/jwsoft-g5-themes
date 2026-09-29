@@ -1,10 +1,10 @@
 {
   "schemaVersion": 2,
   "group": "company-overview",
-  "inputDigest": "81f74d2302dec06c0b626d7bf7d7bf0972d1220dbc819860b0f29ed98dc5716d",
+  "inputDigest": "c42f3bc2a5d81d3e001f7e49a61162df6454bca210e6c92c29e4e37d79b36489",
   "implementer": "codex:/root:20260929",
   "reviewer": "gpt-6-sol:/root/finish_visual_review:20260929",
-  "reviewedAt": "2026-09-29T07:25:53.071Z",
+  "reviewedAt": "2026-09-29T07:39:04.818Z",
   "result": "pass",
   "captures": [
     {

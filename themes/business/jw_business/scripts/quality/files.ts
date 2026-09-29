@@ -19,6 +19,9 @@ export async function walk(root: string, path: string): Promise<string[]> {
   const result: string[] = [];
   for (const entry of (await readdir(join(root, path), { withFileTypes: true })).sort((a, b) => a.name.localeCompare(b.name))) {
     const child = `${path}/${entry.name}`;
+    // Blender's ignored backups and intermediate renders are not product inputs.
+    // Including them makes a developer checkout hash differently from clean CI.
+    if (child === "onepages/design/renders" || child === "onepages/design/aura-renders" || /^onepages\/design\/[^/]+\.blend1$/.test(child)) continue;
     if (entry.isSymbolicLink()) throw new Error(`symlink is forbidden: ${child}`);
     if (entry.isDirectory()) result.push(...await walk(root, child));
     else if (entry.isFile()) result.push(child);
