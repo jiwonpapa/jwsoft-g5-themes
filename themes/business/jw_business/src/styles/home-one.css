@@ -386,3 +386,19 @@
 .decision-after ol{padding-left:17px;margin-top:12px;font-size:11px;line-height:1.9}
 .decision-after li b{font-weight:600}
 @media(max-width:700px){.decision-proof-stage{padding:16px 13px}.decision-proof-controls{gap:5px}.decision-proof-controls button{font-size:10px;padding:9px;min-height:42px}.decision-proof{grid-template-columns:1fr;gap:18px}.decision-after{padding:16px 0 0;border-left:0;border-top:1px solid var(--h1-rule);min-height:0}.decision-proof>div>strong{font-size:14px}.decision-after dl,.decision-after ol,.decision-before>small{font-size:12px}}
+/* Main 1: customer scenes replace the internal strategy diagram and site mockup. */
+.jwh1-strategy-scene{position:relative;min-width:0;overflow:hidden;background:var(--color-base-200)}
+.jwh1-strategy-scene img{display:block;width:100%;height:clamp(430px,43vw,650px);object-fit:cover}
+.jwh1-strategy-scene figcaption{position:absolute;inset:auto 0 0;padding:70px 32px 30px;background:linear-gradient(transparent,color-mix(in srgb,var(--color-neutral) 80%,transparent));color:var(--color-neutral-content)}
+.jwh1-strategy-scene figcaption strong,.jwh1-strategy-scene figcaption span{display:block}.jwh1-strategy-scene figcaption strong{font-size:clamp(24px,2.6vw,35px);line-height:1.3}.jwh1-strategy-scene figcaption span{margin-top:8px;font-size:13px}
+.jwh1-digital-focus{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(300px,.9fr);max-width:1440px;margin:auto;background:var(--color-base-100)}
+.jwh1-digital-focus>figure{position:relative;min-width:0;margin:0;overflow:hidden}
+.jwh1-digital-focus>figure img{display:block;width:100%;height:clamp(470px,45vw,650px);object-fit:cover}
+.jwh1-digital-focus>figure figcaption{position:absolute;inset:auto 20px 20px auto;padding:8px 12px;background:var(--color-base-100);color:var(--color-base-content);font-size:12px}
+.jwh1-digital-focus__copy{display:flex;flex-direction:column;justify-content:center;padding:clamp(35px,5vw,85px)}
+.jwh1-digital-focus__copy>span{font-size:12px;font-weight:750;letter-spacing:.12em;color:var(--jw-link-ink)}
+.jwh1-digital-focus__copy h3{margin:15px 0;font-size:clamp(30px,3vw,46px);line-height:1.2}.jwh1-digital-focus__copy p{font-size:16px;line-height:1.7;color:var(--h1-muted)}
+.jwh1-digital-focus__copy>div{display:grid;gap:0;margin-top:35px;border-top:1px solid var(--h1-rule)}.jwh1-digital-focus__copy>div strong{padding:13px 0;border-bottom:1px solid var(--h1-rule);font-size:14px;font-weight:650}
+.jwh1-digital-focus__copy>a{margin-top:28px;font-size:14px;font-weight:750;color:var(--jw-link-ink)}
+@media(max-width:1000px){.strategy{grid-template-columns:1fr;gap:42px}.strategy__copy{max-width:640px}.jwh1-digital-focus{grid-template-columns:1fr}.jwh1-digital-focus>figure img{height:430px}}
+@media(max-width:700px){.jwh1-strategy-scene{margin-top:35px}.jwh1-strategy-scene img{height:390px}.jwh1-digital-focus>figure img{height:350px}.jwh1-digital-focus__copy{padding:30px 24px 38px}}

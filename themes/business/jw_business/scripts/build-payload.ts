@@ -100,7 +100,7 @@ async function main(): Promise<void> {
   for (const name of ["decision-logic", "decision-logic-mobile"]) {
     await copyFile(join(themeRoot, "src/assets/main-one", `${name}.svg`), join(payloadRoot, "assets/main-one", `${name}.svg`));
   }
-  for (const name of ["hero", "discovery", "digital", "handoff", "experience-pack", "journey-products"]) {
+  for (const name of ["hero", "discovery", "digital", "handoff", "experience-pack", "journey-products", "forme-ritual"]) {
     await copyFile(join(themeRoot, "src/assets/home-four", `${name}.webp`), join(payloadRoot, "assets/home-four", `${name}.webp`));
   }
   for (const name of ["home2-strategy", "home2-decision-workshop", "home2-evidence-retail"]) {

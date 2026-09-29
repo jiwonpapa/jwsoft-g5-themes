@@ -28,18 +28,6 @@
       "salePackage": true
     },
     {
-      "id": "build-assets-decision-review-bzeixmgn-webp-2e0c7cc3",
-      "path": "theme/assets/decision-review-BzeIXMGn.webp",
-      "sha256": "59bd1964f7b63519b96bb906f6cbdb6947cecf41c2ddb0454d4da1a37d4de04e",
-      "provenance": "generated",
-      "generatedBy": "OpenAI built-in imagegen + WebP encoding",
-      "author": "OpenAI image generation, directed by JW SOFT",
-      "acquiredAt": "2026-09-29",
-      "licenseExpression": "LicenseRef-OpenAI-Generated-Asset AND LicenseRef-JWSOFT",
-      "usageScope": "theme",
-      "salePackage": true
-    },
-    {
       "id": "build-assets-home-collaboration-defomz1w-webp-32c6676d",
       "path": "theme/assets/home-collaboration-DEfOmZ1W.webp",
       "sha256": "fd15488505e0d8a5a9dc7f1a372ff0f2680f5c743d793b0ccf5262236507f53e",
@@ -79,6 +67,18 @@
       "id": "build-assets-home-four-experience-pack-webp-cc7c8e9b",
       "path": "theme/assets/home-four/experience-pack.webp",
       "sha256": "85b130f4418a52aff21c145bf38279d36ab13e75a22f7d71889cd89fb8074448",
+      "provenance": "generated",
+      "generatedBy": "built-in image_gen + WebP encoding",
+      "author": "OpenAI image generation, directed by JW SOFT",
+      "acquiredAt": "2026-09-29",
+      "licenseExpression": "LicenseRef-OpenAI-Generated-Asset AND LicenseRef-JWSOFT",
+      "usageScope": "theme",
+      "salePackage": true
+    },
+    {
+      "id": "build-assets-home-four-forme-ritual-webp-0ec7e449",
+      "path": "theme/assets/home-four/forme-ritual.webp",
+      "sha256": "83fa44b58ae3ec65b58a9766e2fb35340537367ec5136e498717220e6c2fb3ac",
       "provenance": "generated",
       "generatedBy": "built-in image_gen + WebP encoding",
       "author": "OpenAI image generation, directed by JW SOFT",
@@ -216,6 +216,18 @@
       "author": "JW SOFT",
       "acquiredAt": "2026-09-29",
       "licenseExpression": "LicenseRef-JWSOFT",
+      "usageScope": "theme",
+      "salePackage": true
+    },
+    {
+      "id": "build-assets-home2-decision-cfvjk5gz-webp-486e8017",
+      "path": "theme/assets/home2-decision-CfVJk5gZ.webp",
+      "sha256": "6f0fc02bb2447f58ffeeaf47e1cbdb6cc6c274f8f956563055e0fbbbef7ba1eb",
+      "provenance": "generated",
+      "generatedBy": "OpenAI image generation + WebP encoding",
+      "author": "OpenAI image generation, directed by JW SOFT",
+      "acquiredAt": "2026-09-28",
+      "licenseExpression": "LicenseRef-OpenAI-Generated-Asset AND LicenseRef-JWSOFT",
       "usageScope": "theme",
       "salePackage": true
     },
@@ -474,7 +486,7 @@
     {
       "id": "build-css-home-four-min-css-8cdfc3e3",
       "path": "theme/css/home-four.min.css",
-      "sha256": "a5906ab1afbbd4a7c561d9aac77fe53bcad27ba002f57ec25c03925c0f1a2042",
+      "sha256": "6c120a20580808d7f4b277a5b86f89a56073cdf6528f9980e3fa01d2a4470066",
       "provenance": "generated",
       "generatedBy": "Vite 8.3.0",
       "author": "JW SOFT and bundled library authors",
@@ -486,7 +498,7 @@
     {
       "id": "build-css-home-one-min-css-ff98ed24",
       "path": "theme/css/home-one.min.css",
-      "sha256": "06be491e5447fff81a8952dc3da3c0dd20442a9cdf6dd1788b63aa7d91130939",
+      "sha256": "04cc5d98d9267505a1f0dc71b30e5c0693ddcfe697a6655a374487aa99a93d3b",
       "provenance": "generated",
       "generatedBy": "Vite 8.3.0",
       "author": "JW SOFT and bundled library authors",
@@ -498,7 +510,7 @@
     {
       "id": "build-css-jw-business-min-css-c16fb848",
       "path": "theme/css/jw-business.min.css",
-      "sha256": "92116ab72d2b8a087d02f497444b9275654c47163dc342a4ffc7976e592eed81",
+      "sha256": "f571ec465694a5cd88e550ccc94334ab6d173835436e8c401e99beeec3a4a523",
       "provenance": "generated",
       "generatedBy": "Vite 8.3.0",
       "author": "JW SOFT and bundled library authors",
@@ -522,7 +534,7 @@
     {
       "id": "build-css-onepages-min-css-99a37b37",
       "path": "theme/css/onepages.min.css",
-      "sha256": "3955f0190dd6ca374077999d66dc8ee1dfee0b9b5fa0dfba70d38a82976676ed",
+      "sha256": "385628dfdcec01c3b1f70b1a1e874be01886b6bc5c885e91192b6af51219af99",
       "provenance": "generated",
       "generatedBy": "Vite 8.3.0",
       "author": "JW SOFT and bundled library authors",

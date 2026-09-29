@@ -710,6 +710,12 @@
       "owner": "home-4"
     },
     {
+      "path": "src/assets/home-four/forme-ritual.webp",
+      "sha256": "83fa44b58ae3ec65b58a9766e2fb35340537367ec5136e498717220e6c2fb3ac",
+      "origin": "imagegen:e47c2e10-9b34-43b9-aaab-35f489fe507f",
+      "owner": "home-4"
+    },
+    {
       "path": "src/assets/home-four/journey-products.webp",
       "sha256": "fb90bdb99988223b132db62e3aa764eae81dab1274cf2dd8a672553feae21ba3",
       "origin": "imagegen:e93ab311-d44e-414a-9584-5f330bf328b0",

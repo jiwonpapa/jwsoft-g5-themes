@@ -9,9 +9,9 @@
       "purpose": "종합 서비스와 업종·사례를 다양한 독립 섹션으로 살펴봅니다.",
       "layout": "서로 다른 레이아웃을 조합한 12섹션 긴 메인 데모",
       "ready": true,
-      "firstViewport": "전략 판단 지도, 생활 속 디지털 사용, 동일 브랜드 실물을 각각 보여 주는 전용 사진 3장의 히어로. 수동 선택·이전·다음·재생과 제목·설명·구간 이동을 제공한다.",
-      "composition": "사진 슬라이더, 큰 아이콘 서비스, 업종 모자이크, 전략 지도, 단계, 서비스 흐름이 보이는 PC 목업, 사례, 브랜드, FAQ, 최신글, 문의의 12섹션.",
-      "imagery": "메인1 전용 일곱 장과 의미 토큰으로 그린 서비스 흐름 자료를 사용합니다.",
+      "firstViewport": "서로 다른 사업 장면을 보여 주는 전용 사진 3장의 히어로. 수동 선택·이전·다음·재생과 제목·설명·구간 이동을 제공한다.",
+      "composition": "사진 슬라이더, 큰 아이콘 서비스, 업종 모자이크, 제품 장면, 단계, 고객이 고르기 쉬운 상품 사진, 사례, 브랜드, FAQ, 최신글, 문의의 독립 섹션.",
+      "imagery": "메인1 전용 사진을 사용하고 동일한 장면을 반복하지 않습니다.",
       "requirements": [
         {
           "id": "page-heading",
@@ -89,8 +89,8 @@
       "layout": "사업별 탐색",
       "ready": true,
       "firstViewport": "컨설팅·디지털·운영을 서로 다른 현장 사진과 메시지로 전환하는 3장 히어로 슬라이더. 이전·다음·사업 탭·재생 제어를 제공합니다.",
-      "composition": "3장 사진 슬라이더, 큰 아이콘 탐색 목록, 사진이 결합된 고객 여정, 우선순위 사분면, 대시보드, 자료 사진과 결정 기록, 비대칭 결과물 보드, 작업 방식, 문의의 9섹션.",
-      "imagery": "메인2 전용 히어로 사진 세 장과 서로 다른 워크숍·자료 장면 세 장, 고유 HTML 여정 지도·결과물 보드를 사용합니다.",
+      "composition": "3장 사진 슬라이더, 큰 아이콘 탐색 목록, 고객 여정, 집중할 장면의 사진, 서비스 결과 장면, 간결한 결과물, 작업 방식, 문의.",
+      "imagery": "메인2 전용 히어로 사진 세 장과 서로 다른 워크숍·서비스 장면을 사용합니다.",
       "requirements": [
         {
           "id": "page-heading",
@@ -106,19 +106,19 @@
         },
         {
           "id": "digital-artifact",
-          "description": "사진이 아닌 코드 기반 디지털 결과물 예시",
+          "description": "고객이 선택하는 순간을 전하는 사진 장면",
           "selector": "[data-jw-digital-artifact]",
           "min": 1
         },
         {
           "id": "decision-matrix",
-          "description": "선택 기준과 우선순위를 비교하는 지도",
+          "description": "가장 중요한 고객 장면과 세 가지 점검 기준",
           "selector": "[data-jwh2-decision-matrix]",
           "min": 1
         },
         {
           "id": "decision-evidence",
-          "description": "자료 사진과 신호·방법·판단의 연결을 보여 주는 결정 기록",
+          "description": "가상 서비스 개선 장면을 보여 주는 별도 사진",
           "selector": "[data-jwh2-decision-evidence]",
           "min": 1
         },
@@ -130,13 +130,13 @@
         },
         {
           "id": "journey-map",
-          "description": "서로 연결된 발견과 비교와 문의의 시각적 여정 지도",
+          "description": "고객이 경험하는 발견과 비교와 문의의 간결한 순서",
           "selector": "[data-jwh2-journey-map]",
           "min": 1
         },
         {
           "id": "delivery-board",
-          "description": "구성 미리보기가 있는 독립 결과물 세 가지",
+          "description": "방향·화면·운영을 보여 주는 큰 아이콘 카드 세 가지",
           "selector": "[data-jwh2-delivery-board] article",
           "min": 3
         }
@@ -158,8 +158,8 @@
       "layout": "대표 사례 중심",
       "ready": true,
       "firstViewport": "전용 공간 안내 사진의 실제 사인이 PC와 모바일 모두 보이는 크롭, 결과물 중심의 제목과 사례 이동 행동.",
-      "composition": "사진 히어로, 개요, 실제 안내 동선 지도, 인쇄물, 전시 설치 사진, 이미지가 포함된 웹 시안, 매체별 역할, 문의의 8섹션.",
-      "imagery": "메인3 전용 mobility·print·exhibition 세 원본. 전시 사진은 동일 프로젝트 웹 시안에도 사용합니다.",
+      "composition": "사진 히어로, 개요, 대형 방향 사인, 인쇄물, 전시 설치 사진, 디지털 장면, 편집물 사진, 문의.",
+      "imagery": "공간 안내·인쇄·전시·디지털 장면마다 서로 다른 사진을 사용합니다.",
       "requirements": [
         {
           "id": "page-heading",
@@ -169,8 +169,8 @@
         },
         {
           "id": "wayfinding-map",
-          "description": "현재 위치와 세 방향이 연결된 실제 안내 도해",
-          "selector": ".jwh3-wayfinding-v2>svg",
+          "description": "한눈에 방향을 구별할 수 있는 세 갈래 대형 안내 사인",
+          "selector": ".jwh3-signpost",
           "min": 1
         },
         {
@@ -191,7 +191,7 @@
       "layout": "과정과 산출물",
       "ready": true,
       "firstViewport": "전략·브랜드·디지털을 연결하는 에이전시의 작업 방식. FORME 전용 제품 사진과 간결한 제목, 과정/문의 행동을 함께 보여줍니다.",
-      "composition": "프로젝트 사진 → 80px 아이콘 4개 과정 카드 → 작업 사진과 브리프 → 아이콘 고객 여정도 → HTML 웹 시안 → 패키지와 브랜드 시스템 → 파일별 인계물 → FAQ → 문의. 9개 섹션의 구성과 시각 매체를 구분합니다.",
+      "composition": "프로젝트 사진 → 큰 아이콘 4개 → 작업 장면 → 세 가지 브랜드 장면 → 제품 캠페인 사진 → 브랜드 실물 → FAQ → 문의. 8개 섹션의 매체를 구분합니다.",
       "imagery": "메인 4 전용 생성 사진 4장. FORME 제품 커버, 디자이너 협업, 디지털 캠페인, 브랜드 인계물. 다른 페이지 이미지 재사용 금지. 브랜드 아트워크 색만 분리하고 테마 UI는 jw-light/jw-dark 토큰을 사용합니다.",
       "requirements": [
         {
@@ -202,7 +202,7 @@
         },
         {
           "id": "artifact-variants",
-          "description": "서로 다른 형식의 브리프 대안 프로토타입과 인계 장면",
+          "description": "서로 다른 고객 접점에서 이어지는 브랜드 장면 네 가지",
           "selector": "[data-jwh4-work-product]",
           "min": 4
         },
@@ -248,7 +248,7 @@
         },
         {
           "id": "install-diagram",
-          "description": "현장 설치 조건을 설명하는 도해",
+          "description": "생활 공간에 놓인 제품 사진과 간결한 배치 정보",
           "selector": "[data-jwo-install-diagram]",
           "min": 1
         },
@@ -284,7 +284,7 @@
         },
         {
           "id": "product-guide",
-          "description": "배치·연결·관리 안내 영역을 확인합니다.",
+          "description": "제품이 생활 공간에 놓이는 장면을 확인합니다.",
           "selector": "[data-jwo-product-guide]",
           "min": 1
         }
@@ -343,15 +343,15 @@
         },
         {
           "id": "delivery-files",
-          "description": "화면과 지도와 가이드로 구분된 인계 자료 구성",
-          "selector": ".jwo-delivery-files article",
+          "description": "실제 쓰이는 접점을 구분한 아이콘 카드",
+          "selector": ".jwo-delivery-simple article",
           "min": 3
         },
         {
           "id": "service-section-range",
-          "description": "회사와 서비스와 협업 정보를 담은 열두 섹션",
+          "description": "회사와 서비스와 협업 정보를 담은 열한 섹션",
           "selector": ".jwo-service-v2>section",
-          "min": 12
+          "min": 11
         },
         {
           "id": "company-profile",
@@ -373,10 +373,10 @@
         }
       ],
       "purpose": "세 서비스의 역할과 시각적 산출물을 비교하고 상담을 준비합니다.",
-      "layout": "작업 현장 히어로, 개방형 서비스 범위 보드, 고객 질문 여정, 산출물 표본, 상담 준비",
-      "firstViewport": "벽면 고객 여정 워크숍 사진과 사업의 질문을 결과로 바꾸는 설명, 서비스 범위로 가는 행동.",
-      "composition": "워크숍 히어로, 열린 아이콘 서비스 인덱스, 스튜디오, 사진과 동선이 결합된 고객 여정, 화면 시안, 업종별 사진 편집면, 협업 장면, 진행 절차, 인계물, 협업 범위, FAQ, 문의의 12섹션.",
-      "imagery": "서비스형 소유의 히어로·스튜디오·고객 여정·업종별 사진과 실제 HTML 산출물, 대형 Lucide 아이콘을 사용합니다. 사진은 페이지 안에서 반복하지 않습니다.",
+      "layout": "공예 현장 히어로, 서비스 범위, 고객 경험 사진, 적용 분야, 상담 준비",
+      "firstViewport": "공예 현장의 인물 사진과 핵심 메시지, 서비스 범위로 가는 행동.",
+      "composition": "공예 현장 히어로, 아이콘 서비스, 스튜디오, 세 장면의 고객 경험 사진, 협업 장면, 업종별 사진, 진행 절차, 간결한 효과 카드, 협업 범위, FAQ, 문의의 11섹션.",
+      "imagery": "서비스형 전용의 공예·협업·업종 사진과 대형 Lucide 아이콘을 사용합니다. 사진은 페이지 안에서 반복하지 않습니다.",
       "interactions": []
     },
     {
@@ -394,9 +394,9 @@
         },
         {
           "id": "project-scenes",
-          "description": "서로 다른 공간 장면 실제 화면 자료",
-          "selector": "article img",
-          "min": 3
+          "description": "서로 다른 공간 장면 다섯 장 이상의 사진",
+          "selector": ".jwo-gallery img",
+          "min": 5
         },
         {
           "id": "project-gallery",
@@ -406,15 +406,15 @@
         },
         {
           "id": "project-flow",
-          "description": "사진과 구별되는 방문자 개념 동선 도해",
+          "description": "입구·정원·라운지의 세 장면으로 이어지는 방문 흐름",
           "selector": "[data-jwo-project-flow]",
           "min": 1
         },
         {
           "id": "spatial-floorplan",
-          "description": "입구와 회랑과 라운지를 연결하는 실제 개념 평면도",
-          "selector": ".jwo-spatial-board>svg",
-          "min": 1
+          "description": "방문 흐름을 보여 주는 세 장의 서로 다른 공간 사진",
+          "selector": ".jwo-project-journey img",
+          "min": 3
         },
         {
           "id": "company-profile",
@@ -436,13 +436,13 @@
         },
         {
           "id": "project-deliverables",
-          "description": "인계물과 협의 경계 영역을 확인합니다.",
+          "description": "공간을 만드는 과정과 협업 범위를 확인합니다.",
           "selector": "[data-jwo-project-deliverables]",
           "min": 1
         }
       ],
-      "purpose": "공간의 사진과 평면 동선을 함께 살펴보고 프로젝트를 이해합니다.",
-      "layout": "전폭 공간 사진, 공간 의도, 방문자 동선 도해, 실내 장면, 재료 편집면, 스와이프 갤러리, 문의",
+      "purpose": "공간 사진과 방문 흐름을 통해 프로젝트를 이해합니다.",
+      "layout": "전폭 공간 사진, 공간 의도, 방문 경험 세 장면, 재료 사진, 스와이프 갤러리, 문의",
       "firstViewport": "하나의 공간 콘셉트 전경을 전폭 사진과 제목으로 보여 주며 가상 프로젝트임을 분명히 밝힙니다.",
       "composition": "공간 히어로, 스튜디오, 의도, 평면 동선, 실내 장면, 재료, 갤러리, 업무 범위, 진행 절차, 인계물, FAQ, 문의의 12섹션.",
       "imagery": "동일 가상 공간을 다른 장면으로 보여주는 독립 사진 6장과 좌표를 설계한 SVG 평면도입니다. 별도 space-studio 이미지로 모형과 재료를 검토하는 가상 팀을 소개합니다.",

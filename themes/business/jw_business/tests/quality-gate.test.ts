@@ -43,7 +43,7 @@ async function fixture(): Promise<{ root: string; contract: QualityContract; pla
     const homeFourProducts = page.id === "home-4" ? '<section data-jwh4-work-product></section>'.repeat(4) + homeFourPhotos.map(photo => `<img src="${photo.path}">`).join("") + '<a class="h4-process-card"><i class="h4-large-icon"></i></a>'.repeat(4) + '<div class="h4-insights"><div></div><div></div></div>' : "";
     const extraProducts = page.id === "home-2"
       ? '<span class="jwh2-choice-icon"><i data-lucide="compass"></i></span>'.repeat(3) + '<div data-jwh2-journey-map></div><div data-jwh2-delivery-board>' + '<article>Deliverable</article>'.repeat(3) + '</div>'
-      : page.id === "home-3" ? `<div class="jwh3-wayfinding-v2"><svg></svg></div><div class="jwh3-exhibition"><img src="${homeThreePath}"></div>` : "";
+      : page.id === "home-3" ? `<div class="jwh3-signpost"><div>A / EXIT</div><div>B / PLATFORM</div><div>C / TRANSFER</div></div><div class="jwh3-exhibition"><img src="${homeThreePath}"></div>` : "";
     const mainOneSections = [
       '<section data-jw-hero-slider><h1>Test home-1</h1></section>',
       `<section>${'<span class="jwh1-service-icon"><svg></svg></span>'.repeat(3)}</section>`,

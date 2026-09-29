@@ -41,7 +41,7 @@ describe("standalone home designs", () => {
   });
 
   test("business, project and process structures are distinct", async () => {
-    const selectors = ["data-jw-home2-slider", "jwh3-wayfinding", "data-jw-forme-story"];
+    const selectors = ["data-jw-home2-slider", "jwh3-signpost", "data-jw-forme-story"];
     for (const [index, expected] of selectors.entries()) {
       const source = await readFile(resolve(themeRoot, `src/php/index_${index + 2}.php`), "utf8");
       expect(source).toContain(expected);

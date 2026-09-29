@@ -87,7 +87,7 @@ async function main(): Promise<void> {
   const jsPath = join(payloadRoot, "js/jw-business.min.js");
   const homeCssPath = join(payloadRoot, "css/home-one.min.css");
   const homeJsPath = join(payloadRoot, "js/home-one.min.js");
-  for (const path of ["css/home-four.min.css", "js/home-four.min.js", "assets/home-four/hero.webp", "assets/home-four/discovery.webp", "assets/home-four/digital.webp", "assets/home-four/handoff.webp",
+  for (const path of ["css/home-four.min.css", "js/home-four.min.js", "assets/home-four/hero.webp", "assets/home-four/discovery.webp", "assets/home-four/digital.webp", "assets/home-four/handoff.webp", "assets/home-four/forme-ritual.webp",
     "css/onepages.min.css", "js/onepages.min.js", "assets/home-three/mobility.webp", "assets/home-three/print.webp", "assets/home-three/exhibition.webp",
     "onepages/assets/images/service-workshop.webp", "onepages/assets/images/courtyard-colonnade.webp",
     "onepages/assets/images/aura-hero.webp", "onepages/assets/images/aura-detail.webp", "onepages/assets/images/aura-living.webp", "onepages/assets/images/service-journey-workshop.webp",
