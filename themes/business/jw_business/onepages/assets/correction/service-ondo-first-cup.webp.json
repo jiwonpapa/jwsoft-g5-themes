@@ -1,0 +1,17 @@
+{
+  "author": "JW SOFT",
+  "date": "2026-09-29",
+  "acquiredAt": "2026-09-29",
+  "createdAt": "2026-09-29T02:30:46.536Z",
+  "sha256": "af0a901fe48bdcd33dbb86775c0a51511513a1785abf89b6c7a06a68a9e01149",
+  "owner": "onepage-services",
+  "kind": "ai-generated-image",
+  "tool": "OpenAI built-in imagegen",
+  "source": "/Users/neojins/.codex/generated_images/01a0eac1-5a5e-7712-966f-c038659b4c7f/exec-9693ccd8-2b12-49d6-9114-bdce151d0ed6.png",
+  "license": "LicenseRef-OpenAI-Generated-Asset",
+  "transparent_background": false,
+  "origin": "openai:seven-onepages-sol-review-20260929-service-ondo-first-cup",
+  "prompt": "Create a photorealistic editorial website photograph for a premium Korean pottery class studio named ONDO. Close view of an adult beginner's two hands gently shaping a small clay cup on a pottery wheel; no faces, natural correct hands, wet terracotta clay, quiet cream linen apron, a little clay on fingertips, authentic wheel motion and workshop detail. Large soft daylight from the left, warm ivory plaster background, modest contemporary artisan atmosphere, tactile clay in precise focus, aspirational but candid. Landscape 3:2 composition, cup and hands centered, enough clear tabletop at the sides to crop mobile. This is the actual lesson photo shown inside a complete service finder UI. No text, logo, border, UI, collage, graphic overlay. Distinct from a wide studio/team photograph.",
+  "embeddedPrompt": false,
+  "promptStorage": "sidecar"
+}

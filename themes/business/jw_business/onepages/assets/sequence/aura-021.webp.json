@@ -1,8 +1,8 @@
 {
   "kind": "authored-3d-render",
   "author": "JW SOFT",
-  "date": "2026-09-28",
-  "tool": "Blender 5.2.2 LTS Cycles / cwebp",
+  "date": "2026-09-29",
+  "tool": "Blender 5.2.2 LTS + WebP",
   "source": "onepages/design/render-aura.py",
   "scene": "onepages/design/aura-concept.blend",
   "frame": 21,
@@ -10,8 +10,17 @@
   "license": "LicenseRef-OpenAI-Generated-Asset AND LicenseRef-JWSOFT",
   "transparent_background": true,
   "shadow": "No floor or backdrop; native transparent pixels",
-  "prompt": "Authored Blender render with generated walnut albedo, not image-model generation of the product. Origin: onepages/design/render-aura.py and packed aura-concept.blend; JW SOFT; material prompt in aura-walnut-albedo.png.json; Cycles1080x810 RGBA, no floor, frame 21.",
+  "prompt": "JW SOFT native Blender AURA assembly. Same walnut cabinet, champagne brushed-metal top and knurled dial, charcoal woven textile, feet and connectors. Independent camera and environment for each editorial shot; 60 transparent frames use the same packed master. Original generated walnut texture provenance retained in its sidecar.",
   "materials": {
     "walnut": "onepages/design/aura-walnut-albedo.png"
+  },
+  "acquiredAt": "2026-09-29",
+  "sha256": "ea99813222b6b290df6338c985d492931cd28649640905ede87145c90df38372",
+  "owner": "onepage-showcase",
+  "origin": "blender:aura-master-20260929-sequence",
+  "previousGeneration": {
+    "date": "2026-09-28",
+    "tool": "Blender 5.2.2 LTS Cycles / cwebp",
+    "prompt": "Authored Blender render with generated walnut albedo, not image-model generation of the product. Origin: onepages/design/render-aura.py and packed aura-concept.blend; JW SOFT; material prompt in aura-walnut-albedo.png.json; Cycles1080x810 RGBA, no floor, frame 21."
   }
 }

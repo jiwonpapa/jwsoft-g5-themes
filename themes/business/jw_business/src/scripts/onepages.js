@@ -28,6 +28,31 @@ if (root) {
   header?.addEventListener('transitionend', updateNavigation);
   updateNavigation();
 
+  // Real service states and spatial locations follow their own content, with button access.
+  root.querySelectorAll('[data-jwo-narrative]').forEach(narrative => {
+    const steps = [...narrative.querySelectorAll('[data-jwo-narrative-step]')];
+    const buttons = [...narrative.querySelectorAll('[data-jwo-narrative-button]')];
+    const panels = [...narrative.querySelectorAll('[data-jwo-narrative-panel]')];
+    const stops = [...narrative.querySelectorAll('[data-jwo-floor-stop]')];
+    const select = index => {
+      buttons.forEach((button, i) => button.setAttribute('aria-pressed', String(i === index)));
+      panels.forEach((panel, i) => { panel.hidden = i !== index; });
+      stops.forEach((stop, i) => stop.classList.toggle('is-active', i === index));
+      narrative.dataset.activeStep = String(index);
+    };
+    buttons.forEach((button, index) => button.addEventListener('click', () => {
+      select(index);
+      if (stops.length && motionAllowed()) steps[index].scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }));
+    steps.forEach((step, index) => {
+      inView(step, () => {
+        if (motionAllowed()) select(index);
+        return () => {}; // Keep observing so returning through the story restores its matching state.
+      }, { margin: '-30% 0px -45% 0px' });
+    });
+    select(0);
+  });
+
   const sequence = root.querySelector('[data-jwo-sequence]');
   if (sequence) {
     const image = sequence.querySelector('[data-jwo-sequence-image]');
@@ -152,24 +177,66 @@ if (root) {
     const toggle = controls?.querySelector('[data-jwo-project-hero-toggle]');
     const status = controls?.querySelector('[data-jwo-project-hero-status]');
     if (viewport && slides.length > 1 && controls && prev && next && toggle && status) {
-      const autoplay = Autoplay({ delay: 5800, playOnInit: !reduced.matches, stopOnFocusIn: true, stopOnMouseEnter: true, stopOnInteraction: false });
+      let wantsPlayback = !reduced.matches;
+      let hovering = false;
+      let focusWithin = false;
+      let dragging = false;
+      // The plugin must not restart on blur/mouseleave after an explicit user pause.
+      const autoplay = Autoplay({ delay: 5800, playOnInit: false, stopOnFocusIn: false, stopOnMouseEnter: false, stopOnInteraction: true });
       const carousel = EmblaCarousel(viewport, { loop: true, duration: reduced.matches ? 0 : 28, breakpoints: { '(prefers-reduced-motion: reduce)': { duration: 0 } } }, [autoplay]);
       const sync = () => {
         const current = carousel.selectedScrollSnap();
         status.textContent = `${String(current + 1).padStart(2, '0')} / ${String(slides.length).padStart(2, '0')}`;
         slides.forEach((slide, index) => slide.setAttribute('aria-hidden', String(index !== current)));
-        const playing = autoplay.isPlaying();
+        const playing = wantsPlayback;
         toggle.textContent = playing ? '일시 정지' : '재생';
         toggle.setAttribute('aria-label', playing ? '자동 슬라이드 일시 정지' : '자동 슬라이드 재생');
         toggle.setAttribute('aria-pressed', String(playing));
       };
-      prev.addEventListener('click', () => { carousel.scrollPrev(); autoplay.reset(); });
-      next.addEventListener('click', () => { carousel.scrollNext(); autoplay.reset(); });
-      toggle.addEventListener('click', () => { autoplay.isPlaying() ? autoplay.stop() : autoplay.play(); sync(); });
-      reduced.addEventListener('change', () => { if (reduced.matches) autoplay.stop(); sync(); });
-      carousel.on('select', sync).on('reInit', sync);
+      const updatePlayback = () => {
+        const shouldPlay = wantsPlayback && !reduced.matches && !hovering && !focusWithin && !dragging && !document.hidden;
+        if (shouldPlay && !autoplay.isPlaying()) autoplay.play();
+        else if (!shouldPlay && autoplay.isPlaying()) autoplay.stop();
+        sync();
+      };
+      viewport.addEventListener('mouseenter', () => { hovering = true; updatePlayback(); });
+      viewport.addEventListener('mouseleave', () => { hovering = false; updatePlayback(); });
+      viewport.addEventListener('focusin', () => { focusWithin = true; updatePlayback(); });
+      viewport.addEventListener('focusout', () => queueMicrotask(() => {
+        focusWithin = viewport.contains(document.activeElement);
+        updatePlayback();
+      }));
+      document.addEventListener('visibilitychange', () => queueMicrotask(updatePlayback));
+      carousel.on('pointerDown', () => { dragging = true; updatePlayback(); });
+      carousel.on('pointerUp', () => { dragging = false; updatePlayback(); });
+      // Reconcile plugin lifecycle/visibility resumes with the user's persistent intent.
+      carousel.on('autoplay:play', () => queueMicrotask(updatePlayback));
+      prev.addEventListener('click', () => { carousel.scrollPrev(); autoplay.reset(); updatePlayback(); });
+      next.addEventListener('click', () => { carousel.scrollNext(); autoplay.reset(); updatePlayback(); });
+      viewport.tabIndex = 0;
+      viewport.setAttribute('aria-label', '프로젝트 대표 장면. 좌우 방향키로 이동합니다.');
+      viewport.addEventListener('keydown', event => {
+        if (!['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) return;
+        event.preventDefault();
+        wantsPlayback = false;
+        updatePlayback();
+        if (event.key === 'Home') carousel.scrollTo(0);
+        else if (event.key === 'End') carousel.scrollTo(slides.length - 1);
+        else if (event.key === 'ArrowLeft') carousel.scrollPrev();
+        else carousel.scrollNext();
+        sync();
+      });
+      toggle.addEventListener('click', () => {
+        wantsPlayback = !wantsPlayback && !reduced.matches;
+        updatePlayback();
+      });
+      reduced.addEventListener('change', () => {
+        if (reduced.matches) wantsPlayback = false;
+        updatePlayback();
+      });
+      carousel.on('select', sync).on('reInit', updatePlayback);
       controls.hidden = false;
-      sync();
+      updatePlayback();
     }
   }
 

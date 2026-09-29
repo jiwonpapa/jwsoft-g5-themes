@@ -1,0 +1,17 @@
+{
+  "author": "JW SOFT",
+  "date": "2026-09-29",
+  "acquiredAt": "2026-09-29",
+  "createdAt": "2026-09-29T02:30:46.556Z",
+  "sha256": "1750e5fa0fd3027892798cfb37e9551151faef65f326b982c0c31934a04ce624",
+  "owner": "onepage-services",
+  "kind": "ai-generated-image",
+  "tool": "OpenAI built-in imagegen",
+  "source": "/Users/neojins/.codex/generated_images/01a0eac1-5a5e-7712-966f-c038659b4c7f/exec-8dd1ce8e-9748-4516-9949-19787f3e76da.png",
+  "license": "LicenseRef-OpenAI-Generated-Asset",
+  "transparent_background": false,
+  "origin": "openai:seven-onepages-sol-review-20260929-service-ondo-course-works",
+  "prompt": "Create a photorealistic fine craft still life for a Korean ceramic class comparison webpage. Two clearly separated lesson outcomes on a warm ivory studio table: on the left a single subtly irregular handmade cream-speckled stoneware mug with a carefully formed handle, on the right a coordinated small collection of three ceramic bowls and one low plate with quiet sage and oatmeal glazes. Large soft daylight, tactile realistic glazes, subtle shadows, linen edge and simple wooden modeling tool in background. Almost front-on low three-quarter camera, landscape 3:2, left mug and right collection both fully visible with generous separation. Premium artisan catalogue photography, crisp real ceramic detail. These are illustrative sample works from beginner classes. No text, labels, typography, UI, collage, visible branding, hands or people.",
+  "embeddedPrompt": false,
+  "promptStorage": "sidecar"
+}

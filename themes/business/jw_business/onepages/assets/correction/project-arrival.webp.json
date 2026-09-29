@@ -1,0 +1,14 @@
+{
+  "author": "JW SOFT",
+  "date": "2026-09-29",
+  "acquiredAt": "2026-09-29",
+  "sha256": "37945d179a83efc7c1b46112c1c4bd607ae074a87aa12392ad1751ba961dd879",
+  "owner": "onepage-projects",
+  "kind": "ai-generated-image",
+  "tool": "OpenAI built-in imagegen",
+  "source": "/Users/neojins/.codex/generated_images/01a0eac1-5a5e-7712-966f-c038659b4c7f/exec-943d3675-af93-4e1a-a2a0-01af4dae34e0.png",
+  "license": "LicenseRef-OpenAI-Generated-Asset",
+  "origin": "openai:seven-onepages-20260929-project-arrival",
+  "prompt": "Independent arrival-threshold view of fictional SAI courtyard campus; reference courtyard-interior.webp for material/world only, new perspective through entry doors toward reflecting pool, bench and courtyard wayfinding.",
+  "transparent_background": false
+}

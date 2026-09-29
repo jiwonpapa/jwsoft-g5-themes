@@ -1,0 +1,18 @@
+{
+  "author": "JW SOFT",
+  "date": "2026-09-29",
+  "acquiredAt": "2026-09-29",
+  "sha256": "373173c2e862e14b0015bee91907e42526107aeed3f2bf297b5f8b6125af723f",
+  "owner": "onepage-showcase",
+  "kind": "authored-3d-render",
+  "tool": "Blender 5.2.2 LTS + WebP",
+  "source": "onepages/design/render-aura.py",
+  "scene": "onepages/design/aura-concept.blend",
+  "license": "LicenseRef-OpenAI-Generated-Asset AND LicenseRef-JWSOFT",
+  "transparent_background": false,
+  "origin": "blender:aura-master-20260929-setup",
+  "materials": {
+    "walnut": "onepages/design/aura-walnut-albedo.png"
+  },
+  "prompt": "JW SOFT native Blender AURA assembly. Same walnut cabinet, champagne brushed-metal top and knurled dial, charcoal woven textile, feet and connectors. Independent camera and environment for each editorial shot; 60 transparent frames use the same packed master. Original generated walnut texture provenance retained in its sidecar."
+}
