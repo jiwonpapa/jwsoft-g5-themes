@@ -510,7 +510,7 @@
     {
       "id": "build-css-jw-business-min-css-c16fb848",
       "path": "theme/css/jw-business.min.css",
-      "sha256": "f571ec465694a5cd88e550ccc94334ab6d173835436e8c401e99beeec3a4a523",
+      "sha256": "6268e1c64b637b3c250b49fe241437e78724e084d69ef392c2d5c845f66e4a57",
       "provenance": "generated",
       "generatedBy": "Vite 8.3.0",
       "author": "JW SOFT and bundled library authors",
@@ -534,7 +534,7 @@
     {
       "id": "build-css-onepages-min-css-99a37b37",
       "path": "theme/css/onepages.min.css",
-      "sha256": "385628dfdcec01c3b1f70b1a1e874be01886b6bc5c885e91192b6af51219af99",
+      "sha256": "2f58f194b8ca6b20d1227f237528618a42f8c296c1bbac7af08d8e787b351a88",
       "provenance": "generated",
       "generatedBy": "Vite 8.3.0",
       "author": "JW SOFT and bundled library authors",
@@ -2028,9 +2028,9 @@
       "salePackage": true
     },
     {
-      "id": "build-js-chunks-lucide-debfpjbc-js-9b37121e",
-      "path": "theme/js/chunks/lucide-DEBFpjbC.js",
-      "sha256": "6416f694db186d2803084aaab7e2a8078986f949614586fcd0e4b552cb8b4209",
+      "id": "build-js-chunks-lucide-cfavmi6y-js-834fae5c",
+      "path": "theme/js/chunks/lucide-CFaVmi6Y.js",
+      "sha256": "badf1de0672c2513723a07e5a6b9f6aa44ca827d144eac3a73a12d375b97a0ab",
       "provenance": "generated",
       "generatedBy": "Vite 8.3.0",
       "author": "JW SOFT and bundled library authors",
@@ -2040,9 +2040,9 @@
       "salePackage": true
     },
     {
-      "id": "build-js-chunks-route-rvx62nsk-js-e80b32a3",
-      "path": "theme/js/chunks/route-Rvx62nsK.js",
-      "sha256": "a5c5a58b9385064a8b31af810d41bed1a3041f29e65e5bd32744f60c5f04437a",
+      "id": "build-js-chunks-route-cpyonc6p-js-5155c19d",
+      "path": "theme/js/chunks/route-CpyonC6P.js",
+      "sha256": "8438d13fd9d3d196fd1475e87e05bd5d08e3f251233854ac47c400c503d019c6",
       "provenance": "generated",
       "generatedBy": "Vite 8.3.0",
       "author": "JW SOFT and bundled library authors",
@@ -2090,7 +2090,7 @@
     {
       "id": "build-js-home-four-min-js-78caec8c",
       "path": "theme/js/home-four.min.js",
-      "sha256": "407d2a3f2ca9353587dd946ec6cf5cedf764d21ccb8a1c51c3430396b7b2ea97",
+      "sha256": "4e7f7a3c13ba7a10df9c6856175e058b4ef751a7dfb8f4f9ef3064b08bd1f9e8",
       "provenance": "generated",
       "generatedBy": "Vite 8.3.0",
       "author": "JW SOFT and bundled library authors",
@@ -2114,7 +2114,7 @@
     {
       "id": "build-js-jw-business-min-js-0f77a7b0",
       "path": "theme/js/jw-business.min.js",
-      "sha256": "a9f55b26786d85d6d1acb0cb6bf26c7ee66f5ccbce94683f84a6d07d9526042b",
+      "sha256": "7eb44e2477bb5520d504324d6c2478f814c7798ac3dd6693513450bf459af510",
       "provenance": "generated",
       "generatedBy": "Vite 8.3.0",
       "author": "JW SOFT and bundled library authors",
@@ -2126,7 +2126,7 @@
     {
       "id": "build-js-onepages-min-js-fe8b3578",
       "path": "theme/js/onepages.min.js",
-      "sha256": "ac44437a451683b4844ad674f234f99173eef95187129da3480d36144acc58b7",
+      "sha256": "8ef06206ff81ed9d90d60fe289fb3c0db0628b539660052585f97f9254179803",
       "provenance": "generated",
       "generatedBy": "Vite 8.3.0",
       "author": "JW SOFT and bundled library authors",
