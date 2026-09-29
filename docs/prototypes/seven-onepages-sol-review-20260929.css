@@ -1,0 +1,65 @@
+/* Sol review correction: tangible service choices and legible artwork caption. */
+.jwo-service-v2 .jwo-journey-study--material{grid-template-columns:300px minmax(0,1fr);gap:60px}
+.jwo-service-v2 .jwo-journey-study--material .jwo-narrative-steps{margin:0!important}
+.jwo-service-v2 .jwo-journey-study--material .jwo-narrative-steps li{min-height:260px;padding:20px 0 30px;border-bottom:1px solid var(--jwo-line)}
+.jwo-service-v2 .jwo-journey-study--material .jwo-narrative-steps li:last-child{border:0}
+.jwo-service-v2 .jwo-journey-study--material .jwo-narrative-steps button{gap:16px}
+.jwo-service-v2 .jwo-journey-study--material .jwo-narrative-steps button strong{font-size:23px;margin:0}
+.jwo-service-v2 .jwo-journey-study--material .jwo-narrative-steps button>span{font-size:14px;line-height:1.7}
+.jwo-service-v2 .jwo-decision{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:12px;font-style:normal;margin-top:10px}
+.jwo-service-v2 .jwo-decision svg{width:18px;height:18px;flex:none}
+.jwo-service-v2 .jwo-decision mark{background:var(--jwo-bg);color:var(--jwo-ink);padding:7px 9px;border:1px solid var(--jwo-line);border-radius:var(--radius-field)}
+.jwo-service-v2 button[aria-pressed=true] .jwo-decision mark{background:var(--jwo-ink);color:var(--jwo-bg);border-color:var(--jwo-ink)}
+.jwo-service-v2 .jwo-journey-study--material .jwo-narrative-panels>section{padding:0;min-height:0}
+.jwo-journey-study--material .jwo-screen-caption{padding:20px 26px;border-bottom:0}
+.jwo-ondo-progress{display:grid;grid-template-columns:repeat(3,1fr);gap:4px;padding:0 26px 16px;font-size:11px;color:var(--jwo-muted)}
+.jwo-ondo-progress>*{border-top:3px solid var(--jwo-line);padding-top:8px}
+.jwo-ondo-progress>b{border-color:var(--jwo-ink);color:var(--jwo-ink)}
+.jwo-service-v2 .jwo-ondo-lesson-photo,.jwo-service-v2 .jwo-ondo-works-photo{display:block;width:100%;height:250px;object-fit:cover;border-radius:0}
+.jwo-service-v2 .jwo-ondo-lesson-photo{object-position:center 57%}
+.jwo-service-v2 .jwo-ondo-works-photo{height:266px;object-position:center 61%}
+.jwo-ondo-screen-body{padding:24px 26px 26px}
+.jwo-ondo-screen-title{display:flex;justify-content:space-between;align-items:start;gap:18px}
+.jwo-service-v2 .jwo-ondo-screen-title h3{margin:0;font-size:29px;line-height:1.25}
+.jwo-ondo-screen-title>span{font-size:11px;padding-top:6px;color:var(--jwo-muted)}
+.jwo-ondo-interests{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0}
+.jwo-ondo-interests>*{display:flex;align-items:center;gap:7px;border:1px solid var(--jwo-line);padding:9px 11px;font-size:11px;border-radius:var(--radius-field)}
+.jwo-ondo-interests>b{border-color:var(--jwo-ink);background:var(--jwo-ink);color:var(--jwo-bg)}
+.jwo-ondo-interests svg,.jwo-ondo-selection svg,.jwo-ondo-course-options svg,.jwo-ondo-time svg{width:16px;height:16px;flex:none}
+.jwo-ondo-selection{display:flex;justify-content:space-between;align-items:center;gap:18px;border-top:1px solid var(--jwo-line);padding-top:20px}
+.jwo-ondo-selection h4{font-size:20px;font-weight:700;margin:5px 0}
+.jwo-service-v2 .jwo-ondo-selection p{font-size:12px;margin:0;line-height:1.6}
+.jwo-ondo-selection>strong{display:flex;align-items:center;gap:7px;font-size:12px;white-space:nowrap}
+.jwo-ondo-course-options{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+.jwo-ondo-course-options>div+div{border-left:1px solid var(--jwo-line);padding-left:26px}
+.jwo-ondo-course-options>div>span{display:flex;align-items:center;gap:6px;font-size:11px;min-height:18px;color:var(--jwo-muted)}
+.jwo-ondo-course-options>.is-selected>span{color:var(--jwo-ink);font-weight:700}
+.jwo-service-v2 .jwo-ondo-course-options h3{font-size:24px;margin:10px 0}
+.jwo-service-v2 .jwo-ondo-course-options p{font-size:12px;line-height:1.7;margin:0 0 15px}
+.jwo-ondo-course-options strong{font-size:13px;font-weight:700}
+.jwo-ondo-selection--next{margin-top:23px}
+.jwo-service-v2 .jwo-ondo-booking h3{font-size:30px;margin:0}
+.jwo-service-v2 .jwo-ondo-booking>p{font-size:13px;margin-top:12px}
+.jwo-ondo-calendar{display:flex;gap:28px;align-items:center;margin:28px 0 18px;padding:22px 0;border-block:1px solid var(--jwo-line)}
+.jwo-ondo-calendar>div:first-child{display:flex;flex-direction:column;gap:6px}
+.jwo-ondo-calendar>div>strong{font-size:28px;font-weight:600}
+.jwo-ondo-calendar small{font-size:10px}
+.jwo-ondo-dates{display:flex;flex:1;justify-content:space-between;gap:8px}
+.jwo-ondo-dates>*{display:flex;flex-direction:column;align-items:center;gap:8px;padding:10px 13px;border-radius:var(--radius-field);font-size:11px;font-weight:400}
+.jwo-ondo-dates strong{font-size:23px;font-weight:500}
+.jwo-ondo-dates>b{background:var(--jwo-ink);color:var(--jwo-bg)}
+.jwo-ondo-time{display:flex;gap:10px;font-size:12px}
+.jwo-ondo-time>*{display:flex;align-items:center;gap:8px;padding:10px 16px;border:1px solid var(--jwo-line);border-radius:var(--radius-field)}
+.jwo-ondo-time>b{border-color:var(--jwo-ink)}
+.jwo-ondo-ready{display:grid;gap:16px;margin:28px 0}
+.jwo-ondo-ready>div{display:flex;justify-content:space-between;gap:20px;font-size:12px}
+.jwo-ondo-ready dt{color:var(--jwo-muted)}
+.jwo-ondo-ready dd{margin:0;font-weight:600}
+.jwo.jwo--projects .jwo-project-hero__track figure>figcaption{background:var(--color-neutral);color:var(--color-neutral-content);padding:9px 12px;border-radius:var(--radius-field);z-index:4;opacity:1;text-shadow:none}
+@media(max-width:960px){.jwo-service-v2 .jwo-journey-study--material{grid-template-columns:250px minmax(0,1fr);gap:32px}.jwo-ondo-screen-title{display:block}.jwo-ondo-screen-title>span{display:block;margin-top:8px}}
+@media(max-width:720px){.jwo-service-v2 .jwo-journey-study--material{display:block}.jwo-service-v2 .jwo-journey-study--material .jwo-narrative-steps{margin-bottom:18px!important}.jwo-service-v2 .jwo-journey-study--material .jwo-narrative-steps li{min-height:0;padding:0;border:0}.jwo-service-v2 .jwo-journey-study--material .jwo-narrative-steps button{gap:0}.jwo-service-v2 .jwo-journey-study--material .jwo-decision{display:none}.jwo-journey-study--material .jwo-screen-caption{padding:18px}.jwo-ondo-progress{padding:0 18px 14px;font-size:10px}.jwo-service-v2 .jwo-ondo-lesson-photo{height:220px}.jwo-service-v2 .jwo-ondo-works-photo{height:210px}.jwo-ondo-screen-body{padding:20px 18px}.jwo-service-v2 .jwo-ondo-screen-title h3{font-size:27px}.jwo-ondo-screen-title>span{display:none}.jwo-ondo-interests{gap:5px}.jwo-ondo-interests>*{font-size:10px;padding:8px}.jwo-ondo-selection{align-items:start;gap:12px}.jwo-ondo-selection>strong{font-size:10px}.jwo-ondo-selection h4{font-size:18px}.jwo-service-v2 .jwo-ondo-selection p{font-size:11px}.jwo-ondo-course-options{gap:16px}.jwo-ondo-course-options>div+div{padding-left:16px}.jwo-service-v2 .jwo-ondo-course-options h3{font-size:20px}.jwo-service-v2 .jwo-ondo-course-options p{font-size:11px}.jwo-ondo-calendar{gap:16px}.jwo-ondo-dates{gap:0}.jwo-ondo-dates>*{padding:9px 10px}.jwo-ondo-dates strong{font-size:21px}.jwo-ondo-calendar>div>strong{font-size:24px}.jwo-ondo-ready>div{font-size:11px;gap:12px}.jwo-ondo-time>*{font-size:11px;padding:10px 13px}.jwo-service-v2 .jwo-ondo-booking h3{font-size:27px}.jwo-ondo-selection--next{align-items:center}.jwo.jwo--projects .jwo-project-hero__track figure>figcaption{font-size:11px;letter-spacing:.025em;max-width:calc(100% - 40px)}}
+@media(prefers-reduced-motion:reduce){.jwo-service-v2 .jwo-journey-study--material .jwo-narrative-steps li{min-height:0;margin-bottom:24px}}
+/* Keep the photographic shade below the caption inside Embla's transformed track. */
+.jwo--projects .jwo-project-hero__shade{background:none}
+.jwo--projects .jwo-project-hero__track>figure::after{content:"";position:absolute;inset:0;pointer-events:none;z-index:1;background:linear-gradient(90deg,color-mix(in srgb,var(--color-neutral) 87%,transparent),color-mix(in srgb,var(--color-neutral) 34%,transparent) 58%,transparent),linear-gradient(0deg,color-mix(in srgb,var(--color-neutral) 78%,transparent),transparent 40%)}
+@media(max-width:720px){.jwo--projects .jwo-project-hero__track>figure::after{background:linear-gradient(90deg,color-mix(in srgb,var(--color-neutral) 77%,transparent),color-mix(in srgb,var(--color-neutral) 15%,transparent)),linear-gradient(0deg,color-mix(in srgb,var(--color-neutral) 86%,transparent),transparent 47%)}}

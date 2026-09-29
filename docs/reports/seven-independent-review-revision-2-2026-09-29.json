@@ -1,0 +1,963 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "independent GPT-6 Sol/xhigh finish reviewer",
+  "date": "2026-09-29",
+  "round": "revision-2",
+  "sourceDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+  "scope": [
+    "home-1",
+    "home-2",
+    "home-3",
+    "home-4",
+    "onepage-showcase",
+    "onepage-services",
+    "onepage-projects"
+  ],
+  "status": "fix",
+  "saleApproved": false,
+  "immediateFailures": [
+    {
+      "page": "home-2",
+      "type": "one-sided-wide-alignment",
+      "scene": "2560px hero slides 02 and 03",
+      "evidence": "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/main2-wide-1.png",
+      "reason": "제목·CTA·사진이 x≈1040 이후에만 놓여 화면 왼쪽 약 1000px가 목적 없는 빈칸입니다. VISUAL-ACCEPTANCE의 한쪽으로 무너진 정렬에 해당합니다."
+    }
+  ],
+  "rubric": {
+    "axes": [
+      "first",
+      "assets",
+      "narrative",
+      "typography",
+      "motion"
+    ],
+    "eachMax": 2,
+    "totalMinimum": 8,
+    "mandatoryTwo": [
+      "first",
+      "assets",
+      "typography"
+    ],
+    "mandatoryOne": [
+      "narrative",
+      "motion"
+    ]
+  },
+  "evidence": {
+    "coreStatesDirectlyViewed": 28,
+    "widthStatesAutomated": 56,
+    "signatureTriplets": 18,
+    "signatureMaterialImages": 54,
+    "signatureMaterialReview": "revision-1에서 54원본 직접 검토; revision-2와 48개 SHA 동일, 달라진 모바일 원본 6개 직접 재검토",
+    "iabStates": 28,
+    "iabFirstScenesDirectlyViewed": 14,
+    "rotationAnglesDirectlyViewed": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "projectHeroScenesDirectlyViewed": 3,
+    "projectGalleryScenesDirectlyViewed": 5,
+    "inputDigestConsistent": true,
+    "groupDigestNote": "home/onepage pending의 서로 다른 digest는 schemaVersion 2 group digest이며 28 capture metadata는 global sourceDigest와 일치합니다.",
+    "visualSources": [
+      "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home.pending.json",
+      "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage.pending.json",
+      "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/signatures/manifest.json",
+      "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/manifest.json",
+      "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/aura-extra.json",
+      "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/project-extra.json",
+      "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/main2-wide.json"
+    ],
+    "rootTechnicalSources": [
+      "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/logs/foundation.log",
+      "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/logs/styles.log",
+      "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/logs/ui.log",
+      "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/logs/generated-check.log",
+      "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/interactions/manifest.json",
+      "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/rotation/manifest.json",
+      "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/pause/manifest.json",
+      "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/deployment-checksums.json",
+      "themes/business/jw_business/quality/evidence/seven-correction-20260929/asset-audit.json"
+    ],
+    "technicalBoundary": "기술 로그·체크섬은 root 수집 증거를 읽어 요약했으며 독립 브라우저 실행·배포 재현은 하지 않았습니다. IAB 원본과 28 core 및 문제구간은 독립 시각판정했습니다.",
+    "captureArtifacts": "일부 fullPage/scroll material의 중간 고정헤더·skip-link 합성은 실제 viewport에서 재현되지 않아 UI 결함으로 세지 않았습니다."
+  },
+  "pages": [
+    {
+      "id": "home-1",
+      "name": "메인 1",
+      "scores": [
+        2,
+        2,
+        1,
+        2,
+        1
+      ],
+      "total": 8,
+      "disposition": "ship-candidate",
+      "purpose": {
+        "verdict": "pass",
+        "reason": "협업 사진 히어로→ATELIER 결정→제품 웹이 전략·디지털 기업의 목적을 보여주며 문의 행동으로 이어집니다."
+      },
+      "imagery": {
+        "verdict": "pass",
+        "reason": "세 히어로와 공예·음식·교육 자료, ATELIER 제품 사진·PC/모바일 화면의 정보 역할이 다릅니다. 전략판은 여전히 글 비중이 높아 최상급 서사 점수는 주지 않았습니다."
+      },
+      "composition": {
+        "verdict": "pass",
+        "reason": "E1 크기/E2 재료가 P1 선택 기준/P2 관리 안내와 선으로 연결되고 E3 알림 기능은 점선 보류로 분리됩니다. 390 원본도 관계를 읽을 수 있습니다."
+      },
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-1/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/signatures/home-1-mobile-controls-1-material.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/home-1-desktop-light-first.png"
+      ],
+      "holdIds": []
+    },
+    {
+      "id": "home-2",
+      "name": "메인 2",
+      "scores": [
+        2,
+        2,
+        2,
+        1,
+        1
+      ],
+      "total": 8,
+      "disposition": "fix",
+      "purpose": {
+        "verdict": "pass",
+        "reason": "ORBIT 결정 보드와 문제 정의·서비스 검증·운영 기준의 언어가 컨설팅형 메인 목적을 즉시 식별하게 합니다."
+      },
+      "imagery": {
+        "verdict": "pass",
+        "reason": "ORBIT 보드, 근거 2×2, 디지털 시안, 운영 키트 사진이 서로 다른 질문에 답합니다. 2×2의 인과·부담·효과 표가 이전 빈 사분면을 채웁니다."
+      },
+      "composition": {
+        "verdict": "fail",
+        "reason": "1440/390 및 2560 슬라이드 01은 안정적이나 실제 2560 IAB 슬라이드 02·03에서 제목·CTA·사진이 화면 오른쪽 절반에 몰려 왼쪽 약 1000px를 비웁니다. 필수 타이포/정렬 2점과 즉시불합격 0건을 충족하지 못합니다."
+      },
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/main2-wide-0.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/main2-wide-1.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/main2-wide-2.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/signatures/home-2-mobile-controls-0-material.png"
+      ],
+      "holdIds": [
+        "G02",
+        "M2-01"
+      ]
+    },
+    {
+      "id": "home-3",
+      "name": "메인 3",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "total": 9,
+      "disposition": "ship-candidate",
+      "purpose": {
+        "verdict": "pass",
+        "reason": "현장 사인 사진에서 안내 체계·인쇄·FIELDNOTE 웹까지 매체별 디자인 목적이 바로 보입니다."
+      },
+      "imagery": {
+        "verdict": "pass",
+        "reason": "실제 읽히는 A/B/C 길찾기 지도와 범례, 전시 그래픽, 별도 FIELDNOTE 일정 화면이 사진을 단순 재사용하지 않습니다."
+      },
+      "composition": {
+        "verdict": "pass",
+        "reason": "대형 사인 히어로→도식 지도→전시 사진→프로그램 웹으로 리듬이 변하고 390 양 모드에서 경계가 유지됩니다."
+      },
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-3/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/signatures/home-3-desktop-scroll-0-material.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/home-3-mobile-dark-first.png"
+      ],
+      "holdIds": []
+    },
+    {
+      "id": "home-4",
+      "name": "메인 4",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10,
+      "disposition": "ship-candidate",
+      "purpose": {
+        "verdict": "pass",
+        "reason": "FORME 한 브랜드의 질문·제품·웹·패키지·인계가 결과 중심 스튜디오 목적을 설명합니다."
+      },
+      "imagery": {
+        "verdict": "pass",
+        "reason": "같은 녹색 병·튜브·포장이 제품 사진, 웹 시안, 물리 패키지에 이어지고 실제 자료의 표면과 정보가 있습니다."
+      },
+      "composition": {
+        "verdict": "pass",
+        "reason": "브리프→제품 선택 웹→패키지로 start/mid/end의 매체가 바뀌며 중앙 아이콘과 카드 기준선이 1440/390 양 테마에서 안정적입니다."
+      },
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-4/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/signatures/home-4-mobile-controls-2-material.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/home-4-desktop-light-first.png"
+      ],
+      "holdIds": []
+    },
+    {
+      "id": "onepage-showcase",
+      "name": "제품 쇼케이스",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10,
+      "disposition": "ship-candidate",
+      "purpose": {
+        "verdict": "pass",
+        "reason": "AURA 단일 오디오 제품의 디자인·소재·회전·배치 검토 목적과 제품 문의가 한 흐름으로 연결됩니다."
+      },
+      "imagery": {
+        "verdict": "pass",
+        "reason": "월넛·금속·패브릭 표면이 히어로/네 각도/세 탭에 일관되고 설치 장면의 본체·전원 케이블·선반 관계가 보입니다."
+      },
+      "composition": {
+        "verdict": "pass",
+        "reason": "제품 전체 사진→세부 재료→360°→사용 공간→설치로 매체와 정보 크기가 달라집니다. 실제 IAB 0/90/180/270°와 세 탭에서 제품이 잘리지 않습니다."
+      },
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-showcase/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/aura-angle-0.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/aura-angle-180.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/aura-detail-4.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/aura-detail-6.png"
+      ],
+      "holdIds": []
+    },
+    {
+      "id": "onepage-services",
+      "name": "서비스 원페이지",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10,
+      "disposition": "ship-candidate",
+      "purpose": {
+        "verdict": "pass",
+        "reason": "ONDO 공예 수업 탐색 화면과 고객 질문→선택→상담 준비의 경로가 컨설팅형 메인 2와 다른 서비스 페이지 목적을 만듭니다."
+      },
+      "imagery": {
+        "verdict": "pass",
+        "reason": "도예가의 실제 제작 사진, 완성 그릇 비교 사진, 날짜·시간 시안, 탐색 화면과 운영 문서가 각 단계의 새 정보를 보여줍니다."
+      },
+      "composition": {
+        "verdict": "pass",
+        "reason": "고객 여정의 큰 빈 회색 공간이 줄고 세 단계가 사진→2과정 비교→일정·준비물 시안으로 바뀝니다. 390 원본도 읽히며 ‘실제 신청 기능 아님’을 내부에 명시합니다."
+      },
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-services/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/signatures/onepage-services-desktop-scroll-0-material.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/signatures/onepage-services-desktop-scroll-1-material.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/signatures/onepage-services-desktop-scroll-2-material.png"
+      ],
+      "holdIds": []
+    },
+    {
+      "id": "onepage-projects",
+      "name": "프로젝트 원페이지",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10,
+      "disposition": "ship-candidate",
+      "purpose": {
+        "verdict": "pass",
+        "reason": "안뜰을 중심으로 공간의 하루, 동선, 재료와 인계 자료를 보여주는 공간 프로젝트 목적이 즉시 보입니다."
+      },
+      "imagery": {
+        "verdict": "pass",
+        "reason": "히어로 3장과 갤러리 5장이 서로 다른 장면이고 평면/동선·재료·사인 자료가 사진의 역할을 보강합니다."
+      },
+      "composition": {
+        "verdict": "pass",
+        "reason": "모바일 01/02/03 검정 표면 라벨은 양 모드의 밝고 어두운 사진 위에서 읽힙니다. 갤러리 첫 장면 포함 다섯 장을 실제 IAB에서 확인했습니다. 명시적 일시 정지는 초점 이동 뒤 지속하는 root 실제 G5 회귀 증거와 새 스크립트로 확인했습니다."
+      },
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-projects/mobile-dark.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/project-mobile-dark-hero-0.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/project-mobile-dark-hero-1.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/project-mobile-dark-hero-2.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/project-mobile-dark-gallery-0.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/project-mobile-dark-gallery-4.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/pause/manifest.json"
+      ],
+      "holdIds": []
+    }
+  ],
+  "pairComparisons": [
+    {
+      "group": "기본",
+      "pair": "H1/H2",
+      "first": "팀 사진 슬라이드 / ORBIT 보드",
+      "middle1": "ATELIER 전략 질문 / ORBIT 2×2 우선순위",
+      "middle2": "ATELIER 제품 웹 / 운영 인계 키트",
+      "verdict": "distinct",
+      "reason": "협업 현장 사진과 ORBIT 결정 보드는 첫 장면의 매체·목적이 다릅니다. 중간의 ATELIER 선행 관계도와 ORBIT 2×2 근거 비교, 제품 웹과 운영 키트도 다른 결정을 보여줍니다. H2 초광폭 정렬 실패는 차별성 합격과 별개입니다.",
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/home-1-desktop-light-first.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/home-2-desktop-light-first.png"
+      ]
+    },
+    {
+      "group": "기본",
+      "pair": "H1/H3",
+      "first": "팀 사진 / 교통 사인 사진",
+      "middle1": "전략 판단표 / A·B·C 길찾기 지도",
+      "middle2": "ATELIER 제품 웹 / FIELDNOTE 일정 웹",
+      "verdict": "distinct",
+      "reason": "전략 회의 사진과 공공 안내 사인 사진이 다릅니다. ATELIER의 제품 선택 관계도는 A/B/C 공간 길찾기와 과제가 다르고, 제품 상세 웹과 FIELDNOTE 일정 웹의 정보 구조도 갈립니다.",
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/home-1-desktop-light-first.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/home-3-desktop-light-first.png"
+      ]
+    },
+    {
+      "group": "기본",
+      "pair": "H1/H4",
+      "first": "협업 사진 / FORME 제품",
+      "middle1": "전략 판단표 / FORME 디지털 결과",
+      "middle2": "ATELIER 제품 웹 / FORME 패키지",
+      "verdict": "distinct",
+      "reason": "팀의 의사결정 장면과 FORME 화장품 실물이 첫 화면에서 다릅니다. 전략판은 선택 근거를, FORME 3단계는 실제 제품 웹·포장의 같은 브랜드 연결을 보여줍니다.",
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/home-1-desktop-light-first.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/home-4-desktop-light-first.png"
+      ]
+    },
+    {
+      "group": "기본",
+      "pair": "H2/H3",
+      "first": "ORBIT 자료 보드 / 교통 사인",
+      "middle1": "결정 2×2 / 실제 동선 지도",
+      "middle2": "운영 키트 / FIELDNOTE 프로그램",
+      "verdict": "distinct",
+      "reason": "ORBIT 자료판은 사업 우선순위, 사인 사진은 현장 길찾기입니다. 중간 2×2 선택 근거와 A/B/C 이동 지도, 운영 키트와 FIELDNOTE 프로그램으로 정보 역할이 갈립니다.",
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/home-2-desktop-light-first.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/home-3-desktop-light-first.png"
+      ]
+    },
+    {
+      "group": "기본",
+      "pair": "H2/H4",
+      "first": "판단 자료 / 화장품 제품",
+      "middle1": "결정 2×2 / FORME 웹",
+      "middle2": "운영 키트 / FORME 패키지",
+      "verdict": "distinct",
+      "reason": "ORBIT는 서비스 결정 자료, FORME는 브랜드 제품 실물입니다. ORBIT 비교 도식·운영 키트와 FORME 제품 웹·패키지는 매체와 결론이 다릅니다.",
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/home-2-desktop-light-first.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/home-4-desktop-light-first.png"
+      ]
+    },
+    {
+      "group": "기본",
+      "pair": "H3/H4",
+      "first": "사인 환경 / 화장품 제품",
+      "middle1": "길찾기 지도 / FORME 웹",
+      "middle2": "문화 프로그램 / 브랜드 패키지",
+      "verdict": "distinct",
+      "reason": "대중교통 사인과 화장품 제품이 즉시 구별됩니다. 이동 지도·문화 일정 웹과 FORME 제품 탐색 웹·패키지는 시각 문법과 사용 장소가 다릅니다.",
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/home-3-desktop-light-first.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/home-4-desktop-light-first.png"
+      ]
+    },
+    {
+      "group": "기본",
+      "pair": "P/S",
+      "first": "AURA 단일 제품 / ONDO 수업 화면",
+      "middle1": "360° 물성 / 발견·비교·준비 UI",
+      "middle2": "사용 공간·설치 / 화면 명세·인계",
+      "verdict": "distinct",
+      "reason": "AURA 단일 스피커 사진과 ONDO 수업 화면이 다릅니다. 회전/재질/설치 정보와 실제 공예 사진→과정 비교→일정 시안의 선택 흐름이 다른 사용자 과제입니다.",
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/onepage-showcase-desktop-light-first.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/onepage-services-desktop-light-first.png"
+      ]
+    },
+    {
+      "group": "기본",
+      "pair": "P/J",
+      "first": "스피커 / 공간 전경",
+      "middle1": "제품 네 각도 / 입구·정원·라운지",
+      "middle2": "설치·재질 / 평면·재료 인계",
+      "verdict": "distinct",
+      "reason": "탁상 오디오와 건축 안뜰이 첫 장면을 분리합니다. 제품의 네 각도·재질·전원 배치와 공간의 평면·입구/정원/라운지 사진·재료 인계가 구별됩니다.",
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/onepage-showcase-desktop-light-first.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/onepage-projects-desktop-light-first.png"
+      ]
+    },
+    {
+      "group": "기본",
+      "pair": "S/J",
+      "first": "공예 수업 화면 / 안뜰",
+      "middle1": "고객 여정 UI / 공간 동선·사진",
+      "middle2": "서비스 명세 / 평면·마감·사인",
+      "verdict": "distinct",
+      "reason": "ONDO 공예 수업과 공간 안뜰이 다른 주인공입니다. 서비스의 발견·비교·준비 자료와 프로젝트의 평면 동선·5장 갤러리·인계 도면은 답하는 질문이 다릅니다.",
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/onepage-services-desktop-light-first.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/onepage-projects-desktop-light-first.png"
+      ]
+    },
+    {
+      "group": "추가",
+      "pair": "H1/P",
+      "first": "협업 사진 / 스피커",
+      "middle1": "전략 판단표 / 제품 회전",
+      "middle2": "ATELIER 웹 / 설치·재질",
+      "verdict": "distinct",
+      "reason": "팀 전략 회의와 스피커 실물이 다릅니다. ATELIER 판단 관계도/제품 웹은 AURA 360°/설치 위치 자료와 구성 방식이 다릅니다.",
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/home-1-desktop-light-first.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/onepage-showcase-desktop-light-first.png"
+      ]
+    },
+    {
+      "group": "추가",
+      "pair": "H1/S",
+      "first": "협업 사진 / 수업 화면",
+      "middle1": "ATELIER 결정 / ONDO 고객 여정",
+      "middle2": "제품 웹 / 서비스 탐색·인계",
+      "verdict": "distinct",
+      "reason": "협업 사진과 도예 수업 화면이 다릅니다. ATELIER는 제품 정보의 선행 관계, ONDO는 고객이 공예 과정을 비교하고 시간을 준비하는 흐름을 보여줍니다.",
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/home-1-desktop-light-first.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/onepage-services-desktop-light-first.png"
+      ]
+    },
+    {
+      "group": "추가",
+      "pair": "H1/J",
+      "first": "팀 사진 / 안뜰",
+      "middle1": "전략 질문 / 공간 동선",
+      "middle2": "제품 웹 / 평면·갤러리",
+      "verdict": "distinct",
+      "reason": "팀 회의와 안뜰 전경이 갈립니다. ATELIER 제품 선택 관계도/웹과 프로젝트 이동 평면·공간 갤러리·인계는 매체와 규모가 다릅니다.",
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/home-1-desktop-light-first.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/onepage-projects-desktop-light-first.png"
+      ]
+    },
+    {
+      "group": "추가",
+      "pair": "H2/P",
+      "first": "ORBIT 보드 / AURA 제품",
+      "middle1": "우선순위 행렬 / 360° 제품",
+      "middle2": "운영 키트 / 설치·재질",
+      "verdict": "distinct",
+      "reason": "ORBIT 벽면 의사결정 자료와 AURA 단품 사진이 다릅니다. 2×2 우선순위·운영 키트와 제품 회전·재질·전원 배치는 서로 대체되지 않습니다.",
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/home-2-desktop-light-first.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/onepage-showcase-desktop-light-first.png"
+      ]
+    },
+    {
+      "group": "추가",
+      "pair": "H2/S",
+      "first": "ORBIT 판단 보드 / ONDO 수업 화면",
+      "middle1": "2×2 우선순위 / 발견·비교·준비",
+      "middle2": "인계 사진 / 서비스 설계·점검 문서",
+      "verdict": "distinct",
+      "reason": "ORBIT 사업 선택 판과 ONDO 수업 탐색 화면이 다릅니다. ORBIT 인과 2×2/운영 기준과 ONDO 과정 비교·일정 시안/운영 문서는 같은 회색 카드 반복이 아니라 결정 주체가 다릅니다.",
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/home-2-desktop-light-first.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/onepage-services-desktop-light-first.png"
+      ]
+    },
+    {
+      "group": "추가",
+      "pair": "H2/J",
+      "first": "ORBIT 보드 / 안뜰",
+      "middle1": "2×2 결정 / 공간 동선",
+      "middle2": "운영 키트 / 평면·사인",
+      "verdict": "distinct",
+      "reason": "ORBIT 자료 벽과 안뜰 장면이 다릅니다. 사업 우선순위 비교·운영 키트와 실제 공간 평면·사진·마감 인계는 정보 단위가 다릅니다.",
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/home-2-desktop-light-first.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/onepage-projects-desktop-light-first.png"
+      ]
+    },
+    {
+      "group": "추가",
+      "pair": "H3/P",
+      "first": "교통 사인 / 스피커",
+      "middle1": "길찾기 지도 / 360° 제품",
+      "middle2": "FIELDNOTE 프로그램 / 재질·설치",
+      "verdict": "distinct",
+      "reason": "교통 사인과 스피커 실물이 분리됩니다. 길찾기 경로·FIELDNOTE 일정 웹과 AURA 회전·소재·설치 사진은 사용 맥락이 다릅니다.",
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/home-3-desktop-light-first.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/onepage-showcase-desktop-light-first.png"
+      ]
+    },
+    {
+      "group": "추가",
+      "pair": "H3/S",
+      "first": "교통 사인 / 공예 수업",
+      "middle1": "이동 경로 / 고객 여정",
+      "middle2": "문화 일정 웹 / 서비스 명세",
+      "verdict": "distinct",
+      "reason": "역내 안내 사인과 공예 수업 화면이 다릅니다. A/B/C 이동 경로·문화 일정과 ONDO 과정 선택·날짜 준비 자료가 중간 두 장면에서도 다릅니다.",
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/home-3-desktop-light-first.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/onepage-services-desktop-light-first.png"
+      ]
+    },
+    {
+      "group": "추가",
+      "pair": "H3/J",
+      "first": "교통 사인 / 안뜰",
+      "middle1": "역내 길찾기 / 건물 안팎 동선",
+      "middle2": "FIELDNOTE 웹 / 평면·갤러리",
+      "verdict": "distinct",
+      "reason": "둘 다 공간을 다루지만 사인은 방향 판독, 안뜰은 건축 경험입니다. 경로 지도·FIELDNOTE 웹과 건물 평면/장면 갤러리·재료 인계가 시각적 증거를 나눕니다.",
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/home-3-desktop-light-first.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/onepage-projects-desktop-light-first.png"
+      ]
+    },
+    {
+      "group": "추가",
+      "pair": "H4/P",
+      "first": "FORME 화장품 / AURA 스피커",
+      "middle1": "브랜드 웹 / 360° 제품",
+      "middle2": "패키지 사진 / 재질·설치",
+      "verdict": "distinct",
+      "reason": "FORME 병·튜브·상자와 AURA 오디오가 다른 제품 세계입니다. 브랜드 웹·패키지 일관성은 360° 조작·재질·설치 검토와 다른 중간 정보를 제공합니다.",
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/home-4-desktop-light-first.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/onepage-showcase-desktop-light-first.png"
+      ]
+    },
+    {
+      "group": "추가",
+      "pair": "H4/S",
+      "first": "FORME 제품 / ONDO 수업",
+      "middle1": "브랜드 웹 / 고객 여정",
+      "middle2": "패키지·가이드 / 서비스 명세·점검",
+      "verdict": "distinct",
+      "reason": "FORME 화장품 실물과 ONDO 도예 수업 사진이 다릅니다. 제품 탐색 웹·브랜드 패키지와 수업 비교·일정 시안·서비스 운영 가이드가 다릅니다.",
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/home-4-desktop-light-first.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/onepage-services-desktop-light-first.png"
+      ]
+    },
+    {
+      "group": "추가",
+      "pair": "H4/J",
+      "first": "화장품 / 안뜰",
+      "middle1": "FORME 디지털 / 공간 동선",
+      "middle2": "브랜드 패키지 / 평면·재료 인계",
+      "verdict": "distinct",
+      "reason": "FORME 화장품과 건축 안뜰이 분리됩니다. 제품 웹·패키지와 공간 동선 평면·5장 갤러리·마감 자료는 구도와 결정 규모가 다릅니다.",
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/home-4-desktop-light-first.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/onepage-projects-desktop-light-first.png"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "F1",
+      "status": "resolved",
+      "ledgerIds": [
+        "M1-01"
+      ],
+      "page": "home-1",
+      "path": "themes/business/jw_business/src/php/index_1.php",
+      "scene": "ATELIER 전략 보드 1440/390",
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-1/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/signatures/home-1-mobile-controls-1-material.png"
+      ],
+      "reason": "E1/E2와 P1/P2의 근거 연결·E3 보류가 읽힙니다. 추가 미관 요청은 하지 않으며 글 비중은 서사 1점에 반영했습니다."
+    },
+    {
+      "id": "F2",
+      "status": "partial",
+      "severity": "blocking",
+      "ledgerIds": [
+        "G02",
+        "M2-01"
+      ],
+      "page": "home-2",
+      "path": "themes/business/jw_business/src/php/index_2.php",
+      "scene": "2560px 실제 IAB 히어로 슬라이드 01·02·03",
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/main2-wide-0.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/main2-wide-1.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/main2-wide-2.png"
+      ],
+      "reason": "01의 ORBIT 보드 절단은 해결됐으나 02·03의 텍스트/사진이 오른쪽에 몰려 큰 왼쪽 공백이 생깁니다.",
+      "request": "기존 ORBIT 자료·사진·문구를 유지한 채 2560px 세 슬라이드의 콘텐츠 기준선과 사진 위치를 공통으로 안정화합니다. 1440/1920/2560 라이트·다크 실제 viewport 세 장을 recapture하고 필수 타이포/정렬 2점 및 즉시불합격 0건을 다시 판정합니다."
+    },
+    {
+      "id": "F3",
+      "status": "resolved",
+      "ledgerIds": [
+        "M2-02"
+      ],
+      "page": "home-2",
+      "path": "themes/business/jw_business/src/php/index_2.php",
+      "scene": "ORBIT 2×2 선택 자료",
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/signatures/home-2-mobile-controls-0-material.png"
+      ],
+      "reason": "인과·부담·효과 비교와 다음 실험이 실제 도식으로 보입니다."
+    },
+    {
+      "id": "F4",
+      "status": "resolved",
+      "ledgerIds": [
+        "SV-03",
+        "G07",
+        "G09"
+      ],
+      "page": "onepage-services",
+      "path": "themes/business/jw_business/pages/onepage-services.php",
+      "scene": "ONDO 고객 여정 세 단계",
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/signatures/onepage-services-desktop-scroll-0-material.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/signatures/onepage-services-desktop-scroll-1-material.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/signatures/onepage-services-desktop-scroll-2-material.png"
+      ],
+      "reason": "제작/비교/일정의 실제 자료가 바뀌고 여백이 줄었습니다. 예약 기능 오인 고지와 상담 준비 명칭도 확인했습니다."
+    },
+    {
+      "id": "F5",
+      "status": "resolved",
+      "ledgerIds": [
+        "PJ-05"
+      ],
+      "page": "onepage-projects",
+      "path": "themes/business/jw_business/pages/onepage-projects.php",
+      "scene": "390px 히어로 01/02/03 라이트·다크 캡션",
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/project-mobile-dark-hero-0.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/project-mobile-dark-hero-1.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/project-mobile-dark-hero-2.png"
+      ],
+      "reason": "검정 캡션과 흰 글자가 세 장에서 읽힙니다."
+    },
+    {
+      "id": "F6",
+      "status": "resolved",
+      "ledgerIds": [
+        "PJ-06"
+      ],
+      "page": "onepage-projects",
+      "path": "themes/business/jw_business/src/scripts/onepages.js",
+      "scene": "명시적 일시 정지 후 초점/포인터 이동·8.2초 대기·재생",
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/pause/manifest.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/pause/1440-pause-after.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/pause/390-pause-after.png"
+      ],
+      "reason": "스크립트가 사용자 wantsPlayback을 임시 focus/hover 정지와 분리합니다. root 실제 G5 1440/390 회귀와 원본 버튼 상태로 확인했습니다."
+    }
+  ],
+  "prototypeAssessment": "ATELIER 보드는 초안보다 인과 관계가 구체화됐으나 여전히 글 비중이 크므로 서사 1점입니다. ORBIT 2×2·ONDO 고객 여정은 빈 상자/큰 글자 대신 실제 비교·사진·일정 시안으로 초안보다 구체화됐습니다. FORME, FIELDNOTE, AURA, 공간 프로젝트의 시각 자산은 초안의 핵심 방향을 유지합니다. 다만 메인 2의 2560 슬라이드 02·03은 초안 대비 초광폭 균형이 무너져 전체 마감을 막습니다.",
+  "qualityBoundary": "7종 자체: home-2의 G02/M2-01 초광폭 정렬 때문에 전체 ship 불가. 상품 전체: 범위 밖 회사·사업의 기존 사진 원본 중복 6건으로 판매 품질 차단이 별도로 남습니다. root의 최종 gate 집계는 quality:check 31실패(이 범위 home 시각 2, 전역 사진 6, 기타 메뉴 23), quality:complete home 8실패, onepage는 선행 home 차단입니다. 이 독립 시각보고서는 판매 ZIP 승인이 아닙니다.",
+  "nextEvidence": "메인 2의 2560 슬라이드 02·03 정렬만 범위 교정한 뒤 새 source digest와 1440/1920/2560 실제 viewport 세 슬라이드, 관련 28/56·IAB 회귀를 재수집합니다. 전역 사진 중복 6건은 별도 품질 절차에서 해소·검증해야 합니다.",
+  "ledger42": [
+    {
+      "id": "G01",
+      "target": "전체 7종",
+      "verdict": "observed-pass",
+      "reason": "28코어 원본에서 주제목과 보조 제목의 위계가 대체로 분명하다."
+    },
+    {
+      "id": "G02",
+      "target": "전체 7종",
+      "verdict": "unresolved",
+      "reason": "2560 실제 IAB 슬라이드 02·03의 제목/사진 그룹이 오른쪽에 밀리고 왼쪽 약 1000px가 비어 있습니다. 슬라이드 01 크롭 해결만으로 넓은 화면 균형은 통과하지 못합니다.",
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/main2-wide-1.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/main2-wide-2.png"
+      ]
+    },
+    {
+      "id": "G03",
+      "target": "전체 7종",
+      "verdict": "observed-pass",
+      "reason": "21쌍의 첫 화면과 중간 두 장면에서 목적·자료가 구분된다."
+    },
+    {
+      "id": "G04",
+      "target": "전체 7종",
+      "verdict": "root-evidence-pass",
+      "reason": "root asset-audit의 82개 신규/수정 래스터 모두 SHA·owner·sidecar가 맞고 해당 범위 내부 중복 SHA 0입니다. 7종의 관찰 장면에서도 원본 사진 재사용을 찾지 못했습니다. 범위 밖 기존 6건은 전역 상품 gate에 남깁니다."
+    },
+    {
+      "id": "G05",
+      "target": "전체 7종",
+      "verdict": "observed-pass",
+      "reason": "중앙 아이콘·제목·설명 정렬에서 새 붕괴를 보지 못했다."
+    },
+    {
+      "id": "G06",
+      "target": "전체 7종",
+      "verdict": "observed-pass",
+      "reason": "라이트·다크의 인접 섹션 경계와 핵심 버튼이 보입니다. 이전 프로젝트 모바일 장면 라벨 대비 결함은 PJ-05에서 해결됐습니다."
+    },
+    {
+      "id": "G07",
+      "target": "전체 7종",
+      "verdict": "observed-pass",
+      "reason": "18×3 material 원본에서 실제 자료가 달라집니다. 서비스 ONDO 사진→과정 비교→일정 시안, FORME 브리프→제품→패키지, 지도 A→B→C를 확인했습니다. PJ-06 정지 의도도 별도 증거로 교정됐습니다."
+    },
+    {
+      "id": "G08",
+      "target": "전체 7종, 특히 원페이지",
+      "verdict": "observed-pass",
+      "reason": "390 첫 화면과 원본에서 모바일 목차가 주 CTA를 가리지 않는다."
+    },
+    {
+      "id": "G09",
+      "target": "전체 7종",
+      "verdict": "observed-pass",
+      "reason": "서비스 여정의 빈 왼쪽 면을 줄이고 사진/비교/일정 자료로 채웠으며 원페이지의 FAQ·인계·문의 등 필요한 구간을 삭제하지 않았습니다."
+    },
+    {
+      "id": "G10",
+      "target": "전체 7종",
+      "verdict": "root-evidence-pass",
+      "reason": "revision-2 foundation 65 pass, styles, UI 56/56, generated-check 로그를 읽었습니다. 전체 검사의 실행 소유자는 root이며 이 독립 검토가 재실행하지는 않았습니다."
+    },
+    {
+      "id": "G11",
+      "target": "전체 7종",
+      "verdict": "observed-pass",
+      "reason": "ONDO는 수업 일정 시안 내부에 실제 신청 기능이 아님을 밝히고 마지막 행동을 상담 준비 내용으로 표시합니다. AURA·프로젝트도 가상 시연 고지가 있습니다."
+    },
+    {
+      "id": "G12",
+      "target": "전체 7종",
+      "verdict": "root-evidence-pass",
+      "reason": "revision-1 이후 변경은 onepages.js의 정지 의도 교정으로 제한됐다는 frozen-build 및 root 동결·checksum 증거를 확인했습니다. 이 판정은 7종 범위의 회귀와 변경 경계이며 상품 전역 품질을 대체하지 않습니다."
+    },
+    {
+      "id": "M1-01",
+      "target": "메인 1",
+      "verdict": "resolved",
+      "reason": "ATELIER 전략판에서 E1/E2→P1/P2→발행 콘텐츠 실선 관계와 E3 보류 점선이 1440/390 원본 크기로 읽힙니다. 글 비중은 여전하여 서사 1점입니다."
+    },
+    {
+      "id": "M1-02",
+      "target": "메인 1",
+      "verdict": "observed-pass",
+      "reason": "ATELIER PC·모바일 시안에 제품 사진·탐색·관리 정보가 실제로 보인다."
+    },
+    {
+      "id": "M1-03",
+      "target": "메인 1",
+      "verdict": "observed-pass",
+      "reason": "후반 디지털 사례가 빈 도형 대신 역할과 내용을 가진 화면/이미지로 보인다."
+    },
+    {
+      "id": "M1-04",
+      "target": "메인 1",
+      "verdict": "observed-pass",
+      "reason": "3장 히어로와 중후반 제품·일정·브랜드 장면이 유지된다."
+    },
+    {
+      "id": "M2-01",
+      "target": "메인 2",
+      "verdict": "partial",
+      "reason": "2560 슬라이드 01의 ORBIT 보드 절단은 사라졌습니다. 하지만 슬라이드 02·03은 텍스트·사진이 화면 오른쪽에 몰려 ‘모든 슬라이드 안정’ 수용 조건을 충족하지 못합니다.",
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/main2-wide-1.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/main2-wide-2.png"
+      ]
+    },
+    {
+      "id": "M2-02",
+      "target": "메인 2",
+      "verdict": "resolved",
+      "reason": "정상 방향 2×2의 네 사분면에 기존 문제·연결 인과·실행 부담·효과를 보이고 옆 비교표/다음 실험을 더해 빈 면적을 줄였습니다. 인계 운영 키트는 별도 자료입니다."
+    },
+    {
+      "id": "M2-03",
+      "target": "메인 2",
+      "verdict": "observed-pass",
+      "reason": "ORBIT 서비스 결정 화면과 인계 사진은 서로 다른 질문에 답한다."
+    },
+    {
+      "id": "M2-04",
+      "target": "메인 2",
+      "verdict": "observed-pass",
+      "reason": "근거 열과 후반 인계·문의의 기준선에서 새 붕괴를 찾지 못했다."
+    },
+    {
+      "id": "M3-01",
+      "target": "메인 3",
+      "verdict": "observed-pass",
+      "reason": "사인 사진을 훼손하지 않는 제목 영역이며 원본에서 둘 다 읽힌다."
+    },
+    {
+      "id": "M3-02",
+      "target": "메인 3",
+      "verdict": "observed-pass",
+      "reason": "1440/390의 제목 줄바꿈과 지도 후속 연결이 자연스럽다."
+    },
+    {
+      "id": "M3-03",
+      "target": "메인 3",
+      "verdict": "observed-pass",
+      "reason": "지도 범례·시설명과 사진 품질이 매체 목적에 맞는다."
+    },
+    {
+      "id": "M3-04",
+      "target": "메인 3",
+      "verdict": "observed-pass",
+      "reason": "전시 사진과 FIELDNOTE 프로그램 웹이 서로 다른 자산이고 후반 자료가 있다."
+    },
+    {
+      "id": "M4-01",
+      "target": "메인 4",
+      "verdict": "observed-pass",
+      "reason": "FORME 제품·색·패키지가 한 브랜드로 이어진다."
+    },
+    {
+      "id": "M4-02",
+      "target": "메인 4",
+      "verdict": "observed-pass",
+      "reason": "과정 카드와 인계 사진/가이드는 문구를 가려도 역할이 다르다."
+    },
+    {
+      "id": "M4-03",
+      "target": "메인 4",
+      "verdict": "observed-pass",
+      "reason": "3단계 material에서 질문→제품 웹→패키지가 실제 바뀐다."
+    },
+    {
+      "id": "M4-04",
+      "target": "메인 4",
+      "verdict": "observed-pass",
+      "reason": "1440/390 양 모드에서 카드·타이포 정렬과 구간 구분이 보인다."
+    },
+    {
+      "id": "SH-01",
+      "target": "제품 쇼케이스",
+      "verdict": "observed-pass",
+      "reason": "히어로와 네 각도의 제품 소재·외형이 일치한다."
+    },
+    {
+      "id": "SH-02",
+      "target": "제품 쇼케이스",
+      "verdict": "observed-pass",
+      "reason": "재질 탭과 목재·금속·패브릭의 실제 표면 이미지가 연결된다."
+    },
+    {
+      "id": "SH-03",
+      "target": "제품 쇼케이스",
+      "verdict": "observed-pass",
+      "reason": "설치 사진에서 본체·선반·전원·여유 공간과 연결이 읽힌다."
+    },
+    {
+      "id": "SH-04",
+      "target": "제품 쇼케이스",
+      "verdict": "observed-pass",
+      "reason": "스크롤·키보드 회전과 상태 변화, 제품 관리·FAQ 구분이 남아 있다."
+    },
+    {
+      "id": "SV-01",
+      "target": "서비스 원페이지",
+      "verdict": "observed-pass",
+      "reason": "ONDO 공예 수업 화면은 ORBIT 결정 보드와 명확히 다르다."
+    },
+    {
+      "id": "SV-02",
+      "target": "서비스 원페이지",
+      "verdict": "observed-pass",
+      "reason": "공방 사진, 서비스 화면, 인계 자료가 다른 질문을 맡는다."
+    },
+    {
+      "id": "SV-03",
+      "target": "서비스 원페이지",
+      "verdict": "resolved",
+      "reason": "ONDO 고객 여정의 start/mid/end가 제작 사진→두 과정 사진·비교→날짜/시간/준비 시안으로 바뀌고 운영 가이드와 화면 설계가 서로 다른 산출물로 보입니다."
+    },
+    {
+      "id": "SV-04",
+      "target": "서비스 원페이지",
+      "verdict": "observed-pass",
+      "reason": "후반 범위·FAQ·상담의 경계와 행동은 남아 있다."
+    },
+    {
+      "id": "PJ-01",
+      "target": "프로젝트 원페이지",
+      "verdict": "observed-pass",
+      "reason": "히어로 3장과 갤러리 5장 조작 기록 및 실제 장면 차이를 확인했다."
+    },
+    {
+      "id": "PJ-02",
+      "target": "프로젝트 원페이지",
+      "verdict": "observed-pass",
+      "reason": "공간 사진과 평면의 입구·정원·라운지 관계가 대응된다."
+    },
+    {
+      "id": "PJ-03",
+      "target": "프로젝트 원페이지",
+      "verdict": "observed-pass",
+      "reason": "평면·마감·사인 자료에 실제 내용과 종류가 있다."
+    },
+    {
+      "id": "PJ-04",
+      "target": "프로젝트 원페이지",
+      "verdict": "observed-pass",
+      "reason": "갤러리부터 인계까지 자료 품질과 구성이 유지됩니다. 이전 모바일 첫 장면 라벨 대비 결함은 PJ-05에서 해결됐습니다."
+    },
+    {
+      "id": "PJ-05",
+      "target": "onepage-projects",
+      "verdict": "resolved",
+      "reason": "390 라이트·다크 실제 IAB 01/02/03 장면의 검정 캡션 표면과 흰 글자가 사진 위에서 모두 읽힙니다."
+    },
+    {
+      "id": "PJ-06",
+      "target": "onepage-projects",
+      "verdict": "root-evidence-pass",
+      "reason": "root 실제 G5 1440/390 pause manifest는 초점/앵커 이동과 8.2초 대기, 수동 다음/이전/End, reduced motion, 명시적 재생 복귀를 pass로 기록합니다. 원본 before/after/resumed 화면의 버튼 상태를 직접 확인했고 onepages.js의 wantsPlayback 분리를 읽었습니다.",
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/pause/manifest.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/pause/1440-pause-after.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/pause/390-pause-after.png"
+      ]
+    }
+  ]
+}

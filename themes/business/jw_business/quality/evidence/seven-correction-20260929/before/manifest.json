@@ -1,0 +1,295 @@
+{
+  "status": "baseline-not-approved",
+  "sourceCommit": "463246c10f92add3658a74245d5e643ff42b1df6",
+  "captureLog": "/tmp/jw-seven-before-capture-20260929.log",
+  "files": [
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-1/mobile-dark.slide-2.png",
+      "sha256": "cb92ca5b89007251f695995f8fa217925f8aaa88099488d45d24396059f57702"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-1/mobile-dark.slide-3.png",
+      "sha256": "1462030b45154dde43af22bce2eaa64985659537d1ffc4fefc07486a6ffbc3d1"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-1/mobile-dark.slide-1.png",
+      "sha256": "90a6899422be459cd4f1d2028999845d7993137d39968d8ea224492de0410971"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-1/mobile-light.png",
+      "sha256": "6eb201291c83f53e84691b2a56a59ddc4bf93435a7e4ce799cabb60d70991a14"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-1/mobile-dark.png",
+      "sha256": "26dda17a7abf819c1ec679dae043cb2b9f2540106c1173255acfe5c959ced0a0"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-1/mobile-light.slide-2.png",
+      "sha256": "0b6e92485f6bd9706a2f6d1ff33bf7a809be9c645ca6a7b71f375c7f59eabb92"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-1/mobile-light.slide-3.png",
+      "sha256": "89a19d56e53f8d5e216c08e5aab0fa4011b8301c7c8d76fce33a970c61975ada"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-1/desktop-light.png",
+      "sha256": "7e8bd86653a702cf4bd0fd290e727553b7d7ad2afdb8dbb4a45d09f488520245"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-1/mobile-light.slide-1.png",
+      "sha256": "d5c8a16fc94fa92655fa33372d857b90cf7d0095d87aee56c134a9f3d756e42d"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-1/desktop-light.slide-1.png",
+      "sha256": "1154d3a289b14a6f4a8d338dad128a95b298fa13465cea7b725a72b1e437ae98"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-1/desktop-dark.slide-1.png",
+      "sha256": "e36c4afd52843ecc2636f4fcd2b4aac5d66de42237ae41ccf8431b066e110ab7"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-1/desktop-dark.slide-3.png",
+      "sha256": "a71f8754ebfe516abbece80cb11c910d4d8f0da279f228d74ce8fd6d7736aec4"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-1/desktop-light.slide-3.png",
+      "sha256": "50c3e1453bfc6c7c7453c825bd364c1c45f3e063ff7ac5e0c685eaa28c5ed2eb"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-1/desktop-light.slide-2.png",
+      "sha256": "be62724e09a9b74c79e0863e9d95883645ba5cbfeec3a09d83b93c089ea02f30"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-1/desktop-dark.slide-2.png",
+      "sha256": "5d2eb03deb5d5d45eaac375c8bfe0d49a1bcd8598507daa6209b29feaaf136d1"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-1/desktop-dark.png",
+      "sha256": "c3c069afb645ca18531ab89c9b12012499351feb8efe5358701db37d6ad4161f"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-2/mobile-dark.slide-2.png",
+      "sha256": "2a86639253b849fca2b49d4e054d262772ab7d4b59f912f24137677a4a3259a4"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-2/mobile-dark.slide-3.png",
+      "sha256": "49ebe8a24ee759e038b26ea80f0afe2adaab79fa241b9e6870f6511214c15564"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-2/mobile-dark.slide-1.png",
+      "sha256": "4726ed2a396051c12a16c29cbfd011807ba81454623560c6e271a3939d0ace7e"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-2/mobile-light.png",
+      "sha256": "d0d179ac67df24080348a6154e3ff3cb5fc5c38eee796e29e4a1f5ad84732d56"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-2/mobile-dark.png",
+      "sha256": "17aab2c33642d648682294e43b72f6e24e61b8b46678371659991f41d57ba4a4"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-2/mobile-light.slide-2.png",
+      "sha256": "8e60d401bd6f1da2a80874546203888fdda9c85868655e5fb6d2e57d7841d11b"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-2/mobile-light.slide-3.png",
+      "sha256": "4f5fcb755518ef11cbc79d7db7b19ba5603c5cc817ac0fdaae8d011a5c142197"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-2/desktop-light.png",
+      "sha256": "1942dc3811d8846fa04c695e39807e97728d74440aa0c1e590820abee57becb2"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-2/mobile-light.slide-1.png",
+      "sha256": "cdd8596a04f463863b559168769ee467b0704436ec3cd506fd9af25c25fa49df"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-2/desktop-light.slide-1.png",
+      "sha256": "56b9472c106c84ba37c06e85e18b8239aa5f57fcb9766c49c8305d3fe33b4e64"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-2/desktop-dark.slide-1.png",
+      "sha256": "6eaed8b6148525dc2332ecdc14007c7c64697691c14ce1dc9fa63455c909a57e"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-2/desktop-dark.slide-3.png",
+      "sha256": "8618d9163a609211ecee9652263f5c20cf00646b8fbf5d55e47156b7b778ed2c"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-2/desktop-light.slide-3.png",
+      "sha256": "7309f268e26f665e60f554daa97fa291b516d391dc453a91611460ca19b90880"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-2/desktop-light.slide-2.png",
+      "sha256": "21427e8d614ecc07855e73dd33cfe98d48638a5cccd71a6c5eb555f8b8ccf74d"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-2/desktop-dark.slide-2.png",
+      "sha256": "0ec6f5653ca7f37924cd91e0e1d3291798dd20a01f28ea003cb2c23c26db6bf6"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-2/desktop-dark.png",
+      "sha256": "20a587d8ba42bbc318b6e948061121eb05a329bdf6ff801d189fb6dbfb4b91b8"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-3/mobile-light.png",
+      "sha256": "cae5fd35e51cab95e339bd084c9d12ccef25b943e55a836df8ab1a4fd705e5e1"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-3/mobile-dark.png",
+      "sha256": "fd92c27ccc2925958b296c395f59d7e6c5ef93d2c81c33ab6d3b3375b2b124f0"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-3/desktop-light.png",
+      "sha256": "f612c47bfe585ce0b51d97462973801ffe9aa0078c5573f65f0b95b1d2818515"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-3/desktop-dark.png",
+      "sha256": "040d6287ab604f5e786cceab7a5201d8533c3a923915426f2fe632336ee7f26a"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-4/desktop-dark.footer.png",
+      "sha256": "9f01550b182840adbf7bdfb8e6b3e3d6b8fb1253896d30f6f7c71fedcc9f6a2b"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-4/mobile-dark.process.png",
+      "sha256": "b52ba53beecae85f9be5fcf653b180dc988418d1ef04baec7317f3b752649234"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-4/desktop-light.footer.png",
+      "sha256": "4236a3917101ae52f91d3c24f2e2ab11eb9fd7e131c69aafed75382eac199bc9"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-4/mobile-light.png",
+      "sha256": "78cff2b34bbf68eaccc1964c3019f224c803db341dbcf1a46c76d2aec5640e84"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-4/mobile-light.footer.png",
+      "sha256": "39c84ef60fcea7e1897f29d329e7f8214399625662f2c4fc2ae4607df8470c5b"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-4/mobile-dark.png",
+      "sha256": "3a664af9bca9e9004a6787e88f7db9d3b97b8f062d7eb86f268d7eaf57b32081"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-4/mobile-light.process.png",
+      "sha256": "ccea8cec3ddfb74da2538722eaa55762e118e9eb7aa61610b65e60c54d0f147a"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-4/desktop-light.png",
+      "sha256": "a99d02647c23e5d0bfe291cc3064bed0e70278333cec54e5fb424191796e391b"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-4/desktop-light.process.png",
+      "sha256": "ddbdf9b43af116e04ac86e9b6a5aeac9008d577aa56080e0e9527072441b901b"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-4/desktop-dark.process.png",
+      "sha256": "7c1a456313697a7a56e87300d26bd94cf1fd90bc2ebe0b7e7dc6f6b7eefbb0ef"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-4/desktop-dark.png",
+      "sha256": "dc58dedca709eafdb4f3826635b9153e2c00e6b3a2000056e9e24db8d79ef01d"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-4/mobile-dark.footer.png",
+      "sha256": "6f2183ac787e33f40ae00a05aee0b95daa0ac55148f2d1337a1be3b617ec96fa"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/onepage-showcase/mobile-light.detail-0.png",
+      "sha256": "0a86e21bad2442648715c84f89549ec4d86e14a2b6d54fb55fabd85a529b4358"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/onepage-showcase/mobile-light.detail-1.png",
+      "sha256": "65f55e406c1971d76cf63c38f90c8397fcafd71a7bdb40ace95f2646e0f37522"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/onepage-showcase/mobile-light.detail-2.png",
+      "sha256": "7efd6ecfb8882efcb33e5679b973e9194367f9d63475f6bdd86d060de3d50e4d"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/onepage-showcase/desktop-dark.detail-0.png",
+      "sha256": "3ef2214a4228d979e11b910de2b894270ffabda8e85addc8fa6a6a727fd38d8b"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/onepage-showcase/desktop-dark.detail-1.png",
+      "sha256": "9d4cd903188fdeaa83a0d9d9a964c10b8f72cd8a2f59b097fae05c964aff07aa"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/onepage-showcase/desktop-dark.detail-2.png",
+      "sha256": "b41232033dfc18c4db2232f8b598e5600ab63ffde13d94828c0b89875fa3ff6a"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/onepage-showcase/mobile-dark.detail-2.png",
+      "sha256": "afbc77595b53c10ab4b37290c7290164b0757ce88673b3fe41cc40c6cf8b121d"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/onepage-showcase/mobile-dark.detail-1.png",
+      "sha256": "d32c77a6705b99d2ef056fc8f7cb07c9ac5ca792df4da4a7b31acccac879d797"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/onepage-showcase/mobile-dark.detail-0.png",
+      "sha256": "d22ab35be3b611265d8da6cf0c79a1d92e856552a57a59889c06223cf8846dc6"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/onepage-showcase/mobile-light.png",
+      "sha256": "3f5f23e967dd1b4a45c2d0bb51ecc38f9c0d74d7a2b1613d399329017079430e"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/onepage-showcase/mobile-dark.png",
+      "sha256": "563e8716ca57c80c41ca70f3240844fd4972f351205e23a2cb5f4991c7f58218"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/onepage-showcase/desktop-light.png",
+      "sha256": "8ed7ae7c7d687d4a4f006d20868d8dfebb38b779ff4a980e80beb54730bcec7e"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/onepage-showcase/desktop-light.detail-2.png",
+      "sha256": "e24df7c10c51829ad40f3eabd0b30e93a2c4cfb1060c5929bb730de92fea54e3"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/onepage-showcase/desktop-light.detail-1.png",
+      "sha256": "051d2dd6c6708db08fb6aa2054d8ad9841362439a90513ebe065aa7f3ea08faa"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/onepage-showcase/desktop-light.detail-0.png",
+      "sha256": "337b68f089639a73c5f230033a01b748254dddf1b1c2b03e2187c990d87562e3"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/onepage-showcase/desktop-dark.png",
+      "sha256": "5855501f11382c3c5bf013604816463c27be4789464baa5ba413a69b86de5e30"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/onepage-services/mobile-light.png",
+      "sha256": "b80d15ba7079620340b1c43235ce32139cfda4f53040b3be82a046e97d79cfc2"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/onepage-services/mobile-dark.png",
+      "sha256": "d0daca6e0851f5da10240748c90cedb4828bd8bcb6b6b43436819065fabd2358"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/onepage-services/desktop-light.png",
+      "sha256": "0061dd1c78b837a378b58e9134f94bf886467bca0228f119465af6919d7170ef"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/onepage-services/desktop-dark.png",
+      "sha256": "663daffa10d0cf86cb0fd85ac2d32413a7fa8837e8298bd508f81a21e42a288e"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/onepage-projects/mobile-light.png",
+      "sha256": "045e8d65e60d536737567fdf9012f3da9b5574ff7e54e0962222876da542279d"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/onepage-projects/mobile-dark.png",
+      "sha256": "99380a3407759032097c6ee41b535169062177e11bd77be7b08f215c6295fdcb"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/onepage-projects/desktop-light.png",
+      "sha256": "0a7fb93b1d46b8f33c2c991243788c722ded61f9763f46a56430869ba860d885"
+    },
+    {
+      "path": "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/onepage-projects/desktop-dark.png",
+      "sha256": "efe5aceb6427920b008bdef6754021d53a5e644ef6bf3dcb5f3db99843e5ab28"
+    }
+  ]
+}

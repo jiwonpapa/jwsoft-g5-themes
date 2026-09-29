@@ -1,0 +1,83 @@
+{
+  "verifiedAt": "2026-09-29T03:00:01.372Z",
+  "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+  "method": "rsync checksum dry-run; no mutation",
+  "result": "pass",
+  "records": [
+    {
+      "source": "/Users/neojins/workspace/jwsoft-g5-themes/themes/business/jw_business/theme/css/",
+      "destination": "localubuntu:/home/neojins/services/g5themes-test/site/theme/jw_business/css/",
+      "checksumDifference": false
+    },
+    {
+      "source": "/Users/neojins/workspace/jwsoft-g5-themes/themes/business/jw_business/theme/js/",
+      "destination": "localubuntu:/home/neojins/services/g5themes-test/site/theme/jw_business/js/",
+      "checksumDifference": false
+    },
+    {
+      "source": "/Users/neojins/workspace/jwsoft-g5-themes/themes/business/jw_business/theme/fonts/",
+      "destination": "localubuntu:/home/neojins/services/g5themes-test/site/theme/jw_business/fonts/",
+      "checksumDifference": false
+    },
+    {
+      "source": "/Users/neojins/workspace/jwsoft-g5-themes/themes/business/jw_business/theme/img/",
+      "destination": "localubuntu:/home/neojins/services/g5themes-test/site/theme/jw_business/img/",
+      "checksumDifference": false
+    },
+    {
+      "source": "/Users/neojins/workspace/jwsoft-g5-themes/themes/business/jw_business/theme/assets/",
+      "destination": "localubuntu:/home/neojins/services/g5themes-test/site/theme/jw_business/assets/",
+      "checksumDifference": false
+    },
+    {
+      "source": "/Users/neojins/workspace/jwsoft-g5-themes/themes/business/jw_business/theme/onepages/assets/",
+      "destination": "localubuntu:/home/neojins/services/g5themes-test/site/theme/jw_business/onepages/assets/",
+      "checksumDifference": false
+    },
+    {
+      "source": "/Users/neojins/workspace/jwsoft-g5-themes/themes/business/jw_business/theme/index_1.php",
+      "destination": "localubuntu:/home/neojins/services/g5themes-test/site/theme/jw_business/",
+      "checksumDifference": false
+    },
+    {
+      "source": "/Users/neojins/workspace/jwsoft-g5-themes/themes/business/jw_business/theme/index_2.php",
+      "destination": "localubuntu:/home/neojins/services/g5themes-test/site/theme/jw_business/",
+      "checksumDifference": false
+    },
+    {
+      "source": "/Users/neojins/workspace/jwsoft-g5-themes/themes/business/jw_business/theme/index_3.php",
+      "destination": "localubuntu:/home/neojins/services/g5themes-test/site/theme/jw_business/",
+      "checksumDifference": false
+    },
+    {
+      "source": "/Users/neojins/workspace/jwsoft-g5-themes/themes/business/jw_business/theme/index_4.php",
+      "destination": "localubuntu:/home/neojins/services/g5themes-test/site/theme/jw_business/",
+      "checksumDifference": false
+    },
+    {
+      "source": "/Users/neojins/workspace/jwsoft-g5-themes/themes/business/jw_business/pages/onepage-showcase.php",
+      "destination": "localubuntu:/home/neojins/services/g5themes-test/site/pages/",
+      "checksumDifference": false
+    },
+    {
+      "source": "/Users/neojins/workspace/jwsoft-g5-themes/themes/business/jw_business/pages/onepage-services.php",
+      "destination": "localubuntu:/home/neojins/services/g5themes-test/site/pages/",
+      "checksumDifference": false
+    },
+    {
+      "source": "/Users/neojins/workspace/jwsoft-g5-themes/themes/business/jw_business/pages/onepage-projects.php",
+      "destination": "localubuntu:/home/neojins/services/g5themes-test/site/pages/",
+      "checksumDifference": false
+    },
+    {
+      "source": "/Users/neojins/workspace/jwsoft-g5-themes/themes/business/jw_business/theme/index.php",
+      "destination": "localubuntu:/home/neojins/services/g5themes-test/site/theme/jw_business/",
+      "checksumDifference": false
+    },
+    {
+      "source": "/Users/neojins/workspace/jwsoft-g5-themes/themes/business/jw_business/theme/mobile/index.php",
+      "destination": "localubuntu:/home/neojins/services/g5themes-test/site/theme/jw_business/mobile/",
+      "checksumDifference": false
+    }
+  ]
+}

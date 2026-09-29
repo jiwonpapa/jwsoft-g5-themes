@@ -1,29 +1,31 @@
 {
   "schemaVersion": 2,
   "group": "home",
-  "inputDigest": "6304c7ade6962aae9318e9369ae27cda737c98a554f7286820142ceef69db4ae",
-  "implementer": "codex:/root/main-seven-correction-20260928",
-  "reviewer": "impeccable_finish_reviewer:/root/correction_finish_reviewer",
-  "reviewedAt": "2026-09-28T04:52:10+00:00",
-  "result": "pass",
+  "inputDigest": "d5aa279c36c5b64cc6f86ec356fc6509f937b8b16a15383689b4ba1a2fdf26ca",
+  "implementer": "astra:/root/astra_home23+/root/astra_home14+/root/astra_onepages:20260929",
+  "reviewer": "sol:/root/impeccable_finish_reviewer_20260929:gpt-6-sol:xhigh",
+  "reviewedAt": "2026-09-29T03:20:58.787Z",
+  "result": "fail",
   "captures": [
     {
-      "path": "quality/evidence/main-seven-correction-20260928/captures/home-1/desktop-light.png",
-      "sha256": "7e8bd86653a702cf4bd0fd290e727553b7d7ad2afdb8dbb4a45d09f488520245",
+      "path": "quality/evidence/seven-correction-20260929/revision-2/home-1/desktop-light.png",
+      "sha256": "fdb0787cc684b8d301b6bcabdcce3cd113e88bd114f3d15d09b6bf55e471466d",
       "page": "home-1",
       "viewport": "desktop",
       "mode": "light",
       "width": 1440,
       "height": 1000,
       "url": "https://g5themes.test/theme/jw_business/index_1.php?device=pc",
-      "capturedAt": "2026-09-28T04:36:05.910Z",
+      "capturedAt": "2026-09-29T03:01:07.140Z",
       "fullPage": true,
-      "documentHeight": 10258,
+      "documentHeight": 11418,
       "media": [
         "src/assets/main-one/strategy.webp",
         "src/assets/main-one/digital.webp",
         "src/assets/main-one/brand.webp",
         "src/assets/main-one/industry-ceramics.webp",
+        "src/assets/main-one/atelier-collection.webp",
+        "src/assets/main-one/atelier-mug.webp",
         "src/assets/main-one/case-food.webp",
         "src/assets/main-one/case-learning.webp",
         "src/assets/main-one/brand-detail.webp"
@@ -77,22 +79,24 @@
       ]
     },
     {
-      "path": "quality/evidence/main-seven-correction-20260928/captures/home-1/desktop-dark.png",
-      "sha256": "e945d8b464af1dbf5c1aa6c899949f314d9c132aa373ce54a7466b7555e386d7",
+      "path": "quality/evidence/seven-correction-20260929/revision-2/home-1/desktop-dark.png",
+      "sha256": "efce4ce68d2b63eb26048c885b0cefe5f4750f5062fee16095bf5802d080e5d3",
       "page": "home-1",
       "viewport": "desktop",
       "mode": "dark",
       "width": 1440,
       "height": 1000,
       "url": "https://g5themes.test/theme/jw_business/index_1.php?device=pc",
-      "capturedAt": "2026-09-28T04:36:25.825Z",
+      "capturedAt": "2026-09-29T03:01:29.073Z",
       "fullPage": true,
-      "documentHeight": 10258,
+      "documentHeight": 11418,
       "media": [
         "src/assets/main-one/strategy.webp",
         "src/assets/main-one/digital.webp",
         "src/assets/main-one/brand.webp",
         "src/assets/main-one/industry-ceramics.webp",
+        "src/assets/main-one/atelier-collection.webp",
+        "src/assets/main-one/atelier-mug.webp",
         "src/assets/main-one/case-food.webp",
         "src/assets/main-one/case-learning.webp",
         "src/assets/main-one/brand-detail.webp"
@@ -146,22 +150,24 @@
       ]
     },
     {
-      "path": "quality/evidence/main-seven-correction-20260928/captures/home-1/mobile-light.png",
-      "sha256": "6eb201291c83f53e84691b2a56a59ddc4bf93435a7e4ce799cabb60d70991a14",
+      "path": "quality/evidence/seven-correction-20260929/revision-2/home-1/mobile-light.png",
+      "sha256": "f03b766384f4a064621036174e1b70af00bb09ea4f7fbe23c6c859c43856fc6d",
       "page": "home-1",
       "viewport": "mobile",
       "mode": "light",
       "width": 390,
       "height": 844,
       "url": "https://g5themes.test/theme/jw_business/index_1.php?device=mobile",
-      "capturedAt": "2026-09-28T04:36:44.965Z",
+      "capturedAt": "2026-09-29T03:01:50.504Z",
       "fullPage": true,
-      "documentHeight": 11953,
+      "documentHeight": 13920,
       "media": [
         "src/assets/main-one/strategy.webp",
         "src/assets/main-one/digital.webp",
         "src/assets/main-one/brand.webp",
         "src/assets/main-one/industry-ceramics.webp",
+        "src/assets/main-one/atelier-collection.webp",
+        "src/assets/main-one/atelier-mug.webp",
         "src/assets/main-one/case-food.webp",
         "src/assets/main-one/case-learning.webp",
         "src/assets/main-one/brand-detail.webp"
@@ -215,22 +221,24 @@
       ]
     },
     {
-      "path": "quality/evidence/main-seven-correction-20260928/captures/home-1/mobile-dark.png",
-      "sha256": "26dda17a7abf819c1ec679dae043cb2b9f2540106c1173255acfe5c959ced0a0",
+      "path": "quality/evidence/seven-correction-20260929/revision-2/home-1/mobile-dark.png",
+      "sha256": "4d5079b6d7dda4eb3ff5b365855acc34a17d14ab0bddd002dafb29ab1b775b85",
       "page": "home-1",
       "viewport": "mobile",
       "mode": "dark",
       "width": 390,
       "height": 844,
       "url": "https://g5themes.test/theme/jw_business/index_1.php?device=mobile",
-      "capturedAt": "2026-09-28T04:37:01.791Z",
+      "capturedAt": "2026-09-29T03:02:09.392Z",
       "fullPage": true,
-      "documentHeight": 11953,
+      "documentHeight": 13920,
       "media": [
         "src/assets/main-one/strategy.webp",
         "src/assets/main-one/digital.webp",
         "src/assets/main-one/brand.webp",
         "src/assets/main-one/industry-ceramics.webp",
+        "src/assets/main-one/atelier-collection.webp",
+        "src/assets/main-one/atelier-mug.webp",
         "src/assets/main-one/case-food.webp",
         "src/assets/main-one/case-learning.webp",
         "src/assets/main-one/brand-detail.webp"
@@ -284,19 +292,23 @@
       ]
     },
     {
-      "path": "quality/evidence/main-seven-correction-20260928/captures/home-2/desktop-light.png",
-      "sha256": "ee72a6bd00c9a57db1d00c782e75b9384719ab09e7ed531db2aa97497c07a64e",
+      "path": "quality/evidence/seven-correction-20260929/revision-2/home-2/desktop-light.png",
+      "sha256": "7342bc73482769019cd7d0a2e6bb586306dd26a8f6d6142fd8ccc78983fd3d41",
       "page": "home-2",
       "viewport": "desktop",
       "mode": "light",
       "width": 1440,
       "height": 1000,
       "url": "https://g5themes.test/theme/jw_business/index_2.php?device=pc",
-      "capturedAt": "2026-09-28T04:36:08.880Z",
+      "capturedAt": "2026-09-29T03:01:10.610Z",
       "fullPage": true,
-      "documentHeight": 7367,
+      "documentHeight": 9027,
       "media": [
-        "src/assets/images/home2-decision.webp",
+        "src/assets/images/home2-decision-workshop.webp",
+        "src/assets/images/home2-strategy.webp",
+        "src/assets/images/home2-evidence-retail.webp",
+        "src/assets/images/home2-correction/operations-playbook.webp",
+        "src/assets/images/home2-correction/decision-review.webp",
         "src/assets/images/home2-digital.webp",
         "src/assets/images/home2-operations.webp"
       ],
@@ -344,19 +356,23 @@
       ]
     },
     {
-      "path": "quality/evidence/main-seven-correction-20260928/captures/home-2/desktop-dark.png",
-      "sha256": "69c76cb85e3eb2247fdd3cb7b98c7958313ac4afd2bb83cd823abae12e5b6faa",
+      "path": "quality/evidence/seven-correction-20260929/revision-2/home-2/desktop-dark.png",
+      "sha256": "a874f5b8109c8cd41a5a5b77ef0674a8c572d28f801aeb969f903ad9cc5a2ff3",
       "page": "home-2",
       "viewport": "desktop",
       "mode": "dark",
       "width": 1440,
       "height": 1000,
       "url": "https://g5themes.test/theme/jw_business/index_2.php?device=pc",
-      "capturedAt": "2026-09-28T04:36:28.799Z",
+      "capturedAt": "2026-09-29T03:01:32.787Z",
       "fullPage": true,
-      "documentHeight": 7367,
+      "documentHeight": 9027,
       "media": [
-        "src/assets/images/home2-decision.webp",
+        "src/assets/images/home2-decision-workshop.webp",
+        "src/assets/images/home2-strategy.webp",
+        "src/assets/images/home2-evidence-retail.webp",
+        "src/assets/images/home2-correction/operations-playbook.webp",
+        "src/assets/images/home2-correction/decision-review.webp",
         "src/assets/images/home2-digital.webp",
         "src/assets/images/home2-operations.webp"
       ],
@@ -404,19 +420,23 @@
       ]
     },
     {
-      "path": "quality/evidence/main-seven-correction-20260928/captures/home-2/mobile-light.png",
-      "sha256": "12f2df0c1f742c40458678c43d32d80bb33de5a0084d48249e8fa6b2116f5b1b",
+      "path": "quality/evidence/seven-correction-20260929/revision-2/home-2/mobile-light.png",
+      "sha256": "34f5a0f7c4337ed3eef0b3af743e5c20f0c93394ccc08ce63ae13f458c10a4df",
       "page": "home-2",
       "viewport": "mobile",
       "mode": "light",
       "width": 390,
       "height": 844,
       "url": "https://g5themes.test/theme/jw_business/index_2.php?device=mobile",
-      "capturedAt": "2026-09-28T04:36:47.446Z",
+      "capturedAt": "2026-09-29T03:01:53.462Z",
       "fullPage": true,
-      "documentHeight": 9205,
+      "documentHeight": 12742,
       "media": [
-        "src/assets/images/home2-decision.webp",
+        "src/assets/images/home2-decision-workshop.webp",
+        "src/assets/images/home2-strategy.webp",
+        "src/assets/images/home2-evidence-retail.webp",
+        "src/assets/images/home2-correction/operations-playbook.webp",
+        "src/assets/images/home2-correction/decision-review.webp",
         "src/assets/images/home2-digital.webp",
         "src/assets/images/home2-operations.webp"
       ],
@@ -464,19 +484,23 @@
       ]
     },
     {
-      "path": "quality/evidence/main-seven-correction-20260928/captures/home-2/mobile-dark.png",
-      "sha256": "60bef3b8bb1d4bee54ffbeaabe9562429981895ac24a686bc15ae7664fa8893b",
+      "path": "quality/evidence/seven-correction-20260929/revision-2/home-2/mobile-dark.png",
+      "sha256": "855912b9ae4a1e43f1f930e11689d0183486c38d1ef00140fa2fb76a07e4f629",
       "page": "home-2",
       "viewport": "mobile",
       "mode": "dark",
       "width": 390,
       "height": 844,
       "url": "https://g5themes.test/theme/jw_business/index_2.php?device=mobile",
-      "capturedAt": "2026-09-28T04:37:04.304Z",
+      "capturedAt": "2026-09-29T03:02:12.510Z",
       "fullPage": true,
-      "documentHeight": 9205,
+      "documentHeight": 12742,
       "media": [
-        "src/assets/images/home2-decision.webp",
+        "src/assets/images/home2-decision-workshop.webp",
+        "src/assets/images/home2-strategy.webp",
+        "src/assets/images/home2-evidence-retail.webp",
+        "src/assets/images/home2-correction/operations-playbook.webp",
+        "src/assets/images/home2-correction/decision-review.webp",
         "src/assets/images/home2-digital.webp",
         "src/assets/images/home2-operations.webp"
       ],
@@ -524,21 +548,23 @@
       ]
     },
     {
-      "path": "quality/evidence/main-seven-correction-20260928/captures/home-3/desktop-light.png",
-      "sha256": "27529510d45eb49e7fe7b447bf057c5447cab35d653b07a88ef6b56babc4c4f9",
+      "path": "quality/evidence/seven-correction-20260929/revision-2/home-3/desktop-light.png",
+      "sha256": "36aad1063da67667441af25e8bb880b5770545ce992d9ee240994a5c52ef5159",
       "page": "home-3",
       "viewport": "desktop",
       "mode": "light",
       "width": 1440,
       "height": 1000,
       "url": "https://g5themes.test/theme/jw_business/index_3.php?device=pc",
-      "capturedAt": "2026-09-28T04:36:11.348Z",
+      "capturedAt": "2026-09-29T03:01:13.212Z",
       "fullPage": true,
-      "documentHeight": 7077,
+      "documentHeight": 7463,
       "media": [
         "src/assets/home-three/mobility.webp",
         "src/assets/home-three/print.webp",
-        "src/assets/home-three/exhibition.webp"
+        "src/assets/home-three/exhibition.webp",
+        "src/assets/home-three/fieldnote-program.webp",
+        "src/assets/home-three/correction/fieldnote-editorial.webp"
       ],
       "requirements": [
         {
@@ -559,21 +585,23 @@
       ]
     },
     {
-      "path": "quality/evidence/main-seven-correction-20260928/captures/home-3/desktop-dark.png",
-      "sha256": "4e29048bf3336a4955d52cdf215eed14b8b9f28a1fdeab14fb71185d82f59b3a",
+      "path": "quality/evidence/seven-correction-20260929/revision-2/home-3/desktop-dark.png",
+      "sha256": "d9354acc5927dfdd9ba0420c08e046e585449ed8accbbc5a5dfb9ce16f7c29d1",
       "page": "home-3",
       "viewport": "desktop",
       "mode": "dark",
       "width": 1440,
       "height": 1000,
       "url": "https://g5themes.test/theme/jw_business/index_3.php?device=pc",
-      "capturedAt": "2026-09-28T04:36:31.244Z",
+      "capturedAt": "2026-09-29T03:01:35.439Z",
       "fullPage": true,
-      "documentHeight": 7077,
+      "documentHeight": 7463,
       "media": [
         "src/assets/home-three/mobility.webp",
         "src/assets/home-three/print.webp",
-        "src/assets/home-three/exhibition.webp"
+        "src/assets/home-three/exhibition.webp",
+        "src/assets/home-three/fieldnote-program.webp",
+        "src/assets/home-three/correction/fieldnote-editorial.webp"
       ],
       "requirements": [
         {
@@ -594,21 +622,23 @@
       ]
     },
     {
-      "path": "quality/evidence/main-seven-correction-20260928/captures/home-3/mobile-light.png",
-      "sha256": "8c3fedc2d9647829642da1cb71446d7413e9be9252dd2b6e796eec8fd56eed9a",
+      "path": "quality/evidence/seven-correction-20260929/revision-2/home-3/mobile-light.png",
+      "sha256": "778a28e7f8faf2d87cfc6f05d6f839e3df8e8b98c2daec990e1a60ca2f229b0d",
       "page": "home-3",
       "viewport": "mobile",
       "mode": "light",
       "width": 390,
       "height": 844,
       "url": "https://g5themes.test/theme/jw_business/index_3.php?device=mobile",
-      "capturedAt": "2026-09-28T04:36:49.400Z",
+      "capturedAt": "2026-09-29T03:01:55.664Z",
       "fullPage": true,
-      "documentHeight": 6982,
+      "documentHeight": 7764,
       "media": [
         "src/assets/home-three/mobility.webp",
         "src/assets/home-three/print.webp",
-        "src/assets/home-three/exhibition.webp"
+        "src/assets/home-three/exhibition.webp",
+        "src/assets/home-three/fieldnote-program.webp",
+        "src/assets/home-three/correction/fieldnote-editorial.webp"
       ],
       "requirements": [
         {
@@ -629,21 +659,23 @@
       ]
     },
     {
-      "path": "quality/evidence/main-seven-correction-20260928/captures/home-3/mobile-dark.png",
-      "sha256": "3ed5af32d494a4bb29c416a444f6ea5c8a1f8b9e4c565f4ecf5780ebf6f9493d",
+      "path": "quality/evidence/seven-correction-20260929/revision-2/home-3/mobile-dark.png",
+      "sha256": "6018deea2e5280aaa7613183d0215aebd4caded1b7889c621dda2813ab71e058",
       "page": "home-3",
       "viewport": "mobile",
       "mode": "dark",
       "width": 390,
       "height": 844,
       "url": "https://g5themes.test/theme/jw_business/index_3.php?device=mobile",
-      "capturedAt": "2026-09-28T04:37:06.252Z",
+      "capturedAt": "2026-09-29T03:02:14.713Z",
       "fullPage": true,
-      "documentHeight": 6982,
+      "documentHeight": 7764,
       "media": [
         "src/assets/home-three/mobility.webp",
         "src/assets/home-three/print.webp",
-        "src/assets/home-three/exhibition.webp"
+        "src/assets/home-three/exhibition.webp",
+        "src/assets/home-three/fieldnote-program.webp",
+        "src/assets/home-three/correction/fieldnote-editorial.webp"
       ],
       "requirements": [
         {
@@ -664,20 +696,22 @@
       ]
     },
     {
-      "path": "quality/evidence/main-seven-correction-20260928/captures/home-4/desktop-light.png",
-      "sha256": "a99d02647c23e5d0bfe291cc3064bed0e70278333cec54e5fb424191796e391b",
+      "path": "quality/evidence/seven-correction-20260929/revision-2/home-4/desktop-light.png",
+      "sha256": "e082059b047879036dc886e04611e07bc6555af54b10eda38adaecb7460ac3af",
       "page": "home-4",
       "viewport": "desktop",
       "mode": "light",
       "width": 1440,
       "height": 1000,
       "url": "https://g5themes.test/theme/jw_business/index_4.php?device=pc",
-      "capturedAt": "2026-09-28T04:36:13.602Z",
+      "capturedAt": "2026-09-29T03:01:15.564Z",
       "fullPage": true,
-      "documentHeight": 6900,
+      "documentHeight": 7669,
       "media": [
         "src/assets/home-four/hero.webp",
         "src/assets/home-four/discovery.webp",
+        "src/assets/home-four/journey-products.webp",
+        "src/assets/home-four/experience-pack.webp",
         "src/assets/home-four/digital.webp",
         "src/assets/home-four/handoff.webp"
       ],
@@ -694,7 +728,7 @@
         },
         {
           "id": "dedicated-images",
-          "count": 4,
+          "count": 6,
           "visible": true
         },
         {
@@ -710,20 +744,22 @@
       ]
     },
     {
-      "path": "quality/evidence/main-seven-correction-20260928/captures/home-4/desktop-dark.png",
-      "sha256": "dc58dedca709eafdb4f3826635b9153e2c00e6b3a2000056e9e24db8d79ef01d",
+      "path": "quality/evidence/seven-correction-20260929/revision-2/home-4/desktop-dark.png",
+      "sha256": "a8b0961eb8b1a3ac6c2fb76bec708a86b28dd254f2b5d8af16abdb9cd0239aa8",
       "page": "home-4",
       "viewport": "desktop",
       "mode": "dark",
       "width": 1440,
       "height": 1000,
       "url": "https://g5themes.test/theme/jw_business/index_4.php?device=pc",
-      "capturedAt": "2026-09-28T04:36:33.667Z",
+      "capturedAt": "2026-09-29T03:01:37.896Z",
       "fullPage": true,
-      "documentHeight": 6900,
+      "documentHeight": 7669,
       "media": [
         "src/assets/home-four/hero.webp",
         "src/assets/home-four/discovery.webp",
+        "src/assets/home-four/journey-products.webp",
+        "src/assets/home-four/experience-pack.webp",
         "src/assets/home-four/digital.webp",
         "src/assets/home-four/handoff.webp"
       ],
@@ -740,7 +776,7 @@
         },
         {
           "id": "dedicated-images",
-          "count": 4,
+          "count": 6,
           "visible": true
         },
         {
@@ -756,20 +792,22 @@
       ]
     },
     {
-      "path": "quality/evidence/main-seven-correction-20260928/captures/home-4/mobile-light.png",
-      "sha256": "78cff2b34bbf68eaccc1964c3019f224c803db341dbcf1a46c76d2aec5640e84",
+      "path": "quality/evidence/seven-correction-20260929/revision-2/home-4/mobile-light.png",
+      "sha256": "6ec79c0746c336147c730943e2c3f2656da0a18943a1e5efb7762d0c4e6f9f42",
       "page": "home-4",
       "viewport": "mobile",
       "mode": "light",
       "width": 390,
       "height": 844,
       "url": "https://g5themes.test/theme/jw_business/index_4.php?device=mobile",
-      "capturedAt": "2026-09-28T04:36:51.339Z",
+      "capturedAt": "2026-09-29T03:01:57.881Z",
       "fullPage": true,
-      "documentHeight": 8337,
+      "documentHeight": 9756,
       "media": [
         "src/assets/home-four/hero.webp",
         "src/assets/home-four/discovery.webp",
+        "src/assets/home-four/journey-products.webp",
+        "src/assets/home-four/experience-pack.webp",
         "src/assets/home-four/digital.webp",
         "src/assets/home-four/handoff.webp"
       ],
@@ -786,7 +824,7 @@
         },
         {
           "id": "dedicated-images",
-          "count": 4,
+          "count": 6,
           "visible": true
         },
         {
@@ -802,20 +840,22 @@
       ]
     },
     {
-      "path": "quality/evidence/main-seven-correction-20260928/captures/home-4/mobile-dark.png",
-      "sha256": "3a664af9bca9e9004a6787e88f7db9d3b97b8f062d7eb86f268d7eaf57b32081",
+      "path": "quality/evidence/seven-correction-20260929/revision-2/home-4/mobile-dark.png",
+      "sha256": "db436967fad3b7b8239937e6385c1c4383c4f641e93fbb67fb68cf47bb59af8f",
       "page": "home-4",
       "viewport": "mobile",
       "mode": "dark",
       "width": 390,
       "height": 844,
       "url": "https://g5themes.test/theme/jw_business/index_4.php?device=mobile",
-      "capturedAt": "2026-09-28T04:37:08.208Z",
+      "capturedAt": "2026-09-29T03:02:16.898Z",
       "fullPage": true,
-      "documentHeight": 8337,
+      "documentHeight": 9756,
       "media": [
         "src/assets/home-four/hero.webp",
         "src/assets/home-four/discovery.webp",
+        "src/assets/home-four/journey-products.webp",
+        "src/assets/home-four/experience-pack.webp",
         "src/assets/home-four/digital.webp",
         "src/assets/home-four/handoff.webp"
       ],
@@ -832,7 +872,7 @@
         },
         {
           "id": "dedicated-images",
-          "count": 4,
+          "count": 6,
           "visible": true
         },
         {
@@ -854,17 +894,17 @@
       "purpose": {
         "id": "purpose",
         "result": "pass",
-        "reason": "종합 서비스의 분야·업종·결과를 연결합니다."
+        "reason": "협업 사진 히어로→ATELIER 결정→제품 웹이 전략·디지털 기업의 목적을 보여주며 문의 행동으로 이어집니다."
       },
       "imagery": {
         "id": "imagery",
         "result": "pass",
-        "reason": "협업·디지털 사용·패키징 hero, 업종 사진, 전략 도해, 웹 시안의 역할이 구별됩니다."
+        "reason": "세 히어로와 공예·음식·교육 자료, ATELIER 제품 사진·PC/모바일 화면의 정보 역할이 다릅니다. 전략판은 여전히 글 비중이 높아 최상급 서사 점수는 주지 않았습니다."
       },
       "composition": {
         "id": "composition",
         "result": "pass",
-        "reason": "전폭 사진의 문장·제어가 중앙 본문축으로 이어지고 카드·사진·전략·사례가 다른 밀도를 가집니다."
+        "reason": "E1 크기/E2 재료가 P1 선택 기준/P2 관리 안내와 선으로 연결되고 E3 알림 기능은 점선 보류로 분리됩니다. 390 원본도 관계를 읽을 수 있습니다."
       }
     },
     {
@@ -872,17 +912,17 @@
       "purpose": {
         "id": "purpose",
         "result": "pass",
-        "reason": "사업 선택과 우선순위를 판단하는 홈입니다."
+        "reason": "ORBIT 결정 보드와 문제 정의·서비스 검증·운영 기준의 언어가 컨설팅형 메인 목적을 즉시 식별하게 합니다."
       },
       "imagery": {
         "id": "imagery",
         "result": "pass",
-        "reason": "고객 여정·우선순위 matrix·dashboard·proof table이 선택 근거를 시각화합니다."
+        "reason": "ORBIT 보드, 근거 2×2, 디지털 시안, 운영 키트 사진이 서로 다른 질문에 답합니다. 2×2의 인과·부담·효과 표가 이전 빈 사분면을 채웁니다."
       },
       "composition": {
         "id": "composition",
-        "result": "pass",
-        "reason": "모든 hero에서 문장·사진의 두 열과 간격이 복구되었고 tablet/mobile의 위아래 흐름도 명확합니다."
+        "result": "fail",
+        "reason": "1440/390 및 2560 슬라이드 01은 안정적이나 실제 2560 IAB 슬라이드 02·03에서 제목·CTA·사진이 화면 오른쪽 절반에 몰려 왼쪽 약 1000px를 비웁니다. 필수 타이포/정렬 2점과 즉시불합격 0건을 충족하지 못합니다."
       }
     },
     {
@@ -890,17 +930,17 @@
       "purpose": {
         "id": "purpose",
         "result": "pass",
-        "reason": "안내·인쇄·공간·웹의 매체별 포트폴리오입니다."
+        "reason": "현장 사인 사진에서 안내 체계·인쇄·FIELDNOTE 웹까지 매체별 디자인 목적이 바로 보입니다."
       },
       "imagery": {
         "id": "imagery",
         "result": "pass",
-        "reason": "안내 도해·실물 인쇄·전시 사진·FIELDNOTE 시안이 서로 다른 매체를 실제로 보여줍니다."
+        "reason": "실제 읽히는 A/B/C 길찾기 지도와 범례, 전시 그래픽, 별도 FIELDNOTE 일정 화면이 사진을 단순 재사용하지 않습니다."
       },
       "composition": {
         "id": "composition",
         "result": "pass",
-        "reason": "완화한 제목과 큰 사진이 균형을 이루고 좌우 인쇄물·전폭 공간·어두운 웹 시안이 리듬을 만듭니다."
+        "reason": "대형 사인 히어로→도식 지도→전시 사진→프로그램 웹으로 리듬이 변하고 390 양 모드에서 경계가 유지됩니다."
       }
     },
     {
@@ -908,17 +948,17 @@
       "purpose": {
         "id": "purpose",
         "result": "pass",
-        "reason": "FORME 하나의 브랜드를 통해 제작 과정과 인계를 설명합니다."
+        "reason": "FORME 한 브랜드의 질문·제품·웹·패키지·인계가 결과 중심 스튜디오 목적을 설명합니다."
       },
       "imagery": {
         "id": "imagery",
         "result": "pass",
-        "reason": "제품·팀·고객 여정·웹·패키징·색상 자료가 같은 브랜드 흐름을 구성합니다."
+        "reason": "같은 녹색 병·튜브·포장이 제품 사진, 웹 시안, 물리 패키지에 이어지고 실제 자료의 표면과 정보가 있습니다."
       },
       "composition": {
         "id": "composition",
         "result": "pass",
-        "reason": "기존 중앙 배치·단계 진행이 유지됩니다. FORME 모바일 dark의 크림 배경과 진한 녹색 제목은 읽힙니다."
+        "reason": "브리프→제품 선택 웹→패키지로 start/mid/end의 매체가 바뀌며 중앙 아이콘과 카드 기준선이 1440/390 양 테마에서 안정적입니다."
       }
     }
   ],
@@ -927,37 +967,37 @@
       "left": "home-1",
       "right": "home-2",
       "result": "pass",
-      "reason": "종합 서비스의 전폭 사진·업종 모자이크와 사업 선택의 분할 hero·matrix·표 중심 구성이 다릅니다."
+      "reason": "팀 사진 슬라이드 / ORBIT 보드 / ATELIER 전략 질문 / ORBIT 2×2 우선순위 / ATELIER 제품 웹 / 운영 인계 키트 / 협업 현장 사진과 ORBIT 결정 보드는 첫 장면의 매체·목적이 다릅니다. 중간의 ATELIER 선행 관계도와 ORBIT 2×2 근거 비교, 제품 웹과 운영 키트도 다른 결정을 보여줍니다. H2 초광폭 정렬 실패는 차별성 합격과 별개입니다."
     },
     {
       "left": "home-1",
       "right": "home-3",
       "result": "pass",
-      "reason": "종합 회사의 서비스 폭과 매체별 완성 결과를 크게 보여주는 포트폴리오가 다릅니다."
+      "reason": "팀 사진 / 교통 사인 사진 / 전략 판단표 / A·B·C 길찾기 지도 / ATELIER 제품 웹 / FIELDNOTE 일정 웹 / 전략 회의 사진과 공공 안내 사인 사진이 다릅니다. ATELIER의 제품 선택 관계도는 A/B/C 공간 길찾기와 과제가 다르고, 제품 상세 웹과 FIELDNOTE 일정 웹의 정보 구조도 갈립니다."
     },
     {
       "left": "home-1",
       "right": "home-4",
       "result": "pass",
-      "reason": "여러 업종·서비스와 한 FORME 프로젝트의 과정·인계가 다른 이야기를 만듭니다."
+      "reason": "협업 사진 / FORME 제품 / 전략 판단표 / FORME 디지털 결과 / ATELIER 제품 웹 / FORME 패키지 / 팀의 의사결정 장면과 FORME 화장품 실물이 첫 화면에서 다릅니다. 전략판은 선택 근거를, FORME 3단계는 실제 제품 웹·포장의 같은 브랜드 연결을 보여줍니다."
     },
     {
       "left": "home-2",
       "right": "home-3",
       "result": "pass",
-      "reason": "선택 기준·자료 비교와 실물 인쇄·공간·시안의 시각 증거가 다른 중심을 가집니다."
+      "reason": "ORBIT 자료 보드 / 교통 사인 / 결정 2×2 / 실제 동선 지도 / 운영 키트 / FIELDNOTE 프로그램 / ORBIT 자료판은 사업 우선순위, 사인 사진은 현장 길찾기입니다. 중간 2×2 선택 근거와 A/B/C 이동 지도, 운영 키트와 FIELDNOTE 프로그램으로 정보 역할이 갈립니다."
     },
     {
       "left": "home-2",
       "right": "home-4",
       "result": "pass",
-      "reason": "무엇부터 선택할지 정하는 matrix와 어떻게 제작·전달하는지 보여주는 단계 흐름이 다릅니다."
+      "reason": "판단 자료 / 화장품 제품 / 결정 2×2 / FORME 웹 / 운영 키트 / FORME 패키지 / ORBIT는 서비스 결정 자료, FORME는 브랜드 제품 실물입니다. ORBIT 비교 도식·운영 키트와 FORME 제품 웹·패키지는 매체와 결론이 다릅니다."
     },
     {
       "left": "home-3",
       "right": "home-4",
       "result": "pass",
-      "reason": "다양한 매체의 완성 결과와 하나의 브랜드에 연결된 제작 과정이 다릅니다."
+      "reason": "사인 환경 / 화장품 제품 / 길찾기 지도 / FORME 웹 / 문화 프로그램 / 브랜드 패키지 / 대중교통 사인과 화장품 제품이 즉시 구별됩니다. 이동 지도·문화 일정 웹과 FORME 제품 탐색 웹·패키지는 시각 문법과 사용 장소가 다릅니다."
     }
   ],
   "interactions": [
@@ -968,11 +1008,11 @@
       "result": "pass",
       "steps": "다음 버튼을 눌러 01에서 02로 변경되고 선택 슬라이드가 표시되는지 확인했습니다.",
       "before": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-1-desktop-slider-next-before.png",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-desktop-slider-next-before.png",
         "sha256": "1154d3a289b14a6f4a8d338dad128a95b298fa13465cea7b725a72b1e437ae98"
       },
       "after": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-1-desktop-slider-next-after.png",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-desktop-slider-next-after.png",
         "sha256": "be62724e09a9b74c79e0863e9d95883645ba5cbfeec3a09d83b93c089ea02f30"
       }
     },
@@ -983,11 +1023,11 @@
       "result": "pass",
       "steps": "이전 버튼을 눌러 02에서 01로 복귀하는 실제 화면을 확인했습니다.",
       "before": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-1-desktop-slider-prev-before.png",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-desktop-slider-prev-before.png",
         "sha256": "be62724e09a9b74c79e0863e9d95883645ba5cbfeec3a09d83b93c089ea02f30"
       },
       "after": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-1-desktop-slider-prev-after.png",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-desktop-slider-prev-after.png",
         "sha256": "e1e31cdb4289535137c6fdefe307bd77af39bd477695e288061a258a47954c05"
       }
     },
@@ -998,11 +1038,11 @@
       "result": "pass",
       "steps": "슬라이더에 키보드 ArrowRight를 보내 다음 슬라이드와 표시 번호가 바뀌는지 확인했습니다.",
       "before": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-1-desktop-slider-keyboard-before.png",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-desktop-slider-keyboard-before.png",
         "sha256": "e1e31cdb4289535137c6fdefe307bd77af39bd477695e288061a258a47954c05"
       },
       "after": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-1-desktop-slider-keyboard-after.png",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-desktop-slider-keyboard-after.png",
         "sha256": "51f8e5a1f4066a58e065312819978ad34e5058eeaf96d4771c20b5df9ecb8f93"
       }
     },
@@ -1013,11 +1053,11 @@
       "result": "pass",
       "steps": "재생 후 실제 자동 전환을 기다려 번호 변경을 확인하고 정지했습니다. 정지 후 번호 유지도 확인했습니다.",
       "before": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-1-desktop-slider-play-pause-before.png",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-desktop-slider-play-pause-before.png",
         "sha256": "df0f8053945e65ad5bbd01c72958adea8a677752322dd894dba2b98768623d2f"
       },
       "after": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-1-desktop-slider-play-pause-after.png",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-desktop-slider-play-pause-after.png",
         "sha256": "ee0362d1e93acc0d9cc0285ad2dab0f9e53b0ef6dfa64cade34fd870752469a0"
       }
     },
@@ -1028,11 +1068,11 @@
       "result": "pass",
       "steps": "줄인 동작 설정에서 자동 재생이 정지된 상태와 수동 다음 이동을 확인했습니다.",
       "before": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-1-desktop-slider-reduced-motion-before.png",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-desktop-slider-reduced-motion-before.png",
         "sha256": "1154d3a289b14a6f4a8d338dad128a95b298fa13465cea7b725a72b1e437ae98"
       },
       "after": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-1-desktop-slider-reduced-motion-after.png",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-desktop-slider-reduced-motion-after.png",
         "sha256": "1ea75bc2952d774fab7389204d027ae37c1b5fdf188a9d78304ab933df282966"
       }
     },
@@ -1043,12 +1083,12 @@
       "result": "pass",
       "steps": "다음 버튼을 눌러 01에서 02로 변경되고 선택 슬라이드가 표시되는지 확인했습니다.",
       "before": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-2-desktop-slider-next-before.png",
-        "sha256": "56b9472c106c84ba37c06e85e18b8239aa5f57fcb9766c49c8305d3fe33b4e64"
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-2-desktop-slider-next-before.png",
+        "sha256": "1db599e15fb1c83b66ec6a79763d2eaa6e93b2b33f45592caeab0cabf1cc82c4"
       },
       "after": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-2-desktop-slider-next-after.png",
-        "sha256": "21427e8d614ecc07855e73dd33cfe98d48638a5cccd71a6c5eb555f8b8ccf74d"
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-2-desktop-slider-next-after.png",
+        "sha256": "0a0c1673575164d6eac3ffd1cacc21a8f8d47afafd2220915c8267920801253a"
       }
     },
     {
@@ -1058,12 +1098,12 @@
       "result": "pass",
       "steps": "이전 버튼을 눌러 02에서 01로 복귀하는 실제 화면을 확인했습니다.",
       "before": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-2-desktop-slider-prev-before.png",
-        "sha256": "21427e8d614ecc07855e73dd33cfe98d48638a5cccd71a6c5eb555f8b8ccf74d"
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-2-desktop-slider-prev-before.png",
+        "sha256": "0a0c1673575164d6eac3ffd1cacc21a8f8d47afafd2220915c8267920801253a"
       },
       "after": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-2-desktop-slider-prev-after.png",
-        "sha256": "1da0ceda9de5ed0c52d67a34b6c42a8bd1613ff582c944cb0643e970c523257e"
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-2-desktop-slider-prev-after.png",
+        "sha256": "41a7e0e5769fd8882c999faaab4df75feeb8f9089e91f51c285906f9de1e91b4"
       }
     },
     {
@@ -1073,12 +1113,12 @@
       "result": "pass",
       "steps": "슬라이더에 키보드 ArrowRight를 보내 다음 슬라이드와 표시 번호가 바뀌는지 확인했습니다.",
       "before": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-2-desktop-slider-keyboard-before.png",
-        "sha256": "1da0ceda9de5ed0c52d67a34b6c42a8bd1613ff582c944cb0643e970c523257e"
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-2-desktop-slider-keyboard-before.png",
+        "sha256": "41a7e0e5769fd8882c999faaab4df75feeb8f9089e91f51c285906f9de1e91b4"
       },
       "after": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-2-desktop-slider-keyboard-after.png",
-        "sha256": "a6e6ed71e6e60d11cb3bbe1d8094f756feea87d86ad166d7fbf8260ea38453d5"
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-2-desktop-slider-keyboard-after.png",
+        "sha256": "4af2e186fb3b200c9db6fb17cc9808c97ccbd74fc3def3c1502145a47e035c9d"
       }
     },
     {
@@ -1088,12 +1128,12 @@
       "result": "pass",
       "steps": "재생 후 실제 자동 전환을 기다려 번호 변경을 확인하고 정지했습니다. 정지 후 번호 유지도 확인했습니다.",
       "before": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-2-desktop-slider-play-pause-before.png",
-        "sha256": "ff63ee8478dae0af574022aa3388fa51631f3f41517c759b535fdb89d59d0f94"
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-2-desktop-slider-play-pause-before.png",
+        "sha256": "560bd2d9eba0f6e3f76a8a2f182220cbf3415dc69b97e904e4183af8e803bcb9"
       },
       "after": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-2-desktop-slider-play-pause-after.png",
-        "sha256": "1ef798e82bf3c8dc0c490a054911215386ae8b71119376a5cb5da524c5648a16"
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-2-desktop-slider-play-pause-after.png",
+        "sha256": "9bd8376fd1984a6d73da6d5f2567e6a8c55057c550641274cffc10f1688689c1"
       }
     },
     {
@@ -1103,12 +1143,12 @@
       "result": "pass",
       "steps": "줄인 동작 설정에서 자동 재생이 정지된 상태와 수동 다음 이동을 확인했습니다.",
       "before": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-2-desktop-slider-reduced-motion-before.png",
-        "sha256": "56b9472c106c84ba37c06e85e18b8239aa5f57fcb9766c49c8305d3fe33b4e64"
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-2-desktop-slider-reduced-motion-before.png",
+        "sha256": "1db599e15fb1c83b66ec6a79763d2eaa6e93b2b33f45592caeab0cabf1cc82c4"
       },
       "after": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-2-desktop-slider-reduced-motion-after.png",
-        "sha256": "8b9e9534d2028f1818be268ac3c0d915938b31218674ff602738aa365f340d29"
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-2-desktop-slider-reduced-motion-after.png",
+        "sha256": "a1e87c29e1cb666117743a75b16075b1696d058ee3d01ec2b24833db9086e3d7"
       }
     },
     {
@@ -1118,11 +1158,11 @@
       "result": "pass",
       "steps": "첫 서비스 카드에 포인터를 올려 아이콘 회전과 카드 강조를 확인했습니다. 모바일 크기에서도 마우스 입력을 시험했습니다.",
       "before": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-1-desktop-service-hover-turn-before.png",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-desktop-service-hover-turn-before.png",
         "sha256": "addebdfc79adf7b19aaf04522561b62583385de77fedf7f309ba70d768f38467"
       },
       "after": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-1-desktop-service-hover-turn-after.png",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-desktop-service-hover-turn-after.png",
         "sha256": "dc30896314e651dd3a8a51d14f879f8a4f66d5519b29cb7d441a84d41773444a"
       }
     },
@@ -1133,11 +1173,11 @@
       "result": "pass",
       "steps": "Tab 키로 첫 서비스 카드에 초점을 이동하여 focus-visible 표시와 아이콘 반응을 확인했습니다.",
       "before": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-1-desktop-service-keyboard-focus-before.png",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-desktop-service-keyboard-focus-before.png",
         "sha256": "7d0f2bcc1bb4a162f97a6783fd30912009a58545ddc5fa5383440d69dbce5d64"
       },
       "after": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-1-desktop-service-keyboard-focus-after.png",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-desktop-service-keyboard-focus-after.png",
         "sha256": "2decd3222a15470a31cc9c07038bf9d4459b777ae11d0b1f6da6ff2a7dc9f460"
       }
     },
@@ -1148,12 +1188,12 @@
       "result": "pass",
       "steps": "화면 아래 전략 지도로 스크롤하여 Motion inView가 is-visible을 부여하고 콘텐츠가 나타나는지 확인했습니다.",
       "before": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-1-desktop-scroll-reveal-before.png",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-desktop-scroll-reveal-before.png",
         "sha256": "696298b7a7b7448efc1e193fd436d5fdeeb323c5055a518236766055f900df15"
       },
       "after": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-1-desktop-scroll-reveal-after.png",
-        "sha256": "3f29191db9780a2e7c73751e903805737ba8766860e1a0dda42332f60369bfd7"
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-desktop-scroll-reveal-after.png",
+        "sha256": "98feabb4ffc9370aa831ab3fd5d498458e0a1a03ae4e7bcd84d62e7a440cff1c"
       }
     },
     {
@@ -1163,12 +1203,12 @@
       "result": "pass",
       "steps": "줄인 동작 환경에서 아래 전략 지도까지 스크롤하여 내용과 글자가 즉시 보이고 transform이 없는지 확인했습니다.",
       "before": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-1-desktop-scroll-reduced-motion-before.png",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-desktop-scroll-reduced-motion-before.png",
         "sha256": "1154d3a289b14a6f4a8d338dad128a95b298fa13465cea7b725a72b1e437ae98"
       },
       "after": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-1-desktop-scroll-reduced-motion-after.png",
-        "sha256": "65f5a2ab157a775de11061346eb55cf27258bae3b7b77e5078d19ae45ef1c783"
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-desktop-scroll-reduced-motion-after.png",
+        "sha256": "d066a98d1ea3f4663e72d9d3b48b18e4fade1eff8a9160ba2d41d17a3912b76b"
       }
     },
     {
@@ -1178,11 +1218,11 @@
       "result": "pass",
       "steps": "다음 버튼을 눌러 01에서 02로 변경되고 선택 슬라이드가 표시되는지 확인했습니다.",
       "before": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-1-mobile-slider-next-before.png",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-mobile-slider-next-before.png",
         "sha256": "d5c8a16fc94fa92655fa33372d857b90cf7d0095d87aee56c134a9f3d756e42d"
       },
       "after": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-1-mobile-slider-next-after.png",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-mobile-slider-next-after.png",
         "sha256": "0b6e92485f6bd9706a2f6d1ff33bf7a809be9c645ca6a7b71f375c7f59eabb92"
       }
     },
@@ -1193,11 +1233,11 @@
       "result": "pass",
       "steps": "이전 버튼을 눌러 02에서 01로 복귀하는 실제 화면을 확인했습니다.",
       "before": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-1-mobile-slider-prev-before.png",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-mobile-slider-prev-before.png",
         "sha256": "0b6e92485f6bd9706a2f6d1ff33bf7a809be9c645ca6a7b71f375c7f59eabb92"
       },
       "after": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-1-mobile-slider-prev-after.png",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-mobile-slider-prev-after.png",
         "sha256": "201c82298bd8314dc43f90c1161495a814481aedc4f4f5a80e8398d1550efb7e"
       }
     },
@@ -1208,11 +1248,11 @@
       "result": "pass",
       "steps": "슬라이더에 키보드 ArrowRight를 보내 다음 슬라이드와 표시 번호가 바뀌는지 확인했습니다.",
       "before": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-1-mobile-slider-keyboard-before.png",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-mobile-slider-keyboard-before.png",
         "sha256": "201c82298bd8314dc43f90c1161495a814481aedc4f4f5a80e8398d1550efb7e"
       },
       "after": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-1-mobile-slider-keyboard-after.png",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-mobile-slider-keyboard-after.png",
         "sha256": "20dfabc39fa33479f34e05f9bdfdb67ce686211cbf9b0bb0ca8f144e72d7f2c1"
       }
     },
@@ -1223,11 +1263,11 @@
       "result": "pass",
       "steps": "재생 후 실제 자동 전환을 기다려 번호 변경을 확인하고 정지했습니다. 정지 후 번호 유지도 확인했습니다.",
       "before": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-1-mobile-slider-play-pause-before.png",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-mobile-slider-play-pause-before.png",
         "sha256": "9c4475374b0b14cfd83b3fbeb516b4dcd125a0047fc2c8dae9d622d4300cbe23"
       },
       "after": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-1-mobile-slider-play-pause-after.png",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-mobile-slider-play-pause-after.png",
         "sha256": "b2c66a31e20694f5597b0e89dc5dad2a7b250376be05df5f1948a83a12630a9e"
       }
     },
@@ -1238,11 +1278,11 @@
       "result": "pass",
       "steps": "줄인 동작 설정에서 자동 재생이 정지된 상태와 수동 다음 이동을 확인했습니다.",
       "before": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-1-mobile-slider-reduced-motion-before.png",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-mobile-slider-reduced-motion-before.png",
         "sha256": "d5c8a16fc94fa92655fa33372d857b90cf7d0095d87aee56c134a9f3d756e42d"
       },
       "after": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-1-mobile-slider-reduced-motion-after.png",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-mobile-slider-reduced-motion-after.png",
         "sha256": "bb96ee49e3c1ec2ed8c2e1da8740e772d790ca23efd4864bd80c874593c81e4c"
       }
     },
@@ -1253,12 +1293,12 @@
       "result": "pass",
       "steps": "다음 버튼을 눌러 01에서 02로 변경되고 선택 슬라이드가 표시되는지 확인했습니다.",
       "before": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-2-mobile-slider-next-before.png",
-        "sha256": "cdd8596a04f463863b559168769ee467b0704436ec3cd506fd9af25c25fa49df"
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-2-mobile-slider-next-before.png",
+        "sha256": "031bed8c4e16f9cb0653780ce69f2c388798df4b4bef4fc9249eeabc85f87237"
       },
       "after": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-2-mobile-slider-next-after.png",
-        "sha256": "8e60d401bd6f1da2a80874546203888fdda9c85868655e5fb6d2e57d7841d11b"
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-2-mobile-slider-next-after.png",
+        "sha256": "888013a9946cc5fc113afbd8c32609f16be76d81c1e08d15270e20de6760ce1a"
       }
     },
     {
@@ -1268,12 +1308,12 @@
       "result": "pass",
       "steps": "이전 버튼을 눌러 02에서 01로 복귀하는 실제 화면을 확인했습니다.",
       "before": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-2-mobile-slider-prev-before.png",
-        "sha256": "8e60d401bd6f1da2a80874546203888fdda9c85868655e5fb6d2e57d7841d11b"
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-2-mobile-slider-prev-before.png",
+        "sha256": "888013a9946cc5fc113afbd8c32609f16be76d81c1e08d15270e20de6760ce1a"
       },
       "after": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-2-mobile-slider-prev-after.png",
-        "sha256": "c1b96f48ca48e0cbd8d0acea8f7851863a7d1471477559a1b0f6d390acb09066"
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-2-mobile-slider-prev-after.png",
+        "sha256": "6a8fb393d092bd98f7c7ffd600faf62586e3a9572ea0f7aa97bc79d37ad8cc3e"
       }
     },
     {
@@ -1283,12 +1323,12 @@
       "result": "pass",
       "steps": "슬라이더에 키보드 ArrowRight를 보내 다음 슬라이드와 표시 번호가 바뀌는지 확인했습니다.",
       "before": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-2-mobile-slider-keyboard-before.png",
-        "sha256": "c1b96f48ca48e0cbd8d0acea8f7851863a7d1471477559a1b0f6d390acb09066"
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-2-mobile-slider-keyboard-before.png",
+        "sha256": "6a8fb393d092bd98f7c7ffd600faf62586e3a9572ea0f7aa97bc79d37ad8cc3e"
       },
       "after": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-2-mobile-slider-keyboard-after.png",
-        "sha256": "f7a3d4646ade9a03456c88ad25db04c45a58c760e04c663a3ff92e26ef2e7e0a"
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-2-mobile-slider-keyboard-after.png",
+        "sha256": "62c1fb64b2565efd7123ef70238854ca49ddca18bf6a93a1b57d6647dfc6c643"
       }
     },
     {
@@ -1298,12 +1338,12 @@
       "result": "pass",
       "steps": "재생 후 실제 자동 전환을 기다려 번호 변경을 확인하고 정지했습니다. 정지 후 번호 유지도 확인했습니다.",
       "before": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-2-mobile-slider-play-pause-before.png",
-        "sha256": "41b34f28b65649d32786421cf58504e9516cfd53e45ac4b39fb94ffa9144ec92"
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-2-mobile-slider-play-pause-before.png",
+        "sha256": "e956f77c419cd4cbc20514174e9ef999182fd2098484750a6aace3120dc50f8a"
       },
       "after": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-2-mobile-slider-play-pause-after.png",
-        "sha256": "87459b398c8e3a3cb2a32b9b51a461f2eb8b759e7030b7019f2ea6323a005dbc"
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-2-mobile-slider-play-pause-after.png",
+        "sha256": "af83e5621449246b967839881b0b288b12b34abc322c8ebc9ef543178f3a1ac1"
       }
     },
     {
@@ -1313,12 +1353,12 @@
       "result": "pass",
       "steps": "줄인 동작 설정에서 자동 재생이 정지된 상태와 수동 다음 이동을 확인했습니다.",
       "before": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-2-mobile-slider-reduced-motion-before.png",
-        "sha256": "cdd8596a04f463863b559168769ee467b0704436ec3cd506fd9af25c25fa49df"
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-2-mobile-slider-reduced-motion-before.png",
+        "sha256": "031bed8c4e16f9cb0653780ce69f2c388798df4b4bef4fc9249eeabc85f87237"
       },
       "after": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-2-mobile-slider-reduced-motion-after.png",
-        "sha256": "7915124ab5e65ccbb60de4904e668c2c415cd5e48a727b8161ef22c575e838df"
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-2-mobile-slider-reduced-motion-after.png",
+        "sha256": "3eb20aefccb80af97b78595f6889ef5b0b7c6ee1c1aeebda835ae3f475e35365"
       }
     },
     {
@@ -1328,11 +1368,11 @@
       "result": "pass",
       "steps": "첫 서비스 카드에 포인터를 올려 아이콘 회전과 카드 강조를 확인했습니다. 모바일 크기에서도 마우스 입력을 시험했습니다.",
       "before": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-1-mobile-service-hover-turn-before.png",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-mobile-service-hover-turn-before.png",
         "sha256": "d27d578ef7deabc26c54c4d826de41f97f8b2aa1703e224458627b8ac1ed8aaf"
       },
       "after": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-1-mobile-service-hover-turn-after.png",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-mobile-service-hover-turn-after.png",
         "sha256": "e9d3e4425289bb909f5e37d339ea5b081f013fd3c146a42a9e6ed822c6818c0a"
       }
     },
@@ -1343,11 +1383,11 @@
       "result": "pass",
       "steps": "Tab 키로 첫 서비스 카드에 초점을 이동하여 focus-visible 표시와 아이콘 반응을 확인했습니다.",
       "before": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-1-mobile-service-keyboard-focus-before.png",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-mobile-service-keyboard-focus-before.png",
         "sha256": "9da80e567263a05c3487862fb7669c2c178eeccc83df25476b30f7d543243a1d"
       },
       "after": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-1-mobile-service-keyboard-focus-after.png",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-mobile-service-keyboard-focus-after.png",
         "sha256": "e6d064a6f3a9d0ea9781da359b14faeaace203b8bc052e8eed2a7b34b500393b"
       }
     },
@@ -1358,12 +1398,12 @@
       "result": "pass",
       "steps": "화면 아래 전략 지도로 스크롤하여 Motion inView가 is-visible을 부여하고 콘텐츠가 나타나는지 확인했습니다.",
       "before": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-1-mobile-scroll-reveal-before.png",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-mobile-scroll-reveal-before.png",
         "sha256": "e0c5d0ae1d21090cbdb8bfa3bd20ce689d8f47b2d0fb6cf076c250f170114c1a"
       },
       "after": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-1-mobile-scroll-reveal-after.png",
-        "sha256": "40f026e594233afab98d9bd3f648fc85d34e27d4b5bc88f0a95b5a5250946421"
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-mobile-scroll-reveal-after.png",
+        "sha256": "c6fc79c346f821f84fa5416df904ffd16fc785a7aeff67a514fa4041d989ab1b"
       }
     },
     {
@@ -1373,12 +1413,12 @@
       "result": "pass",
       "steps": "줄인 동작 환경에서 아래 전략 지도까지 스크롤하여 내용과 글자가 즉시 보이고 transform이 없는지 확인했습니다.",
       "before": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-1-mobile-scroll-reduced-motion-before.png",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-mobile-scroll-reduced-motion-before.png",
         "sha256": "d5c8a16fc94fa92655fa33372d857b90cf7d0095d87aee56c134a9f3d756e42d"
       },
       "after": {
-        "path": "quality/evidence/main-seven-correction-20260928/interactions/home-1-mobile-scroll-reduced-motion-after.png",
-        "sha256": "fedb0e97390fa975d1bf03b522540a921e367baf03520fc62bd6a590c183e2bf"
+        "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-mobile-scroll-reduced-motion-after.png",
+        "sha256": "8099fe90dcc579e0613bcb7c36375bca5ab436150ce921c6ba0fb7c236f1bb51"
       }
     }
   ]

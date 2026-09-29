@@ -1,0 +1,302 @@
+[
+  {
+    "page": "home-1",
+    "id": "slider-next",
+    "viewport": "desktop",
+    "result": "pass",
+    "steps": "다음 버튼을 눌러 01에서 02로 변경되고 선택 슬라이드가 표시되는지 확인했습니다.",
+    "before": {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-desktop-slider-next-before.png",
+      "sha256": "1154d3a289b14a6f4a8d338dad128a95b298fa13465cea7b725a72b1e437ae98"
+    },
+    "after": {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-desktop-slider-next-after.png",
+      "sha256": "be62724e09a9b74c79e0863e9d95883645ba5cbfeec3a09d83b93c089ea02f30"
+    }
+  },
+  {
+    "page": "home-1",
+    "id": "slider-prev",
+    "viewport": "desktop",
+    "result": "pass",
+    "steps": "이전 버튼을 눌러 02에서 01로 복귀하는 실제 화면을 확인했습니다.",
+    "before": {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-desktop-slider-prev-before.png",
+      "sha256": "be62724e09a9b74c79e0863e9d95883645ba5cbfeec3a09d83b93c089ea02f30"
+    },
+    "after": {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-desktop-slider-prev-after.png",
+      "sha256": "e1e31cdb4289535137c6fdefe307bd77af39bd477695e288061a258a47954c05"
+    }
+  },
+  {
+    "page": "home-1",
+    "id": "slider-keyboard",
+    "viewport": "desktop",
+    "result": "pass",
+    "steps": "슬라이더에 키보드 ArrowRight를 보내 다음 슬라이드와 표시 번호가 바뀌는지 확인했습니다.",
+    "before": {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-desktop-slider-keyboard-before.png",
+      "sha256": "e1e31cdb4289535137c6fdefe307bd77af39bd477695e288061a258a47954c05"
+    },
+    "after": {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-desktop-slider-keyboard-after.png",
+      "sha256": "51f8e5a1f4066a58e065312819978ad34e5058eeaf96d4771c20b5df9ecb8f93"
+    }
+  },
+  {
+    "page": "home-1",
+    "id": "slider-play-pause",
+    "viewport": "desktop",
+    "result": "pass",
+    "steps": "재생 후 실제 자동 전환을 기다려 번호 변경을 확인하고 정지했습니다. 정지 후 번호 유지도 확인했습니다.",
+    "before": {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-desktop-slider-play-pause-before.png",
+      "sha256": "df0f8053945e65ad5bbd01c72958adea8a677752322dd894dba2b98768623d2f"
+    },
+    "after": {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-desktop-slider-play-pause-after.png",
+      "sha256": "ee0362d1e93acc0d9cc0285ad2dab0f9e53b0ef6dfa64cade34fd870752469a0"
+    }
+  },
+  {
+    "page": "home-1",
+    "id": "slider-reduced-motion",
+    "viewport": "desktop",
+    "result": "pass",
+    "steps": "줄인 동작 설정에서 자동 재생이 정지된 상태와 수동 다음 이동을 확인했습니다.",
+    "before": {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-desktop-slider-reduced-motion-before.png",
+      "sha256": "1154d3a289b14a6f4a8d338dad128a95b298fa13465cea7b725a72b1e437ae98"
+    },
+    "after": {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-desktop-slider-reduced-motion-after.png",
+      "sha256": "1ea75bc2952d774fab7389204d027ae37c1b5fdf188a9d78304ab933df282966"
+    }
+  },
+  {
+    "page": "home-2",
+    "id": "slider-next",
+    "viewport": "desktop",
+    "result": "pass",
+    "steps": "다음 버튼을 눌러 01에서 02로 변경되고 선택 슬라이드가 표시되는지 확인했습니다.",
+    "before": {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-2-desktop-slider-next-before.png",
+      "sha256": "1db599e15fb1c83b66ec6a79763d2eaa6e93b2b33f45592caeab0cabf1cc82c4"
+    },
+    "after": {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-2-desktop-slider-next-after.png",
+      "sha256": "0a0c1673575164d6eac3ffd1cacc21a8f8d47afafd2220915c8267920801253a"
+    }
+  },
+  {
+    "page": "home-2",
+    "id": "slider-prev",
+    "viewport": "desktop",
+    "result": "pass",
+    "steps": "이전 버튼을 눌러 02에서 01로 복귀하는 실제 화면을 확인했습니다.",
+    "before": {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-2-desktop-slider-prev-before.png",
+      "sha256": "0a0c1673575164d6eac3ffd1cacc21a8f8d47afafd2220915c8267920801253a"
+    },
+    "after": {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-2-desktop-slider-prev-after.png",
+      "sha256": "41a7e0e5769fd8882c999faaab4df75feeb8f9089e91f51c285906f9de1e91b4"
+    }
+  },
+  {
+    "page": "home-2",
+    "id": "slider-keyboard",
+    "viewport": "desktop",
+    "result": "pass",
+    "steps": "슬라이더에 키보드 ArrowRight를 보내 다음 슬라이드와 표시 번호가 바뀌는지 확인했습니다.",
+    "before": {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-2-desktop-slider-keyboard-before.png",
+      "sha256": "41a7e0e5769fd8882c999faaab4df75feeb8f9089e91f51c285906f9de1e91b4"
+    },
+    "after": {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-2-desktop-slider-keyboard-after.png",
+      "sha256": "4af2e186fb3b200c9db6fb17cc9808c97ccbd74fc3def3c1502145a47e035c9d"
+    }
+  },
+  {
+    "page": "home-2",
+    "id": "slider-play-pause",
+    "viewport": "desktop",
+    "result": "pass",
+    "steps": "재생 후 실제 자동 전환을 기다려 번호 변경을 확인하고 정지했습니다. 정지 후 번호 유지도 확인했습니다.",
+    "before": {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-2-desktop-slider-play-pause-before.png",
+      "sha256": "560bd2d9eba0f6e3f76a8a2f182220cbf3415dc69b97e904e4183af8e803bcb9"
+    },
+    "after": {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-2-desktop-slider-play-pause-after.png",
+      "sha256": "9bd8376fd1984a6d73da6d5f2567e6a8c55057c550641274cffc10f1688689c1"
+    }
+  },
+  {
+    "page": "home-2",
+    "id": "slider-reduced-motion",
+    "viewport": "desktop",
+    "result": "pass",
+    "steps": "줄인 동작 설정에서 자동 재생이 정지된 상태와 수동 다음 이동을 확인했습니다.",
+    "before": {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-2-desktop-slider-reduced-motion-before.png",
+      "sha256": "1db599e15fb1c83b66ec6a79763d2eaa6e93b2b33f45592caeab0cabf1cc82c4"
+    },
+    "after": {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-2-desktop-slider-reduced-motion-after.png",
+      "sha256": "a1e87c29e1cb666117743a75b16075b1696d058ee3d01ec2b24833db9086e3d7"
+    }
+  },
+  {
+    "page": "home-1",
+    "id": "service-hover-turn",
+    "viewport": "desktop",
+    "result": "pass",
+    "steps": "첫 서비스 카드에 포인터를 올려 아이콘 회전과 카드 강조를 확인했습니다. 모바일 크기에서도 마우스 입력을 시험했습니다.",
+    "before": {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-desktop-service-hover-turn-before.png",
+      "sha256": "addebdfc79adf7b19aaf04522561b62583385de77fedf7f309ba70d768f38467"
+    },
+    "after": {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-desktop-service-hover-turn-after.png",
+      "sha256": "dc30896314e651dd3a8a51d14f879f8a4f66d5519b29cb7d441a84d41773444a"
+    }
+  },
+  {
+    "page": "home-1",
+    "id": "service-keyboard-focus",
+    "viewport": "desktop",
+    "result": "pass",
+    "steps": "Tab 키로 첫 서비스 카드에 초점을 이동하여 focus-visible 표시와 아이콘 반응을 확인했습니다.",
+    "before": {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-desktop-service-keyboard-focus-before.png",
+      "sha256": "7d0f2bcc1bb4a162f97a6783fd30912009a58545ddc5fa5383440d69dbce5d64"
+    },
+    "after": {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-desktop-service-keyboard-focus-after.png",
+      "sha256": "2decd3222a15470a31cc9c07038bf9d4459b777ae11d0b1f6da6ff2a7dc9f460"
+    }
+  },
+  {
+    "page": "home-1",
+    "id": "scroll-reveal",
+    "viewport": "desktop",
+    "result": "pass",
+    "steps": "화면 아래 전략 지도로 스크롤하여 Motion inView가 is-visible을 부여하고 콘텐츠가 나타나는지 확인했습니다.",
+    "before": {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-desktop-scroll-reveal-before.png",
+      "sha256": "696298b7a7b7448efc1e193fd436d5fdeeb323c5055a518236766055f900df15"
+    },
+    "after": {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-desktop-scroll-reveal-after.png",
+      "sha256": "98feabb4ffc9370aa831ab3fd5d498458e0a1a03ae4e7bcd84d62e7a440cff1c"
+    }
+  },
+  {
+    "page": "home-1",
+    "id": "scroll-reduced-motion",
+    "viewport": "desktop",
+    "result": "pass",
+    "steps": "줄인 동작 환경에서 아래 전략 지도까지 스크롤하여 내용과 글자가 즉시 보이고 transform이 없는지 확인했습니다.",
+    "before": {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-desktop-scroll-reduced-motion-before.png",
+      "sha256": "1154d3a289b14a6f4a8d338dad128a95b298fa13465cea7b725a72b1e437ae98"
+    },
+    "after": {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/home-1-desktop-scroll-reduced-motion-after.png",
+      "sha256": "d066a98d1ea3f4663e72d9d3b48b18e4fade1eff8a9160ba2d41d17a3912b76b"
+    }
+  },
+  {
+    "page": "onepage-showcase",
+    "id": "detail-tabs-keyboard",
+    "viewport": "desktop",
+    "result": "pass",
+    "steps": "탭의 ArrowRight와 End 키로 크기와 설치 검토를 선택하고 aria-selected 및 배치도의 실제 표시를 확인했습니다.",
+    "before": {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/onepage-showcase-desktop-detail-tabs-keyboard-before.png",
+      "sha256": "22ee2e5ae2548e52e7266945d46ab219504b48d33cd80e23aeb0da47fab1f842"
+    },
+    "after": {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/onepage-showcase-desktop-detail-tabs-keyboard-after.png",
+      "sha256": "8595d3e07c16d82b11824f388472c2c45c6edc05ad6a1fdd65ba6715cc0af77f"
+    }
+  },
+  {
+    "page": "onepage-showcase",
+    "id": "detail-scroll",
+    "viewport": "desktop",
+    "result": "pass",
+    "steps": "소재 사진으로 스크롤하여 Motion 패럴랙스 transform과 이미지 표시를 확인했습니다.",
+    "before": {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/onepage-showcase-desktop-detail-scroll-before.png",
+      "sha256": "8183d735269a6c141389ea47afe886f32c72f5a9747849c7bd5ff16306bca7c7"
+    },
+    "after": {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/onepage-showcase-desktop-detail-scroll-after.png",
+      "sha256": "439d43c0c554c331bc2cffce9076674ccdaa85e225274a018e8b6aa877c01cc4"
+    }
+  },
+  {
+    "page": "onepage-showcase",
+    "id": "detail-reduced-motion",
+    "viewport": "desktop",
+    "result": "pass",
+    "steps": "줄인 동작 설정에서 소재 사진까지 이동하여 transform 없는 정적 사진과 본문을 확인했습니다.",
+    "before": {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/onepage-showcase-desktop-detail-reduced-motion-before.png",
+      "sha256": "8183d735269a6c141389ea47afe886f32c72f5a9747849c7bd5ff16306bca7c7"
+    },
+    "after": {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/onepage-showcase-desktop-detail-reduced-motion-after.png",
+      "sha256": "8de72055181648d3efb0b151ef74d4d68ad008d036da063e3740eae083529e85"
+    }
+  },
+  {
+    "page": "onepage-projects",
+    "id": "gallery-next",
+    "viewport": "desktop",
+    "result": "pass",
+    "steps": "갤러리 다음 버튼으로 두 번째 공간 사진과 설명으로 이동하는지 확인했습니다.",
+    "before": {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/onepage-projects-desktop-gallery-next-before.png",
+      "sha256": "98de4f3e1ad15f8cd5bcee7ff0c1ebb98e5f386d0d00124c8110a5be1be04f50"
+    },
+    "after": {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/onepage-projects-desktop-gallery-next-after.png",
+      "sha256": "6ec45e689419cf23cab81e27b553bb0664caa68a27a4dd98c5b952036a034a06"
+    }
+  },
+  {
+    "page": "onepage-projects",
+    "id": "gallery-prev",
+    "viewport": "desktop",
+    "result": "pass",
+    "steps": "갤러리 이전 버튼으로 첫 번째 사진으로 복귀하는지 확인했습니다.",
+    "before": {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/onepage-projects-desktop-gallery-prev-before.png",
+      "sha256": "6ec45e689419cf23cab81e27b553bb0664caa68a27a4dd98c5b952036a034a06"
+    },
+    "after": {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/onepage-projects-desktop-gallery-prev-after.png",
+      "sha256": "d13c17b5011147f9614433e99f2ca6afbb6b1b7f9d1bcd2806aeca031ea53285"
+    }
+  },
+  {
+    "page": "onepage-projects",
+    "id": "gallery-keyboard",
+    "viewport": "desktop",
+    "result": "pass",
+    "steps": "갤러리의 ArrowRight 키로 두 번째 사진을 선택하고 설명 변경을 확인했습니다.",
+    "before": {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/onepage-projects-desktop-gallery-keyboard-before.png",
+      "sha256": "0418933e1e6dd960db8fa263bf15e903e10851a8d5bc97bf2ac2962c4895c8c2"
+    },
+    "after": {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/interactions/onepage-projects-desktop-gallery-keyboard-after.png",
+      "sha256": "c4f3bed571877e9db3d52b52cc2fb8ef6f9601326ef69fba6f15d3a605f94fc3"
+    }
+  }
+]

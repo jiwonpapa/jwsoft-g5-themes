@@ -1,0 +1,84 @@
+{
+  "result": "collected-not-approved",
+  "page": "home-2",
+  "state": "desktop-dark",
+  "url": "https://g5themes.test/theme/jw_business/index_2.php?device=pc",
+  "capturedAt": "2026-09-29T01:11:24.867Z",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "fullPage": true,
+  "file": "/Users/neojins/workspace/jwsoft-g5-themes/output/qa/ui/captures/home-2/desktop-dark.png",
+  "sha256": "20a587d8ba42bbc318b6e948061121eb05a329bdf6ff801d189fb6dbfb4b91b8",
+  "inputDigest": "cb691bf3ea59c471ff2ecc08b433685eb85644570252994d333253f27001839b",
+  "platform": "darwin",
+  "browser": "153.0.8010.12",
+  "errors": [],
+  "mode": "jw-dark",
+  "documentHeight": 8588,
+  "overflow": 0,
+  "brokenImages": [],
+  "missingIcons": 0,
+  "reversedText": [],
+  "requirements": [
+    {
+      "id": "page-heading",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "hero-slider",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "digital-artifact",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "decision-matrix",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "decision-evidence",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "large-choice-icons",
+      "count": 3,
+      "visible": true
+    },
+    {
+      "id": "journey-map",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "delivery-board",
+      "count": 3,
+      "visible": true
+    }
+  ],
+  "media": [
+    "https://g5themes.test/theme/jw_business/assets/brand/jw-business-light.webp",
+    "https://g5themes.test/theme/jw_business/assets/brand/jw-business-dark.webp",
+    "https://g5themes.test/theme/jw_business/assets/images/home2-decision-workshop.webp",
+    "https://g5themes.test/theme/jw_business/assets/images/home2-evidence-retail.webp",
+    "https://g5themes.test/theme/jw_business/assets/images/home2-strategy.webp",
+    "https://g5themes.test/theme/jw_business/assets/home2-decision-CfVJk5gZ.webp",
+    "https://g5themes.test/theme/jw_business/assets/home2-digital-BAfUKBwe.webp",
+    "https://g5themes.test/theme/jw_business/assets/home2-operations-Iz1Us8MJ.webp"
+  ],
+  "regions": {
+    ".jw-footer": {
+      "left": 0,
+      "top": 8344,
+      "width": 1440,
+      "height": 244
+    }
+  }
+}

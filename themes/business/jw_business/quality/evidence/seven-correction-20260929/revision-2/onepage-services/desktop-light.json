@@ -1,0 +1,213 @@
+{
+  "result": "collected-not-approved",
+  "page": "onepage-services",
+  "state": "desktop-light",
+  "url": "https://g5themes.test/pages/onepage-services.php?device=pc",
+  "capturedAt": "2026-09-29T03:01:21.288Z",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "fullPage": true,
+  "file": "/Users/neojins/workspace/jwsoft-g5-themes/output/qa/ui/captures/onepage-services/desktop-light.png",
+  "sha256": "5e9097c4a63bd1c5dc664d6bde4ad4e03846af1dd07e189e1418271bb106608e",
+  "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+  "platform": "darwin",
+  "browser": "153.0.8010.12",
+  "errors": [],
+  "mode": "jw-light",
+  "documentHeight": 11326,
+  "overflow": 0,
+  "brokenImages": [],
+  "missingIcons": 0,
+  "reversedText": [],
+  "requirements": [
+    {
+      "id": "page-heading",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "service-board",
+      "count": 3,
+      "visible": true
+    },
+    {
+      "id": "customer-journey",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "delivery-sample",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "large-service-icons",
+      "count": 3,
+      "visible": true
+    },
+    {
+      "id": "delivery-files",
+      "count": 3,
+      "visible": true
+    },
+    {
+      "id": "service-section-range",
+      "count": 12,
+      "visible": true
+    },
+    {
+      "id": "company-profile",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "delivery-process",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "engagement-scope",
+      "count": 1,
+      "visible": true
+    }
+  ],
+  "media": [
+    "https://g5themes.test/theme/jw_business/assets/brand/jw-business-light.webp",
+    "https://g5themes.test/theme/jw_business/assets/brand/jw-business-dark.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/correction/service-ondo-studio.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/service-studio.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/correction/service-ondo-first-cup.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/correction/service-ondo-course-works.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/service-sector-retail.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/service-sector-learning.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/service-sector-industry.webp"
+  ],
+  "sections": [
+    {
+      "index": 0,
+      "id": "service-top",
+      "heading": "고객의 질문이쓰이는 서비스로.",
+      "left": 120,
+      "top": 141,
+      "width": 1200,
+      "height": 940
+    },
+    {
+      "index": 1,
+      "id": "service-scope",
+      "heading": "좋은 질문이좋은 결과를 만듭니다.",
+      "left": 0,
+      "top": 1081,
+      "width": 1440,
+      "height": 970
+    },
+    {
+      "index": 2,
+      "id": "service-studio",
+      "heading": "다른 전문성,같은 테이블.",
+      "left": 120,
+      "top": 2051,
+      "width": 1200,
+      "height": 880
+    },
+    {
+      "index": 3,
+      "id": "service-process",
+      "heading": "발견에서 신청까지,다음 질문이 보이도록.",
+      "left": 0,
+      "top": 2931,
+      "width": 1440,
+      "height": 1191
+    },
+    {
+      "index": 4,
+      "id": "",
+      "left": 480,
+      "top": 3229,
+      "width": 840,
+      "height": 688
+    },
+    {
+      "index": 5,
+      "id": "service-case",
+      "heading": "설명 문서가쓰이는 화면이 되도록.",
+      "left": 120,
+      "top": 4123,
+      "width": 1200,
+      "height": 1116
+    },
+    {
+      "index": 6,
+      "id": "",
+      "heading": "같은 방법,다른 사업의 맥락.",
+      "left": 0,
+      "top": 5239,
+      "width": 1440,
+      "height": 1027
+    },
+    {
+      "index": 7,
+      "id": "",
+      "heading": "담당자가 바뀌어도,같은 기준으로.",
+      "left": 120,
+      "top": 6266,
+      "width": 1200,
+      "height": 877
+    },
+    {
+      "index": 8,
+      "id": "service-roadmap",
+      "heading": "다음 단계가 보이는프로젝트 진행.",
+      "left": 0,
+      "top": 7143,
+      "width": 1440,
+      "height": 715
+    },
+    {
+      "index": 9,
+      "id": "",
+      "heading": "화면과 문서,서로 이어지는 결과물.",
+      "left": 0,
+      "top": 7858,
+      "width": 1440,
+      "height": 1399
+    },
+    {
+      "index": 10,
+      "id": "",
+      "heading": "필요한 만큼,함께할 범위를 정합니다.",
+      "left": 120,
+      "top": 9257,
+      "width": 1200,
+      "height": 725
+    },
+    {
+      "index": 11,
+      "id": "service-faq",
+      "heading": "시작하기 전,궁금한 것들.",
+      "left": 0,
+      "top": 9983,
+      "width": 1440,
+      "height": 528
+    },
+    {
+      "index": 12,
+      "id": "service-contact",
+      "heading": "지금의 질문에서함께 시작합니다.",
+      "left": 0,
+      "top": 10510,
+      "width": 1440,
+      "height": 572
+    }
+  ],
+  "regions": {
+    ".jw-footer": {
+      "left": 0,
+      "top": 11082,
+      "width": 1440,
+      "height": 244
+    }
+  }
+}

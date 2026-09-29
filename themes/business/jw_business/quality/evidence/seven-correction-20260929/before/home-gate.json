@@ -1,0 +1,400 @@
+{
+  "result": "fail",
+  "scope": "home",
+  "inputDigest": "cb691bf3ea59c471ff2ecc08b433685eb85644570252994d333253f27001839b",
+  "pages": 4,
+  "failures": [
+    {
+      "code": "STALE_REVIEW",
+      "target": "home",
+      "message": "현재 소스·이미지·검사 정책과 검토 기록이 일치하지 않습니다."
+    },
+    {
+      "code": "MEDIA_COVERAGE",
+      "target": "home-2/desktop/light",
+      "message": "소스에서 발견한 이미지가 실제 화면 이미지 목록에 없습니다."
+    },
+    {
+      "code": "MEDIA_COVERAGE",
+      "target": "home-2/desktop/dark",
+      "message": "소스에서 발견한 이미지가 실제 화면 이미지 목록에 없습니다."
+    },
+    {
+      "code": "MEDIA_COVERAGE",
+      "target": "home-2/mobile/light",
+      "message": "소스에서 발견한 이미지가 실제 화면 이미지 목록에 없습니다."
+    },
+    {
+      "code": "MEDIA_COVERAGE",
+      "target": "home-2/mobile/dark",
+      "message": "소스에서 발견한 이미지가 실제 화면 이미지 목록에 없습니다."
+    },
+    {
+      "code": "MEDIA_COVERAGE",
+      "target": "home-3/desktop/light",
+      "message": "소스에서 발견한 이미지가 실제 화면 이미지 목록에 없습니다."
+    },
+    {
+      "code": "MEDIA_COVERAGE",
+      "target": "home-3/desktop/dark",
+      "message": "소스에서 발견한 이미지가 실제 화면 이미지 목록에 없습니다."
+    },
+    {
+      "code": "MEDIA_COVERAGE",
+      "target": "home-3/mobile/light",
+      "message": "소스에서 발견한 이미지가 실제 화면 이미지 목록에 없습니다."
+    },
+    {
+      "code": "MEDIA_COVERAGE",
+      "target": "home-3/mobile/dark",
+      "message": "소스에서 발견한 이미지가 실제 화면 이미지 목록에 없습니다."
+    },
+    {
+      "code": "EVIDENCE_FILE",
+      "target": "quality/evidence/main-seven-correction-20260928/interactions/home-2-desktop-slider-play-pause-after.png",
+      "message": "Error: 화면 파일이 검토 이후 바뀌었습니다."
+    },
+    {
+      "code": "EVIDENCE_FILE",
+      "target": "quality/evidence/main-seven-correction-20260928/interactions/home-1-desktop-service-keyboard-focus-after.png",
+      "message": "Error: 화면 파일이 검토 이후 바뀌었습니다."
+    },
+    {
+      "code": "PHOTO_REUSE",
+      "target": "src/assets/images/home-hero.webp",
+      "message": "페이지 간 사진 재사용: company-overview-1, company-overview-2, company-overview-3, business-list-1, business-list-2, business-list-3"
+    },
+    {
+      "code": "PHOTO_OWNER",
+      "target": "src/assets/images/home-hero.webp",
+      "message": "허용 페이지는 home-1입니다. 실제: company-overview-1, company-overview-2, company-overview-3, business-list-1, business-list-2, business-list-3"
+    },
+    {
+      "code": "PHOTO_REUSE",
+      "target": "src/assets/images/home-collaboration.webp",
+      "message": "페이지 간 사진 재사용: company-overview-1, company-overview-2, company-overview-3, company-overview-4, company-overview-5, business-list-1, business-list-2, business-list-4, business-list-5, business-detail-1, business-detail-2"
+    },
+    {
+      "code": "PHOTO_OWNER",
+      "target": "src/assets/images/home-collaboration.webp",
+      "message": "허용 페이지는 home-1입니다. 실제: company-overview-1, company-overview-2, company-overview-3, company-overview-4, company-overview-5, business-list-1, business-list-2, business-list-4, business-list-5, business-detail-1, business-detail-2"
+    },
+    {
+      "code": "PHOTO_REUSE",
+      "target": "src/assets/images/home-project.webp",
+      "message": "페이지 간 사진 재사용: company-overview-2, company-overview-3, company-overview-4, business-list-1, business-list-2, business-list-5, business-detail-2, business-detail-3, business-detail-4"
+    },
+    {
+      "code": "PHOTO_OWNER",
+      "target": "src/assets/images/home-project.webp",
+      "message": "허용 페이지는 home-1입니다. 실제: company-overview-2, company-overview-3, company-overview-4, business-list-1, business-list-2, business-list-5, business-detail-2, business-detail-3, business-detail-4"
+    }
+  ],
+  "photoUsage": [
+    {
+      "path": "src/assets/main-one/strategy.webp",
+      "pages": [
+        "home-1"
+      ]
+    },
+    {
+      "path": "src/assets/main-one/digital.webp",
+      "pages": [
+        "home-1"
+      ]
+    },
+    {
+      "path": "src/assets/main-one/brand.webp",
+      "pages": [
+        "home-1"
+      ]
+    },
+    {
+      "path": "src/assets/main-one/industry-ceramics.webp",
+      "pages": [
+        "home-1"
+      ]
+    },
+    {
+      "path": "src/assets/main-one/case-food.webp",
+      "pages": [
+        "home-1"
+      ]
+    },
+    {
+      "path": "src/assets/main-one/case-learning.webp",
+      "pages": [
+        "home-1"
+      ]
+    },
+    {
+      "path": "src/assets/main-one/brand-detail.webp",
+      "pages": [
+        "home-1"
+      ]
+    },
+    {
+      "path": "src/assets/images/home2-decision.webp",
+      "pages": [
+        "home-2"
+      ]
+    },
+    {
+      "path": "src/assets/images/home2-digital.webp",
+      "pages": [
+        "home-2"
+      ]
+    },
+    {
+      "path": "src/assets/images/home2-operations.webp",
+      "pages": [
+        "home-2"
+      ]
+    },
+    {
+      "path": "src/assets/images/home2-decision-workshop.webp",
+      "pages": [
+        "home-2"
+      ]
+    },
+    {
+      "path": "src/assets/images/home2-evidence-retail.webp",
+      "pages": [
+        "home-2"
+      ]
+    },
+    {
+      "path": "src/assets/images/home2-strategy.webp",
+      "pages": [
+        "home-2"
+      ]
+    },
+    {
+      "path": "src/assets/home-three/mobility.webp",
+      "pages": [
+        "home-3"
+      ]
+    },
+    {
+      "path": "src/assets/home-three/print.webp",
+      "pages": [
+        "home-3"
+      ]
+    },
+    {
+      "path": "src/assets/home-three/exhibition.webp",
+      "pages": [
+        "home-3"
+      ]
+    },
+    {
+      "path": "src/assets/home-three/fieldnote-program.webp",
+      "pages": [
+        "home-3"
+      ]
+    },
+    {
+      "path": "src/assets/home-four/hero.webp",
+      "pages": [
+        "home-4"
+      ]
+    },
+    {
+      "path": "src/assets/home-four/discovery.webp",
+      "pages": [
+        "home-4"
+      ]
+    },
+    {
+      "path": "src/assets/home-four/digital.webp",
+      "pages": [
+        "home-4"
+      ]
+    },
+    {
+      "path": "src/assets/home-four/handoff.webp",
+      "pages": [
+        "home-4"
+      ]
+    },
+    {
+      "path": "onepages/assets/images/aura-hero.webp",
+      "pages": [
+        "onepage-showcase"
+      ]
+    },
+    {
+      "path": "onepages/assets/images/aura-detail.webp",
+      "pages": [
+        "onepage-showcase"
+      ]
+    },
+    {
+      "path": "onepages/assets/sequence/aura-001.webp",
+      "pages": [
+        "onepage-showcase"
+      ]
+    },
+    {
+      "path": "onepages/assets/images/aura-living.webp",
+      "pages": [
+        "onepage-showcase"
+      ]
+    },
+    {
+      "path": "onepages/assets/images/service-journey-workshop.webp",
+      "pages": [
+        "onepage-services"
+      ]
+    },
+    {
+      "path": "onepages/assets/images/service-studio.webp",
+      "pages": [
+        "onepage-services"
+      ]
+    },
+    {
+      "path": "onepages/assets/images/service-field-studio.webp",
+      "pages": [
+        "onepage-services"
+      ]
+    },
+    {
+      "path": "onepages/assets/images/service-sector-retail.webp",
+      "pages": [
+        "onepage-services"
+      ]
+    },
+    {
+      "path": "onepages/assets/images/service-sector-learning.webp",
+      "pages": [
+        "onepage-services"
+      ]
+    },
+    {
+      "path": "onepages/assets/images/service-sector-industry.webp",
+      "pages": [
+        "onepage-services"
+      ]
+    },
+    {
+      "path": "onepages/assets/images/service-workshop.webp",
+      "pages": [
+        "onepage-services"
+      ]
+    },
+    {
+      "path": "onepages/assets/images/courtyard.webp",
+      "pages": [
+        "onepage-projects"
+      ]
+    },
+    {
+      "path": "onepages/assets/images/project-hero-walkway.webp",
+      "pages": [
+        "onepage-projects"
+      ]
+    },
+    {
+      "path": "onepages/assets/images/project-hero-dusk.webp",
+      "pages": [
+        "onepage-projects"
+      ]
+    },
+    {
+      "path": "onepages/assets/images/space-studio.webp",
+      "pages": [
+        "onepage-projects"
+      ]
+    },
+    {
+      "path": "onepages/assets/images/courtyard-interior.webp",
+      "pages": [
+        "onepage-projects"
+      ]
+    },
+    {
+      "path": "onepages/assets/images/courtyard-detail.webp",
+      "pages": [
+        "onepage-projects"
+      ]
+    },
+    {
+      "path": "onepages/assets/images/courtyard-colonnade.webp",
+      "pages": [
+        "onepage-projects"
+      ]
+    },
+    {
+      "path": "onepages/assets/images/courtyard-lounge.webp",
+      "pages": [
+        "onepage-projects"
+      ]
+    },
+    {
+      "path": "onepages/assets/images/project-gallery-stair.webp",
+      "pages": [
+        "onepage-projects"
+      ]
+    },
+    {
+      "path": "onepages/assets/images/project-gallery-workroom.webp",
+      "pages": [
+        "onepage-projects"
+      ]
+    },
+    {
+      "path": "onepages/assets/images/courtyard-terrace.webp",
+      "pages": [
+        "onepage-projects"
+      ]
+    },
+    {
+      "path": "onepages/assets/images/space-process.webp",
+      "pages": [
+        "onepage-projects"
+      ]
+    },
+    {
+      "path": "src/assets/images/home-hero.webp",
+      "pages": [
+        "business-list-1",
+        "business-list-2",
+        "business-list-3",
+        "company-overview-1",
+        "company-overview-2",
+        "company-overview-3"
+      ]
+    },
+    {
+      "path": "src/assets/images/home-collaboration.webp",
+      "pages": [
+        "business-detail-1",
+        "business-detail-2",
+        "business-list-1",
+        "business-list-2",
+        "business-list-4",
+        "business-list-5",
+        "company-overview-1",
+        "company-overview-2",
+        "company-overview-3",
+        "company-overview-4",
+        "company-overview-5"
+      ]
+    },
+    {
+      "path": "src/assets/images/home-project.webp",
+      "pages": [
+        "business-detail-2",
+        "business-detail-3",
+        "business-detail-4",
+        "business-list-1",
+        "business-list-2",
+        "business-list-5",
+        "company-overview-2",
+        "company-overview-3",
+        "company-overview-4"
+      ]
+    }
+  ]
+}

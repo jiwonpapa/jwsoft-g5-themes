@@ -1,0 +1,95 @@
+{
+  "result": "collected-not-approved",
+  "page": "onepage-projects",
+  "state": "mobile-light",
+  "url": "https://g5themes.test/pages/onepage-projects.php?device=mobile",
+  "capturedAt": "2026-09-29T01:11:50.027Z",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "fullPage": true,
+  "file": "/Users/neojins/workspace/jwsoft-g5-themes/output/qa/ui/captures/onepage-projects/mobile-light.png",
+  "sha256": "045e8d65e60d536737567fdf9012f3da9b5574ff7e54e0962222876da542279d",
+  "inputDigest": "cb691bf3ea59c471ff2ecc08b433685eb85644570252994d333253f27001839b",
+  "platform": "darwin",
+  "browser": "153.0.8010.12",
+  "errors": [],
+  "mode": "jw-light",
+  "documentHeight": 10438,
+  "overflow": 0,
+  "brokenImages": [],
+  "missingIcons": 0,
+  "reversedText": [],
+  "requirements": [
+    {
+      "id": "page-heading",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "project-scenes",
+      "count": 12,
+      "visible": true
+    },
+    {
+      "id": "project-gallery",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "project-flow",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "spatial-floorplan",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "company-profile",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "delivery-process",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "service-scope",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "project-deliverables",
+      "count": 1,
+      "visible": true
+    }
+  ],
+  "media": [
+    "https://g5themes.test/theme/jw_business/assets/brand/jw-business-light.webp",
+    "https://g5themes.test/theme/jw_business/assets/brand/jw-business-dark.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/project-hero-walkway.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/project-hero-dusk.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/space-studio.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard-interior.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard-detail.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard-colonnade.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard-lounge.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/project-gallery-stair.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/project-gallery-workroom.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard-terrace.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/space-process.webp"
+  ],
+  "regions": {
+    ".jw-footer": {
+      "left": 0,
+      "top": 9956,
+      "width": 390,
+      "height": 482
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "result": "collected-not-approved",
+  "page": "onepage-showcase",
+  "state": "mobile-light",
+  "url": "https://g5themes.test/pages/onepage-showcase.php?device=mobile",
+  "capturedAt": "2026-09-29T01:11:46.042Z",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "fullPage": true,
+  "file": "/Users/neojins/workspace/jwsoft-g5-themes/output/qa/ui/captures/onepage-showcase/mobile-light.png",
+  "sha256": "3f5f23e967dd1b4a45c2d0bb51ecc38f9c0d74d7a2b1613d399329017079430e",
+  "inputDigest": "cb691bf3ea59c471ff2ecc08b433685eb85644570252994d333253f27001839b",
+  "platform": "darwin",
+  "browser": "153.0.8010.12",
+  "errors": [],
+  "mode": "jw-light",
+  "documentHeight": 8574,
+  "overflow": 0,
+  "brokenImages": [],
+  "missingIcons": 0,
+  "reversedText": [],
+  "requirements": [
+    {
+      "id": "page-heading",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "detail-tabs",
+      "count": 3,
+      "visible": true
+    },
+    {
+      "id": "install-diagram",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "product-detail-scene",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "feature-icons",
+      "count": 4,
+      "visible": true
+    },
+    {
+      "id": "product-section-range",
+      "count": 11,
+      "visible": true
+    },
+    {
+      "id": "company-profile",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "product-rotation",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "product-guide",
+      "count": 1,
+      "visible": true
+    }
+  ],
+  "media": [
+    "https://g5themes.test/theme/jw_business/assets/brand/jw-business-light.webp",
+    "https://g5themes.test/theme/jw_business/assets/brand/jw-business-dark.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/aura-hero.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/aura-detail.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/sequence/aura-001.webp?v=1790604654",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/aura-living.webp"
+  ],
+  "regions": {
+    ".jw-footer": {
+      "left": 0,
+      "top": 8091,
+      "width": 390,
+      "height": 482
+    }
+  }
+}

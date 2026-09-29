@@ -1,0 +1,18 @@
+### Result
+[{"n":1,"width":1440,"mode":"light","overflow":false,"svg":1},{"n":1,"width":1440,"mode":"dark","overflow":false,"svg":1},{"n":1,"width":390,"mode":"light","overflow":false,"svg":1},{"n":1,"width":390,"mode":"dark","overflow":false,"svg":1},{"n":2,"width":1440,"mode":"light","overflow":false,"svg":1},{"n":2,"width":1440,"mode":"dark","overflow":false,"svg":1},{"n":2,"width":390,"mode":"light","overflow":false,"svg":1},{"n":2,"width":390,"mode":"dark","overflow":false,"svg":1},{"width":1920,"hero":{"width":807.3125,"height":538.203125,"size":"contain"}},{"width":2560,"hero":{"width":807.3125,"height":538.203125,"size":"contain"}}]
+### Ran Playwright code
+```js
+await (async page => {
+const results=[];for(const n of [1,2]){for(const width of [1440,390]){for(const mode of ['light','dark']){
+ await page.setViewportSize({width,height:1000});await page.goto('http://127.0.0.1:8779/docs/prototypes/seven-sol-main'+n+'-source.html');await page.waitForLoadState('networkidle');await page.evaluate(()=>document.fonts.ready);
+ await page.locator('html').evaluate((e,v)=>e.dataset.theme='jw-'+v,mode);
+ const selector=n===1?'[data-jw-decision-board]':'[data-jwh2-priority-scroll]';await page.locator(selector).scrollIntoViewIfNeeded();await page.waitForTimeout(600);
+ await page.evaluate(()=>window.scrollTo(0,0));await page.waitForTimeout(600);const rect=await page.locator(selector).boundingBox();await page.screenshot({fullPage:true,clip:rect,path:'output/seven-sol-boards-20260929/source-main'+n+'-'+width+'-'+mode+'.png'});
+ results.push({n,width,mode,overflow:await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),svg:await page.locator(n===1?'.decision-diagram>svg:visible':'.jwh2-evidence-map>svg:visible').count()});
+}}}
+for(const width of [1920,2560]){await page.setViewportSize({width,height:1100});await page.goto('http://127.0.0.1:8779/docs/prototypes/seven-sol-main2-source.html');await page.waitForLoadState('networkidle');await page.locator('html').evaluate(e=>e.dataset.theme='jw-light');if(await page.locator('[data-jwh2-play]').innerText()==='멈춤')await page.locator('[data-jwh2-play]').click();await page.locator('[data-jwh2-dot="0"]').click();await page.waitForTimeout(700);await page.screenshot({path:'output/seven-sol-boards-20260929/source-main2-'+width+'-hero.png'});results.push({width,hero:await page.locator('.jwh2-slide__image--strategy').evaluate(e=>({width:e.getBoundingClientRect().width,height:e.getBoundingClientRect().height,size:getComputedStyle(e).backgroundSize}))});}
+return results;})(page);
+```
+### Page
+- Page URL: http://127.0.0.1:8779/docs/prototypes/seven-sol-main2-source.html
+- Page Title: 그누보드5 | 그누보드5

@@ -1,0 +1,2552 @@
+[
+  {
+    "page": "home-1",
+    "width": 360,
+    "height": 844,
+    "url": "https://g5themes.test/theme/jw_business/index_1.php?device=mobile",
+    "capturedAt": "2026-09-29T03:01:22.130Z",
+    "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+    "path": "quality/evidence/seven-correction-20260929/revision-2/risks/home-1-360.png",
+    "sha256": "27efb66d5f49b75fa4453b925b03e0bb412314aeab0eda1ac04791aaae3ac2b2",
+    "result": "collected-not-visually-approved",
+    "mode": "jw-light",
+    "documentHeight": 14000,
+    "overflow": 0,
+    "brokenImages": [],
+    "missingIcons": 0,
+    "reversedText": [],
+    "requirements": [
+      {
+        "id": "page-heading",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "hero-slider",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "service-icons",
+        "count": 3,
+        "visible": true
+      },
+      {
+        "id": "section-range",
+        "count": 12,
+        "visible": true
+      },
+      {
+        "id": "industry-mosaic",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "process-rail",
+        "count": 4,
+        "visible": true
+      },
+      {
+        "id": "case-composition",
+        "count": 3,
+        "visible": true
+      },
+      {
+        "id": "brand-board",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "question-blocks",
+        "count": 4,
+        "visible": true
+      }
+    ],
+    "media": [
+      "https://g5themes.test/theme/jw_business/assets/brand/jw-business-light.webp",
+      "https://g5themes.test/theme/jw_business/assets/brand/jw-business-dark.webp",
+      "https://g5themes.test/theme/jw_business/assets/main-one/strategy.webp",
+      "https://g5themes.test/theme/jw_business/assets/main-one/digital.webp",
+      "https://g5themes.test/theme/jw_business/assets/main-one/brand.webp",
+      "https://g5themes.test/theme/jw_business/assets/main-one/industry-ceramics.webp",
+      "https://g5themes.test/theme/jw_business/assets/main-one/atelier-collection.webp",
+      "https://g5themes.test/theme/jw_business/assets/main-one/atelier-mug.webp",
+      "https://g5themes.test/theme/jw_business/assets/main-one/case-food.webp",
+      "https://g5themes.test/theme/jw_business/assets/main-one/case-learning.webp",
+      "https://g5themes.test/theme/jw_business/assets/main-one/brand-detail.webp"
+    ],
+    "sections": [
+      {
+        "index": 0,
+        "id": "",
+        "heading": "복잡한 선택을선명한 방향으로.",
+        "left": 0,
+        "top": 68,
+        "width": 360,
+        "height": 753
+      },
+      {
+        "index": 1,
+        "id": "services",
+        "heading": "방향을 정하고,경험을 만듭니다.",
+        "left": 0,
+        "top": 821,
+        "width": 360,
+        "height": 769
+      },
+      {
+        "index": 2,
+        "id": "industries",
+        "heading": "업종마다보여줄 장면이 다릅니다.",
+        "left": 0,
+        "top": 1590,
+        "width": 360,
+        "height": 1417
+      },
+      {
+        "index": 3,
+        "id": "strategy",
+        "heading": "결론보다 먼저,선택의 구조를그립니다.",
+        "left": 0,
+        "top": 3007,
+        "width": 360,
+        "height": 1893
+      },
+      {
+        "index": 4,
+        "id": "process",
+        "heading": "생각에서 결과물까지,순서가 보이는 일.",
+        "left": 0,
+        "top": 4900,
+        "width": 360,
+        "height": 1075
+      },
+      {
+        "index": 5,
+        "id": "digital",
+        "heading": "설명보다 빠른 건,직접 보이는 화면입니다.",
+        "left": 0,
+        "top": 5975,
+        "width": 360,
+        "height": 1922
+      },
+      {
+        "index": 6,
+        "id": "showcase",
+        "heading": "하나의 정답 대신,상황에 맞는 장면을.",
+        "left": 0,
+        "top": 7897,
+        "width": 360,
+        "height": 1656
+      },
+      {
+        "index": 7,
+        "id": "brand",
+        "heading": "브랜드는손에 닿을 때완성됩니다.",
+        "left": 0,
+        "top": 9552,
+        "width": 360,
+        "height": 945
+      },
+      {
+        "index": 8,
+        "id": "touchpoints",
+        "heading": "한 가지 인상이,여러 크기로 이어집니다.",
+        "left": 0,
+        "top": 10498,
+        "width": 360,
+        "height": 998
+      },
+      {
+        "index": 9,
+        "id": "questions",
+        "heading": "처음 이야기할 때많이 묻는 것들.",
+        "left": 0,
+        "top": 11496,
+        "width": 360,
+        "height": 949
+      },
+      {
+        "index": 10,
+        "id": "",
+        "heading": "새로운 소식",
+        "left": 0,
+        "top": 12445,
+        "width": 360,
+        "height": 434
+      },
+      {
+        "index": 11,
+        "id": "contact",
+        "heading": "다음 방향의 출발점,지금의 질문 한 가지.",
+        "left": 0,
+        "top": 12879,
+        "width": 360,
+        "height": 639
+      }
+    ],
+    "regions": {
+      ".jw-footer": {
+        "left": 0,
+        "top": 13518,
+        "width": 360,
+        "height": 482
+      }
+    }
+  },
+  {
+    "page": "home-1",
+    "width": 430,
+    "height": 844,
+    "url": "https://g5themes.test/theme/jw_business/index_1.php?device=mobile",
+    "capturedAt": "2026-09-29T03:01:24.132Z",
+    "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+    "path": "quality/evidence/seven-correction-20260929/revision-2/risks/home-1-430.png",
+    "sha256": "4e58bc6f4d72ecc560f446575f7d6820dc7b09147b009fa873b2851608f4fdd7",
+    "result": "collected-not-visually-approved",
+    "mode": "jw-light",
+    "documentHeight": 13907,
+    "overflow": 0,
+    "brokenImages": [],
+    "missingIcons": 0,
+    "reversedText": [],
+    "requirements": [
+      {
+        "id": "page-heading",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "hero-slider",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "service-icons",
+        "count": 3,
+        "visible": true
+      },
+      {
+        "id": "section-range",
+        "count": 12,
+        "visible": true
+      },
+      {
+        "id": "industry-mosaic",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "process-rail",
+        "count": 4,
+        "visible": true
+      },
+      {
+        "id": "case-composition",
+        "count": 3,
+        "visible": true
+      },
+      {
+        "id": "brand-board",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "question-blocks",
+        "count": 4,
+        "visible": true
+      }
+    ],
+    "media": [
+      "https://g5themes.test/theme/jw_business/assets/brand/jw-business-light.webp",
+      "https://g5themes.test/theme/jw_business/assets/brand/jw-business-dark.webp",
+      "https://g5themes.test/theme/jw_business/assets/main-one/strategy.webp",
+      "https://g5themes.test/theme/jw_business/assets/main-one/digital.webp",
+      "https://g5themes.test/theme/jw_business/assets/main-one/brand.webp",
+      "https://g5themes.test/theme/jw_business/assets/main-one/industry-ceramics.webp",
+      "https://g5themes.test/theme/jw_business/assets/main-one/atelier-collection.webp",
+      "https://g5themes.test/theme/jw_business/assets/main-one/atelier-mug.webp",
+      "https://g5themes.test/theme/jw_business/assets/main-one/case-food.webp",
+      "https://g5themes.test/theme/jw_business/assets/main-one/case-learning.webp",
+      "https://g5themes.test/theme/jw_business/assets/main-one/brand-detail.webp"
+    ],
+    "sections": [
+      {
+        "index": 0,
+        "id": "",
+        "heading": "복잡한 선택을선명한 방향으로.",
+        "left": 0,
+        "top": 68,
+        "width": 430,
+        "height": 753
+      },
+      {
+        "index": 1,
+        "id": "services",
+        "heading": "방향을 정하고,경험을 만듭니다.",
+        "left": 0,
+        "top": 821,
+        "width": 430,
+        "height": 769
+      },
+      {
+        "index": 2,
+        "id": "industries",
+        "heading": "업종마다보여줄 장면이 다릅니다.",
+        "left": 0,
+        "top": 1590,
+        "width": 430,
+        "height": 1375
+      },
+      {
+        "index": 3,
+        "id": "strategy",
+        "heading": "결론보다 먼저,선택의 구조를그립니다.",
+        "left": 0,
+        "top": 2965,
+        "width": 430,
+        "height": 2047
+      },
+      {
+        "index": 4,
+        "id": "process",
+        "heading": "생각에서 결과물까지,순서가 보이는 일.",
+        "left": 0,
+        "top": 5012,
+        "width": 430,
+        "height": 951
+      },
+      {
+        "index": 5,
+        "id": "digital",
+        "heading": "설명보다 빠른 건,직접 보이는 화면입니다.",
+        "left": 0,
+        "top": 5963,
+        "width": 430,
+        "height": 1901
+      },
+      {
+        "index": 6,
+        "id": "showcase",
+        "heading": "하나의 정답 대신,상황에 맞는 장면을.",
+        "left": 0,
+        "top": 7865,
+        "width": 430,
+        "height": 1630
+      },
+      {
+        "index": 7,
+        "id": "brand",
+        "heading": "브랜드는손에 닿을 때완성됩니다.",
+        "left": 0,
+        "top": 9495,
+        "width": 430,
+        "height": 936
+      },
+      {
+        "index": 8,
+        "id": "touchpoints",
+        "heading": "한 가지 인상이,여러 크기로 이어집니다.",
+        "left": 0,
+        "top": 10431,
+        "width": 430,
+        "height": 998
+      },
+      {
+        "index": 9,
+        "id": "questions",
+        "heading": "처음 이야기할 때많이 묻는 것들.",
+        "left": 0,
+        "top": 11429,
+        "width": 430,
+        "height": 924
+      },
+      {
+        "index": 10,
+        "id": "",
+        "heading": "새로운 소식",
+        "left": 0,
+        "top": 12353,
+        "width": 430,
+        "height": 434
+      },
+      {
+        "index": 11,
+        "id": "contact",
+        "heading": "다음 방향의 출발점,지금의 질문 한 가지.",
+        "left": 0,
+        "top": 12787,
+        "width": 430,
+        "height": 639
+      }
+    ],
+    "regions": {
+      ".jw-footer": {
+        "left": 0,
+        "top": 13425,
+        "width": 430,
+        "height": 482
+      }
+    }
+  },
+  {
+    "page": "home-2",
+    "width": 360,
+    "height": 844,
+    "url": "https://g5themes.test/theme/jw_business/index_2.php?device=mobile",
+    "capturedAt": "2026-09-29T03:01:25.768Z",
+    "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+    "path": "quality/evidence/seven-correction-20260929/revision-2/risks/home-2-360.png",
+    "sha256": "f7131a06c28d338fa300f3127ce3e12f50a823a700ee82d99f6855dea95b081d",
+    "result": "collected-not-visually-approved",
+    "mode": "jw-light",
+    "documentHeight": 12824,
+    "overflow": 0,
+    "brokenImages": [],
+    "missingIcons": 0,
+    "reversedText": [],
+    "requirements": [
+      {
+        "id": "page-heading",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "hero-slider",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "digital-artifact",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "decision-matrix",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "decision-evidence",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "large-choice-icons",
+        "count": 3,
+        "visible": true
+      },
+      {
+        "id": "journey-map",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "delivery-board",
+        "count": 3,
+        "visible": true
+      }
+    ],
+    "media": [
+      "https://g5themes.test/theme/jw_business/assets/brand/jw-business-light.webp",
+      "https://g5themes.test/theme/jw_business/assets/brand/jw-business-dark.webp",
+      "https://g5themes.test/theme/jw_business/assets/images/home2-decision-workshop.webp",
+      "https://g5themes.test/theme/jw_business/assets/images/home2-strategy.webp",
+      "https://g5themes.test/theme/jw_business/assets/images/home2-evidence-retail.webp",
+      "https://g5themes.test/theme/jw_business/assets/images/home2-correction/operations-playbook.webp",
+      "https://g5themes.test/theme/jw_business/assets/decision-review-BzeIXMGn.webp",
+      "https://g5themes.test/theme/jw_business/assets/home2-digital-BAfUKBwe.webp",
+      "https://g5themes.test/theme/jw_business/assets/home2-operations-Iz1Us8MJ.webp"
+    ],
+    "sections": [
+      {
+        "index": 0,
+        "id": "",
+        "heading": "무엇부터 바꿀지,함께 결정합니다.",
+        "left": 0,
+        "top": 68,
+        "width": 360,
+        "height": 729
+      },
+      {
+        "index": 1,
+        "id": "",
+        "heading": "무엇부터 바꿀지,함께 결정합니다.",
+        "left": 0,
+        "top": 68,
+        "width": 360,
+        "height": 653
+      },
+      {
+        "index": 2,
+        "id": "",
+        "heading": "화면이 아니라,쓰이는 흐름을 만듭니다.",
+        "left": 360,
+        "top": 68,
+        "width": 360,
+        "height": 653
+      },
+      {
+        "index": 3,
+        "id": "",
+        "heading": "현장에서 계속되는경험을 설계합니다.",
+        "left": 720,
+        "top": 68,
+        "width": 360,
+        "height": 653
+      },
+      {
+        "index": 4,
+        "id": "",
+        "heading": "지금 필요한시작점을 고르세요.",
+        "left": 0,
+        "top": 797,
+        "width": 360,
+        "height": 868
+      },
+      {
+        "index": 5,
+        "id": "",
+        "heading": "회의실의 의견을확인할 장면으로.",
+        "left": 0,
+        "top": 1664,
+        "width": 360,
+        "height": 1122
+      },
+      {
+        "index": 6,
+        "id": "",
+        "heading": "급한 일과 중요한 일을같은 자리에 놓습니다.",
+        "left": 0,
+        "top": 2786,
+        "width": 360,
+        "height": 3664
+      },
+      {
+        "index": 7,
+        "id": "",
+        "heading": "문서로 끝나지 않는디지털 결과물",
+        "left": 0,
+        "top": 6450,
+        "width": 360,
+        "height": 1520
+      },
+      {
+        "index": 8,
+        "id": "",
+        "heading": "결정마다 남기는확인 가능한 근거.",
+        "left": 0,
+        "top": 7969,
+        "width": 360,
+        "height": 1101
+      },
+      {
+        "index": 9,
+        "id": "",
+        "heading": "담당자가 이어 쓸결과물까지.",
+        "left": 0,
+        "top": 9070,
+        "width": 360,
+        "height": 1453
+      },
+      {
+        "index": 10,
+        "id": "",
+        "heading": "한 번의 제안보다,이어지는 판단을 만듭니다.",
+        "left": 0,
+        "top": 10522,
+        "width": 360,
+        "height": 1252
+      },
+      {
+        "index": 11,
+        "id": "",
+        "heading": "지금 막힌 지점부터함께 살펴보겠습니다.",
+        "left": 0,
+        "top": 11775,
+        "width": 360,
+        "height": 567
+      }
+    ],
+    "regions": {
+      ".jw-footer": {
+        "left": 0,
+        "top": 12342,
+        "width": 360,
+        "height": 482
+      }
+    }
+  },
+  {
+    "page": "home-2",
+    "width": 430,
+    "height": 844,
+    "url": "https://g5themes.test/theme/jw_business/index_2.php?device=mobile",
+    "capturedAt": "2026-09-29T03:01:27.520Z",
+    "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+    "path": "quality/evidence/seven-correction-20260929/revision-2/risks/home-2-430.png",
+    "sha256": "c7edadeefa6cd180bf32bca7ce55d4a017830aa53451d07a4027f4d676dcec97",
+    "result": "collected-not-visually-approved",
+    "mode": "jw-light",
+    "documentHeight": 12820,
+    "overflow": 0,
+    "brokenImages": [],
+    "missingIcons": 0,
+    "reversedText": [],
+    "requirements": [
+      {
+        "id": "page-heading",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "hero-slider",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "digital-artifact",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "decision-matrix",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "decision-evidence",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "large-choice-icons",
+        "count": 3,
+        "visible": true
+      },
+      {
+        "id": "journey-map",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "delivery-board",
+        "count": 3,
+        "visible": true
+      }
+    ],
+    "media": [
+      "https://g5themes.test/theme/jw_business/assets/brand/jw-business-light.webp",
+      "https://g5themes.test/theme/jw_business/assets/brand/jw-business-dark.webp",
+      "https://g5themes.test/theme/jw_business/assets/images/home2-decision-workshop.webp",
+      "https://g5themes.test/theme/jw_business/assets/images/home2-strategy.webp",
+      "https://g5themes.test/theme/jw_business/assets/images/home2-evidence-retail.webp",
+      "https://g5themes.test/theme/jw_business/assets/images/home2-correction/operations-playbook.webp",
+      "https://g5themes.test/theme/jw_business/assets/decision-review-BzeIXMGn.webp",
+      "https://g5themes.test/theme/jw_business/assets/home2-digital-BAfUKBwe.webp",
+      "https://g5themes.test/theme/jw_business/assets/home2-operations-Iz1Us8MJ.webp"
+    ],
+    "sections": [
+      {
+        "index": 0,
+        "id": "",
+        "heading": "무엇부터 바꿀지,함께 결정합니다.",
+        "left": 0,
+        "top": 68,
+        "width": 430,
+        "height": 707
+      },
+      {
+        "index": 1,
+        "id": "",
+        "heading": "무엇부터 바꿀지,함께 결정합니다.",
+        "left": 0,
+        "top": 68,
+        "width": 430,
+        "height": 631
+      },
+      {
+        "index": 2,
+        "id": "",
+        "heading": "화면이 아니라,쓰이는 흐름을 만듭니다.",
+        "left": 430,
+        "top": 68,
+        "width": 430,
+        "height": 631
+      },
+      {
+        "index": 3,
+        "id": "",
+        "heading": "현장에서 계속되는경험을 설계합니다.",
+        "left": 860,
+        "top": 68,
+        "width": 430,
+        "height": 631
+      },
+      {
+        "index": 4,
+        "id": "",
+        "heading": "지금 필요한시작점을 고르세요.",
+        "left": 0,
+        "top": 775,
+        "width": 430,
+        "height": 817
+      },
+      {
+        "index": 5,
+        "id": "",
+        "heading": "회의실의 의견을확인할 장면으로.",
+        "left": 0,
+        "top": 1591,
+        "width": 430,
+        "height": 1166
+      },
+      {
+        "index": 6,
+        "id": "",
+        "heading": "급한 일과 중요한 일을같은 자리에 놓습니다.",
+        "left": 0,
+        "top": 2757,
+        "width": 430,
+        "height": 3724
+      },
+      {
+        "index": 7,
+        "id": "",
+        "heading": "문서로 끝나지 않는디지털 결과물",
+        "left": 0,
+        "top": 6481,
+        "width": 430,
+        "height": 1492
+      },
+      {
+        "index": 8,
+        "id": "",
+        "heading": "결정마다 남기는확인 가능한 근거.",
+        "left": 0,
+        "top": 7973,
+        "width": 430,
+        "height": 1101
+      },
+      {
+        "index": 9,
+        "id": "",
+        "heading": "담당자가 이어 쓸결과물까지.",
+        "left": 0,
+        "top": 9073,
+        "width": 430,
+        "height": 1445
+      },
+      {
+        "index": 10,
+        "id": "",
+        "heading": "한 번의 제안보다,이어지는 판단을 만듭니다.",
+        "left": 0,
+        "top": 10518,
+        "width": 430,
+        "height": 1252
+      },
+      {
+        "index": 11,
+        "id": "",
+        "heading": "지금 막힌 지점부터함께 살펴보겠습니다.",
+        "left": 0,
+        "top": 11771,
+        "width": 430,
+        "height": 567
+      }
+    ],
+    "regions": {
+      ".jw-footer": {
+        "left": 0,
+        "top": 12338,
+        "width": 430,
+        "height": 482
+      }
+    }
+  },
+  {
+    "page": "home-3",
+    "width": 360,
+    "height": 844,
+    "url": "https://g5themes.test/theme/jw_business/index_3.php?device=mobile",
+    "capturedAt": "2026-09-29T03:01:28.905Z",
+    "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+    "path": "quality/evidence/seven-correction-20260929/revision-2/risks/home-3-360.png",
+    "sha256": "494a1c5cc3544f2ac306552415969c4147f2fb72a0f75fed307251ae972eab08",
+    "result": "collected-not-visually-approved",
+    "mode": "jw-light",
+    "documentHeight": 7762,
+    "overflow": 0,
+    "brokenImages": [],
+    "missingIcons": 0,
+    "reversedText": [],
+    "requirements": [
+      {
+        "id": "page-heading",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "wayfinding-map",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "exhibition-photo",
+        "count": 1,
+        "visible": true
+      }
+    ],
+    "media": [
+      "https://g5themes.test/theme/jw_business/assets/brand/jw-business-light.webp",
+      "https://g5themes.test/theme/jw_business/assets/brand/jw-business-dark.webp",
+      "https://g5themes.test/theme/jw_business/assets/home-three/mobility.webp",
+      "https://g5themes.test/theme/jw_business/assets/home-three/print.webp",
+      "https://g5themes.test/theme/jw_business/assets/home-three/exhibition.webp",
+      "https://g5themes.test/theme/jw_business/assets/home-three/fieldnote-program.webp",
+      "https://g5themes.test/theme/jw_business/assets/home-three/correction/fieldnote-editorial.webp"
+    ],
+    "sections": [
+      {
+        "index": 0,
+        "id": "",
+        "heading": "같은 브랜드,서로 다른 만남.",
+        "left": 20,
+        "top": 773,
+        "width": 320,
+        "height": 396
+      },
+      {
+        "index": 1,
+        "id": "work-mobility",
+        "heading": "처음 온 사람도길을 잃지 않도록.",
+        "left": 0,
+        "top": 1169,
+        "width": 360,
+        "height": 1010
+      },
+      {
+        "index": 2,
+        "id": "work-print",
+        "heading": "브랜드를손에 쥐는 순간.",
+        "left": 20,
+        "top": 2178,
+        "width": 320,
+        "height": 924
+      },
+      {
+        "index": 3,
+        "id": "work-exhibition",
+        "heading": "그래픽이 공간을만나는 순간.",
+        "left": 20,
+        "top": 3102,
+        "width": 320,
+        "height": 706
+      },
+      {
+        "index": 4,
+        "id": "work-digital",
+        "heading": "발견에서 선택까지,흐름이 있는 화면.",
+        "left": 0,
+        "top": 3808,
+        "width": 360,
+        "height": 1223
+      },
+      {
+        "index": 5,
+        "id": "",
+        "heading": "매체마다 달라지는읽는 거리와 밀도.",
+        "left": 0,
+        "top": 5031,
+        "width": 360,
+        "height": 1482
+      },
+      {
+        "index": 6,
+        "id": "",
+        "heading": "다음 결과물은어떤 모습이어야 할까요?",
+        "left": 0,
+        "top": 6512,
+        "width": 360,
+        "height": 767
+      }
+    ],
+    "regions": {
+      ".jw-footer": {
+        "left": 0,
+        "top": 7280,
+        "width": 360,
+        "height": 482
+      }
+    }
+  },
+  {
+    "page": "home-3",
+    "width": 430,
+    "height": 844,
+    "url": "https://g5themes.test/theme/jw_business/index_3.php?device=mobile",
+    "capturedAt": "2026-09-29T03:01:30.368Z",
+    "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+    "path": "quality/evidence/seven-correction-20260929/revision-2/risks/home-3-430.png",
+    "sha256": "5d9d41314674af06727c118f20d25d7dd74c2e75f3df6cfbebe1a0fb0f6c1b3d",
+    "result": "collected-not-visually-approved",
+    "mode": "jw-light",
+    "documentHeight": 7814,
+    "overflow": 0,
+    "brokenImages": [],
+    "missingIcons": 0,
+    "reversedText": [],
+    "requirements": [
+      {
+        "id": "page-heading",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "wayfinding-map",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "exhibition-photo",
+        "count": 1,
+        "visible": true
+      }
+    ],
+    "media": [
+      "https://g5themes.test/theme/jw_business/assets/brand/jw-business-light.webp",
+      "https://g5themes.test/theme/jw_business/assets/brand/jw-business-dark.webp",
+      "https://g5themes.test/theme/jw_business/assets/home-three/mobility.webp",
+      "https://g5themes.test/theme/jw_business/assets/home-three/print.webp",
+      "https://g5themes.test/theme/jw_business/assets/home-three/exhibition.webp",
+      "https://g5themes.test/theme/jw_business/assets/home-three/fieldnote-program.webp",
+      "https://g5themes.test/theme/jw_business/assets/home-three/correction/fieldnote-editorial.webp"
+    ],
+    "sections": [
+      {
+        "index": 0,
+        "id": "",
+        "heading": "같은 브랜드,서로 다른 만남.",
+        "left": 20,
+        "top": 773,
+        "width": 390,
+        "height": 396
+      },
+      {
+        "index": 1,
+        "id": "work-mobility",
+        "heading": "처음 온 사람도길을 잃지 않도록.",
+        "left": 0,
+        "top": 1169,
+        "width": 430,
+        "height": 1015
+      },
+      {
+        "index": 2,
+        "id": "work-print",
+        "heading": "브랜드를손에 쥐는 순간.",
+        "left": 20,
+        "top": 2184,
+        "width": 390,
+        "height": 957
+      },
+      {
+        "index": 3,
+        "id": "work-exhibition",
+        "heading": "그래픽이 공간을만나는 순간.",
+        "left": 20,
+        "top": 3141,
+        "width": 390,
+        "height": 706
+      },
+      {
+        "index": 4,
+        "id": "work-digital",
+        "heading": "발견에서 선택까지,흐름이 있는 화면.",
+        "left": 0,
+        "top": 3847,
+        "width": 430,
+        "height": 1198
+      },
+      {
+        "index": 5,
+        "id": "",
+        "heading": "매체마다 달라지는읽는 거리와 밀도.",
+        "left": 0,
+        "top": 5044,
+        "width": 430,
+        "height": 1520
+      },
+      {
+        "index": 6,
+        "id": "",
+        "heading": "다음 결과물은어떤 모습이어야 할까요?",
+        "left": 0,
+        "top": 6565,
+        "width": 430,
+        "height": 767
+      }
+    ],
+    "regions": {
+      ".jw-footer": {
+        "left": 0,
+        "top": 7332,
+        "width": 430,
+        "height": 482
+      }
+    }
+  },
+  {
+    "page": "home-4",
+    "width": 360,
+    "height": 844,
+    "url": "https://g5themes.test/theme/jw_business/index_4.php?device=mobile",
+    "capturedAt": "2026-09-29T03:01:31.868Z",
+    "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+    "path": "quality/evidence/seven-correction-20260929/revision-2/risks/home-4-360.png",
+    "sha256": "92113454695036737a519993d46bf031e582f5febe0ac8489c29d7907d7c58c5",
+    "result": "collected-not-visually-approved",
+    "mode": "jw-light",
+    "documentHeight": 9709,
+    "overflow": 0,
+    "brokenImages": [],
+    "missingIcons": 0,
+    "reversedText": [],
+    "requirements": [
+      {
+        "id": "page-heading",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "artifact-variants",
+        "count": 4,
+        "visible": true
+      },
+      {
+        "id": "dedicated-images",
+        "count": 6,
+        "visible": true
+      },
+      {
+        "id": "large-process-icons",
+        "count": 4,
+        "visible": true
+      },
+      {
+        "id": "aligned-insights",
+        "count": 2,
+        "visible": true
+      }
+    ],
+    "media": [
+      "https://g5themes.test/theme/jw_business/assets/brand/jw-business-light.webp",
+      "https://g5themes.test/theme/jw_business/assets/brand/jw-business-dark.webp",
+      "https://g5themes.test/theme/jw_business/assets/home-four/hero.webp",
+      "https://g5themes.test/theme/jw_business/assets/home-four/discovery.webp",
+      "https://g5themes.test/theme/jw_business/assets/home-four/journey-products.webp",
+      "https://g5themes.test/theme/jw_business/assets/home-four/experience-pack.webp",
+      "https://g5themes.test/theme/jw_business/assets/home-four/digital.webp",
+      "https://g5themes.test/theme/jw_business/assets/home-four/handoff.webp"
+    ],
+    "sections": [
+      {
+        "index": 0,
+        "id": "",
+        "heading": "생각을 모아, 결과로 만듭니다.",
+        "left": 20,
+        "top": 68,
+        "width": 320,
+        "height": 618
+      },
+      {
+        "index": 1,
+        "id": "h4-process",
+        "heading": "함께 만드는 네 가지 순간.",
+        "left": 0,
+        "top": 686,
+        "width": 360,
+        "height": 846
+      },
+      {
+        "index": 2,
+        "id": "h4-discovery",
+        "heading": "좋은 질문에서 시작합니다.",
+        "left": 20,
+        "top": 1532,
+        "width": 320,
+        "height": 975
+      },
+      {
+        "index": 3,
+        "id": "h4-strategy",
+        "heading": "고객의 다음 행동을 함께 설계합니다.",
+        "left": 0,
+        "top": 2507,
+        "width": 360,
+        "height": 1299
+      },
+      {
+        "index": 4,
+        "id": "h4-digital",
+        "heading": "보는 인상과 쓰는 경험을 함께.",
+        "left": 20,
+        "top": 3806,
+        "width": 320,
+        "height": 1185
+      },
+      {
+        "index": 5,
+        "id": "h4-brand",
+        "heading": "하나의 인상을, 모든 접점에.",
+        "left": 0,
+        "top": 4991,
+        "width": 360,
+        "height": 1005
+      },
+      {
+        "index": 6,
+        "id": "h4-handoff",
+        "heading": "완성 이후에도 잘 쓰이도록.",
+        "left": 20,
+        "top": 5996,
+        "width": 320,
+        "height": 1832
+      },
+      {
+        "index": 7,
+        "id": "",
+        "heading": "시작하기 전에 궁금한 이야기.",
+        "left": 0,
+        "top": 7828,
+        "width": 360,
+        "height": 769
+      },
+      {
+        "index": 8,
+        "id": "",
+        "heading": "우리의 다음 결과물,함께 정해볼까요?",
+        "left": 0,
+        "top": 8596,
+        "width": 360,
+        "height": 630
+      }
+    ],
+    "regions": {
+      ".h4-process": {
+        "left": 0,
+        "top": 686,
+        "width": 360,
+        "height": 846
+      },
+      ".jw-footer": {
+        "left": 0,
+        "top": 9227,
+        "width": 360,
+        "height": 482
+      }
+    }
+  },
+  {
+    "page": "home-4",
+    "width": 430,
+    "height": 844,
+    "url": "https://g5themes.test/theme/jw_business/index_4.php?device=mobile",
+    "capturedAt": "2026-09-29T03:01:33.402Z",
+    "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+    "path": "quality/evidence/seven-correction-20260929/revision-2/risks/home-4-430.png",
+    "sha256": "8925f702f9986c03b7fcc3d9a0e4a51c8562027641485331643e1ded60f2cafb",
+    "result": "collected-not-visually-approved",
+    "mode": "jw-light",
+    "documentHeight": 9813,
+    "overflow": 0,
+    "brokenImages": [],
+    "missingIcons": 0,
+    "reversedText": [],
+    "requirements": [
+      {
+        "id": "page-heading",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "artifact-variants",
+        "count": 4,
+        "visible": true
+      },
+      {
+        "id": "dedicated-images",
+        "count": 6,
+        "visible": true
+      },
+      {
+        "id": "large-process-icons",
+        "count": 4,
+        "visible": true
+      },
+      {
+        "id": "aligned-insights",
+        "count": 2,
+        "visible": true
+      }
+    ],
+    "media": [
+      "https://g5themes.test/theme/jw_business/assets/brand/jw-business-light.webp",
+      "https://g5themes.test/theme/jw_business/assets/brand/jw-business-dark.webp",
+      "https://g5themes.test/theme/jw_business/assets/home-four/hero.webp",
+      "https://g5themes.test/theme/jw_business/assets/home-four/discovery.webp",
+      "https://g5themes.test/theme/jw_business/assets/home-four/journey-products.webp",
+      "https://g5themes.test/theme/jw_business/assets/home-four/experience-pack.webp",
+      "https://g5themes.test/theme/jw_business/assets/home-four/digital.webp",
+      "https://g5themes.test/theme/jw_business/assets/home-four/handoff.webp"
+    ],
+    "sections": [
+      {
+        "index": 0,
+        "id": "",
+        "heading": "생각을 모아, 결과로 만듭니다.",
+        "left": 20,
+        "top": 68,
+        "width": 390,
+        "height": 681
+      },
+      {
+        "index": 1,
+        "id": "h4-process",
+        "heading": "함께 만드는 네 가지 순간.",
+        "left": 0,
+        "top": 749,
+        "width": 430,
+        "height": 820
+      },
+      {
+        "index": 2,
+        "id": "h4-discovery",
+        "heading": "좋은 질문에서 시작합니다.",
+        "left": 20,
+        "top": 1569,
+        "width": 390,
+        "height": 1012
+      },
+      {
+        "index": 3,
+        "id": "h4-strategy",
+        "heading": "고객의 다음 행동을 함께 설계합니다.",
+        "left": 0,
+        "top": 2581,
+        "width": 430,
+        "height": 1279
+      },
+      {
+        "index": 4,
+        "id": "h4-digital",
+        "heading": "보는 인상과 쓰는 경험을 함께.",
+        "left": 20,
+        "top": 3861,
+        "width": 390,
+        "height": 1228
+      },
+      {
+        "index": 5,
+        "id": "h4-brand",
+        "heading": "하나의 인상을, 모든 접점에.",
+        "left": 0,
+        "top": 5088,
+        "width": 430,
+        "height": 1059
+      },
+      {
+        "index": 6,
+        "id": "h4-handoff",
+        "heading": "완성 이후에도 잘 쓰이도록.",
+        "left": 20,
+        "top": 6147,
+        "width": 390,
+        "height": 1810
+      },
+      {
+        "index": 7,
+        "id": "",
+        "heading": "시작하기 전에 궁금한 이야기.",
+        "left": 0,
+        "top": 7957,
+        "width": 430,
+        "height": 743
+      },
+      {
+        "index": 8,
+        "id": "",
+        "heading": "우리의 다음 결과물,함께 정해볼까요?",
+        "left": 0,
+        "top": 8700,
+        "width": 430,
+        "height": 630
+      }
+    ],
+    "regions": {
+      ".h4-process": {
+        "left": 0,
+        "top": 749,
+        "width": 430,
+        "height": 820
+      },
+      ".jw-footer": {
+        "left": 0,
+        "top": 9331,
+        "width": 430,
+        "height": 482
+      }
+    }
+  },
+  {
+    "page": "onepage-showcase",
+    "width": 360,
+    "height": 844,
+    "url": "https://g5themes.test/pages/onepage-showcase.php?device=mobile",
+    "capturedAt": "2026-09-29T03:01:34.834Z",
+    "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+    "path": "quality/evidence/seven-correction-20260929/revision-2/risks/onepage-showcase-360.png",
+    "sha256": "ab981060b914fcd2589b4159c3b1ba68e621d1a418b7e209ae39134c36906881",
+    "result": "collected-not-visually-approved",
+    "mode": "jw-light",
+    "documentHeight": 8598,
+    "overflow": 0,
+    "brokenImages": [],
+    "missingIcons": 0,
+    "reversedText": [],
+    "requirements": [
+      {
+        "id": "page-heading",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "detail-tabs",
+        "count": 3,
+        "visible": true
+      },
+      {
+        "id": "install-diagram",
+        "count": 1,
+        "visible": false
+      },
+      {
+        "id": "product-detail-scene",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "feature-icons",
+        "count": 4,
+        "visible": true
+      },
+      {
+        "id": "product-section-range",
+        "count": 11,
+        "visible": true
+      },
+      {
+        "id": "company-profile",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "product-rotation",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "product-guide",
+        "count": 1,
+        "visible": true
+      }
+    ],
+    "media": [
+      "https://g5themes.test/theme/jw_business/assets/brand/jw-business-light.webp",
+      "https://g5themes.test/theme/jw_business/assets/brand/jw-business-dark.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/correction/aura-hero.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/correction/aura-detail.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/sequence/aura-001.webp?v=1790650747",
+      "https://g5themes.test/theme/jw_business/onepages/assets/correction/aura-living.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/correction/aura-wood.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/correction/aura-metal.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/correction/aura-fabric.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/correction/aura-front.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/correction/aura-placement.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/correction/aura-setup.webp"
+    ],
+    "sections": [
+      {
+        "index": 0,
+        "id": "aura-top",
+        "heading": "공간에 스며드는소리의 형태.",
+        "left": 20,
+        "top": 154,
+        "width": 320,
+        "height": 762
+      },
+      {
+        "index": 1,
+        "id": "aura-brand",
+        "heading": "듣는 물건에서,함께 사는 물건으로.",
+        "left": 24,
+        "top": 916,
+        "width": 312,
+        "height": 702
+      },
+      {
+        "index": 2,
+        "id": "",
+        "heading": "자연스러운 월넛",
+        "left": 24,
+        "top": 1618,
+        "width": 312,
+        "height": 349
+      },
+      {
+        "index": 3,
+        "id": "aura-design",
+        "heading": "가까이서 느끼는만듦새의 차이.",
+        "left": 24,
+        "top": 1967,
+        "width": 312,
+        "height": 907
+      },
+      {
+        "index": 4,
+        "id": "aura-rotation",
+        "heading": "한 바퀴,다른 각도로 만나보세요.",
+        "left": 0,
+        "top": 2874,
+        "width": 360,
+        "height": 646
+      },
+      {
+        "index": 5,
+        "id": "aura-space",
+        "heading": "좋아하는 시간에,자연스럽게 함께.",
+        "left": 0,
+        "top": 3520,
+        "width": 360,
+        "height": 629
+      },
+      {
+        "index": 6,
+        "id": "aura-details",
+        "heading": "보이는 아름다움,생각한 쓰임.",
+        "left": 24,
+        "top": 4149,
+        "width": 312,
+        "height": 1129
+      },
+      {
+        "index": 7,
+        "id": "aura-material",
+        "left": 24,
+        "top": 4487,
+        "width": 312,
+        "height": 671
+      },
+      {
+        "index": 8,
+        "id": "",
+        "heading": "음악이 있는 하루를더 가볍게.",
+        "left": 0,
+        "top": 5278,
+        "width": 360,
+        "height": 765
+      },
+      {
+        "index": 9,
+        "id": "aura-guide",
+        "heading": "처음 놓는 순간부터오래 쓰는 날까지.",
+        "left": 0,
+        "top": 6043,
+        "width": 360,
+        "height": 1098
+      },
+      {
+        "index": 10,
+        "id": "",
+        "heading": "오래 함께하려면.",
+        "left": 0,
+        "top": 7140,
+        "width": 360,
+        "height": 560
+      },
+      {
+        "index": 11,
+        "id": "aura-contact",
+        "heading": "어떤 공간에음악을 놓으시겠어요?",
+        "left": 0,
+        "top": 7700,
+        "width": 360,
+        "height": 340
+      }
+    ],
+    "regions": {
+      ".jw-footer": {
+        "left": 0,
+        "top": 8116,
+        "width": 360,
+        "height": 482
+      }
+    }
+  },
+  {
+    "page": "onepage-showcase",
+    "width": 430,
+    "height": 844,
+    "url": "https://g5themes.test/pages/onepage-showcase.php?device=mobile",
+    "capturedAt": "2026-09-29T03:01:36.269Z",
+    "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+    "path": "quality/evidence/seven-correction-20260929/revision-2/risks/onepage-showcase-430.png",
+    "sha256": "c6f9ac1a6c327da1c20a5dc4385b2cfe927bfd9b4a1b407efa4441499b518632",
+    "result": "collected-not-visually-approved",
+    "mode": "jw-light",
+    "documentHeight": 8618,
+    "overflow": 0,
+    "brokenImages": [],
+    "missingIcons": 0,
+    "reversedText": [],
+    "requirements": [
+      {
+        "id": "page-heading",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "detail-tabs",
+        "count": 3,
+        "visible": true
+      },
+      {
+        "id": "install-diagram",
+        "count": 1,
+        "visible": false
+      },
+      {
+        "id": "product-detail-scene",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "feature-icons",
+        "count": 4,
+        "visible": true
+      },
+      {
+        "id": "product-section-range",
+        "count": 11,
+        "visible": true
+      },
+      {
+        "id": "company-profile",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "product-rotation",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "product-guide",
+        "count": 1,
+        "visible": true
+      }
+    ],
+    "media": [
+      "https://g5themes.test/theme/jw_business/assets/brand/jw-business-light.webp",
+      "https://g5themes.test/theme/jw_business/assets/brand/jw-business-dark.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/correction/aura-hero.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/correction/aura-detail.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/sequence/aura-001.webp?v=1790650747",
+      "https://g5themes.test/theme/jw_business/onepages/assets/correction/aura-living.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/correction/aura-wood.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/correction/aura-metal.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/correction/aura-fabric.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/correction/aura-front.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/correction/aura-placement.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/correction/aura-setup.webp"
+    ],
+    "sections": [
+      {
+        "index": 0,
+        "id": "aura-top",
+        "heading": "공간에 스며드는소리의 형태.",
+        "left": 20,
+        "top": 154,
+        "width": 390,
+        "height": 778
+      },
+      {
+        "index": 1,
+        "id": "aura-brand",
+        "heading": "듣는 물건에서,함께 사는 물건으로.",
+        "left": 24,
+        "top": 932,
+        "width": 382,
+        "height": 674
+      },
+      {
+        "index": 2,
+        "id": "",
+        "heading": "자연스러운 월넛",
+        "left": 24,
+        "top": 1605,
+        "width": 382,
+        "height": 349
+      },
+      {
+        "index": 3,
+        "id": "aura-design",
+        "heading": "가까이서 느끼는만듦새의 차이.",
+        "left": 24,
+        "top": 1954,
+        "width": 382,
+        "height": 949
+      },
+      {
+        "index": 4,
+        "id": "aura-rotation",
+        "heading": "한 바퀴,다른 각도로 만나보세요.",
+        "left": 0,
+        "top": 2903,
+        "width": 430,
+        "height": 677
+      },
+      {
+        "index": 5,
+        "id": "aura-space",
+        "heading": "좋아하는 시간에,자연스럽게 함께.",
+        "left": 0,
+        "top": 3581,
+        "width": 430,
+        "height": 629
+      },
+      {
+        "index": 6,
+        "id": "aura-details",
+        "heading": "보이는 아름다움,생각한 쓰임.",
+        "left": 24,
+        "top": 4210,
+        "width": 382,
+        "height": 1114
+      },
+      {
+        "index": 7,
+        "id": "aura-material",
+        "left": 24,
+        "top": 4548,
+        "width": 382,
+        "height": 656
+      },
+      {
+        "index": 8,
+        "id": "",
+        "heading": "음악이 있는 하루를더 가볍게.",
+        "left": 0,
+        "top": 5324,
+        "width": 430,
+        "height": 713
+      },
+      {
+        "index": 9,
+        "id": "aura-guide",
+        "heading": "처음 놓는 순간부터오래 쓰는 날까지.",
+        "left": 0,
+        "top": 6037,
+        "width": 430,
+        "height": 1124
+      },
+      {
+        "index": 10,
+        "id": "",
+        "heading": "오래 함께하려면.",
+        "left": 0,
+        "top": 7160,
+        "width": 430,
+        "height": 560
+      },
+      {
+        "index": 11,
+        "id": "aura-contact",
+        "heading": "어떤 공간에음악을 놓으시겠어요?",
+        "left": 0,
+        "top": 7720,
+        "width": 430,
+        "height": 340
+      }
+    ],
+    "regions": {
+      ".jw-footer": {
+        "left": 0,
+        "top": 8136,
+        "width": 430,
+        "height": 482
+      }
+    }
+  },
+  {
+    "page": "onepage-services",
+    "width": 360,
+    "height": 844,
+    "url": "https://g5themes.test/pages/onepage-services.php?device=mobile",
+    "capturedAt": "2026-09-29T03:01:38.189Z",
+    "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+    "path": "quality/evidence/seven-correction-20260929/revision-2/risks/onepage-services-360.png",
+    "sha256": "5b5354059c044c2d15eba06681607f4f0c3fd78797e658fc884c6c695cc0106e",
+    "result": "collected-not-visually-approved",
+    "mode": "jw-light",
+    "documentHeight": 15352,
+    "overflow": 0,
+    "brokenImages": [],
+    "missingIcons": 0,
+    "reversedText": [],
+    "requirements": [
+      {
+        "id": "page-heading",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "service-board",
+        "count": 3,
+        "visible": true
+      },
+      {
+        "id": "customer-journey",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "delivery-sample",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "large-service-icons",
+        "count": 3,
+        "visible": true
+      },
+      {
+        "id": "delivery-files",
+        "count": 3,
+        "visible": true
+      },
+      {
+        "id": "service-section-range",
+        "count": 12,
+        "visible": true
+      },
+      {
+        "id": "company-profile",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "delivery-process",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "engagement-scope",
+        "count": 1,
+        "visible": true
+      }
+    ],
+    "media": [
+      "https://g5themes.test/theme/jw_business/assets/brand/jw-business-light.webp",
+      "https://g5themes.test/theme/jw_business/assets/brand/jw-business-dark.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/correction/service-ondo-studio.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/images/service-studio.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/correction/service-ondo-first-cup.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/correction/service-ondo-course-works.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/images/service-sector-retail.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/images/service-sector-learning.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/images/service-sector-industry.webp"
+    ],
+    "sections": [
+      {
+        "index": 0,
+        "id": "service-top",
+        "heading": "고객의 질문이쓰이는 서비스로.",
+        "left": 24,
+        "top": 154,
+        "width": 312,
+        "height": 1314
+      },
+      {
+        "index": 1,
+        "id": "service-scope",
+        "heading": "좋은 질문이좋은 결과를 만듭니다.",
+        "left": 0,
+        "top": 1468,
+        "width": 360,
+        "height": 2016
+      },
+      {
+        "index": 2,
+        "id": "service-studio",
+        "heading": "다른 전문성,같은 테이블.",
+        "left": 24,
+        "top": 3484,
+        "width": 312,
+        "height": 1025
+      },
+      {
+        "index": 3,
+        "id": "service-process",
+        "heading": "발견에서 신청까지,다음 질문이 보이도록.",
+        "left": 0,
+        "top": 4509,
+        "width": 360,
+        "height": 1120
+      },
+      {
+        "index": 4,
+        "id": "",
+        "left": 24,
+        "top": 4824,
+        "width": 312,
+        "height": 627
+      },
+      {
+        "index": 5,
+        "id": "service-case",
+        "heading": "설명 문서가쓰이는 화면이 되도록.",
+        "left": 24,
+        "top": 5629,
+        "width": 312,
+        "height": 1071
+      },
+      {
+        "index": 6,
+        "id": "",
+        "heading": "같은 방법,다른 사업의 맥락.",
+        "left": 0,
+        "top": 6701,
+        "width": 360,
+        "height": 1713
+      },
+      {
+        "index": 7,
+        "id": "",
+        "heading": "담당자가 바뀌어도,같은 기준으로.",
+        "left": 24,
+        "top": 8413,
+        "width": 312,
+        "height": 1182
+      },
+      {
+        "index": 8,
+        "id": "service-roadmap",
+        "heading": "다음 단계가 보이는프로젝트 진행.",
+        "left": 0,
+        "top": 9595,
+        "width": 360,
+        "height": 933
+      },
+      {
+        "index": 9,
+        "id": "",
+        "heading": "화면과 문서,서로 이어지는 결과물.",
+        "left": 0,
+        "top": 10528,
+        "width": 360,
+        "height": 2161
+      },
+      {
+        "index": 10,
+        "id": "",
+        "heading": "필요한 만큼,함께할 범위를 정합니다.",
+        "left": 24,
+        "top": 12689,
+        "width": 312,
+        "height": 809
+      },
+      {
+        "index": 11,
+        "id": "service-faq",
+        "heading": "시작하기 전,궁금한 것들.",
+        "left": 0,
+        "top": 13498,
+        "width": 360,
+        "height": 677
+      },
+      {
+        "index": 12,
+        "id": "service-contact",
+        "heading": "지금의 질문에서함께 시작합니다.",
+        "left": 0,
+        "top": 14175,
+        "width": 360,
+        "height": 619
+      }
+    ],
+    "regions": {
+      ".jw-footer": {
+        "left": 0,
+        "top": 14870,
+        "width": 360,
+        "height": 482
+      }
+    }
+  },
+  {
+    "page": "onepage-services",
+    "width": 430,
+    "height": 844,
+    "url": "https://g5themes.test/pages/onepage-services.php?device=mobile",
+    "capturedAt": "2026-09-29T03:01:40.269Z",
+    "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+    "path": "quality/evidence/seven-correction-20260929/revision-2/risks/onepage-services-430.png",
+    "sha256": "f3d8361e690dcc5eafb7858ddc29c3c4791f357aa3320de518a48aa097906b3b",
+    "result": "collected-not-visually-approved",
+    "mode": "jw-light",
+    "documentHeight": 15149,
+    "overflow": 0,
+    "brokenImages": [],
+    "missingIcons": 0,
+    "reversedText": [],
+    "requirements": [
+      {
+        "id": "page-heading",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "service-board",
+        "count": 3,
+        "visible": true
+      },
+      {
+        "id": "customer-journey",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "delivery-sample",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "large-service-icons",
+        "count": 3,
+        "visible": true
+      },
+      {
+        "id": "delivery-files",
+        "count": 3,
+        "visible": true
+      },
+      {
+        "id": "service-section-range",
+        "count": 12,
+        "visible": true
+      },
+      {
+        "id": "company-profile",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "delivery-process",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "engagement-scope",
+        "count": 1,
+        "visible": true
+      }
+    ],
+    "media": [
+      "https://g5themes.test/theme/jw_business/assets/brand/jw-business-light.webp",
+      "https://g5themes.test/theme/jw_business/assets/brand/jw-business-dark.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/correction/service-ondo-studio.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/images/service-studio.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/correction/service-ondo-first-cup.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/correction/service-ondo-course-works.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/images/service-sector-retail.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/images/service-sector-learning.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/images/service-sector-industry.webp"
+    ],
+    "sections": [
+      {
+        "index": 0,
+        "id": "service-top",
+        "heading": "고객의 질문이쓰이는 서비스로.",
+        "left": 24,
+        "top": 154,
+        "width": 382,
+        "height": 1314
+      },
+      {
+        "index": 1,
+        "id": "service-scope",
+        "heading": "좋은 질문이좋은 결과를 만듭니다.",
+        "left": 0,
+        "top": 1468,
+        "width": 430,
+        "height": 1960
+      },
+      {
+        "index": 2,
+        "id": "service-studio",
+        "heading": "다른 전문성,같은 테이블.",
+        "left": 24,
+        "top": 3428,
+        "width": 382,
+        "height": 1051
+      },
+      {
+        "index": 3,
+        "id": "service-process",
+        "heading": "발견에서 신청까지,다음 질문이 보이도록.",
+        "left": 0,
+        "top": 4479,
+        "width": 430,
+        "height": 1120
+      },
+      {
+        "index": 4,
+        "id": "",
+        "left": 24,
+        "top": 4794,
+        "width": 382,
+        "height": 627
+      },
+      {
+        "index": 5,
+        "id": "service-case",
+        "heading": "설명 문서가쓰이는 화면이 되도록.",
+        "left": 24,
+        "top": 5599,
+        "width": 382,
+        "height": 991
+      },
+      {
+        "index": 6,
+        "id": "",
+        "heading": "같은 방법,다른 사업의 맥락.",
+        "left": 0,
+        "top": 6590,
+        "width": 430,
+        "height": 1662
+      },
+      {
+        "index": 7,
+        "id": "",
+        "heading": "담당자가 바뀌어도,같은 기준으로.",
+        "left": 24,
+        "top": 8252,
+        "width": 382,
+        "height": 1182
+      },
+      {
+        "index": 8,
+        "id": "service-roadmap",
+        "heading": "다음 단계가 보이는프로젝트 진행.",
+        "left": 0,
+        "top": 9434,
+        "width": 430,
+        "height": 933
+      },
+      {
+        "index": 9,
+        "id": "",
+        "heading": "화면과 문서,서로 이어지는 결과물.",
+        "left": 0,
+        "top": 10367,
+        "width": 430,
+        "height": 2119
+      },
+      {
+        "index": 10,
+        "id": "",
+        "heading": "필요한 만큼,함께할 범위를 정합니다.",
+        "left": 24,
+        "top": 12486,
+        "width": 382,
+        "height": 809
+      },
+      {
+        "index": 11,
+        "id": "service-faq",
+        "heading": "시작하기 전,궁금한 것들.",
+        "left": 0,
+        "top": 13295,
+        "width": 430,
+        "height": 677
+      },
+      {
+        "index": 12,
+        "id": "service-contact",
+        "heading": "지금의 질문에서함께 시작합니다.",
+        "left": 0,
+        "top": 13972,
+        "width": 430,
+        "height": 619
+      }
+    ],
+    "regions": {
+      ".jw-footer": {
+        "left": 0,
+        "top": 14667,
+        "width": 430,
+        "height": 482
+      }
+    }
+  },
+  {
+    "page": "onepage-projects",
+    "width": 360,
+    "height": 844,
+    "url": "https://g5themes.test/pages/onepage-projects.php?device=mobile",
+    "capturedAt": "2026-09-29T03:01:42.106Z",
+    "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+    "path": "quality/evidence/seven-correction-20260929/revision-2/risks/onepage-projects-360.png",
+    "sha256": "6c9dc6d432446c7958558adcb4dd10ce88ee8187bda8d274c11f2a52ceb53a8f",
+    "result": "collected-not-visually-approved",
+    "mode": "jw-light",
+    "documentHeight": 11558,
+    "overflow": 0,
+    "brokenImages": [],
+    "missingIcons": 0,
+    "reversedText": [],
+    "requirements": [
+      {
+        "id": "page-heading",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "project-scenes",
+        "count": 14,
+        "visible": true
+      },
+      {
+        "id": "project-gallery",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "project-flow",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "spatial-floorplan",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "company-profile",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "delivery-process",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "service-scope",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "project-deliverables",
+        "count": 1,
+        "visible": true
+      }
+    ],
+    "media": [
+      "https://g5themes.test/theme/jw_business/assets/brand/jw-business-light.webp",
+      "https://g5themes.test/theme/jw_business/assets/brand/jw-business-dark.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/images/project-hero-walkway.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/images/project-hero-dusk.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/images/space-studio.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/correction/project-arrival.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard-detail.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard-interior.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/correction/project-material-study.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard-colonnade.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard-lounge.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/images/project-gallery-stair.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/images/project-gallery-workroom.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard-terrace.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/images/space-process.webp"
+    ],
+    "sections": [
+      {
+        "index": 0,
+        "id": "project-top",
+        "heading": "머무는 시간이좋아지는 공간.",
+        "left": 0,
+        "top": 154,
+        "width": 360,
+        "height": 710
+      },
+      {
+        "index": 1,
+        "id": "project-studio",
+        "heading": "공간을 만드는우리의 관점.",
+        "left": 24,
+        "top": 864,
+        "width": 312,
+        "height": 838
+      },
+      {
+        "index": 2,
+        "id": "project-intent",
+        "heading": "건물보다 먼저,그 안의 하루를 봅니다.",
+        "left": 24,
+        "top": 1702,
+        "width": 312,
+        "height": 683
+      },
+      {
+        "index": 3,
+        "id": "",
+        "heading": "걸음마다 달라지는공간의 표정.",
+        "left": 0,
+        "top": 2385,
+        "width": 360,
+        "height": 2040
+      },
+      {
+        "index": 4,
+        "id": "",
+        "left": 24,
+        "top": 3067,
+        "width": 312,
+        "height": 398
+      },
+      {
+        "index": 5,
+        "id": "",
+        "left": 24,
+        "top": 3511,
+        "width": 312,
+        "height": 398
+      },
+      {
+        "index": 6,
+        "id": "",
+        "left": 24,
+        "top": 3955,
+        "width": 312,
+        "height": 398
+      },
+      {
+        "index": 7,
+        "id": "project-scenes",
+        "heading": "바깥의 여유가안으로 이어질 때.",
+        "left": 0,
+        "top": 4425,
+        "width": 360,
+        "height": 567
+      },
+      {
+        "index": 8,
+        "id": "",
+        "heading": "재료와 빛이만드는 리듬.",
+        "left": 24,
+        "top": 4991,
+        "width": 312,
+        "height": 786
+      },
+      {
+        "index": 9,
+        "id": "project-gallery",
+        "heading": "다른 장면,하나의 방향.",
+        "left": 0,
+        "top": 5777,
+        "width": 360,
+        "height": 747
+      },
+      {
+        "index": 10,
+        "id": "project-scope",
+        "heading": "하나의 장소를,여러 시선으로.",
+        "left": 0,
+        "top": 6524,
+        "width": 360,
+        "height": 902
+      },
+      {
+        "index": 11,
+        "id": "project-process",
+        "heading": "질문에서 시작해,쓰이는 장소까지.",
+        "left": 0,
+        "top": 7426,
+        "width": 360,
+        "height": 912
+      },
+      {
+        "index": 12,
+        "id": "",
+        "heading": "좋은 장면을,함께 지킬 수 있는 기준으로.",
+        "left": 0,
+        "top": 8338,
+        "width": 360,
+        "height": 1587
+      },
+      {
+        "index": 13,
+        "id": "project-faq",
+        "heading": "프로젝트를준비하고 계신가요?",
+        "left": 24,
+        "top": 9925,
+        "width": 312,
+        "height": 644
+      },
+      {
+        "index": 14,
+        "id": "project-contact",
+        "heading": "공간의 다음 장면을함께 그려봅니다.",
+        "left": 0,
+        "top": 10569,
+        "width": 360,
+        "height": 431
+      }
+    ],
+    "regions": {
+      ".jw-footer": {
+        "left": 0,
+        "top": 11076,
+        "width": 360,
+        "height": 482
+      }
+    }
+  },
+  {
+    "page": "onepage-projects",
+    "width": 430,
+    "height": 844,
+    "url": "https://g5themes.test/pages/onepage-projects.php?device=mobile",
+    "capturedAt": "2026-09-29T03:01:44.151Z",
+    "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+    "path": "quality/evidence/seven-correction-20260929/revision-2/risks/onepage-projects-430.png",
+    "sha256": "681e6f5d83ef202e42c450a2bbdb52184a455a8fabae8921216313feaae346de",
+    "result": "collected-not-visually-approved",
+    "mode": "jw-light",
+    "documentHeight": 11998,
+    "overflow": 0,
+    "brokenImages": [],
+    "missingIcons": 0,
+    "reversedText": [],
+    "requirements": [
+      {
+        "id": "page-heading",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "project-scenes",
+        "count": 14,
+        "visible": true
+      },
+      {
+        "id": "project-gallery",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "project-flow",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "spatial-floorplan",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "company-profile",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "delivery-process",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "service-scope",
+        "count": 1,
+        "visible": true
+      },
+      {
+        "id": "project-deliverables",
+        "count": 1,
+        "visible": true
+      }
+    ],
+    "media": [
+      "https://g5themes.test/theme/jw_business/assets/brand/jw-business-light.webp",
+      "https://g5themes.test/theme/jw_business/assets/brand/jw-business-dark.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/images/project-hero-walkway.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/images/project-hero-dusk.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/images/space-studio.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/correction/project-arrival.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard-detail.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard-interior.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/correction/project-material-study.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard-colonnade.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard-lounge.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/images/project-gallery-stair.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/images/project-gallery-workroom.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard-terrace.webp",
+      "https://g5themes.test/theme/jw_business/onepages/assets/images/space-process.webp"
+    ],
+    "sections": [
+      {
+        "index": 0,
+        "id": "project-top",
+        "heading": "머무는 시간이좋아지는 공간.",
+        "left": 0,
+        "top": 154,
+        "width": 430,
+        "height": 710
+      },
+      {
+        "index": 1,
+        "id": "project-studio",
+        "heading": "공간을 만드는우리의 관점.",
+        "left": 24,
+        "top": 864,
+        "width": 382,
+        "height": 864
+      },
+      {
+        "index": 2,
+        "id": "project-intent",
+        "heading": "건물보다 먼저,그 안의 하루를 봅니다.",
+        "left": 24,
+        "top": 1728,
+        "width": 382,
+        "height": 655
+      },
+      {
+        "index": 3,
+        "id": "",
+        "heading": "걸음마다 달라지는공간의 표정.",
+        "left": 0,
+        "top": 2382,
+        "width": 430,
+        "height": 2258
+      },
+      {
+        "index": 4,
+        "id": "",
+        "left": 24,
+        "top": 3122,
+        "width": 382,
+        "height": 452
+      },
+      {
+        "index": 5,
+        "id": "",
+        "left": 24,
+        "top": 3619,
+        "width": 382,
+        "height": 452
+      },
+      {
+        "index": 6,
+        "id": "",
+        "left": 24,
+        "top": 4117,
+        "width": 382,
+        "height": 452
+      },
+      {
+        "index": 7,
+        "id": "project-scenes",
+        "heading": "바깥의 여유가안으로 이어질 때.",
+        "left": 0,
+        "top": 4641,
+        "width": 430,
+        "height": 567
+      },
+      {
+        "index": 8,
+        "id": "",
+        "heading": "재료와 빛이만드는 리듬.",
+        "left": 24,
+        "top": 5208,
+        "width": 382,
+        "height": 833
+      },
+      {
+        "index": 9,
+        "id": "project-gallery",
+        "heading": "다른 장면,하나의 방향.",
+        "left": 0,
+        "top": 6041,
+        "width": 430,
+        "height": 808
+      },
+      {
+        "index": 10,
+        "id": "project-scope",
+        "heading": "하나의 장소를,여러 시선으로.",
+        "left": 0,
+        "top": 6849,
+        "width": 430,
+        "height": 902
+      },
+      {
+        "index": 11,
+        "id": "project-process",
+        "heading": "질문에서 시작해,쓰이는 장소까지.",
+        "left": 0,
+        "top": 7751,
+        "width": 430,
+        "height": 970
+      },
+      {
+        "index": 12,
+        "id": "",
+        "heading": "좋은 장면을,함께 지킬 수 있는 기준으로.",
+        "left": 0,
+        "top": 8721,
+        "width": 430,
+        "height": 1644
+      },
+      {
+        "index": 13,
+        "id": "project-faq",
+        "heading": "프로젝트를준비하고 계신가요?",
+        "left": 24,
+        "top": 10365,
+        "width": 382,
+        "height": 644
+      },
+      {
+        "index": 14,
+        "id": "project-contact",
+        "heading": "공간의 다음 장면을함께 그려봅니다.",
+        "left": 0,
+        "top": 11009,
+        "width": 430,
+        "height": 431
+      }
+    ],
+    "regions": {
+      ".jw-footer": {
+        "left": 0,
+        "top": 11516,
+        "width": 430,
+        "height": 482
+      }
+    }
+  }
+]

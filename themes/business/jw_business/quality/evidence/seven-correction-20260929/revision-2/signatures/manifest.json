@@ -1,0 +1,1097 @@
+[
+  {
+    "page": "home-1",
+    "state": "desktop-scroll",
+    "result": "observed-not-visually-approved",
+    "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+    "capturedAt": "2026-09-29T02:59:40.299Z",
+    "shots": [
+      {
+        "stage": "0",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-1-desktop-scroll-0.png",
+        "sha256": "9ae46e4ccacfeaff770eb507bbc9b06f487daabe5b092fb5d0bd5fb7c4d8b0a4",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-1-desktop-scroll-0-material.png",
+          "sha256": "c22d2c481f04866f33ff02659c4c6f2a6594da65bd6723f9542198d3755c4a31"
+        },
+        "material": {
+          "text": "ATELIER N. · 첫 방문 설계\n가상 사례 / 판단 기록\n첫 방문자는 무엇을 보고 고를까요?\nE1 / 크기 판단\n사진만으로 실제 쓰임을 가늠하기 어려움\nE2 / 재료 이해\n유약의 차이와 관리 방법이 궁금함\n재료 표기에도 연결\nP1 / 먼저 반영\n제품을 고르는 기준\nØ82\nH88mm · 280ml\n일상 머그\n커피와 따뜻한 차\n크기 · 용량 · 재료\n같은 위치에서 비교\nP2 / 함께 반영\n사용을 이어가는 안내\n세척\n부드러운 스펀지\n온도\n급격한 변화 피하기\n보관\n물기를 말린 뒤 보관\n두 자료를 먼저 갖춘 뒤\n발행할 콘텐츠\n컬렉션 소개 + 사용·관리 안내\n첫 소식을 구성할 실제 자료가 먼저입니다.\n조건\n보류 / 알림 기능\n담당 · 발행 주기 미정\nE3 운영 조건 확인 후\n실선: 자료의 선행 관계\n점선: 아직 충족하지 못한 조건\n크기와 쓰임\n재료와 관리\n콘텐츠 준비\n이전 정보\nMUG_03\n제품명만으로는 크기와 쓰임이 보이지 않습니다.\n반영할 정보\n코발트 머그 · 매일의 한 잔\n용량\n280ml\n크기\nØ82 × H88mm\n쓰임\n커피와 따뜻한 차\n질문 → 근거 → 반영 자료\n아래 ATELIER 시안으로 이어집니다",
+          "images": [],
+          "overflow": 0
+        }
+      },
+      {
+        "stage": "1",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-1-desktop-scroll-1.png",
+        "sha256": "eb11d1aef067c7e328654ebfcfc19b1856dfdeabe736e9349eb1c0fb3c289d50",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-1-desktop-scroll-1-material.png",
+          "sha256": "69c4f9e36048e000371debd066c245d6fce9577db9c400d923353c8af04de1d1"
+        },
+        "material": {
+          "text": "ATELIER N. · 첫 방문 설계\n가상 사례 / 판단 기록\n첫 방문자는 무엇을 보고 고를까요?\nE1 / 크기 판단\n사진만으로 실제 쓰임을 가늠하기 어려움\nE2 / 재료 이해\n유약의 차이와 관리 방법이 궁금함\n재료 표기에도 연결\nP1 / 먼저 반영\n제품을 고르는 기준\nØ82\nH88mm · 280ml\n일상 머그\n커피와 따뜻한 차\n크기 · 용량 · 재료\n같은 위치에서 비교\nP2 / 함께 반영\n사용을 이어가는 안내\n세척\n부드러운 스펀지\n온도\n급격한 변화 피하기\n보관\n물기를 말린 뒤 보관\n두 자료를 먼저 갖춘 뒤\n발행할 콘텐츠\n컬렉션 소개 + 사용·관리 안내\n첫 소식을 구성할 실제 자료가 먼저입니다.\n조건\n보류 / 알림 기능\n담당 · 발행 주기 미정\nE3 운영 조건 확인 후\n실선: 자료의 선행 관계\n점선: 아직 충족하지 못한 조건\n크기와 쓰임\n재료와 관리\n콘텐츠 준비\n이전 안내\n취급에 주의하세요.\n일반적인 문구로는 구체적인 관리 방법을 알기 어렵습니다.\n반영할 안내\n자연스러운 유약을 오래 쓰는 법\n부드러운 스펀지로 세척합니다.\n급격한 온도 변화를 피합니다.\n사용 뒤 물기를 말려 보관합니다.\n질문 → 근거 → 반영 자료\n아래 ATELIER 시안으로 이어집니다",
+          "images": [],
+          "overflow": 0
+        }
+      },
+      {
+        "stage": "2",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-1-desktop-scroll-2.png",
+        "sha256": "9f202d196a33699dcb35f36da91a4543f1b50f13d0cff2a06664f47802d109fe",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-1-desktop-scroll-2-material.png",
+          "sha256": "1bca11a80c251ecb00f2e148526d157bc4e69f24b50a7979d9632e044099e63f"
+        },
+        "material": {
+          "text": "ATELIER N. · 첫 방문 설계\n가상 사례 / 판단 기록\n첫 방문자는 무엇을 보고 고를까요?\nE1 / 크기 판단\n사진만으로 실제 쓰임을 가늠하기 어려움\nE2 / 재료 이해\n유약의 차이와 관리 방법이 궁금함\n재료 표기에도 연결\nP1 / 먼저 반영\n제품을 고르는 기준\nØ82\nH88mm · 280ml\n일상 머그\n커피와 따뜻한 차\n크기 · 용량 · 재료\n같은 위치에서 비교\nP2 / 함께 반영\n사용을 이어가는 안내\n세척\n부드러운 스펀지\n온도\n급격한 변화 피하기\n보관\n물기를 말린 뒤 보관\n두 자료를 먼저 갖춘 뒤\n발행할 콘텐츠\n컬렉션 소개 + 사용·관리 안내\n첫 소식을 구성할 실제 자료가 먼저입니다.\n조건\n보류 / 알림 기능\n담당 · 발행 주기 미정\nE3 운영 조건 확인 후\n실선: 자료의 선행 관계\n점선: 아직 충족하지 못한 조건\n크기와 쓰임\n재료와 관리\n콘텐츠 준비\n보류한 제안\n신제품 알림 신청\n기능보다 먼저, 꾸준히 전할 내용을 준비합니다.\n먼저 준비할 자료\n첫 소식을 위한 콘텐츠 순서\n첫 이야기 컬렉션의 쓰임과 형태\n다음 이야기 유약과 관리 방법\n운영 기준 담당자와 발행 주기 확정\n질문 → 근거 → 반영 자료\n아래 ATELIER 시안으로 이어집니다",
+          "images": [],
+          "overflow": 0
+        }
+      }
+    ]
+  },
+  {
+    "page": "home-1",
+    "state": "mobile-controls",
+    "result": "observed-not-visually-approved",
+    "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+    "capturedAt": "2026-09-29T02:59:43.410Z",
+    "shots": [
+      {
+        "stage": "0",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-1-mobile-controls-0.png",
+        "sha256": "3e7fb5e7a99ed9b7f437400b1b4757eea6ac09b5cf4a2076c5f923fe852cecd8",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-1-mobile-controls-0-material.png",
+          "sha256": "b0ad71b859a613e33314bab0e17f033fafe9835933fcea4b3e6bedd8744ac82c"
+        },
+        "material": {
+          "text": "ATELIER N. · 첫 방문 설계\n가상 사례 / 판단 기록\n첫 방문자는 무엇을 보고 고를까요?\nE1 / 크기 판단\n사진만으로 쓰임을 가늠하기 어려움\nP1 / 먼저 반영\n제품을 고르는 기준\nØ82\nH88mm · 280ml\n일상 머그\n커피와 따뜻한 차\n크기 · 용량 · 재료\n같은 위치에서 비교\nE2 / 재료 이해\n유약의 차이와 관리 방법이 궁금함\n재료 표기는 P1에도 연결\nP2 / 함께 반영\n사용을 이어가는 안내\n세척 · 부드러운 스펀지\n온도 · 급격한 변화 피하기\n보관 · 물기를 말린 뒤 보관\nP1 + P2 → 발행할 콘텐츠\n컬렉션 소개 + 사용·관리 안내\n첫 소식을 구성할 실제 자료를 먼저 준비\n보류 / 신제품 알림 기능\nE3 담당자 · 발행 주기 확정이 먼저\n실선: 선행 자료 / 점선: 미충족 조건\n크기와 쓰임\n재료와 관리\n콘텐츠 준비\n이전 안내\n취급에 주의하세요.\n일반적인 문구로는 구체적인 관리 방법을 알기 어렵습니다.\n반영할 안내\n자연스러운 유약을 오래 쓰는 법\n부드러운 스펀지로 세척합니다.\n급격한 온도 변화를 피합니다.\n사용 뒤 물기를 말려 보관합니다.\n질문 → 근거 → 반영 자료\n아래 ATELIER 시안으로 이어집니다",
+          "images": [],
+          "overflow": 0
+        }
+      },
+      {
+        "stage": "1",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-1-mobile-controls-1.png",
+        "sha256": "2516c827b391add622eb6ce6340b6c1254d6c9e6e6a99b0ba898a74b36f59894",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-1-mobile-controls-1-material.png",
+          "sha256": "89c9b9fd94549ddb46f4f4444449d73fc920b569092a0d780a6ff4686200401a"
+        },
+        "material": {
+          "text": "ATELIER N. · 첫 방문 설계\n가상 사례 / 판단 기록\n첫 방문자는 무엇을 보고 고를까요?\nE1 / 크기 판단\n사진만으로 쓰임을 가늠하기 어려움\nP1 / 먼저 반영\n제품을 고르는 기준\nØ82\nH88mm · 280ml\n일상 머그\n커피와 따뜻한 차\n크기 · 용량 · 재료\n같은 위치에서 비교\nE2 / 재료 이해\n유약의 차이와 관리 방법이 궁금함\n재료 표기는 P1에도 연결\nP2 / 함께 반영\n사용을 이어가는 안내\n세척 · 부드러운 스펀지\n온도 · 급격한 변화 피하기\n보관 · 물기를 말린 뒤 보관\nP1 + P2 → 발행할 콘텐츠\n컬렉션 소개 + 사용·관리 안내\n첫 소식을 구성할 실제 자료를 먼저 준비\n보류 / 신제품 알림 기능\nE3 담당자 · 발행 주기 확정이 먼저\n실선: 선행 자료 / 점선: 미충족 조건\n크기와 쓰임\n재료와 관리\n콘텐츠 준비\n보류한 제안\n신제품 알림 신청\n기능보다 먼저, 꾸준히 전할 내용을 준비합니다.\n먼저 준비할 자료\n첫 소식을 위한 콘텐츠 순서\n첫 이야기 컬렉션의 쓰임과 형태\n다음 이야기 유약과 관리 방법\n운영 기준 담당자와 발행 주기 확정\n질문 → 근거 → 반영 자료\n아래 ATELIER 시안으로 이어집니다",
+          "images": [],
+          "overflow": 0
+        }
+      },
+      {
+        "stage": "2",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-1-mobile-controls-2.png",
+        "sha256": "c8e82959103700f9e6809ffb1235997ea3668607fa436a41808a1308cfe0e19e",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-1-mobile-controls-2-material.png",
+          "sha256": "0b6d469d8ce8773baaa3f6d8c55cddef99cec700120105a481a8d1b561940c09"
+        },
+        "material": {
+          "text": "ATELIER N. · 첫 방문 설계\n가상 사례 / 판단 기록\n첫 방문자는 무엇을 보고 고를까요?\nE1 / 크기 판단\n사진만으로 쓰임을 가늠하기 어려움\nP1 / 먼저 반영\n제품을 고르는 기준\nØ82\nH88mm · 280ml\n일상 머그\n커피와 따뜻한 차\n크기 · 용량 · 재료\n같은 위치에서 비교\nE2 / 재료 이해\n유약의 차이와 관리 방법이 궁금함\n재료 표기는 P1에도 연결\nP2 / 함께 반영\n사용을 이어가는 안내\n세척 · 부드러운 스펀지\n온도 · 급격한 변화 피하기\n보관 · 물기를 말린 뒤 보관\nP1 + P2 → 발행할 콘텐츠\n컬렉션 소개 + 사용·관리 안내\n첫 소식을 구성할 실제 자료를 먼저 준비\n보류 / 신제품 알림 기능\nE3 담당자 · 발행 주기 확정이 먼저\n실선: 선행 자료 / 점선: 미충족 조건\n크기와 쓰임\n재료와 관리\n콘텐츠 준비\n보류한 제안\n신제품 알림 신청\n기능보다 먼저, 꾸준히 전할 내용을 준비합니다.\n먼저 준비할 자료\n첫 소식을 위한 콘텐츠 순서\n첫 이야기 컬렉션의 쓰임과 형태\n다음 이야기 유약과 관리 방법\n운영 기준 담당자와 발행 주기 확정\n질문 → 근거 → 반영 자료\n아래 ATELIER 시안으로 이어집니다",
+          "images": [],
+          "overflow": 0
+        }
+      }
+    ]
+  },
+  {
+    "page": "home-1",
+    "state": "desktop-reduced",
+    "result": "observed-not-visually-approved",
+    "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+    "capturedAt": "2026-09-29T02:59:48.026Z",
+    "shots": [
+      {
+        "stage": "0",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-1-desktop-reduced-0.png",
+        "sha256": "2eb0a33a6e9a2af665a77e0bb45d339db210df9bcd9387a1a24fd6ccf89551c6",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-1-desktop-reduced-0-material.png",
+          "sha256": "a2f3a5e477ee608f8f926c308cd19f39ea31d0d5f5de382580b0dc1d5e3e8000"
+        },
+        "material": {
+          "text": "ATELIER N. · 첫 방문 설계\n가상 사례 / 판단 기록\n첫 방문자는 무엇을 보고 고를까요?\nE1 / 크기 판단\n사진만으로 실제 쓰임을 가늠하기 어려움\nE2 / 재료 이해\n유약의 차이와 관리 방법이 궁금함\n재료 표기에도 연결\nP1 / 먼저 반영\n제품을 고르는 기준\nØ82\nH88mm · 280ml\n일상 머그\n커피와 따뜻한 차\n크기 · 용량 · 재료\n같은 위치에서 비교\nP2 / 함께 반영\n사용을 이어가는 안내\n세척\n부드러운 스펀지\n온도\n급격한 변화 피하기\n보관\n물기를 말린 뒤 보관\n두 자료를 먼저 갖춘 뒤\n발행할 콘텐츠\n컬렉션 소개 + 사용·관리 안내\n첫 소식을 구성할 실제 자료가 먼저입니다.\n조건\n보류 / 알림 기능\n담당 · 발행 주기 미정\nE3 운영 조건 확인 후\n실선: 자료의 선행 관계\n점선: 아직 충족하지 못한 조건\n크기와 쓰임\n재료와 관리\n콘텐츠 준비\n이전 정보\nMUG_03\n제품명만으로는 크기와 쓰임이 보이지 않습니다.\n반영할 정보\n코발트 머그 · 매일의 한 잔\n용량\n280ml\n크기\nØ82 × H88mm\n쓰임\n커피와 따뜻한 차\n질문 → 근거 → 반영 자료\n아래 ATELIER 시안으로 이어집니다",
+          "images": [],
+          "overflow": 0
+        }
+      },
+      {
+        "stage": "1",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-1-desktop-reduced-1.png",
+        "sha256": "d11f89069c5c8698e2b6aa730ed04d7baa59af6d46b3104582c361db3fa0d343",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-1-desktop-reduced-1-material.png",
+          "sha256": "9300f538e094c4cf4066d34843b8764e8f47c45ec7d4b35ba9dd4be9f1c829a9"
+        },
+        "material": {
+          "text": "ATELIER N. · 첫 방문 설계\n가상 사례 / 판단 기록\n첫 방문자는 무엇을 보고 고를까요?\nE1 / 크기 판단\n사진만으로 실제 쓰임을 가늠하기 어려움\nE2 / 재료 이해\n유약의 차이와 관리 방법이 궁금함\n재료 표기에도 연결\nP1 / 먼저 반영\n제품을 고르는 기준\nØ82\nH88mm · 280ml\n일상 머그\n커피와 따뜻한 차\n크기 · 용량 · 재료\n같은 위치에서 비교\nP2 / 함께 반영\n사용을 이어가는 안내\n세척\n부드러운 스펀지\n온도\n급격한 변화 피하기\n보관\n물기를 말린 뒤 보관\n두 자료를 먼저 갖춘 뒤\n발행할 콘텐츠\n컬렉션 소개 + 사용·관리 안내\n첫 소식을 구성할 실제 자료가 먼저입니다.\n조건\n보류 / 알림 기능\n담당 · 발행 주기 미정\nE3 운영 조건 확인 후\n실선: 자료의 선행 관계\n점선: 아직 충족하지 못한 조건\n크기와 쓰임\n재료와 관리\n콘텐츠 준비\n이전 안내\n취급에 주의하세요.\n일반적인 문구로는 구체적인 관리 방법을 알기 어렵습니다.\n반영할 안내\n자연스러운 유약을 오래 쓰는 법\n부드러운 스펀지로 세척합니다.\n급격한 온도 변화를 피합니다.\n사용 뒤 물기를 말려 보관합니다.\n질문 → 근거 → 반영 자료\n아래 ATELIER 시안으로 이어집니다",
+          "images": [],
+          "overflow": 0
+        }
+      },
+      {
+        "stage": "2",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-1-desktop-reduced-2.png",
+        "sha256": "8dc1d34e87392ea44959a0caaed6056887dfdf4236ab478caa5bfef13c133fcd",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-1-desktop-reduced-2-material.png",
+          "sha256": "6e41c14ab436e5ab2071969673fda8a6c158aa61a5ab189b9c28c9741ac11314"
+        },
+        "material": {
+          "text": "ATELIER N. · 첫 방문 설계\n가상 사례 / 판단 기록\n첫 방문자는 무엇을 보고 고를까요?\nE1 / 크기 판단\n사진만으로 실제 쓰임을 가늠하기 어려움\nE2 / 재료 이해\n유약의 차이와 관리 방법이 궁금함\n재료 표기에도 연결\nP1 / 먼저 반영\n제품을 고르는 기준\nØ82\nH88mm · 280ml\n일상 머그\n커피와 따뜻한 차\n크기 · 용량 · 재료\n같은 위치에서 비교\nP2 / 함께 반영\n사용을 이어가는 안내\n세척\n부드러운 스펀지\n온도\n급격한 변화 피하기\n보관\n물기를 말린 뒤 보관\n두 자료를 먼저 갖춘 뒤\n발행할 콘텐츠\n컬렉션 소개 + 사용·관리 안내\n첫 소식을 구성할 실제 자료가 먼저입니다.\n조건\n보류 / 알림 기능\n담당 · 발행 주기 미정\nE3 운영 조건 확인 후\n실선: 자료의 선행 관계\n점선: 아직 충족하지 못한 조건\n크기와 쓰임\n재료와 관리\n콘텐츠 준비\n보류한 제안\n신제품 알림 신청\n기능보다 먼저, 꾸준히 전할 내용을 준비합니다.\n먼저 준비할 자료\n첫 소식을 위한 콘텐츠 순서\n첫 이야기 컬렉션의 쓰임과 형태\n다음 이야기 유약과 관리 방법\n운영 기준 담당자와 발행 주기 확정\n질문 → 근거 → 반영 자료\n아래 ATELIER 시안으로 이어집니다",
+          "images": [],
+          "overflow": 0
+        }
+      }
+    ]
+  },
+  {
+    "page": "home-2",
+    "state": "desktop-scroll",
+    "result": "observed-not-visually-approved",
+    "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+    "capturedAt": "2026-09-29T02:59:51.403Z",
+    "shots": [
+      {
+        "stage": "0",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-2-desktop-scroll-0.png",
+        "sha256": "2563793cea067703951ea7ab4c925347e1c05a524434292ebcc67417f30bfb06",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-2-desktop-scroll-0-material.png",
+          "sha256": "1fb660fc6995aa5e7d4f99d9e6995d4dcaaba8f1fb8929cf44d980231dc05db5"
+        },
+        "material": {
+          "text": "ORBIT / DECISION NOTE 04\n급한 일과 중요한 일을\n같은 자리에 놓습니다.\n\n가상 서비스 개선 과제입니다. 고객의 불편, 기대 효과, 실행에 필요한 준비를 비교해 먼저 확인할 일을 고릅니다.\n\n01 관찰을 모으고\n02 조건을 비교한 뒤\n03 먼저 검증할 일 선택\n질문과 과제를 연결해 봅니다.\n고객 여정 3장면 · 정성 비교\nE1 / 첫 방문\n\n“내 일과 어떻게\n연결되나요?”\n\nE2 / 비교 중\n\n“두 서비스는\n무엇이 다른가요?”\n\nE3 / 문의 준비\n\n“어떤 자료를\n먼저 보내나요?”\n\n기대 효과\n높음 ↑\n01\n서비스 탐색 개선\nE1 + E2 + E3 → 세 선택 질문을 함께\n서비스 비교 지면\n방향 정하기\n관찰 → 판단\n경험 바꾸기\n화면 → 시안\n기존 콘텐츠 → 비교 시안으로 검증\n02\n운영 시스템 교체\n운영 자료를 먼저 확인해야 함\n도구\n권한\n교육\n도구 목록·권한 구조·교육 범위가 선행\n03\n안내 문구 정리\nE1 + E3 / 설명을 빠르게 정리\n자세히 보기\n내 상황과 비교\n문장은 바뀌지만 선택 구조는 유지\n01과 함께 정리할 보조 작업\n04\n전체 화면 재제작\n전체 접점을 바꾸기 전 범위 확인\n탐색\n사례\n문의\n넓은 변경 범위 → 근거 보강 필요\n낮음\n실행 부담\n높음 →\n01\n기존 콘텐츠로 먼저 검증할 두 지면\nORBIT\n서비스 비교\n어디에서 시작할까요?\n방향 정하기\n관찰 자료 → 판단 기준\n경험 바꾸기\n현재 화면 → 비교 시안\n\n함께 정할 것과 남는 자료를 같은 위치에서 비교합니다.\n\nORBIT\n문의 준비\n첫 대화에 필요한 것\n현재 자료\n웹사이트 · 소개서 주소\n막힌 장면\n고객이 어려워하는 선택\n다음 결정\n이번에 확인하려는 질문\n\n별도 시스템 교체 없이 문의 준비 흐름을 시험합니다.\n\nFIELD NOTES / 관찰\n세 장면에서\n같은 질문이 나왔습니다.\n첫 방문\n“서비스 이름은 알겠는데,\n제 일과 어떻게 연결되나요?”\n비교 중\n“두 서비스의 차이를\n어디에서 확인하나요?”\n문의 준비\n“어떤 자료를\n먼저 보내면 좋을까요?”\n\n시연용 가상 고객 질문 · 실제 인터뷰 인용이 아닙니다.\n\n함께 정한 범위\n서비스 비교와 문의 준비 화면\n지금 바꾸지 않는 것\n운영 시스템과 전체 사이트 구조\n다시 판단할 시점\n고객이 시안을 읽고 선택한 뒤",
+          "images": [],
+          "overflow": 0
+        }
+      },
+      {
+        "stage": "1",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-2-desktop-scroll-1.png",
+        "sha256": "f1c4119c720e0ca88702db6ed8fc17534ed51324735d8f3407260f604b7b72b6",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-2-desktop-scroll-1-material.png",
+          "sha256": "8b97caab770e9f918291a59ff65e5bdd2bd46384c204e74033ed490487452087"
+        },
+        "material": {
+          "text": "ORBIT / DECISION NOTE 04\n급한 일과 중요한 일을\n같은 자리에 놓습니다.\n\n가상 서비스 개선 과제입니다. 고객의 불편, 기대 효과, 실행에 필요한 준비를 비교해 먼저 확인할 일을 고릅니다.\n\n01 관찰을 모으고\n02 조건을 비교한 뒤\n03 먼저 검증할 일 선택\n질문과 과제를 연결해 봅니다.\n고객 여정 3장면 · 정성 비교\nE1 / 첫 방문\n\n“내 일과 어떻게\n연결되나요?”\n\nE2 / 비교 중\n\n“두 서비스는\n무엇이 다른가요?”\n\nE3 / 문의 준비\n\n“어떤 자료를\n먼저 보내나요?”\n\n기대 효과\n높음 ↑\n01\n서비스 탐색 개선\nE1 + E2 + E3 → 세 선택 질문을 함께\n서비스 비교 지면\n방향 정하기\n관찰 → 판단\n경험 바꾸기\n화면 → 시안\n기존 콘텐츠 → 비교 시안으로 검증\n02\n운영 시스템 교체\n운영 자료를 먼저 확인해야 함\n도구\n권한\n교육\n도구 목록·권한 구조·교육 범위가 선행\n03\n안내 문구 정리\nE1 + E3 / 설명을 빠르게 정리\n자세히 보기\n내 상황과 비교\n문장은 바뀌지만 선택 구조는 유지\n01과 함께 정리할 보조 작업\n04\n전체 화면 재제작\n전체 접점을 바꾸기 전 범위 확인\n탐색\n사례\n문의\n넓은 변경 범위 → 근거 보강 필요\n낮음\n실행 부담\n높음 →\n01\n기존 콘텐츠로 먼저 검증할 두 지면\nORBIT\n서비스 비교\n어디에서 시작할까요?\n방향 정하기\n관찰 자료 → 판단 기준\n경험 바꾸기\n현재 화면 → 비교 시안\n\n함께 정할 것과 남는 자료를 같은 위치에서 비교합니다.\n\nORBIT\n문의 준비\n첫 대화에 필요한 것\n현재 자료\n웹사이트 · 소개서 주소\n막힌 장면\n고객이 어려워하는 선택\n다음 결정\n이번에 확인하려는 질문\n\n별도 시스템 교체 없이 문의 준비 흐름을 시험합니다.\n\nOPTIONS REVIEW / 비교\n효과와 준비를\n함께 비교합니다.\n과제\n기대 효과\n실행 부담\n01 탐색 개선\n높음\n낮음\n02 시스템 교체\n높음\n높음\n03 문구 정리\n제한적\n낮음\n04 전체 재제작\n확인 필요\n높음\n\n기존 자료로 확인할 수 있는 범위를 먼저 고릅니다. 가상의 정성 비교입니다.\n\n함께 정한 범위\n서비스 비교와 문의 준비 화면\n지금 바꾸지 않는 것\n운영 시스템과 전체 사이트 구조\n다시 판단할 시점\n고객이 시안을 읽고 선택한 뒤",
+          "images": [],
+          "overflow": 0
+        }
+      },
+      {
+        "stage": "2",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-2-desktop-scroll-2.png",
+        "sha256": "49d5580e42ff7292da7b53e8bcd7302bcb4e2a1840098c9c00bbc8077cbe0b2d",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-2-desktop-scroll-2-material.png",
+          "sha256": "eb0b9379824379ce51e7be36808ad89dd04be8a5008f1eb29d213c5d7ec5d5c7"
+        },
+        "material": {
+          "text": "ORBIT / DECISION NOTE 04\n급한 일과 중요한 일을\n같은 자리에 놓습니다.\n\n가상 서비스 개선 과제입니다. 고객의 불편, 기대 효과, 실행에 필요한 준비를 비교해 먼저 확인할 일을 고릅니다.\n\n01 관찰을 모으고\n02 조건을 비교한 뒤\n03 먼저 검증할 일 선택\n질문과 과제를 연결해 봅니다.\n고객 여정 3장면 · 정성 비교\nE1 / 첫 방문\n\n“내 일과 어떻게\n연결되나요?”\n\nE2 / 비교 중\n\n“두 서비스는\n무엇이 다른가요?”\n\nE3 / 문의 준비\n\n“어떤 자료를\n먼저 보내나요?”\n\n기대 효과\n높음 ↑\n01\n서비스 탐색 개선\nE1 + E2 + E3 → 세 선택 질문을 함께\n서비스 비교 지면\n방향 정하기\n관찰 → 판단\n경험 바꾸기\n화면 → 시안\n기존 콘텐츠 → 비교 시안으로 검증\n02\n운영 시스템 교체\n운영 자료를 먼저 확인해야 함\n도구\n권한\n교육\n도구 목록·권한 구조·교육 범위가 선행\n03\n안내 문구 정리\nE1 + E3 / 설명을 빠르게 정리\n자세히 보기\n내 상황과 비교\n문장은 바뀌지만 선택 구조는 유지\n01과 함께 정리할 보조 작업\n04\n전체 화면 재제작\n전체 접점을 바꾸기 전 범위 확인\n탐색\n사례\n문의\n넓은 변경 범위 → 근거 보강 필요\n낮음\n실행 부담\n높음 →\n01\n기존 콘텐츠로 먼저 검증할 두 지면\nORBIT\n서비스 비교\n어디에서 시작할까요?\n방향 정하기\n관찰 자료 → 판단 기준\n경험 바꾸기\n현재 화면 → 비교 시안\n\n함께 정할 것과 남는 자료를 같은 위치에서 비교합니다.\n\nORBIT\n문의 준비\n첫 대화에 필요한 것\n현재 자료\n웹사이트 · 소개서 주소\n막힌 장면\n고객이 어려워하는 선택\n다음 결정\n이번에 확인하려는 질문\n\n별도 시스템 교체 없이 문의 준비 흐름을 시험합니다.\n\nNEXT EXPERIMENT / 선택\n선택의 기준을\n앞에서 보여주기\n01\n서비스 탐색 개선\n먼저 검증할 과제\n선택한 이유\n기존 콘텐츠로 비교 순서를 바꿔볼 수 있고, 전체 재제작 전에 확인할 수 있습니다.\n다음 검증\n같은 질문으로 두 시안을 살펴보고, 차이를 설명할 수 있는지 확인합니다.\n\n이 판단을 다음 디지털 화면 시안으로 옮깁니다.\n\n함께 정한 범위\n서비스 비교와 문의 준비 화면\n지금 바꾸지 않는 것\n운영 시스템과 전체 사이트 구조\n다시 판단할 시점\n고객이 시안을 읽고 선택한 뒤",
+          "images": [],
+          "overflow": 0
+        }
+      }
+    ]
+  },
+  {
+    "page": "home-2",
+    "state": "mobile-controls",
+    "result": "observed-not-visually-approved",
+    "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+    "capturedAt": "2026-09-29T02:59:54.048Z",
+    "shots": [
+      {
+        "stage": "0",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-2-mobile-controls-0.png",
+        "sha256": "fa1c764801a65086ad1d105502b28bebad42901ba6a70949f3f1bc26452fe141",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-2-mobile-controls-0-material.png",
+          "sha256": "38a899066880e1c1f849a9175d4fd6ea7def86bedd8d488e2bdae0e0c2bf0beb"
+        },
+        "material": {
+          "text": "ORBIT / DECISION NOTE 04\n급한 일과 중요한 일을\n같은 자리에 놓습니다.\n\n가상 서비스 개선 과제입니다. 고객의 불편, 기대 효과, 실행에 필요한 준비를 비교해 먼저 확인할 일을 고릅니다.\n\n01 관찰을 모으고\n02 조건을 비교한 뒤\n03 먼저 검증할 일 선택\n질문과 과제를 연결해 봅니다.\n고객 여정 3장면 · 정성 비교\nE1 / 첫 방문\n\n“내 일과 어떻게\n연결되나요?”\n\nE2 / 비교 중\n\n“두 서비스는\n무엇이 다른가요?”\n\nE3 / 문의 준비\n\n“어떤 자료를\n먼저 보내나요?”\n\n기대 효과\n높음 ↑\n01\n서비스 탐색\nE1 + E2 + E3\n방향 정하기\n관찰 → 판단\n경험 바꾸기\n화면 → 시안\n기존 콘텐츠로 검증\n02\n시스템 교체\n도구\n권한\n교육\n운영 조사부터\n03\n안내 문구\nE1 + E3 / 빠른 정리\n자세히 보기\n내 상황과 비교\n구조 변화는 제한적\n01과 함께 정리\n04\n전체 재제작\n전체 접점 변경\n탐색\n사례\n문의\n넓은 범위 확인\n추가 근거가 필요\n낮음\n실행 부담\n높음 →\n01\n기존 콘텐츠로 먼저 검증할 두 지면\nORBIT\n서비스 비교\n어디에서 시작할까요?\n방향 정하기\n관찰 자료 → 판단 기준\n경험 바꾸기\n현재 화면 → 비교 시안\n\n함께 정할 것과 남는 자료를 같은 위치에서 비교합니다.\n\nORBIT\n문의 준비\n첫 대화에 필요한 것\n현재 자료\n웹사이트 · 소개서 주소\n막힌 장면\n고객이 어려워하는 선택\n다음 결정\n이번에 확인하려는 질문\n\n별도 시스템 교체 없이 문의 준비 흐름을 시험합니다.\n\nFIELD NOTES / 관찰\n세 장면에서\n같은 질문이 나왔습니다.\n첫 방문\n“서비스 이름은 알겠는데,\n제 일과 어떻게 연결되나요?”\n비교 중\n“두 서비스의 차이를\n어디에서 확인하나요?”\n문의 준비\n“어떤 자료를\n먼저 보내면 좋을까요?”\n\n시연용 가상 고객 질문 · 실제 인터뷰 인용이 아닙니다.\n\nOPTIONS REVIEW / 비교\n효과와 준비를\n함께 비교합니다.\n과제\n기대 효과\n실행 부담\n01 탐색 개선\n높음\n낮음\n02 시스템 교체\n높음\n높음\n03 문구 정리\n제한적\n낮음\n04 전체 재제작\n확인 필요\n높음\n\n기존 자료로 확인할 수 있는 범위를 먼저 고릅니다. 가상의 정성 비교입니다.\n\nNEXT EXPERIMENT / 선택\n선택의 기준을\n앞에서 보여주기\n01\n서비스 탐색 개선\n먼저 검증할 과제\n선택한 이유\n기존 콘텐츠로 비교 순서를 바꿔볼 수 있고, 전체 재제작 전에 확인할 수 있습니다.\n다음 검증\n같은 질문으로 두 시안을 살펴보고, 차이를 설명할 수 있는지 확인합니다.\n\n이 판단을 다음 디지털 화면 시안으로 옮깁니다.\n\n함께 정한 범위\n서비스 비교와 문의 준비 화면\n지금 바꾸지 않는 것\n운영 시스템과 전체 사이트 구조\n다시 판단할 시점\n고객이 시안을 읽고 선택한 뒤",
+          "images": [],
+          "overflow": 0
+        }
+      },
+      {
+        "stage": "1",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-2-mobile-controls-1.png",
+        "sha256": "e04977ccb1c928da483a92893056b8446201a74a4130228b8aa3cb87429f72a5",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-2-mobile-controls-1-material.png",
+          "sha256": "2915c44d158f408b7699e53889d2c9be9d0730ff39bac31976cdbe5e1ce3efb1"
+        },
+        "material": {
+          "text": "ORBIT / DECISION NOTE 04\n급한 일과 중요한 일을\n같은 자리에 놓습니다.\n\n가상 서비스 개선 과제입니다. 고객의 불편, 기대 효과, 실행에 필요한 준비를 비교해 먼저 확인할 일을 고릅니다.\n\n01 관찰을 모으고\n02 조건을 비교한 뒤\n03 먼저 검증할 일 선택\n질문과 과제를 연결해 봅니다.\n고객 여정 3장면 · 정성 비교\nE1 / 첫 방문\n\n“내 일과 어떻게\n연결되나요?”\n\nE2 / 비교 중\n\n“두 서비스는\n무엇이 다른가요?”\n\nE3 / 문의 준비\n\n“어떤 자료를\n먼저 보내나요?”\n\n기대 효과\n높음 ↑\n01\n서비스 탐색\nE1 + E2 + E3\n방향 정하기\n관찰 → 판단\n경험 바꾸기\n화면 → 시안\n기존 콘텐츠로 검증\n02\n시스템 교체\n도구\n권한\n교육\n운영 조사부터\n03\n안내 문구\nE1 + E3 / 빠른 정리\n자세히 보기\n내 상황과 비교\n구조 변화는 제한적\n01과 함께 정리\n04\n전체 재제작\n전체 접점 변경\n탐색\n사례\n문의\n넓은 범위 확인\n추가 근거가 필요\n낮음\n실행 부담\n높음 →\n01\n기존 콘텐츠로 먼저 검증할 두 지면\nORBIT\n서비스 비교\n어디에서 시작할까요?\n방향 정하기\n관찰 자료 → 판단 기준\n경험 바꾸기\n현재 화면 → 비교 시안\n\n함께 정할 것과 남는 자료를 같은 위치에서 비교합니다.\n\nORBIT\n문의 준비\n첫 대화에 필요한 것\n현재 자료\n웹사이트 · 소개서 주소\n막힌 장면\n고객이 어려워하는 선택\n다음 결정\n이번에 확인하려는 질문\n\n별도 시스템 교체 없이 문의 준비 흐름을 시험합니다.\n\nFIELD NOTES / 관찰\n세 장면에서\n같은 질문이 나왔습니다.\n첫 방문\n“서비스 이름은 알겠는데,\n제 일과 어떻게 연결되나요?”\n비교 중\n“두 서비스의 차이를\n어디에서 확인하나요?”\n문의 준비\n“어떤 자료를\n먼저 보내면 좋을까요?”\n\n시연용 가상 고객 질문 · 실제 인터뷰 인용이 아닙니다.\n\nOPTIONS REVIEW / 비교\n효과와 준비를\n함께 비교합니다.\n과제\n기대 효과\n실행 부담\n01 탐색 개선\n높음\n낮음\n02 시스템 교체\n높음\n높음\n03 문구 정리\n제한적\n낮음\n04 전체 재제작\n확인 필요\n높음\n\n기존 자료로 확인할 수 있는 범위를 먼저 고릅니다. 가상의 정성 비교입니다.\n\nNEXT EXPERIMENT / 선택\n선택의 기준을\n앞에서 보여주기\n01\n서비스 탐색 개선\n먼저 검증할 과제\n선택한 이유\n기존 콘텐츠로 비교 순서를 바꿔볼 수 있고, 전체 재제작 전에 확인할 수 있습니다.\n다음 검증\n같은 질문으로 두 시안을 살펴보고, 차이를 설명할 수 있는지 확인합니다.\n\n이 판단을 다음 디지털 화면 시안으로 옮깁니다.\n\n함께 정한 범위\n서비스 비교와 문의 준비 화면\n지금 바꾸지 않는 것\n운영 시스템과 전체 사이트 구조\n다시 판단할 시점\n고객이 시안을 읽고 선택한 뒤",
+          "images": [],
+          "overflow": 0
+        }
+      },
+      {
+        "stage": "2",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-2-mobile-controls-2.png",
+        "sha256": "eb0bbd2499159c602cf5313a8bc53e6b5e8318beadbddb066a91bcd461a84b10",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-2-mobile-controls-2-material.png",
+          "sha256": "9b16eece8d682eb073648fa4fdd94e58a3bff9c8ba0c74476af4c025352fe533"
+        },
+        "material": {
+          "text": "ORBIT / DECISION NOTE 04\n급한 일과 중요한 일을\n같은 자리에 놓습니다.\n\n가상 서비스 개선 과제입니다. 고객의 불편, 기대 효과, 실행에 필요한 준비를 비교해 먼저 확인할 일을 고릅니다.\n\n01 관찰을 모으고\n02 조건을 비교한 뒤\n03 먼저 검증할 일 선택\n질문과 과제를 연결해 봅니다.\n고객 여정 3장면 · 정성 비교\nE1 / 첫 방문\n\n“내 일과 어떻게\n연결되나요?”\n\nE2 / 비교 중\n\n“두 서비스는\n무엇이 다른가요?”\n\nE3 / 문의 준비\n\n“어떤 자료를\n먼저 보내나요?”\n\n기대 효과\n높음 ↑\n01\n서비스 탐색\nE1 + E2 + E3\n방향 정하기\n관찰 → 판단\n경험 바꾸기\n화면 → 시안\n기존 콘텐츠로 검증\n02\n시스템 교체\n도구\n권한\n교육\n운영 조사부터\n03\n안내 문구\nE1 + E3 / 빠른 정리\n자세히 보기\n내 상황과 비교\n구조 변화는 제한적\n01과 함께 정리\n04\n전체 재제작\n전체 접점 변경\n탐색\n사례\n문의\n넓은 범위 확인\n추가 근거가 필요\n낮음\n실행 부담\n높음 →\n01\n기존 콘텐츠로 먼저 검증할 두 지면\nORBIT\n서비스 비교\n어디에서 시작할까요?\n방향 정하기\n관찰 자료 → 판단 기준\n경험 바꾸기\n현재 화면 → 비교 시안\n\n함께 정할 것과 남는 자료를 같은 위치에서 비교합니다.\n\nORBIT\n문의 준비\n첫 대화에 필요한 것\n현재 자료\n웹사이트 · 소개서 주소\n막힌 장면\n고객이 어려워하는 선택\n다음 결정\n이번에 확인하려는 질문\n\n별도 시스템 교체 없이 문의 준비 흐름을 시험합니다.\n\nFIELD NOTES / 관찰\n세 장면에서\n같은 질문이 나왔습니다.\n첫 방문\n“서비스 이름은 알겠는데,\n제 일과 어떻게 연결되나요?”\n비교 중\n“두 서비스의 차이를\n어디에서 확인하나요?”\n문의 준비\n“어떤 자료를\n먼저 보내면 좋을까요?”\n\n시연용 가상 고객 질문 · 실제 인터뷰 인용이 아닙니다.\n\nOPTIONS REVIEW / 비교\n효과와 준비를\n함께 비교합니다.\n과제\n기대 효과\n실행 부담\n01 탐색 개선\n높음\n낮음\n02 시스템 교체\n높음\n높음\n03 문구 정리\n제한적\n낮음\n04 전체 재제작\n확인 필요\n높음\n\n기존 자료로 확인할 수 있는 범위를 먼저 고릅니다. 가상의 정성 비교입니다.\n\nNEXT EXPERIMENT / 선택\n선택의 기준을\n앞에서 보여주기\n01\n서비스 탐색 개선\n먼저 검증할 과제\n선택한 이유\n기존 콘텐츠로 비교 순서를 바꿔볼 수 있고, 전체 재제작 전에 확인할 수 있습니다.\n다음 검증\n같은 질문으로 두 시안을 살펴보고, 차이를 설명할 수 있는지 확인합니다.\n\n이 판단을 다음 디지털 화면 시안으로 옮깁니다.\n\n함께 정한 범위\n서비스 비교와 문의 준비 화면\n지금 바꾸지 않는 것\n운영 시스템과 전체 사이트 구조\n다시 판단할 시점\n고객이 시안을 읽고 선택한 뒤",
+          "images": [],
+          "overflow": 0
+        }
+      }
+    ]
+  },
+  {
+    "page": "home-2",
+    "state": "desktop-reduced",
+    "result": "observed-not-visually-approved",
+    "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+    "capturedAt": "2026-09-29T02:59:57.706Z",
+    "shots": [
+      {
+        "stage": "0",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-2-desktop-reduced-0.png",
+        "sha256": "13d1755370477985f77635b5450cad9d8fc46fe5b9fa542f3bdf18ade17f96c0",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-2-desktop-reduced-0-material.png",
+          "sha256": "12f1a3f7f080b4a041a5655848698d69a00ec308d98154626043f563328fa846"
+        },
+        "material": {
+          "text": "ORBIT / DECISION NOTE 04\n급한 일과 중요한 일을\n같은 자리에 놓습니다.\n\n가상 서비스 개선 과제입니다. 고객의 불편, 기대 효과, 실행에 필요한 준비를 비교해 먼저 확인할 일을 고릅니다.\n\n01 관찰을 모으고\n02 조건을 비교한 뒤\n03 먼저 검증할 일 선택\n질문과 과제를 연결해 봅니다.\n고객 여정 3장면 · 정성 비교\nE1 / 첫 방문\n\n“내 일과 어떻게\n연결되나요?”\n\nE2 / 비교 중\n\n“두 서비스는\n무엇이 다른가요?”\n\nE3 / 문의 준비\n\n“어떤 자료를\n먼저 보내나요?”\n\n기대 효과\n높음 ↑\n01\n서비스 탐색 개선\nE1 + E2 + E3 → 세 선택 질문을 함께\n서비스 비교 지면\n방향 정하기\n관찰 → 판단\n경험 바꾸기\n화면 → 시안\n기존 콘텐츠 → 비교 시안으로 검증\n02\n운영 시스템 교체\n운영 자료를 먼저 확인해야 함\n도구\n권한\n교육\n도구 목록·권한 구조·교육 범위가 선행\n03\n안내 문구 정리\nE1 + E3 / 설명을 빠르게 정리\n자세히 보기\n내 상황과 비교\n문장은 바뀌지만 선택 구조는 유지\n01과 함께 정리할 보조 작업\n04\n전체 화면 재제작\n전체 접점을 바꾸기 전 범위 확인\n탐색\n사례\n문의\n넓은 변경 범위 → 근거 보강 필요\n낮음\n실행 부담\n높음 →\n01\n기존 콘텐츠로 먼저 검증할 두 지면\nORBIT\n서비스 비교\n어디에서 시작할까요?\n방향 정하기\n관찰 자료 → 판단 기준\n경험 바꾸기\n현재 화면 → 비교 시안\n\n함께 정할 것과 남는 자료를 같은 위치에서 비교합니다.\n\nORBIT\n문의 준비\n첫 대화에 필요한 것\n현재 자료\n웹사이트 · 소개서 주소\n막힌 장면\n고객이 어려워하는 선택\n다음 결정\n이번에 확인하려는 질문\n\n별도 시스템 교체 없이 문의 준비 흐름을 시험합니다.\n\nFIELD NOTES / 관찰\n세 장면에서\n같은 질문이 나왔습니다.\n첫 방문\n“서비스 이름은 알겠는데,\n제 일과 어떻게 연결되나요?”\n비교 중\n“두 서비스의 차이를\n어디에서 확인하나요?”\n문의 준비\n“어떤 자료를\n먼저 보내면 좋을까요?”\n\n시연용 가상 고객 질문 · 실제 인터뷰 인용이 아닙니다.\n\nOPTIONS REVIEW / 비교\n효과와 준비를\n함께 비교합니다.\n과제\n기대 효과\n실행 부담\n01 탐색 개선\n높음\n낮음\n02 시스템 교체\n높음\n높음\n03 문구 정리\n제한적\n낮음\n04 전체 재제작\n확인 필요\n높음\n\n기존 자료로 확인할 수 있는 범위를 먼저 고릅니다. 가상의 정성 비교입니다.\n\nNEXT EXPERIMENT / 선택\n선택의 기준을\n앞에서 보여주기\n01\n서비스 탐색 개선\n먼저 검증할 과제\n선택한 이유\n기존 콘텐츠로 비교 순서를 바꿔볼 수 있고, 전체 재제작 전에 확인할 수 있습니다.\n다음 검증\n같은 질문으로 두 시안을 살펴보고, 차이를 설명할 수 있는지 확인합니다.\n\n이 판단을 다음 디지털 화면 시안으로 옮깁니다.\n\n함께 정한 범위\n서비스 비교와 문의 준비 화면\n지금 바꾸지 않는 것\n운영 시스템과 전체 사이트 구조\n다시 판단할 시점\n고객이 시안을 읽고 선택한 뒤",
+          "images": [],
+          "overflow": 0
+        }
+      },
+      {
+        "stage": "1",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-2-desktop-reduced-1.png",
+        "sha256": "1c8bb88ec18fe2cd841a4f88f520492e68fac4da814a6b199fc4f0f88c3db792",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-2-desktop-reduced-1-material.png",
+          "sha256": "0a4b17cd8519743a9defcbe2269c00ed4fcc259605e7eb82285656171f288ad5"
+        },
+        "material": {
+          "text": "ORBIT / DECISION NOTE 04\n급한 일과 중요한 일을\n같은 자리에 놓습니다.\n\n가상 서비스 개선 과제입니다. 고객의 불편, 기대 효과, 실행에 필요한 준비를 비교해 먼저 확인할 일을 고릅니다.\n\n01 관찰을 모으고\n02 조건을 비교한 뒤\n03 먼저 검증할 일 선택\n질문과 과제를 연결해 봅니다.\n고객 여정 3장면 · 정성 비교\nE1 / 첫 방문\n\n“내 일과 어떻게\n연결되나요?”\n\nE2 / 비교 중\n\n“두 서비스는\n무엇이 다른가요?”\n\nE3 / 문의 준비\n\n“어떤 자료를\n먼저 보내나요?”\n\n기대 효과\n높음 ↑\n01\n서비스 탐색 개선\nE1 + E2 + E3 → 세 선택 질문을 함께\n서비스 비교 지면\n방향 정하기\n관찰 → 판단\n경험 바꾸기\n화면 → 시안\n기존 콘텐츠 → 비교 시안으로 검증\n02\n운영 시스템 교체\n운영 자료를 먼저 확인해야 함\n도구\n권한\n교육\n도구 목록·권한 구조·교육 범위가 선행\n03\n안내 문구 정리\nE1 + E3 / 설명을 빠르게 정리\n자세히 보기\n내 상황과 비교\n문장은 바뀌지만 선택 구조는 유지\n01과 함께 정리할 보조 작업\n04\n전체 화면 재제작\n전체 접점을 바꾸기 전 범위 확인\n탐색\n사례\n문의\n넓은 변경 범위 → 근거 보강 필요\n낮음\n실행 부담\n높음 →\n01\n기존 콘텐츠로 먼저 검증할 두 지면\nORBIT\n서비스 비교\n어디에서 시작할까요?\n방향 정하기\n관찰 자료 → 판단 기준\n경험 바꾸기\n현재 화면 → 비교 시안\n\n함께 정할 것과 남는 자료를 같은 위치에서 비교합니다.\n\nORBIT\n문의 준비\n첫 대화에 필요한 것\n현재 자료\n웹사이트 · 소개서 주소\n막힌 장면\n고객이 어려워하는 선택\n다음 결정\n이번에 확인하려는 질문\n\n별도 시스템 교체 없이 문의 준비 흐름을 시험합니다.\n\nFIELD NOTES / 관찰\n세 장면에서\n같은 질문이 나왔습니다.\n첫 방문\n“서비스 이름은 알겠는데,\n제 일과 어떻게 연결되나요?”\n비교 중\n“두 서비스의 차이를\n어디에서 확인하나요?”\n문의 준비\n“어떤 자료를\n먼저 보내면 좋을까요?”\n\n시연용 가상 고객 질문 · 실제 인터뷰 인용이 아닙니다.\n\nOPTIONS REVIEW / 비교\n효과와 준비를\n함께 비교합니다.\n과제\n기대 효과\n실행 부담\n01 탐색 개선\n높음\n낮음\n02 시스템 교체\n높음\n높음\n03 문구 정리\n제한적\n낮음\n04 전체 재제작\n확인 필요\n높음\n\n기존 자료로 확인할 수 있는 범위를 먼저 고릅니다. 가상의 정성 비교입니다.\n\nNEXT EXPERIMENT / 선택\n선택의 기준을\n앞에서 보여주기\n01\n서비스 탐색 개선\n먼저 검증할 과제\n선택한 이유\n기존 콘텐츠로 비교 순서를 바꿔볼 수 있고, 전체 재제작 전에 확인할 수 있습니다.\n다음 검증\n같은 질문으로 두 시안을 살펴보고, 차이를 설명할 수 있는지 확인합니다.\n\n이 판단을 다음 디지털 화면 시안으로 옮깁니다.\n\n함께 정한 범위\n서비스 비교와 문의 준비 화면\n지금 바꾸지 않는 것\n운영 시스템과 전체 사이트 구조\n다시 판단할 시점\n고객이 시안을 읽고 선택한 뒤",
+          "images": [],
+          "overflow": 0
+        }
+      },
+      {
+        "stage": "2",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-2-desktop-reduced-2.png",
+        "sha256": "1de509115378ff68d60878812e155c9c176e07ba653aae48ca4d20bfed877cd4",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-2-desktop-reduced-2-material.png",
+          "sha256": "dffe3ce7a8723410a0b818f782b5780f2ec5ce464466c972cdecd048b9c39237"
+        },
+        "material": {
+          "text": "ORBIT / DECISION NOTE 04\n급한 일과 중요한 일을\n같은 자리에 놓습니다.\n\n가상 서비스 개선 과제입니다. 고객의 불편, 기대 효과, 실행에 필요한 준비를 비교해 먼저 확인할 일을 고릅니다.\n\n01 관찰을 모으고\n02 조건을 비교한 뒤\n03 먼저 검증할 일 선택\n질문과 과제를 연결해 봅니다.\n고객 여정 3장면 · 정성 비교\nE1 / 첫 방문\n\n“내 일과 어떻게\n연결되나요?”\n\nE2 / 비교 중\n\n“두 서비스는\n무엇이 다른가요?”\n\nE3 / 문의 준비\n\n“어떤 자료를\n먼저 보내나요?”\n\n기대 효과\n높음 ↑\n01\n서비스 탐색 개선\nE1 + E2 + E3 → 세 선택 질문을 함께\n서비스 비교 지면\n방향 정하기\n관찰 → 판단\n경험 바꾸기\n화면 → 시안\n기존 콘텐츠 → 비교 시안으로 검증\n02\n운영 시스템 교체\n운영 자료를 먼저 확인해야 함\n도구\n권한\n교육\n도구 목록·권한 구조·교육 범위가 선행\n03\n안내 문구 정리\nE1 + E3 / 설명을 빠르게 정리\n자세히 보기\n내 상황과 비교\n문장은 바뀌지만 선택 구조는 유지\n01과 함께 정리할 보조 작업\n04\n전체 화면 재제작\n전체 접점을 바꾸기 전 범위 확인\n탐색\n사례\n문의\n넓은 변경 범위 → 근거 보강 필요\n낮음\n실행 부담\n높음 →\n01\n기존 콘텐츠로 먼저 검증할 두 지면\nORBIT\n서비스 비교\n어디에서 시작할까요?\n방향 정하기\n관찰 자료 → 판단 기준\n경험 바꾸기\n현재 화면 → 비교 시안\n\n함께 정할 것과 남는 자료를 같은 위치에서 비교합니다.\n\nORBIT\n문의 준비\n첫 대화에 필요한 것\n현재 자료\n웹사이트 · 소개서 주소\n막힌 장면\n고객이 어려워하는 선택\n다음 결정\n이번에 확인하려는 질문\n\n별도 시스템 교체 없이 문의 준비 흐름을 시험합니다.\n\nFIELD NOTES / 관찰\n세 장면에서\n같은 질문이 나왔습니다.\n첫 방문\n“서비스 이름은 알겠는데,\n제 일과 어떻게 연결되나요?”\n비교 중\n“두 서비스의 차이를\n어디에서 확인하나요?”\n문의 준비\n“어떤 자료를\n먼저 보내면 좋을까요?”\n\n시연용 가상 고객 질문 · 실제 인터뷰 인용이 아닙니다.\n\nOPTIONS REVIEW / 비교\n효과와 준비를\n함께 비교합니다.\n과제\n기대 효과\n실행 부담\n01 탐색 개선\n높음\n낮음\n02 시스템 교체\n높음\n높음\n03 문구 정리\n제한적\n낮음\n04 전체 재제작\n확인 필요\n높음\n\n기존 자료로 확인할 수 있는 범위를 먼저 고릅니다. 가상의 정성 비교입니다.\n\nNEXT EXPERIMENT / 선택\n선택의 기준을\n앞에서 보여주기\n01\n서비스 탐색 개선\n먼저 검증할 과제\n선택한 이유\n기존 콘텐츠로 비교 순서를 바꿔볼 수 있고, 전체 재제작 전에 확인할 수 있습니다.\n다음 검증\n같은 질문으로 두 시안을 살펴보고, 차이를 설명할 수 있는지 확인합니다.\n\n이 판단을 다음 디지털 화면 시안으로 옮깁니다.\n\n함께 정한 범위\n서비스 비교와 문의 준비 화면\n지금 바꾸지 않는 것\n운영 시스템과 전체 사이트 구조\n다시 판단할 시점\n고객이 시안을 읽고 선택한 뒤",
+          "images": [],
+          "overflow": 0
+        }
+      }
+    ]
+  },
+  {
+    "page": "home-3",
+    "state": "desktop-scroll",
+    "result": "observed-not-visually-approved",
+    "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+    "capturedAt": "2026-09-29T03:00:00.979Z",
+    "shots": [
+      {
+        "stage": "a",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-3-desktop-scroll-0.png",
+        "sha256": "90739c0f1430cbee99c2bb1b3824a161945cb63625fe2981c2d23f180516db1e",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-3-desktop-scroll-0-material.png",
+          "sha256": "458f3c87f553960f0332af61de04b238e25011bc255789571a34f269f2f0f606"
+        },
+        "material": {
+          "text": "01 / WAYFINDING SYSTEM\n처음 온 사람도\n길을 잃지 않도록.\n\n멀리에서는 방향을, 가까이에서는 장소와 편의시설을 읽습니다. 안내 데스크에서 출구·승강장·환승까지, 평면과 표지를 같은 언어로 연결합니다.\n\nCENTRAL EXCHANGE / WAYFINDING SYSTEM\n어디로 가시나요?\n1F · 중앙 홀 / CONCOURSE\nA / STREET & CITY BUS\nB / RAIL PLATFORMS\nC / TRANSFER\n승강장 1\n승강장 2\n시내 방면\n공항 방면\n매표소\nTICKETS\n대기 공간\nWAITING\n화장실\nWC\n엘리베이터\nLIFT / STEP-FREE\n현재 위치 / 안내 데스크\n← A\n거리로 나가기\n출구 · 시내 버스\n무단차 출입구\n↑ B\nC →\n다음 노선으로\n연결 통로 · 환승\n교통카드 이용\n현재 위치\n주요 이동\n무단차 이동\n색 + 문자 + 방향을 함께 표시합니다.\nFICTIONAL DESIGN STUDY · 실제 시설의 안내도로 사용하지 않습니다.\nJW SOFT / 2026\nA\n거리로 나가기\n출구 · 시내 버스 · 무단차 출입구\nB\n승강장 찾기\n1번 시내 방면 · 2번 공항 방면\nC\n다음 노선으로\n연결 통로 · 환승 안내\n색에만 의존하지 않고 문자·방향·시설명을 함께 표시한 시안입니다.\n관련 분야 보기",
+          "images": [],
+          "overflow": 0
+        }
+      },
+      {
+        "stage": "b",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-3-desktop-scroll-1.png",
+        "sha256": "5f995f460adf76dc1aa1273cd08d7e8b7d00e399f4b276e403c34296e6d706db",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-3-desktop-scroll-1-material.png",
+          "sha256": "b04048f159ab72a4fc56a3be5b69e214a1e3a398c59029f1ebededaf0caf6998"
+        },
+        "material": {
+          "text": "01 / WAYFINDING SYSTEM\n처음 온 사람도\n길을 잃지 않도록.\n\n멀리에서는 방향을, 가까이에서는 장소와 편의시설을 읽습니다. 안내 데스크에서 출구·승강장·환승까지, 평면과 표지를 같은 언어로 연결합니다.\n\nCENTRAL EXCHANGE / WAYFINDING SYSTEM\n어디로 가시나요?\n1F · 중앙 홀 / CONCOURSE\nA / STREET & CITY BUS\nB / RAIL PLATFORMS\nC / TRANSFER\n승강장 1\n승강장 2\n시내 방면\n공항 방면\n매표소\nTICKETS\n대기 공간\nWAITING\n화장실\nWC\n엘리베이터\nLIFT / STEP-FREE\n현재 위치 / 안내 데스크\n← A\n거리로 나가기\n출구 · 시내 버스\n무단차 출입구\n↑ B\nC →\n다음 노선으로\n연결 통로 · 환승\n교통카드 이용\n현재 위치\n주요 이동\n무단차 이동\n색 + 문자 + 방향을 함께 표시합니다.\nFICTIONAL DESIGN STUDY · 실제 시설의 안내도로 사용하지 않습니다.\nJW SOFT / 2026\nA\n거리로 나가기\n출구 · 시내 버스 · 무단차 출입구\nB\n승강장 찾기\n1번 시내 방면 · 2번 공항 방면\nC\n다음 노선으로\n연결 통로 · 환승 안내\n색에만 의존하지 않고 문자·방향·시설명을 함께 표시한 시안입니다.\n관련 분야 보기",
+          "images": [],
+          "overflow": 0
+        }
+      },
+      {
+        "stage": "c",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-3-desktop-scroll-2.png",
+        "sha256": "f30fd1f57f0dbedd2b62ec8494056e8ba7e32046b33d7accfaab3211c2aca1ff",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-3-desktop-scroll-2-material.png",
+          "sha256": "666fa88967f23b57ff32acdf02b2f68dcaa6c2b16cbc9d28d44dff5ac95bf96e"
+        },
+        "material": {
+          "text": "01 / WAYFINDING SYSTEM\n처음 온 사람도\n길을 잃지 않도록.\n\n멀리에서는 방향을, 가까이에서는 장소와 편의시설을 읽습니다. 안내 데스크에서 출구·승강장·환승까지, 평면과 표지를 같은 언어로 연결합니다.\n\nCENTRAL EXCHANGE / WAYFINDING SYSTEM\n어디로 가시나요?\n1F · 중앙 홀 / CONCOURSE\nA / STREET & CITY BUS\nB / RAIL PLATFORMS\nC / TRANSFER\n승강장 1\n승강장 2\n시내 방면\n공항 방면\n매표소\nTICKETS\n대기 공간\nWAITING\n화장실\nWC\n엘리베이터\nLIFT / STEP-FREE\n현재 위치 / 안내 데스크\n← A\n거리로 나가기\n출구 · 시내 버스\n무단차 출입구\n↑ B\nC →\n다음 노선으로\n연결 통로 · 환승\n교통카드 이용\n현재 위치\n주요 이동\n무단차 이동\n색 + 문자 + 방향을 함께 표시합니다.\nFICTIONAL DESIGN STUDY · 실제 시설의 안내도로 사용하지 않습니다.\nJW SOFT / 2026\nA\n거리로 나가기\n출구 · 시내 버스 · 무단차 출입구\nB\n승강장 찾기\n1번 시내 방면 · 2번 공항 방면\nC\n다음 노선으로\n연결 통로 · 환승 안내\n색에만 의존하지 않고 문자·방향·시설명을 함께 표시한 시안입니다.\n관련 분야 보기",
+          "images": [],
+          "overflow": 0
+        }
+      }
+    ]
+  },
+  {
+    "page": "home-3",
+    "state": "mobile-controls",
+    "result": "observed-not-visually-approved",
+    "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+    "capturedAt": "2026-09-29T03:00:03.349Z",
+    "shots": [
+      {
+        "stage": "a",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-3-mobile-controls-0.png",
+        "sha256": "169b0f2e9b24d22ddd2a897698d966291a7dc895a68441cd08c09c294191d0fe",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-3-mobile-controls-0-material.png",
+          "sha256": "cdad747f22d01c3254434bbd7d26d99b2ba9047c452eb79d7a192f4f1f9d6ac3"
+        },
+        "material": {
+          "text": "01 / WAYFINDING SYSTEM\n처음 온 사람도\n길을 잃지 않도록.\n\n멀리에서는 방향을, 가까이에서는 장소와 편의시설을 읽습니다. 안내 데스크에서 출구·승강장·환승까지, 평면과 표지를 같은 언어로 연결합니다.\n\nCENTRAL EXCHANGE / WAYFINDING SYSTEM\n어디로 가시나요?\n1F · 중앙 홀 / CONCOURSE\nA / STREET & CITY BUS\nB / RAIL PLATFORMS\nC / TRANSFER\n승강장 1\n승강장 2\n시내 방면\n공항 방면\n매표소\nTICKETS\n대기 공간\nWAITING\n화장실\nWC\n엘리베이터\nLIFT / STEP-FREE\n현재 위치 / 안내 데스크\n← A\n거리로 나가기\n출구 · 시내 버스\n무단차 출입구\n↑ B\nC →\n다음 노선으로\n연결 통로 · 환승\n교통카드 이용\n현재 위치\n주요 이동\n무단차 이동\n색 + 문자 + 방향을 함께 표시합니다.\nFICTIONAL DESIGN STUDY · 실제 시설의 안내도로 사용하지 않습니다.\nJW SOFT / 2026\nA\n거리로 나가기\n출구 · 시내 버스 · 무단차 출입구\nB\n승강장 찾기\n1번 시내 방면 · 2번 공항 방면\nC\n다음 노선으로\n연결 통로 · 환승 안내\n색에만 의존하지 않고 문자·방향·시설명을 함께 표시한 시안입니다.\n관련 분야 보기",
+          "images": [],
+          "overflow": 0
+        }
+      },
+      {
+        "stage": "b",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-3-mobile-controls-1.png",
+        "sha256": "4875772c8ece2480cf327f0af36e332f8e0d66a4f4a23909f114c4243b5f4b1a",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-3-mobile-controls-1-material.png",
+          "sha256": "6733aed51200e30f6ab2de89ef7383fd3834a2caea01bff9416dccea883ec6da"
+        },
+        "material": {
+          "text": "01 / WAYFINDING SYSTEM\n처음 온 사람도\n길을 잃지 않도록.\n\n멀리에서는 방향을, 가까이에서는 장소와 편의시설을 읽습니다. 안내 데스크에서 출구·승강장·환승까지, 평면과 표지를 같은 언어로 연결합니다.\n\nCENTRAL EXCHANGE / WAYFINDING SYSTEM\n어디로 가시나요?\n1F · 중앙 홀 / CONCOURSE\nA / STREET & CITY BUS\nB / RAIL PLATFORMS\nC / TRANSFER\n승강장 1\n승강장 2\n시내 방면\n공항 방면\n매표소\nTICKETS\n대기 공간\nWAITING\n화장실\nWC\n엘리베이터\nLIFT / STEP-FREE\n현재 위치 / 안내 데스크\n← A\n거리로 나가기\n출구 · 시내 버스\n무단차 출입구\n↑ B\nC →\n다음 노선으로\n연결 통로 · 환승\n교통카드 이용\n현재 위치\n주요 이동\n무단차 이동\n색 + 문자 + 방향을 함께 표시합니다.\nFICTIONAL DESIGN STUDY · 실제 시설의 안내도로 사용하지 않습니다.\nJW SOFT / 2026\nA\n거리로 나가기\n출구 · 시내 버스 · 무단차 출입구\nB\n승강장 찾기\n1번 시내 방면 · 2번 공항 방면\nC\n다음 노선으로\n연결 통로 · 환승 안내\n색에만 의존하지 않고 문자·방향·시설명을 함께 표시한 시안입니다.\n관련 분야 보기",
+          "images": [],
+          "overflow": 0
+        }
+      },
+      {
+        "stage": "c",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-3-mobile-controls-2.png",
+        "sha256": "c6cbe5cf05297e0396bb1192f13af2ceb4519507e480b38021af84d13dc7b0f4",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-3-mobile-controls-2-material.png",
+          "sha256": "2c98cc6b42b7c5b1d39c76d7dba6416ca34f0cbf00cdd654e85be6a38c77389e"
+        },
+        "material": {
+          "text": "01 / WAYFINDING SYSTEM\n처음 온 사람도\n길을 잃지 않도록.\n\n멀리에서는 방향을, 가까이에서는 장소와 편의시설을 읽습니다. 안내 데스크에서 출구·승강장·환승까지, 평면과 표지를 같은 언어로 연결합니다.\n\nCENTRAL EXCHANGE / WAYFINDING SYSTEM\n어디로 가시나요?\n1F · 중앙 홀 / CONCOURSE\nA / STREET & CITY BUS\nB / RAIL PLATFORMS\nC / TRANSFER\n승강장 1\n승강장 2\n시내 방면\n공항 방면\n매표소\nTICKETS\n대기 공간\nWAITING\n화장실\nWC\n엘리베이터\nLIFT / STEP-FREE\n현재 위치 / 안내 데스크\n← A\n거리로 나가기\n출구 · 시내 버스\n무단차 출입구\n↑ B\nC →\n다음 노선으로\n연결 통로 · 환승\n교통카드 이용\n현재 위치\n주요 이동\n무단차 이동\n색 + 문자 + 방향을 함께 표시합니다.\nFICTIONAL DESIGN STUDY · 실제 시설의 안내도로 사용하지 않습니다.\nJW SOFT / 2026\nA\n거리로 나가기\n출구 · 시내 버스 · 무단차 출입구\nB\n승강장 찾기\n1번 시내 방면 · 2번 공항 방면\nC\n다음 노선으로\n연결 통로 · 환승 안내\n색에만 의존하지 않고 문자·방향·시설명을 함께 표시한 시안입니다.\n관련 분야 보기",
+          "images": [],
+          "overflow": 0
+        }
+      }
+    ]
+  },
+  {
+    "page": "home-3",
+    "state": "desktop-reduced",
+    "result": "observed-not-visually-approved",
+    "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+    "capturedAt": "2026-09-29T03:00:07.080Z",
+    "shots": [
+      {
+        "stage": "a",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-3-desktop-reduced-0.png",
+        "sha256": "a1cde83839d85d0a7699b0e05a095ccad122af6ed4ee9a1636a0e2249142cebb",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-3-desktop-reduced-0-material.png",
+          "sha256": "34d549bdbe334200a5897f15b0a4df3a32380d741c3b7f890e17e41dc58321ad"
+        },
+        "material": {
+          "text": "01 / WAYFINDING SYSTEM\n처음 온 사람도\n길을 잃지 않도록.\n\n멀리에서는 방향을, 가까이에서는 장소와 편의시설을 읽습니다. 안내 데스크에서 출구·승강장·환승까지, 평면과 표지를 같은 언어로 연결합니다.\n\nCENTRAL EXCHANGE / WAYFINDING SYSTEM\n어디로 가시나요?\n1F · 중앙 홀 / CONCOURSE\nA / STREET & CITY BUS\nB / RAIL PLATFORMS\nC / TRANSFER\n승강장 1\n승강장 2\n시내 방면\n공항 방면\n매표소\nTICKETS\n대기 공간\nWAITING\n화장실\nWC\n엘리베이터\nLIFT / STEP-FREE\n현재 위치 / 안내 데스크\n← A\n거리로 나가기\n출구 · 시내 버스\n무단차 출입구\n↑ B\nC →\n다음 노선으로\n연결 통로 · 환승\n교통카드 이용\n현재 위치\n주요 이동\n무단차 이동\n색 + 문자 + 방향을 함께 표시합니다.\nFICTIONAL DESIGN STUDY · 실제 시설의 안내도로 사용하지 않습니다.\nJW SOFT / 2026\nA\n거리로 나가기\n출구 · 시내 버스 · 무단차 출입구\nB\n승강장 찾기\n1번 시내 방면 · 2번 공항 방면\nC\n다음 노선으로\n연결 통로 · 환승 안내\n색에만 의존하지 않고 문자·방향·시설명을 함께 표시한 시안입니다.\n관련 분야 보기",
+          "images": [],
+          "overflow": 0
+        }
+      },
+      {
+        "stage": "b",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-3-desktop-reduced-1.png",
+        "sha256": "067f2b0f1d140c6249bd5293fa5af8d8f9b2096ddd575ad038567ba06ee7ab46",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-3-desktop-reduced-1-material.png",
+          "sha256": "e882cd6445478fa63eb7b24d0baafc9bb099840eaaaeca789142b3f18ae58e9d"
+        },
+        "material": {
+          "text": "01 / WAYFINDING SYSTEM\n처음 온 사람도\n길을 잃지 않도록.\n\n멀리에서는 방향을, 가까이에서는 장소와 편의시설을 읽습니다. 안내 데스크에서 출구·승강장·환승까지, 평면과 표지를 같은 언어로 연결합니다.\n\nCENTRAL EXCHANGE / WAYFINDING SYSTEM\n어디로 가시나요?\n1F · 중앙 홀 / CONCOURSE\nA / STREET & CITY BUS\nB / RAIL PLATFORMS\nC / TRANSFER\n승강장 1\n승강장 2\n시내 방면\n공항 방면\n매표소\nTICKETS\n대기 공간\nWAITING\n화장실\nWC\n엘리베이터\nLIFT / STEP-FREE\n현재 위치 / 안내 데스크\n← A\n거리로 나가기\n출구 · 시내 버스\n무단차 출입구\n↑ B\nC →\n다음 노선으로\n연결 통로 · 환승\n교통카드 이용\n현재 위치\n주요 이동\n무단차 이동\n색 + 문자 + 방향을 함께 표시합니다.\nFICTIONAL DESIGN STUDY · 실제 시설의 안내도로 사용하지 않습니다.\nJW SOFT / 2026\nA\n거리로 나가기\n출구 · 시내 버스 · 무단차 출입구\nB\n승강장 찾기\n1번 시내 방면 · 2번 공항 방면\nC\n다음 노선으로\n연결 통로 · 환승 안내\n색에만 의존하지 않고 문자·방향·시설명을 함께 표시한 시안입니다.\n관련 분야 보기",
+          "images": [],
+          "overflow": 0
+        }
+      },
+      {
+        "stage": "c",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-3-desktop-reduced-2.png",
+        "sha256": "f9cdf4dcbf7c29929254fb061326c9afff1a1560fb2a98cc2b826f6ac0083220",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-3-desktop-reduced-2-material.png",
+          "sha256": "0db8a72641a26d0a5dbaee9f6de868f00239705b5f1e46a99464721eeed6a631"
+        },
+        "material": {
+          "text": "01 / WAYFINDING SYSTEM\n처음 온 사람도\n길을 잃지 않도록.\n\n멀리에서는 방향을, 가까이에서는 장소와 편의시설을 읽습니다. 안내 데스크에서 출구·승강장·환승까지, 평면과 표지를 같은 언어로 연결합니다.\n\nCENTRAL EXCHANGE / WAYFINDING SYSTEM\n어디로 가시나요?\n1F · 중앙 홀 / CONCOURSE\nA / STREET & CITY BUS\nB / RAIL PLATFORMS\nC / TRANSFER\n승강장 1\n승강장 2\n시내 방면\n공항 방면\n매표소\nTICKETS\n대기 공간\nWAITING\n화장실\nWC\n엘리베이터\nLIFT / STEP-FREE\n현재 위치 / 안내 데스크\n← A\n거리로 나가기\n출구 · 시내 버스\n무단차 출입구\n↑ B\nC →\n다음 노선으로\n연결 통로 · 환승\n교통카드 이용\n현재 위치\n주요 이동\n무단차 이동\n색 + 문자 + 방향을 함께 표시합니다.\nFICTIONAL DESIGN STUDY · 실제 시설의 안내도로 사용하지 않습니다.\nJW SOFT / 2026\nA\n거리로 나가기\n출구 · 시내 버스 · 무단차 출입구\nB\n승강장 찾기\n1번 시내 방면 · 2번 공항 방면\nC\n다음 노선으로\n연결 통로 · 환승 안내\n색에만 의존하지 않고 문자·방향·시설명을 함께 표시한 시안입니다.\n관련 분야 보기",
+          "images": [],
+          "overflow": 0
+        }
+      }
+    ]
+  },
+  {
+    "page": "home-4",
+    "state": "desktop-scroll",
+    "result": "observed-not-visually-approved",
+    "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+    "capturedAt": "2026-09-29T03:00:10.383Z",
+    "shots": [
+      {
+        "stage": "0",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-4-desktop-scroll-0.png",
+        "sha256": "a4f8a9cdd9f00ec31b415c7c002759a344f45015d7fe8b94e8556f8e14b14501",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-4-desktop-scroll-0-material.png",
+          "sha256": "7984c1fee719194265bc581bd7d4f9c2478c53f123f489a91c8df74dea63c407"
+        },
+        "material": {
+          "text": "FORME · 질문에서 경험으로\n가상 브랜드의 실제 디자인 자료\n01 · 발견 자료\n무엇을 먼저\n말할 것인가.\n관찰한 질문을 브랜드의 언어로 정리합니다.\n02 · 선택 화면\n나에게 맞는\n제품을 찾도록.\n같은 정보를 제품에 맞게 비교할 수 있게 합니다.\n03 · 경험 결과\n여는 순간까지\n이어지는 인상.\n웹에서 본 색과 이야기를 포장까지 연결합니다.\nFORME\n브랜드 브리프 · 시연 자료\n일상의 작은 균형.\n\n자연스러운 데일리 케어를 찾는 사람에게,\n매일 쓰기 편안한 제품의 이유를 전합니다.\n\n고객의 질문\n“좋은 재료라는 건 알겠어요.\n그런데 언제, 어떻게 쓰면 될까요?”\n먼저 보여줄 것\n씻고, 바르고, 쉬는 일상의 사용 장면\n그다음 알려줄 것\n제품의 용도와 용량, 주요 재료의 특징\n남길 인상\n담백한 사진 · 짧은 설명 · 편안한 색\n질문에서 정한 세 가지 기준\n일상 / 명료함 / 자연스러움\n\n자료를 선택하거나 스크롤하며, 생각이 결과로 이어지는 과정을 살펴보세요.",
+          "images": [],
+          "overflow": 0
+        }
+      },
+      {
+        "stage": "1",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-4-desktop-scroll-1.png",
+        "sha256": "5090286b37a237cd6c00025b413ecba848b3720ad0bd92180da37f3a016fd3a9",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-4-desktop-scroll-1-material.png",
+          "sha256": "f39aa99cbbc5b51892d28a8abd004a4a2c6d7ecbd3bb6b726a9aed2f90da385b"
+        },
+        "material": {
+          "text": "FORME · 질문에서 경험으로\n가상 브랜드의 실제 디자인 자료\n01 · 발견 자료\n무엇을 먼저\n말할 것인가.\n관찰한 질문을 브랜드의 언어로 정리합니다.\n02 · 선택 화면\n나에게 맞는\n제품을 찾도록.\n같은 정보를 제품에 맞게 비교할 수 있게 합니다.\n03 · 경험 결과\n여는 순간까지\n이어지는 인상.\n웹에서 본 색과 이야기를 포장까지 연결합니다.\nFORME\nOur story　 Collection　 Care guide\n나의 일상에 맞는 케어\n씻는 순간,\n바르는 순간.\nHand & body wash\n300ml · 샤워와 손 씻기\n베티버 잎 · 베르가모트\nNourishing hand cream\n75ml · 건조한 손의 데일리 케어\n시어버터 · 올리브 잎\n\n용도와 재료를 같은 순서로.\n나에게 필요한 제품을 쉽게 비교합니다.\n\n일상에 스며드는 자연의 균형.\n제품 탐색 화면 디자인 시안\n\n자료를 선택하거나 스크롤하며, 생각이 결과로 이어지는 과정을 살펴보세요.",
+          "images": [
+            {
+              "src": "https://g5themes.test/theme/jw_business/assets/home-four/journey-products.webp",
+              "loaded": true
+            }
+          ],
+          "overflow": 0
+        }
+      },
+      {
+        "stage": "2",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-4-desktop-scroll-2.png",
+        "sha256": "d4ce4c4c64470576f2cab99930d0b6d64ffafbc7b5e36568adea8cc1fbee41be",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-4-desktop-scroll-2-material.png",
+          "sha256": "b8b33cca3358bcd4307b10a49d3f89e1a9e92c4fdde3242dd494da2522450aed"
+        },
+        "material": {
+          "text": "FORME · 질문에서 경험으로\n가상 브랜드의 실제 디자인 자료\n01 · 발견 자료\n무엇을 먼저\n말할 것인가.\n관찰한 질문을 브랜드의 언어로 정리합니다.\n02 · 선택 화면\n나에게 맞는\n제품을 찾도록.\n같은 정보를 제품에 맞게 비교할 수 있게 합니다.\n03 · 경험 결과\n여는 순간까지\n이어지는 인상.\n웹에서 본 색과 이야기를 포장까지 연결합니다.\n만나는 곳이 달라도,\n같은 브랜드로 기억되도록.\n제품 · 포장 · 동봉 카드가 공유하는 색과 촉감\n\n자료를 선택하거나 스크롤하며, 생각이 결과로 이어지는 과정을 살펴보세요.",
+          "images": [
+            {
+              "src": "https://g5themes.test/theme/jw_business/assets/home-four/experience-pack.webp",
+              "loaded": true
+            }
+          ],
+          "overflow": 0
+        }
+      }
+    ]
+  },
+  {
+    "page": "home-4",
+    "state": "mobile-controls",
+    "result": "observed-not-visually-approved",
+    "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+    "capturedAt": "2026-09-29T03:00:12.900Z",
+    "shots": [
+      {
+        "stage": "0",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-4-mobile-controls-0.png",
+        "sha256": "189661773a786e6954dbdb5b53e578005828fc9b1e1675b1504b4faa392c8736",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-4-mobile-controls-0-material.png",
+          "sha256": "afb88f815198b6b1e9b242ba9edd0f4d23df6358a9a28e6d1dbb567a85291aed"
+        },
+        "material": {
+          "text": "FORME · 질문에서 경험으로\n가상 브랜드의 실제 디자인 자료\n01 · 발견 자료\n무엇을 먼저\n말할 것인가.\n02 · 선택 화면\n나에게 맞는\n제품을 찾도록.\n03 · 경험 결과\n여는 순간까지\n이어지는 인상.\nFORME\n브랜드 브리프 · 시연 자료\n일상의 작은 균형.\n\n자연스러운 데일리 케어를 찾는 사람에게, 매일 쓰기 편안한 제품의 이유를 전합니다.\n\n고객의 질문\n“좋은 재료라는 건 알겠어요. 그런데 언제, 어떻게 쓰면 될까요?”\n먼저 보여줄 것\n씻고, 바르고, 쉬는 일상의 사용 장면\n그다음 알려줄 것\n제품의 용도와 용량, 주요 재료의 특징\n남길 인상\n담백한 사진 · 짧은 설명 · 편안한 색\n질문에서 정한 세 가지 기준\n일상 / 명료함 / 자연스러움\n\n자료를 선택하거나 스크롤하며, 생각이 결과로 이어지는 과정을 살펴보세요.",
+          "images": [],
+          "overflow": 0
+        }
+      },
+      {
+        "stage": "1",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-4-mobile-controls-1.png",
+        "sha256": "19d23b900f1505482d2252f30ed4e69847d6f73d8514ef7567db8cd4fbe9f78e",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-4-mobile-controls-1-material.png",
+          "sha256": "7cf07729fe0f5b2053a78d923946eba2935dfaadcee4de9b4359434d690a0e1c"
+        },
+        "material": {
+          "text": "FORME · 질문에서 경험으로\n가상 브랜드의 실제 디자인 자료\n01 · 발견 자료\n무엇을 먼저\n말할 것인가.\n02 · 선택 화면\n나에게 맞는\n제품을 찾도록.\n03 · 경험 결과\n여는 순간까지\n이어지는 인상.\nFORME\nOur story　 Collection　 Care guide\n나의 일상에 맞는 케어\n씻는 순간, 바르는 순간.\nHand & body wash\n300ml · 샤워와 손 씻기\n베티버 잎 · 베르가모트\nNourishing hand cream\n75ml · 건조한 손의 데일리 케어\n시어버터 · 올리브 잎\n\n용도와 재료를 같은 순서로.\n나에게 필요한 제품을 쉽게 비교합니다.\n\n일상에 스며드는 자연의 균형.\n제품 탐색 화면 디자인 시안\n\n자료를 선택하거나 스크롤하며, 생각이 결과로 이어지는 과정을 살펴보세요.",
+          "images": [
+            {
+              "src": "https://g5themes.test/theme/jw_business/assets/home-four/journey-products.webp",
+              "loaded": true
+            }
+          ],
+          "overflow": 0
+        }
+      },
+      {
+        "stage": "2",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-4-mobile-controls-2.png",
+        "sha256": "eaf23fd2f857d1c0e91083f1c541cdca06cd9ede0fdc2a8085d3f6d2b5340ad8",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-4-mobile-controls-2-material.png",
+          "sha256": "0d3e3c5d9a5874b706a5421aec77449f50f37864ca3402fd0e30c34dcb3ce366"
+        },
+        "material": {
+          "text": "FORME · 질문에서 경험으로\n가상 브랜드의 실제 디자인 자료\n01 · 발견 자료\n무엇을 먼저\n말할 것인가.\n02 · 선택 화면\n나에게 맞는\n제품을 찾도록.\n03 · 경험 결과\n여는 순간까지\n이어지는 인상.\n만나는 곳이 달라도,\n같은 브랜드로 기억되도록.\n제품 · 포장 · 동봉 카드가 공유하는 색과 촉감\n\n자료를 선택하거나 스크롤하며, 생각이 결과로 이어지는 과정을 살펴보세요.",
+          "images": [
+            {
+              "src": "https://g5themes.test/theme/jw_business/assets/home-four/experience-pack.webp",
+              "loaded": true
+            }
+          ],
+          "overflow": 0
+        }
+      }
+    ]
+  },
+  {
+    "page": "home-4",
+    "state": "desktop-reduced",
+    "result": "observed-not-visually-approved",
+    "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+    "capturedAt": "2026-09-29T03:00:16.307Z",
+    "shots": [
+      {
+        "stage": "0",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-4-desktop-reduced-0.png",
+        "sha256": "93d9f5166fc11350a4a4b477e43a3c193636399c5409880c5258fccc8ef3f703",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-4-desktop-reduced-0-material.png",
+          "sha256": "1548ed0043c67aa8ca4ad0f47a794c562b7c3789003beae2b484118530dbe67d"
+        },
+        "material": {
+          "text": "FORME · 질문에서 경험으로\n가상 브랜드의 실제 디자인 자료\n01 · 발견 자료\n무엇을 먼저\n말할 것인가.\n관찰한 질문을 브랜드의 언어로 정리합니다.\n02 · 선택 화면\n나에게 맞는\n제품을 찾도록.\n같은 정보를 제품에 맞게 비교할 수 있게 합니다.\n03 · 경험 결과\n여는 순간까지\n이어지는 인상.\n웹에서 본 색과 이야기를 포장까지 연결합니다.\nFORME\n브랜드 브리프 · 시연 자료\n일상의 작은 균형.\n\n자연스러운 데일리 케어를 찾는 사람에게,\n매일 쓰기 편안한 제품의 이유를 전합니다.\n\n고객의 질문\n“좋은 재료라는 건 알겠어요.\n그런데 언제, 어떻게 쓰면 될까요?”\n먼저 보여줄 것\n씻고, 바르고, 쉬는 일상의 사용 장면\n그다음 알려줄 것\n제품의 용도와 용량, 주요 재료의 특징\n남길 인상\n담백한 사진 · 짧은 설명 · 편안한 색\n질문에서 정한 세 가지 기준\n일상 / 명료함 / 자연스러움\n\n자료를 선택하거나 스크롤하며, 생각이 결과로 이어지는 과정을 살펴보세요.",
+          "images": [],
+          "overflow": 0
+        }
+      },
+      {
+        "stage": "1",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-4-desktop-reduced-1.png",
+        "sha256": "182b88a8b3b3535289a1c0ec738a1016b42b65ad52260f0cc9496c94701eaf79",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-4-desktop-reduced-1-material.png",
+          "sha256": "a903114d1b5b7efe3fae213c9fcfbf518d8b2c273c0a57bc6d1afc8cb6572dc4"
+        },
+        "material": {
+          "text": "FORME · 질문에서 경험으로\n가상 브랜드의 실제 디자인 자료\n01 · 발견 자료\n무엇을 먼저\n말할 것인가.\n관찰한 질문을 브랜드의 언어로 정리합니다.\n02 · 선택 화면\n나에게 맞는\n제품을 찾도록.\n같은 정보를 제품에 맞게 비교할 수 있게 합니다.\n03 · 경험 결과\n여는 순간까지\n이어지는 인상.\n웹에서 본 색과 이야기를 포장까지 연결합니다.\nFORME\nOur story　 Collection　 Care guide\n나의 일상에 맞는 케어\n씻는 순간,\n바르는 순간.\nHand & body wash\n300ml · 샤워와 손 씻기\n베티버 잎 · 베르가모트\nNourishing hand cream\n75ml · 건조한 손의 데일리 케어\n시어버터 · 올리브 잎\n\n용도와 재료를 같은 순서로.\n나에게 필요한 제품을 쉽게 비교합니다.\n\n일상에 스며드는 자연의 균형.\n제품 탐색 화면 디자인 시안\n\n자료를 선택하거나 스크롤하며, 생각이 결과로 이어지는 과정을 살펴보세요.",
+          "images": [
+            {
+              "src": "https://g5themes.test/theme/jw_business/assets/home-four/journey-products.webp",
+              "loaded": true
+            }
+          ],
+          "overflow": 0
+        }
+      },
+      {
+        "stage": "2",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-4-desktop-reduced-2.png",
+        "sha256": "7024ab2cb3dbe638a889208394f48f7cc026aa7258011de2f51249be4ba8fa10",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/home-4-desktop-reduced-2-material.png",
+          "sha256": "7159403083d19e2abc29e7b93c0966c5ce47fb3fedc3a76acddab0cd5139597e"
+        },
+        "material": {
+          "text": "FORME · 질문에서 경험으로\n가상 브랜드의 실제 디자인 자료\n01 · 발견 자료\n무엇을 먼저\n말할 것인가.\n관찰한 질문을 브랜드의 언어로 정리합니다.\n02 · 선택 화면\n나에게 맞는\n제품을 찾도록.\n같은 정보를 제품에 맞게 비교할 수 있게 합니다.\n03 · 경험 결과\n여는 순간까지\n이어지는 인상.\n웹에서 본 색과 이야기를 포장까지 연결합니다.\n만나는 곳이 달라도,\n같은 브랜드로 기억되도록.\n제품 · 포장 · 동봉 카드가 공유하는 색과 촉감\n\n자료를 선택하거나 스크롤하며, 생각이 결과로 이어지는 과정을 살펴보세요.",
+          "images": [
+            {
+              "src": "https://g5themes.test/theme/jw_business/assets/home-four/experience-pack.webp",
+              "loaded": true
+            }
+          ],
+          "overflow": 0
+        }
+      }
+    ]
+  },
+  {
+    "page": "onepage-services",
+    "state": "desktop-scroll",
+    "result": "observed-not-visually-approved",
+    "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+    "capturedAt": "2026-09-29T03:00:19.900Z",
+    "shots": [
+      {
+        "stage": "0",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/onepage-services-desktop-scroll-0.png",
+        "sha256": "6c8c0e22f01e8a0a9d8d3b6615d2a8686e001d90d3d908ab5213761706a8a4ff",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/onepage-services-desktop-scroll-0-material.png",
+          "sha256": "6d6f8041658548e7bb03904d756cd0ad69f9485b21bf1456ee8bedc7f924e913"
+        },
+        "material": {
+          "text": "01 / 발견\n나에게 맞는 시작인가요?\n관심을 고르면, 첫 과정이 보입니다.\n한 번 경험하기\n나만의 컵\n02 / 비교\n무엇을 만들게 되나요?\n완성물과 배울 시간을 함께 비교합니다.\n컵 한 개 · 2시간\n원데이 선택\n03 / 준비\n선택한 다음은 무엇인가요?\n시간을 고르고, 준비할 일을 확인합니다.\n토요일 오후\n상담 준비\nONDO\n나에게 맞는 클래스\n관심 찾기\n과정 비교\n일정 확인\n내 손으로 만드는\n첫 번째 컵.\n입문자를 위한 시간\n한 번 경험하기\n차근차근 배우기\n함께 만들기\n이런 시작은 어떠세요?\n나만의 컵\n\n원데이 2시간 · 도구와 재료 포함\n\n과정 살펴보기\n\n가상 고객사 ONDO의 화면 시안 · 사진은 AI 생성 수업/완성물 예시이며 실제 예약 서비스가 아닙니다.",
+          "images": [
+            {
+              "src": "https://g5themes.test/theme/jw_business/onepages/assets/correction/service-ondo-first-cup.webp",
+              "loaded": true
+            }
+          ],
+          "overflow": 0
+        }
+      },
+      {
+        "stage": "1",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/onepage-services-desktop-scroll-1.png",
+        "sha256": "69f5993ce64283389895ba3590887812fe4db7a98951db9b07fdb006655b6a4a",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/onepage-services-desktop-scroll-1-material.png",
+          "sha256": "e52cd80b0f387c62a459332c65ce33fada5e86cee27f570701ba2a46c7ef64cd"
+        },
+        "material": {
+          "text": "01 / 발견\n나에게 맞는 시작인가요?\n관심을 고르면, 첫 과정이 보입니다.\n한 번 경험하기\n나만의 컵\n02 / 비교\n무엇을 만들게 되나요?\n완성물과 배울 시간을 함께 비교합니다.\n컵 한 개 · 2시간\n원데이 선택\n03 / 준비\n선택한 다음은 무엇인가요?\n시간을 고르고, 준비할 일을 확인합니다.\n토요일 오후\n상담 준비\nONDO\n완성할 모습부터 비교하세요\n관심 찾기\n과정 비교\n일정 확인\n선택한 과정\n나만의 컵\n\n하루, 2시간\n흙과 처음 친해지는 시간\n\n컵 1개 완성\n조금 더 깊이\n생활의 그릇\n\n4주, 주 1회\n성형부터 유약까지 차근차근\n\n그릇과 접시 4점\n\n나만의 컵을 선택했어요.\n\n가능한 일정 보기\n\n가상 고객사 ONDO의 화면 시안 · 사진은 AI 생성 수업/완성물 예시이며 실제 예약 서비스가 아닙니다.",
+          "images": [
+            {
+              "src": "https://g5themes.test/theme/jw_business/onepages/assets/correction/service-ondo-course-works.webp",
+              "loaded": true
+            }
+          ],
+          "overflow": 0
+        }
+      },
+      {
+        "stage": "2",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/onepage-services-desktop-scroll-2.png",
+        "sha256": "b26e2341fd3288ddab552f6814faf28641dd3c22b2bc40f101e153a75b213bb6",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/onepage-services-desktop-scroll-2-material.png",
+          "sha256": "5896e10beb3dc064ce1c1b4dafa475d2128e4185f01e15427fb53cf9d8b87237"
+        },
+        "material": {
+          "text": "01 / 발견\n나에게 맞는 시작인가요?\n관심을 고르면, 첫 과정이 보입니다.\n한 번 경험하기\n나만의 컵\n02 / 비교\n무엇을 만들게 되나요?\n완성물과 배울 시간을 함께 비교합니다.\n컵 한 개 · 2시간\n원데이 선택\n03 / 준비\n선택한 다음은 무엇인가요?\n시간을 고르고, 준비할 일을 확인합니다.\n토요일 오후\n상담 준비\nONDO\n수업 일정 시안 · 실제 신청 기능 아님\n관심 찾기\n과정 비교\n일정 확인\n토요일 오후,\n흙을 만나는 시간.\n\n날짜와 시간을 고르면 준비할 일이 보입니다.\n\n10월\n수업 일정 시안\n토\n10\n토\n17\n토\n24\n토\n31\n오후 2:00\n오후 4:30\n선택한 수업\n나만의 컵 · 2시간\n준비되어 있어요\n흙 · 도구 · 앞치마\n이렇게 와 주세요\n편한 옷차림, 시작 10분 전\n\n10월 17일 · 오후 2시\n\n상담 준비 내용\n\n가상 고객사 ONDO의 화면 시안 · 사진은 AI 생성 수업/완성물 예시이며 실제 예약 서비스가 아닙니다.",
+          "images": [],
+          "overflow": 0
+        }
+      }
+    ]
+  },
+  {
+    "page": "onepage-services",
+    "state": "mobile-controls",
+    "result": "observed-not-visually-approved",
+    "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+    "capturedAt": "2026-09-29T03:00:22.804Z",
+    "shots": [
+      {
+        "stage": "0",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/onepage-services-mobile-controls-0.png",
+        "sha256": "f87cb1e841a0cc176d112d05f2246a352f4e53194597dd953b8a2e06b1a7a7ad",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/onepage-services-mobile-controls-0-material.png",
+          "sha256": "417be37fe4a371c43b17c411f6d64a42df9bde3fed5b03f6d34a7f6a21fbf526"
+        },
+        "material": {
+          "text": "01 / 발견\n02 / 비교\n03 / 준비\nONDO\n나에게 맞는 클래스\n관심 찾기\n과정 비교\n일정 확인\n내 손으로 만드는\n첫 번째 컵.\n한 번 경험하기\n차근차근 배우기\n함께 만들기\n이런 시작은 어떠세요?\n나만의 컵\n\n원데이 2시간 · 도구와 재료 포함\n\n과정 살펴보기\n\n가상 고객사 ONDO의 화면 시안 · 사진은 AI 생성 수업/완성물 예시이며 실제 예약 서비스가 아닙니다.",
+          "images": [
+            {
+              "src": "https://g5themes.test/theme/jw_business/onepages/assets/correction/service-ondo-first-cup.webp",
+              "loaded": true
+            }
+          ],
+          "overflow": 0
+        }
+      },
+      {
+        "stage": "1",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/onepage-services-mobile-controls-1.png",
+        "sha256": "8cef6e6e06cafdc54928708c71ec1673a3b51faf29e53ac9edd09c9ac4823a9e",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/onepage-services-mobile-controls-1-material.png",
+          "sha256": "38431a4a97001202012992eb7cdea83006c7b4b6c85c3cdeaf6c8cdc3134de86"
+        },
+        "material": {
+          "text": "01 / 발견\n02 / 비교\n03 / 준비\nONDO\n완성할 모습부터 비교하세요\n관심 찾기\n과정 비교\n일정 확인\n선택한 과정\n나만의 컵\n\n하루, 2시간\n흙과 처음 친해지는 시간\n\n컵 1개 완성\n조금 더 깊이\n생활의 그릇\n\n4주, 주 1회\n성형부터 유약까지 차근차근\n\n그릇과 접시 4점\n\n나만의 컵을 선택했어요.\n\n가능한 일정 보기\n\n가상 고객사 ONDO의 화면 시안 · 사진은 AI 생성 수업/완성물 예시이며 실제 예약 서비스가 아닙니다.",
+          "images": [
+            {
+              "src": "https://g5themes.test/theme/jw_business/onepages/assets/correction/service-ondo-course-works.webp",
+              "loaded": true
+            }
+          ],
+          "overflow": 0
+        }
+      },
+      {
+        "stage": "2",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/onepage-services-mobile-controls-2.png",
+        "sha256": "2fee02e2d76cd3ef4b776e302d37f300cf206690e40e2648ea07b7ea8bbe19e4",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/onepage-services-mobile-controls-2-material.png",
+          "sha256": "f9726d41df920eebd4381556e4e825818be8adbaffa9c7e65dd02921b472337b"
+        },
+        "material": {
+          "text": "01 / 발견\n02 / 비교\n03 / 준비\nONDO\n수업 일정 시안 · 실제 신청 기능 아님\n관심 찾기\n과정 비교\n일정 확인\n토요일 오후,\n흙을 만나는 시간.\n\n날짜와 시간을 고르면 준비할 일이 보입니다.\n\n10월\n수업 일정 시안\n토\n10\n토\n17\n토\n24\n토\n31\n오후 2:00\n오후 4:30\n선택한 수업\n나만의 컵 · 2시간\n준비되어 있어요\n흙 · 도구 · 앞치마\n이렇게 와 주세요\n편한 옷차림, 시작 10분 전\n\n10월 17일 · 오후 2시\n\n상담 준비 내용\n\n가상 고객사 ONDO의 화면 시안 · 사진은 AI 생성 수업/완성물 예시이며 실제 예약 서비스가 아닙니다.",
+          "images": [],
+          "overflow": 0
+        }
+      }
+    ]
+  },
+  {
+    "page": "onepage-services",
+    "state": "desktop-reduced",
+    "result": "observed-not-visually-approved",
+    "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+    "capturedAt": "2026-09-29T03:00:26.714Z",
+    "shots": [
+      {
+        "stage": "0",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/onepage-services-desktop-reduced-0.png",
+        "sha256": "7af2dd2729b6ef49c04d60738e83ffcba3b7d8f9202cd41fe88f00f030a2e711",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/onepage-services-desktop-reduced-0-material.png",
+          "sha256": "e27bdfd1bad1df23586bde19a64bc18380bc7fa7f0e22c90b785068b05a1fd98"
+        },
+        "material": {
+          "text": "01 / 발견\n나에게 맞는 시작인가요?\n관심을 고르면, 첫 과정이 보입니다.\n한 번 경험하기\n나만의 컵\n02 / 비교\n무엇을 만들게 되나요?\n완성물과 배울 시간을 함께 비교합니다.\n컵 한 개 · 2시간\n원데이 선택\n03 / 준비\n선택한 다음은 무엇인가요?\n시간을 고르고, 준비할 일을 확인합니다.\n토요일 오후\n상담 준비\nONDO\n나에게 맞는 클래스\n관심 찾기\n과정 비교\n일정 확인\n내 손으로 만드는\n첫 번째 컵.\n입문자를 위한 시간\n한 번 경험하기\n차근차근 배우기\n함께 만들기\n이런 시작은 어떠세요?\n나만의 컵\n\n원데이 2시간 · 도구와 재료 포함\n\n과정 살펴보기\n\n가상 고객사 ONDO의 화면 시안 · 사진은 AI 생성 수업/완성물 예시이며 실제 예약 서비스가 아닙니다.",
+          "images": [
+            {
+              "src": "https://g5themes.test/theme/jw_business/onepages/assets/correction/service-ondo-first-cup.webp",
+              "loaded": true
+            }
+          ],
+          "overflow": 0
+        }
+      },
+      {
+        "stage": "1",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/onepage-services-desktop-reduced-1.png",
+        "sha256": "b4d1872a631129db4a5abd2323031e58e08a913274881f578a1187c57fd95dc3",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/onepage-services-desktop-reduced-1-material.png",
+          "sha256": "b12d2c90ac466b5b8456da452c60ff007407f5a0ecfefcb12baca4ba88a871e6"
+        },
+        "material": {
+          "text": "01 / 발견\n나에게 맞는 시작인가요?\n관심을 고르면, 첫 과정이 보입니다.\n한 번 경험하기\n나만의 컵\n02 / 비교\n무엇을 만들게 되나요?\n완성물과 배울 시간을 함께 비교합니다.\n컵 한 개 · 2시간\n원데이 선택\n03 / 준비\n선택한 다음은 무엇인가요?\n시간을 고르고, 준비할 일을 확인합니다.\n토요일 오후\n상담 준비\nONDO\n완성할 모습부터 비교하세요\n관심 찾기\n과정 비교\n일정 확인\n선택한 과정\n나만의 컵\n\n하루, 2시간\n흙과 처음 친해지는 시간\n\n컵 1개 완성\n조금 더 깊이\n생활의 그릇\n\n4주, 주 1회\n성형부터 유약까지 차근차근\n\n그릇과 접시 4점\n\n나만의 컵을 선택했어요.\n\n가능한 일정 보기\n\n가상 고객사 ONDO의 화면 시안 · 사진은 AI 생성 수업/완성물 예시이며 실제 예약 서비스가 아닙니다.",
+          "images": [
+            {
+              "src": "https://g5themes.test/theme/jw_business/onepages/assets/correction/service-ondo-course-works.webp",
+              "loaded": true
+            }
+          ],
+          "overflow": 0
+        }
+      },
+      {
+        "stage": "2",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/onepage-services-desktop-reduced-2.png",
+        "sha256": "9deec4afdcae6dc9cf379ff33df21cf7bda971a1a6312bb204c7f2f91a86f9ff",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/onepage-services-desktop-reduced-2-material.png",
+          "sha256": "a74da440735c2ca20cea3104172653c58c0d40119ac1e1997d7b1ffccf792bc1"
+        },
+        "material": {
+          "text": "01 / 발견\n나에게 맞는 시작인가요?\n관심을 고르면, 첫 과정이 보입니다.\n한 번 경험하기\n나만의 컵\n02 / 비교\n무엇을 만들게 되나요?\n완성물과 배울 시간을 함께 비교합니다.\n컵 한 개 · 2시간\n원데이 선택\n03 / 준비\n선택한 다음은 무엇인가요?\n시간을 고르고, 준비할 일을 확인합니다.\n토요일 오후\n상담 준비\nONDO\n수업 일정 시안 · 실제 신청 기능 아님\n관심 찾기\n과정 비교\n일정 확인\n토요일 오후,\n흙을 만나는 시간.\n\n날짜와 시간을 고르면 준비할 일이 보입니다.\n\n10월\n수업 일정 시안\n토\n10\n토\n17\n토\n24\n토\n31\n오후 2:00\n오후 4:30\n선택한 수업\n나만의 컵 · 2시간\n준비되어 있어요\n흙 · 도구 · 앞치마\n이렇게 와 주세요\n편한 옷차림, 시작 10분 전\n\n10월 17일 · 오후 2시\n\n상담 준비 내용\n\n가상 고객사 ONDO의 화면 시안 · 사진은 AI 생성 수업/완성물 예시이며 실제 예약 서비스가 아닙니다.",
+          "images": [],
+          "overflow": 0
+        }
+      }
+    ]
+  },
+  {
+    "page": "onepage-projects",
+    "state": "desktop-scroll",
+    "result": "observed-not-visually-approved",
+    "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+    "capturedAt": "2026-09-29T03:00:31.114Z",
+    "shots": [
+      {
+        "stage": "0",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/onepage-projects-desktop-scroll-0.png",
+        "sha256": "76cdfca877049e74fe97a71f0220a84e2ff6017eb10606abed73d90c6d93646f",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/onepage-projects-desktop-scroll-0-material.png",
+          "sha256": "a46d365e17e70553cd4a291dae0c224cc109ed9b536d30dee25fe8ec1cd071ab"
+        },
+        "material": {
+          "text": "WORK\nGARDEN\nLOUNGE\n공유 작업실\n중앙 정원\n대화 라운지\n그늘의 회랑\n수공간\n입구\nN\nCONCEPT\n1\n2\n3\n실내\n정원·수공간\n방문 동선\n\n공간 관계를 보여 주는 가상 개념평면 · 시공용 도면이 아닙니다.\n\n01 / 도착\n첫 방향이 보이는 입구.\n\n문을 열면 정원이 먼저 보입니다. 벤치와 안내 사인이 짧은 기다림과 다음 이동을 함께 돕습니다.\n\n02 / 사이\n빛과 물을 따라 잠깐의 여유.\n\n회랑의 그늘과 수공간의 반사가 이동의 속도를 바꿉니다. 일하는 곳과 쉬는 곳 사이에 짧은 전환을 둡니다.\n\n03 / 머묾\n함께 앉아 정원을 바라보는 곳.\n\n긴 테이블과 정원을 향한 시선이 자연스러운 만남을 만듭니다. 조용한 작업과 가벼운 대화가 공존합니다.",
+          "images": [
+            {
+              "src": "https://g5themes.test/theme/jw_business/onepages/assets/correction/project-arrival.webp",
+              "loaded": true
+            },
+            {
+              "src": "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard-detail.webp",
+              "loaded": true
+            },
+            {
+              "src": "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard-interior.webp",
+              "loaded": true
+            }
+          ],
+          "overflow": 0
+        }
+      },
+      {
+        "stage": "1",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/onepage-projects-desktop-scroll-1.png",
+        "sha256": "9ba8651a7ba9298a62779939a754bb8df55dbef057c75b90b869116b9b6f4773",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/onepage-projects-desktop-scroll-1-material.png",
+          "sha256": "299116b64dff5cfd45c5d88a9f29c82488c1e9abb1975e6937ea32169b456b3f"
+        },
+        "material": {
+          "text": "WORK\nGARDEN\nLOUNGE\n공유 작업실\n중앙 정원\n대화 라운지\n그늘의 회랑\n수공간\n입구\nN\nCONCEPT\n1\n2\n3\n실내\n정원·수공간\n방문 동선\n\n공간 관계를 보여 주는 가상 개념평면 · 시공용 도면이 아닙니다.\n\n01 / 도착\n첫 방향이 보이는 입구.\n\n문을 열면 정원이 먼저 보입니다. 벤치와 안내 사인이 짧은 기다림과 다음 이동을 함께 돕습니다.\n\n02 / 사이\n빛과 물을 따라 잠깐의 여유.\n\n회랑의 그늘과 수공간의 반사가 이동의 속도를 바꿉니다. 일하는 곳과 쉬는 곳 사이에 짧은 전환을 둡니다.\n\n03 / 머묾\n함께 앉아 정원을 바라보는 곳.\n\n긴 테이블과 정원을 향한 시선이 자연스러운 만남을 만듭니다. 조용한 작업과 가벼운 대화가 공존합니다.",
+          "images": [
+            {
+              "src": "https://g5themes.test/theme/jw_business/onepages/assets/correction/project-arrival.webp",
+              "loaded": true
+            },
+            {
+              "src": "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard-detail.webp",
+              "loaded": true
+            },
+            {
+              "src": "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard-interior.webp",
+              "loaded": true
+            }
+          ],
+          "overflow": 0
+        }
+      },
+      {
+        "stage": "2",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/onepage-projects-desktop-scroll-2.png",
+        "sha256": "612ad7688efc40e6a8223372a85edaf62501899475b50c12e3cd78e7e94c6ffd",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/onepage-projects-desktop-scroll-2-material.png",
+          "sha256": "bf7b6aa009c1a3648901d58f03741271e662a921a5f5b4ae594db4f809db6669"
+        },
+        "material": {
+          "text": "WORK\nGARDEN\nLOUNGE\n공유 작업실\n중앙 정원\n대화 라운지\n그늘의 회랑\n수공간\n입구\nN\nCONCEPT\n1\n2\n3\n실내\n정원·수공간\n방문 동선\n\n공간 관계를 보여 주는 가상 개념평면 · 시공용 도면이 아닙니다.\n\n01 / 도착\n첫 방향이 보이는 입구.\n\n문을 열면 정원이 먼저 보입니다. 벤치와 안내 사인이 짧은 기다림과 다음 이동을 함께 돕습니다.\n\n02 / 사이\n빛과 물을 따라 잠깐의 여유.\n\n회랑의 그늘과 수공간의 반사가 이동의 속도를 바꿉니다. 일하는 곳과 쉬는 곳 사이에 짧은 전환을 둡니다.\n\n03 / 머묾\n함께 앉아 정원을 바라보는 곳.\n\n긴 테이블과 정원을 향한 시선이 자연스러운 만남을 만듭니다. 조용한 작업과 가벼운 대화가 공존합니다.",
+          "images": [
+            {
+              "src": "https://g5themes.test/theme/jw_business/onepages/assets/correction/project-arrival.webp",
+              "loaded": true
+            },
+            {
+              "src": "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard-detail.webp",
+              "loaded": true
+            },
+            {
+              "src": "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard-interior.webp",
+              "loaded": true
+            }
+          ],
+          "overflow": 0
+        }
+      }
+    ]
+  },
+  {
+    "page": "onepage-projects",
+    "state": "mobile-controls",
+    "result": "observed-not-visually-approved",
+    "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+    "capturedAt": "2026-09-29T03:00:34.112Z",
+    "shots": [
+      {
+        "stage": "0",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/onepage-projects-mobile-controls-0.png",
+        "sha256": "1a2e547b5010006664de27e538123abc92b921addace4a1fc79308e8cc62cbd3",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/onepage-projects-mobile-controls-0-material.png",
+          "sha256": "9bf0b520bc9c9dde514ed71d8bff3f44b499db67df0903b8df1c001f502abb55"
+        },
+        "material": {
+          "text": "WORK\nGARDEN\nLOUNGE\n공유 작업실\n중앙 정원\n대화 라운지\n그늘의 회랑\n수공간\n입구\nN\nCONCEPT\n1\n2\n3\n실내\n정원·수공간\n방문 동선\n\n공간 관계를 보여 주는 가상 개념평면 · 시공용 도면이 아닙니다.\n\n01 / 도착\n첫 방향이 보이는 입구.\n\n문을 열면 정원이 먼저 보입니다. 벤치와 안내 사인이 짧은 기다림과 다음 이동을 함께 돕습니다.\n\n02 / 사이\n빛과 물을 따라 잠깐의 여유.\n\n회랑의 그늘과 수공간의 반사가 이동의 속도를 바꿉니다. 일하는 곳과 쉬는 곳 사이에 짧은 전환을 둡니다.\n\n03 / 머묾\n함께 앉아 정원을 바라보는 곳.\n\n긴 테이블과 정원을 향한 시선이 자연스러운 만남을 만듭니다. 조용한 작업과 가벼운 대화가 공존합니다.",
+          "images": [
+            {
+              "src": "https://g5themes.test/theme/jw_business/onepages/assets/correction/project-arrival.webp",
+              "loaded": true
+            },
+            {
+              "src": "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard-detail.webp",
+              "loaded": true
+            },
+            {
+              "src": "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard-interior.webp",
+              "loaded": true
+            }
+          ],
+          "overflow": 0
+        }
+      },
+      {
+        "stage": "1",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/onepage-projects-mobile-controls-1.png",
+        "sha256": "67a1f4cc198b3479b39d78c7da36b45ac85fc1562bdefe3fd19450327ce573b1",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/onepage-projects-mobile-controls-1-material.png",
+          "sha256": "138b70f4803bb465575a27be29c678f15f686c9b03e7c993e88de42c058aad91"
+        },
+        "material": {
+          "text": "WORK\nGARDEN\nLOUNGE\n공유 작업실\n중앙 정원\n대화 라운지\n그늘의 회랑\n수공간\n입구\nN\nCONCEPT\n1\n2\n3\n실내\n정원·수공간\n방문 동선\n\n공간 관계를 보여 주는 가상 개념평면 · 시공용 도면이 아닙니다.\n\n01 / 도착\n첫 방향이 보이는 입구.\n\n문을 열면 정원이 먼저 보입니다. 벤치와 안내 사인이 짧은 기다림과 다음 이동을 함께 돕습니다.\n\n02 / 사이\n빛과 물을 따라 잠깐의 여유.\n\n회랑의 그늘과 수공간의 반사가 이동의 속도를 바꿉니다. 일하는 곳과 쉬는 곳 사이에 짧은 전환을 둡니다.\n\n03 / 머묾\n함께 앉아 정원을 바라보는 곳.\n\n긴 테이블과 정원을 향한 시선이 자연스러운 만남을 만듭니다. 조용한 작업과 가벼운 대화가 공존합니다.",
+          "images": [
+            {
+              "src": "https://g5themes.test/theme/jw_business/onepages/assets/correction/project-arrival.webp",
+              "loaded": true
+            },
+            {
+              "src": "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard-detail.webp",
+              "loaded": true
+            },
+            {
+              "src": "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard-interior.webp",
+              "loaded": true
+            }
+          ],
+          "overflow": 0
+        }
+      },
+      {
+        "stage": "2",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/onepage-projects-mobile-controls-2.png",
+        "sha256": "3e77ba2065247aa2b9feb4b85f1af4d52f027a2422b0f6dcd3e7781871eda650",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/onepage-projects-mobile-controls-2-material.png",
+          "sha256": "bfeb152292ec820778666082cac380aa97c0de939850d73210a9b1e1d03e06d7"
+        },
+        "material": {
+          "text": "WORK\nGARDEN\nLOUNGE\n공유 작업실\n중앙 정원\n대화 라운지\n그늘의 회랑\n수공간\n입구\nN\nCONCEPT\n1\n2\n3\n실내\n정원·수공간\n방문 동선\n\n공간 관계를 보여 주는 가상 개념평면 · 시공용 도면이 아닙니다.\n\n01 / 도착\n첫 방향이 보이는 입구.\n\n문을 열면 정원이 먼저 보입니다. 벤치와 안내 사인이 짧은 기다림과 다음 이동을 함께 돕습니다.\n\n02 / 사이\n빛과 물을 따라 잠깐의 여유.\n\n회랑의 그늘과 수공간의 반사가 이동의 속도를 바꿉니다. 일하는 곳과 쉬는 곳 사이에 짧은 전환을 둡니다.\n\n03 / 머묾\n함께 앉아 정원을 바라보는 곳.\n\n긴 테이블과 정원을 향한 시선이 자연스러운 만남을 만듭니다. 조용한 작업과 가벼운 대화가 공존합니다.",
+          "images": [
+            {
+              "src": "https://g5themes.test/theme/jw_business/onepages/assets/correction/project-arrival.webp",
+              "loaded": true
+            },
+            {
+              "src": "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard-detail.webp",
+              "loaded": true
+            },
+            {
+              "src": "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard-interior.webp",
+              "loaded": true
+            }
+          ],
+          "overflow": 0
+        }
+      }
+    ]
+  },
+  {
+    "page": "onepage-projects",
+    "state": "desktop-reduced",
+    "result": "observed-not-visually-approved",
+    "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+    "capturedAt": "2026-09-29T03:00:38.547Z",
+    "shots": [
+      {
+        "stage": "0",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/onepage-projects-desktop-reduced-0.png",
+        "sha256": "4ffc3d1a4c860b2dc5d42ecad30aff35f623575c5444654de547e7044e8b1cd6",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/onepage-projects-desktop-reduced-0-material.png",
+          "sha256": "1407d167ef8037d20e4a9886881d0b16e1328ecdf6d3419f3187f3bc52722b75"
+        },
+        "material": {
+          "text": "WORK\nGARDEN\nLOUNGE\n공유 작업실\n중앙 정원\n대화 라운지\n그늘의 회랑\n수공간\n입구\nN\nCONCEPT\n1\n2\n3\n실내\n정원·수공간\n방문 동선\n\n공간 관계를 보여 주는 가상 개념평면 · 시공용 도면이 아닙니다.\n\n01 / 도착\n첫 방향이 보이는 입구.\n\n문을 열면 정원이 먼저 보입니다. 벤치와 안내 사인이 짧은 기다림과 다음 이동을 함께 돕습니다.\n\n02 / 사이\n빛과 물을 따라 잠깐의 여유.\n\n회랑의 그늘과 수공간의 반사가 이동의 속도를 바꿉니다. 일하는 곳과 쉬는 곳 사이에 짧은 전환을 둡니다.\n\n03 / 머묾\n함께 앉아 정원을 바라보는 곳.\n\n긴 테이블과 정원을 향한 시선이 자연스러운 만남을 만듭니다. 조용한 작업과 가벼운 대화가 공존합니다.",
+          "images": [
+            {
+              "src": "https://g5themes.test/theme/jw_business/onepages/assets/correction/project-arrival.webp",
+              "loaded": true
+            },
+            {
+              "src": "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard-detail.webp",
+              "loaded": true
+            },
+            {
+              "src": "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard-interior.webp",
+              "loaded": true
+            }
+          ],
+          "overflow": 0
+        }
+      },
+      {
+        "stage": "1",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/onepage-projects-desktop-reduced-1.png",
+        "sha256": "6a720792ea560d24a35f19c4ed00c4aca9fb40bcba32a739ac663fd2669802ef",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/onepage-projects-desktop-reduced-1-material.png",
+          "sha256": "f3a28326220daf9aa91c4c1c498952623189c690f378b7439e875c217bcdc887"
+        },
+        "material": {
+          "text": "WORK\nGARDEN\nLOUNGE\n공유 작업실\n중앙 정원\n대화 라운지\n그늘의 회랑\n수공간\n입구\nN\nCONCEPT\n1\n2\n3\n실내\n정원·수공간\n방문 동선\n\n공간 관계를 보여 주는 가상 개념평면 · 시공용 도면이 아닙니다.\n\n01 / 도착\n첫 방향이 보이는 입구.\n\n문을 열면 정원이 먼저 보입니다. 벤치와 안내 사인이 짧은 기다림과 다음 이동을 함께 돕습니다.\n\n02 / 사이\n빛과 물을 따라 잠깐의 여유.\n\n회랑의 그늘과 수공간의 반사가 이동의 속도를 바꿉니다. 일하는 곳과 쉬는 곳 사이에 짧은 전환을 둡니다.\n\n03 / 머묾\n함께 앉아 정원을 바라보는 곳.\n\n긴 테이블과 정원을 향한 시선이 자연스러운 만남을 만듭니다. 조용한 작업과 가벼운 대화가 공존합니다.",
+          "images": [
+            {
+              "src": "https://g5themes.test/theme/jw_business/onepages/assets/correction/project-arrival.webp",
+              "loaded": true
+            },
+            {
+              "src": "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard-detail.webp",
+              "loaded": true
+            },
+            {
+              "src": "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard-interior.webp",
+              "loaded": true
+            }
+          ],
+          "overflow": 0
+        }
+      },
+      {
+        "stage": "2",
+        "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/onepage-projects-desktop-reduced-2.png",
+        "sha256": "69d4fe670db1ef4d555bbd4a0ec33ae1056b4baf1d3b17a6d4dafc82cb620867",
+        "materialCapture": {
+          "path": "quality/evidence/seven-correction-20260929/revision-2/signatures/onepage-projects-desktop-reduced-2-material.png",
+          "sha256": "2cdf25e706088dfc2de7763dd86df0b01af8db025af5be1d9b5a55c9b80e46fc"
+        },
+        "material": {
+          "text": "WORK\nGARDEN\nLOUNGE\n공유 작업실\n중앙 정원\n대화 라운지\n그늘의 회랑\n수공간\n입구\nN\nCONCEPT\n1\n2\n3\n실내\n정원·수공간\n방문 동선\n\n공간 관계를 보여 주는 가상 개념평면 · 시공용 도면이 아닙니다.\n\n01 / 도착\n첫 방향이 보이는 입구.\n\n문을 열면 정원이 먼저 보입니다. 벤치와 안내 사인이 짧은 기다림과 다음 이동을 함께 돕습니다.\n\n02 / 사이\n빛과 물을 따라 잠깐의 여유.\n\n회랑의 그늘과 수공간의 반사가 이동의 속도를 바꿉니다. 일하는 곳과 쉬는 곳 사이에 짧은 전환을 둡니다.\n\n03 / 머묾\n함께 앉아 정원을 바라보는 곳.\n\n긴 테이블과 정원을 향한 시선이 자연스러운 만남을 만듭니다. 조용한 작업과 가벼운 대화가 공존합니다.",
+          "images": [
+            {
+              "src": "https://g5themes.test/theme/jw_business/onepages/assets/correction/project-arrival.webp",
+              "loaded": true
+            },
+            {
+              "src": "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard-detail.webp",
+              "loaded": true
+            },
+            {
+              "src": "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard-interior.webp",
+              "loaded": true
+            }
+          ],
+          "overflow": 0
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "photos": [
+    {
+      "path": "src/assets/images/home2-correction/decision-review.webp",
+      "sha256": "59bd1964f7b63519b96bb906f6cbdb6947cecf41c2ddb0454d4da1a37d4de04e",
+      "origin": "seven-decision-review-20260929",
+      "owner": "home-2"
+    },
+    {
+      "path": "src/assets/images/home2-correction/operations-playbook.webp",
+      "sha256": "7dd524e08e515f632038d8a56c9ca4676e927c0eeaa60a9e79d630faea94c3d6",
+      "origin": "seven-operations-playbook-20260929",
+      "owner": "home-2"
+    },
+    {
+      "path": "src/assets/home-three/correction/fieldnote-editorial.webp",
+      "sha256": "e6e1f72c097df02c4bada404c866523b39a8528d9f1d3e66fe78326cf76b8795",
+      "origin": "seven-fieldnote-editorial-20260929",
+      "owner": "home-3"
+    }
+  ]
+}

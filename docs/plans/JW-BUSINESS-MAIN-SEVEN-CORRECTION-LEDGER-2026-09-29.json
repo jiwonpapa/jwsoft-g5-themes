@@ -1,0 +1,2036 @@
+{
+  "schemaVersion": 1,
+  "kind": "visual-correction-task-ledger",
+  "createdAt": "2026-09-29",
+  "scope": [
+    "home-1",
+    "home-2",
+    "home-3",
+    "home-4",
+    "onepage-showcase",
+    "onepage-services",
+    "onepage-projects"
+  ],
+  "implementationModel": {
+    "model": "gpt-6-astra",
+    "reasoningEffort": "xhigh",
+    "status": "implemented",
+    "agents": [
+      "/root/astra_home23",
+      "/root/astra_home14",
+      "/root/astra_onepages"
+    ]
+  },
+  "reviewModel": {
+    "model": "gpt-6-sol",
+    "reasoningEffort": "xhigh",
+    "status": "reviewed",
+    "agent": "/root/impeccable_finish_reviewer_20260929"
+  },
+  "baseline": "2026-09-29 in-app browser audit in this conversation; older numeric scorecard is superseded for purchase judgment",
+  "note": "This ledger tracks work only. It does not replace quality/reviews strict schema, real independent review or quality gates.",
+  "items": [
+    {
+      "id": "G01",
+      "target": "전체 7종",
+      "finding": "비슷한 크기·굵기의 큰 제목이 반복되고 긴 한국어 제목과 설명의 줄바꿈이 거칩니다.",
+      "action": "페이지별 제목 위계, 본문 폭, 줄바꿈과 섹션별 강조 강도를 디자인 카드에서 정한 뒤 적용합니다.",
+      "acceptance": "PC·모바일 원본 크기에서 핵심 제목과 보조 제목의 차이가 보이고, 조사·어미만 고립되거나 좁은 열에 제목이 불필요하게 세로로 늘어지지 않습니다.",
+      "status": "verified",
+      "changedFiles": [
+        "themes/business/jw_business/onepages/design/aura-concept.blend",
+        "themes/business/jw_business/onepages/design/render-aura.py",
+        "themes/business/jw_business/pages/onepage-projects.php",
+        "themes/business/jw_business/pages/onepage-services.php",
+        "themes/business/jw_business/pages/onepage-showcase.php",
+        "themes/business/jw_business/quality/assets.json",
+        "themes/business/jw_business/scripts/build-payload.ts",
+        "themes/business/jw_business/src/assets/home-four/experience-pack.webp",
+        "themes/business/jw_business/src/assets/home-four/experience-pack.webp.json",
+        "themes/business/jw_business/src/assets/home-four/journey-products.webp",
+        "themes/business/jw_business/src/assets/home-four/journey-products.webp.json",
+        "themes/business/jw_business/src/assets/home-three/correction/fieldnote-editorial.webp",
+        "themes/business/jw_business/src/assets/home-three/correction/fieldnote-editorial.webp.json",
+        "themes/business/jw_business/src/assets/home-three/wayfinding-atlas.svg",
+        "themes/business/jw_business/src/assets/images/home2-correction/decision-review.webp",
+        "themes/business/jw_business/src/assets/images/home2-correction/decision-review.webp.json",
+        "themes/business/jw_business/src/assets/images/home2-correction/operations-playbook.webp",
+        "themes/business/jw_business/src/assets/images/home2-correction/operations-playbook.webp.json",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence-mobile.svg",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence-mobile.svg.json",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence.svg",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence.svg.json",
+        "themes/business/jw_business/src/assets/main-one/atelier-collection.webp",
+        "themes/business/jw_business/src/assets/main-one/atelier-collection.webp.json",
+        "themes/business/jw_business/src/assets/main-one/atelier-mug.webp",
+        "themes/business/jw_business/src/assets/main-one/atelier-mug.webp.json",
+        "themes/business/jw_business/src/assets/main-one/decision-logic-mobile.svg",
+        "themes/business/jw_business/src/assets/main-one/decision-logic-mobile.svg.json",
+        "themes/business/jw_business/src/assets/main-one/decision-logic.svg",
+        "themes/business/jw_business/src/assets/main-one/decision-logic.svg.json",
+        "themes/business/jw_business/src/php/index.php",
+        "themes/business/jw_business/src/php/index_1.php",
+        "themes/business/jw_business/src/php/index_2.php",
+        "themes/business/jw_business/src/php/index_3.php",
+        "themes/business/jw_business/src/php/index_4.php",
+        "themes/business/jw_business/src/php/mobile/index.php",
+        "themes/business/jw_business/src/scripts/home-2.ts",
+        "themes/business/jw_business/src/scripts/home-four-entry.ts",
+        "themes/business/jw_business/src/scripts/home-one.ts",
+        "themes/business/jw_business/src/scripts/home-three.ts",
+        "themes/business/jw_business/src/scripts/onepages.js",
+        "themes/business/jw_business/src/scripts/theme.ts",
+        "themes/business/jw_business/src/styles/home-2.css",
+        "themes/business/jw_business/src/styles/home-four.css",
+        "themes/business/jw_business/src/styles/home-one.css",
+        "themes/business/jw_business/src/styles/home-variants.css",
+        "themes/business/jw_business/src/styles/onepages.css",
+        "themes/business/jw_business/tests/home-variants.test.ts"
+      ],
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/manifest.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/signatures/manifest.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/logs/ui.log",
+        "docs/reports/seven-independent-review-revision-2-2026-09-29.json"
+      ],
+      "verification": {
+        "reviewer": "GPT-6 Sol / xhigh /root/impeccable_finish_reviewer_20260929",
+        "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+        "independentFinding": {
+          "id": "G01",
+          "target": "전체 7종",
+          "verdict": "observed-pass",
+          "reason": "28코어 원본에서 주제목과 보조 제목의 위계가 대체로 분명하다."
+        },
+        "scope": "7 templates only; official quality gates and sale release remain separate",
+        "result": "verified"
+      }
+    },
+    {
+      "id": "G02",
+      "target": "전체 7종",
+      "finding": "제목·본문·CTA·이미지 기준선과 넓은 화면의 시각적 무게를 다시 맞춰야 합니다.",
+      "action": "컨테이너·그리드·거터·버튼 내 문자와 화살표 정렬을 확인합니다. 모든 비대칭을 중앙 정렬로 바꾸지 말고 의도 없는 쏠림을 고칩니다.",
+      "acceptance": "1440·1920·2560px과 390px에서 제목과 이미지가 붙지 않고 버튼 내용이 중심에 놓이며, 넓은 화면의 빈 공간에 구성상 이유가 있습니다.",
+      "status": "blocked",
+      "changedFiles": [
+        "themes/business/jw_business/onepages/design/aura-concept.blend",
+        "themes/business/jw_business/onepages/design/render-aura.py",
+        "themes/business/jw_business/pages/onepage-projects.php",
+        "themes/business/jw_business/pages/onepage-services.php",
+        "themes/business/jw_business/pages/onepage-showcase.php",
+        "themes/business/jw_business/quality/assets.json",
+        "themes/business/jw_business/scripts/build-payload.ts",
+        "themes/business/jw_business/src/assets/home-four/experience-pack.webp",
+        "themes/business/jw_business/src/assets/home-four/experience-pack.webp.json",
+        "themes/business/jw_business/src/assets/home-four/journey-products.webp",
+        "themes/business/jw_business/src/assets/home-four/journey-products.webp.json",
+        "themes/business/jw_business/src/assets/home-three/correction/fieldnote-editorial.webp",
+        "themes/business/jw_business/src/assets/home-three/correction/fieldnote-editorial.webp.json",
+        "themes/business/jw_business/src/assets/home-three/wayfinding-atlas.svg",
+        "themes/business/jw_business/src/assets/images/home2-correction/decision-review.webp",
+        "themes/business/jw_business/src/assets/images/home2-correction/decision-review.webp.json",
+        "themes/business/jw_business/src/assets/images/home2-correction/operations-playbook.webp",
+        "themes/business/jw_business/src/assets/images/home2-correction/operations-playbook.webp.json",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence-mobile.svg",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence-mobile.svg.json",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence.svg",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence.svg.json",
+        "themes/business/jw_business/src/assets/main-one/atelier-collection.webp",
+        "themes/business/jw_business/src/assets/main-one/atelier-collection.webp.json",
+        "themes/business/jw_business/src/assets/main-one/atelier-mug.webp",
+        "themes/business/jw_business/src/assets/main-one/atelier-mug.webp.json",
+        "themes/business/jw_business/src/assets/main-one/decision-logic-mobile.svg",
+        "themes/business/jw_business/src/assets/main-one/decision-logic-mobile.svg.json",
+        "themes/business/jw_business/src/assets/main-one/decision-logic.svg",
+        "themes/business/jw_business/src/assets/main-one/decision-logic.svg.json",
+        "themes/business/jw_business/src/php/index.php",
+        "themes/business/jw_business/src/php/index_1.php",
+        "themes/business/jw_business/src/php/index_2.php",
+        "themes/business/jw_business/src/php/index_3.php",
+        "themes/business/jw_business/src/php/index_4.php",
+        "themes/business/jw_business/src/php/mobile/index.php",
+        "themes/business/jw_business/src/scripts/home-2.ts",
+        "themes/business/jw_business/src/scripts/home-four-entry.ts",
+        "themes/business/jw_business/src/scripts/home-one.ts",
+        "themes/business/jw_business/src/scripts/home-three.ts",
+        "themes/business/jw_business/src/scripts/onepages.js",
+        "themes/business/jw_business/src/scripts/theme.ts",
+        "themes/business/jw_business/src/styles/home-2.css",
+        "themes/business/jw_business/src/styles/home-four.css",
+        "themes/business/jw_business/src/styles/home-one.css",
+        "themes/business/jw_business/src/styles/home-variants.css",
+        "themes/business/jw_business/src/styles/onepages.css",
+        "themes/business/jw_business/tests/home-variants.test.ts"
+      ],
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/manifest.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/signatures/manifest.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/logs/ui.log",
+        "docs/reports/seven-independent-review-revision-2-2026-09-29.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/main2-wide-1.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/main2-wide-2.png"
+      ],
+      "verification": {
+        "reviewer": "GPT-6 Sol / xhigh /root/impeccable_finish_reviewer_20260929",
+        "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+        "independentFinding": {
+          "id": "G02",
+          "target": "전체 7종",
+          "verdict": "unresolved",
+          "reason": "2560 실제 IAB 슬라이드 02·03의 제목/사진 그룹이 오른쪽에 밀리고 왼쪽 약 1000px가 비어 있습니다. 슬라이드 01 크롭 해결만으로 넓은 화면 균형은 통과하지 못합니다.",
+          "evidence": [
+            "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/main2-wide-1.png",
+            "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/main2-wide-2.png"
+          ]
+        },
+        "scope": "7 templates only; official quality gates and sale release remain separate",
+        "result": "blocked"
+      }
+    },
+    {
+      "id": "G03",
+      "target": "전체 7종",
+      "finding": "사진 주제가 달라도 큰 제목+오른쪽 설명, 아이콘 열, 사진+목록, FAQ+큰 문의 문구가 되풀이됩니다.",
+      "action": "각 섹션의 질문·주인공 자료·구도를 목록화하고, 7종 사이 겹치는 핵심 구간을 새 구성으로 설계합니다.",
+      "acceptance": "문구를 가린 첫 화면과 중간 핵심 두 장면으로 7종의 선택 이유를 설명할 수 있습니다. 같은 구도 세 섹션 연속은 0건입니다.",
+      "status": "verified",
+      "changedFiles": [
+        "themes/business/jw_business/onepages/design/aura-concept.blend",
+        "themes/business/jw_business/onepages/design/render-aura.py",
+        "themes/business/jw_business/pages/onepage-projects.php",
+        "themes/business/jw_business/pages/onepage-services.php",
+        "themes/business/jw_business/pages/onepage-showcase.php",
+        "themes/business/jw_business/quality/assets.json",
+        "themes/business/jw_business/scripts/build-payload.ts",
+        "themes/business/jw_business/src/assets/home-four/experience-pack.webp",
+        "themes/business/jw_business/src/assets/home-four/experience-pack.webp.json",
+        "themes/business/jw_business/src/assets/home-four/journey-products.webp",
+        "themes/business/jw_business/src/assets/home-four/journey-products.webp.json",
+        "themes/business/jw_business/src/assets/home-three/correction/fieldnote-editorial.webp",
+        "themes/business/jw_business/src/assets/home-three/correction/fieldnote-editorial.webp.json",
+        "themes/business/jw_business/src/assets/home-three/wayfinding-atlas.svg",
+        "themes/business/jw_business/src/assets/images/home2-correction/decision-review.webp",
+        "themes/business/jw_business/src/assets/images/home2-correction/decision-review.webp.json",
+        "themes/business/jw_business/src/assets/images/home2-correction/operations-playbook.webp",
+        "themes/business/jw_business/src/assets/images/home2-correction/operations-playbook.webp.json",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence-mobile.svg",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence-mobile.svg.json",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence.svg",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence.svg.json",
+        "themes/business/jw_business/src/assets/main-one/atelier-collection.webp",
+        "themes/business/jw_business/src/assets/main-one/atelier-collection.webp.json",
+        "themes/business/jw_business/src/assets/main-one/atelier-mug.webp",
+        "themes/business/jw_business/src/assets/main-one/atelier-mug.webp.json",
+        "themes/business/jw_business/src/assets/main-one/decision-logic-mobile.svg",
+        "themes/business/jw_business/src/assets/main-one/decision-logic-mobile.svg.json",
+        "themes/business/jw_business/src/assets/main-one/decision-logic.svg",
+        "themes/business/jw_business/src/assets/main-one/decision-logic.svg.json",
+        "themes/business/jw_business/src/php/index.php",
+        "themes/business/jw_business/src/php/index_1.php",
+        "themes/business/jw_business/src/php/index_2.php",
+        "themes/business/jw_business/src/php/index_3.php",
+        "themes/business/jw_business/src/php/index_4.php",
+        "themes/business/jw_business/src/php/mobile/index.php",
+        "themes/business/jw_business/src/scripts/home-2.ts",
+        "themes/business/jw_business/src/scripts/home-four-entry.ts",
+        "themes/business/jw_business/src/scripts/home-one.ts",
+        "themes/business/jw_business/src/scripts/home-three.ts",
+        "themes/business/jw_business/src/scripts/onepages.js",
+        "themes/business/jw_business/src/scripts/theme.ts",
+        "themes/business/jw_business/src/styles/home-2.css",
+        "themes/business/jw_business/src/styles/home-four.css",
+        "themes/business/jw_business/src/styles/home-one.css",
+        "themes/business/jw_business/src/styles/home-variants.css",
+        "themes/business/jw_business/src/styles/onepages.css",
+        "themes/business/jw_business/tests/home-variants.test.ts"
+      ],
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/manifest.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/signatures/manifest.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/logs/ui.log",
+        "docs/reports/seven-independent-review-revision-2-2026-09-29.json"
+      ],
+      "verification": {
+        "reviewer": "GPT-6 Sol / xhigh /root/impeccable_finish_reviewer_20260929",
+        "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+        "independentFinding": {
+          "id": "G03",
+          "target": "전체 7종",
+          "verdict": "observed-pass",
+          "reason": "21쌍의 첫 화면과 중간 두 장면에서 목적·자료가 구분된다."
+        },
+        "scope": "7 templates only; official quality gates and sale release remain separate",
+        "result": "verified"
+      }
+    },
+    {
+      "id": "G04",
+      "target": "전체 7종",
+      "finding": "같은 파일 여부만으로 사진 재사용을 판단했고 작업 테이블·협업 사진의 의미와 분위기도 비슷합니다.",
+      "action": "img·CSS 배경·JS 프레임·목업 내부까지 원본, 파생본, 소유 페이지, 용도를 대조합니다. 중복 원본과 비슷한 장면으로 분량을 채우는 사용을 교정합니다.",
+      "acceptance": "페이지 간 원본 사진 재사용 및 같은 페이지의 동일 사진 반복이 없고, 각 사진이 다른 정보를 보여줍니다. 반응형 변환본은 새 사진으로 세지 않습니다.",
+      "status": "verified",
+      "changedFiles": [
+        "themes/business/jw_business/onepages/design/aura-concept.blend",
+        "themes/business/jw_business/onepages/design/render-aura.py",
+        "themes/business/jw_business/pages/onepage-projects.php",
+        "themes/business/jw_business/pages/onepage-services.php",
+        "themes/business/jw_business/pages/onepage-showcase.php",
+        "themes/business/jw_business/quality/assets.json",
+        "themes/business/jw_business/scripts/build-payload.ts",
+        "themes/business/jw_business/src/assets/home-four/experience-pack.webp",
+        "themes/business/jw_business/src/assets/home-four/experience-pack.webp.json",
+        "themes/business/jw_business/src/assets/home-four/journey-products.webp",
+        "themes/business/jw_business/src/assets/home-four/journey-products.webp.json",
+        "themes/business/jw_business/src/assets/home-three/correction/fieldnote-editorial.webp",
+        "themes/business/jw_business/src/assets/home-three/correction/fieldnote-editorial.webp.json",
+        "themes/business/jw_business/src/assets/home-three/wayfinding-atlas.svg",
+        "themes/business/jw_business/src/assets/images/home2-correction/decision-review.webp",
+        "themes/business/jw_business/src/assets/images/home2-correction/decision-review.webp.json",
+        "themes/business/jw_business/src/assets/images/home2-correction/operations-playbook.webp",
+        "themes/business/jw_business/src/assets/images/home2-correction/operations-playbook.webp.json",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence-mobile.svg",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence-mobile.svg.json",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence.svg",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence.svg.json",
+        "themes/business/jw_business/src/assets/main-one/atelier-collection.webp",
+        "themes/business/jw_business/src/assets/main-one/atelier-collection.webp.json",
+        "themes/business/jw_business/src/assets/main-one/atelier-mug.webp",
+        "themes/business/jw_business/src/assets/main-one/atelier-mug.webp.json",
+        "themes/business/jw_business/src/assets/main-one/decision-logic-mobile.svg",
+        "themes/business/jw_business/src/assets/main-one/decision-logic-mobile.svg.json",
+        "themes/business/jw_business/src/assets/main-one/decision-logic.svg",
+        "themes/business/jw_business/src/assets/main-one/decision-logic.svg.json",
+        "themes/business/jw_business/src/php/index.php",
+        "themes/business/jw_business/src/php/index_1.php",
+        "themes/business/jw_business/src/php/index_2.php",
+        "themes/business/jw_business/src/php/index_3.php",
+        "themes/business/jw_business/src/php/index_4.php",
+        "themes/business/jw_business/src/php/mobile/index.php",
+        "themes/business/jw_business/src/scripts/home-2.ts",
+        "themes/business/jw_business/src/scripts/home-four-entry.ts",
+        "themes/business/jw_business/src/scripts/home-one.ts",
+        "themes/business/jw_business/src/scripts/home-three.ts",
+        "themes/business/jw_business/src/scripts/onepages.js",
+        "themes/business/jw_business/src/scripts/theme.ts",
+        "themes/business/jw_business/src/styles/home-2.css",
+        "themes/business/jw_business/src/styles/home-four.css",
+        "themes/business/jw_business/src/styles/home-one.css",
+        "themes/business/jw_business/src/styles/home-variants.css",
+        "themes/business/jw_business/src/styles/onepages.css",
+        "themes/business/jw_business/tests/home-variants.test.ts"
+      ],
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/manifest.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/signatures/manifest.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/logs/ui.log",
+        "docs/reports/seven-independent-review-revision-2-2026-09-29.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/asset-audit.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/deployment-checksums.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/logs/generated-check.log",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/asset-audit.json"
+      ],
+      "verification": {
+        "reviewer": "GPT-6 Sol / xhigh /root/impeccable_finish_reviewer_20260929",
+        "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+        "independentFinding": {
+          "id": "G04",
+          "target": "전체 7종",
+          "verdict": "root-evidence-pass",
+          "reason": "root asset-audit의 82개 신규/수정 래스터 모두 SHA·owner·sidecar가 맞고 해당 범위 내부 중복 SHA 0입니다. 7종의 관찰 장면에서도 원본 사진 재사용을 찾지 못했습니다. 범위 밖 기존 6건은 전역 상품 gate에 남깁니다."
+        },
+        "scope": "7 templates only; official quality gates and sale release remain separate",
+        "result": "verified"
+      }
+    },
+    {
+      "id": "G05",
+      "target": "전체 7종",
+      "finding": "큰 아이콘은 생겼지만 같은 선형 아이콘 배열을 되풀이해 다양성을 대신합니다.",
+      "action": "Lucide 의미·크기·선 굵기를 통일하고, 독립 카드의 중심 축과 설명 목록의 읽기 축을 각각 설계합니다.",
+      "acceptance": "중앙형 카드의 아이콘·제목·설명은 같은 축이며 긴 설명 목록은 읽기 좋게 정렬됩니다. 아이콘만 바꾼 동일 블록을 새 패턴으로 세지 않습니다.",
+      "status": "verified",
+      "changedFiles": [
+        "themes/business/jw_business/onepages/design/aura-concept.blend",
+        "themes/business/jw_business/onepages/design/render-aura.py",
+        "themes/business/jw_business/pages/onepage-projects.php",
+        "themes/business/jw_business/pages/onepage-services.php",
+        "themes/business/jw_business/pages/onepage-showcase.php",
+        "themes/business/jw_business/quality/assets.json",
+        "themes/business/jw_business/scripts/build-payload.ts",
+        "themes/business/jw_business/src/assets/home-four/experience-pack.webp",
+        "themes/business/jw_business/src/assets/home-four/experience-pack.webp.json",
+        "themes/business/jw_business/src/assets/home-four/journey-products.webp",
+        "themes/business/jw_business/src/assets/home-four/journey-products.webp.json",
+        "themes/business/jw_business/src/assets/home-three/correction/fieldnote-editorial.webp",
+        "themes/business/jw_business/src/assets/home-three/correction/fieldnote-editorial.webp.json",
+        "themes/business/jw_business/src/assets/home-three/wayfinding-atlas.svg",
+        "themes/business/jw_business/src/assets/images/home2-correction/decision-review.webp",
+        "themes/business/jw_business/src/assets/images/home2-correction/decision-review.webp.json",
+        "themes/business/jw_business/src/assets/images/home2-correction/operations-playbook.webp",
+        "themes/business/jw_business/src/assets/images/home2-correction/operations-playbook.webp.json",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence-mobile.svg",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence-mobile.svg.json",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence.svg",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence.svg.json",
+        "themes/business/jw_business/src/assets/main-one/atelier-collection.webp",
+        "themes/business/jw_business/src/assets/main-one/atelier-collection.webp.json",
+        "themes/business/jw_business/src/assets/main-one/atelier-mug.webp",
+        "themes/business/jw_business/src/assets/main-one/atelier-mug.webp.json",
+        "themes/business/jw_business/src/assets/main-one/decision-logic-mobile.svg",
+        "themes/business/jw_business/src/assets/main-one/decision-logic-mobile.svg.json",
+        "themes/business/jw_business/src/assets/main-one/decision-logic.svg",
+        "themes/business/jw_business/src/assets/main-one/decision-logic.svg.json",
+        "themes/business/jw_business/src/php/index.php",
+        "themes/business/jw_business/src/php/index_1.php",
+        "themes/business/jw_business/src/php/index_2.php",
+        "themes/business/jw_business/src/php/index_3.php",
+        "themes/business/jw_business/src/php/index_4.php",
+        "themes/business/jw_business/src/php/mobile/index.php",
+        "themes/business/jw_business/src/scripts/home-2.ts",
+        "themes/business/jw_business/src/scripts/home-four-entry.ts",
+        "themes/business/jw_business/src/scripts/home-one.ts",
+        "themes/business/jw_business/src/scripts/home-three.ts",
+        "themes/business/jw_business/src/scripts/onepages.js",
+        "themes/business/jw_business/src/scripts/theme.ts",
+        "themes/business/jw_business/src/styles/home-2.css",
+        "themes/business/jw_business/src/styles/home-four.css",
+        "themes/business/jw_business/src/styles/home-one.css",
+        "themes/business/jw_business/src/styles/home-variants.css",
+        "themes/business/jw_business/src/styles/onepages.css",
+        "themes/business/jw_business/tests/home-variants.test.ts"
+      ],
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/manifest.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/signatures/manifest.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/logs/ui.log",
+        "docs/reports/seven-independent-review-revision-2-2026-09-29.json"
+      ],
+      "verification": {
+        "reviewer": "GPT-6 Sol / xhigh /root/impeccable_finish_reviewer_20260929",
+        "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+        "independentFinding": {
+          "id": "G05",
+          "target": "전체 7종",
+          "verdict": "observed-pass",
+          "reason": "중앙 아이콘·제목·설명 정렬에서 새 붕괴를 보지 못했다."
+        },
+        "scope": "7 templates only; official quality gates and sale release remain separate",
+        "result": "verified"
+      }
+    },
+    {
+      "id": "G06",
+      "target": "전체 7종",
+      "finding": "배경만 흰색·회색·검정으로 바뀌며 구도는 유지되고, 다크에서 면 구별이 약합니다.",
+      "action": "배경뿐 아니라 자료 크기·배치·밀도·경계·간격으로 전환을 설계하고 daisyUI 의미 색상으로 양 모드를 마감합니다.",
+      "acceptance": "인접 섹션의 시작과 끝이 라이트·다크 모두 구별됩니다. 같은 배경에서도 내용이 한 섹션으로 오인되지 않고 사진·아이콘·버튼이 묻히지 않습니다.",
+      "status": "verified",
+      "changedFiles": [
+        "themes/business/jw_business/onepages/design/aura-concept.blend",
+        "themes/business/jw_business/onepages/design/render-aura.py",
+        "themes/business/jw_business/pages/onepage-projects.php",
+        "themes/business/jw_business/pages/onepage-services.php",
+        "themes/business/jw_business/pages/onepage-showcase.php",
+        "themes/business/jw_business/quality/assets.json",
+        "themes/business/jw_business/scripts/build-payload.ts",
+        "themes/business/jw_business/src/assets/home-four/experience-pack.webp",
+        "themes/business/jw_business/src/assets/home-four/experience-pack.webp.json",
+        "themes/business/jw_business/src/assets/home-four/journey-products.webp",
+        "themes/business/jw_business/src/assets/home-four/journey-products.webp.json",
+        "themes/business/jw_business/src/assets/home-three/correction/fieldnote-editorial.webp",
+        "themes/business/jw_business/src/assets/home-three/correction/fieldnote-editorial.webp.json",
+        "themes/business/jw_business/src/assets/home-three/wayfinding-atlas.svg",
+        "themes/business/jw_business/src/assets/images/home2-correction/decision-review.webp",
+        "themes/business/jw_business/src/assets/images/home2-correction/decision-review.webp.json",
+        "themes/business/jw_business/src/assets/images/home2-correction/operations-playbook.webp",
+        "themes/business/jw_business/src/assets/images/home2-correction/operations-playbook.webp.json",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence-mobile.svg",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence-mobile.svg.json",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence.svg",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence.svg.json",
+        "themes/business/jw_business/src/assets/main-one/atelier-collection.webp",
+        "themes/business/jw_business/src/assets/main-one/atelier-collection.webp.json",
+        "themes/business/jw_business/src/assets/main-one/atelier-mug.webp",
+        "themes/business/jw_business/src/assets/main-one/atelier-mug.webp.json",
+        "themes/business/jw_business/src/assets/main-one/decision-logic-mobile.svg",
+        "themes/business/jw_business/src/assets/main-one/decision-logic-mobile.svg.json",
+        "themes/business/jw_business/src/assets/main-one/decision-logic.svg",
+        "themes/business/jw_business/src/assets/main-one/decision-logic.svg.json",
+        "themes/business/jw_business/src/php/index.php",
+        "themes/business/jw_business/src/php/index_1.php",
+        "themes/business/jw_business/src/php/index_2.php",
+        "themes/business/jw_business/src/php/index_3.php",
+        "themes/business/jw_business/src/php/index_4.php",
+        "themes/business/jw_business/src/php/mobile/index.php",
+        "themes/business/jw_business/src/scripts/home-2.ts",
+        "themes/business/jw_business/src/scripts/home-four-entry.ts",
+        "themes/business/jw_business/src/scripts/home-one.ts",
+        "themes/business/jw_business/src/scripts/home-three.ts",
+        "themes/business/jw_business/src/scripts/onepages.js",
+        "themes/business/jw_business/src/scripts/theme.ts",
+        "themes/business/jw_business/src/styles/home-2.css",
+        "themes/business/jw_business/src/styles/home-four.css",
+        "themes/business/jw_business/src/styles/home-one.css",
+        "themes/business/jw_business/src/styles/home-variants.css",
+        "themes/business/jw_business/src/styles/onepages.css",
+        "themes/business/jw_business/tests/home-variants.test.ts"
+      ],
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/manifest.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/signatures/manifest.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/logs/ui.log",
+        "docs/reports/seven-independent-review-revision-2-2026-09-29.json"
+      ],
+      "verification": {
+        "reviewer": "GPT-6 Sol / xhigh /root/impeccable_finish_reviewer_20260929",
+        "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+        "independentFinding": {
+          "id": "G06",
+          "target": "전체 7종",
+          "verdict": "observed-pass",
+          "reason": "라이트·다크의 인접 섹션 경계와 핵심 버튼이 보입니다. 이전 프로젝트 모바일 장면 라벨 대비 결함은 PJ-05에서 해결됐습니다."
+        },
+        "scope": "7 templates only; official quality gates and sale release remain separate",
+        "result": "verified"
+      }
+    },
+    {
+      "id": "G07",
+      "target": "전체 7종",
+      "finding": "대부분의 스크롤은 약한 등장·강조에 그쳐 페이지를 기억하게 할 변화가 부족합니다.",
+      "action": "페이지마다 핵심 자료를 실제로 드러내는 스크롤 강조 1~2곳을 설계하고 Motion으로 구현합니다. 보조 reveal과 슬라이더 개수를 대체 증거로 세지 않습니다.",
+      "acceptance": "강조 장면의 시작·중간·끝에서 자료나 구성의 의미 있는 차이가 눈에 보입니다. 모바일·키보드·reduced motion에서도 핵심 정보가 읽히며 스크롤을 강제로 가두지 않습니다.",
+      "status": "verified",
+      "changedFiles": [
+        "themes/business/jw_business/onepages/design/aura-concept.blend",
+        "themes/business/jw_business/onepages/design/render-aura.py",
+        "themes/business/jw_business/pages/onepage-projects.php",
+        "themes/business/jw_business/pages/onepage-services.php",
+        "themes/business/jw_business/pages/onepage-showcase.php",
+        "themes/business/jw_business/quality/assets.json",
+        "themes/business/jw_business/scripts/build-payload.ts",
+        "themes/business/jw_business/src/assets/home-four/experience-pack.webp",
+        "themes/business/jw_business/src/assets/home-four/experience-pack.webp.json",
+        "themes/business/jw_business/src/assets/home-four/journey-products.webp",
+        "themes/business/jw_business/src/assets/home-four/journey-products.webp.json",
+        "themes/business/jw_business/src/assets/home-three/correction/fieldnote-editorial.webp",
+        "themes/business/jw_business/src/assets/home-three/correction/fieldnote-editorial.webp.json",
+        "themes/business/jw_business/src/assets/home-three/wayfinding-atlas.svg",
+        "themes/business/jw_business/src/assets/images/home2-correction/decision-review.webp",
+        "themes/business/jw_business/src/assets/images/home2-correction/decision-review.webp.json",
+        "themes/business/jw_business/src/assets/images/home2-correction/operations-playbook.webp",
+        "themes/business/jw_business/src/assets/images/home2-correction/operations-playbook.webp.json",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence-mobile.svg",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence-mobile.svg.json",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence.svg",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence.svg.json",
+        "themes/business/jw_business/src/assets/main-one/atelier-collection.webp",
+        "themes/business/jw_business/src/assets/main-one/atelier-collection.webp.json",
+        "themes/business/jw_business/src/assets/main-one/atelier-mug.webp",
+        "themes/business/jw_business/src/assets/main-one/atelier-mug.webp.json",
+        "themes/business/jw_business/src/assets/main-one/decision-logic-mobile.svg",
+        "themes/business/jw_business/src/assets/main-one/decision-logic-mobile.svg.json",
+        "themes/business/jw_business/src/assets/main-one/decision-logic.svg",
+        "themes/business/jw_business/src/assets/main-one/decision-logic.svg.json",
+        "themes/business/jw_business/src/php/index.php",
+        "themes/business/jw_business/src/php/index_1.php",
+        "themes/business/jw_business/src/php/index_2.php",
+        "themes/business/jw_business/src/php/index_3.php",
+        "themes/business/jw_business/src/php/index_4.php",
+        "themes/business/jw_business/src/php/mobile/index.php",
+        "themes/business/jw_business/src/scripts/home-2.ts",
+        "themes/business/jw_business/src/scripts/home-four-entry.ts",
+        "themes/business/jw_business/src/scripts/home-one.ts",
+        "themes/business/jw_business/src/scripts/home-three.ts",
+        "themes/business/jw_business/src/scripts/onepages.js",
+        "themes/business/jw_business/src/scripts/theme.ts",
+        "themes/business/jw_business/src/styles/home-2.css",
+        "themes/business/jw_business/src/styles/home-four.css",
+        "themes/business/jw_business/src/styles/home-one.css",
+        "themes/business/jw_business/src/styles/home-variants.css",
+        "themes/business/jw_business/src/styles/onepages.css",
+        "themes/business/jw_business/tests/home-variants.test.ts"
+      ],
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/manifest.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/signatures/manifest.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/logs/ui.log",
+        "docs/reports/seven-independent-review-revision-2-2026-09-29.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/interactions/manifest.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/rotation/manifest.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/pause/manifest.json"
+      ],
+      "verification": {
+        "reviewer": "GPT-6 Sol / xhigh /root/impeccable_finish_reviewer_20260929",
+        "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+        "independentFinding": {
+          "id": "G07",
+          "target": "전체 7종",
+          "verdict": "observed-pass",
+          "reason": "18×3 material 원본에서 실제 자료가 달라집니다. 서비스 ONDO 사진→과정 비교→일정 시안, FORME 브리프→제품→패키지, 지도 A→B→C를 확인했습니다. PJ-06 정지 의도도 별도 증거로 교정됐습니다."
+        },
+        "scope": "7 templates only; official quality gates and sale release remain separate",
+        "result": "verified"
+      }
+    },
+    {
+      "id": "G08",
+      "target": "전체 7종, 특히 원페이지",
+      "finding": "모바일 두 줄 목차의 점유가 크고 카드를 세로로 쌓으면서 정보 반복과 긴 스크롤이 누적됩니다.",
+      "action": "원페이지 목차를 작은 화면에서 간결하게 재배치하고 첫 화면의 제품·서비스·공간을 더 빨리 보여줍니다. 긴 카드 내용은 의미에 따라 재구성합니다.",
+      "acceptance": "360·390·430px에서 목차가 콘텐츠와 조작을 가리지 않고 터치·키보드 접근이 됩니다. 데스크톱 섹션 단순 적층으로 같은 설명을 재차 읽게 하지 않습니다.",
+      "status": "verified",
+      "changedFiles": [
+        "themes/business/jw_business/onepages/design/aura-concept.blend",
+        "themes/business/jw_business/onepages/design/render-aura.py",
+        "themes/business/jw_business/pages/onepage-projects.php",
+        "themes/business/jw_business/pages/onepage-services.php",
+        "themes/business/jw_business/pages/onepage-showcase.php",
+        "themes/business/jw_business/quality/assets.json",
+        "themes/business/jw_business/scripts/build-payload.ts",
+        "themes/business/jw_business/src/assets/home-four/experience-pack.webp",
+        "themes/business/jw_business/src/assets/home-four/experience-pack.webp.json",
+        "themes/business/jw_business/src/assets/home-four/journey-products.webp",
+        "themes/business/jw_business/src/assets/home-four/journey-products.webp.json",
+        "themes/business/jw_business/src/assets/home-three/correction/fieldnote-editorial.webp",
+        "themes/business/jw_business/src/assets/home-three/correction/fieldnote-editorial.webp.json",
+        "themes/business/jw_business/src/assets/home-three/wayfinding-atlas.svg",
+        "themes/business/jw_business/src/assets/images/home2-correction/decision-review.webp",
+        "themes/business/jw_business/src/assets/images/home2-correction/decision-review.webp.json",
+        "themes/business/jw_business/src/assets/images/home2-correction/operations-playbook.webp",
+        "themes/business/jw_business/src/assets/images/home2-correction/operations-playbook.webp.json",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence-mobile.svg",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence-mobile.svg.json",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence.svg",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence.svg.json",
+        "themes/business/jw_business/src/assets/main-one/atelier-collection.webp",
+        "themes/business/jw_business/src/assets/main-one/atelier-collection.webp.json",
+        "themes/business/jw_business/src/assets/main-one/atelier-mug.webp",
+        "themes/business/jw_business/src/assets/main-one/atelier-mug.webp.json",
+        "themes/business/jw_business/src/assets/main-one/decision-logic-mobile.svg",
+        "themes/business/jw_business/src/assets/main-one/decision-logic-mobile.svg.json",
+        "themes/business/jw_business/src/assets/main-one/decision-logic.svg",
+        "themes/business/jw_business/src/assets/main-one/decision-logic.svg.json",
+        "themes/business/jw_business/src/php/index.php",
+        "themes/business/jw_business/src/php/index_1.php",
+        "themes/business/jw_business/src/php/index_2.php",
+        "themes/business/jw_business/src/php/index_3.php",
+        "themes/business/jw_business/src/php/index_4.php",
+        "themes/business/jw_business/src/php/mobile/index.php",
+        "themes/business/jw_business/src/scripts/home-2.ts",
+        "themes/business/jw_business/src/scripts/home-four-entry.ts",
+        "themes/business/jw_business/src/scripts/home-one.ts",
+        "themes/business/jw_business/src/scripts/home-three.ts",
+        "themes/business/jw_business/src/scripts/onepages.js",
+        "themes/business/jw_business/src/scripts/theme.ts",
+        "themes/business/jw_business/src/styles/home-2.css",
+        "themes/business/jw_business/src/styles/home-four.css",
+        "themes/business/jw_business/src/styles/home-one.css",
+        "themes/business/jw_business/src/styles/home-variants.css",
+        "themes/business/jw_business/src/styles/onepages.css",
+        "themes/business/jw_business/tests/home-variants.test.ts"
+      ],
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/manifest.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/signatures/manifest.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/logs/ui.log",
+        "docs/reports/seven-independent-review-revision-2-2026-09-29.json"
+      ],
+      "verification": {
+        "reviewer": "GPT-6 Sol / xhigh /root/impeccable_finish_reviewer_20260929",
+        "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+        "independentFinding": {
+          "id": "G08",
+          "target": "전체 7종, 특히 원페이지",
+          "verdict": "observed-pass",
+          "reason": "390 첫 화면과 원본에서 모바일 목차가 주 CTA를 가리지 않는다."
+        },
+        "scope": "7 templates only; official quality gates and sale release remain separate",
+        "result": "verified"
+      }
+    },
+    {
+      "id": "G09",
+      "target": "전체 7종",
+      "finding": "길이를 늘리는 것과 판매용 조합 다양성을 확보하는 것을 혼동했습니다.",
+      "action": "기존 계약과 CONTENT-BOUNDS를 지키며 목적·소개·제공 범위·사례·과정·산출물·선택 정보·문의의 역할을 보존합니다. 반복 설명을 고유 자료로 교체합니다.",
+      "acceptance": "섹션 삭제로 문제를 숨기지 않고 구매자가 불필요한 섹션을 제거해 사용할 충분한 구성과 독립 PHP 편집성을 유지합니다. 여백만 늘려 길이를 채우지 않습니다.",
+      "status": "verified",
+      "changedFiles": [
+        "themes/business/jw_business/onepages/design/aura-concept.blend",
+        "themes/business/jw_business/onepages/design/render-aura.py",
+        "themes/business/jw_business/pages/onepage-projects.php",
+        "themes/business/jw_business/pages/onepage-services.php",
+        "themes/business/jw_business/pages/onepage-showcase.php",
+        "themes/business/jw_business/quality/assets.json",
+        "themes/business/jw_business/scripts/build-payload.ts",
+        "themes/business/jw_business/src/assets/home-four/experience-pack.webp",
+        "themes/business/jw_business/src/assets/home-four/experience-pack.webp.json",
+        "themes/business/jw_business/src/assets/home-four/journey-products.webp",
+        "themes/business/jw_business/src/assets/home-four/journey-products.webp.json",
+        "themes/business/jw_business/src/assets/home-three/correction/fieldnote-editorial.webp",
+        "themes/business/jw_business/src/assets/home-three/correction/fieldnote-editorial.webp.json",
+        "themes/business/jw_business/src/assets/home-three/wayfinding-atlas.svg",
+        "themes/business/jw_business/src/assets/images/home2-correction/decision-review.webp",
+        "themes/business/jw_business/src/assets/images/home2-correction/decision-review.webp.json",
+        "themes/business/jw_business/src/assets/images/home2-correction/operations-playbook.webp",
+        "themes/business/jw_business/src/assets/images/home2-correction/operations-playbook.webp.json",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence-mobile.svg",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence-mobile.svg.json",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence.svg",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence.svg.json",
+        "themes/business/jw_business/src/assets/main-one/atelier-collection.webp",
+        "themes/business/jw_business/src/assets/main-one/atelier-collection.webp.json",
+        "themes/business/jw_business/src/assets/main-one/atelier-mug.webp",
+        "themes/business/jw_business/src/assets/main-one/atelier-mug.webp.json",
+        "themes/business/jw_business/src/assets/main-one/decision-logic-mobile.svg",
+        "themes/business/jw_business/src/assets/main-one/decision-logic-mobile.svg.json",
+        "themes/business/jw_business/src/assets/main-one/decision-logic.svg",
+        "themes/business/jw_business/src/assets/main-one/decision-logic.svg.json",
+        "themes/business/jw_business/src/php/index.php",
+        "themes/business/jw_business/src/php/index_1.php",
+        "themes/business/jw_business/src/php/index_2.php",
+        "themes/business/jw_business/src/php/index_3.php",
+        "themes/business/jw_business/src/php/index_4.php",
+        "themes/business/jw_business/src/php/mobile/index.php",
+        "themes/business/jw_business/src/scripts/home-2.ts",
+        "themes/business/jw_business/src/scripts/home-four-entry.ts",
+        "themes/business/jw_business/src/scripts/home-one.ts",
+        "themes/business/jw_business/src/scripts/home-three.ts",
+        "themes/business/jw_business/src/scripts/onepages.js",
+        "themes/business/jw_business/src/scripts/theme.ts",
+        "themes/business/jw_business/src/styles/home-2.css",
+        "themes/business/jw_business/src/styles/home-four.css",
+        "themes/business/jw_business/src/styles/home-one.css",
+        "themes/business/jw_business/src/styles/home-variants.css",
+        "themes/business/jw_business/src/styles/onepages.css",
+        "themes/business/jw_business/tests/home-variants.test.ts"
+      ],
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/manifest.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/signatures/manifest.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/logs/ui.log",
+        "docs/reports/seven-independent-review-revision-2-2026-09-29.json"
+      ],
+      "verification": {
+        "reviewer": "GPT-6 Sol / xhigh /root/impeccable_finish_reviewer_20260929",
+        "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+        "independentFinding": {
+          "id": "G09",
+          "target": "전체 7종",
+          "verdict": "observed-pass",
+          "reason": "서비스 여정의 빈 왼쪽 면을 줄이고 사진/비교/일정 자료로 채웠으며 원페이지의 FAQ·인계·문의 등 필요한 구간을 삭제하지 않았습니다."
+        },
+        "scope": "7 templates only; official quality gates and sale release remain separate",
+        "result": "verified"
+      }
+    },
+    {
+      "id": "G10",
+      "target": "전체 7종",
+      "finding": "스타일·동작·G5 구조가 다시 임의 구현으로 흐르지 않도록 유지해야 합니다.",
+      "action": "Tailwind 4·daisyUI 5·DTCG·Pretendard·Lucide·Motion·Embla와 기존 Vite 빌드를 사용합니다. 원본만 수정하고 생성 payload를 재생성합니다.",
+      "acceptance": "필수 스택·스타일·구조 검사가 통과하고, 새 본문 inc/partials/dispatcher 및 수제 슬라이더·스크롤 감지기가 없습니다. 고객 서버의 빌드는 요구하지 않습니다.",
+      "status": "verified",
+      "changedFiles": [
+        "themes/business/jw_business/onepages/design/aura-concept.blend",
+        "themes/business/jw_business/onepages/design/render-aura.py",
+        "themes/business/jw_business/pages/onepage-projects.php",
+        "themes/business/jw_business/pages/onepage-services.php",
+        "themes/business/jw_business/pages/onepage-showcase.php",
+        "themes/business/jw_business/quality/assets.json",
+        "themes/business/jw_business/scripts/build-payload.ts",
+        "themes/business/jw_business/src/assets/home-four/experience-pack.webp",
+        "themes/business/jw_business/src/assets/home-four/experience-pack.webp.json",
+        "themes/business/jw_business/src/assets/home-four/journey-products.webp",
+        "themes/business/jw_business/src/assets/home-four/journey-products.webp.json",
+        "themes/business/jw_business/src/assets/home-three/correction/fieldnote-editorial.webp",
+        "themes/business/jw_business/src/assets/home-three/correction/fieldnote-editorial.webp.json",
+        "themes/business/jw_business/src/assets/home-three/wayfinding-atlas.svg",
+        "themes/business/jw_business/src/assets/images/home2-correction/decision-review.webp",
+        "themes/business/jw_business/src/assets/images/home2-correction/decision-review.webp.json",
+        "themes/business/jw_business/src/assets/images/home2-correction/operations-playbook.webp",
+        "themes/business/jw_business/src/assets/images/home2-correction/operations-playbook.webp.json",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence-mobile.svg",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence-mobile.svg.json",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence.svg",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence.svg.json",
+        "themes/business/jw_business/src/assets/main-one/atelier-collection.webp",
+        "themes/business/jw_business/src/assets/main-one/atelier-collection.webp.json",
+        "themes/business/jw_business/src/assets/main-one/atelier-mug.webp",
+        "themes/business/jw_business/src/assets/main-one/atelier-mug.webp.json",
+        "themes/business/jw_business/src/assets/main-one/decision-logic-mobile.svg",
+        "themes/business/jw_business/src/assets/main-one/decision-logic-mobile.svg.json",
+        "themes/business/jw_business/src/assets/main-one/decision-logic.svg",
+        "themes/business/jw_business/src/assets/main-one/decision-logic.svg.json",
+        "themes/business/jw_business/src/php/index.php",
+        "themes/business/jw_business/src/php/index_1.php",
+        "themes/business/jw_business/src/php/index_2.php",
+        "themes/business/jw_business/src/php/index_3.php",
+        "themes/business/jw_business/src/php/index_4.php",
+        "themes/business/jw_business/src/php/mobile/index.php",
+        "themes/business/jw_business/src/scripts/home-2.ts",
+        "themes/business/jw_business/src/scripts/home-four-entry.ts",
+        "themes/business/jw_business/src/scripts/home-one.ts",
+        "themes/business/jw_business/src/scripts/home-three.ts",
+        "themes/business/jw_business/src/scripts/onepages.js",
+        "themes/business/jw_business/src/scripts/theme.ts",
+        "themes/business/jw_business/src/styles/home-2.css",
+        "themes/business/jw_business/src/styles/home-four.css",
+        "themes/business/jw_business/src/styles/home-one.css",
+        "themes/business/jw_business/src/styles/home-variants.css",
+        "themes/business/jw_business/src/styles/onepages.css",
+        "themes/business/jw_business/tests/home-variants.test.ts"
+      ],
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/manifest.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/signatures/manifest.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/logs/ui.log",
+        "docs/reports/seven-independent-review-revision-2-2026-09-29.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/deployment-checksums.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/logs/generated-check.log",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/asset-audit.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/logs/foundation.log",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/logs/styles.log",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/logs/stack.log",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/logs/ui.log"
+      ],
+      "verification": {
+        "reviewer": "GPT-6 Sol / xhigh /root/impeccable_finish_reviewer_20260929",
+        "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+        "independentFinding": {
+          "id": "G10",
+          "target": "전체 7종",
+          "verdict": "root-evidence-pass",
+          "reason": "revision-2 foundation 65 pass, styles, UI 56/56, generated-check 로그를 읽었습니다. 전체 검사의 실행 소유자는 root이며 이 독립 검토가 재실행하지는 않았습니다."
+        },
+        "scope": "7 templates only; official quality gates and sale release remain separate",
+        "result": "verified"
+      }
+    },
+    {
+      "id": "G11",
+      "target": "전체 7종",
+      "finding": "더미 데이터의 허용과 허술한 시각자료·없는 기능 암시를 혼동하면 안 됩니다.",
+      "action": "더미 브랜드·프로젝트는 유지하되 실제로 잘 디자인된 시연 자료를 만듭니다. 예약·결제·검색·성과 등을 실제 제공하는 것처럼 꾸미지 않습니다.",
+      "acceptance": "가상 사례임을 유지하면서 화면 품질로 평가합니다. 실제 업무 기능 부재로 감점하거나 범위를 백엔드 개발로 확장하지 않습니다.",
+      "status": "verified",
+      "changedFiles": [
+        "themes/business/jw_business/onepages/design/aura-concept.blend",
+        "themes/business/jw_business/onepages/design/render-aura.py",
+        "themes/business/jw_business/pages/onepage-projects.php",
+        "themes/business/jw_business/pages/onepage-services.php",
+        "themes/business/jw_business/pages/onepage-showcase.php",
+        "themes/business/jw_business/quality/assets.json",
+        "themes/business/jw_business/scripts/build-payload.ts",
+        "themes/business/jw_business/src/assets/home-four/experience-pack.webp",
+        "themes/business/jw_business/src/assets/home-four/experience-pack.webp.json",
+        "themes/business/jw_business/src/assets/home-four/journey-products.webp",
+        "themes/business/jw_business/src/assets/home-four/journey-products.webp.json",
+        "themes/business/jw_business/src/assets/home-three/correction/fieldnote-editorial.webp",
+        "themes/business/jw_business/src/assets/home-three/correction/fieldnote-editorial.webp.json",
+        "themes/business/jw_business/src/assets/home-three/wayfinding-atlas.svg",
+        "themes/business/jw_business/src/assets/images/home2-correction/decision-review.webp",
+        "themes/business/jw_business/src/assets/images/home2-correction/decision-review.webp.json",
+        "themes/business/jw_business/src/assets/images/home2-correction/operations-playbook.webp",
+        "themes/business/jw_business/src/assets/images/home2-correction/operations-playbook.webp.json",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence-mobile.svg",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence-mobile.svg.json",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence.svg",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence.svg.json",
+        "themes/business/jw_business/src/assets/main-one/atelier-collection.webp",
+        "themes/business/jw_business/src/assets/main-one/atelier-collection.webp.json",
+        "themes/business/jw_business/src/assets/main-one/atelier-mug.webp",
+        "themes/business/jw_business/src/assets/main-one/atelier-mug.webp.json",
+        "themes/business/jw_business/src/assets/main-one/decision-logic-mobile.svg",
+        "themes/business/jw_business/src/assets/main-one/decision-logic-mobile.svg.json",
+        "themes/business/jw_business/src/assets/main-one/decision-logic.svg",
+        "themes/business/jw_business/src/assets/main-one/decision-logic.svg.json",
+        "themes/business/jw_business/src/php/index.php",
+        "themes/business/jw_business/src/php/index_1.php",
+        "themes/business/jw_business/src/php/index_2.php",
+        "themes/business/jw_business/src/php/index_3.php",
+        "themes/business/jw_business/src/php/index_4.php",
+        "themes/business/jw_business/src/php/mobile/index.php",
+        "themes/business/jw_business/src/scripts/home-2.ts",
+        "themes/business/jw_business/src/scripts/home-four-entry.ts",
+        "themes/business/jw_business/src/scripts/home-one.ts",
+        "themes/business/jw_business/src/scripts/home-three.ts",
+        "themes/business/jw_business/src/scripts/onepages.js",
+        "themes/business/jw_business/src/scripts/theme.ts",
+        "themes/business/jw_business/src/styles/home-2.css",
+        "themes/business/jw_business/src/styles/home-four.css",
+        "themes/business/jw_business/src/styles/home-one.css",
+        "themes/business/jw_business/src/styles/home-variants.css",
+        "themes/business/jw_business/src/styles/onepages.css",
+        "themes/business/jw_business/tests/home-variants.test.ts"
+      ],
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/manifest.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/signatures/manifest.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/logs/ui.log",
+        "docs/reports/seven-independent-review-revision-2-2026-09-29.json"
+      ],
+      "verification": {
+        "reviewer": "GPT-6 Sol / xhigh /root/impeccable_finish_reviewer_20260929",
+        "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+        "independentFinding": {
+          "id": "G11",
+          "target": "전체 7종",
+          "verdict": "observed-pass",
+          "reason": "ONDO는 수업 일정 시안 내부에 실제 신청 기능이 아님을 밝히고 마지막 행동을 상담 준비 내용으로 표시합니다. AURA·프로젝트도 가상 시연 고지가 있습니다."
+        },
+        "scope": "7 templates only; official quality gates and sale release remain separate",
+        "result": "verified"
+      }
+    },
+    {
+      "id": "G12",
+      "target": "전체 7종",
+      "finding": "고친 오류나 좋은 장면까지 새 작업에서 되돌릴 위험이 있습니다.",
+      "action": "뒤집힌 글자, 잘림·넘침, CTA 충돌, 이미지·아이콘 누락과 기존 슬라이더·회전·갤러리를 회귀 확인합니다. 사용자 변경과 기존 메인5 제거를 보존합니다.",
+      "acceptance": "기존 개선을 유지하고 새 결함이 없습니다. 미확인 상태를 통과로 적지 않으며 관련 없는 파일·메뉴·코어·DB를 바꾸지 않습니다.",
+      "status": "verified",
+      "changedFiles": [
+        "themes/business/jw_business/onepages/design/aura-concept.blend",
+        "themes/business/jw_business/onepages/design/render-aura.py",
+        "themes/business/jw_business/pages/onepage-projects.php",
+        "themes/business/jw_business/pages/onepage-services.php",
+        "themes/business/jw_business/pages/onepage-showcase.php",
+        "themes/business/jw_business/quality/assets.json",
+        "themes/business/jw_business/scripts/build-payload.ts",
+        "themes/business/jw_business/src/assets/home-four/experience-pack.webp",
+        "themes/business/jw_business/src/assets/home-four/experience-pack.webp.json",
+        "themes/business/jw_business/src/assets/home-four/journey-products.webp",
+        "themes/business/jw_business/src/assets/home-four/journey-products.webp.json",
+        "themes/business/jw_business/src/assets/home-three/correction/fieldnote-editorial.webp",
+        "themes/business/jw_business/src/assets/home-three/correction/fieldnote-editorial.webp.json",
+        "themes/business/jw_business/src/assets/home-three/wayfinding-atlas.svg",
+        "themes/business/jw_business/src/assets/images/home2-correction/decision-review.webp",
+        "themes/business/jw_business/src/assets/images/home2-correction/decision-review.webp.json",
+        "themes/business/jw_business/src/assets/images/home2-correction/operations-playbook.webp",
+        "themes/business/jw_business/src/assets/images/home2-correction/operations-playbook.webp.json",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence-mobile.svg",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence-mobile.svg.json",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence.svg",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence.svg.json",
+        "themes/business/jw_business/src/assets/main-one/atelier-collection.webp",
+        "themes/business/jw_business/src/assets/main-one/atelier-collection.webp.json",
+        "themes/business/jw_business/src/assets/main-one/atelier-mug.webp",
+        "themes/business/jw_business/src/assets/main-one/atelier-mug.webp.json",
+        "themes/business/jw_business/src/assets/main-one/decision-logic-mobile.svg",
+        "themes/business/jw_business/src/assets/main-one/decision-logic-mobile.svg.json",
+        "themes/business/jw_business/src/assets/main-one/decision-logic.svg",
+        "themes/business/jw_business/src/assets/main-one/decision-logic.svg.json",
+        "themes/business/jw_business/src/php/index.php",
+        "themes/business/jw_business/src/php/index_1.php",
+        "themes/business/jw_business/src/php/index_2.php",
+        "themes/business/jw_business/src/php/index_3.php",
+        "themes/business/jw_business/src/php/index_4.php",
+        "themes/business/jw_business/src/php/mobile/index.php",
+        "themes/business/jw_business/src/scripts/home-2.ts",
+        "themes/business/jw_business/src/scripts/home-four-entry.ts",
+        "themes/business/jw_business/src/scripts/home-one.ts",
+        "themes/business/jw_business/src/scripts/home-three.ts",
+        "themes/business/jw_business/src/scripts/onepages.js",
+        "themes/business/jw_business/src/scripts/theme.ts",
+        "themes/business/jw_business/src/styles/home-2.css",
+        "themes/business/jw_business/src/styles/home-four.css",
+        "themes/business/jw_business/src/styles/home-one.css",
+        "themes/business/jw_business/src/styles/home-variants.css",
+        "themes/business/jw_business/src/styles/onepages.css",
+        "themes/business/jw_business/tests/home-variants.test.ts"
+      ],
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/manifest.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/signatures/manifest.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/logs/ui.log",
+        "docs/reports/seven-independent-review-revision-2-2026-09-29.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/deployment-checksums.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/logs/generated-check.log",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/asset-audit.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/logs/foundation.log",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/logs/styles.log",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/logs/stack.log",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/logs/ui.log"
+      ],
+      "verification": {
+        "reviewer": "GPT-6 Sol / xhigh /root/impeccable_finish_reviewer_20260929",
+        "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+        "independentFinding": {
+          "id": "G12",
+          "target": "전체 7종",
+          "verdict": "root-evidence-pass",
+          "reason": "revision-1 이후 변경은 onepages.js의 정지 의도 교정으로 제한됐다는 frozen-build 및 root 동결·checksum 증거를 확인했습니다. 이 판정은 7종 범위의 회귀와 변경 경계이며 상품 전역 품질을 대체하지 않습니다."
+        },
+        "scope": "7 templates only; official quality gates and sale release remain separate",
+        "result": "verified"
+      }
+    },
+    {
+      "id": "M1-01",
+      "target": "메인 1",
+      "finding": "STRATEGY MAP이 큰 원과 연결 곡선·일반 단어 위주로 보여 사진보다 덜 완성돼 보입니다.",
+      "action": "판단 전후·우선순위·연결 근거가 실제로 읽히는 완성된 전략 보드를 만듭니다.",
+      "acceptance": "본문을 다시 큰 글자로 복사한 보드가 아니며, 원본 크기에서 항목 관계와 결정 근거가 보입니다.",
+      "status": "verified",
+      "changedFiles": [
+        "themes/business/jw_business/src/php/index_1.php",
+        "themes/business/jw_business/src/php/index.php",
+        "themes/business/jw_business/src/php/mobile/index.php",
+        "themes/business/jw_business/src/styles/home-one.css",
+        "themes/business/jw_business/src/scripts/home-one.ts",
+        "themes/business/jw_business/src/assets/main-one/decision-logic.svg",
+        "themes/business/jw_business/src/assets/main-one/decision-logic-mobile.svg"
+      ],
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-1/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-1/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-1/desktop-dark.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-1/mobile-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-1/mobile-dark.png",
+        "docs/reports/seven-independent-review-revision-2-2026-09-29.json"
+      ],
+      "verification": {
+        "reviewer": "GPT-6 Sol / xhigh /root/impeccable_finish_reviewer_20260929",
+        "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+        "independentFinding": {
+          "id": "M1-01",
+          "target": "메인 1",
+          "verdict": "resolved",
+          "reason": "ATELIER 전략판에서 E1/E2→P1/P2→발행 콘텐츠 실선 관계와 E3 보류 점선이 1440/390 원본 크기로 읽힙니다. 글 비중은 여전하여 서사 1점입니다."
+        },
+        "scope": "7 templates only; official quality gates and sale release remain separate",
+        "result": "verified"
+      }
+    },
+    {
+      "id": "M1-02",
+      "target": "메인 1",
+      "finding": "ATELIER N. 웹·모바일 목업 내부가 큰 제목·단순 도형을 반복합니다.",
+      "action": "실제 시연 콘텐츠·사진·내비게이션·구매 또는 탐색 정보가 있는 일관된 PC·모바일 디자인 시안을 제작합니다.",
+      "acceptance": "빈 색면과 가짜 줄 대신 현실적인 정보 구성과 동일 브랜드의 디테일이 보입니다. 기능 구현은 요구하지 않습니다.",
+      "status": "verified",
+      "changedFiles": [
+        "themes/business/jw_business/src/php/index_1.php",
+        "themes/business/jw_business/src/php/index.php",
+        "themes/business/jw_business/src/php/mobile/index.php",
+        "themes/business/jw_business/src/styles/home-one.css",
+        "themes/business/jw_business/src/scripts/home-one.ts",
+        "themes/business/jw_business/src/assets/main-one/decision-logic.svg",
+        "themes/business/jw_business/src/assets/main-one/decision-logic-mobile.svg"
+      ],
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-1/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-1/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-1/desktop-dark.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-1/mobile-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-1/mobile-dark.png",
+        "docs/reports/seven-independent-review-revision-2-2026-09-29.json"
+      ],
+      "verification": {
+        "reviewer": "GPT-6 Sol / xhigh /root/impeccable_finish_reviewer_20260929",
+        "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+        "independentFinding": {
+          "id": "M1-02",
+          "target": "메인 1",
+          "verdict": "observed-pass",
+          "reason": "ATELIER PC·모바일 시안에 제품 사진·탐색·관리 정보가 실제로 보인다."
+        },
+        "scope": "7 templates only; official quality gates and sale release remain separate",
+        "result": "verified"
+      }
+    },
+    {
+      "id": "M1-03",
+      "target": "메인 1",
+      "finding": "디지털 사례 타일이 기울인 빈 페이지와 파란 사각형 수준입니다.",
+      "action": "해당 사례의 고유 화면 또는 결과물로 교체해 F&B·교육 사진 옆에서도 완성도가 맞게 합니다.",
+      "acceptance": "최종 시안의 구체적인 역할과 내용이 읽히고, 단순 장식 도형을 실적 자료처럼 전시하지 않습니다.",
+      "status": "verified",
+      "changedFiles": [
+        "themes/business/jw_business/src/php/index_1.php",
+        "themes/business/jw_business/src/php/index.php",
+        "themes/business/jw_business/src/php/mobile/index.php",
+        "themes/business/jw_business/src/styles/home-one.css",
+        "themes/business/jw_business/src/scripts/home-one.ts",
+        "themes/business/jw_business/src/assets/main-one/decision-logic.svg",
+        "themes/business/jw_business/src/assets/main-one/decision-logic-mobile.svg"
+      ],
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-1/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-1/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-1/desktop-dark.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-1/mobile-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-1/mobile-dark.png",
+        "docs/reports/seven-independent-review-revision-2-2026-09-29.json"
+      ],
+      "verification": {
+        "reviewer": "GPT-6 Sol / xhigh /root/impeccable_finish_reviewer_20260929",
+        "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+        "independentFinding": {
+          "id": "M1-03",
+          "target": "메인 1",
+          "verdict": "observed-pass",
+          "reason": "후반 디지털 사례가 빈 도형 대신 역할과 내용을 가진 화면/이미지로 보인다."
+        },
+        "scope": "7 templates only; official quality gates and sale release remain separate",
+        "result": "verified"
+      }
+    },
+    {
+      "id": "M1-04",
+      "target": "메인 1",
+      "finding": "후반 FAQ·소식·큰 문의 문구의 흐름과 강조가 평범합니다.",
+      "action": "좋은 히어로·업종 사진·중앙 아이콘을 보존하고, 후반 밀도와 문의 블록을 해당 기업형 구성에 맞게 마감합니다.",
+      "acceptance": "3장 히어로·12개 섹션 계약과 기존 조작을 유지하며 중후반에 별도의 주목 장면이 있고 타 페이지의 CTA 복제가 아닙니다.",
+      "status": "verified",
+      "changedFiles": [
+        "themes/business/jw_business/src/php/index_1.php",
+        "themes/business/jw_business/src/php/index.php",
+        "themes/business/jw_business/src/php/mobile/index.php",
+        "themes/business/jw_business/src/styles/home-one.css",
+        "themes/business/jw_business/src/scripts/home-one.ts",
+        "themes/business/jw_business/src/assets/main-one/decision-logic.svg",
+        "themes/business/jw_business/src/assets/main-one/decision-logic-mobile.svg"
+      ],
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-1/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-1/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-1/desktop-dark.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-1/mobile-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-1/mobile-dark.png",
+        "docs/reports/seven-independent-review-revision-2-2026-09-29.json"
+      ],
+      "verification": {
+        "reviewer": "GPT-6 Sol / xhigh /root/impeccable_finish_reviewer_20260929",
+        "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+        "independentFinding": {
+          "id": "M1-04",
+          "target": "메인 1",
+          "verdict": "observed-pass",
+          "reason": "3장 히어로와 중후반 제품·일정·브랜드 장면이 유지된다."
+        },
+        "scope": "7 templates only; official quality gates and sale release remain separate",
+        "result": "verified"
+      }
+    },
+    {
+      "id": "M2-01",
+      "target": "메인 2",
+      "finding": "컨설팅형 첫 화면이 서비스 원페이지와 비슷하고 사진 속 건축·재료 무드가 설명과 어긋납니다.",
+      "action": "컨설팅의 선택·판단을 보여주는 고유 히어로 자료를 설계하고 슬라이드 전체의 제목·사진·CTA 비례를 마감합니다.",
+      "acceptance": "첫 화면에서 메인 2만의 목적이 보이고 1440·1920·2560px 모든 슬라이드에서 문장·사진 간격과 버튼 중심이 안정적입니다.",
+      "status": "blocked",
+      "changedFiles": [
+        "themes/business/jw_business/src/php/index_2.php",
+        "themes/business/jw_business/src/styles/home-2.css",
+        "themes/business/jw_business/src/scripts/home-2.ts",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence.svg",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence-mobile.svg"
+      ],
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-2/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-2/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-2/desktop-dark.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-2/mobile-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-2/mobile-dark.png",
+        "docs/reports/seven-independent-review-revision-2-2026-09-29.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/main2-wide-1.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/main2-wide-2.png"
+      ],
+      "verification": {
+        "reviewer": "GPT-6 Sol / xhigh /root/impeccable_finish_reviewer_20260929",
+        "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+        "independentFinding": {
+          "id": "M2-01",
+          "target": "메인 2",
+          "verdict": "partial",
+          "reason": "2560 슬라이드 01의 ORBIT 보드 절단은 사라졌습니다. 하지만 슬라이드 02·03은 텍스트·사진이 화면 오른쪽에 몰려 ‘모든 슬라이드 안정’ 수용 조건을 충족하지 못합니다.",
+          "evidence": [
+            "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/main2-wide-1.png",
+            "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/main2-wide-2.png"
+          ]
+        },
+        "scope": "7 templates only; official quality gates and sale release remain separate",
+        "result": "blocked"
+      }
+    },
+    {
+      "id": "M2-02",
+      "target": "메인 2",
+      "finding": "기대효과 매트릭스가 큰 사분면 글자 상자에 머물고 인계 구간에서도 매트릭스가 반복됩니다.",
+      "action": "행렬은 필요한 한 구간에서 정보량·도해 품질을 높이고, 인계는 실제 결과물의 다른 표현 방식으로 바꿉니다.",
+      "acceptance": "두 구간이 문구만 바뀐 같은 자료가 아니며 축은 정상 방향으로 읽힙니다. 상자 면적에 비해 내용이 빈약하지 않습니다.",
+      "status": "verified",
+      "changedFiles": [
+        "themes/business/jw_business/src/php/index_2.php",
+        "themes/business/jw_business/src/styles/home-2.css",
+        "themes/business/jw_business/src/scripts/home-2.ts",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence.svg",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence-mobile.svg"
+      ],
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-2/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-2/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-2/desktop-dark.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-2/mobile-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-2/mobile-dark.png",
+        "docs/reports/seven-independent-review-revision-2-2026-09-29.json"
+      ],
+      "verification": {
+        "reviewer": "GPT-6 Sol / xhigh /root/impeccable_finish_reviewer_20260929",
+        "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+        "independentFinding": {
+          "id": "M2-02",
+          "target": "메인 2",
+          "verdict": "resolved",
+          "reason": "정상 방향 2×2의 네 사분면에 기존 문제·연결 인과·실행 부담·효과를 보이고 옆 비교표/다음 실험을 더해 빈 면적을 줄였습니다. 인계 운영 키트는 별도 자료입니다."
+        },
+        "scope": "7 templates only; official quality gates and sale release remain separate",
+        "result": "verified"
+      }
+    },
+    {
+      "id": "M2-03",
+      "target": "메인 2",
+      "finding": "디지털 산출물 화면이 또 하나의 텍스트 카드이며 워크숍·테이블 장면이 누적됩니다.",
+      "action": "완성도 있는 서비스 탐색/결정 화면과 구체적인 산출물을 준비하고 중복 역할의 협업 사진을 재선정합니다.",
+      "acceptance": "화면 시안과 사진이 각각 다른 질문에 답하며 메인 1·서비스형의 자산 및 구도를 재활용하지 않습니다.",
+      "status": "verified",
+      "changedFiles": [
+        "themes/business/jw_business/src/php/index_2.php",
+        "themes/business/jw_business/src/styles/home-2.css",
+        "themes/business/jw_business/src/scripts/home-2.ts",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence.svg",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence-mobile.svg"
+      ],
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-2/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-2/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-2/desktop-dark.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-2/mobile-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-2/mobile-dark.png",
+        "docs/reports/seven-independent-review-revision-2-2026-09-29.json"
+      ],
+      "verification": {
+        "reviewer": "GPT-6 Sol / xhigh /root/impeccable_finish_reviewer_20260929",
+        "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+        "independentFinding": {
+          "id": "M2-03",
+          "target": "메인 2",
+          "verdict": "observed-pass",
+          "reason": "ORBIT 서비스 결정 화면과 인계 사진은 서로 다른 질문에 답한다."
+        },
+        "scope": "7 templates only; official quality gates and sale release remain separate",
+        "result": "verified"
+      }
+    },
+    {
+      "id": "M2-04",
+      "target": "메인 2",
+      "finding": "증거 아래 세 열 중 첫 열만 아이콘과 들여쓰기가 있고, 마지막 과정·문의도 목록과 큰 제목으로 끝납니다.",
+      "action": "세 열의 시각적 체계를 맞추고 과정·문의의 경계와 자료를 재구성합니다.",
+      "acceptance": "의도 없는 아이콘 유무·기준선 불일치가 없고 마지막 두 구간이 흰 여백 속 같은 설명 덩어리로 보이지 않습니다.",
+      "status": "verified",
+      "changedFiles": [
+        "themes/business/jw_business/src/php/index_2.php",
+        "themes/business/jw_business/src/styles/home-2.css",
+        "themes/business/jw_business/src/scripts/home-2.ts",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence.svg",
+        "themes/business/jw_business/src/assets/images/home2-correction/priority-evidence-mobile.svg"
+      ],
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-2/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-2/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-2/desktop-dark.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-2/mobile-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-2/mobile-dark.png",
+        "docs/reports/seven-independent-review-revision-2-2026-09-29.json"
+      ],
+      "verification": {
+        "reviewer": "GPT-6 Sol / xhigh /root/impeccable_finish_reviewer_20260929",
+        "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+        "independentFinding": {
+          "id": "M2-04",
+          "target": "메인 2",
+          "verdict": "observed-pass",
+          "reason": "근거 열과 후반 인계·문의의 기준선에서 새 붕괴를 찾지 못했다."
+        },
+        "scope": "7 templates only; official quality gates and sale release remain separate",
+        "result": "verified"
+      }
+    },
+    {
+      "id": "M3-01",
+      "target": "메인 3",
+      "finding": "히어로 제목과 사진의 중요 안내 표지가 겹쳐 서로 경쟁합니다.",
+      "action": "사진의 주인공과 텍스트 안전 영역을 PC·모바일별로 정합니다.",
+      "acceptance": "제목이 읽히면서 사인 디자인도 훼손 없이 보입니다. 단순히 오버레이를 어둡게 해 주인공을 지우지 않습니다.",
+      "status": "verified",
+      "changedFiles": [
+        "themes/business/jw_business/src/php/index_3.php",
+        "themes/business/jw_business/src/styles/home-variants.css",
+        "themes/business/jw_business/src/scripts/home-three.ts",
+        "themes/business/jw_business/src/scripts/theme.ts",
+        "themes/business/jw_business/src/assets/home-three/wayfinding-atlas.svg"
+      ],
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-3/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-3/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-3/desktop-dark.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-3/mobile-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-3/mobile-dark.png",
+        "docs/reports/seven-independent-review-revision-2-2026-09-29.json"
+      ],
+      "verification": {
+        "reviewer": "GPT-6 Sol / xhigh /root/impeccable_finish_reviewer_20260929",
+        "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+        "independentFinding": {
+          "id": "M3-01",
+          "target": "메인 3",
+          "verdict": "observed-pass",
+          "reason": "사인 사진을 훼손하지 않는 제목 영역이며 원본에서 둘 다 읽힌다."
+        },
+        "scope": "7 templates only; official quality gates and sale release remain separate",
+        "result": "verified"
+      }
+    },
+    {
+      "id": "M3-02",
+      "target": "메인 3",
+      "finding": "1920px에서도 '처음 온 사람도 길을 잃지 않도록'이 좁은 열에서 네 줄로 늘어지고 빈 공간이 큽니다.",
+      "action": "제목 열 폭·크기·본문 위치와 다음 자료의 간격을 함께 재설계합니다.",
+      "acceptance": "넓은 화면에 불필요한 세로형 제목과 설명 없는 공백이 사라지고 모바일의 자연스러운 줄바꿈도 유지됩니다.",
+      "status": "verified",
+      "changedFiles": [
+        "themes/business/jw_business/src/php/index_3.php",
+        "themes/business/jw_business/src/styles/home-variants.css",
+        "themes/business/jw_business/src/scripts/home-three.ts",
+        "themes/business/jw_business/src/scripts/theme.ts",
+        "themes/business/jw_business/src/assets/home-three/wayfinding-atlas.svg"
+      ],
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-3/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-3/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-3/desktop-dark.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-3/mobile-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-3/mobile-dark.png",
+        "docs/reports/seven-independent-review-revision-2-2026-09-29.json"
+      ],
+      "verification": {
+        "reviewer": "GPT-6 Sol / xhigh /root/impeccable_finish_reviewer_20260929",
+        "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+        "independentFinding": {
+          "id": "M3-02",
+          "target": "메인 3",
+          "verdict": "observed-pass",
+          "reason": "1440/390의 제목 줄바꿈과 지도 후속 연결이 자연스럽다."
+        },
+        "scope": "7 templates only; official quality gates and sale release remain separate",
+        "result": "verified"
+      }
+    },
+    {
+      "id": "M3-03",
+      "target": "메인 3",
+      "finding": "안내 보드와 후반 공간·인쇄·웹 카드가 화살표·기호·색 사각형 중심의 초안 수준입니다.",
+      "action": "실제 위치 관계가 있는 안내 체계, 편집된 인쇄 지면, 완성된 웹 화면으로 매체별 결과물을 제작합니다.",
+      "acceptance": "사진의 세부 품질과 그래픽의 세부 품질이 맞으며 각 매체의 사용 상황과 설계 차이가 보입니다.",
+      "status": "verified",
+      "changedFiles": [
+        "themes/business/jw_business/src/php/index_3.php",
+        "themes/business/jw_business/src/styles/home-variants.css",
+        "themes/business/jw_business/src/scripts/home-three.ts",
+        "themes/business/jw_business/src/scripts/theme.ts",
+        "themes/business/jw_business/src/assets/home-three/wayfinding-atlas.svg"
+      ],
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-3/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-3/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-3/desktop-dark.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-3/mobile-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-3/mobile-dark.png",
+        "docs/reports/seven-independent-review-revision-2-2026-09-29.json"
+      ],
+      "verification": {
+        "reviewer": "GPT-6 Sol / xhigh /root/impeccable_finish_reviewer_20260929",
+        "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+        "independentFinding": {
+          "id": "M3-03",
+          "target": "메인 3",
+          "verdict": "observed-pass",
+          "reason": "지도 범례·시설명과 사진 품질이 매체 목적에 맞는다."
+        },
+        "scope": "7 templates only; official quality gates and sale release remain separate",
+        "result": "verified"
+      }
+    },
+    {
+      "id": "M3-04",
+      "target": "메인 3",
+      "finding": "큰 제목+짧은 설명과 긴 공백이 반복되고 파란 CTA의 오른쪽이 크게 비어 있습니다.",
+      "action": "인쇄·전시·디지털 사이의 전개와 마지막 행동을 포트폴리오형으로 정리합니다.",
+      "acceptance": "좋은 전시 사진과 현재 다른 이미지로 바뀐 FIELDNOTE 목업을 보존하며, 이미지 재사용이 재발하지 않고 후반이 큰 글자만의 섹션으로 끝나지 않습니다.",
+      "status": "verified",
+      "changedFiles": [
+        "themes/business/jw_business/src/php/index_3.php",
+        "themes/business/jw_business/src/styles/home-variants.css",
+        "themes/business/jw_business/src/scripts/home-three.ts",
+        "themes/business/jw_business/src/scripts/theme.ts",
+        "themes/business/jw_business/src/assets/home-three/wayfinding-atlas.svg"
+      ],
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-3/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-3/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-3/desktop-dark.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-3/mobile-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-3/mobile-dark.png",
+        "docs/reports/seven-independent-review-revision-2-2026-09-29.json"
+      ],
+      "verification": {
+        "reviewer": "GPT-6 Sol / xhigh /root/impeccable_finish_reviewer_20260929",
+        "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+        "independentFinding": {
+          "id": "M3-04",
+          "target": "메인 3",
+          "verdict": "observed-pass",
+          "reason": "전시 사진과 FIELDNOTE 프로그램 웹이 서로 다른 자산이고 후반 자료가 있다."
+        },
+        "scope": "7 templates only; official quality gates and sale release remain separate",
+        "result": "verified"
+      }
+    },
+    {
+      "id": "M4-01",
+      "target": "메인 4",
+      "finding": "FORME 사례의 일관성은 유지할 가치가 있으나 이를 훼손하는 전면 교체는 불필요합니다.",
+      "action": "제품·발견 자료·웹 시안·브랜드 보드의 동일 브랜드 연결을 유지하며 각 자료의 디테일을 확인합니다.",
+      "acceptance": "브랜드 제품의 외형·색·패키지가 이어지고, 좋은 사진을 임의의 다른 브랜드·건축 사진으로 대체하지 않습니다.",
+      "status": "verified",
+      "changedFiles": [
+        "themes/business/jw_business/src/php/index_4.php",
+        "themes/business/jw_business/src/styles/home-four.css",
+        "themes/business/jw_business/src/scripts/home-four-entry.ts"
+      ],
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-4/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-4/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-4/desktop-dark.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-4/mobile-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-4/mobile-dark.png",
+        "docs/reports/seven-independent-review-revision-2-2026-09-29.json"
+      ],
+      "verification": {
+        "reviewer": "GPT-6 Sol / xhigh /root/impeccable_finish_reviewer_20260929",
+        "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+        "independentFinding": {
+          "id": "M4-01",
+          "target": "메인 4",
+          "verdict": "observed-pass",
+          "reason": "FORME 제품·색·패키지가 한 브랜드로 이어진다."
+        },
+        "scope": "7 templates only; official quality gates and sale release remain separate",
+        "result": "verified"
+      }
+    },
+    {
+      "id": "M4-02",
+      "target": "메인 4",
+      "finding": "앞의 4개 과정 카드와 뒤의 2×2 인계 카드가 같은 표현 방식으로 돌아옵니다.",
+      "action": "인계 구간을 편집 가능한 브랜드·화면·가이드 실물 자료를 보여주는 고유 구성으로 바꿉니다.",
+      "acceptance": "과정 소개와 인계 결과가 문구를 가려도 구별되고 큰 중앙 아이콘 카드의 정렬 장점은 유지됩니다.",
+      "status": "verified",
+      "changedFiles": [
+        "themes/business/jw_business/src/php/index_4.php",
+        "themes/business/jw_business/src/styles/home-four.css",
+        "themes/business/jw_business/src/scripts/home-four-entry.ts"
+      ],
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-4/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-4/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-4/desktop-dark.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-4/mobile-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-4/mobile-dark.png",
+        "docs/reports/seven-independent-review-revision-2-2026-09-29.json"
+      ],
+      "verification": {
+        "reviewer": "GPT-6 Sol / xhigh /root/impeccable_finish_reviewer_20260929",
+        "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+        "independentFinding": {
+          "id": "M4-02",
+          "target": "메인 4",
+          "verdict": "observed-pass",
+          "reason": "과정 카드와 인계 사진/가이드는 문구를 가려도 역할이 다르다."
+        },
+        "scope": "7 templates only; official quality gates and sale release remain separate",
+        "result": "verified"
+      }
+    },
+    {
+      "id": "M4-03",
+      "target": "메인 4",
+      "finding": "여정의 선·노드 강조는 있으나 강한 스크롤 핵심 장면으로는 약합니다.",
+      "action": "한 브랜드가 발견 자료에서 화면·패키지 결과로 바뀌는 의미 있는 스크롤 장면을 설계합니다.",
+      "acceptance": "시작·중간·끝의 실제 자료 변화가 분명하고 다른 여섯 페이지의 효과를 복제하지 않습니다.",
+      "status": "verified",
+      "changedFiles": [
+        "themes/business/jw_business/src/php/index_4.php",
+        "themes/business/jw_business/src/styles/home-four.css",
+        "themes/business/jw_business/src/scripts/home-four-entry.ts"
+      ],
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-4/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-4/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-4/desktop-dark.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-4/mobile-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-4/mobile-dark.png",
+        "docs/reports/seven-independent-review-revision-2-2026-09-29.json"
+      ],
+      "verification": {
+        "reviewer": "GPT-6 Sol / xhigh /root/impeccable_finish_reviewer_20260929",
+        "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+        "independentFinding": {
+          "id": "M4-03",
+          "target": "메인 4",
+          "verdict": "observed-pass",
+          "reason": "3단계 material에서 질문→제품 웹→패키지가 실제 바뀐다."
+        },
+        "scope": "7 templates only; official quality gates and sale release remain separate",
+        "result": "verified"
+      }
+    },
+    {
+      "id": "M4-04",
+      "target": "메인 4",
+      "finding": "후반 FAQ·문의와 반복적인 표면 색 구성의 마감이 평범합니다.",
+      "action": "후반 밀도·시각적 경계·문의 구성과 다크 표면 대비를 마감합니다.",
+      "acceptance": "1440·390 양 모드에서 섹션 역할이 구별되고 카드·타이포 정렬이 유지됩니다.",
+      "status": "verified",
+      "changedFiles": [
+        "themes/business/jw_business/src/php/index_4.php",
+        "themes/business/jw_business/src/styles/home-four.css",
+        "themes/business/jw_business/src/scripts/home-four-entry.ts"
+      ],
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/home-4/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-4/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-4/desktop-dark.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-4/mobile-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/home-4/mobile-dark.png",
+        "docs/reports/seven-independent-review-revision-2-2026-09-29.json"
+      ],
+      "verification": {
+        "reviewer": "GPT-6 Sol / xhigh /root/impeccable_finish_reviewer_20260929",
+        "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+        "independentFinding": {
+          "id": "M4-04",
+          "target": "메인 4",
+          "verdict": "observed-pass",
+          "reason": "1440/390 양 모드에서 카드·타이포 정렬과 구간 구분이 보인다."
+        },
+        "scope": "7 templates only; official quality gates and sale release remain separate",
+        "result": "verified"
+      }
+    },
+    {
+      "id": "SH-01",
+      "target": "제품 쇼케이스",
+      "finding": "제품 사진과 회전 모델의 목재·금속·패브릭 질감 및 비례가 달라 보입니다.",
+      "action": "제품 기준 외형·치수비·노브·곡면·재질을 한 기준으로 고정하고 히어로·접사·사용 컷·회전 모델을 맞춥니다. 가능하면 동일 Blender 원본에서 렌더를 만듭니다.",
+      "acceptance": "대표 사진과 0·90·180·270도 회전 상태가 같은 제품으로 보입니다. 값싼 모형처럼 보이는 표면·조명 차이가 없습니다.",
+      "status": "verified",
+      "changedFiles": [
+        "themes/business/jw_business/pages/onepage-showcase.php",
+        "themes/business/jw_business/src/styles/onepages.css",
+        "themes/business/jw_business/src/scripts/onepages.js",
+        "themes/business/jw_business/onepages/design/render-aura.py",
+        "themes/business/jw_business/onepages/design/aura-concept.blend"
+      ],
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/onepage-showcase/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-showcase/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-showcase/desktop-dark.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-showcase/mobile-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-showcase/mobile-dark.png",
+        "docs/reports/seven-independent-review-revision-2-2026-09-29.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/asset-audit.json"
+      ],
+      "verification": {
+        "reviewer": "GPT-6 Sol / xhigh /root/impeccable_finish_reviewer_20260929",
+        "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+        "independentFinding": {
+          "id": "SH-01",
+          "target": "제품 쇼케이스",
+          "verdict": "observed-pass",
+          "reason": "히어로와 네 각도의 제품 소재·외형이 일치한다."
+        },
+        "scope": "7 templates only; official quality gates and sale release remain separate",
+        "result": "verified"
+      }
+    },
+    {
+      "id": "SH-02",
+      "target": "제품 쇼케이스",
+      "finding": "소재 상세가 노란 사선·단순 금속 그라데이션·검은 줄무늬로 표현됩니다.",
+      "action": "실제 제품 기준의 목재·금속·직물 접사 또는 정교한 소재 도해를 각 탭에 제공합니다.",
+      "acceptance": "색 블록과 줄무늬로 재질을 대신하지 않고 히어로·회전의 표면과 연결됩니다. 세 탭을 직접 확인합니다.",
+      "status": "verified",
+      "changedFiles": [
+        "themes/business/jw_business/pages/onepage-showcase.php",
+        "themes/business/jw_business/src/styles/onepages.css",
+        "themes/business/jw_business/src/scripts/onepages.js",
+        "themes/business/jw_business/onepages/design/render-aura.py",
+        "themes/business/jw_business/onepages/design/aura-concept.blend"
+      ],
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/onepage-showcase/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-showcase/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-showcase/desktop-dark.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-showcase/mobile-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-showcase/mobile-dark.png",
+        "docs/reports/seven-independent-review-revision-2-2026-09-29.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/asset-audit.json"
+      ],
+      "verification": {
+        "reviewer": "GPT-6 Sol / xhigh /root/impeccable_finish_reviewer_20260929",
+        "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+        "independentFinding": {
+          "id": "SH-02",
+          "target": "제품 쇼케이스",
+          "verdict": "observed-pass",
+          "reason": "재질 탭과 목재·금속·패브릭의 실제 표면 이미지가 연결된다."
+        },
+        "scope": "7 templates only; official quality gates and sale release remain separate",
+        "result": "verified"
+      }
+    },
+    {
+      "id": "SH-03",
+      "target": "제품 쇼케이스",
+      "finding": "설치·관리 그림이 단순 파란 직육면체·선반·화살표로 보여 제품 사진과 품질이 맞지 않습니다.",
+      "action": "같은 제품 비례를 가진 설치 장면이나 정교한 설명 도해를 제작하고 관리 정보와 연결합니다.",
+      "acceptance": "본체·선반·전원·여유 공간의 관계가 읽히며 앞의 고급스러운 제품 인상을 끊지 않습니다.",
+      "status": "verified",
+      "changedFiles": [
+        "themes/business/jw_business/pages/onepage-showcase.php",
+        "themes/business/jw_business/src/styles/onepages.css",
+        "themes/business/jw_business/src/scripts/onepages.js",
+        "themes/business/jw_business/onepages/design/render-aura.py",
+        "themes/business/jw_business/onepages/design/aura-concept.blend"
+      ],
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/onepage-showcase/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-showcase/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-showcase/desktop-dark.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-showcase/mobile-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-showcase/mobile-dark.png",
+        "docs/reports/seven-independent-review-revision-2-2026-09-29.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/asset-audit.json"
+      ],
+      "verification": {
+        "reviewer": "GPT-6 Sol / xhigh /root/impeccable_finish_reviewer_20260929",
+        "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+        "independentFinding": {
+          "id": "SH-03",
+          "target": "제품 쇼케이스",
+          "verdict": "observed-pass",
+          "reason": "설치 사진에서 본체·선반·전원·여유 공간과 연결이 읽힌다."
+        },
+        "scope": "7 templates only; official quality gates and sale release remain separate",
+        "result": "verified"
+      }
+    },
+    {
+      "id": "SH-04",
+      "target": "제품 쇼케이스",
+      "finding": "큰 검정 회전 무대에 비해 모델이 작고 후반 설명·FAQ·문의가 다시 평범해집니다.",
+      "action": "회전을 보존하면서 무대와 모델의 비례를 맞추고 후반의 정보 역할·경계를 정리합니다.",
+      "acceptance": "스크롤 회전·모바일 조절·키보드·reduced motion을 보존하고 강조를 키웁니다. FAQ·문의 분리가 유지되며 제품 회전을 삭제하거나 정지 사진으로 대체하지 않습니다.",
+      "status": "verified",
+      "changedFiles": [
+        "themes/business/jw_business/pages/onepage-showcase.php",
+        "themes/business/jw_business/src/styles/onepages.css",
+        "themes/business/jw_business/src/scripts/onepages.js",
+        "themes/business/jw_business/onepages/design/render-aura.py",
+        "themes/business/jw_business/onepages/design/aura-concept.blend"
+      ],
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/onepage-showcase/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-showcase/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-showcase/desktop-dark.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-showcase/mobile-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-showcase/mobile-dark.png",
+        "docs/reports/seven-independent-review-revision-2-2026-09-29.json"
+      ],
+      "verification": {
+        "reviewer": "GPT-6 Sol / xhigh /root/impeccable_finish_reviewer_20260929",
+        "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+        "independentFinding": {
+          "id": "SH-04",
+          "target": "제품 쇼케이스",
+          "verdict": "observed-pass",
+          "reason": "스크롤·키보드 회전과 상태 변화, 제품 관리·FAQ 구분이 남아 있다."
+        },
+        "scope": "7 templates only; official quality gates and sale release remain separate",
+        "result": "verified"
+      }
+    },
+    {
+      "id": "SV-01",
+      "target": "서비스 원페이지",
+      "finding": "히어로가 일반 협업 사진+좌우 분할로 메인 2와 비슷하고 서비스만의 주인공이 약합니다.",
+      "action": "제공 서비스와 결과를 즉시 이해할 고유 첫 장면을 설계합니다.",
+      "acceptance": "문구를 가려도 컨설팅형 메인 2와 다른 선택 이유가 보이고 첫 화면에서 자료·CTA가 연결됩니다.",
+      "status": "verified",
+      "changedFiles": [
+        "themes/business/jw_business/pages/onepage-services.php",
+        "themes/business/jw_business/src/styles/onepages.css",
+        "themes/business/jw_business/src/scripts/onepages.js"
+      ],
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/onepage-services/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-services/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-services/desktop-dark.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-services/mobile-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-services/mobile-dark.png",
+        "docs/reports/seven-independent-review-revision-2-2026-09-29.json"
+      ],
+      "verification": {
+        "reviewer": "GPT-6 Sol / xhigh /root/impeccable_finish_reviewer_20260929",
+        "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+        "independentFinding": {
+          "id": "SV-01",
+          "target": "서비스 원페이지",
+          "verdict": "observed-pass",
+          "reason": "ONDO 공예 수업 화면은 ORBIT 결정 보드와 명확히 다르다."
+        },
+        "scope": "7 templates only; official quality gates and sale release remain separate",
+        "result": "verified"
+      }
+    },
+    {
+      "id": "SV-02",
+      "target": "서비스 원페이지",
+      "finding": "협업·작업 테이블 사진이 여러 차례 이어지고 큰 제목+목록 구성으로 돌아옵니다.",
+      "action": "좋은 업종별 사례 모자이크는 보존하되 협업 사진의 역할을 분리하고 일부를 구체적 화면·인계 자료로 대체합니다.",
+      "acceptance": "같은 장면 분위기로 분량을 채우지 않고 각 섹션이 새 정보를 보여줍니다.",
+      "status": "verified",
+      "changedFiles": [
+        "themes/business/jw_business/pages/onepage-services.php",
+        "themes/business/jw_business/src/styles/onepages.css",
+        "themes/business/jw_business/src/scripts/onepages.js"
+      ],
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/onepage-services/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-services/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-services/desktop-dark.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-services/mobile-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-services/mobile-dark.png",
+        "docs/reports/seven-independent-review-revision-2-2026-09-29.json"
+      ],
+      "verification": {
+        "reviewer": "GPT-6 Sol / xhigh /root/impeccable_finish_reviewer_20260929",
+        "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+        "independentFinding": {
+          "id": "SV-02",
+          "target": "서비스 원페이지",
+          "verdict": "observed-pass",
+          "reason": "공방 사진, 서비스 화면, 인계 자료가 다른 질문을 맡는다."
+        },
+        "scope": "7 templates only; official quality gates and sale release remain separate",
+        "result": "verified"
+      }
+    },
+    {
+      "id": "SV-03",
+      "target": "서비스 원페이지",
+      "finding": "서비스 찾기·4단계 과정·인계 카드가 텍스트·박스 중심이며 산출물은 빈 색 블록과 가짜 줄입니다.",
+      "action": "서비스 탐색 화면·고객 여정·화면 설계·운영 가이드의 완성된 시연 자료를 제작하고 서로 다른 구성으로 연결합니다.",
+      "acceptance": "화면 설계와 운영 가이드가 단순 직사각형·회색 선으로 끝나지 않습니다. 과정과 산출물의 역할·보여주는 방식이 구별됩니다.",
+      "status": "verified",
+      "changedFiles": [
+        "themes/business/jw_business/pages/onepage-services.php",
+        "themes/business/jw_business/src/styles/onepages.css",
+        "themes/business/jw_business/src/scripts/onepages.js"
+      ],
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/onepage-services/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-services/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-services/desktop-dark.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-services/mobile-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-services/mobile-dark.png",
+        "docs/reports/seven-independent-review-revision-2-2026-09-29.json"
+      ],
+      "verification": {
+        "reviewer": "GPT-6 Sol / xhigh /root/impeccable_finish_reviewer_20260929",
+        "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+        "independentFinding": {
+          "id": "SV-03",
+          "target": "서비스 원페이지",
+          "verdict": "resolved",
+          "reason": "ONDO 고객 여정의 start/mid/end가 제작 사진→두 과정 사진·비교→날짜/시간/준비 시안으로 바뀌고 운영 가이드와 화면 설계가 서로 다른 산출물로 보입니다."
+        },
+        "scope": "7 templates only; official quality gates and sale release remain separate",
+        "result": "verified"
+      }
+    },
+    {
+      "id": "SV-04",
+      "target": "서비스 원페이지",
+      "finding": "범위표·FAQ·상담 안내가 설명 위주로 길어지고 모바일 목차와 세로 카드의 점유가 큽니다.",
+      "action": "필요한 비교·준비 정보는 유지하면서 후반 표현과 모바일 목차·카드 밀도를 마감합니다.",
+      "acceptance": "새로 나뉜 FAQ 배경을 보존하고 세 구간의 경계·행동이 분명합니다. 길이를 줄이려고 필요한 회사·서비스 정보를 삭제하지 않습니다.",
+      "status": "verified",
+      "changedFiles": [
+        "themes/business/jw_business/pages/onepage-services.php",
+        "themes/business/jw_business/src/styles/onepages.css",
+        "themes/business/jw_business/src/scripts/onepages.js"
+      ],
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/onepage-services/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-services/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-services/desktop-dark.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-services/mobile-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-services/mobile-dark.png",
+        "docs/reports/seven-independent-review-revision-2-2026-09-29.json"
+      ],
+      "verification": {
+        "reviewer": "GPT-6 Sol / xhigh /root/impeccable_finish_reviewer_20260929",
+        "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+        "independentFinding": {
+          "id": "SV-04",
+          "target": "서비스 원페이지",
+          "verdict": "observed-pass",
+          "reason": "후반 범위·FAQ·상담의 경계와 행동은 남아 있다."
+        },
+        "scope": "7 templates only; official quality gates and sale release remain separate",
+        "result": "verified"
+      }
+    },
+    {
+      "id": "PJ-01",
+      "target": "프로젝트 원페이지",
+      "finding": "3장 히어로와 5장 갤러리는 개선돼 반드시 유지해야 합니다.",
+      "action": "기존 고유 사진과 충분한 이동 폭·카운터·제어를 보존하고 반응형 크롭을 마감합니다.",
+      "acceptance": "PC·모바일에서 전체 3장·5장을 조작해 서로 다른 큰 장면이 보입니다. 세 장이 한 화면에 다 나와 살짝만 움직이던 상태로 돌아가지 않습니다.",
+      "status": "verified",
+      "changedFiles": [
+        "themes/business/jw_business/pages/onepage-projects.php",
+        "themes/business/jw_business/src/styles/onepages.css",
+        "themes/business/jw_business/src/scripts/onepages.js"
+      ],
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/onepage-projects/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-projects/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-projects/desktop-dark.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-projects/mobile-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-projects/mobile-dark.png",
+        "docs/reports/seven-independent-review-revision-2-2026-09-29.json"
+      ],
+      "verification": {
+        "reviewer": "GPT-6 Sol / xhigh /root/impeccable_finish_reviewer_20260929",
+        "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+        "independentFinding": {
+          "id": "PJ-01",
+          "target": "프로젝트 원페이지",
+          "verdict": "observed-pass",
+          "reason": "히어로 3장과 갤러리 5장 조작 기록 및 실제 장면 차이를 확인했다."
+        },
+        "scope": "7 templates only; official quality gates and sale release remain separate",
+        "result": "verified"
+      }
+    },
+    {
+      "id": "PJ-02",
+      "target": "프로젝트 원페이지",
+      "finding": "좋은 공간 사진 사이의 동선도가 사각형·점선·원만 있는 수준으로 보입니다.",
+      "action": "해당 공간 콘셉트와 연결된 평면·동선 일러스트와 장면별 설명을 만들고 의미 있는 스크롤 변화를 연결합니다.",
+      "acceptance": "위치·이동·공간의 성격을 사진과 연결해 이해할 수 있고 사진의 시각적 품질과 도식의 디테일이 어울립니다. 실제 설계도 기능은 요구하지 않습니다.",
+      "status": "verified",
+      "changedFiles": [
+        "themes/business/jw_business/pages/onepage-projects.php",
+        "themes/business/jw_business/src/styles/onepages.css",
+        "themes/business/jw_business/src/scripts/onepages.js"
+      ],
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/onepage-projects/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-projects/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-projects/desktop-dark.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-projects/mobile-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-projects/mobile-dark.png",
+        "docs/reports/seven-independent-review-revision-2-2026-09-29.json"
+      ],
+      "verification": {
+        "reviewer": "GPT-6 Sol / xhigh /root/impeccable_finish_reviewer_20260929",
+        "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+        "independentFinding": {
+          "id": "PJ-02",
+          "target": "프로젝트 원페이지",
+          "verdict": "observed-pass",
+          "reason": "공간 사진과 평면의 입구·정원·라운지 관계가 대응된다."
+        },
+        "scope": "7 templates only; official quality gates and sale release remain separate",
+        "result": "verified"
+      }
+    },
+    {
+      "id": "PJ-03",
+      "target": "프로젝트 원페이지",
+      "finding": "공간 설계 도서가 흰 종이 상자와 A/B/C 텍스트 목록에 머물러 있습니다.",
+      "action": "도면·재료판·사인·편집된 도서 지면 등 완성된 인계 자료를 보여주는 구성을 제작합니다.",
+      "acceptance": "자료의 실제 내용과 종류가 보이며 텍스트 목록을 크게 만든 것을 산출물로 세지 않습니다.",
+      "status": "verified",
+      "changedFiles": [
+        "themes/business/jw_business/pages/onepage-projects.php",
+        "themes/business/jw_business/src/styles/onepages.css",
+        "themes/business/jw_business/src/scripts/onepages.js"
+      ],
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/onepage-projects/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-projects/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-projects/desktop-dark.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-projects/mobile-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-projects/mobile-dark.png",
+        "docs/reports/seven-independent-review-revision-2-2026-09-29.json"
+      ],
+      "verification": {
+        "reviewer": "GPT-6 Sol / xhigh /root/impeccable_finish_reviewer_20260929",
+        "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+        "independentFinding": {
+          "id": "PJ-03",
+          "target": "프로젝트 원페이지",
+          "verdict": "observed-pass",
+          "reason": "평면·마감·사인 자료에 실제 내용과 종류가 있다."
+        },
+        "scope": "7 templates only; official quality gates and sale release remain separate",
+        "result": "verified"
+      }
+    },
+    {
+      "id": "PJ-04",
+      "target": "프로젝트 원페이지",
+      "finding": "후반 아이콘 열·FAQ·큰 중앙 문의 문구가 다른 페이지와 비슷하고 FAQ와 CTA 사이 공백이 큽니다.",
+      "action": "건축 포트폴리오의 사진·재료 맥락으로 후반을 마감하고 마지막 두 섹션을 분명하게 구별합니다.",
+      "acceptance": "문의 전까지 자료 품질이 유지되고 과도한 공백과 일반적인 텍스트 마무리가 개선됩니다. 좋은 공간 사진과 충분한 원페이지 구성을 보존합니다.",
+      "status": "verified",
+      "changedFiles": [
+        "themes/business/jw_business/pages/onepage-projects.php",
+        "themes/business/jw_business/src/styles/onepages.css",
+        "themes/business/jw_business/src/scripts/onepages.js"
+      ],
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/onepage-projects/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-projects/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-projects/desktop-dark.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-projects/mobile-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-projects/mobile-dark.png",
+        "docs/reports/seven-independent-review-revision-2-2026-09-29.json"
+      ],
+      "verification": {
+        "reviewer": "GPT-6 Sol / xhigh /root/impeccable_finish_reviewer_20260929",
+        "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+        "independentFinding": {
+          "id": "PJ-04",
+          "target": "프로젝트 원페이지",
+          "verdict": "observed-pass",
+          "reason": "갤러리부터 인계까지 자료 품질과 구성이 유지됩니다. 이전 모바일 첫 장면 라벨 대비 결함은 PJ-05에서 해결됐습니다."
+        },
+        "scope": "7 templates only; official quality gates and sale release remain separate",
+        "result": "verified"
+      }
+    },
+    {
+      "id": "PJ-05",
+      "target": "onepage-projects",
+      "finding": "독립 검토 F5: 모바일 히어로 하단 라벨이 밝은 사진에서 충분히 구별되지 않습니다.",
+      "action": "Embla 음영 쌓임 순서를 바로잡고 라벨 표면과 문구에 의미 색을 적용합니다.",
+      "acceptance": "390px 라이트·다크에서 세 히어로 장면의 라벨과 사진 경계가 명확하며 문구가 가려지지 않습니다.",
+      "status": "verified",
+      "changedFiles": [
+        "themes/business/jw_business/src/styles/onepages.css"
+      ],
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/onepage-projects/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-projects/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-projects/desktop-dark.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-projects/mobile-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-projects/mobile-dark.png",
+        "docs/reports/seven-independent-review-revision-2-2026-09-29.json"
+      ],
+      "verification": {
+        "reviewer": "GPT-6 Sol / xhigh /root/impeccable_finish_reviewer_20260929",
+        "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+        "independentFinding": {
+          "id": "PJ-05",
+          "target": "onepage-projects",
+          "verdict": "resolved",
+          "reason": "390 라이트·다크 실제 IAB 01/02/03 장면의 검정 캡션 표면과 흰 글자가 사진 위에서 모두 읽힙니다."
+        },
+        "scope": "7 templates only; official quality gates and sale release remain separate",
+        "result": "verified"
+      }
+    },
+    {
+      "id": "PJ-06",
+      "target": "onepage-projects",
+      "finding": "최종 내장 브라우저 조작 중 명시적 자동재생 정지 뒤 다른 섹션으로 이동하면 자동재생이 재개됩니다.",
+      "action": "사용자 재생 의도를 focus 및 pointer 임시정지와 분리하여 보존합니다.",
+      "acceptance": "정지 클릭 후 포인터와 키보드 초점을 옮기고 한 재생 주기 이상 기다려도 정지가 유지됩니다. 수동 다음/이전 및 reduced motion에서도 의도를 유지하며 재생 버튼으로 다시 시작할 수 있습니다.",
+      "status": "verified",
+      "changedFiles": [
+        "themes/business/jw_business/pages/onepage-projects.php",
+        "themes/business/jw_business/src/styles/onepages.css",
+        "themes/business/jw_business/src/scripts/onepages.js",
+        "harness/ui/regressions/onepage-autoplay.test.ts"
+      ],
+      "evidence": [
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/before/onepage-projects/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-projects/desktop-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-projects/desktop-dark.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-projects/mobile-light.png",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/onepage-projects/mobile-dark.png",
+        "docs/reports/seven-independent-review-revision-2-2026-09-29.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/interactions/manifest.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/rotation/manifest.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/pause/manifest.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-1/pause-reproduction.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/deployment-checksums.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/logs/generated-check.log",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/asset-audit.json",
+        "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/pause-after-navigation.json"
+      ],
+      "verification": {
+        "reviewer": "GPT-6 Sol / xhigh /root/impeccable_finish_reviewer_20260929",
+        "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+        "independentFinding": {
+          "id": "PJ-06",
+          "target": "onepage-projects",
+          "verdict": "root-evidence-pass",
+          "reason": "root 실제 G5 1440/390 pause manifest는 초점/앵커 이동과 8.2초 대기, 수동 다음/이전/End, reduced motion, 명시적 재생 복귀를 pass로 기록합니다. 원본 before/after/resumed 화면의 버튼 상태를 직접 확인했고 onepages.js의 wantsPlayback 분리를 읽었습니다.",
+          "evidence": [
+            "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/pause/manifest.json",
+            "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/pause/1440-pause-after.png",
+            "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/pause/390-pause-after.png"
+          ]
+        },
+        "scope": "7 templates only; official quality gates and sale release remain separate",
+        "result": "verified"
+      }
+    }
+  ],
+  "executionBoundary": "Existing seven-page correction requested by the user; no general-page expansion. Global PHOTO_REUSE/PHOTO_OWNER failures from company/business pages remain release blockers; gates and their scope are not weakened.",
+  "finalReview": "docs/reports/seven-independent-review-revision-2-2026-09-29.json",
+  "summary": {
+    "verified": 40,
+    "blocked": 2,
+    "blockedIds": [
+      "G02",
+      "M2-01"
+    ],
+    "productApproved": false,
+    "qualityResults": "themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/quality-results.json"
+  }
+}

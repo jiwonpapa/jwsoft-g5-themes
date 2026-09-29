@@ -1,0 +1,2334 @@
+[
+  {
+    "page": "home-1",
+    "state": "desktop-light",
+    "url": "https://g5themes.test/theme/jw_business/index_1.php?device=pc",
+    "brokenVisible": [],
+    "captureScrollY": 0,
+    "documentHeight": 11403,
+    "height": 1000,
+    "overflow": 0,
+    "sections": [
+      {
+        "height": 820,
+        "id": "",
+        "title": "쓰는 순간까지고려한 디지털.",
+        "top": 76
+      },
+      {
+        "height": 733.75,
+        "id": "services",
+        "title": "방향을 정하고,경험을 만듭니다.",
+        "top": 896
+      },
+      {
+        "height": 1047.109375,
+        "id": "industries",
+        "title": "업종마다보여줄 장면이 다릅니다.",
+        "top": 1629.75
+      },
+      {
+        "height": 1221.421875,
+        "id": "strategy",
+        "title": "결론보다 먼저,선택의 구조를그립니다.",
+        "top": 2676.859375
+      },
+      {
+        "height": 873,
+        "id": "process",
+        "title": "생각에서 결과물까지,순서가 보이는 일.",
+        "top": 3898.28125
+      },
+      {
+        "height": 1611.171875,
+        "id": "digital",
+        "title": "설명보다 빠른 건,직접 보이는 화면입니다.",
+        "top": 4771.28125
+      },
+      {
+        "height": 1396,
+        "id": "showcase",
+        "title": "하나의 정답 대신,상황에 맞는 장면을.",
+        "top": 6382.453125
+      },
+      {
+        "height": 770,
+        "id": "brand",
+        "title": "브랜드는손에 닿을 때완성됩니다.",
+        "top": 7778.453125
+      },
+      {
+        "height": 834.1875,
+        "id": "touchpoints",
+        "title": "한 가지 인상이,여러 크기로 이어집니다.",
+        "top": 8548.453125
+      },
+      {
+        "height": 743.375,
+        "id": "questions",
+        "title": "처음 이야기할 때많이 묻는 것들.",
+        "top": 9382.640625
+      },
+      {
+        "height": 506,
+        "id": "",
+        "title": "새로운 소식",
+        "top": 10126.015625
+      },
+      {
+        "height": 527.1875,
+        "id": "contact",
+        "title": "다음 방향의 출발점,지금의 질문 한 가지.",
+        "top": 10632.015625
+      }
+    ],
+    "theme": "jw-light",
+    "width": 1440,
+    "capturedAt": "2026-09-29T03:00:20.346Z",
+    "kind": "actual-in-app-browser-browsing-not-independent-approval"
+  },
+  {
+    "page": "home-1",
+    "state": "desktop-dark",
+    "url": "https://g5themes.test/theme/jw_business/index_1.php?device=pc",
+    "brokenVisible": [],
+    "captureScrollY": 0,
+    "documentHeight": 11403,
+    "height": 1000,
+    "overflow": 0,
+    "sections": [
+      {
+        "height": 820,
+        "id": "",
+        "title": "쓰는 순간까지고려한 디지털.",
+        "top": 76
+      },
+      {
+        "height": 733.75,
+        "id": "services",
+        "title": "방향을 정하고,경험을 만듭니다.",
+        "top": 896
+      },
+      {
+        "height": 1047.109375,
+        "id": "industries",
+        "title": "업종마다보여줄 장면이 다릅니다.",
+        "top": 1629.75
+      },
+      {
+        "height": 1221.421875,
+        "id": "strategy",
+        "title": "결론보다 먼저,선택의 구조를그립니다.",
+        "top": 2676.859375
+      },
+      {
+        "height": 873,
+        "id": "process",
+        "title": "생각에서 결과물까지,순서가 보이는 일.",
+        "top": 3898.28125
+      },
+      {
+        "height": 1611.171875,
+        "id": "digital",
+        "title": "설명보다 빠른 건,직접 보이는 화면입니다.",
+        "top": 4771.28125
+      },
+      {
+        "height": 1396,
+        "id": "showcase",
+        "title": "하나의 정답 대신,상황에 맞는 장면을.",
+        "top": 6382.453125
+      },
+      {
+        "height": 770,
+        "id": "brand",
+        "title": "브랜드는손에 닿을 때완성됩니다.",
+        "top": 7778.453125
+      },
+      {
+        "height": 834.1875,
+        "id": "touchpoints",
+        "title": "한 가지 인상이,여러 크기로 이어집니다.",
+        "top": 8548.453125
+      },
+      {
+        "height": 743.375,
+        "id": "questions",
+        "title": "처음 이야기할 때많이 묻는 것들.",
+        "top": 9382.640625
+      },
+      {
+        "height": 506,
+        "id": "",
+        "title": "새로운 소식",
+        "top": 10126.015625
+      },
+      {
+        "height": 527.1875,
+        "id": "contact",
+        "title": "다음 방향의 출발점,지금의 질문 한 가지.",
+        "top": 10632.015625
+      }
+    ],
+    "theme": "jw-dark",
+    "width": 1440,
+    "capturedAt": "2026-09-29T03:00:27.265Z",
+    "kind": "actual-in-app-browser-browsing-not-independent-approval"
+  },
+  {
+    "page": "home-1",
+    "state": "mobile-light",
+    "url": "https://g5themes.test/theme/jw_business/index_1.php?device=mobile",
+    "brokenVisible": [],
+    "captureScrollY": 0,
+    "documentHeight": 13987,
+    "height": 844,
+    "overflow": 0,
+    "sections": [
+      {
+        "height": 753,
+        "id": "",
+        "title": "쓰는 순간까지고려한 디지털.",
+        "top": 68
+      },
+      {
+        "height": 769.09375,
+        "id": "services",
+        "title": "방향을 정하고,경험을 만듭니다.",
+        "top": 821
+      },
+      {
+        "height": 1375.0625,
+        "id": "industries",
+        "title": "업종마다보여줄 장면이 다릅니다.",
+        "top": 1590.09375
+      },
+      {
+        "height": 1932.921875,
+        "id": "strategy",
+        "title": "결론보다 먼저,선택의 구조를그립니다.",
+        "top": 2965.15625
+      },
+      {
+        "height": 1050.0625,
+        "id": "process",
+        "title": "생각에서 결과물까지,순서가 보이는 일.",
+        "top": 4898.078125
+      },
+      {
+        "height": 1931.796875,
+        "id": "digital",
+        "title": "설명보다 빠른 건,직접 보이는 화면입니다.",
+        "top": 5948.140625
+      },
+      {
+        "height": 1655.5625,
+        "id": "showcase",
+        "title": "하나의 정답 대신,상황에 맞는 장면을.",
+        "top": 7879.9375
+      },
+      {
+        "height": 948.96875,
+        "id": "brand",
+        "title": "브랜드는손에 닿을 때완성됩니다.",
+        "top": 9535.5
+      },
+      {
+        "height": 998,
+        "id": "touchpoints",
+        "title": "한 가지 인상이,여러 크기로 이어집니다.",
+        "top": 10484.46875
+      },
+      {
+        "height": 949.375,
+        "id": "questions",
+        "title": "처음 이야기할 때많이 묻는 것들.",
+        "top": 11482.46875
+      },
+      {
+        "height": 434,
+        "id": "",
+        "title": "새로운 소식",
+        "top": 12431.84375
+      },
+      {
+        "height": 638.703125,
+        "id": "contact",
+        "title": "다음 방향의 출발점,지금의 질문 한 가지.",
+        "top": 12865.84375
+      }
+    ],
+    "theme": "jw-light",
+    "width": 390,
+    "capturedAt": "2026-09-29T03:00:49.655Z",
+    "kind": "actual-in-app-browser-browsing-not-independent-approval"
+  },
+  {
+    "page": "home-1",
+    "state": "mobile-dark",
+    "url": "https://g5themes.test/theme/jw_business/index_1.php?device=mobile",
+    "brokenVisible": [],
+    "captureScrollY": 0,
+    "documentHeight": 13987,
+    "height": 844,
+    "overflow": 0,
+    "sections": [
+      {
+        "height": 753,
+        "id": "",
+        "title": "쓰는 순간까지고려한 디지털.",
+        "top": 68
+      },
+      {
+        "height": 769.09375,
+        "id": "services",
+        "title": "방향을 정하고,경험을 만듭니다.",
+        "top": 821
+      },
+      {
+        "height": 1375.0625,
+        "id": "industries",
+        "title": "업종마다보여줄 장면이 다릅니다.",
+        "top": 1590.09375
+      },
+      {
+        "height": 1932.921875,
+        "id": "strategy",
+        "title": "결론보다 먼저,선택의 구조를그립니다.",
+        "top": 2965.15625
+      },
+      {
+        "height": 1050.0625,
+        "id": "process",
+        "title": "생각에서 결과물까지,순서가 보이는 일.",
+        "top": 4898.078125
+      },
+      {
+        "height": 1931.796875,
+        "id": "digital",
+        "title": "설명보다 빠른 건,직접 보이는 화면입니다.",
+        "top": 5948.140625
+      },
+      {
+        "height": 1655.5625,
+        "id": "showcase",
+        "title": "하나의 정답 대신,상황에 맞는 장면을.",
+        "top": 7879.9375
+      },
+      {
+        "height": 948.96875,
+        "id": "brand",
+        "title": "브랜드는손에 닿을 때완성됩니다.",
+        "top": 9535.5
+      },
+      {
+        "height": 998,
+        "id": "touchpoints",
+        "title": "한 가지 인상이,여러 크기로 이어집니다.",
+        "top": 10484.46875
+      },
+      {
+        "height": 949.375,
+        "id": "questions",
+        "title": "처음 이야기할 때많이 묻는 것들.",
+        "top": 11482.46875
+      },
+      {
+        "height": 434,
+        "id": "",
+        "title": "새로운 소식",
+        "top": 12431.84375
+      },
+      {
+        "height": 638.703125,
+        "id": "contact",
+        "title": "다음 방향의 출발점,지금의 질문 한 가지.",
+        "top": 12865.84375
+      }
+    ],
+    "theme": "jw-dark",
+    "width": 390,
+    "capturedAt": "2026-09-29T03:00:57.582Z",
+    "kind": "actual-in-app-browser-browsing-not-independent-approval"
+  },
+  {
+    "page": "home-2",
+    "state": "desktop-light",
+    "url": "https://g5themes.test/theme/jw_business/index_2.php?device=pc",
+    "brokenVisible": [],
+    "captureScrollY": 0,
+    "documentHeight": 8613,
+    "height": 1000,
+    "overflow": 0,
+    "sections": [
+      {
+        "height": 720,
+        "id": "",
+        "title": "화면이 아니라,쓰이는 흐름을 만듭니다.",
+        "top": 76
+      },
+      {
+        "height": 640,
+        "id": "",
+        "top": 76
+      },
+      {
+        "height": 640,
+        "id": "",
+        "title": "화면이 아니라,쓰이는 흐름을 만듭니다.",
+        "top": 76
+      },
+      {
+        "height": 640,
+        "id": "",
+        "title": "현장에서 계속되는경험을 설계합니다.",
+        "top": 76
+      },
+      {
+        "height": 744.671875,
+        "id": "",
+        "title": "지금 필요한시작점을 고르세요.",
+        "top": 796
+      },
+      {
+        "height": 837.21875,
+        "id": "",
+        "title": "회의실의 의견을확인할 장면으로.",
+        "top": 1540.671875
+      },
+      {
+        "height": 1724.078125,
+        "id": "",
+        "title": "급한 일과 중요한 일을같은 자리에 놓습니다.",
+        "top": 2377.890625
+      },
+      {
+        "height": 1007.375,
+        "id": "",
+        "title": "문서로 끝나지 않는디지털 결과물",
+        "top": 4101.96875
+      },
+      {
+        "height": 1024.96875,
+        "id": "",
+        "title": "결정마다 남기는확인 가능한 근거.",
+        "top": 5109.34375
+      },
+      {
+        "height": 1071.484375,
+        "id": "",
+        "title": "담당자가 이어 쓸결과물까지.",
+        "top": 6134.3125
+      },
+      {
+        "height": 794.4375,
+        "id": "",
+        "title": "한 번의 제안보다,이어지는 판단을 만듭니다.",
+        "top": 7205.796875
+      },
+      {
+        "height": 368.4375,
+        "id": "",
+        "title": "지금 막힌 지점부터함께 살펴보겠습니다.",
+        "top": 8000.234375
+      }
+    ],
+    "theme": "jw-light",
+    "width": 1440,
+    "capturedAt": "2026-09-29T03:01:03.079Z",
+    "kind": "actual-in-app-browser-browsing-not-independent-approval"
+  },
+  {
+    "page": "home-2",
+    "state": "desktop-dark",
+    "url": "https://g5themes.test/theme/jw_business/index_2.php?device=pc",
+    "brokenVisible": [],
+    "captureScrollY": 0,
+    "documentHeight": 8613,
+    "height": 1000,
+    "overflow": 0,
+    "sections": [
+      {
+        "height": 720,
+        "id": "",
+        "title": "화면이 아니라,쓰이는 흐름을 만듭니다.",
+        "top": 76
+      },
+      {
+        "height": 640,
+        "id": "",
+        "top": 76
+      },
+      {
+        "height": 640,
+        "id": "",
+        "title": "화면이 아니라,쓰이는 흐름을 만듭니다.",
+        "top": 76
+      },
+      {
+        "height": 640,
+        "id": "",
+        "title": "현장에서 계속되는경험을 설계합니다.",
+        "top": 76
+      },
+      {
+        "height": 744.671875,
+        "id": "",
+        "title": "지금 필요한시작점을 고르세요.",
+        "top": 796
+      },
+      {
+        "height": 837.21875,
+        "id": "",
+        "title": "회의실의 의견을확인할 장면으로.",
+        "top": 1540.671875
+      },
+      {
+        "height": 1724.078125,
+        "id": "",
+        "title": "급한 일과 중요한 일을같은 자리에 놓습니다.",
+        "top": 2377.890625
+      },
+      {
+        "height": 1007.375,
+        "id": "",
+        "title": "문서로 끝나지 않는디지털 결과물",
+        "top": 4101.96875
+      },
+      {
+        "height": 1024.96875,
+        "id": "",
+        "title": "결정마다 남기는확인 가능한 근거.",
+        "top": 5109.34375
+      },
+      {
+        "height": 1071.484375,
+        "id": "",
+        "title": "담당자가 이어 쓸결과물까지.",
+        "top": 6134.3125
+      },
+      {
+        "height": 794.4375,
+        "id": "",
+        "title": "한 번의 제안보다,이어지는 판단을 만듭니다.",
+        "top": 7205.796875
+      },
+      {
+        "height": 368.4375,
+        "id": "",
+        "title": "지금 막힌 지점부터함께 살펴보겠습니다.",
+        "top": 8000.234375
+      }
+    ],
+    "theme": "jw-dark",
+    "width": 1440,
+    "capturedAt": "2026-09-29T03:01:08.783Z",
+    "kind": "actual-in-app-browser-browsing-not-independent-approval"
+  },
+  {
+    "page": "home-2",
+    "state": "mobile-light",
+    "url": "https://g5themes.test/theme/jw_business/index_2.php?device=mobile",
+    "brokenVisible": [],
+    "captureScrollY": 0,
+    "documentHeight": 12784,
+    "height": 844,
+    "overflow": 0,
+    "sections": [
+      {
+        "height": 698.71875,
+        "id": "",
+        "title": "화면이 아니라,쓰이는 흐름을 만듭니다.",
+        "top": 68
+      },
+      {
+        "height": 622.71875,
+        "id": "",
+        "top": 68
+      },
+      {
+        "height": 622.71875,
+        "id": "",
+        "title": "화면이 아니라,쓰이는 흐름을 만듭니다.",
+        "top": 68
+      },
+      {
+        "height": 622.71875,
+        "id": "",
+        "title": "현장에서 계속되는경험을 설계합니다.",
+        "top": 68
+      },
+      {
+        "height": 839.3125,
+        "id": "",
+        "title": "지금 필요한시작점을 고르세요.",
+        "top": 766.71875
+      },
+      {
+        "height": 1131.203125,
+        "id": "",
+        "title": "회의실의 의견을확인할 장면으로.",
+        "top": 1606.03125
+      },
+      {
+        "height": 3659.125,
+        "id": "",
+        "title": "급한 일과 중요한 일을같은 자리에 놓습니다.",
+        "top": 2737.234375
+      },
+      {
+        "height": 1519.5,
+        "id": "",
+        "title": "문서로 끝나지 않는디지털 결과물",
+        "top": 6396.359375
+      },
+      {
+        "height": 1100.59375,
+        "id": "",
+        "title": "결정마다 남기는확인 가능한 근거.",
+        "top": 7915.859375
+      },
+      {
+        "height": 1465.5625,
+        "id": "",
+        "title": "담당자가 이어 쓸결과물까지.",
+        "top": 9016.453125
+      },
+      {
+        "height": 1252.453125,
+        "id": "",
+        "title": "한 번의 제안보다,이어지는 판단을 만듭니다.",
+        "top": 10482.015625
+      },
+      {
+        "height": 567.0625,
+        "id": "",
+        "title": "지금 막힌 지점부터함께 살펴보겠습니다.",
+        "top": 11734.46875
+      }
+    ],
+    "theme": "jw-light",
+    "width": 390,
+    "capturedAt": "2026-09-29T03:01:38.011Z",
+    "kind": "actual-in-app-browser-browsing-not-independent-approval"
+  },
+  {
+    "page": "home-2",
+    "state": "mobile-dark",
+    "url": "https://g5themes.test/theme/jw_business/index_2.php?device=mobile",
+    "brokenVisible": [],
+    "captureScrollY": 0,
+    "documentHeight": 12784,
+    "height": 844,
+    "overflow": 0,
+    "sections": [
+      {
+        "height": 698.71875,
+        "id": "",
+        "title": "화면이 아니라,쓰이는 흐름을 만듭니다.",
+        "top": 68
+      },
+      {
+        "height": 622.71875,
+        "id": "",
+        "top": 68
+      },
+      {
+        "height": 622.71875,
+        "id": "",
+        "title": "화면이 아니라,쓰이는 흐름을 만듭니다.",
+        "top": 68
+      },
+      {
+        "height": 622.71875,
+        "id": "",
+        "title": "현장에서 계속되는경험을 설계합니다.",
+        "top": 68
+      },
+      {
+        "height": 839.3125,
+        "id": "",
+        "title": "지금 필요한시작점을 고르세요.",
+        "top": 766.71875
+      },
+      {
+        "height": 1131.203125,
+        "id": "",
+        "title": "회의실의 의견을확인할 장면으로.",
+        "top": 1606.03125
+      },
+      {
+        "height": 3659.125,
+        "id": "",
+        "title": "급한 일과 중요한 일을같은 자리에 놓습니다.",
+        "top": 2737.234375
+      },
+      {
+        "height": 1519.5,
+        "id": "",
+        "title": "문서로 끝나지 않는디지털 결과물",
+        "top": 6396.359375
+      },
+      {
+        "height": 1100.59375,
+        "id": "",
+        "title": "결정마다 남기는확인 가능한 근거.",
+        "top": 7915.859375
+      },
+      {
+        "height": 1465.5625,
+        "id": "",
+        "title": "담당자가 이어 쓸결과물까지.",
+        "top": 9016.453125
+      },
+      {
+        "height": 1252.453125,
+        "id": "",
+        "title": "한 번의 제안보다,이어지는 판단을 만듭니다.",
+        "top": 10482.015625
+      },
+      {
+        "height": 567.0625,
+        "id": "",
+        "title": "지금 막힌 지점부터함께 살펴보겠습니다.",
+        "top": 11734.46875
+      }
+    ],
+    "theme": "jw-dark",
+    "width": 390,
+    "capturedAt": "2026-09-29T03:01:44.616Z",
+    "kind": "actual-in-app-browser-browsing-not-independent-approval"
+  },
+  {
+    "page": "home-3",
+    "state": "desktop-light",
+    "url": "https://g5themes.test/theme/jw_business/index_3.php?device=pc",
+    "brokenVisible": [],
+    "captureScrollY": 0,
+    "documentHeight": 7463,
+    "height": 1000,
+    "overflow": 0,
+    "sections": [
+      {
+        "height": 292.375,
+        "id": "",
+        "title": "같은 브랜드,서로 다른 만남.",
+        "top": 1029.59375
+      },
+      {
+        "height": 1390.1875,
+        "id": "work-mobility",
+        "title": "처음 온 사람도길을 잃지 않도록.",
+        "top": 1321.96875
+      },
+      {
+        "height": 847.09375,
+        "id": "work-print",
+        "title": "브랜드를손에 쥐는 순간.",
+        "top": 2712.15625
+      },
+      {
+        "height": 939.15625,
+        "id": "work-exhibition",
+        "title": "그래픽이 공간을만나는 순간.",
+        "top": 3559.25
+      },
+      {
+        "height": 1066.140625,
+        "id": "work-digital",
+        "title": "발견에서 선택까지,흐름이 있는 화면.",
+        "top": 4498.40625
+      },
+      {
+        "height": 1168.8125,
+        "id": "",
+        "title": "매체마다 달라지는읽는 거리와 밀도.",
+        "top": 5564.546875
+      },
+      {
+        "height": 485.75,
+        "id": "",
+        "title": "다음 결과물은어떤 모습이어야 할까요?",
+        "top": 6733.359375
+      }
+    ],
+    "theme": "jw-light",
+    "width": 1440,
+    "capturedAt": "2026-09-29T03:01:49.716Z",
+    "kind": "actual-in-app-browser-browsing-not-independent-approval"
+  },
+  {
+    "page": "home-3",
+    "state": "desktop-dark",
+    "url": "https://g5themes.test/theme/jw_business/index_3.php?device=pc",
+    "brokenVisible": [],
+    "captureScrollY": 0,
+    "documentHeight": 7463,
+    "height": 1000,
+    "overflow": 0,
+    "sections": [
+      {
+        "height": 292.375,
+        "id": "",
+        "title": "같은 브랜드,서로 다른 만남.",
+        "top": 1029.59375
+      },
+      {
+        "height": 1390.1875,
+        "id": "work-mobility",
+        "title": "처음 온 사람도길을 잃지 않도록.",
+        "top": 1321.96875
+      },
+      {
+        "height": 847.09375,
+        "id": "work-print",
+        "title": "브랜드를손에 쥐는 순간.",
+        "top": 2712.15625
+      },
+      {
+        "height": 939.15625,
+        "id": "work-exhibition",
+        "title": "그래픽이 공간을만나는 순간.",
+        "top": 3559.25
+      },
+      {
+        "height": 1066.140625,
+        "id": "work-digital",
+        "title": "발견에서 선택까지,흐름이 있는 화면.",
+        "top": 4498.40625
+      },
+      {
+        "height": 1168.8125,
+        "id": "",
+        "title": "매체마다 달라지는읽는 거리와 밀도.",
+        "top": 5564.546875
+      },
+      {
+        "height": 485.75,
+        "id": "",
+        "title": "다음 결과물은어떤 모습이어야 할까요?",
+        "top": 6733.359375
+      }
+    ],
+    "theme": "jw-dark",
+    "width": 1440,
+    "capturedAt": "2026-09-29T03:01:54.799Z",
+    "kind": "actual-in-app-browser-browsing-not-independent-approval"
+  },
+  {
+    "page": "home-3",
+    "state": "mobile-light",
+    "url": "https://g5themes.test/theme/jw_business/index_3.php?device=mobile",
+    "brokenVisible": [],
+    "captureScrollY": 0,
+    "documentHeight": 7788,
+    "height": 844,
+    "overflow": 0,
+    "sections": [
+      {
+        "height": 395.765625,
+        "id": "",
+        "title": "같은 브랜드,서로 다른 만남.",
+        "top": 773.03125
+      },
+      {
+        "height": 1009.609375,
+        "id": "work-mobility",
+        "title": "처음 온 사람도길을 잃지 않도록.",
+        "top": 1168.796875
+      },
+      {
+        "height": 936.140625,
+        "id": "work-print",
+        "title": "브랜드를손에 쥐는 순간.",
+        "top": 2178.40625
+      },
+      {
+        "height": 705.875,
+        "id": "work-exhibition",
+        "title": "그래픽이 공간을만나는 순간.",
+        "top": 3114.546875
+      },
+      {
+        "height": 1222.9375,
+        "id": "work-digital",
+        "title": "발견에서 선택까지,흐름이 있는 화면.",
+        "top": 3820.421875
+      },
+      {
+        "height": 1495.234375,
+        "id": "",
+        "title": "매체마다 달라지는읽는 거리와 밀도.",
+        "top": 5043.359375
+      },
+      {
+        "height": 767.453125,
+        "id": "",
+        "title": "다음 결과물은어떤 모습이어야 할까요?",
+        "top": 6538.59375
+      }
+    ],
+    "theme": "jw-light",
+    "width": 390,
+    "capturedAt": "2026-09-29T03:02:38.311Z",
+    "kind": "actual-in-app-browser-browsing-not-independent-approval"
+  },
+  {
+    "page": "home-3",
+    "state": "mobile-dark",
+    "url": "https://g5themes.test/theme/jw_business/index_3.php?device=mobile",
+    "brokenVisible": [],
+    "captureScrollY": 0,
+    "documentHeight": 7788,
+    "height": 844,
+    "overflow": 0,
+    "sections": [
+      {
+        "height": 395.765625,
+        "id": "",
+        "title": "같은 브랜드,서로 다른 만남.",
+        "top": 773.03125
+      },
+      {
+        "height": 1009.609375,
+        "id": "work-mobility",
+        "title": "처음 온 사람도길을 잃지 않도록.",
+        "top": 1168.796875
+      },
+      {
+        "height": 936.140625,
+        "id": "work-print",
+        "title": "브랜드를손에 쥐는 순간.",
+        "top": 2178.40625
+      },
+      {
+        "height": 705.875,
+        "id": "work-exhibition",
+        "title": "그래픽이 공간을만나는 순간.",
+        "top": 3114.546875
+      },
+      {
+        "height": 1222.9375,
+        "id": "work-digital",
+        "title": "발견에서 선택까지,흐름이 있는 화면.",
+        "top": 3820.421875
+      },
+      {
+        "height": 1495.234375,
+        "id": "",
+        "title": "매체마다 달라지는읽는 거리와 밀도.",
+        "top": 5043.359375
+      },
+      {
+        "height": 767.453125,
+        "id": "",
+        "title": "다음 결과물은어떤 모습이어야 할까요?",
+        "top": 6538.59375
+      }
+    ],
+    "theme": "jw-dark",
+    "width": 390,
+    "capturedAt": "2026-09-29T03:02:44.214Z",
+    "kind": "actual-in-app-browser-browsing-not-independent-approval"
+  },
+  {
+    "page": "home-4",
+    "state": "desktop-light",
+    "url": "https://g5themes.test/theme/jw_business/index_4.php?device=pc",
+    "brokenVisible": [],
+    "captureScrollY": 0,
+    "documentHeight": 8444,
+    "height": 1000,
+    "overflow": 0,
+    "sections": [
+      {
+        "height": 711.109375,
+        "id": "",
+        "top": 76
+      },
+      {
+        "height": 649.59375,
+        "id": "h4-process",
+        "title": "함께 만드는 네 가지 순간.",
+        "top": 787.109375
+      },
+      {
+        "height": 816.34375,
+        "id": "h4-discovery",
+        "title": "좋은 질문에서 시작합니다.",
+        "top": 1436.703125
+      },
+      {
+        "height": 1976,
+        "id": "h4-strategy",
+        "title": "고객의 다음 행동을 함께 설계합니다.",
+        "top": 2253.046875
+      },
+      {
+        "height": 1114.125,
+        "id": "h4-digital",
+        "title": "보는 인상과 쓰는 경험을 함께.",
+        "top": 4229.046875
+      },
+      {
+        "height": 929.71875,
+        "id": "h4-brand",
+        "title": "하나의 인상을, 모든 접점에.",
+        "top": 5343.171875
+      },
+      {
+        "height": 940.5625,
+        "id": "h4-handoff",
+        "title": "완성 이후에도 잘 쓰이도록.",
+        "top": 6272.890625
+      },
+      {
+        "height": 548.578125,
+        "id": "",
+        "title": "시작하기 전에 궁금한 이야기.",
+        "top": 7213.453125
+      },
+      {
+        "height": 437.9375,
+        "id": "",
+        "title": "우리의 다음 결과물,함께 정해볼까요?",
+        "top": 7762.03125
+      }
+    ],
+    "theme": "jw-light",
+    "width": 1440,
+    "capturedAt": "2026-09-29T03:02:50.038Z",
+    "kind": "actual-in-app-browser-browsing-not-independent-approval"
+  },
+  {
+    "page": "home-4",
+    "state": "desktop-dark",
+    "url": "https://g5themes.test/theme/jw_business/index_4.php?device=pc",
+    "brokenVisible": [],
+    "captureScrollY": 0,
+    "documentHeight": 8444,
+    "height": 1000,
+    "overflow": 0,
+    "sections": [
+      {
+        "height": 711.109375,
+        "id": "",
+        "top": 76
+      },
+      {
+        "height": 649.59375,
+        "id": "h4-process",
+        "title": "함께 만드는 네 가지 순간.",
+        "top": 787.109375
+      },
+      {
+        "height": 816.34375,
+        "id": "h4-discovery",
+        "title": "좋은 질문에서 시작합니다.",
+        "top": 1436.703125
+      },
+      {
+        "height": 1976,
+        "id": "h4-strategy",
+        "title": "고객의 다음 행동을 함께 설계합니다.",
+        "top": 2253.046875
+      },
+      {
+        "height": 1114.125,
+        "id": "h4-digital",
+        "title": "보는 인상과 쓰는 경험을 함께.",
+        "top": 4229.046875
+      },
+      {
+        "height": 929.71875,
+        "id": "h4-brand",
+        "title": "하나의 인상을, 모든 접점에.",
+        "top": 5343.171875
+      },
+      {
+        "height": 940.5625,
+        "id": "h4-handoff",
+        "title": "완성 이후에도 잘 쓰이도록.",
+        "top": 6272.890625
+      },
+      {
+        "height": 548.578125,
+        "id": "",
+        "title": "시작하기 전에 궁금한 이야기.",
+        "top": 7213.453125
+      },
+      {
+        "height": 437.9375,
+        "id": "",
+        "title": "우리의 다음 결과물,함께 정해볼까요?",
+        "top": 7762.03125
+      }
+    ],
+    "theme": "jw-dark",
+    "width": 1440,
+    "capturedAt": "2026-09-29T03:02:55.196Z",
+    "kind": "actual-in-app-browser-browsing-not-independent-approval"
+  },
+  {
+    "page": "home-4",
+    "state": "mobile-light",
+    "url": "https://g5themes.test/theme/jw_business/index_4.php?device=mobile",
+    "brokenVisible": [],
+    "captureScrollY": 0,
+    "documentHeight": 9730,
+    "height": 844,
+    "overflow": 0,
+    "sections": [
+      {
+        "height": 631.53125,
+        "id": "",
+        "top": 68
+      },
+      {
+        "height": 820.375,
+        "id": "h4-process",
+        "title": "함께 만드는 네 가지 순간.",
+        "top": 699.53125
+      },
+      {
+        "height": 987.375,
+        "id": "h4-discovery",
+        "title": "좋은 질문에서 시작합니다.",
+        "top": 1519.90625
+      },
+      {
+        "height": 1299.03125,
+        "id": "h4-strategy",
+        "title": "고객의 다음 행동을 함께 설계합니다.",
+        "top": 2507.28125
+      },
+      {
+        "height": 1194.421875,
+        "id": "h4-digital",
+        "title": "보는 인상과 쓰는 경험을 함께.",
+        "top": 3806.3125
+      },
+      {
+        "height": 1016.28125,
+        "id": "h4-brand",
+        "title": "하나의 인상을, 모든 접점에.",
+        "top": 5000.734375
+      },
+      {
+        "height": 1831.8125,
+        "id": "h4-handoff",
+        "title": "완성 이후에도 잘 쓰이도록.",
+        "top": 6017.015625
+      },
+      {
+        "height": 768.96875,
+        "id": "",
+        "title": "시작하기 전에 궁금한 이야기.",
+        "top": 7848.828125
+      },
+      {
+        "height": 630.28125,
+        "id": "",
+        "title": "우리의 다음 결과물,함께 정해볼까요?",
+        "top": 8617.796875
+      }
+    ],
+    "theme": "jw-light",
+    "width": 390,
+    "capturedAt": "2026-09-29T03:06:51.486Z",
+    "kind": "actual-in-app-browser-browsing-not-independent-approval"
+  },
+  {
+    "page": "home-4",
+    "state": "mobile-dark",
+    "url": "https://g5themes.test/theme/jw_business/index_4.php?device=mobile",
+    "brokenVisible": [],
+    "captureScrollY": 0,
+    "documentHeight": 9730,
+    "height": 844,
+    "overflow": 0,
+    "sections": [
+      {
+        "height": 631.53125,
+        "id": "",
+        "top": 68
+      },
+      {
+        "height": 820.375,
+        "id": "h4-process",
+        "title": "함께 만드는 네 가지 순간.",
+        "top": 699.53125
+      },
+      {
+        "height": 987.375,
+        "id": "h4-discovery",
+        "title": "좋은 질문에서 시작합니다.",
+        "top": 1519.90625
+      },
+      {
+        "height": 1299.03125,
+        "id": "h4-strategy",
+        "title": "고객의 다음 행동을 함께 설계합니다.",
+        "top": 2507.28125
+      },
+      {
+        "height": 1194.421875,
+        "id": "h4-digital",
+        "title": "보는 인상과 쓰는 경험을 함께.",
+        "top": 3806.3125
+      },
+      {
+        "height": 1016.28125,
+        "id": "h4-brand",
+        "title": "하나의 인상을, 모든 접점에.",
+        "top": 5000.734375
+      },
+      {
+        "height": 1831.8125,
+        "id": "h4-handoff",
+        "title": "완성 이후에도 잘 쓰이도록.",
+        "top": 6017.015625
+      },
+      {
+        "height": 768.96875,
+        "id": "",
+        "title": "시작하기 전에 궁금한 이야기.",
+        "top": 7848.828125
+      },
+      {
+        "height": 630.28125,
+        "id": "",
+        "title": "우리의 다음 결과물,함께 정해볼까요?",
+        "top": 8617.796875
+      }
+    ],
+    "theme": "jw-dark",
+    "width": 390,
+    "capturedAt": "2026-09-29T03:06:57.386Z",
+    "kind": "actual-in-app-browser-browsing-not-independent-approval"
+  },
+  {
+    "page": "onepage-showcase",
+    "state": "desktop-light",
+    "url": "https://g5themes.test/pages/onepage-showcase.php?device=pc",
+    "brokenVisible": [],
+    "captureScrollY": 0,
+    "documentHeight": 9497,
+    "height": 1000,
+    "overflow": 0,
+    "sections": [
+      {
+        "height": 733.1875,
+        "id": "aura-top",
+        "top": 141
+      },
+      {
+        "height": 589.1875,
+        "id": "aura-brand",
+        "title": "듣는 물건에서,함께 사는 물건으로.",
+        "top": 874.1875
+      },
+      {
+        "height": 329.21875,
+        "id": "",
+        "title": "자연스러운 월넛",
+        "top": 1463.375
+      },
+      {
+        "height": 894.984375,
+        "id": "aura-design",
+        "title": "가까이서 느끼는만듦새의 차이.",
+        "top": 1792.59375
+      },
+      {
+        "height": 2100,
+        "id": "aura-rotation",
+        "title": "한 바퀴,다른 각도로 만나보세요.",
+        "top": 2687.578125
+      },
+      {
+        "height": 971.9375,
+        "id": "aura-space",
+        "title": "좋아하는 시간에,자연스럽게 함께.",
+        "top": 4787.578125
+      },
+      {
+        "height": 1094.125,
+        "id": "aura-details",
+        "title": "보이는 아름다움,생각한 쓰임.",
+        "top": 5759.515625
+      },
+      {
+        "height": 527,
+        "id": "aura-material",
+        "top": 6149.046875
+      },
+      {
+        "height": 622.8125,
+        "id": "",
+        "title": "음악이 있는 하루를더 가볍게.",
+        "top": 6853.640625
+      },
+      {
+        "height": 964.625,
+        "id": "aura-guide",
+        "title": "처음 놓는 순간부터오래 쓰는 날까지.",
+        "top": 7476.453125
+      },
+      {
+        "height": 397.96875,
+        "id": "",
+        "title": "오래 함께하려면.",
+        "top": 8441.078125
+      },
+      {
+        "height": 413.9375,
+        "id": "aura-contact",
+        "title": "어떤 공간에음악을 놓으시겠어요?",
+        "top": 8839.046875
+      }
+    ],
+    "theme": "jw-light",
+    "width": 1440,
+    "capturedAt": "2026-09-29T03:07:04.105Z",
+    "kind": "actual-in-app-browser-browsing-not-independent-approval"
+  },
+  {
+    "page": "onepage-showcase",
+    "state": "desktop-dark",
+    "url": "https://g5themes.test/pages/onepage-showcase.php?device=pc",
+    "brokenVisible": [],
+    "captureScrollY": 0,
+    "documentHeight": 9497,
+    "height": 1000,
+    "overflow": 0,
+    "sections": [
+      {
+        "height": 733.1875,
+        "id": "aura-top",
+        "top": 141
+      },
+      {
+        "height": 589.1875,
+        "id": "aura-brand",
+        "title": "듣는 물건에서,함께 사는 물건으로.",
+        "top": 874.1875
+      },
+      {
+        "height": 329.21875,
+        "id": "",
+        "title": "자연스러운 월넛",
+        "top": 1463.375
+      },
+      {
+        "height": 894.984375,
+        "id": "aura-design",
+        "title": "가까이서 느끼는만듦새의 차이.",
+        "top": 1792.59375
+      },
+      {
+        "height": 2100,
+        "id": "aura-rotation",
+        "title": "한 바퀴,다른 각도로 만나보세요.",
+        "top": 2687.578125
+      },
+      {
+        "height": 971.9375,
+        "id": "aura-space",
+        "title": "좋아하는 시간에,자연스럽게 함께.",
+        "top": 4787.578125
+      },
+      {
+        "height": 1094.125,
+        "id": "aura-details",
+        "title": "보이는 아름다움,생각한 쓰임.",
+        "top": 5759.515625
+      },
+      {
+        "height": 527,
+        "id": "aura-material",
+        "top": 6149.046875
+      },
+      {
+        "height": 622.8125,
+        "id": "",
+        "title": "음악이 있는 하루를더 가볍게.",
+        "top": 6853.640625
+      },
+      {
+        "height": 964.625,
+        "id": "aura-guide",
+        "title": "처음 놓는 순간부터오래 쓰는 날까지.",
+        "top": 7476.453125
+      },
+      {
+        "height": 397.96875,
+        "id": "",
+        "title": "오래 함께하려면.",
+        "top": 8441.078125
+      },
+      {
+        "height": 413.9375,
+        "id": "aura-contact",
+        "title": "어떤 공간에음악을 놓으시겠어요?",
+        "top": 8839.046875
+      }
+    ],
+    "theme": "jw-dark",
+    "width": 1440,
+    "capturedAt": "2026-09-29T03:07:10.522Z",
+    "kind": "actual-in-app-browser-browsing-not-independent-approval"
+  },
+  {
+    "page": "onepage-showcase",
+    "state": "mobile-light",
+    "url": "https://g5themes.test/pages/onepage-showcase.php?device=mobile",
+    "brokenVisible": [],
+    "captureScrollY": 0,
+    "documentHeight": 8642,
+    "height": 844,
+    "overflow": 0,
+    "sections": [
+      {
+        "height": 768.53125,
+        "id": "aura-top",
+        "top": 154
+      },
+      {
+        "height": 701.71875,
+        "id": "aura-brand",
+        "title": "듣는 물건에서,함께 사는 물건으로.",
+        "top": 922.53125
+      },
+      {
+        "height": 349.25,
+        "id": "",
+        "title": "자연스러운 월넛",
+        "top": 1624.25
+      },
+      {
+        "height": 922,
+        "id": "aura-design",
+        "title": "가까이서 느끼는만듦새의 차이.",
+        "top": 1973.5
+      },
+      {
+        "height": 657.15625,
+        "id": "aura-rotation",
+        "title": "한 바퀴,다른 각도로 만나보세요.",
+        "top": 2895.5
+      },
+      {
+        "height": 629,
+        "id": "aura-space",
+        "title": "좋아하는 시간에,자연스럽게 함께.",
+        "top": 3552.65625
+      },
+      {
+        "height": 1129.1875,
+        "id": "aura-details",
+        "title": "보이는 아름다움,생각한 쓰임.",
+        "top": 4181.65625
+      },
+      {
+        "height": 671.1875,
+        "id": "aura-material",
+        "top": 4519.65625
+      },
+      {
+        "height": 765,
+        "id": "",
+        "title": "음악이 있는 하루를더 가볍게.",
+        "top": 5310.84375
+      },
+      {
+        "height": 1108.8125,
+        "id": "aura-guide",
+        "title": "처음 놓는 순간부터오래 쓰는 날까지.",
+        "top": 6075.84375
+      },
+      {
+        "height": 559.5,
+        "id": "",
+        "title": "오래 함께하려면.",
+        "top": 7184.65625
+      },
+      {
+        "height": 340,
+        "id": "aura-contact",
+        "title": "어떤 공간에음악을 놓으시겠어요?",
+        "top": 7744.15625
+      }
+    ],
+    "theme": "jw-light",
+    "width": 390,
+    "capturedAt": "2026-09-29T03:07:38.637Z",
+    "kind": "actual-in-app-browser-browsing-not-independent-approval"
+  },
+  {
+    "page": "onepage-showcase",
+    "state": "mobile-dark",
+    "url": "https://g5themes.test/pages/onepage-showcase.php?device=mobile",
+    "brokenVisible": [],
+    "captureScrollY": 0,
+    "documentHeight": 8642,
+    "height": 844,
+    "overflow": 0,
+    "sections": [
+      {
+        "height": 768.53125,
+        "id": "aura-top",
+        "top": 154
+      },
+      {
+        "height": 701.71875,
+        "id": "aura-brand",
+        "title": "듣는 물건에서,함께 사는 물건으로.",
+        "top": 922.53125
+      },
+      {
+        "height": 349.25,
+        "id": "",
+        "title": "자연스러운 월넛",
+        "top": 1624.25
+      },
+      {
+        "height": 922,
+        "id": "aura-design",
+        "title": "가까이서 느끼는만듦새의 차이.",
+        "top": 1973.5
+      },
+      {
+        "height": 657.15625,
+        "id": "aura-rotation",
+        "title": "한 바퀴,다른 각도로 만나보세요.",
+        "top": 2895.5
+      },
+      {
+        "height": 629,
+        "id": "aura-space",
+        "title": "좋아하는 시간에,자연스럽게 함께.",
+        "top": 3552.65625
+      },
+      {
+        "height": 1129.1875,
+        "id": "aura-details",
+        "title": "보이는 아름다움,생각한 쓰임.",
+        "top": 4181.65625
+      },
+      {
+        "height": 671.1875,
+        "id": "aura-material",
+        "top": 4519.65625
+      },
+      {
+        "height": 765,
+        "id": "",
+        "title": "음악이 있는 하루를더 가볍게.",
+        "top": 5310.84375
+      },
+      {
+        "height": 1108.8125,
+        "id": "aura-guide",
+        "title": "처음 놓는 순간부터오래 쓰는 날까지.",
+        "top": 6075.84375
+      },
+      {
+        "height": 559.5,
+        "id": "",
+        "title": "오래 함께하려면.",
+        "top": 7184.65625
+      },
+      {
+        "height": 340,
+        "id": "aura-contact",
+        "title": "어떤 공간에음악을 놓으시겠어요?",
+        "top": 7744.15625
+      }
+    ],
+    "theme": "jw-dark",
+    "width": 390,
+    "capturedAt": "2026-09-29T03:07:46.080Z",
+    "kind": "actual-in-app-browser-browsing-not-independent-approval"
+  },
+  {
+    "page": "onepage-services",
+    "state": "desktop-light",
+    "url": "https://g5themes.test/pages/onepage-services.php?device=pc",
+    "brokenVisible": [],
+    "captureScrollY": 0,
+    "documentHeight": 11364,
+    "height": 1000,
+    "overflow": 0,
+    "sections": [
+      {
+        "height": 940.234375,
+        "id": "service-top",
+        "title": "손으로 만드는나만의 일상.",
+        "top": 141
+      },
+      {
+        "height": 969.90625,
+        "id": "service-scope",
+        "title": "좋은 질문이좋은 결과를 만듭니다.",
+        "top": 1081.234375
+      },
+      {
+        "height": 880.140625,
+        "id": "service-studio",
+        "title": "다른 전문성,같은 테이블.",
+        "top": 2051.140625
+      },
+      {
+        "height": 1229.515625,
+        "id": "service-process",
+        "title": "발견에서 신청까지,다음 질문이 보이도록.",
+        "top": 2931.28125
+      },
+      {
+        "height": 657.28125,
+        "id": "",
+        "top": 3228.8125
+      },
+      {
+        "height": 1116.21875,
+        "id": "service-case",
+        "title": "설명 문서가쓰이는 화면이 되도록.",
+        "top": 4160.796875
+      },
+      {
+        "height": 1027.125,
+        "id": "",
+        "title": "같은 방법,다른 사업의 맥락.",
+        "top": 5277.015625
+      },
+      {
+        "height": 877.0625,
+        "id": "",
+        "title": "담당자가 바뀌어도,같은 기준으로.",
+        "top": 6304.140625
+      },
+      {
+        "height": 714.921875,
+        "id": "service-roadmap",
+        "title": "다음 단계가 보이는프로젝트 진행.",
+        "top": 7181.203125
+      },
+      {
+        "height": 1399.40625,
+        "id": "",
+        "title": "화면과 문서,서로 이어지는 결과물.",
+        "top": 7896.125
+      },
+      {
+        "height": 725.1875,
+        "id": "",
+        "title": "필요한 만큼,함께할 범위를 정합니다.",
+        "top": 9295.53125
+      },
+      {
+        "height": 527.59375,
+        "id": "service-faq",
+        "title": "시작하기 전,궁금한 것들.",
+        "top": 10020.71875
+      },
+      {
+        "height": 571.546875,
+        "id": "service-contact",
+        "title": "지금의 질문에서함께 시작합니다.",
+        "top": 10548.3125
+      }
+    ],
+    "theme": "jw-light",
+    "width": 1440,
+    "capturedAt": "2026-09-29T03:07:53.312Z",
+    "kind": "actual-in-app-browser-browsing-not-independent-approval"
+  },
+  {
+    "page": "onepage-services",
+    "state": "desktop-dark",
+    "url": "https://g5themes.test/pages/onepage-services.php?device=pc",
+    "brokenVisible": [],
+    "captureScrollY": 0,
+    "documentHeight": 11364,
+    "height": 1000,
+    "overflow": 0,
+    "sections": [
+      {
+        "height": 940.234375,
+        "id": "service-top",
+        "title": "손으로 만드는나만의 일상.",
+        "top": 141
+      },
+      {
+        "height": 969.90625,
+        "id": "service-scope",
+        "title": "좋은 질문이좋은 결과를 만듭니다.",
+        "top": 1081.234375
+      },
+      {
+        "height": 880.140625,
+        "id": "service-studio",
+        "title": "다른 전문성,같은 테이블.",
+        "top": 2051.140625
+      },
+      {
+        "height": 1229.515625,
+        "id": "service-process",
+        "title": "발견에서 신청까지,다음 질문이 보이도록.",
+        "top": 2931.28125
+      },
+      {
+        "height": 657.28125,
+        "id": "",
+        "top": 3228.8125
+      },
+      {
+        "height": 1116.21875,
+        "id": "service-case",
+        "title": "설명 문서가쓰이는 화면이 되도록.",
+        "top": 4160.796875
+      },
+      {
+        "height": 1027.125,
+        "id": "",
+        "title": "같은 방법,다른 사업의 맥락.",
+        "top": 5277.015625
+      },
+      {
+        "height": 877.0625,
+        "id": "",
+        "title": "담당자가 바뀌어도,같은 기준으로.",
+        "top": 6304.140625
+      },
+      {
+        "height": 714.921875,
+        "id": "service-roadmap",
+        "title": "다음 단계가 보이는프로젝트 진행.",
+        "top": 7181.203125
+      },
+      {
+        "height": 1399.40625,
+        "id": "",
+        "title": "화면과 문서,서로 이어지는 결과물.",
+        "top": 7896.125
+      },
+      {
+        "height": 725.1875,
+        "id": "",
+        "title": "필요한 만큼,함께할 범위를 정합니다.",
+        "top": 9295.53125
+      },
+      {
+        "height": 527.59375,
+        "id": "service-faq",
+        "title": "시작하기 전,궁금한 것들.",
+        "top": 10020.71875
+      },
+      {
+        "height": 571.546875,
+        "id": "service-contact",
+        "title": "지금의 질문에서함께 시작합니다.",
+        "top": 10548.3125
+      }
+    ],
+    "theme": "jw-dark",
+    "width": 1440,
+    "capturedAt": "2026-09-29T03:08:00.633Z",
+    "kind": "actual-in-app-browser-browsing-not-independent-approval"
+  },
+  {
+    "page": "onepage-services",
+    "state": "mobile-light",
+    "url": "https://g5themes.test/pages/onepage-services.php?device=mobile",
+    "brokenVisible": [],
+    "captureScrollY": 0,
+    "documentHeight": 15347,
+    "height": 844,
+    "overflow": 0,
+    "sections": [
+      {
+        "height": 1314.15625,
+        "id": "service-top",
+        "title": "손으로 만드는나만의 일상.",
+        "top": 154
+      },
+      {
+        "height": 2016.265625,
+        "id": "service-scope",
+        "title": "좋은 질문이좋은 결과를 만듭니다.",
+        "top": 1468.15625
+      },
+      {
+        "height": 1037.0625,
+        "id": "service-studio",
+        "title": "다른 전문성,같은 테이블.",
+        "top": 3484.421875
+      },
+      {
+        "height": 1119.875,
+        "id": "service-process",
+        "title": "발견에서 신청까지,다음 질문이 보이도록.",
+        "top": 4521.484375
+      },
+      {
+        "height": 626.59375,
+        "id": "",
+        "top": 4835.984375
+      },
+      {
+        "height": 1071.140625,
+        "id": "service-case",
+        "title": "설명 문서가쓰이는 화면이 되도록.",
+        "top": 5641.359375
+      },
+      {
+        "height": 1712.78125,
+        "id": "",
+        "title": "같은 방법,다른 사업의 맥락.",
+        "top": 6712.5
+      },
+      {
+        "height": 1181.875,
+        "id": "",
+        "title": "담당자가 바뀌어도,같은 기준으로.",
+        "top": 8425.28125
+      },
+      {
+        "height": 933,
+        "id": "service-roadmap",
+        "title": "다음 단계가 보이는프로젝트 진행.",
+        "top": 9607.15625
+      },
+      {
+        "height": 2143.0625,
+        "id": "",
+        "title": "화면과 문서,서로 이어지는 결과물.",
+        "top": 10540.15625
+      },
+      {
+        "height": 809,
+        "id": "",
+        "title": "필요한 만큼,함께할 범위를 정합니다.",
+        "top": 12683.21875
+      },
+      {
+        "height": 677,
+        "id": "service-faq",
+        "title": "시작하기 전,궁금한 것들.",
+        "top": 13492.21875
+      },
+      {
+        "height": 619.359375,
+        "id": "service-contact",
+        "title": "지금의 질문에서함께 시작합니다.",
+        "top": 14169.21875
+      }
+    ],
+    "theme": "jw-light",
+    "width": 390,
+    "capturedAt": "2026-09-29T03:08:19.591Z",
+    "kind": "actual-in-app-browser-browsing-not-independent-approval"
+  },
+  {
+    "page": "onepage-services",
+    "state": "mobile-dark",
+    "url": "https://g5themes.test/pages/onepage-services.php?device=mobile",
+    "brokenVisible": [],
+    "captureScrollY": 0,
+    "documentHeight": 15347,
+    "height": 844,
+    "overflow": 0,
+    "sections": [
+      {
+        "height": 1314.15625,
+        "id": "service-top",
+        "title": "손으로 만드는나만의 일상.",
+        "top": 154
+      },
+      {
+        "height": 2016.265625,
+        "id": "service-scope",
+        "title": "좋은 질문이좋은 결과를 만듭니다.",
+        "top": 1468.15625
+      },
+      {
+        "height": 1037.0625,
+        "id": "service-studio",
+        "title": "다른 전문성,같은 테이블.",
+        "top": 3484.421875
+      },
+      {
+        "height": 1119.875,
+        "id": "service-process",
+        "title": "발견에서 신청까지,다음 질문이 보이도록.",
+        "top": 4521.484375
+      },
+      {
+        "height": 626.59375,
+        "id": "",
+        "top": 4835.984375
+      },
+      {
+        "height": 1071.140625,
+        "id": "service-case",
+        "title": "설명 문서가쓰이는 화면이 되도록.",
+        "top": 5641.359375
+      },
+      {
+        "height": 1712.78125,
+        "id": "",
+        "title": "같은 방법,다른 사업의 맥락.",
+        "top": 6712.5
+      },
+      {
+        "height": 1181.875,
+        "id": "",
+        "title": "담당자가 바뀌어도,같은 기준으로.",
+        "top": 8425.28125
+      },
+      {
+        "height": 933,
+        "id": "service-roadmap",
+        "title": "다음 단계가 보이는프로젝트 진행.",
+        "top": 9607.15625
+      },
+      {
+        "height": 2143.0625,
+        "id": "",
+        "title": "화면과 문서,서로 이어지는 결과물.",
+        "top": 10540.15625
+      },
+      {
+        "height": 809,
+        "id": "",
+        "title": "필요한 만큼,함께할 범위를 정합니다.",
+        "top": 12683.21875
+      },
+      {
+        "height": 677,
+        "id": "service-faq",
+        "title": "시작하기 전,궁금한 것들.",
+        "top": 13492.21875
+      },
+      {
+        "height": 619.359375,
+        "id": "service-contact",
+        "title": "지금의 질문에서함께 시작합니다.",
+        "top": 14169.21875
+      }
+    ],
+    "theme": "jw-dark",
+    "width": 390,
+    "capturedAt": "2026-09-29T03:08:27.690Z",
+    "kind": "actual-in-app-browser-browsing-not-independent-approval"
+  },
+  {
+    "page": "onepage-projects",
+    "state": "desktop-light",
+    "url": "https://g5themes.test/pages/onepage-projects.php?device=pc",
+    "brokenVisible": [],
+    "captureScrollY": 0,
+    "documentHeight": 12194,
+    "height": 1000,
+    "overflow": 0,
+    "sections": [
+      {
+        "height": 770,
+        "id": "project-top",
+        "top": 141
+      },
+      {
+        "height": 872.671875,
+        "id": "project-studio",
+        "title": "공간을 만드는우리의 관점.",
+        "top": 911
+      },
+      {
+        "height": 677.375,
+        "id": "project-intent",
+        "title": "건물보다 먼저,그 안의 하루를 봅니다.",
+        "top": 1783.671875
+      },
+      {
+        "height": 2326.15625,
+        "id": "",
+        "title": "걸음마다 달라지는공간의 표정.",
+        "top": 2461.046875
+      },
+      {
+        "height": 554.84375,
+        "id": "",
+        "top": 2812.578125
+      },
+      {
+        "height": 581.09375,
+        "id": "",
+        "top": 3431.421875
+      },
+      {
+        "height": 581.09375,
+        "id": "",
+        "top": 4076.515625
+      },
+      {
+        "height": 936.3125,
+        "id": "project-scenes",
+        "title": "바깥의 여유가안으로 이어질 때.",
+        "top": 4787.203125
+      },
+      {
+        "height": 943.578125,
+        "id": "",
+        "title": "재료와 빛이만드는 리듬.",
+        "top": 5723.515625
+      },
+      {
+        "height": 1077.328125,
+        "id": "project-gallery",
+        "title": "다른 장면,하나의 방향.",
+        "top": 6667.09375
+      },
+      {
+        "height": 717.515625,
+        "id": "project-scope",
+        "title": "하나의 장소를,여러 시선으로.",
+        "top": 7744.421875
+      },
+      {
+        "height": 1199.078125,
+        "id": "project-process",
+        "title": "질문에서 시작해,쓰이는 장소까지.",
+        "top": 8461.9375
+      },
+      {
+        "height": 1251.5,
+        "id": "",
+        "title": "좋은 장면을,함께 지킬 수 있는 기준으로.",
+        "top": 9661.015625
+      },
+      {
+        "height": 533,
+        "id": "project-faq",
+        "title": "프로젝트를준비하고 계신가요?",
+        "top": 10912.515625
+      },
+      {
+        "height": 504.328125,
+        "id": "project-contact",
+        "title": "공간의 다음 장면을함께 그려봅니다.",
+        "top": 11445.515625
+      }
+    ],
+    "theme": "jw-light",
+    "width": 1440,
+    "capturedAt": "2026-09-29T03:08:36.056Z",
+    "kind": "actual-in-app-browser-browsing-not-independent-approval"
+  },
+  {
+    "page": "onepage-projects",
+    "state": "desktop-dark",
+    "url": "https://g5themes.test/pages/onepage-projects.php?device=pc",
+    "brokenVisible": [],
+    "captureScrollY": 0,
+    "documentHeight": 12194,
+    "height": 1000,
+    "overflow": 0,
+    "sections": [
+      {
+        "height": 770,
+        "id": "project-top",
+        "top": 141
+      },
+      {
+        "height": 872.671875,
+        "id": "project-studio",
+        "title": "공간을 만드는우리의 관점.",
+        "top": 911
+      },
+      {
+        "height": 677.375,
+        "id": "project-intent",
+        "title": "건물보다 먼저,그 안의 하루를 봅니다.",
+        "top": 1783.671875
+      },
+      {
+        "height": 2326.15625,
+        "id": "",
+        "title": "걸음마다 달라지는공간의 표정.",
+        "top": 2461.046875
+      },
+      {
+        "height": 554.84375,
+        "id": "",
+        "top": 2812.578125
+      },
+      {
+        "height": 581.09375,
+        "id": "",
+        "top": 3431.421875
+      },
+      {
+        "height": 581.09375,
+        "id": "",
+        "top": 4076.515625
+      },
+      {
+        "height": 936.3125,
+        "id": "project-scenes",
+        "title": "바깥의 여유가안으로 이어질 때.",
+        "top": 4787.203125
+      },
+      {
+        "height": 943.578125,
+        "id": "",
+        "title": "재료와 빛이만드는 리듬.",
+        "top": 5723.515625
+      },
+      {
+        "height": 1077.328125,
+        "id": "project-gallery",
+        "title": "다른 장면,하나의 방향.",
+        "top": 6667.09375
+      },
+      {
+        "height": 717.515625,
+        "id": "project-scope",
+        "title": "하나의 장소를,여러 시선으로.",
+        "top": 7744.421875
+      },
+      {
+        "height": 1199.078125,
+        "id": "project-process",
+        "title": "질문에서 시작해,쓰이는 장소까지.",
+        "top": 8461.9375
+      },
+      {
+        "height": 1251.5,
+        "id": "",
+        "title": "좋은 장면을,함께 지킬 수 있는 기준으로.",
+        "top": 9661.015625
+      },
+      {
+        "height": 533,
+        "id": "project-faq",
+        "title": "프로젝트를준비하고 계신가요?",
+        "top": 10912.515625
+      },
+      {
+        "height": 504.328125,
+        "id": "project-contact",
+        "title": "공간의 다음 장면을함께 그려봅니다.",
+        "top": 11445.515625
+      }
+    ],
+    "theme": "jw-dark",
+    "width": 1440,
+    "capturedAt": "2026-09-29T03:08:44.491Z",
+    "kind": "actual-in-app-browser-browsing-not-independent-approval"
+  },
+  {
+    "page": "onepage-projects",
+    "state": "mobile-light",
+    "url": "https://g5themes.test/pages/onepage-projects.php?device=mobile",
+    "brokenVisible": [],
+    "captureScrollY": 0,
+    "documentHeight": 11639,
+    "height": 844,
+    "overflow": 0,
+    "sections": [
+      {
+        "height": 710,
+        "id": "project-top",
+        "top": 154
+      },
+      {
+        "height": 819.703125,
+        "id": "project-studio",
+        "title": "공간을 만드는우리의 관점.",
+        "top": 864
+      },
+      {
+        "height": 682.71875,
+        "id": "project-intent",
+        "title": "건물보다 먼저,그 안의 하루를 봅니다.",
+        "top": 1683.703125
+      },
+      {
+        "height": 2086.5625,
+        "id": "",
+        "title": "걸음마다 달라지는공간의 표정.",
+        "top": 2366.421875
+      },
+      {
+        "height": 409.46875,
+        "id": "",
+        "top": 3060.578125
+      },
+      {
+        "height": 409.46875,
+        "id": "",
+        "top": 3516.046875
+      },
+      {
+        "height": 409.46875,
+        "id": "",
+        "top": 3971.515625
+      },
+      {
+        "height": 566.9375,
+        "id": "project-scenes",
+        "title": "바깥의 여유가안으로 이어질 때.",
+        "top": 4452.984375
+      },
+      {
+        "height": 800.78125,
+        "id": "",
+        "title": "재료와 빛이만드는 리듬.",
+        "top": 5019.921875
+      },
+      {
+        "height": 759.984375,
+        "id": "project-gallery",
+        "title": "다른 장면,하나의 방향.",
+        "top": 5820.703125
+      },
+      {
+        "height": 901.921875,
+        "id": "project-scope",
+        "title": "하나의 장소를,여러 시선으로.",
+        "top": 6580.6875
+      },
+      {
+        "height": 924.078125,
+        "id": "project-process",
+        "title": "질문에서 시작해,쓰이는 장소까지.",
+        "top": 7482.609375
+      },
+      {
+        "height": 1599.21875,
+        "id": "",
+        "title": "좋은 장면을,함께 지킬 수 있는 기준으로.",
+        "top": 8406.6875
+      },
+      {
+        "height": 644,
+        "id": "project-faq",
+        "title": "프로젝트를준비하고 계신가요?",
+        "top": 10005.90625
+      },
+      {
+        "height": 431.390625,
+        "id": "project-contact",
+        "title": "공간의 다음 장면을함께 그려봅니다.",
+        "top": 10649.90625
+      }
+    ],
+    "theme": "jw-light",
+    "width": 390,
+    "capturedAt": "2026-09-29T03:09:07.406Z",
+    "kind": "actual-in-app-browser-browsing-not-independent-approval"
+  },
+  {
+    "page": "onepage-projects",
+    "state": "mobile-dark",
+    "url": "https://g5themes.test/pages/onepage-projects.php?device=mobile",
+    "brokenVisible": [],
+    "captureScrollY": 0,
+    "documentHeight": 11639,
+    "height": 844,
+    "overflow": 0,
+    "sections": [
+      {
+        "height": 710,
+        "id": "project-top",
+        "top": 154
+      },
+      {
+        "height": 819.703125,
+        "id": "project-studio",
+        "title": "공간을 만드는우리의 관점.",
+        "top": 864
+      },
+      {
+        "height": 682.71875,
+        "id": "project-intent",
+        "title": "건물보다 먼저,그 안의 하루를 봅니다.",
+        "top": 1683.703125
+      },
+      {
+        "height": 2086.5625,
+        "id": "",
+        "title": "걸음마다 달라지는공간의 표정.",
+        "top": 2366.421875
+      },
+      {
+        "height": 409.46875,
+        "id": "",
+        "top": 3060.578125
+      },
+      {
+        "height": 409.46875,
+        "id": "",
+        "top": 3516.046875
+      },
+      {
+        "height": 409.46875,
+        "id": "",
+        "top": 3971.515625
+      },
+      {
+        "height": 566.9375,
+        "id": "project-scenes",
+        "title": "바깥의 여유가안으로 이어질 때.",
+        "top": 4452.984375
+      },
+      {
+        "height": 800.78125,
+        "id": "",
+        "title": "재료와 빛이만드는 리듬.",
+        "top": 5019.921875
+      },
+      {
+        "height": 759.984375,
+        "id": "project-gallery",
+        "title": "다른 장면,하나의 방향.",
+        "top": 5820.703125
+      },
+      {
+        "height": 901.921875,
+        "id": "project-scope",
+        "title": "하나의 장소를,여러 시선으로.",
+        "top": 6580.6875
+      },
+      {
+        "height": 924.078125,
+        "id": "project-process",
+        "title": "질문에서 시작해,쓰이는 장소까지.",
+        "top": 7482.609375
+      },
+      {
+        "height": 1599.21875,
+        "id": "",
+        "title": "좋은 장면을,함께 지킬 수 있는 기준으로.",
+        "top": 8406.6875
+      },
+      {
+        "height": 644,
+        "id": "project-faq",
+        "title": "프로젝트를준비하고 계신가요?",
+        "top": 10005.90625
+      },
+      {
+        "height": 431.390625,
+        "id": "project-contact",
+        "title": "공간의 다음 장면을함께 그려봅니다.",
+        "top": 10649.90625
+      }
+    ],
+    "theme": "jw-dark",
+    "width": 390,
+    "capturedAt": "2026-09-29T03:09:15.950Z",
+    "kind": "actual-in-app-browser-browsing-not-independent-approval"
+  }
+]

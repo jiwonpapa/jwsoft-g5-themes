@@ -1,0 +1,195 @@
+{
+  "result": "collected-not-approved",
+  "page": "home-2",
+  "state": "mobile-light",
+  "url": "https://g5themes.test/theme/jw_business/index_2.php?device=mobile",
+  "capturedAt": "2026-09-29T03:01:53.462Z",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "fullPage": true,
+  "file": "/Users/neojins/workspace/jwsoft-g5-themes/output/qa/ui/captures/home-2/mobile-light.png",
+  "sha256": "34f5a0f7c4337ed3eef0b3af743e5c20f0c93394ccc08ce63ae13f458c10a4df",
+  "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+  "platform": "darwin",
+  "browser": "153.0.8010.12",
+  "errors": [],
+  "mode": "jw-light",
+  "documentHeight": 12742,
+  "overflow": 0,
+  "brokenImages": [],
+  "missingIcons": 0,
+  "reversedText": [],
+  "requirements": [
+    {
+      "id": "page-heading",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "hero-slider",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "digital-artifact",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "decision-matrix",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "decision-evidence",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "large-choice-icons",
+      "count": 3,
+      "visible": true
+    },
+    {
+      "id": "journey-map",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "delivery-board",
+      "count": 3,
+      "visible": true
+    }
+  ],
+  "media": [
+    "https://g5themes.test/theme/jw_business/assets/brand/jw-business-light.webp",
+    "https://g5themes.test/theme/jw_business/assets/brand/jw-business-dark.webp",
+    "https://g5themes.test/theme/jw_business/assets/images/home2-decision-workshop.webp",
+    "https://g5themes.test/theme/jw_business/assets/images/home2-strategy.webp",
+    "https://g5themes.test/theme/jw_business/assets/images/home2-evidence-retail.webp",
+    "https://g5themes.test/theme/jw_business/assets/images/home2-correction/operations-playbook.webp",
+    "https://g5themes.test/theme/jw_business/assets/decision-review-BzeIXMGn.webp",
+    "https://g5themes.test/theme/jw_business/assets/home2-digital-BAfUKBwe.webp",
+    "https://g5themes.test/theme/jw_business/assets/home2-operations-Iz1Us8MJ.webp"
+  ],
+  "sections": [
+    {
+      "index": 0,
+      "id": "",
+      "heading": "무엇부터 바꿀지,함께 결정합니다.",
+      "left": 0,
+      "top": 68,
+      "width": 390,
+      "height": 680
+    },
+    {
+      "index": 1,
+      "id": "",
+      "heading": "무엇부터 바꿀지,함께 결정합니다.",
+      "left": -780,
+      "top": 68,
+      "width": 390,
+      "height": 604
+    },
+    {
+      "index": 2,
+      "id": "",
+      "heading": "화면이 아니라,쓰이는 흐름을 만듭니다.",
+      "left": -390,
+      "top": 68,
+      "width": 390,
+      "height": 604
+    },
+    {
+      "index": 3,
+      "id": "",
+      "heading": "현장에서 계속되는경험을 설계합니다.",
+      "left": 0,
+      "top": 68,
+      "width": 390,
+      "height": 604
+    },
+    {
+      "index": 4,
+      "id": "",
+      "heading": "지금 필요한시작점을 고르세요.",
+      "left": 0,
+      "top": 748,
+      "width": 390,
+      "height": 839
+    },
+    {
+      "index": 5,
+      "id": "",
+      "heading": "회의실의 의견을확인할 장면으로.",
+      "left": 0,
+      "top": 1588,
+      "width": 390,
+      "height": 1141
+    },
+    {
+      "index": 6,
+      "id": "",
+      "heading": "급한 일과 중요한 일을같은 자리에 놓습니다.",
+      "left": 0,
+      "top": 2728,
+      "width": 390,
+      "height": 3664
+    },
+    {
+      "index": 7,
+      "id": "",
+      "heading": "문서로 끝나지 않는디지털 결과물",
+      "left": 0,
+      "top": 6392,
+      "width": 390,
+      "height": 1492
+    },
+    {
+      "index": 8,
+      "id": "",
+      "heading": "결정마다 남기는확인 가능한 근거.",
+      "left": 0,
+      "top": 7884,
+      "width": 390,
+      "height": 1101
+    },
+    {
+      "index": 9,
+      "id": "",
+      "heading": "담당자가 이어 쓸결과물까지.",
+      "left": 0,
+      "top": 8984,
+      "width": 390,
+      "height": 1456
+    },
+    {
+      "index": 10,
+      "id": "",
+      "heading": "한 번의 제안보다,이어지는 판단을 만듭니다.",
+      "left": 0,
+      "top": 10440,
+      "width": 390,
+      "height": 1252
+    },
+    {
+      "index": 11,
+      "id": "",
+      "heading": "지금 막힌 지점부터함께 살펴보겠습니다.",
+      "left": 0,
+      "top": 11693,
+      "width": 390,
+      "height": 567
+    }
+  ],
+  "regions": {
+    ".jw-footer": {
+      "left": 0,
+      "top": 12260,
+      "width": 390,
+      "height": 482
+    }
+  }
+}

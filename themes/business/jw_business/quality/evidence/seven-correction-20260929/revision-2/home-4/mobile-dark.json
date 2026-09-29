@@ -1,0 +1,158 @@
+{
+  "result": "collected-not-approved",
+  "page": "home-4",
+  "state": "mobile-dark",
+  "url": "https://g5themes.test/theme/jw_business/index_4.php?device=mobile",
+  "capturedAt": "2026-09-29T03:02:16.898Z",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "fullPage": true,
+  "file": "/Users/neojins/workspace/jwsoft-g5-themes/output/qa/ui/captures/home-4/mobile-dark.png",
+  "sha256": "db436967fad3b7b8239937e6385c1c4383c4f641e93fbb67fb68cf47bb59af8f",
+  "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+  "platform": "darwin",
+  "browser": "153.0.8010.12",
+  "errors": [],
+  "mode": "jw-dark",
+  "documentHeight": 9756,
+  "overflow": 0,
+  "brokenImages": [],
+  "missingIcons": 0,
+  "reversedText": [],
+  "requirements": [
+    {
+      "id": "page-heading",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "artifact-variants",
+      "count": 4,
+      "visible": true
+    },
+    {
+      "id": "dedicated-images",
+      "count": 6,
+      "visible": true
+    },
+    {
+      "id": "large-process-icons",
+      "count": 4,
+      "visible": true
+    },
+    {
+      "id": "aligned-insights",
+      "count": 2,
+      "visible": true
+    }
+  ],
+  "media": [
+    "https://g5themes.test/theme/jw_business/assets/brand/jw-business-light.webp",
+    "https://g5themes.test/theme/jw_business/assets/brand/jw-business-dark.webp",
+    "https://g5themes.test/theme/jw_business/assets/home-four/hero.webp",
+    "https://g5themes.test/theme/jw_business/assets/home-four/discovery.webp",
+    "https://g5themes.test/theme/jw_business/assets/home-four/journey-products.webp",
+    "https://g5themes.test/theme/jw_business/assets/home-four/experience-pack.webp",
+    "https://g5themes.test/theme/jw_business/assets/home-four/digital.webp",
+    "https://g5themes.test/theme/jw_business/assets/home-four/handoff.webp"
+  ],
+  "sections": [
+    {
+      "index": 0,
+      "id": "",
+      "heading": "생각을 모아, 결과로 만듭니다.",
+      "left": 20,
+      "top": 68,
+      "width": 350,
+      "height": 645
+    },
+    {
+      "index": 1,
+      "id": "h4-process",
+      "heading": "함께 만드는 네 가지 순간.",
+      "left": 0,
+      "top": 713,
+      "width": 390,
+      "height": 820
+    },
+    {
+      "index": 2,
+      "id": "h4-discovery",
+      "heading": "좋은 질문에서 시작합니다.",
+      "left": 20,
+      "top": 1533,
+      "width": 350,
+      "height": 979
+    },
+    {
+      "index": 3,
+      "id": "h4-strategy",
+      "heading": "고객의 다음 행동을 함께 설계합니다.",
+      "left": 0,
+      "top": 2512,
+      "width": 390,
+      "height": 1299
+    },
+    {
+      "index": 4,
+      "id": "h4-digital",
+      "heading": "보는 인상과 쓰는 경험을 함께.",
+      "left": 20,
+      "top": 3811,
+      "width": 350,
+      "height": 1204
+    },
+    {
+      "index": 5,
+      "id": "h4-brand",
+      "heading": "하나의 인상을, 모든 접점에.",
+      "left": 0,
+      "top": 5015,
+      "width": 390,
+      "height": 1028
+    },
+    {
+      "index": 6,
+      "id": "h4-handoff",
+      "heading": "완성 이후에도 잘 쓰이도록.",
+      "left": 20,
+      "top": 6043,
+      "width": 350,
+      "height": 1832
+    },
+    {
+      "index": 7,
+      "id": "",
+      "heading": "시작하기 전에 궁금한 이야기.",
+      "left": 0,
+      "top": 7874,
+      "width": 390,
+      "height": 769
+    },
+    {
+      "index": 8,
+      "id": "",
+      "heading": "우리의 다음 결과물,함께 정해볼까요?",
+      "left": 0,
+      "top": 8643,
+      "width": 390,
+      "height": 630
+    }
+  ],
+  "regions": {
+    ".h4-process": {
+      "left": 0,
+      "top": 713,
+      "width": 390,
+      "height": 820
+    },
+    ".jw-footer": {
+      "left": 0,
+      "top": 9274,
+      "width": 390,
+      "height": 482
+    }
+  }
+}

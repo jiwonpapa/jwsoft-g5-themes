@@ -1,0 +1,14 @@
+{
+  "before": {
+    "status": "01 / 03",
+    "time": "2026-09-29T02:59:47.785Z",
+    "toggle": "재생"
+  },
+  "after": {
+    "status": "01 / 03",
+    "time": "2026-09-29T03:00:13.875Z",
+    "toggle": "재생"
+  },
+  "steps": "Actual IAB: reload, explicit pause, studio navigation, later readback",
+  "result": "pass"
+}

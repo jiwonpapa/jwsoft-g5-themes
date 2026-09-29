@@ -1,0 +1,1004 @@
+{
+  "schemaVersion": 2,
+  "group": "home",
+  "inputDigest": "d5aa279c36c5b64cc6f86ec356fc6509f937b8b16a15383689b4ba1a2fdf26ca",
+  "implementer": "astra:/root/astra_home23+/root/astra_home14+/root/astra_onepages:20260929",
+  "reviewer": "PENDING",
+  "reviewedAt": "2026-09-29T03:07:22.037Z",
+  "result": "pending",
+  "captures": [
+    {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/home-1/desktop-light.png",
+      "sha256": "fdb0787cc684b8d301b6bcabdcce3cd113e88bd114f3d15d09b6bf55e471466d",
+      "page": "home-1",
+      "viewport": "desktop",
+      "mode": "light",
+      "width": 1440,
+      "height": 1000,
+      "url": "https://g5themes.test/theme/jw_business/index_1.php?device=pc",
+      "capturedAt": "2026-09-29T03:01:07.140Z",
+      "fullPage": true,
+      "documentHeight": 11418,
+      "media": [
+        "src/assets/main-one/strategy.webp",
+        "src/assets/main-one/digital.webp",
+        "src/assets/main-one/brand.webp",
+        "src/assets/main-one/industry-ceramics.webp",
+        "src/assets/main-one/atelier-collection.webp",
+        "src/assets/main-one/atelier-mug.webp",
+        "src/assets/main-one/case-food.webp",
+        "src/assets/main-one/case-learning.webp",
+        "src/assets/main-one/brand-detail.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "hero-slider",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "service-icons",
+          "count": 3,
+          "visible": true
+        },
+        {
+          "id": "section-range",
+          "count": 12,
+          "visible": true
+        },
+        {
+          "id": "industry-mosaic",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "process-rail",
+          "count": 4,
+          "visible": true
+        },
+        {
+          "id": "case-composition",
+          "count": 3,
+          "visible": true
+        },
+        {
+          "id": "brand-board",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "question-blocks",
+          "count": 4,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/home-1/desktop-dark.png",
+      "sha256": "efce4ce68d2b63eb26048c885b0cefe5f4750f5062fee16095bf5802d080e5d3",
+      "page": "home-1",
+      "viewport": "desktop",
+      "mode": "dark",
+      "width": 1440,
+      "height": 1000,
+      "url": "https://g5themes.test/theme/jw_business/index_1.php?device=pc",
+      "capturedAt": "2026-09-29T03:01:29.073Z",
+      "fullPage": true,
+      "documentHeight": 11418,
+      "media": [
+        "src/assets/main-one/strategy.webp",
+        "src/assets/main-one/digital.webp",
+        "src/assets/main-one/brand.webp",
+        "src/assets/main-one/industry-ceramics.webp",
+        "src/assets/main-one/atelier-collection.webp",
+        "src/assets/main-one/atelier-mug.webp",
+        "src/assets/main-one/case-food.webp",
+        "src/assets/main-one/case-learning.webp",
+        "src/assets/main-one/brand-detail.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "hero-slider",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "service-icons",
+          "count": 3,
+          "visible": true
+        },
+        {
+          "id": "section-range",
+          "count": 12,
+          "visible": true
+        },
+        {
+          "id": "industry-mosaic",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "process-rail",
+          "count": 4,
+          "visible": true
+        },
+        {
+          "id": "case-composition",
+          "count": 3,
+          "visible": true
+        },
+        {
+          "id": "brand-board",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "question-blocks",
+          "count": 4,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/home-1/mobile-light.png",
+      "sha256": "f03b766384f4a064621036174e1b70af00bb09ea4f7fbe23c6c859c43856fc6d",
+      "page": "home-1",
+      "viewport": "mobile",
+      "mode": "light",
+      "width": 390,
+      "height": 844,
+      "url": "https://g5themes.test/theme/jw_business/index_1.php?device=mobile",
+      "capturedAt": "2026-09-29T03:01:50.504Z",
+      "fullPage": true,
+      "documentHeight": 13920,
+      "media": [
+        "src/assets/main-one/strategy.webp",
+        "src/assets/main-one/digital.webp",
+        "src/assets/main-one/brand.webp",
+        "src/assets/main-one/industry-ceramics.webp",
+        "src/assets/main-one/atelier-collection.webp",
+        "src/assets/main-one/atelier-mug.webp",
+        "src/assets/main-one/case-food.webp",
+        "src/assets/main-one/case-learning.webp",
+        "src/assets/main-one/brand-detail.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "hero-slider",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "service-icons",
+          "count": 3,
+          "visible": true
+        },
+        {
+          "id": "section-range",
+          "count": 12,
+          "visible": true
+        },
+        {
+          "id": "industry-mosaic",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "process-rail",
+          "count": 4,
+          "visible": true
+        },
+        {
+          "id": "case-composition",
+          "count": 3,
+          "visible": true
+        },
+        {
+          "id": "brand-board",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "question-blocks",
+          "count": 4,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/home-1/mobile-dark.png",
+      "sha256": "4d5079b6d7dda4eb3ff5b365855acc34a17d14ab0bddd002dafb29ab1b775b85",
+      "page": "home-1",
+      "viewport": "mobile",
+      "mode": "dark",
+      "width": 390,
+      "height": 844,
+      "url": "https://g5themes.test/theme/jw_business/index_1.php?device=mobile",
+      "capturedAt": "2026-09-29T03:02:09.392Z",
+      "fullPage": true,
+      "documentHeight": 13920,
+      "media": [
+        "src/assets/main-one/strategy.webp",
+        "src/assets/main-one/digital.webp",
+        "src/assets/main-one/brand.webp",
+        "src/assets/main-one/industry-ceramics.webp",
+        "src/assets/main-one/atelier-collection.webp",
+        "src/assets/main-one/atelier-mug.webp",
+        "src/assets/main-one/case-food.webp",
+        "src/assets/main-one/case-learning.webp",
+        "src/assets/main-one/brand-detail.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "hero-slider",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "service-icons",
+          "count": 3,
+          "visible": true
+        },
+        {
+          "id": "section-range",
+          "count": 12,
+          "visible": true
+        },
+        {
+          "id": "industry-mosaic",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "process-rail",
+          "count": 4,
+          "visible": true
+        },
+        {
+          "id": "case-composition",
+          "count": 3,
+          "visible": true
+        },
+        {
+          "id": "brand-board",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "question-blocks",
+          "count": 4,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/home-2/desktop-light.png",
+      "sha256": "7342bc73482769019cd7d0a2e6bb586306dd26a8f6d6142fd8ccc78983fd3d41",
+      "page": "home-2",
+      "viewport": "desktop",
+      "mode": "light",
+      "width": 1440,
+      "height": 1000,
+      "url": "https://g5themes.test/theme/jw_business/index_2.php?device=pc",
+      "capturedAt": "2026-09-29T03:01:10.610Z",
+      "fullPage": true,
+      "documentHeight": 9027,
+      "media": [
+        "src/assets/images/home2-decision-workshop.webp",
+        "src/assets/images/home2-strategy.webp",
+        "src/assets/images/home2-evidence-retail.webp",
+        "src/assets/images/home2-correction/operations-playbook.webp",
+        "src/assets/images/home2-correction/decision-review.webp",
+        "src/assets/images/home2-digital.webp",
+        "src/assets/images/home2-operations.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "hero-slider",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "digital-artifact",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "decision-matrix",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "decision-evidence",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "large-choice-icons",
+          "count": 3,
+          "visible": true
+        },
+        {
+          "id": "journey-map",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "delivery-board",
+          "count": 3,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/home-2/desktop-dark.png",
+      "sha256": "a874f5b8109c8cd41a5a5b77ef0674a8c572d28f801aeb969f903ad9cc5a2ff3",
+      "page": "home-2",
+      "viewport": "desktop",
+      "mode": "dark",
+      "width": 1440,
+      "height": 1000,
+      "url": "https://g5themes.test/theme/jw_business/index_2.php?device=pc",
+      "capturedAt": "2026-09-29T03:01:32.787Z",
+      "fullPage": true,
+      "documentHeight": 9027,
+      "media": [
+        "src/assets/images/home2-decision-workshop.webp",
+        "src/assets/images/home2-strategy.webp",
+        "src/assets/images/home2-evidence-retail.webp",
+        "src/assets/images/home2-correction/operations-playbook.webp",
+        "src/assets/images/home2-correction/decision-review.webp",
+        "src/assets/images/home2-digital.webp",
+        "src/assets/images/home2-operations.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "hero-slider",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "digital-artifact",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "decision-matrix",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "decision-evidence",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "large-choice-icons",
+          "count": 3,
+          "visible": true
+        },
+        {
+          "id": "journey-map",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "delivery-board",
+          "count": 3,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/home-2/mobile-light.png",
+      "sha256": "34f5a0f7c4337ed3eef0b3af743e5c20f0c93394ccc08ce63ae13f458c10a4df",
+      "page": "home-2",
+      "viewport": "mobile",
+      "mode": "light",
+      "width": 390,
+      "height": 844,
+      "url": "https://g5themes.test/theme/jw_business/index_2.php?device=mobile",
+      "capturedAt": "2026-09-29T03:01:53.462Z",
+      "fullPage": true,
+      "documentHeight": 12742,
+      "media": [
+        "src/assets/images/home2-decision-workshop.webp",
+        "src/assets/images/home2-strategy.webp",
+        "src/assets/images/home2-evidence-retail.webp",
+        "src/assets/images/home2-correction/operations-playbook.webp",
+        "src/assets/images/home2-correction/decision-review.webp",
+        "src/assets/images/home2-digital.webp",
+        "src/assets/images/home2-operations.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "hero-slider",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "digital-artifact",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "decision-matrix",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "decision-evidence",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "large-choice-icons",
+          "count": 3,
+          "visible": true
+        },
+        {
+          "id": "journey-map",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "delivery-board",
+          "count": 3,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/home-2/mobile-dark.png",
+      "sha256": "855912b9ae4a1e43f1f930e11689d0183486c38d1ef00140fa2fb76a07e4f629",
+      "page": "home-2",
+      "viewport": "mobile",
+      "mode": "dark",
+      "width": 390,
+      "height": 844,
+      "url": "https://g5themes.test/theme/jw_business/index_2.php?device=mobile",
+      "capturedAt": "2026-09-29T03:02:12.510Z",
+      "fullPage": true,
+      "documentHeight": 12742,
+      "media": [
+        "src/assets/images/home2-decision-workshop.webp",
+        "src/assets/images/home2-strategy.webp",
+        "src/assets/images/home2-evidence-retail.webp",
+        "src/assets/images/home2-correction/operations-playbook.webp",
+        "src/assets/images/home2-correction/decision-review.webp",
+        "src/assets/images/home2-digital.webp",
+        "src/assets/images/home2-operations.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "hero-slider",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "digital-artifact",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "decision-matrix",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "decision-evidence",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "large-choice-icons",
+          "count": 3,
+          "visible": true
+        },
+        {
+          "id": "journey-map",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "delivery-board",
+          "count": 3,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/home-3/desktop-light.png",
+      "sha256": "36aad1063da67667441af25e8bb880b5770545ce992d9ee240994a5c52ef5159",
+      "page": "home-3",
+      "viewport": "desktop",
+      "mode": "light",
+      "width": 1440,
+      "height": 1000,
+      "url": "https://g5themes.test/theme/jw_business/index_3.php?device=pc",
+      "capturedAt": "2026-09-29T03:01:13.212Z",
+      "fullPage": true,
+      "documentHeight": 7463,
+      "media": [
+        "src/assets/home-three/mobility.webp",
+        "src/assets/home-three/print.webp",
+        "src/assets/home-three/exhibition.webp",
+        "src/assets/home-three/fieldnote-program.webp",
+        "src/assets/home-three/correction/fieldnote-editorial.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "wayfinding-map",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "exhibition-photo",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/home-3/desktop-dark.png",
+      "sha256": "d9354acc5927dfdd9ba0420c08e046e585449ed8accbbc5a5dfb9ce16f7c29d1",
+      "page": "home-3",
+      "viewport": "desktop",
+      "mode": "dark",
+      "width": 1440,
+      "height": 1000,
+      "url": "https://g5themes.test/theme/jw_business/index_3.php?device=pc",
+      "capturedAt": "2026-09-29T03:01:35.439Z",
+      "fullPage": true,
+      "documentHeight": 7463,
+      "media": [
+        "src/assets/home-three/mobility.webp",
+        "src/assets/home-three/print.webp",
+        "src/assets/home-three/exhibition.webp",
+        "src/assets/home-three/fieldnote-program.webp",
+        "src/assets/home-three/correction/fieldnote-editorial.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "wayfinding-map",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "exhibition-photo",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/home-3/mobile-light.png",
+      "sha256": "778a28e7f8faf2d87cfc6f05d6f839e3df8e8b98c2daec990e1a60ca2f229b0d",
+      "page": "home-3",
+      "viewport": "mobile",
+      "mode": "light",
+      "width": 390,
+      "height": 844,
+      "url": "https://g5themes.test/theme/jw_business/index_3.php?device=mobile",
+      "capturedAt": "2026-09-29T03:01:55.664Z",
+      "fullPage": true,
+      "documentHeight": 7764,
+      "media": [
+        "src/assets/home-three/mobility.webp",
+        "src/assets/home-three/print.webp",
+        "src/assets/home-three/exhibition.webp",
+        "src/assets/home-three/fieldnote-program.webp",
+        "src/assets/home-three/correction/fieldnote-editorial.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "wayfinding-map",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "exhibition-photo",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/home-3/mobile-dark.png",
+      "sha256": "6018deea2e5280aaa7613183d0215aebd4caded1b7889c621dda2813ab71e058",
+      "page": "home-3",
+      "viewport": "mobile",
+      "mode": "dark",
+      "width": 390,
+      "height": 844,
+      "url": "https://g5themes.test/theme/jw_business/index_3.php?device=mobile",
+      "capturedAt": "2026-09-29T03:02:14.713Z",
+      "fullPage": true,
+      "documentHeight": 7764,
+      "media": [
+        "src/assets/home-three/mobility.webp",
+        "src/assets/home-three/print.webp",
+        "src/assets/home-three/exhibition.webp",
+        "src/assets/home-three/fieldnote-program.webp",
+        "src/assets/home-three/correction/fieldnote-editorial.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "wayfinding-map",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "exhibition-photo",
+          "count": 1,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/home-4/desktop-light.png",
+      "sha256": "e082059b047879036dc886e04611e07bc6555af54b10eda38adaecb7460ac3af",
+      "page": "home-4",
+      "viewport": "desktop",
+      "mode": "light",
+      "width": 1440,
+      "height": 1000,
+      "url": "https://g5themes.test/theme/jw_business/index_4.php?device=pc",
+      "capturedAt": "2026-09-29T03:01:15.564Z",
+      "fullPage": true,
+      "documentHeight": 7669,
+      "media": [
+        "src/assets/home-four/hero.webp",
+        "src/assets/home-four/discovery.webp",
+        "src/assets/home-four/journey-products.webp",
+        "src/assets/home-four/experience-pack.webp",
+        "src/assets/home-four/digital.webp",
+        "src/assets/home-four/handoff.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "artifact-variants",
+          "count": 4,
+          "visible": true
+        },
+        {
+          "id": "dedicated-images",
+          "count": 6,
+          "visible": true
+        },
+        {
+          "id": "large-process-icons",
+          "count": 4,
+          "visible": true
+        },
+        {
+          "id": "aligned-insights",
+          "count": 2,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/home-4/desktop-dark.png",
+      "sha256": "a8b0961eb8b1a3ac6c2fb76bec708a86b28dd254f2b5d8af16abdb9cd0239aa8",
+      "page": "home-4",
+      "viewport": "desktop",
+      "mode": "dark",
+      "width": 1440,
+      "height": 1000,
+      "url": "https://g5themes.test/theme/jw_business/index_4.php?device=pc",
+      "capturedAt": "2026-09-29T03:01:37.896Z",
+      "fullPage": true,
+      "documentHeight": 7669,
+      "media": [
+        "src/assets/home-four/hero.webp",
+        "src/assets/home-four/discovery.webp",
+        "src/assets/home-four/journey-products.webp",
+        "src/assets/home-four/experience-pack.webp",
+        "src/assets/home-four/digital.webp",
+        "src/assets/home-four/handoff.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "artifact-variants",
+          "count": 4,
+          "visible": true
+        },
+        {
+          "id": "dedicated-images",
+          "count": 6,
+          "visible": true
+        },
+        {
+          "id": "large-process-icons",
+          "count": 4,
+          "visible": true
+        },
+        {
+          "id": "aligned-insights",
+          "count": 2,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/home-4/mobile-light.png",
+      "sha256": "6ec79c0746c336147c730943e2c3f2656da0a18943a1e5efb7762d0c4e6f9f42",
+      "page": "home-4",
+      "viewport": "mobile",
+      "mode": "light",
+      "width": 390,
+      "height": 844,
+      "url": "https://g5themes.test/theme/jw_business/index_4.php?device=mobile",
+      "capturedAt": "2026-09-29T03:01:57.881Z",
+      "fullPage": true,
+      "documentHeight": 9756,
+      "media": [
+        "src/assets/home-four/hero.webp",
+        "src/assets/home-four/discovery.webp",
+        "src/assets/home-four/journey-products.webp",
+        "src/assets/home-four/experience-pack.webp",
+        "src/assets/home-four/digital.webp",
+        "src/assets/home-four/handoff.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "artifact-variants",
+          "count": 4,
+          "visible": true
+        },
+        {
+          "id": "dedicated-images",
+          "count": 6,
+          "visible": true
+        },
+        {
+          "id": "large-process-icons",
+          "count": 4,
+          "visible": true
+        },
+        {
+          "id": "aligned-insights",
+          "count": 2,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "path": "quality/evidence/seven-correction-20260929/revision-2/home-4/mobile-dark.png",
+      "sha256": "db436967fad3b7b8239937e6385c1c4383c4f641e93fbb67fb68cf47bb59af8f",
+      "page": "home-4",
+      "viewport": "mobile",
+      "mode": "dark",
+      "width": 390,
+      "height": 844,
+      "url": "https://g5themes.test/theme/jw_business/index_4.php?device=mobile",
+      "capturedAt": "2026-09-29T03:02:16.898Z",
+      "fullPage": true,
+      "documentHeight": 9756,
+      "media": [
+        "src/assets/home-four/hero.webp",
+        "src/assets/home-four/discovery.webp",
+        "src/assets/home-four/journey-products.webp",
+        "src/assets/home-four/experience-pack.webp",
+        "src/assets/home-four/digital.webp",
+        "src/assets/home-four/handoff.webp"
+      ],
+      "requirements": [
+        {
+          "id": "page-heading",
+          "count": 1,
+          "visible": true
+        },
+        {
+          "id": "artifact-variants",
+          "count": 4,
+          "visible": true
+        },
+        {
+          "id": "dedicated-images",
+          "count": 6,
+          "visible": true
+        },
+        {
+          "id": "large-process-icons",
+          "count": 4,
+          "visible": true
+        },
+        {
+          "id": "aligned-insights",
+          "count": 2,
+          "visible": true
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "id": "home-1",
+      "purpose": {
+        "id": "purpose",
+        "result": "fail",
+        "reason": "실제 수정 후 화면에 대한 별도 Sol 시각 검토를 기다립니다."
+      },
+      "imagery": {
+        "id": "imagery",
+        "result": "fail",
+        "reason": "실제 수정 후 화면에 대한 별도 Sol 시각 검토를 기다립니다."
+      },
+      "composition": {
+        "id": "composition",
+        "result": "fail",
+        "reason": "실제 수정 후 화면에 대한 별도 Sol 시각 검토를 기다립니다."
+      }
+    },
+    {
+      "id": "home-2",
+      "purpose": {
+        "id": "purpose",
+        "result": "fail",
+        "reason": "실제 수정 후 화면에 대한 별도 Sol 시각 검토를 기다립니다."
+      },
+      "imagery": {
+        "id": "imagery",
+        "result": "fail",
+        "reason": "실제 수정 후 화면에 대한 별도 Sol 시각 검토를 기다립니다."
+      },
+      "composition": {
+        "id": "composition",
+        "result": "fail",
+        "reason": "실제 수정 후 화면에 대한 별도 Sol 시각 검토를 기다립니다."
+      }
+    },
+    {
+      "id": "home-3",
+      "purpose": {
+        "id": "purpose",
+        "result": "fail",
+        "reason": "실제 수정 후 화면에 대한 별도 Sol 시각 검토를 기다립니다."
+      },
+      "imagery": {
+        "id": "imagery",
+        "result": "fail",
+        "reason": "실제 수정 후 화면에 대한 별도 Sol 시각 검토를 기다립니다."
+      },
+      "composition": {
+        "id": "composition",
+        "result": "fail",
+        "reason": "실제 수정 후 화면에 대한 별도 Sol 시각 검토를 기다립니다."
+      }
+    },
+    {
+      "id": "home-4",
+      "purpose": {
+        "id": "purpose",
+        "result": "fail",
+        "reason": "실제 수정 후 화면에 대한 별도 Sol 시각 검토를 기다립니다."
+      },
+      "imagery": {
+        "id": "imagery",
+        "result": "fail",
+        "reason": "실제 수정 후 화면에 대한 별도 Sol 시각 검토를 기다립니다."
+      },
+      "composition": {
+        "id": "composition",
+        "result": "fail",
+        "reason": "실제 수정 후 화면에 대한 별도 Sol 시각 검토를 기다립니다."
+      }
+    }
+  ],
+  "comparisons": [
+    {
+      "left": "home-1",
+      "right": "home-2",
+      "result": "fail",
+      "reason": "실제 두 페이지의 첫 화면과 핵심 두 장면을 별도 비교해야 합니다."
+    },
+    {
+      "left": "home-1",
+      "right": "home-3",
+      "result": "fail",
+      "reason": "실제 두 페이지의 첫 화면과 핵심 두 장면을 별도 비교해야 합니다."
+    },
+    {
+      "left": "home-1",
+      "right": "home-4",
+      "result": "fail",
+      "reason": "실제 두 페이지의 첫 화면과 핵심 두 장면을 별도 비교해야 합니다."
+    },
+    {
+      "left": "home-2",
+      "right": "home-3",
+      "result": "fail",
+      "reason": "실제 두 페이지의 첫 화면과 핵심 두 장면을 별도 비교해야 합니다."
+    },
+    {
+      "left": "home-2",
+      "right": "home-4",
+      "result": "fail",
+      "reason": "실제 두 페이지의 첫 화면과 핵심 두 장면을 별도 비교해야 합니다."
+    },
+    {
+      "left": "home-3",
+      "right": "home-4",
+      "result": "fail",
+      "reason": "실제 두 페이지의 첫 화면과 핵심 두 장면을 별도 비교해야 합니다."
+    }
+  ],
+  "interactions": []
+}

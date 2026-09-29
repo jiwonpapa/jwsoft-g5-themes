@@ -1,0 +1,202 @@
+{
+  "result": "collected-not-approved",
+  "page": "onepage-showcase",
+  "state": "tablet-light",
+  "url": "https://g5themes.test/pages/onepage-showcase.php?device=pc",
+  "capturedAt": "2026-09-29T03:00:57.917Z",
+  "viewport": {
+    "width": 768,
+    "height": 1024
+  },
+  "fullPage": true,
+  "file": "/Users/neojins/workspace/jwsoft-g5-themes/output/qa/ui/captures/onepage-showcase/tablet-light.png",
+  "sha256": "c3d27002df88166923d1c3fea14e8395049d4235aae6c233f6297d77217191d9",
+  "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+  "platform": "darwin",
+  "browser": "153.0.8010.12",
+  "errors": [],
+  "mode": "jw-light",
+  "documentHeight": 6580,
+  "overflow": 0,
+  "brokenImages": [],
+  "missingIcons": 0,
+  "reversedText": [],
+  "requirements": [
+    {
+      "id": "page-heading",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "detail-tabs",
+      "count": 3,
+      "visible": true
+    },
+    {
+      "id": "install-diagram",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "product-detail-scene",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "feature-icons",
+      "count": 4,
+      "visible": true
+    },
+    {
+      "id": "product-section-range",
+      "count": 11,
+      "visible": true
+    },
+    {
+      "id": "company-profile",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "product-rotation",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "product-guide",
+      "count": 1,
+      "visible": true
+    }
+  ],
+  "media": [
+    "https://g5themes.test/theme/jw_business/assets/brand/jw-business-light.webp",
+    "https://g5themes.test/theme/jw_business/assets/brand/jw-business-dark.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/correction/aura-hero.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/correction/aura-detail.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/sequence/aura-001.webp?v=1790650747",
+    "https://g5themes.test/theme/jw_business/onepages/assets/correction/aura-living.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/correction/aura-wood.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/correction/aura-metal.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/correction/aura-fabric.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/correction/aura-front.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/correction/aura-placement.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/correction/aura-setup.webp"
+  ],
+  "sections": [
+    {
+      "index": 0,
+      "id": "aura-top",
+      "heading": "공간에 스며드는소리의 형태.",
+      "left": 48,
+      "top": 133,
+      "width": 672,
+      "height": 567
+    },
+    {
+      "index": 1,
+      "id": "aura-brand",
+      "heading": "듣는 물건에서,함께 사는 물건으로.",
+      "left": 24,
+      "top": 700,
+      "width": 720,
+      "height": 474
+    },
+    {
+      "index": 2,
+      "id": "",
+      "heading": "자연스러운 월넛",
+      "left": 24,
+      "top": 1174,
+      "width": 720,
+      "height": 307
+    },
+    {
+      "index": 3,
+      "id": "aura-design",
+      "heading": "가까이서 느끼는만듦새의 차이.",
+      "left": 24,
+      "top": 1482,
+      "width": 720,
+      "height": 560
+    },
+    {
+      "index": 4,
+      "id": "aura-rotation",
+      "heading": "한 바퀴,다른 각도로 만나보세요.",
+      "left": 0,
+      "top": 2042,
+      "width": 768,
+      "height": 797
+    },
+    {
+      "index": 5,
+      "id": "aura-space",
+      "heading": "좋아하는 시간에,자연스럽게 함께.",
+      "left": 0,
+      "top": 2839,
+      "width": 768,
+      "height": 591
+    },
+    {
+      "index": 6,
+      "id": "aura-details",
+      "heading": "보이는 아름다움,생각한 쓰임.",
+      "left": 24,
+      "top": 3429,
+      "width": 720,
+      "height": 751
+    },
+    {
+      "index": 7,
+      "id": "aura-placement",
+      "left": 24,
+      "top": 3718,
+      "width": 720,
+      "height": 391
+    },
+    {
+      "index": 8,
+      "id": "",
+      "heading": "음악이 있는 하루를더 가볍게.",
+      "left": 0,
+      "top": 4180,
+      "width": 768,
+      "height": 639
+    },
+    {
+      "index": 9,
+      "id": "aura-guide",
+      "heading": "처음 놓는 순간부터오래 쓰는 날까지.",
+      "left": 0,
+      "top": 4819,
+      "width": 768,
+      "height": 652
+    },
+    {
+      "index": 10,
+      "id": "",
+      "heading": "오래 함께하려면.",
+      "left": 0,
+      "top": 5471,
+      "width": 768,
+      "height": 376
+    },
+    {
+      "index": 11,
+      "id": "aura-contact",
+      "heading": "어떤 공간에음악을 놓으시겠어요?",
+      "left": 0,
+      "top": 5847,
+      "width": 768,
+      "height": 390
+    }
+  ],
+  "regions": {
+    ".jw-footer": {
+      "left": 0,
+      "top": 6237,
+      "width": 768,
+      "height": 343
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "photos": [
+    {
+      "path": "src/assets/main-one/atelier-collection.webp",
+      "sha256": "a61c5aaae14c9515feb84349071080310fa65ede2c63f499177d8464d6d024fa",
+      "origin": "imagegen:7bdc0326-f6b3-4c26-97f1-142594039b2c",
+      "owner": "home-1"
+    },
+    {
+      "path": "src/assets/main-one/atelier-mug.webp",
+      "sha256": "751b4538125cd31b04913f1e5caac0143459f71c6e85cee6ab2a028deb82ada3",
+      "origin": "imagegen:65545e27-0cf0-4f63-9d56-45053202aa1f",
+      "owner": "home-1"
+    },
+    {
+      "path": "src/assets/home-four/experience-pack.webp",
+      "sha256": "85b130f4418a52aff21c145bf38279d36ab13e75a22f7d71889cd89fb8074448",
+      "origin": "imagegen:cdac65cf-1e5a-43a0-aec1-235eca3dab23",
+      "owner": "home-4"
+    },
+    {
+      "path": "src/assets/home-four/journey-products.webp",
+      "sha256": "fb90bdb99988223b132db62e3aa764eae81dab1274cf2dd8a672553feae21ba3",
+      "origin": "imagegen:e93ab311-d44e-414a-9584-5f330bf328b0",
+      "owner": "home-4"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+  "digestMeasuredAt": "2026-09-29T02:59:25.105Z",
+  "sourceFrozenAt": "2026-09-29T02:58:23Z",
+  "sourceBoundary": "Final script-only persistent pause fix deployed; CSS/PHP/visual assets unchanged since revision-1; no source edits during collection",
+  "deployLog": "logs/deploy.log"
+}

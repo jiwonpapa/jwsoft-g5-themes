@@ -1,0 +1,54 @@
+[
+  {
+    "kind": "hero",
+    "n": 0,
+    "status": "01 / 03",
+    "path": "/Users/neojins/workspace/jwsoft-g5-themes/themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/project-mobile-dark-hero-0.png",
+    "capturedAt": "2026-09-29T03:10:39.396Z"
+  },
+  {
+    "kind": "hero",
+    "n": 1,
+    "status": "02 / 03",
+    "path": "/Users/neojins/workspace/jwsoft-g5-themes/themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/project-mobile-dark-hero-1.png",
+    "capturedAt": "2026-09-29T03:10:39.831Z"
+  },
+  {
+    "kind": "hero",
+    "n": 2,
+    "status": "03 / 03",
+    "path": "/Users/neojins/workspace/jwsoft-g5-themes/themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/project-mobile-dark-hero-2.png",
+    "capturedAt": "2026-09-29T03:10:40.343Z"
+  },
+  {
+    "kind": "gallery",
+    "n": 0,
+    "path": "/Users/neojins/workspace/jwsoft-g5-themes/themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/project-mobile-dark-gallery-0.png",
+    "capturedAt": "2026-09-29T03:14:07.940Z",
+    "note": "Fresh recapture after completed scroll; initial capture did not show gallery."
+  },
+  {
+    "kind": "gallery",
+    "n": 1,
+    "path": "/Users/neojins/workspace/jwsoft-g5-themes/themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/project-mobile-dark-gallery-1.png",
+    "capturedAt": "2026-09-29T03:10:40.955Z"
+  },
+  {
+    "kind": "gallery",
+    "n": 2,
+    "path": "/Users/neojins/workspace/jwsoft-g5-themes/themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/project-mobile-dark-gallery-2.png",
+    "capturedAt": "2026-09-29T03:10:41.568Z"
+  },
+  {
+    "kind": "gallery",
+    "n": 3,
+    "path": "/Users/neojins/workspace/jwsoft-g5-themes/themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/project-mobile-dark-gallery-3.png",
+    "capturedAt": "2026-09-29T03:10:42.076Z"
+  },
+  {
+    "kind": "gallery",
+    "n": 4,
+    "path": "/Users/neojins/workspace/jwsoft-g5-themes/themes/business/jw_business/quality/evidence/seven-correction-20260929/revision-2/iab/project-mobile-dark-gallery-4.png",
+    "capturedAt": "2026-09-29T03:10:42.483Z"
+  }
+]

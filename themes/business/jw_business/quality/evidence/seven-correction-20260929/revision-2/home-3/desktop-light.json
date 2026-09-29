@@ -1,0 +1,123 @@
+{
+  "result": "collected-not-approved",
+  "page": "home-3",
+  "state": "desktop-light",
+  "url": "https://g5themes.test/theme/jw_business/index_3.php?device=pc",
+  "capturedAt": "2026-09-29T03:01:13.212Z",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "fullPage": true,
+  "file": "/Users/neojins/workspace/jwsoft-g5-themes/output/qa/ui/captures/home-3/desktop-light.png",
+  "sha256": "36aad1063da67667441af25e8bb880b5770545ce992d9ee240994a5c52ef5159",
+  "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+  "platform": "darwin",
+  "browser": "153.0.8010.12",
+  "errors": [],
+  "mode": "jw-light",
+  "documentHeight": 7463,
+  "overflow": 0,
+  "brokenImages": [],
+  "missingIcons": 0,
+  "reversedText": [],
+  "requirements": [
+    {
+      "id": "page-heading",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "wayfinding-map",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "exhibition-photo",
+      "count": 1,
+      "visible": true
+    }
+  ],
+  "media": [
+    "https://g5themes.test/theme/jw_business/assets/brand/jw-business-light.webp",
+    "https://g5themes.test/theme/jw_business/assets/brand/jw-business-dark.webp",
+    "https://g5themes.test/theme/jw_business/assets/home-three/mobility.webp",
+    "https://g5themes.test/theme/jw_business/assets/home-three/print.webp",
+    "https://g5themes.test/theme/jw_business/assets/home-three/exhibition.webp",
+    "https://g5themes.test/theme/jw_business/assets/home-three/fieldnote-program.webp",
+    "https://g5themes.test/theme/jw_business/assets/home-three/correction/fieldnote-editorial.webp"
+  ],
+  "sections": [
+    {
+      "index": 0,
+      "id": "",
+      "heading": "같은 브랜드,서로 다른 만남.",
+      "left": 80,
+      "top": 1030,
+      "width": 1280,
+      "height": 292
+    },
+    {
+      "index": 1,
+      "id": "work-mobility",
+      "heading": "처음 온 사람도길을 잃지 않도록.",
+      "left": 0,
+      "top": 1322,
+      "width": 1440,
+      "height": 1390
+    },
+    {
+      "index": 2,
+      "id": "work-print",
+      "heading": "브랜드를손에 쥐는 순간.",
+      "left": 80,
+      "top": 2712,
+      "width": 1280,
+      "height": 847
+    },
+    {
+      "index": 3,
+      "id": "work-exhibition",
+      "heading": "그래픽이 공간을만나는 순간.",
+      "left": 80,
+      "top": 3559,
+      "width": 1280,
+      "height": 939
+    },
+    {
+      "index": 4,
+      "id": "work-digital",
+      "heading": "발견에서 선택까지,흐름이 있는 화면.",
+      "left": 0,
+      "top": 4498,
+      "width": 1440,
+      "height": 1066
+    },
+    {
+      "index": 5,
+      "id": "",
+      "heading": "매체마다 달라지는읽는 거리와 밀도.",
+      "left": 0,
+      "top": 5565,
+      "width": 1440,
+      "height": 1169
+    },
+    {
+      "index": 6,
+      "id": "",
+      "heading": "다음 결과물은어떤 모습이어야 할까요?",
+      "left": 0,
+      "top": 6733,
+      "width": 1440,
+      "height": 486
+    }
+  ],
+  "regions": {
+    ".jw-footer": {
+      "left": 0,
+      "top": 7219,
+      "width": 1440,
+      "height": 244
+    }
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "result": "collected-not-approved",
+  "page": "onepage-projects",
+  "state": "tablet-light",
+  "url": "https://g5themes.test/pages/onepage-projects.php?device=pc",
+  "capturedAt": "2026-09-29T03:01:02.908Z",
+  "viewport": {
+    "width": 768,
+    "height": 1024
+  },
+  "fullPage": true,
+  "file": "/Users/neojins/workspace/jwsoft-g5-themes/output/qa/ui/captures/onepage-projects/tablet-light.png",
+  "sha256": "d0a9e2f326b74cb5d5ffa188032aa68ffa36c469046577637986ac869e8d0244",
+  "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+  "platform": "darwin",
+  "browser": "153.0.8010.12",
+  "errors": [],
+  "mode": "jw-light",
+  "documentHeight": 9640,
+  "overflow": 0,
+  "brokenImages": [],
+  "missingIcons": 0,
+  "reversedText": [],
+  "requirements": [
+    {
+      "id": "page-heading",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "project-scenes",
+      "count": 14,
+      "visible": true
+    },
+    {
+      "id": "project-gallery",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "project-flow",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "spatial-floorplan",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "company-profile",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "delivery-process",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "service-scope",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "project-deliverables",
+      "count": 1,
+      "visible": true
+    }
+  ],
+  "media": [
+    "https://g5themes.test/theme/jw_business/assets/brand/jw-business-light.webp",
+    "https://g5themes.test/theme/jw_business/assets/brand/jw-business-dark.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/project-hero-walkway.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/project-hero-dusk.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/space-studio.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/correction/project-arrival.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard-detail.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard-interior.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/correction/project-material-study.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard-colonnade.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard-lounge.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/project-gallery-stair.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/project-gallery-workroom.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/courtyard-terrace.webp",
+    "https://g5themes.test/theme/jw_business/onepages/assets/images/space-process.webp"
+  ],
+  "sections": [
+    {
+      "index": 0,
+      "id": "project-top",
+      "heading": "머무는 시간이좋아지는 공간.",
+      "left": 0,
+      "top": 133,
+      "width": 768,
+      "height": 788
+    },
+    {
+      "index": 1,
+      "id": "project-studio",
+      "heading": "공간을 만드는우리의 관점.",
+      "left": 24,
+      "top": 921,
+      "width": 720,
+      "height": 541
+    },
+    {
+      "index": 2,
+      "id": "project-intent",
+      "heading": "건물보다 먼저,그 안의 하루를 봅니다.",
+      "left": 24,
+      "top": 1463,
+      "width": 720,
+      "height": 572
+    },
+    {
+      "index": 3,
+      "id": "",
+      "heading": "걸음마다 달라지는공간의 표정.",
+      "left": 0,
+      "top": 2034,
+      "width": 768,
+      "height": 1709
+    },
+    {
+      "index": 4,
+      "id": "",
+      "left": 407,
+      "top": 2285,
+      "width": 337,
+      "height": 420
+    },
+    {
+      "index": 5,
+      "id": "",
+      "left": 407,
+      "top": 2768,
+      "width": 337,
+      "height": 420
+    },
+    {
+      "index": 6,
+      "id": "",
+      "left": 407,
+      "top": 3252,
+      "width": 337,
+      "height": 420
+    },
+    {
+      "index": 7,
+      "id": "project-scenes",
+      "heading": "바깥의 여유가안으로 이어질 때.",
+      "left": 0,
+      "top": 3744,
+      "width": 768,
+      "height": 613
+    },
+    {
+      "index": 8,
+      "id": "",
+      "heading": "재료와 빛이만드는 리듬.",
+      "left": 24,
+      "top": 4357,
+      "width": 720,
+      "height": 569
+    },
+    {
+      "index": 9,
+      "id": "project-gallery",
+      "heading": "다른 장면,하나의 방향.",
+      "left": 0,
+      "top": 4926,
+      "width": 768,
+      "height": 723
+    },
+    {
+      "index": 10,
+      "id": "project-scope",
+      "heading": "하나의 장소를,여러 시선으로.",
+      "left": 0,
+      "top": 5649,
+      "width": 768,
+      "height": 587
+    },
+    {
+      "index": 11,
+      "id": "project-process",
+      "heading": "질문에서 시작해,쓰이는 장소까지.",
+      "left": 0,
+      "top": 6236,
+      "width": 768,
+      "height": 812
+    },
+    {
+      "index": 12,
+      "id": "",
+      "heading": "좋은 장면을,함께 지킬 수 있는 기준으로.",
+      "left": 0,
+      "top": 7048,
+      "width": 768,
+      "height": 1100
+    },
+    {
+      "index": 13,
+      "id": "project-faq",
+      "heading": "프로젝트를준비하고 계신가요?",
+      "left": 24,
+      "top": 8147,
+      "width": 720,
+      "height": 689
+    },
+    {
+      "index": 14,
+      "id": "project-contact",
+      "heading": "공간의 다음 장면을함께 그려봅니다.",
+      "left": 0,
+      "top": 8837,
+      "width": 768,
+      "height": 461
+    }
+  ],
+  "regions": {
+    ".jw-footer": {
+      "left": 0,
+      "top": 9297,
+      "width": 768,
+      "height": 343
+    }
+  }
+}

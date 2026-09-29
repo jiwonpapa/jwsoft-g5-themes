@@ -1,0 +1,745 @@
+{
+  "checkedAt": "2026-09-29T02:53:00.823Z",
+  "scope": "82 new or updated rasters only; unrelated legacy photo failures are not waived",
+  "result": "pass",
+  "records": [
+    {
+      "path": "src/assets/main-one/atelier-collection.webp",
+      "sha256": "a61c5aaae14c9515feb84349071080310fa65ede2c63f499177d8464d6d024fa",
+      "owner": "home-1",
+      "origin": "imagegen:7bdc0326-f6b3-4c26-97f1-142594039b2c",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "imagegen raster"
+    },
+    {
+      "path": "src/assets/main-one/atelier-mug.webp",
+      "sha256": "751b4538125cd31b04913f1e5caac0143459f71c6e85cee6ab2a028deb82ada3",
+      "owner": "home-1",
+      "origin": "imagegen:65545e27-0cf0-4f63-9d56-45053202aa1f",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "imagegen raster"
+    },
+    {
+      "path": "src/assets/home-four/experience-pack.webp",
+      "sha256": "85b130f4418a52aff21c145bf38279d36ab13e75a22f7d71889cd89fb8074448",
+      "owner": "home-4",
+      "origin": "imagegen:cdac65cf-1e5a-43a0-aec1-235eca3dab23",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "imagegen raster"
+    },
+    {
+      "path": "src/assets/home-four/journey-products.webp",
+      "sha256": "fb90bdb99988223b132db62e3aa764eae81dab1274cf2dd8a672553feae21ba3",
+      "owner": "home-4",
+      "origin": "imagegen:e93ab311-d44e-414a-9584-5f330bf328b0",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "imagegen raster"
+    },
+    {
+      "path": "src/assets/images/home2-correction/decision-review.webp",
+      "sha256": "59bd1964f7b63519b96bb906f6cbdb6947cecf41c2ddb0454d4da1a37d4de04e",
+      "owner": "home-2",
+      "origin": "seven-decision-review-20260929",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "imagegen raster"
+    },
+    {
+      "path": "src/assets/images/home2-correction/operations-playbook.webp",
+      "sha256": "7dd524e08e515f632038d8a56c9ca4676e927c0eeaa60a9e79d630faea94c3d6",
+      "owner": "home-2",
+      "origin": "seven-operations-playbook-20260929",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "imagegen raster"
+    },
+    {
+      "path": "src/assets/home-three/correction/fieldnote-editorial.webp",
+      "sha256": "e6e1f72c097df02c4bada404c866523b39a8528d9f1d3e66fe78326cf76b8795",
+      "owner": "home-3",
+      "origin": "seven-fieldnote-editorial-20260929",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "imagegen raster"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-046.webp",
+      "sha256": "da47f49bc0ba2aeb4d1d36e90d3eff5b90864343d087ed2f52d1ef56ebd68dee",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-011.webp",
+      "sha256": "b919589b60347284a12f28f0d64fb7a5140a471a7ef66c8a69d1eee2cddd56db",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-007.webp",
+      "sha256": "87b9e4ac2a0c566ca91b75e2aacfd4ae85a0ea8cf41ae3fdc0e76a03a6cd8024",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-050.webp",
+      "sha256": "937fc075bdc039d2fa85401d070e2949e1e7670dc8c080f828e915f87179f5ef",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-027.webp",
+      "sha256": "c1610b2077f1251336c2cb2a0b19e4f45f43b60834d313e03875c3e72622911c",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-031.webp",
+      "sha256": "419f6dddfb143396462774bdfcece52251a5dcfb40ed114370fbb91bd1df8b24",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-030.webp",
+      "sha256": "1b9492de1d40209579166d98b794717db3e03843c8181bc00940e730b98da77e",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-026.webp",
+      "sha256": "60d757403a470ea2255d93ac4b852197ff4e48c3b86225b2b03fd9abe80dc691",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-051.webp",
+      "sha256": "bacb0fe9fb64fa3ed51aedda0bf3613310d830ba005980dcd5eec4763839d375",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-006.webp",
+      "sha256": "94a1bbfb937af4d976917ef1757d0a24df1d9017aa12905fec4f04e8a7faad6b",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-010.webp",
+      "sha256": "57b2a3498d2dd711cba9be16d5f5c657bf28925a5f84baad1840a04eef98ca25",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-047.webp",
+      "sha256": "db2662b922687161ab3f3d210f036e6e5eece26b34e49969e8428473b1a4d3a3",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-021.webp",
+      "sha256": "ea99813222b6b290df6338c985d492931cd28649640905ede87145c90df38372",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-060.webp",
+      "sha256": "af8cba4f086b2e336fb8d25c82874b2534b4b2109fde29f6cc3346fe869077d2",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-037.webp",
+      "sha256": "41b29d4fe874de4ed70910d5ceb43e9377dc932590cd15b4a2dc3e66a7470f54",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-040.webp",
+      "sha256": "54489f99535277cc24653cab525da9143d0119f8eddbaf895994cbb67ab25ebe",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-017.webp",
+      "sha256": "229cf54c2bbe003b46f7d5ab2ce84e1681e6003d2af743a68826560d05dfaf19",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-001.webp",
+      "sha256": "89d0e73792e2fd6790e838ec25845bf5e9de080fbc19de5c8fbc74dc3ee7456a",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-056.webp",
+      "sha256": "78169222c4c6c532f5321673c50ceda1edfbd6e9109fa55f0904167add8d3d16",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-057.webp",
+      "sha256": "a8693209bf9cd33f1f3b8e38c5c6d95f59469725349e5706e0dce2ea7004a05a",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-016.webp",
+      "sha256": "34c717222845e9e83e2a992d9adb65a83c1c34d93212166da629ec41d3b5e5bd",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-041.webp",
+      "sha256": "2af251cfee736806fa3bde788d86567e96e330d8c630b70c5afa7e366160b427",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-036.webp",
+      "sha256": "2012a0ba5ae5194f7355b456c2f8440317bd2cdf0ad1ed3385b22fc6a093f989",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-020.webp",
+      "sha256": "f2bf8fff06b904dd1d2938fe2ee84b7bada5b8c27d51727a550a1096f31b4480",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-035.webp",
+      "sha256": "bcd7a71ab74182cdbb768137427c3bee550cb3e15b4b0eb1b38dd01bddb66dd2",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-023.webp",
+      "sha256": "2490c0f7a6f07adfc69ac289827950c7a8f2a75ff839b4aff24f9238bcc3d9d0",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-058.webp",
+      "sha256": "37201a74a4b591f738e7e3251bdd4181854d10c908c84ce74512e6831c1d4765",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-019.webp",
+      "sha256": "b9f515091a67638a51b182f8d0b550ee2de30750a328d32073d100de7309f261",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-039.webp",
+      "sha256": "416423a9071b9c3c148687e9c3f4128f18d4c17338e10a380a47adf3fbd65007",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-054.webp",
+      "sha256": "602503c3a1c863a63f86d56c622b0f36c4ec31728c43251465f5092acffc7590",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-003.webp",
+      "sha256": "b2507156915d6bd3a71db58efd1f7049d80e45b5756e7380dc93c9a5c51e103c",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-015.webp",
+      "sha256": "a39145944b6d5eb798391d26fe6050ce60ca2ac0f1a3be4c18fcace1dd6a95a9",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-042.webp",
+      "sha256": "1d3273ad5cf8b79bf2a4c423360153142f5c11b05cbe7e920f30582a33aab8ac",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-043.webp",
+      "sha256": "beb06e79ce1297cb6f309c727318c326feb2001a8d7f9f9bbafd0d3bac461121",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-014.webp",
+      "sha256": "a4200b16a1b932cf41746ed0e29f3bf4de35d14101fda031512cf578de5392bc",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-002.webp",
+      "sha256": "c7e844212ee411c8668b9efa61a50df9ccde287744790f9f0a6a2b76b9a9600a",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-055.webp",
+      "sha256": "1541277f39961f243ad3f176114f9ed69a669035ea8ef73d8c749e3f535f585f",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-038.webp",
+      "sha256": "dc761950c25e5a547e4a773d74913e66f306d131d1d3f65de928ef3d61e85bfa",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-018.webp",
+      "sha256": "c55ccdd6cd45d64ae091e854e7a2b0ab8fd07ec4962b961f9116c019996c0173",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-059.webp",
+      "sha256": "1533e0f3077b4aa0f16ce78057a85574a68048a44d404ae2110cc94b903604e8",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-022.webp",
+      "sha256": "cba4f3709f10ae275a45d96b454b84a3fed065739905a103e41c74a60bd04e71",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-034.webp",
+      "sha256": "118c70be5448be964ad310cfe625fb63b46ff1fcdc88574ff1cfe94bbea066f4",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-029.webp",
+      "sha256": "ff0b3ff0b5f7c26665afdcbf216616e6f2ab2cd84f8c4a1c3b89d38cbbaa9666",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-052.webp",
+      "sha256": "0157ef3b7b396db1dbaa9b61ecb5c5eb0963bc2729fcb1affb8f3a0bf06990c5",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-005.webp",
+      "sha256": "eb09a910f58c99262678058e8ebf90865403e189a313f42914c259f8fdc8d308",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-013.webp",
+      "sha256": "93b4a4a256ae4e374a4f208631db2b1605f06ffd183c3468ce105a3d5580a2af",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-044.webp",
+      "sha256": "30f206a70328d2c3af48a321b3d11eb6afdc5e6e70dca0ceed98d60e44a12bcf",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-033.webp",
+      "sha256": "99727be489f361c386f1c48a73919317f14aa3b24085e37bd7189aed76a4ef71",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-025.webp",
+      "sha256": "741cc8846cb6c8aa8039a6bc8f90241f7c66b9c00269798d4ae448b40eecef65",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-009.webp",
+      "sha256": "dffdf2eb20398aacdf4cf44b1d967ffc191f389e836c6a1cc23e2ef7815c0715",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-048.webp",
+      "sha256": "aa8e89b56cca920e11b3e31c00c1cc56160e27eedd88aa27c26e88aa6a212c19",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-049.webp",
+      "sha256": "4a92f559f92b2fbfc14e7476c99b8417a4f072edd5710bc38c382c81c058733f",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-008.webp",
+      "sha256": "098429bfcfe95944388167988352552c8db3e5cbc9da0ae85fe1f5e1b4134f1c",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-024.webp",
+      "sha256": "842e13e2114ab4bbd458a07ba9202314be0db2892a972f5fa855425920e5cd6f",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-032.webp",
+      "sha256": "a018e1ad81e875a69612ed92420fba7a09b85a81c1d2a1f5939a59be723e77c2",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-045.webp",
+      "sha256": "cf0ae825923c975ef8887bd43e26e50486388231125aa3cc780a4fbd5eccca8a",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-012.webp",
+      "sha256": "86832e32ab47759617e6cfa268f4a7cab3cdfdc0e1e473c0315a9c827f6448cd",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-004.webp",
+      "sha256": "576b3fe955084ce167771fe4c37939521e761f396561f5e6857b7c26b9336fd4",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-053.webp",
+      "sha256": "570c6feae144839ec472a19e2524317bf59ad400aa68580c0a7d7a669a2aa097",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/sequence/aura-028.webp",
+      "sha256": "5c768eeeece0d4986de3cf86aa42837b2dfe5076395c64c4f5332f0b95b2dcc3",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-sequence",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/correction/aura-setup.webp",
+      "sha256": "373173c2e862e14b0015bee91907e42526107aeed3f2bf297b5f8b6125af723f",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-setup",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/correction/aura-detail.webp",
+      "sha256": "902344223d6ad154cc72b4a83044d5bdbef441f79f94f2459b5088e4576bf95e",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-detail",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/correction/service-ondo-studio.webp",
+      "sha256": "09f5fe60f6e5e11ab2f4dbce4ec50af8ccd626838e12a3dd81ff19dfbba4e4e5",
+      "owner": "onepage-services",
+      "origin": "openai:seven-onepages-20260929-service-ondo-studio",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "imagegen raster"
+    },
+    {
+      "path": "onepages/assets/correction/aura-hero.webp",
+      "sha256": "1c28080b848c5cc64d7477d4bb4229a128a352508597b6b8906ff8aaaf5d42a6",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-hero",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/correction/aura-fabric.webp",
+      "sha256": "3aaf58c274287fbb2ea331e337eab226c654c3af446fa7142d575d503cf58694",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-fabric",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/correction/aura-metal.webp",
+      "sha256": "b20c6fe3e78ca176a9e9aef3735f4f41e65ba1a03c5b51676b86714681d680bc",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-metal",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/correction/project-arrival.webp",
+      "sha256": "37945d179a83efc7c1b46112c1c4bd607ae074a87aa12392ad1751ba961dd879",
+      "owner": "onepage-projects",
+      "origin": "openai:seven-onepages-20260929-project-arrival",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "imagegen raster"
+    },
+    {
+      "path": "onepages/assets/correction/aura-wood.webp",
+      "sha256": "35350cefd9205d85ac4c9bda37404eb63c2fd27cd79393f3d068d06a356d643c",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-wood",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/correction/aura-front.webp",
+      "sha256": "87ee7f8ef0a075a1aa2bf17b6c66a3cbcc82917214d2da40e7436cd139687bd5",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-front",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/correction/aura-placement.webp",
+      "sha256": "ee4395e884e2e9ee0d5ec46e614257b7ee20773f1afc13095eebc8158348bda2",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-placement",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/correction/aura-living.webp",
+      "sha256": "27b07f5aa1e37a65af83dd13754ae66b0a25467fad6694aeeef00ecabc8efbc6",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-living",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/correction/aura-materials.webp",
+      "sha256": "367c6e68802bbcd76e59c566fe9b6453becca63c0cc735aa89cdf6f521a142a2",
+      "owner": "onepage-showcase",
+      "origin": "blender:aura-master-20260929-materials",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "Blender render"
+    },
+    {
+      "path": "onepages/assets/correction/project-material-study.webp",
+      "sha256": "37320c0843058e3edb012d0e5fe5bd985a69ed50589e67e55af7fbad2bf0e775",
+      "owner": "onepage-projects",
+      "origin": "openai:seven-onepages-20260929-project-material-study",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "imagegen raster"
+    },
+    {
+      "path": "onepages/assets/correction/service-ondo-first-cup.webp",
+      "sha256": "af0a901fe48bdcd33dbb86775c0a51511513a1785abf89b6c7a06a68a9e01149",
+      "owner": "onepage-services",
+      "origin": "openai:seven-onepages-sol-review-20260929-service-ondo-first-cup",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "imagegen raster"
+    },
+    {
+      "path": "onepages/assets/correction/service-ondo-course-works.webp",
+      "sha256": "1750e5fa0fd3027892798cfb37e9551151faef65f326b982c0c31934a04ce624",
+      "owner": "onepage-services",
+      "origin": "openai:seven-onepages-sol-review-20260929-service-ondo-course-works",
+      "sourceMatch": true,
+      "sidecarPresent": true,
+      "sourceType": "imagegen raster"
+    }
+  ]
+}

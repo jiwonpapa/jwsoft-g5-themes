@@ -1,0 +1,29 @@
+{
+  "tool": "Codex in-app browser",
+  "url": "https://g5themes.test/pages/onepage-projects.php?device=mobile",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "theme": "jw-dark",
+  "inputDigest": "f177112a67333d438fa8d20dfe2d2ec66b0706d050e0e04309c737ad3087045b",
+  "steps": [
+    "reload",
+    "click button named 자동 슬라이드 일시 정지",
+    "read status and toggle",
+    "click 스튜디오 navigation link",
+    "read status and toggle after more than 5800ms"
+  ],
+  "before": {
+    "observedAt": "2026-09-29T02:51:12.920Z",
+    "status": "01 / 03",
+    "toggle": "재생"
+  },
+  "after": {
+    "observedAt": "2026-09-29T02:51:29.897Z",
+    "status": "03 / 03",
+    "toggle": "일시 정지"
+  },
+  "result": "fail",
+  "issueId": "PJ-06"
+}

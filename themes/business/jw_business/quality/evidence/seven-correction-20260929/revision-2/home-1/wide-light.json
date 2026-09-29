@@ -1,0 +1,202 @@
+{
+  "result": "collected-not-approved",
+  "page": "home-1",
+  "state": "wide-light",
+  "url": "https://g5themes.test/theme/jw_business/index_1.php?device=pc",
+  "capturedAt": "2026-09-29T02:59:40.061Z",
+  "viewport": {
+    "width": 2560,
+    "height": 1100
+  },
+  "fullPage": true,
+  "file": "/Users/neojins/workspace/jwsoft-g5-themes/output/qa/ui/captures/home-1/wide-light.png",
+  "sha256": "ab4f3f7c4247f725cef1d31b42515ed27bcfba0cc65586450d9f048ed8f0e5d0",
+  "inputDigest": "609ca656197948ad78fe9b782faa7e391b70defe57249f559c272ce0ee0ba010",
+  "platform": "darwin",
+  "browser": "153.0.8010.12",
+  "errors": [],
+  "mode": "jw-light",
+  "documentHeight": 12476,
+  "overflow": 0,
+  "brokenImages": [],
+  "missingIcons": 0,
+  "reversedText": [],
+  "requirements": [
+    {
+      "id": "page-heading",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "hero-slider",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "service-icons",
+      "count": 3,
+      "visible": true
+    },
+    {
+      "id": "section-range",
+      "count": 12,
+      "visible": true
+    },
+    {
+      "id": "industry-mosaic",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "process-rail",
+      "count": 4,
+      "visible": true
+    },
+    {
+      "id": "case-composition",
+      "count": 3,
+      "visible": true
+    },
+    {
+      "id": "brand-board",
+      "count": 1,
+      "visible": true
+    },
+    {
+      "id": "question-blocks",
+      "count": 4,
+      "visible": true
+    }
+  ],
+  "media": [
+    "https://g5themes.test/theme/jw_business/assets/brand/jw-business-light.webp",
+    "https://g5themes.test/theme/jw_business/assets/brand/jw-business-dark.webp",
+    "https://g5themes.test/theme/jw_business/assets/main-one/strategy.webp",
+    "https://g5themes.test/theme/jw_business/assets/main-one/digital.webp",
+    "https://g5themes.test/theme/jw_business/assets/main-one/brand.webp",
+    "https://g5themes.test/theme/jw_business/assets/main-one/industry-ceramics.webp",
+    "https://g5themes.test/theme/jw_business/assets/main-one/atelier-collection.webp",
+    "https://g5themes.test/theme/jw_business/assets/main-one/atelier-mug.webp",
+    "https://g5themes.test/theme/jw_business/assets/main-one/case-food.webp",
+    "https://g5themes.test/theme/jw_business/assets/main-one/case-learning.webp",
+    "https://g5themes.test/theme/jw_business/assets/main-one/brand-detail.webp"
+  ],
+  "sections": [
+    {
+      "index": 0,
+      "id": "",
+      "heading": "복잡한 선택을선명한 방향으로.",
+      "left": 0,
+      "top": 76,
+      "width": 2560,
+      "height": 820
+    },
+    {
+      "index": 1,
+      "id": "services",
+      "heading": "방향을 정하고,경험을 만듭니다.",
+      "left": 0,
+      "top": 896,
+      "width": 2560,
+      "height": 753
+    },
+    {
+      "index": 2,
+      "id": "industries",
+      "heading": "업종마다보여줄 장면이 다릅니다.",
+      "left": 0,
+      "top": 1649,
+      "width": 2560,
+      "height": 1462
+    },
+    {
+      "index": 3,
+      "id": "strategy",
+      "heading": "결론보다 먼저,선택의 구조를그립니다.",
+      "left": 0,
+      "top": 3111,
+      "width": 2560,
+      "height": 1320
+    },
+    {
+      "index": 4,
+      "id": "process",
+      "heading": "생각에서 결과물까지,순서가 보이는 일.",
+      "left": 0,
+      "top": 4431,
+      "width": 2560,
+      "height": 905
+    },
+    {
+      "index": 5,
+      "id": "digital",
+      "heading": "설명보다 빠른 건,직접 보이는 화면입니다.",
+      "left": 0,
+      "top": 5336,
+      "width": 2560,
+      "height": 1721
+    },
+    {
+      "index": 6,
+      "id": "showcase",
+      "heading": "하나의 정답 대신,상황에 맞는 장면을.",
+      "left": 0,
+      "top": 7056,
+      "width": 2560,
+      "height": 1428
+    },
+    {
+      "index": 7,
+      "id": "brand",
+      "heading": "브랜드는손에 닿을 때완성됩니다.",
+      "left": 0,
+      "top": 8484,
+      "width": 2560,
+      "height": 1075
+    },
+    {
+      "index": 8,
+      "id": "touchpoints",
+      "heading": "한 가지 인상이,여러 크기로 이어집니다.",
+      "left": 0,
+      "top": 9559,
+      "width": 2560,
+      "height": 865
+    },
+    {
+      "index": 9,
+      "id": "questions",
+      "heading": "처음 이야기할 때많이 묻는 것들.",
+      "left": 0,
+      "top": 10424,
+      "width": 2560,
+      "height": 774
+    },
+    {
+      "index": 10,
+      "id": "",
+      "heading": "새로운 소식",
+      "left": 0,
+      "top": 11199,
+      "width": 2560,
+      "height": 506
+    },
+    {
+      "index": 11,
+      "id": "contact",
+      "heading": "다음 방향의 출발점,지금의 질문 한 가지.",
+      "left": 0,
+      "top": 11705,
+      "width": 2560,
+      "height": 527
+    }
+  ],
+  "regions": {
+    ".jw-footer": {
+      "left": 0,
+      "top": 12232,
+      "width": 2560,
+      "height": 244
+    }
+  }
+}
